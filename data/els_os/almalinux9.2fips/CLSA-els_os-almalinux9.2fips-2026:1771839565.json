@@ -1,0 +1,98 @@
+{
+  "id": "CLSA-els_os-almalinux9.2fips-2026:1771839565",
+  "summary": "libpng: Fix of CVE-2026-25646",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Tuxcare",
+        "name": "libpng",
+        "purl": "pkg:tuxcare/libpng"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:1.6.37-12.el9_6.tuxcare.els6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "Tuxcare",
+        "name": "libpng-devel",
+        "purl": "pkg:tuxcare/libpng-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:1.6.37-12.el9_6.tuxcare.els6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "Tuxcare",
+        "name": "libpng-static",
+        "purl": "pkg:tuxcare/libpng-static"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:1.6.37-12.el9_6.tuxcare.els6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "Tuxcare",
+        "name": "libpng-tools",
+        "purl": "pkg:tuxcare/libpng-tools"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:1.6.37-12.el9_6.tuxcare.els6"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-25646"
+  ],
+  "published": "2026-02-23T09:39:29Z",
+  "modified": "2026-02-23T09:39:29Z",
+  "details": "- CVE-2026-25646: fix out-of-bounds read and potential heap buffer overflow in\n  png_set_quantize() caused by stale palette indices during color pruning",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/tuxcare9.6esu/CLSA-2026-1771839565.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

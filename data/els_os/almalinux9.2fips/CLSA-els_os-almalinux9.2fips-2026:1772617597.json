@@ -1,0 +1,159 @@
+{
+  "id": "CLSA-els_os-almalinux9.2fips-2026:1772617597",
+  "summary": "nodejs: Fix of 2 CVEs",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Tuxcare",
+        "name": "nodejs",
+        "purl": "pkg:tuxcare/nodejs"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:16.20.2-8.el9_6.tuxcare.els9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "Tuxcare",
+        "name": "nodejs-devel",
+        "purl": "pkg:tuxcare/nodejs-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:16.20.2-8.el9_6.tuxcare.els9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "Tuxcare",
+        "name": "nodejs-docs",
+        "purl": "pkg:tuxcare/nodejs-docs"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:16.20.2-8.el9_6.tuxcare.els9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "Tuxcare",
+        "name": "nodejs-full-i18n",
+        "purl": "pkg:tuxcare/nodejs-full-i18n"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:16.20.2-8.el9_6.tuxcare.els9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "Tuxcare",
+        "name": "nodejs-libs",
+        "purl": "pkg:tuxcare/nodejs-libs"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:16.20.2-8.el9_6.tuxcare.els9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "Tuxcare",
+        "name": "npm",
+        "purl": "pkg:tuxcare/npm"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:8.19.4_1.16.20.2-8.el9_6.tuxcare.els9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "Tuxcare",
+        "name": "v8-devel",
+        "purl": "pkg:tuxcare/v8-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:9.4.146.26_1.16.20.2-8.el9_6.tuxcare.els9"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2025-22150",
+    "CVE-2023-39333"
+  ],
+  "published": "2026-03-04T09:46:41Z",
+  "modified": "2026-03-04T09:46:41Z",
+  "details": "- CVE-2025-22150: fix issue where undici used Math.random() to choose boundary\n  for multipart/form-data request, now uses secure random number generator\n- CVE-2023-39333: fix maliciously crafted export names injection of JavaScript\n  code\n- Run full Node.js tests in %check\n- Fix comment typo in spec",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/tuxcare9.6esu/CLSA-2026-1772617597.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

@@ -1,0 +1,119 @@
+{
+  "id": "CLSA-els_os-almalinux9.2fips-2026:1771664389",
+  "summary": "curl: Fix of 2 CVEs",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Tuxcare",
+        "name": "curl",
+        "purl": "pkg:tuxcare/curl"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7.76.1-31.el9_6.1.tuxcare.els5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "Tuxcare",
+        "name": "curl-minimal",
+        "purl": "pkg:tuxcare/curl-minimal"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7.76.1-31.el9_6.1.tuxcare.els5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "Tuxcare",
+        "name": "libcurl",
+        "purl": "pkg:tuxcare/libcurl"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7.76.1-31.el9_6.1.tuxcare.els5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "Tuxcare",
+        "name": "libcurl-devel",
+        "purl": "pkg:tuxcare/libcurl-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7.76.1-31.el9_6.1.tuxcare.els5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "Tuxcare",
+        "name": "libcurl-minimal",
+        "purl": "pkg:tuxcare/libcurl-minimal"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7.76.1-31.el9_6.1.tuxcare.els5"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2025-14524",
+    "CVE-2025-15224"
+  ],
+  "published": "2026-02-21T08:59:53Z",
+  "modified": "2026-02-21T08:59:53Z",
+  "details": "- CVE-2025-14524: fix OAuth2 bearer token leak on cross-protocol redirect\n- CVE-2025-15224: fix libssh public-key auth fallback to SSH agent",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/tuxcare9.6esu/CLSA-2026-1771664389.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

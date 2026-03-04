@@ -1,0 +1,58 @@
+{
+  "id": "CLSA-els_os-almalinux9.2fips-2026:1772457417",
+  "summary": "grafana: Fix of CVE-2025-68121",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Tuxcare",
+        "name": "grafana",
+        "purl": "pkg:tuxcare/grafana"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "10.2.6-15.el9_6.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "Tuxcare",
+        "name": "grafana-selinux",
+        "purl": "pkg:tuxcare/grafana-selinux"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "10.2.6-15.el9_6.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2025-68121"
+  ],
+  "published": "2026-03-02T13:17:01Z",
+  "modified": "2026-03-02T13:17:01Z",
+  "details": "- CVE-2025-68121: rebuild with golang 1.25.7 to fix resumption of session\n  in crypto/tls with ClientCAs or RootCAs fields mutated after initial\n  handshake",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/tuxcare9.6esu/CLSA-2026-1772457417.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

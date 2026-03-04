@@ -1,0 +1,119 @@
+{
+  "id": "CLSA-els_os-almalinux9.2fips-2026:1771512005",
+  "summary": "glib2: Fix of 2 CVEs",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Tuxcare",
+        "name": "glib2",
+        "purl": "pkg:tuxcare/glib2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.68.4-16.el9_6.3.tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "Tuxcare",
+        "name": "glib2-devel",
+        "purl": "pkg:tuxcare/glib2-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.68.4-16.el9_6.3.tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "Tuxcare",
+        "name": "glib2-doc",
+        "purl": "pkg:tuxcare/glib2-doc"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.68.4-16.el9_6.3.tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "Tuxcare",
+        "name": "glib2-static",
+        "purl": "pkg:tuxcare/glib2-static"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.68.4-16.el9_6.3.tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "Tuxcare",
+        "name": "glib2-tests",
+        "purl": "pkg:tuxcare/glib2-tests"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.68.4-16.el9_6.3.tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2025-14087",
+    "CVE-2025-14512"
+  ],
+  "published": "2026-02-19T14:40:10Z",
+  "modified": "2026-02-19T14:40:10Z",
+  "details": "- CVE-2025-14087: fix heap corruption in GLib GVariant parser by preventing\n  integer overflows and unsafe buffer size calculations\n- CVE-2025-14512: fix integer overflow in escape_byte_string() for byte strings\n  with many invalid characters",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/tuxcare9.6esu/CLSA-2026-1771512005.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

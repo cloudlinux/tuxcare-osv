@@ -1,0 +1,121 @@
+{
+  "id": "CLSA-els_os-almalinux9.2fips-2026:1772465492",
+  "summary": "podman: Fix of 4 CVEs",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Tuxcare",
+        "name": "podman",
+        "purl": "pkg:tuxcare/podman"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5:5.4.0-13.el9_6.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "Tuxcare",
+        "name": "podman-docker",
+        "purl": "pkg:tuxcare/podman-docker"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5:5.4.0-13.el9_6.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "Tuxcare",
+        "name": "podman-plugins",
+        "purl": "pkg:tuxcare/podman-plugins"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5:5.4.0-13.el9_6.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "Tuxcare",
+        "name": "podman-remote",
+        "purl": "pkg:tuxcare/podman-remote"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5:5.4.0-13.el9_6.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "Tuxcare",
+        "name": "podman-tests",
+        "purl": "pkg:tuxcare/podman-tests"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5:5.4.0-13.el9_6.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2025-68121",
+    "CVE-2025-61726",
+    "CVE-2025-61728",
+    "CVE-2025-61729"
+  ],
+  "published": "2026-03-02T15:31:37Z",
+  "modified": "2026-03-02T15:31:37Z",
+  "details": "- rebuild with newer golang version 1.25.7-1.el9_6.tuxcare.els1 to fix the following CVEs\n  - CVE-2025-68121: fix TLS session resumption bypass by preventing shared\n    auto-rotated ticket keys in Config and validating full certificate chain expiry\n  - CVE-2025-61726: limit parsed URL query parameters to mitigate excessive memory\n    consumption during form parsing\n  - CVE-2025-61728: fix denial-of-service in archive/zip by replacing super-linear\n    index construction with an efficient algorithm\n  - CVE-2025-61729: fix excessive resource consumption when constructing hostname\n    error messages for certificates with many SANs",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/tuxcare9.6esu/CLSA-2026-1772465492.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

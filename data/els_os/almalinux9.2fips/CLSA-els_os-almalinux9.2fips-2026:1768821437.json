@@ -1,0 +1,59 @@
+{
+  "id": "CLSA-els_os-almalinux9.2fips-2026:1768821437",
+  "summary": "pki-servlet-engine: Fix of 2 CVEs",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Tuxcare",
+        "name": "pki-servlet-4.0-api",
+        "purl": "pkg:tuxcare/pki-servlet-4.0-api"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:9.0.50-1.el9_2.2.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "Tuxcare",
+        "name": "pki-servlet-engine",
+        "purl": "pkg:tuxcare/pki-servlet-engine"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:9.0.50-1.el9_2.2.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2025-31651",
+    "CVE-2025-55752"
+  ],
+  "published": "2026-01-19T11:17:21Z",
+  "modified": "2026-01-19T11:17:21Z",
+  "details": "- CVE-2025-31651: fix improper neutralization of escape, meta, or control sequences\n- CVE-2025-55752: fix relative path traversal vulnerability",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/tuxcare9.6esu/CLSA-2026-1768821437.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

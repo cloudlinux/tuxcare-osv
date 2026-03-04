@@ -1,0 +1,98 @@
+{
+  "id": "CLSA-els_os-almalinux9.2fips-2025:1751550314",
+  "summary": "openssl: Fix of CVE-2024-12797",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Tuxcare",
+        "name": "openssl",
+        "purl": "pkg:tuxcare/openssl"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:3.2.2-6.el9_6.1.tuxcare.6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "Tuxcare",
+        "name": "openssl-devel",
+        "purl": "pkg:tuxcare/openssl-devel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:3.2.2-6.el9_6.1.tuxcare.6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "Tuxcare",
+        "name": "openssl-libs",
+        "purl": "pkg:tuxcare/openssl-libs"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:3.2.2-6.el9_6.1.tuxcare.6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "Tuxcare",
+        "name": "openssl-perl",
+        "purl": "pkg:tuxcare/openssl-perl"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:3.2.2-6.el9_6.1.tuxcare.6"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2024-12797"
+  ],
+  "published": "2025-07-03T13:45:19Z",
+  "modified": "2025-07-03T13:45:19Z",
+  "details": "- RFC7250 handshakes with unauthenticated servers don't abort as expected (CVE-2024-12797)\n  Resolves: RHEL-76755",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/almalinux9.6esu/CLSA-2025-1751550314.html",
+      "type": "ADVISORY"
+    }
+  ]
+}
