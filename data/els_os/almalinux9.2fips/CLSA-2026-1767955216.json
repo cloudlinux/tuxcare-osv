@@ -1,0 +1,159 @@
+{
+  "id": "CLSA-2026-1767955216",
+  "summary": "openssh: Fix of 2 CVEs",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux",
+        "name": "openssh",
+        "purl": "pkg:tuxcare/openssh"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8.7p1-45.el9.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux",
+        "name": "openssh-askpass",
+        "purl": "pkg:tuxcare/openssh-askpass"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8.7p1-45.el9.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux",
+        "name": "openssh-clients",
+        "purl": "pkg:tuxcare/openssh-clients"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8.7p1-45.el9.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux",
+        "name": "openssh-keycat",
+        "purl": "pkg:tuxcare/openssh-keycat"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8.7p1-45.el9.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux",
+        "name": "openssh-server",
+        "purl": "pkg:tuxcare/openssh-server"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8.7p1-45.el9.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux",
+        "name": "openssh-sk-dummy",
+        "purl": "pkg:tuxcare/openssh-sk-dummy"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8.7p1-45.el9.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux",
+        "name": "pam_ssh_agent_auth",
+        "purl": "pkg:tuxcare/pam_ssh_agent_auth"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.10.4-5.45.el9.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2025-61984",
+    "CVE-2025-61985"
+  ],
+  "published": "2026-01-09T10:40:19Z",
+  "modified": "2026-01-09T10:40:19Z",
+  "details": "- CVE-2025-61984: fix username  handling by rejecting control\n  characters from untrusted sources to prevent ProxyCommand code execution\n- CVE-2025-61985: disallowed NUL characters in ssh:// URI parsing to prevent\n  ProxyCommand-based code execution",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/tuxcare9.6esu/CLSA-2026-1767955216.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

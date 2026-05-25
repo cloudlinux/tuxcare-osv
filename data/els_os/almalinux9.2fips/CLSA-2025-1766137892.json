@@ -1,0 +1,58 @@
+{
+  "id": "CLSA-2025-1766137892",
+  "summary": "grafana: Fix of CVE-2025-58183",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux",
+        "name": "grafana",
+        "purl": "pkg:tuxcare/grafana"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "10.2.6-15.el9_6.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux",
+        "name": "grafana-selinux",
+        "purl": "pkg:tuxcare/grafana-selinux"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "10.2.6-15.el9_6.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2025-58183"
+  ],
+  "published": "2025-12-19T09:51:36Z",
+  "modified": "2025-12-19T09:51:36Z",
+  "details": "- rebuild with golang 1.25.3-1 to fix CVE-2025-58183 (fix unbounded memory\n  consumption when reading GNU pax 1.0 sparse files)",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/tuxcare9.6esu/CLSA-2025-1766137892.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

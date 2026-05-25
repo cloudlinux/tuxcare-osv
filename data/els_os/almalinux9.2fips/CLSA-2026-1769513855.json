@@ -1,0 +1,38 @@
+{
+  "id": "CLSA-2026-1769513855",
+  "summary": "tar: Fix of CVE-2025-45582",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux",
+        "name": "tar",
+        "purl": "pkg:tuxcare/tar"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:1.34-7.el9.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2025-45582"
+  ],
+  "published": "2026-01-28T09:43:54Z",
+  "modified": "2026-01-28T09:43:54Z",
+  "details": "- CVE-2025-45582: fixed path traversal vulnerability using malicious\n  archive extraction",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/tuxcare9.6esu/CLSA-2026-1769513855.html",
+      "type": "ADVISORY"
+    }
+  ]
+}
