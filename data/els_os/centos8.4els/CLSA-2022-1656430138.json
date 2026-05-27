@@ -1,0 +1,120 @@
+{
+  "id": "CLSA-2022-1656430138",
+  "summary": "Fixed CVEs in curl: CVE-2022-27780, CVE-2022-27781, CVE-2022-27782",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.4",
+        "name": "curl",
+        "purl": "pkg:rpm/tuxcare/curl?distro=centos-8.4"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7.61.1-22.el8.tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.4",
+        "name": "curl-minimal",
+        "purl": "pkg:rpm/tuxcare/curl-minimal?distro=centos-8.4"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7.61.1-22.el8.tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.4",
+        "name": "libcurl",
+        "purl": "pkg:rpm/tuxcare/libcurl?distro=centos-8.4"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7.61.1-22.el8.tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.4",
+        "name": "libcurl-devel",
+        "purl": "pkg:rpm/tuxcare/libcurl-devel?distro=centos-8.4"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7.61.1-22.el8.tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.4",
+        "name": "libcurl-minimal",
+        "purl": "pkg:rpm/tuxcare/libcurl-minimal?distro=centos-8.4"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7.61.1-22.el8.tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2022-27780",
+    "CVE-2022-27781",
+    "CVE-2022-27782"
+  ],
+  "published": "2022-06-28T15:28:58Z",
+  "modified": "2022-06-28T15:28:58Z",
+  "details": "- CVE-2022-27782: check additional TLS or SSH connection parameters that should\n  have prohibited connection reuse\n- CVE-2022-27781: add limit of certificates which can be traversed breaking\n  possible infinite loop\n- CVE-2022-27780: exclude malicious characters from url to prevent incorrect\n  address decoding",
+  "references": [
+    {
+      "url": "https://errata.cloudlinux.com/centos8.4-els/CLSA-2022-1656430138.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

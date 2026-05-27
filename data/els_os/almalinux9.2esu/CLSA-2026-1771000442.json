@@ -1,0 +1,78 @@
+{
+  "id": "CLSA-2026-1771000442",
+  "summary": "libsoup: Fix of CVE-2026-0719",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "libsoup",
+        "purl": "pkg:rpm/tuxcare/libsoup?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.72.0-8.el9_2.tuxcare.els14"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "libsoup-devel",
+        "purl": "pkg:rpm/tuxcare/libsoup-devel?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.72.0-8.el9_2.tuxcare.els14"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "libsoup-doc",
+        "purl": "pkg:rpm/tuxcare/libsoup-doc?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.72.0-8.el9_2.tuxcare.els14"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-0719"
+  ],
+  "published": "2026-02-13T16:34:06Z",
+  "modified": "2026-02-13T16:34:06Z",
+  "details": "- CVE-2026-0719 fix integer overflow in NTLM authentication when processing\n  excessively long passwords",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/almalinux9.2esu/CLSA-2026-1771000442.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

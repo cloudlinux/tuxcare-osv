@@ -1,0 +1,98 @@
+{
+  "id": "CLSA-2025-1762538077",
+  "summary": "dpdk: Fix of CVE-2024-11614",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "dpdk",
+        "purl": "pkg:rpm/tuxcare/dpdk?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:22.11-3.el9.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "dpdk-devel",
+        "purl": "pkg:rpm/tuxcare/dpdk-devel?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:22.11-3.el9.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "dpdk-doc",
+        "purl": "pkg:rpm/tuxcare/dpdk-doc?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:22.11-3.el9.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "dpdk-tools",
+        "purl": "pkg:rpm/tuxcare/dpdk-tools?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:22.11-3.el9.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2024-11614"
+  ],
+  "published": "2025-11-07T17:54:40Z",
+  "modified": "2025-11-07T17:54:40Z",
+  "details": "- CVE-2024-11614: add bounds check in vhost_dequeue_offload to prevent\n  checksum computation overflow",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/almalinux9.2esu/CLSA-2025-1762538077.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

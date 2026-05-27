@@ -1,0 +1,98 @@
+{
+  "id": "CLSA-2025-1758705181",
+  "summary": "glib2: Fix of CVE-2020-35457",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:6",
+        "name": "glib2",
+        "purl": "pkg:rpm/tuxcare/glib2?distro=oraclelinux-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.28.8-12.el6.tuxcare.els4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:6",
+        "name": "glib2-devel",
+        "purl": "pkg:rpm/tuxcare/glib2-devel?distro=oraclelinux-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.28.8-12.el6.tuxcare.els4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:6",
+        "name": "glib2-doc",
+        "purl": "pkg:rpm/tuxcare/glib2-doc?distro=oraclelinux-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.28.8-12.el6.tuxcare.els4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:6",
+        "name": "glib2-static",
+        "purl": "pkg:rpm/tuxcare/glib2-static?distro=oraclelinux-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.28.8-12.el6.tuxcare.els4"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2020-35457"
+  ],
+  "published": "2025-09-24T09:13:04Z",
+  "modified": "2025-09-24T09:13:04Z",
+  "details": "- CVE-2020-35457: fix integer overflow in g_option_group_add_entries to prevent\n  potential out-of-bounds write\n- Bug775510: avoid calling Standard C string/array functions with NULL arguments",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/oraclelinux6els/CLSA-2025-1758705181.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

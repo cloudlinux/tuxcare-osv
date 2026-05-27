@@ -1,0 +1,78 @@
+{
+  "id": "CLSA-2026-1777969769",
+  "summary": "bzip2: Fix of CVE-2019-12900",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:6",
+        "name": "bzip2",
+        "purl": "pkg:rpm/tuxcare/bzip2?distro=oraclelinux-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.0.5-7.el6_0.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:6",
+        "name": "bzip2-devel",
+        "purl": "pkg:rpm/tuxcare/bzip2-devel?distro=oraclelinux-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.0.5-7.el6_0.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:6",
+        "name": "bzip2-libs",
+        "purl": "pkg:rpm/tuxcare/bzip2-libs?distro=oraclelinux-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.0.5-7.el6_0.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2019-12900"
+  ],
+  "published": "2026-05-05T08:29:35Z",
+  "modified": "2026-05-05T08:29:35Z",
+  "details": "- CVE-2019-12900: fix out-of-bounds write in BZ2_decompress (many selectors)",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/oraclelinux6els/CLSA-2026-1777969769.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

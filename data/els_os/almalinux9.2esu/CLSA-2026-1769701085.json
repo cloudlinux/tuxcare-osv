@@ -1,0 +1,58 @@
+{
+  "id": "CLSA-2026-1769701085",
+  "summary": "pki-servlet-engine: Fix of CVE-2025-31651",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "pki-servlet-4.0-api",
+        "purl": "pkg:rpm/tuxcare/pki-servlet-4.0-api?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:9.0.50-1.el9.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "pki-servlet-engine",
+        "purl": "pkg:rpm/tuxcare/pki-servlet-engine?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:9.0.50-1.el9.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2025-31651"
+  ],
+  "published": "2026-01-29T15:38:10Z",
+  "modified": "2026-01-29T15:38:10Z",
+  "details": "- CVE-2025-31651: fix improper neutralization of escape, meta or control\n  sequences to avoid bypassing rewrite rules",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/almalinux9.2esu/CLSA-2026-1769701085.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

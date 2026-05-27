@@ -1,0 +1,58 @@
+{
+  "id": "CLSA-2025-1747926654",
+  "summary": "binutils: Fix of CVE-2025-0840",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:RHEL:7",
+        "name": "binutils",
+        "purl": "pkg:rpm/tuxcare/binutils?distro=rhel-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.27-44.base.el7_9.1.tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:RHEL:7",
+        "name": "binutils-devel",
+        "purl": "pkg:rpm/tuxcare/binutils-devel?distro=rhel-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.27-44.base.el7_9.1.tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2025-0840"
+  ],
+  "published": "2025-05-22T15:10:59Z",
+  "modified": "2025-05-22T15:10:59Z",
+  "details": "- CVE-2025-0840: fix stack-buffer-overflow at objdump disassemble_bytes",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/rhel7-els/CLSA-2025-1747926654.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

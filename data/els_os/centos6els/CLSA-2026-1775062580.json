@@ -1,0 +1,39 @@
+{
+  "id": "CLSA-2026-1775062580",
+  "summary": "squid34: Fix of 2 CVEs",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:6",
+        "name": "squid34",
+        "purl": "pkg:rpm/tuxcare/squid34?distro=centos-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7:3.4.14-16.el6.tuxcare.els12"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-33526",
+    "CVE-2026-32748"
+  ],
+  "published": "2026-04-09T13:55:04Z",
+  "modified": "2026-04-09T13:55:04Z",
+  "details": "- CVE-2026-33526: fix heap Use-After-Free in ICP traffic handling causing DoS\n- CVE-2026-32748: fix HttpRequest lifetime in ICP v3 queries preventing\n  Use-After-Free DoS",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/centos6els/CLSA-2026-1775062580.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

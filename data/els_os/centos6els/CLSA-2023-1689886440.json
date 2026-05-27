@@ -1,0 +1,138 @@
+{
+  "id": "CLSA-2023-1689886440",
+  "summary": "python: Fix of CVE-2023-24329",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:6",
+        "name": "python",
+        "purl": "pkg:rpm/tuxcare/python?distro=centos-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.6.6-70.el6.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:6",
+        "name": "python-devel",
+        "purl": "pkg:rpm/tuxcare/python-devel?distro=centos-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.6.6-70.el6.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:6",
+        "name": "python-libs",
+        "purl": "pkg:rpm/tuxcare/python-libs?distro=centos-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.6.6-70.el6.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:6",
+        "name": "python-test",
+        "purl": "pkg:rpm/tuxcare/python-test?distro=centos-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.6.6-70.el6.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:6",
+        "name": "python-tools",
+        "purl": "pkg:rpm/tuxcare/python-tools?distro=centos-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.6.6-70.el6.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:6",
+        "name": "tkinter",
+        "purl": "pkg:rpm/tuxcare/tkinter?distro=centos-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.6.6-70.el6.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2023-24329"
+  ],
+  "published": "2023-07-20T20:54:04Z",
+  "modified": "2023-07-20T20:54:04Z",
+  "details": "- CVE-2023-24329: part2: Start stripping C0 control and space chars in `urlsplit`\n- Also correct the first CVE-2023-24329 patch: Fix test_attributes_bad_scheme\n  to check for non-ascii symbol as first character of url",
+  "references": [
+    {
+      "url": "https://errata.cloudlinux.com/els6/CLSA-2023-1689886440.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "id": "CLSA-2025-1752247075",
+  "summary": "mod_auth_openidc: Fix of CVE-2025-3891",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "mod_auth_openidc",
+        "purl": "pkg:rpm/tuxcare/mod_auth_openidc?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.4.9.4-1.el9.tuxcare.els4"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2025-3891"
+  ],
+  "published": "2025-07-11T15:17:59Z",
+  "modified": "2025-07-11T15:17:59Z",
+  "details": "- CVE-2025-3891: fix denial of service issue caused by sending empty POST\n  request when OIDCPreservePost directive is enabled",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/almalinux9.2esu/CLSA-2025-1752247075.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "id": "CLSA-2022-1671124217",
+  "summary": "curl: Fix of CVE-2022-32221",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:6",
+        "name": "curl",
+        "purl": "pkg:rpm/tuxcare/curl?distro=oraclelinux-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7.19.7-59.el6.tuxcare.els7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:6",
+        "name": "libcurl",
+        "purl": "pkg:rpm/tuxcare/libcurl?distro=oraclelinux-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7.19.7-59.el6.tuxcare.els7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:6",
+        "name": "libcurl-devel",
+        "purl": "pkg:rpm/tuxcare/libcurl-devel?distro=oraclelinux-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7.19.7-59.el6.tuxcare.els7"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2022-32221"
+  ],
+  "published": "2022-12-15T17:10:17Z",
+  "modified": "2022-12-15T17:10:17Z",
+  "details": "- CVE-2022-32221: fix issue when POST following PUT confusion",
+  "references": [
+    {
+      "url": "https://errata.cloudlinux.com/ol6/CLSA-2022-1671124217.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

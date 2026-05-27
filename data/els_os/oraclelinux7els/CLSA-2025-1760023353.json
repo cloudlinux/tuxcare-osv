@@ -1,0 +1,119 @@
+{
+  "id": "CLSA-2025-1760023353",
+  "summary": "openssl: Fix of 2 CVEs",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:7",
+        "name": "openssl",
+        "purl": "pkg:rpm/tuxcare/openssl?distro=oraclelinux-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:1.0.2k-26.el7_9.tuxcare.els6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:7",
+        "name": "openssl-devel",
+        "purl": "pkg:rpm/tuxcare/openssl-devel?distro=oraclelinux-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:1.0.2k-26.el7_9.tuxcare.els6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:7",
+        "name": "openssl-libs",
+        "purl": "pkg:rpm/tuxcare/openssl-libs?distro=oraclelinux-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:1.0.2k-26.el7_9.tuxcare.els6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:7",
+        "name": "openssl-perl",
+        "purl": "pkg:rpm/tuxcare/openssl-perl?distro=oraclelinux-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:1.0.2k-26.el7_9.tuxcare.els6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:7",
+        "name": "openssl-static",
+        "purl": "pkg:rpm/tuxcare/openssl-static?distro=oraclelinux-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:1.0.2k-26.el7_9.tuxcare.els6"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2019-1547",
+    "CVE-2025-9230"
+  ],
+  "published": "2025-10-09T15:22:43Z",
+  "modified": "2025-10-09T15:22:43Z",
+  "details": "- CVE-2019-1547: fix side-channel vulnerability in ECDSA when using explicit\n  EC parameters without cofactor\n- CVE-2025-9230: fix incorrect check of unwrapped key size",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/oraclelinux7els/CLSA-2025-1760023353.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

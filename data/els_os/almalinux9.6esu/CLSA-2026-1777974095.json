@@ -1,0 +1,78 @@
+{
+  "id": "CLSA-2026-1777974095",
+  "summary": "nghttp2: Fix of CVE-2026-27135",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "libnghttp2",
+        "purl": "pkg:rpm/tuxcare/libnghttp2?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.43.0-6.el9.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "libnghttp2-devel",
+        "purl": "pkg:rpm/tuxcare/libnghttp2-devel?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.43.0-6.el9.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "nghttp2",
+        "purl": "pkg:rpm/tuxcare/nghttp2?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.43.0-6.el9.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-27135"
+  ],
+  "published": "2026-05-05T12:20:57Z",
+  "modified": "2026-05-05T12:20:57Z",
+  "details": "- CVE-2026-27135: fix missing iframe->state validations to\n  avoid assertion failure",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/tuxcare9.6esu/CLSA-2026-1777974095.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

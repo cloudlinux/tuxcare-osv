@@ -1,0 +1,38 @@
+{
+  "id": "CLSA-2026-1779098063",
+  "summary": "cloud-init: Fix of CVE-2024-11584",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "cloud-init",
+        "purl": "pkg:rpm/tuxcare/cloud-init?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "24.4-4.el9.3.alma.1.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2024-11584"
+  ],
+  "published": "2026-05-18T09:54:28Z",
+  "modified": "2026-05-18T09:54:28Z",
+  "details": "- CVE-2024-11584: fix systemd socket unit permission vulnerability to prevent unprivileged user from triggering hotplug-hook commands",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/tuxcare9.6esu/CLSA-2026-1779098063.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

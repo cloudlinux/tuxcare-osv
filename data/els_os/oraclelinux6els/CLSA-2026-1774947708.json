@@ -1,0 +1,40 @@
+{
+  "id": "CLSA-2026-1774947708",
+  "summary": "squid: Fix of 3 CVEs",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:6",
+        "name": "squid",
+        "purl": "pkg:rpm/tuxcare/squid?distro=oraclelinux-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7:3.1.23-30.el6.tuxcare.els16"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-33526",
+    "CVE-2026-33515",
+    "CVE-2026-32748"
+  ],
+  "published": "2026-03-31T09:01:52Z",
+  "modified": "2026-03-31T09:01:52Z",
+  "details": "- CVE-2026-33526: fix heap Use-After-Free in ICP traffic handling causing DoS\n- CVE-2026-33515: fix out-of-bounds read in ICP message handling leaking\n  sensitive information\n- CVE-2026-32748: fix HttpRequest lifetime in ICP v3 queries preventing\n  Use-After-Free DoS",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/oraclelinux6els/CLSA-2026-1774947708.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

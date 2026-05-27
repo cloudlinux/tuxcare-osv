@@ -1,0 +1,118 @@
+{
+  "id": "CLSA-2022-1660238929",
+  "summary": "Fixed CVE-2022-2097 in openssl",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "openssl",
+        "purl": "pkg:rpm/tuxcare/openssl?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:1.1.1k-5.el8.5.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "openssl-devel",
+        "purl": "pkg:rpm/tuxcare/openssl-devel?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:1.1.1k-5.el8.5.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "openssl-libs",
+        "purl": "pkg:rpm/tuxcare/openssl-libs?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:1.1.1k-5.el8.5.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "openssl-perl",
+        "purl": "pkg:rpm/tuxcare/openssl-perl?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:1.1.1k-5.el8.5.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "openssl-static",
+        "purl": "pkg:rpm/tuxcare/openssl-static?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:1.1.1k-5.el8.5.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2022-2097"
+  ],
+  "published": "2022-08-11T17:28:49Z",
+  "modified": "2022-08-11T17:28:49Z",
+  "details": "- CVE-2022-2097: Fix AES OCB encrypt/decrypt for x86 AES-NI",
+  "references": [
+    {
+      "url": "https://errata.cloudlinux.com/centos8.5-els/CLSA-2022-1660238929.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

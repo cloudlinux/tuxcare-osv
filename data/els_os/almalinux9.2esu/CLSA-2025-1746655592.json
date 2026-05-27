@@ -1,0 +1,38 @@
+{
+  "id": "CLSA-2025-1746655592",
+  "summary": "grafana: Fix of CVE-2025-30204",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "grafana",
+        "purl": "pkg:rpm/tuxcare/grafana?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "9.0.9-4.el9_2.alma.1.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2025-30204"
+  ],
+  "published": "2025-05-07T22:06:38Z",
+  "modified": "2025-05-07T22:06:38Z",
+  "details": "- CVE-2025-30204: update golang-jwt/jwt to v4.5.2 to prevent a vulnerability that could lead\n  to excessive memory allocation when parsing untrusted JWT tokens using ParseUnverified",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/almalinux9.2-esu/CLSA-2025-1746655592.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

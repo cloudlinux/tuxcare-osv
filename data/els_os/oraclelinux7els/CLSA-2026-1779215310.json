@@ -1,0 +1,120 @@
+{
+  "id": "CLSA-2026-1779215310",
+  "summary": "vim: Fix of 3 CVEs",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:7",
+        "name": "vim-X11",
+        "purl": "pkg:rpm/tuxcare/vim-X11?distro=oraclelinux-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:7.4.629-8.0.1.el7_9.tuxcare.els15"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:7",
+        "name": "vim-common",
+        "purl": "pkg:rpm/tuxcare/vim-common?distro=oraclelinux-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:7.4.629-8.0.1.el7_9.tuxcare.els15"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:7",
+        "name": "vim-enhanced",
+        "purl": "pkg:rpm/tuxcare/vim-enhanced?distro=oraclelinux-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:7.4.629-8.0.1.el7_9.tuxcare.els15"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:7",
+        "name": "vim-filesystem",
+        "purl": "pkg:rpm/tuxcare/vim-filesystem?distro=oraclelinux-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:7.4.629-8.0.1.el7_9.tuxcare.els15"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:7",
+        "name": "vim-minimal",
+        "purl": "pkg:rpm/tuxcare/vim-minimal?distro=oraclelinux-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:7.4.629-8.0.1.el7_9.tuxcare.els15"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2022-3037",
+    "CVE-2023-48236",
+    "CVE-2023-48237"
+  ],
+  "published": "2026-05-19T18:28:34Z",
+  "modified": "2026-05-19T18:28:34Z",
+  "details": "- CVE-2022-3037: fix crash on empty error list handling in qf_fill_buffer\n- CVE-2023-48236: fix integer overflow in get_number for z= command\n- CVE-2023-48237: fix integer overflow in shift_line for operator pending mode",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/oraclelinux7els/CLSA-2026-1779215310.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

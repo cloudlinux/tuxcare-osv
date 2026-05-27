@@ -1,0 +1,98 @@
+{
+  "id": "CLSA-2025-1748282366",
+  "summary": "libxml2: Fix of CVE-2025-32415",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:RHEL:7",
+        "name": "libxml2",
+        "purl": "pkg:rpm/tuxcare/libxml2?distro=rhel-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.9.1-6.0.3.el7_9.6.tuxcare.els4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:RHEL:7",
+        "name": "libxml2-devel",
+        "purl": "pkg:rpm/tuxcare/libxml2-devel?distro=rhel-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.9.1-6.0.3.el7_9.6.tuxcare.els4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:RHEL:7",
+        "name": "libxml2-python",
+        "purl": "pkg:rpm/tuxcare/libxml2-python?distro=rhel-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.9.1-6.0.3.el7_9.6.tuxcare.els4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:RHEL:7",
+        "name": "libxml2-static",
+        "purl": "pkg:rpm/tuxcare/libxml2-static?distro=rhel-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.9.1-6.0.3.el7_9.6.tuxcare.els4"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2025-32415"
+  ],
+  "published": "2025-05-26T17:59:31Z",
+  "modified": "2025-05-26T17:59:31Z",
+  "details": "- CVE-2025-32415: fix heap buffer overflow in xmlSchemaIDCFillNodeTables",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/rhel7-els/CLSA-2025-1748282366.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

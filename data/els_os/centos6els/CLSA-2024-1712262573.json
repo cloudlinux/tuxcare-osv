@@ -1,0 +1,78 @@
+{
+  "id": "CLSA-2024-1712262573",
+  "summary": "unixODBC: Fix of CVE-2024-1013",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:6",
+        "name": "unixODBC",
+        "purl": "pkg:rpm/tuxcare/unixODBC?distro=centos-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.2.14-14.el6.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:6",
+        "name": "unixODBC-devel",
+        "purl": "pkg:rpm/tuxcare/unixODBC-devel?distro=centos-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.2.14-14.el6.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:6",
+        "name": "unixODBC-kde",
+        "purl": "pkg:rpm/tuxcare/unixODBC-kde?distro=centos-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.2.14-14.el6.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2024-1013"
+  ],
+  "published": "2024-04-04T20:29:35Z",
+  "modified": "2024-04-04T20:29:35Z",
+  "details": "- CVE-2024-1013: Fix out-of-bounds stack write issue by adjusting callee write\n  size from 8 to 4 bytes",
+  "references": [
+    {
+      "url": "https://errata.cloudlinux.com/els6/CLSA-2024-1712262573.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "id": "CLSA-2025-1757531273",
+  "summary": "pam: Fix of CVE-2025-6020",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:7",
+        "name": "pam",
+        "purl": "pkg:rpm/tuxcare/pam?distro=oraclelinux-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.1.8-23.0.1.el7.tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:7",
+        "name": "pam-devel",
+        "purl": "pkg:rpm/tuxcare/pam-devel?distro=oraclelinux-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.1.8-23.0.1.el7.tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2025-6020"
+  ],
+  "published": "2025-09-10T19:07:56Z",
+  "modified": "2025-09-10T19:07:56Z",
+  "details": "- CVE-2025-6020: fix potential privilege escalation in pam_namspace",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/oraclelinux7els/CLSA-2025-1757531273.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

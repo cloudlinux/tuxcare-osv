@@ -1,0 +1,58 @@
+{
+  "id": "CLSA-2025-1755617684",
+  "summary": "libndp: Fix of CVE-2024-5564",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:RHEL:7",
+        "name": "libndp",
+        "purl": "pkg:rpm/tuxcare/libndp?distro=rhel-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.2-9.el7.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:RHEL:7",
+        "name": "libndp-devel",
+        "purl": "pkg:rpm/tuxcare/libndp-devel?distro=rhel-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.2-9.el7.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2024-5564"
+  ],
+  "published": "2025-08-19T15:34:47Z",
+  "modified": "2025-08-19T15:34:47Z",
+  "details": "- CVE-2024-5564: validate route information option length",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/rhel7els/CLSA-2025-1755617684.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

@@ -1,0 +1,798 @@
+{
+  "id": "CLSA-2026-1777310036",
+  "summary": "gcc: Fix of CVE-2021-42574",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:RHEL:7",
+        "name": "cpp",
+        "purl": "pkg:rpm/tuxcare/cpp?distro=rhel-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.8.5-45.0.3.el7.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:RHEL:7",
+        "name": "gcc",
+        "purl": "pkg:rpm/tuxcare/gcc?distro=rhel-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.8.5-45.0.3.el7.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:RHEL:7",
+        "name": "gcc-c++",
+        "purl": "pkg:rpm/tuxcare/gcc-c++?distro=rhel-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.8.5-45.0.3.el7.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:RHEL:7",
+        "name": "gcc-gfortran",
+        "purl": "pkg:rpm/tuxcare/gcc-gfortran?distro=rhel-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.8.5-45.0.3.el7.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:RHEL:7",
+        "name": "gcc-gnat",
+        "purl": "pkg:rpm/tuxcare/gcc-gnat?distro=rhel-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.8.5-45.0.3.el7.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:RHEL:7",
+        "name": "gcc-go",
+        "purl": "pkg:rpm/tuxcare/gcc-go?distro=rhel-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.8.5-45.0.3.el7.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:RHEL:7",
+        "name": "gcc-objc",
+        "purl": "pkg:rpm/tuxcare/gcc-objc?distro=rhel-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.8.5-45.0.3.el7.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:RHEL:7",
+        "name": "gcc-objc++",
+        "purl": "pkg:rpm/tuxcare/gcc-objc++?distro=rhel-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.8.5-45.0.3.el7.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:RHEL:7",
+        "name": "gcc-plugin-devel",
+        "purl": "pkg:rpm/tuxcare/gcc-plugin-devel?distro=rhel-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.8.5-45.0.3.el7.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:RHEL:7",
+        "name": "libasan",
+        "purl": "pkg:rpm/tuxcare/libasan?distro=rhel-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.8.5-45.0.3.el7.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:RHEL:7",
+        "name": "libasan-static",
+        "purl": "pkg:rpm/tuxcare/libasan-static?distro=rhel-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.8.5-45.0.3.el7.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:RHEL:7",
+        "name": "libatomic",
+        "purl": "pkg:rpm/tuxcare/libatomic?distro=rhel-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.8.5-45.0.3.el7.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:RHEL:7",
+        "name": "libatomic-static",
+        "purl": "pkg:rpm/tuxcare/libatomic-static?distro=rhel-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.8.5-45.0.3.el7.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:RHEL:7",
+        "name": "libgcc",
+        "purl": "pkg:rpm/tuxcare/libgcc?distro=rhel-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.8.5-45.0.3.el7.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:RHEL:7",
+        "name": "libgfortran",
+        "purl": "pkg:rpm/tuxcare/libgfortran?distro=rhel-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.8.5-45.0.3.el7.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:RHEL:7",
+        "name": "libgfortran-static",
+        "purl": "pkg:rpm/tuxcare/libgfortran-static?distro=rhel-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.8.5-45.0.3.el7.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:RHEL:7",
+        "name": "libgnat",
+        "purl": "pkg:rpm/tuxcare/libgnat?distro=rhel-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.8.5-45.0.3.el7.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:RHEL:7",
+        "name": "libgnat-devel",
+        "purl": "pkg:rpm/tuxcare/libgnat-devel?distro=rhel-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.8.5-45.0.3.el7.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:RHEL:7",
+        "name": "libgnat-static",
+        "purl": "pkg:rpm/tuxcare/libgnat-static?distro=rhel-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.8.5-45.0.3.el7.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:RHEL:7",
+        "name": "libgo",
+        "purl": "pkg:rpm/tuxcare/libgo?distro=rhel-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.8.5-45.0.3.el7.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:RHEL:7",
+        "name": "libgo-devel",
+        "purl": "pkg:rpm/tuxcare/libgo-devel?distro=rhel-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.8.5-45.0.3.el7.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:RHEL:7",
+        "name": "libgo-static",
+        "purl": "pkg:rpm/tuxcare/libgo-static?distro=rhel-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.8.5-45.0.3.el7.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:RHEL:7",
+        "name": "libgomp",
+        "purl": "pkg:rpm/tuxcare/libgomp?distro=rhel-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.8.5-45.0.3.el7.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:RHEL:7",
+        "name": "libitm",
+        "purl": "pkg:rpm/tuxcare/libitm?distro=rhel-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.8.5-45.0.3.el7.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:RHEL:7",
+        "name": "libitm-devel",
+        "purl": "pkg:rpm/tuxcare/libitm-devel?distro=rhel-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.8.5-45.0.3.el7.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:RHEL:7",
+        "name": "libitm-static",
+        "purl": "pkg:rpm/tuxcare/libitm-static?distro=rhel-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.8.5-45.0.3.el7.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:RHEL:7",
+        "name": "libmudflap",
+        "purl": "pkg:rpm/tuxcare/libmudflap?distro=rhel-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.8.5-45.0.3.el7.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:RHEL:7",
+        "name": "libmudflap-devel",
+        "purl": "pkg:rpm/tuxcare/libmudflap-devel?distro=rhel-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.8.5-45.0.3.el7.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:RHEL:7",
+        "name": "libmudflap-static",
+        "purl": "pkg:rpm/tuxcare/libmudflap-static?distro=rhel-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.8.5-45.0.3.el7.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:RHEL:7",
+        "name": "libobjc",
+        "purl": "pkg:rpm/tuxcare/libobjc?distro=rhel-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.8.5-45.0.3.el7.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:RHEL:7",
+        "name": "libquadmath",
+        "purl": "pkg:rpm/tuxcare/libquadmath?distro=rhel-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.8.5-45.0.3.el7.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:RHEL:7",
+        "name": "libquadmath-devel",
+        "purl": "pkg:rpm/tuxcare/libquadmath-devel?distro=rhel-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.8.5-45.0.3.el7.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:RHEL:7",
+        "name": "libquadmath-static",
+        "purl": "pkg:rpm/tuxcare/libquadmath-static?distro=rhel-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.8.5-45.0.3.el7.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:RHEL:7",
+        "name": "libstdc++",
+        "purl": "pkg:rpm/tuxcare/libstdc++?distro=rhel-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.8.5-45.0.3.el7.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:RHEL:7",
+        "name": "libstdc++-devel",
+        "purl": "pkg:rpm/tuxcare/libstdc++-devel?distro=rhel-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.8.5-45.0.3.el7.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:RHEL:7",
+        "name": "libstdc++-docs",
+        "purl": "pkg:rpm/tuxcare/libstdc++-docs?distro=rhel-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.8.5-45.0.3.el7.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:RHEL:7",
+        "name": "libstdc++-static",
+        "purl": "pkg:rpm/tuxcare/libstdc++-static?distro=rhel-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.8.5-45.0.3.el7.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:RHEL:7",
+        "name": "libtsan",
+        "purl": "pkg:rpm/tuxcare/libtsan?distro=rhel-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.8.5-45.0.3.el7.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:RHEL:7",
+        "name": "libtsan-static",
+        "purl": "pkg:rpm/tuxcare/libtsan-static?distro=rhel-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.8.5-45.0.3.el7.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2021-42574"
+  ],
+  "published": "2026-04-27T17:14:01Z",
+  "modified": "2026-04-27T17:14:01Z",
+  "details": "- CVE-2021-42574: add -Wbidi-chars warning for Unicode bidirectional text",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/rhel7els/CLSA-2026-1777310036.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

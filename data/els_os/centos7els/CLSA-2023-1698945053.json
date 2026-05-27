@@ -1,0 +1,61 @@
+{
+  "id": "CLSA-2023-1698945053",
+  "summary": "libgcrypt: Fix of 4 CVEs",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:7",
+        "name": "libgcrypt",
+        "purl": "pkg:rpm/tuxcare/libgcrypt?distro=centos-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.5.3-14.el7.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:7",
+        "name": "libgcrypt-devel",
+        "purl": "pkg:rpm/tuxcare/libgcrypt-devel?distro=centos-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.5.3-14.el7.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2013-4576",
+    "CVE-2014-3591",
+    "CVE-2021-33560",
+    "CVE-2021-40528"
+  ],
+  "published": "2023-11-02T17:10:57Z",
+  "modified": "2023-11-02T17:10:57Z",
+  "details": "- CVE-2013-4576: Normalize the MPIs to prevent possible side-channel\n  attacks\n- CVE-2014-3591: Use ciphertext blinding for Elgamal to prevent\n  possible side-channel attacks\n- CVE-2021-33560: Use of smaller K for ephemeral key in ElGamal\n  prevent generation of weak keys\n- CVE-2021-40528: Add exponent blinding as well to mitigate\n  side-channel attack on mpi_powm\n- tests: Add a benchmark for Elgamal",
+  "references": [
+    {
+      "url": "https://errata.cloudlinux.com/centos7-els/CLSA-2023-1698945053.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

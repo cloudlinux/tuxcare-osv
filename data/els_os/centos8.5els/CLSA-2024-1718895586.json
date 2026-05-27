@@ -1,0 +1,178 @@
+{
+  "id": "CLSA-2024-1718895586",
+  "summary": "systemd: Fix of CVE-2023-7008",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "systemd",
+        "purl": "pkg:rpm/tuxcare/systemd?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "239-51.el8_5.2.tuxcare.els5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "systemd-container",
+        "purl": "pkg:rpm/tuxcare/systemd-container?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "239-51.el8_5.2.tuxcare.els5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "systemd-devel",
+        "purl": "pkg:rpm/tuxcare/systemd-devel?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "239-51.el8_5.2.tuxcare.els5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "systemd-journal-remote",
+        "purl": "pkg:rpm/tuxcare/systemd-journal-remote?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "239-51.el8_5.2.tuxcare.els5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "systemd-libs",
+        "purl": "pkg:rpm/tuxcare/systemd-libs?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "239-51.el8_5.2.tuxcare.els5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "systemd-pam",
+        "purl": "pkg:rpm/tuxcare/systemd-pam?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "239-51.el8_5.2.tuxcare.els5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "systemd-tests",
+        "purl": "pkg:rpm/tuxcare/systemd-tests?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "239-51.el8_5.2.tuxcare.els5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "systemd-udev",
+        "purl": "pkg:rpm/tuxcare/systemd-udev?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "239-51.el8_5.2.tuxcare.els5"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2023-7008"
+  ],
+  "published": "2024-06-20T14:59:49Z",
+  "modified": "2024-06-20T14:59:49Z",
+  "details": "- CVE-2023-7008: prevent systemd-resolved from accepting DNS records of DNSSEC-\n  signed domains without a signature to mitigate man-in-the-middle attacks",
+  "references": [
+    {
+      "url": "https://errata.cloudlinux.com/centos8.5-els/CLSA-2024-1718895586.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

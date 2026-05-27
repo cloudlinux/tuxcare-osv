@@ -1,0 +1,38 @@
+{
+  "id": "CLSA-2024-1706026564",
+  "summary": "squid: Fix of CVE-2023-50269",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:6",
+        "name": "squid",
+        "purl": "pkg:rpm/tuxcare/squid?distro=oraclelinux-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7:3.1.23-30.el6.tuxcare.els11"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2023-50269"
+  ],
+  "published": "2024-01-23T16:16:07Z",
+  "modified": "2024-01-23T16:16:07Z",
+  "details": "- CVE-2023-50269: Limit the number of allowed X-Forwarded-For hops to prevent DoS",
+  "references": [
+    {
+      "url": "https://errata.cloudlinux.com/ol6/CLSA-2024-1706026564.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

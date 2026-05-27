@@ -1,0 +1,38 @@
+{
+  "id": "CLSA-2025-1746188656",
+  "summary": "mod_auth_openidc: Fix of CVE-2025-31492",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "mod_auth_openidc",
+        "purl": "pkg:rpm/tuxcare/mod_auth_openidc?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.4.9.4-1.el9.tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2025-31492"
+  ],
+  "published": "2025-05-02T12:24:22Z",
+  "modified": "2025-05-02T12:24:22Z",
+  "details": "- CVE-2025-31492: fix vulnerability causing disclosure of protected content to\n  unauthenticated users in mod_auth_openidc",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/almalinux9.2-esu/CLSA-2025-1746188656.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

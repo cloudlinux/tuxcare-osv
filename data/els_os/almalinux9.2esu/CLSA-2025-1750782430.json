@@ -1,0 +1,78 @@
+{
+  "id": "CLSA-2025-1750782430",
+  "summary": "yelp: Fix of CVE-2025-3155",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "yelp",
+        "purl": "pkg:rpm/tuxcare/yelp?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:40.3-2.el9.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "yelp-devel",
+        "purl": "pkg:rpm/tuxcare/yelp-devel?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:40.3-2.el9.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "yelp-libs",
+        "purl": "pkg:rpm/tuxcare/yelp-libs?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:40.3-2.el9.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2025-3155"
+  ],
+  "published": "2025-06-24T16:27:15Z",
+  "modified": "2025-06-24T16:27:15Z",
+  "details": "- CVE-2025-3155: fix execution of arbitrary scripts in help documents,\n  preventing malicious file exfiltration",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/almalinux9.2esu/CLSA-2025-1750782430.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

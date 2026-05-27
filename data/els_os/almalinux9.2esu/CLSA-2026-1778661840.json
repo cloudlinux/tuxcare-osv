@@ -1,0 +1,58 @@
+{
+  "id": "CLSA-2026-1778661840",
+  "summary": "skopeo: Fix of CVE-2024-24786",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "skopeo",
+        "purl": "pkg:rpm/tuxcare/skopeo?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:1.11.2-0.1.el9.tuxcare.els5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "skopeo-tests",
+        "purl": "pkg:rpm/tuxcare/skopeo-tests?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:1.11.2-0.1.el9.tuxcare.els5"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2024-24786"
+  ],
+  "published": "2026-05-13T08:44:04Z",
+  "modified": "2026-05-13T08:44:04Z",
+  "details": "- CVE-2024-24786: fix infinite loop in vendored google.golang.org/protobuf\n  protojson.Unmarshal on malformed JSON by handling EOF in skipJSONValue\n  and rejecting ObjectClose after a Name token in Decoder.Read",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/almalinux9.2esu/CLSA-2026-1778661840.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

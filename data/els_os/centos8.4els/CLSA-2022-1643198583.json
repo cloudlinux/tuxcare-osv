@@ -1,0 +1,120 @@
+{
+  "id": "CLSA-2022-1643198583",
+  "summary": "Fix of CVE: CVE-2021-22876, CVE-2021-22898, CVE-2021-22925",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.4",
+        "name": "curl",
+        "purl": "pkg:rpm/tuxcare/curl?distro=centos-8.4"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7.61.1-18.el8.4.2.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.4",
+        "name": "curl-minimal",
+        "purl": "pkg:rpm/tuxcare/curl-minimal?distro=centos-8.4"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7.61.1-18.el8.4.2.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.4",
+        "name": "libcurl",
+        "purl": "pkg:rpm/tuxcare/libcurl?distro=centos-8.4"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7.61.1-18.el8.4.2.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.4",
+        "name": "libcurl-devel",
+        "purl": "pkg:rpm/tuxcare/libcurl-devel?distro=centos-8.4"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7.61.1-18.el8.4.2.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.4",
+        "name": "libcurl-minimal",
+        "purl": "pkg:rpm/tuxcare/libcurl-minimal?distro=centos-8.4"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7.61.1-18.el8.4.2.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2021-22876",
+    "CVE-2021-22898",
+    "CVE-2021-22925"
+  ],
+  "published": "2022-01-26T12:03:03Z",
+  "modified": "2022-01-26T12:03:03Z",
+  "details": "- CVE-2021-22925: fix TELNET stack contents disclosure again\n- CVE-2021-22898: fix TELNET stack contents disclosure\n- CVE-2021-22876: prevent automatic referer from leaking credentials",
+  "references": [
+    {
+      "url": "https://errata.cloudlinux.com/centos8.4-els/CLSA-2022-1643198583.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

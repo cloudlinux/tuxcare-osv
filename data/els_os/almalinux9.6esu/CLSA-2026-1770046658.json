@@ -1,0 +1,38 @@
+{
+  "id": "CLSA-2026-1770046658",
+  "summary": "python3.11-urllib3: Fix of CVE-2025-66471",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "python3.11-urllib3",
+        "purl": "pkg:rpm/tuxcare/python3.11-urllib3?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.26.12-5.el9.tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2025-66471"
+  ],
+  "published": "2026-02-02T15:37:45Z",
+  "modified": "2026-02-02T15:37:45Z",
+  "details": "- CVE-2025-66471: fix improper handling of highly compressed data in the\n  Streaming API",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/tuxcare9.6esu/CLSA-2026-1770046658.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

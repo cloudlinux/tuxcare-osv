@@ -1,0 +1,199 @@
+{
+  "id": "CLSA-2026-1769014292",
+  "summary": "httpd: Fix of 2 CVEs",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS-Stream:8",
+        "name": "httpd",
+        "purl": "pkg:rpm/tuxcare/httpd?distro=centos-stream-8"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.4.37-64.module_el8+2338+ca31203e.tuxcare.els5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS-Stream:8",
+        "name": "httpd-devel",
+        "purl": "pkg:rpm/tuxcare/httpd-devel?distro=centos-stream-8"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.4.37-64.module_el8+2338+ca31203e.tuxcare.els5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS-Stream:8",
+        "name": "httpd-filesystem",
+        "purl": "pkg:rpm/tuxcare/httpd-filesystem?distro=centos-stream-8"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.4.37-64.module_el8+2338+ca31203e.tuxcare.els5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS-Stream:8",
+        "name": "httpd-manual",
+        "purl": "pkg:rpm/tuxcare/httpd-manual?distro=centos-stream-8"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.4.37-64.module_el8+2338+ca31203e.tuxcare.els5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS-Stream:8",
+        "name": "httpd-tools",
+        "purl": "pkg:rpm/tuxcare/httpd-tools?distro=centos-stream-8"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.4.37-64.module_el8+2338+ca31203e.tuxcare.els5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS-Stream:8",
+        "name": "mod_ldap",
+        "purl": "pkg:rpm/tuxcare/mod_ldap?distro=centos-stream-8"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.4.37-64.module_el8+2338+ca31203e.tuxcare.els5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS-Stream:8",
+        "name": "mod_proxy_html",
+        "purl": "pkg:rpm/tuxcare/mod_proxy_html?distro=centos-stream-8"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:2.4.37-64.module_el8+2338+ca31203e.tuxcare.els5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS-Stream:8",
+        "name": "mod_session",
+        "purl": "pkg:rpm/tuxcare/mod_session?distro=centos-stream-8"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.4.37-64.module_el8+2338+ca31203e.tuxcare.els5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS-Stream:8",
+        "name": "mod_ssl",
+        "purl": "pkg:rpm/tuxcare/mod_ssl?distro=centos-stream-8"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:2.4.37-64.module_el8+2338+ca31203e.tuxcare.els5"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2025-66200",
+    "CVE-2025-65082"
+  ],
+  "published": "2026-01-21T16:51:36Z",
+  "modified": "2026-01-21T16:51:36Z",
+  "details": "- CVE-2025-66200: don't use request notes for suexec, stop accepting the\n  obscure \"note\" option in RequestHeader\n- CVE-2025-65082: fix precedence of envvars from HTTP headers and Apache\n  configuration",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/centos-stream8els/CLSA-2026-1769014292.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

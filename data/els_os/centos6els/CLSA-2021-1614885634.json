@@ -1,0 +1,98 @@
+{
+  "id": "CLSA-2021-1614885634",
+  "summary": "Fix of CVE:CVE-2021-23841 ",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:6",
+        "name": "openssl",
+        "purl": "pkg:rpm/tuxcare/openssl?distro=centos-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.0.1e-60.el6.cloudlinux.els6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:6",
+        "name": "openssl-devel",
+        "purl": "pkg:rpm/tuxcare/openssl-devel?distro=centos-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.0.1e-60.el6.cloudlinux.els6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:6",
+        "name": "openssl-perl",
+        "purl": "pkg:rpm/tuxcare/openssl-perl?distro=centos-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.0.1e-60.el6.cloudlinux.els6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:6",
+        "name": "openssl-static",
+        "purl": "pkg:rpm/tuxcare/openssl-static?distro=centos-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.0.1e-60.el6.cloudlinux.els6"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2021-23841"
+  ],
+  "published": "2021-03-03T12:00:00Z",
+  "modified": "2021-03-03T12:00:00Z",
+  "details": "- Fix Null pointer deref in X509_issuer_and_serial_hash() (CVE-2021-23841)",
+  "references": [
+    {
+      "url": "https://errata.cloudlinux.com/els6/CLSA-2021-1614885634.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

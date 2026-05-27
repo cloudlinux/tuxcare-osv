@@ -1,0 +1,58 @@
+{
+  "id": "CLSA-2026-1769433341",
+  "summary": "gnupg2: Fix of CVE-2025-68973",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:7",
+        "name": "gnupg2",
+        "purl": "pkg:rpm/tuxcare/gnupg2?distro=centos-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.0.22-5.el7_5.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:7",
+        "name": "gnupg2-smime",
+        "purl": "pkg:rpm/tuxcare/gnupg2-smime?distro=centos-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.0.22-5.el7_5.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2025-68973"
+  ],
+  "published": "2026-01-26T13:15:45Z",
+  "modified": "2026-01-26T13:15:45Z",
+  "details": "- CVE-2025-68973: fix memory corruption in the armor parser that leads to out-of-bounds\n  write for malicious input",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/centos7els/CLSA-2026-1769433341.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

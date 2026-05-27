@@ -1,0 +1,101 @@
+{
+  "id": "CLSA-2021-1634922881",
+  "summary": "Fixed CVEs in openssl: CVE-2018-0739, CVE-2018-0732, CVE-2021-3712, CVE-2018-0737",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:6",
+        "name": "openssl",
+        "purl": "pkg:rpm/tuxcare/openssl?distro=oraclelinux-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.0.1e-62.el6.cloudlinux.els"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:6",
+        "name": "openssl-devel",
+        "purl": "pkg:rpm/tuxcare/openssl-devel?distro=oraclelinux-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.0.1e-62.el6.cloudlinux.els"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:6",
+        "name": "openssl-perl",
+        "purl": "pkg:rpm/tuxcare/openssl-perl?distro=oraclelinux-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.0.1e-62.el6.cloudlinux.els"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:6",
+        "name": "openssl-static",
+        "purl": "pkg:rpm/tuxcare/openssl-static?distro=oraclelinux-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.0.1e-62.el6.cloudlinux.els"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2018-0739",
+    "CVE-2018-0732",
+    "CVE-2021-3712",
+    "CVE-2018-0737"
+  ],
+  "published": "2021-10-22T17:14:41Z",
+  "modified": "2022-05-17T17:28:33Z",
+  "details": "- fix CVE-2021-3712 - handling ASN.1 string as NULL\n  terminated leads to read buffer overrun\n- Port patches from oracle6els branch, original changelog entry:\n- Oracle bug 28730228: backport CVE-2018-0732\n- Oracle bug 28758493: backport CVE-2018-0737\n- Merge upstream patch to fix CVE-2018-0739 \n- Avoid out-of-bounds read. Fixes CVE 2017-3735. By Rich Salz\n- sha256 is used for the RSA pairwise consistency test instead of sha1",
+  "references": [
+    {
+      "url": "https://errata.cloudlinux.com/ol6/CLSA-2021-1634922881.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

@@ -1,0 +1,159 @@
+{
+  "id": "CLSA-2025-1759332650",
+  "summary": "cups: Fix of 2 CVEs",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "cups",
+        "purl": "pkg:rpm/tuxcare/cups?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:2.2.6-40.el8.tuxcare.els5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "cups-client",
+        "purl": "pkg:rpm/tuxcare/cups-client?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:2.2.6-40.el8.tuxcare.els5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "cups-devel",
+        "purl": "pkg:rpm/tuxcare/cups-devel?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:2.2.6-40.el8.tuxcare.els5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "cups-filesystem",
+        "purl": "pkg:rpm/tuxcare/cups-filesystem?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:2.2.6-40.el8.tuxcare.els5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "cups-ipptool",
+        "purl": "pkg:rpm/tuxcare/cups-ipptool?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:2.2.6-40.el8.tuxcare.els5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "cups-libs",
+        "purl": "pkg:rpm/tuxcare/cups-libs?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:2.2.6-40.el8.tuxcare.els5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "cups-lpd",
+        "purl": "pkg:rpm/tuxcare/cups-lpd?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:2.2.6-40.el8.tuxcare.els5"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2023-4504",
+    "CVE-2025-58060"
+  ],
+  "published": "2025-10-01T15:30:57Z",
+  "modified": "2025-10-01T15:30:57Z",
+  "details": "- CVE-2023-4504: validate length of attacker-crafted PPD PostScript documents to\n  prevent heap-based buffer overflow and possible code execution\n- CVE-2025-58060: fix authentication bypass issue caused by not checking\n  password when AuthType is not Basic.",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/centos8.5els/CLSA-2025-1759332650.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

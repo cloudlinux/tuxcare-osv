@@ -1,0 +1,159 @@
+{
+  "id": "CLSA-2024-1726769233",
+  "summary": "krb5: Fix of 2 CVEs",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.4",
+        "name": "krb5-devel",
+        "purl": "pkg:rpm/tuxcare/krb5-devel?distro=centos-8.4"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.18.2-14.el8.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.4",
+        "name": "krb5-libs",
+        "purl": "pkg:rpm/tuxcare/krb5-libs?distro=centos-8.4"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.18.2-14.el8.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.4",
+        "name": "krb5-pkinit",
+        "purl": "pkg:rpm/tuxcare/krb5-pkinit?distro=centos-8.4"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.18.2-14.el8.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.4",
+        "name": "krb5-server",
+        "purl": "pkg:rpm/tuxcare/krb5-server?distro=centos-8.4"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.18.2-14.el8.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.4",
+        "name": "krb5-server-ldap",
+        "purl": "pkg:rpm/tuxcare/krb5-server-ldap?distro=centos-8.4"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.18.2-14.el8.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.4",
+        "name": "krb5-workstation",
+        "purl": "pkg:rpm/tuxcare/krb5-workstation?distro=centos-8.4"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.18.2-14.el8.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.4",
+        "name": "libkadm5",
+        "purl": "pkg:rpm/tuxcare/libkadm5?distro=centos-8.4"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.18.2-14.el8.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2024-37370",
+    "CVE-2024-37371"
+  ],
+  "published": "2024-09-19T18:07:16Z",
+  "modified": "2024-09-19T18:07:16Z",
+  "details": "- CVE-2024-37370: prevent modification of Extra Count field in GSS krb5 wrap\n  token to avoid appearing truncated to application\n- CVE-2024-37371: fix invalid memory reads during GSS message token handling",
+  "references": [
+    {
+      "url": "https://errata.cloudlinux.com/centos8.4-els/CLSA-2024-1726769233.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

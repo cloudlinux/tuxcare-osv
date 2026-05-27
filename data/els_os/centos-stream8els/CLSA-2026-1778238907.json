@@ -1,0 +1,118 @@
+{
+  "id": "CLSA-2026-1778238907",
+  "summary": "gnutls: Fix of CVE-2026-33845",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS-Stream:8",
+        "name": "gnutls",
+        "purl": "pkg:rpm/tuxcare/gnutls?distro=centos-stream-8"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.6.16-8.el8.1.tuxcare.els5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS-Stream:8",
+        "name": "gnutls-c++",
+        "purl": "pkg:rpm/tuxcare/gnutls-c++?distro=centos-stream-8"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.6.16-8.el8.1.tuxcare.els5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS-Stream:8",
+        "name": "gnutls-dane",
+        "purl": "pkg:rpm/tuxcare/gnutls-dane?distro=centos-stream-8"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.6.16-8.el8.1.tuxcare.els5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS-Stream:8",
+        "name": "gnutls-devel",
+        "purl": "pkg:rpm/tuxcare/gnutls-devel?distro=centos-stream-8"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.6.16-8.el8.1.tuxcare.els5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS-Stream:8",
+        "name": "gnutls-utils",
+        "purl": "pkg:rpm/tuxcare/gnutls-utils?distro=centos-stream-8"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.6.16-8.el8.1.tuxcare.els5"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-33845"
+  ],
+  "published": "2026-05-08T11:18:09Z",
+  "modified": "2026-05-08T11:18:09Z",
+  "details": "- CVE-2026-33845: fix DTLS handshake fragment reassembly integer underflow and\n  heap overrun by tracking frag_length instead of end_offset",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/centos-stream8els/CLSA-2026-1778238907.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

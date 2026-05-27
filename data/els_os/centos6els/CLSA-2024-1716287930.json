@@ -1,0 +1,58 @@
+{
+  "id": "CLSA-2024-1716287930",
+  "summary": "ansible: Fix of CVE-2023-5764",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:6",
+        "name": "ansible",
+        "purl": "pkg:rpm/tuxcare/ansible?distro=centos-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.6.20-1.el6.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:6",
+        "name": "ansible-doc",
+        "purl": "pkg:rpm/tuxcare/ansible-doc?distro=centos-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.6.20-1.el6.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2023-5764"
+  ],
+  "published": "2024-05-21T10:38:53Z",
+  "modified": "2024-05-21T10:38:53Z",
+  "details": "- CVE-2023-5764: avoid evaluate unsafe conditions",
+  "references": [
+    {
+      "url": "https://errata.cloudlinux.com/els6/CLSA-2024-1716287930.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

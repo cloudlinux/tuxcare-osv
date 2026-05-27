@@ -1,0 +1,58 @@
+{
+  "id": "CLSA-2026-1768815869",
+  "summary": "buildah: Fix of CVE-2025-47913",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "buildah",
+        "purl": "pkg:rpm/tuxcare/buildah?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:1.39.6-1.el9_2.tuxcare.els4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "buildah-tests",
+        "purl": "pkg:rpm/tuxcare/buildah-tests?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:1.39.6-1.el9_2.tuxcare.els4"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2025-47913"
+  ],
+  "published": "2026-01-19T09:44:33Z",
+  "modified": "2026-01-19T09:44:33Z",
+  "details": "- CVE-2025-47913: prevent ssh-agent panic by rejecting unexpected message types and\n  returning a descriptive error instead",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/almalinux9.2esu/CLSA-2026-1768815869.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

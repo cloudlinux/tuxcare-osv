@@ -1,0 +1,39 @@
+{
+  "id": "CLSA-2023-1699380056",
+  "summary": "rsync: Fix of 2 CVEs",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:7",
+        "name": "rsync",
+        "purl": "pkg:rpm/tuxcare/rsync?distro=centos-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.1.2-12.el7_9.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2018-25032",
+    "CVE-2022-37434"
+  ],
+  "published": "2023-11-07T18:01:00Z",
+  "modified": "2023-11-07T18:01:00Z",
+  "details": "- CVE-2018-25032: fix a bug that can crash deflate on some input when using\n  Z_FIXED\n- CVE-2022-37434: fix zlib bug with a large gzip header extra field",
+  "references": [
+    {
+      "url": "https://errata.cloudlinux.com/centos7-els/CLSA-2023-1699380056.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

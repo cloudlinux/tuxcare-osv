@@ -1,0 +1,78 @@
+{
+  "id": "CLSA-2026-1776950014",
+  "summary": "openexr: Fix of CVE-2026-34588",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "openexr",
+        "purl": "pkg:rpm/tuxcare/openexr?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.1.1-3.el9.tuxcare.els4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "openexr-devel",
+        "purl": "pkg:rpm/tuxcare/openexr-devel?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.1.1-3.el9.tuxcare.els4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "openexr-libs",
+        "purl": "pkg:rpm/tuxcare/openexr-libs?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.1.1-3.el9.tuxcare.els4"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-34588"
+  ],
+  "published": "2026-04-23T13:13:38Z",
+  "modified": "2026-04-23T13:13:38Z",
+  "details": "- CVE-2026-34588 fix signed 32-bit integer overflow in PIZ decoder wavelet\n  buffer arithmetic leading to out-of-bounds read/write",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/almalinux9.2esu/CLSA-2026-1776950014.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

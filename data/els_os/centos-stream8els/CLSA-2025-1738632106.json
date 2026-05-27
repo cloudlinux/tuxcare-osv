@@ -1,0 +1,59 @@
+{
+  "id": "CLSA-2025-1738632106",
+  "summary": "rsync: Fix of 2 CVEs",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS-Stream:8",
+        "name": "rsync",
+        "purl": "pkg:rpm/tuxcare/rsync?distro=centos-stream-8"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.1.3-19.el8.1.tuxcare.els4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS-Stream:8",
+        "name": "rsync-daemon",
+        "purl": "pkg:rpm/tuxcare/rsync-daemon?distro=centos-stream-8"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.1.3-19.el8.1.tuxcare.els4"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2024-12086",
+    "CVE-2024-12088"
+  ],
+  "published": "2025-02-04T01:21:52Z",
+  "modified": "2025-02-04T01:21:52Z",
+  "details": "- CVE-2024-12086: fix infoleak when connect to malicious server\n- CVE-2024-12088: properly verify if a symbolic link destination contains\n  another symbolic link within it when using the '--safe-links' option",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/centos8stream-els/CLSA-2025-1738632106.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

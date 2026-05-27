@@ -1,0 +1,4258 @@
+{
+  "id": "CLSA-2025-1760966342",
+  "summary": "glibc: Fix of CVE-2025-0395",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "compat-libpthread-nonshared",
+        "purl": "pkg:rpm/tuxcare/compat-libpthread-nonshared?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.28-164.el8.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "glibc",
+        "purl": "pkg:rpm/tuxcare/glibc?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.28-164.el8.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "glibc-all-langpacks",
+        "purl": "pkg:rpm/tuxcare/glibc-all-langpacks?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.28-164.el8.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "glibc-benchtests",
+        "purl": "pkg:rpm/tuxcare/glibc-benchtests?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.28-164.el8.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "glibc-common",
+        "purl": "pkg:rpm/tuxcare/glibc-common?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.28-164.el8.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "glibc-devel",
+        "purl": "pkg:rpm/tuxcare/glibc-devel?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.28-164.el8.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "glibc-headers",
+        "purl": "pkg:rpm/tuxcare/glibc-headers?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.28-164.el8.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "glibc-langpack-aa",
+        "purl": "pkg:rpm/tuxcare/glibc-langpack-aa?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.28-164.el8.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "glibc-langpack-af",
+        "purl": "pkg:rpm/tuxcare/glibc-langpack-af?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.28-164.el8.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "glibc-langpack-agr",
+        "purl": "pkg:rpm/tuxcare/glibc-langpack-agr?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.28-164.el8.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "glibc-langpack-ak",
+        "purl": "pkg:rpm/tuxcare/glibc-langpack-ak?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.28-164.el8.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "glibc-langpack-am",
+        "purl": "pkg:rpm/tuxcare/glibc-langpack-am?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.28-164.el8.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "glibc-langpack-an",
+        "purl": "pkg:rpm/tuxcare/glibc-langpack-an?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.28-164.el8.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "glibc-langpack-anp",
+        "purl": "pkg:rpm/tuxcare/glibc-langpack-anp?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.28-164.el8.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "glibc-langpack-ar",
+        "purl": "pkg:rpm/tuxcare/glibc-langpack-ar?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.28-164.el8.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "glibc-langpack-as",
+        "purl": "pkg:rpm/tuxcare/glibc-langpack-as?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.28-164.el8.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "glibc-langpack-ast",
+        "purl": "pkg:rpm/tuxcare/glibc-langpack-ast?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.28-164.el8.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "glibc-langpack-ayc",
+        "purl": "pkg:rpm/tuxcare/glibc-langpack-ayc?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.28-164.el8.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "glibc-langpack-az",
+        "purl": "pkg:rpm/tuxcare/glibc-langpack-az?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.28-164.el8.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "glibc-langpack-be",
+        "purl": "pkg:rpm/tuxcare/glibc-langpack-be?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.28-164.el8.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "glibc-langpack-bem",
+        "purl": "pkg:rpm/tuxcare/glibc-langpack-bem?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.28-164.el8.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "glibc-langpack-ber",
+        "purl": "pkg:rpm/tuxcare/glibc-langpack-ber?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.28-164.el8.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "glibc-langpack-bg",
+        "purl": "pkg:rpm/tuxcare/glibc-langpack-bg?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.28-164.el8.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "glibc-langpack-bhb",
+        "purl": "pkg:rpm/tuxcare/glibc-langpack-bhb?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.28-164.el8.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "glibc-langpack-bho",
+        "purl": "pkg:rpm/tuxcare/glibc-langpack-bho?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.28-164.el8.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "glibc-langpack-bi",
+        "purl": "pkg:rpm/tuxcare/glibc-langpack-bi?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.28-164.el8.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "glibc-langpack-bn",
+        "purl": "pkg:rpm/tuxcare/glibc-langpack-bn?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.28-164.el8.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "glibc-langpack-bo",
+        "purl": "pkg:rpm/tuxcare/glibc-langpack-bo?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.28-164.el8.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "glibc-langpack-br",
+        "purl": "pkg:rpm/tuxcare/glibc-langpack-br?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.28-164.el8.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "glibc-langpack-brx",
+        "purl": "pkg:rpm/tuxcare/glibc-langpack-brx?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.28-164.el8.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "glibc-langpack-bs",
+        "purl": "pkg:rpm/tuxcare/glibc-langpack-bs?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.28-164.el8.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "glibc-langpack-byn",
+        "purl": "pkg:rpm/tuxcare/glibc-langpack-byn?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.28-164.el8.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "glibc-langpack-ca",
+        "purl": "pkg:rpm/tuxcare/glibc-langpack-ca?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.28-164.el8.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "glibc-langpack-ce",
+        "purl": "pkg:rpm/tuxcare/glibc-langpack-ce?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.28-164.el8.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "glibc-langpack-chr",
+        "purl": "pkg:rpm/tuxcare/glibc-langpack-chr?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.28-164.el8.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "glibc-langpack-cmn",
+        "purl": "pkg:rpm/tuxcare/glibc-langpack-cmn?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.28-164.el8.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "glibc-langpack-crh",
+        "purl": "pkg:rpm/tuxcare/glibc-langpack-crh?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.28-164.el8.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "glibc-langpack-cs",
+        "purl": "pkg:rpm/tuxcare/glibc-langpack-cs?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.28-164.el8.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "glibc-langpack-csb",
+        "purl": "pkg:rpm/tuxcare/glibc-langpack-csb?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.28-164.el8.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "glibc-langpack-cv",
+        "purl": "pkg:rpm/tuxcare/glibc-langpack-cv?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.28-164.el8.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "glibc-langpack-cy",
+        "purl": "pkg:rpm/tuxcare/glibc-langpack-cy?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.28-164.el8.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "glibc-langpack-da",
+        "purl": "pkg:rpm/tuxcare/glibc-langpack-da?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.28-164.el8.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "glibc-langpack-de",
+        "purl": "pkg:rpm/tuxcare/glibc-langpack-de?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.28-164.el8.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "glibc-langpack-doi",
+        "purl": "pkg:rpm/tuxcare/glibc-langpack-doi?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.28-164.el8.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "glibc-langpack-dsb",
+        "purl": "pkg:rpm/tuxcare/glibc-langpack-dsb?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.28-164.el8.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "glibc-langpack-dv",
+        "purl": "pkg:rpm/tuxcare/glibc-langpack-dv?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.28-164.el8.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "glibc-langpack-dz",
+        "purl": "pkg:rpm/tuxcare/glibc-langpack-dz?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.28-164.el8.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "glibc-langpack-el",
+        "purl": "pkg:rpm/tuxcare/glibc-langpack-el?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.28-164.el8.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "glibc-langpack-en",
+        "purl": "pkg:rpm/tuxcare/glibc-langpack-en?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.28-164.el8.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "glibc-langpack-eo",
+        "purl": "pkg:rpm/tuxcare/glibc-langpack-eo?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.28-164.el8.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "glibc-langpack-es",
+        "purl": "pkg:rpm/tuxcare/glibc-langpack-es?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.28-164.el8.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "glibc-langpack-et",
+        "purl": "pkg:rpm/tuxcare/glibc-langpack-et?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.28-164.el8.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "glibc-langpack-eu",
+        "purl": "pkg:rpm/tuxcare/glibc-langpack-eu?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.28-164.el8.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "glibc-langpack-fa",
+        "purl": "pkg:rpm/tuxcare/glibc-langpack-fa?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.28-164.el8.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "glibc-langpack-ff",
+        "purl": "pkg:rpm/tuxcare/glibc-langpack-ff?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.28-164.el8.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "glibc-langpack-fi",
+        "purl": "pkg:rpm/tuxcare/glibc-langpack-fi?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.28-164.el8.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "glibc-langpack-fil",
+        "purl": "pkg:rpm/tuxcare/glibc-langpack-fil?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.28-164.el8.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "glibc-langpack-fo",
+        "purl": "pkg:rpm/tuxcare/glibc-langpack-fo?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.28-164.el8.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "glibc-langpack-fr",
+        "purl": "pkg:rpm/tuxcare/glibc-langpack-fr?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.28-164.el8.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "glibc-langpack-fur",
+        "purl": "pkg:rpm/tuxcare/glibc-langpack-fur?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.28-164.el8.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "glibc-langpack-fy",
+        "purl": "pkg:rpm/tuxcare/glibc-langpack-fy?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.28-164.el8.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "glibc-langpack-ga",
+        "purl": "pkg:rpm/tuxcare/glibc-langpack-ga?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.28-164.el8.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "glibc-langpack-gd",
+        "purl": "pkg:rpm/tuxcare/glibc-langpack-gd?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.28-164.el8.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "glibc-langpack-gez",
+        "purl": "pkg:rpm/tuxcare/glibc-langpack-gez?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.28-164.el8.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "glibc-langpack-gl",
+        "purl": "pkg:rpm/tuxcare/glibc-langpack-gl?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.28-164.el8.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "glibc-langpack-gu",
+        "purl": "pkg:rpm/tuxcare/glibc-langpack-gu?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.28-164.el8.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "glibc-langpack-gv",
+        "purl": "pkg:rpm/tuxcare/glibc-langpack-gv?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.28-164.el8.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "glibc-langpack-ha",
+        "purl": "pkg:rpm/tuxcare/glibc-langpack-ha?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.28-164.el8.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "glibc-langpack-hak",
+        "purl": "pkg:rpm/tuxcare/glibc-langpack-hak?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.28-164.el8.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "glibc-langpack-he",
+        "purl": "pkg:rpm/tuxcare/glibc-langpack-he?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.28-164.el8.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "glibc-langpack-hi",
+        "purl": "pkg:rpm/tuxcare/glibc-langpack-hi?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.28-164.el8.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "glibc-langpack-hif",
+        "purl": "pkg:rpm/tuxcare/glibc-langpack-hif?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.28-164.el8.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "glibc-langpack-hne",
+        "purl": "pkg:rpm/tuxcare/glibc-langpack-hne?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.28-164.el8.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "glibc-langpack-hr",
+        "purl": "pkg:rpm/tuxcare/glibc-langpack-hr?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.28-164.el8.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "glibc-langpack-hsb",
+        "purl": "pkg:rpm/tuxcare/glibc-langpack-hsb?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.28-164.el8.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "glibc-langpack-ht",
+        "purl": "pkg:rpm/tuxcare/glibc-langpack-ht?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.28-164.el8.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "glibc-langpack-hu",
+        "purl": "pkg:rpm/tuxcare/glibc-langpack-hu?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.28-164.el8.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "glibc-langpack-hy",
+        "purl": "pkg:rpm/tuxcare/glibc-langpack-hy?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.28-164.el8.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "glibc-langpack-ia",
+        "purl": "pkg:rpm/tuxcare/glibc-langpack-ia?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.28-164.el8.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "glibc-langpack-id",
+        "purl": "pkg:rpm/tuxcare/glibc-langpack-id?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.28-164.el8.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "glibc-langpack-ig",
+        "purl": "pkg:rpm/tuxcare/glibc-langpack-ig?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.28-164.el8.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "glibc-langpack-ik",
+        "purl": "pkg:rpm/tuxcare/glibc-langpack-ik?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.28-164.el8.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "glibc-langpack-is",
+        "purl": "pkg:rpm/tuxcare/glibc-langpack-is?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.28-164.el8.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "glibc-langpack-it",
+        "purl": "pkg:rpm/tuxcare/glibc-langpack-it?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.28-164.el8.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "glibc-langpack-iu",
+        "purl": "pkg:rpm/tuxcare/glibc-langpack-iu?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.28-164.el8.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "glibc-langpack-ja",
+        "purl": "pkg:rpm/tuxcare/glibc-langpack-ja?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.28-164.el8.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "glibc-langpack-ka",
+        "purl": "pkg:rpm/tuxcare/glibc-langpack-ka?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.28-164.el8.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "glibc-langpack-kab",
+        "purl": "pkg:rpm/tuxcare/glibc-langpack-kab?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.28-164.el8.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "glibc-langpack-kk",
+        "purl": "pkg:rpm/tuxcare/glibc-langpack-kk?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.28-164.el8.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "glibc-langpack-kl",
+        "purl": "pkg:rpm/tuxcare/glibc-langpack-kl?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.28-164.el8.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "glibc-langpack-km",
+        "purl": "pkg:rpm/tuxcare/glibc-langpack-km?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.28-164.el8.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "glibc-langpack-kn",
+        "purl": "pkg:rpm/tuxcare/glibc-langpack-kn?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.28-164.el8.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "glibc-langpack-ko",
+        "purl": "pkg:rpm/tuxcare/glibc-langpack-ko?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.28-164.el8.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "glibc-langpack-kok",
+        "purl": "pkg:rpm/tuxcare/glibc-langpack-kok?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.28-164.el8.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "glibc-langpack-ks",
+        "purl": "pkg:rpm/tuxcare/glibc-langpack-ks?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.28-164.el8.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "glibc-langpack-ku",
+        "purl": "pkg:rpm/tuxcare/glibc-langpack-ku?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.28-164.el8.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "glibc-langpack-kw",
+        "purl": "pkg:rpm/tuxcare/glibc-langpack-kw?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.28-164.el8.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "glibc-langpack-ky",
+        "purl": "pkg:rpm/tuxcare/glibc-langpack-ky?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.28-164.el8.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "glibc-langpack-lb",
+        "purl": "pkg:rpm/tuxcare/glibc-langpack-lb?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.28-164.el8.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "glibc-langpack-lg",
+        "purl": "pkg:rpm/tuxcare/glibc-langpack-lg?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.28-164.el8.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "glibc-langpack-li",
+        "purl": "pkg:rpm/tuxcare/glibc-langpack-li?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.28-164.el8.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "glibc-langpack-lij",
+        "purl": "pkg:rpm/tuxcare/glibc-langpack-lij?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.28-164.el8.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "glibc-langpack-ln",
+        "purl": "pkg:rpm/tuxcare/glibc-langpack-ln?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.28-164.el8.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "glibc-langpack-lo",
+        "purl": "pkg:rpm/tuxcare/glibc-langpack-lo?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.28-164.el8.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "glibc-langpack-lt",
+        "purl": "pkg:rpm/tuxcare/glibc-langpack-lt?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.28-164.el8.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "glibc-langpack-lv",
+        "purl": "pkg:rpm/tuxcare/glibc-langpack-lv?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.28-164.el8.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "glibc-langpack-lzh",
+        "purl": "pkg:rpm/tuxcare/glibc-langpack-lzh?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.28-164.el8.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "glibc-langpack-mag",
+        "purl": "pkg:rpm/tuxcare/glibc-langpack-mag?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.28-164.el8.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "glibc-langpack-mai",
+        "purl": "pkg:rpm/tuxcare/glibc-langpack-mai?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.28-164.el8.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "glibc-langpack-mfe",
+        "purl": "pkg:rpm/tuxcare/glibc-langpack-mfe?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.28-164.el8.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "glibc-langpack-mg",
+        "purl": "pkg:rpm/tuxcare/glibc-langpack-mg?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.28-164.el8.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "glibc-langpack-mhr",
+        "purl": "pkg:rpm/tuxcare/glibc-langpack-mhr?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.28-164.el8.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "glibc-langpack-mi",
+        "purl": "pkg:rpm/tuxcare/glibc-langpack-mi?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.28-164.el8.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "glibc-langpack-miq",
+        "purl": "pkg:rpm/tuxcare/glibc-langpack-miq?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.28-164.el8.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "glibc-langpack-mjw",
+        "purl": "pkg:rpm/tuxcare/glibc-langpack-mjw?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.28-164.el8.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "glibc-langpack-mk",
+        "purl": "pkg:rpm/tuxcare/glibc-langpack-mk?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.28-164.el8.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "glibc-langpack-ml",
+        "purl": "pkg:rpm/tuxcare/glibc-langpack-ml?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.28-164.el8.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "glibc-langpack-mn",
+        "purl": "pkg:rpm/tuxcare/glibc-langpack-mn?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.28-164.el8.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "glibc-langpack-mni",
+        "purl": "pkg:rpm/tuxcare/glibc-langpack-mni?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.28-164.el8.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "glibc-langpack-mr",
+        "purl": "pkg:rpm/tuxcare/glibc-langpack-mr?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.28-164.el8.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "glibc-langpack-ms",
+        "purl": "pkg:rpm/tuxcare/glibc-langpack-ms?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.28-164.el8.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "glibc-langpack-mt",
+        "purl": "pkg:rpm/tuxcare/glibc-langpack-mt?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.28-164.el8.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "glibc-langpack-my",
+        "purl": "pkg:rpm/tuxcare/glibc-langpack-my?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.28-164.el8.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "glibc-langpack-nan",
+        "purl": "pkg:rpm/tuxcare/glibc-langpack-nan?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.28-164.el8.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "glibc-langpack-nb",
+        "purl": "pkg:rpm/tuxcare/glibc-langpack-nb?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.28-164.el8.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "glibc-langpack-nds",
+        "purl": "pkg:rpm/tuxcare/glibc-langpack-nds?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.28-164.el8.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "glibc-langpack-ne",
+        "purl": "pkg:rpm/tuxcare/glibc-langpack-ne?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.28-164.el8.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "glibc-langpack-nhn",
+        "purl": "pkg:rpm/tuxcare/glibc-langpack-nhn?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.28-164.el8.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "glibc-langpack-niu",
+        "purl": "pkg:rpm/tuxcare/glibc-langpack-niu?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.28-164.el8.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "glibc-langpack-nl",
+        "purl": "pkg:rpm/tuxcare/glibc-langpack-nl?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.28-164.el8.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "glibc-langpack-nn",
+        "purl": "pkg:rpm/tuxcare/glibc-langpack-nn?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.28-164.el8.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "glibc-langpack-nr",
+        "purl": "pkg:rpm/tuxcare/glibc-langpack-nr?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.28-164.el8.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "glibc-langpack-nso",
+        "purl": "pkg:rpm/tuxcare/glibc-langpack-nso?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.28-164.el8.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "glibc-langpack-oc",
+        "purl": "pkg:rpm/tuxcare/glibc-langpack-oc?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.28-164.el8.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "glibc-langpack-om",
+        "purl": "pkg:rpm/tuxcare/glibc-langpack-om?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.28-164.el8.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "glibc-langpack-or",
+        "purl": "pkg:rpm/tuxcare/glibc-langpack-or?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.28-164.el8.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "glibc-langpack-os",
+        "purl": "pkg:rpm/tuxcare/glibc-langpack-os?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.28-164.el8.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "glibc-langpack-pa",
+        "purl": "pkg:rpm/tuxcare/glibc-langpack-pa?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.28-164.el8.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "glibc-langpack-pap",
+        "purl": "pkg:rpm/tuxcare/glibc-langpack-pap?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.28-164.el8.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "glibc-langpack-pl",
+        "purl": "pkg:rpm/tuxcare/glibc-langpack-pl?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.28-164.el8.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "glibc-langpack-ps",
+        "purl": "pkg:rpm/tuxcare/glibc-langpack-ps?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.28-164.el8.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "glibc-langpack-pt",
+        "purl": "pkg:rpm/tuxcare/glibc-langpack-pt?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.28-164.el8.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "glibc-langpack-quz",
+        "purl": "pkg:rpm/tuxcare/glibc-langpack-quz?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.28-164.el8.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "glibc-langpack-raj",
+        "purl": "pkg:rpm/tuxcare/glibc-langpack-raj?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.28-164.el8.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "glibc-langpack-ro",
+        "purl": "pkg:rpm/tuxcare/glibc-langpack-ro?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.28-164.el8.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "glibc-langpack-ru",
+        "purl": "pkg:rpm/tuxcare/glibc-langpack-ru?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.28-164.el8.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "glibc-langpack-rw",
+        "purl": "pkg:rpm/tuxcare/glibc-langpack-rw?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.28-164.el8.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "glibc-langpack-sa",
+        "purl": "pkg:rpm/tuxcare/glibc-langpack-sa?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.28-164.el8.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "glibc-langpack-sah",
+        "purl": "pkg:rpm/tuxcare/glibc-langpack-sah?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.28-164.el8.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "glibc-langpack-sat",
+        "purl": "pkg:rpm/tuxcare/glibc-langpack-sat?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.28-164.el8.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "glibc-langpack-sc",
+        "purl": "pkg:rpm/tuxcare/glibc-langpack-sc?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.28-164.el8.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "glibc-langpack-sd",
+        "purl": "pkg:rpm/tuxcare/glibc-langpack-sd?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.28-164.el8.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "glibc-langpack-se",
+        "purl": "pkg:rpm/tuxcare/glibc-langpack-se?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.28-164.el8.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "glibc-langpack-sgs",
+        "purl": "pkg:rpm/tuxcare/glibc-langpack-sgs?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.28-164.el8.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "glibc-langpack-shn",
+        "purl": "pkg:rpm/tuxcare/glibc-langpack-shn?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.28-164.el8.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "glibc-langpack-shs",
+        "purl": "pkg:rpm/tuxcare/glibc-langpack-shs?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.28-164.el8.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "glibc-langpack-si",
+        "purl": "pkg:rpm/tuxcare/glibc-langpack-si?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.28-164.el8.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "glibc-langpack-sid",
+        "purl": "pkg:rpm/tuxcare/glibc-langpack-sid?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.28-164.el8.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "glibc-langpack-sk",
+        "purl": "pkg:rpm/tuxcare/glibc-langpack-sk?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.28-164.el8.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "glibc-langpack-sl",
+        "purl": "pkg:rpm/tuxcare/glibc-langpack-sl?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.28-164.el8.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "glibc-langpack-sm",
+        "purl": "pkg:rpm/tuxcare/glibc-langpack-sm?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.28-164.el8.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "glibc-langpack-so",
+        "purl": "pkg:rpm/tuxcare/glibc-langpack-so?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.28-164.el8.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "glibc-langpack-sq",
+        "purl": "pkg:rpm/tuxcare/glibc-langpack-sq?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.28-164.el8.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "glibc-langpack-sr",
+        "purl": "pkg:rpm/tuxcare/glibc-langpack-sr?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.28-164.el8.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "glibc-langpack-ss",
+        "purl": "pkg:rpm/tuxcare/glibc-langpack-ss?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.28-164.el8.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "glibc-langpack-st",
+        "purl": "pkg:rpm/tuxcare/glibc-langpack-st?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.28-164.el8.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "glibc-langpack-sv",
+        "purl": "pkg:rpm/tuxcare/glibc-langpack-sv?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.28-164.el8.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "glibc-langpack-sw",
+        "purl": "pkg:rpm/tuxcare/glibc-langpack-sw?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.28-164.el8.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "glibc-langpack-szl",
+        "purl": "pkg:rpm/tuxcare/glibc-langpack-szl?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.28-164.el8.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "glibc-langpack-ta",
+        "purl": "pkg:rpm/tuxcare/glibc-langpack-ta?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.28-164.el8.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "glibc-langpack-tcy",
+        "purl": "pkg:rpm/tuxcare/glibc-langpack-tcy?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.28-164.el8.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "glibc-langpack-te",
+        "purl": "pkg:rpm/tuxcare/glibc-langpack-te?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.28-164.el8.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "glibc-langpack-tg",
+        "purl": "pkg:rpm/tuxcare/glibc-langpack-tg?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.28-164.el8.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "glibc-langpack-th",
+        "purl": "pkg:rpm/tuxcare/glibc-langpack-th?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.28-164.el8.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "glibc-langpack-the",
+        "purl": "pkg:rpm/tuxcare/glibc-langpack-the?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.28-164.el8.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "glibc-langpack-ti",
+        "purl": "pkg:rpm/tuxcare/glibc-langpack-ti?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.28-164.el8.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "glibc-langpack-tig",
+        "purl": "pkg:rpm/tuxcare/glibc-langpack-tig?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.28-164.el8.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "glibc-langpack-tk",
+        "purl": "pkg:rpm/tuxcare/glibc-langpack-tk?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.28-164.el8.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "glibc-langpack-tl",
+        "purl": "pkg:rpm/tuxcare/glibc-langpack-tl?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.28-164.el8.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "glibc-langpack-tn",
+        "purl": "pkg:rpm/tuxcare/glibc-langpack-tn?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.28-164.el8.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "glibc-langpack-to",
+        "purl": "pkg:rpm/tuxcare/glibc-langpack-to?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.28-164.el8.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "glibc-langpack-tpi",
+        "purl": "pkg:rpm/tuxcare/glibc-langpack-tpi?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.28-164.el8.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "glibc-langpack-tr",
+        "purl": "pkg:rpm/tuxcare/glibc-langpack-tr?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.28-164.el8.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "glibc-langpack-ts",
+        "purl": "pkg:rpm/tuxcare/glibc-langpack-ts?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.28-164.el8.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "glibc-langpack-tt",
+        "purl": "pkg:rpm/tuxcare/glibc-langpack-tt?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.28-164.el8.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "glibc-langpack-ug",
+        "purl": "pkg:rpm/tuxcare/glibc-langpack-ug?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.28-164.el8.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "glibc-langpack-uk",
+        "purl": "pkg:rpm/tuxcare/glibc-langpack-uk?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.28-164.el8.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "glibc-langpack-unm",
+        "purl": "pkg:rpm/tuxcare/glibc-langpack-unm?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.28-164.el8.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "glibc-langpack-ur",
+        "purl": "pkg:rpm/tuxcare/glibc-langpack-ur?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.28-164.el8.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "glibc-langpack-uz",
+        "purl": "pkg:rpm/tuxcare/glibc-langpack-uz?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.28-164.el8.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "glibc-langpack-ve",
+        "purl": "pkg:rpm/tuxcare/glibc-langpack-ve?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.28-164.el8.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "glibc-langpack-vi",
+        "purl": "pkg:rpm/tuxcare/glibc-langpack-vi?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.28-164.el8.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "glibc-langpack-wa",
+        "purl": "pkg:rpm/tuxcare/glibc-langpack-wa?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.28-164.el8.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "glibc-langpack-wae",
+        "purl": "pkg:rpm/tuxcare/glibc-langpack-wae?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.28-164.el8.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "glibc-langpack-wal",
+        "purl": "pkg:rpm/tuxcare/glibc-langpack-wal?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.28-164.el8.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "glibc-langpack-wo",
+        "purl": "pkg:rpm/tuxcare/glibc-langpack-wo?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.28-164.el8.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "glibc-langpack-xh",
+        "purl": "pkg:rpm/tuxcare/glibc-langpack-xh?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.28-164.el8.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "glibc-langpack-yi",
+        "purl": "pkg:rpm/tuxcare/glibc-langpack-yi?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.28-164.el8.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "glibc-langpack-yo",
+        "purl": "pkg:rpm/tuxcare/glibc-langpack-yo?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.28-164.el8.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "glibc-langpack-yue",
+        "purl": "pkg:rpm/tuxcare/glibc-langpack-yue?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.28-164.el8.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "glibc-langpack-yuw",
+        "purl": "pkg:rpm/tuxcare/glibc-langpack-yuw?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.28-164.el8.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "glibc-langpack-zh",
+        "purl": "pkg:rpm/tuxcare/glibc-langpack-zh?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.28-164.el8.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "glibc-langpack-zu",
+        "purl": "pkg:rpm/tuxcare/glibc-langpack-zu?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.28-164.el8.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "glibc-locale-source",
+        "purl": "pkg:rpm/tuxcare/glibc-locale-source?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.28-164.el8.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "glibc-minimal-langpack",
+        "purl": "pkg:rpm/tuxcare/glibc-minimal-langpack?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.28-164.el8.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "glibc-nss-devel",
+        "purl": "pkg:rpm/tuxcare/glibc-nss-devel?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.28-164.el8.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "glibc-static",
+        "purl": "pkg:rpm/tuxcare/glibc-static?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.28-164.el8.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "glibc-utils",
+        "purl": "pkg:rpm/tuxcare/glibc-utils?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.28-164.el8.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "libnsl",
+        "purl": "pkg:rpm/tuxcare/libnsl?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.28-164.el8.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "nscd",
+        "purl": "pkg:rpm/tuxcare/nscd?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.28-164.el8.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "nss_db",
+        "purl": "pkg:rpm/tuxcare/nss_db?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.28-164.el8.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "nss_hesiod",
+        "purl": "pkg:rpm/tuxcare/nss_hesiod?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.28-164.el8.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2025-0395"
+  ],
+  "published": "2025-10-20T13:19:09Z",
+  "modified": "2025-10-20T13:19:09Z",
+  "details": "- CVE-2025-0395: fix buffer underallocation in assert() and libc_fatal() mmap handling",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/centos8.5els/CLSA-2025-1760966342.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

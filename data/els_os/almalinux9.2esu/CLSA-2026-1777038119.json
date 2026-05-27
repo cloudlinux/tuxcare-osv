@@ -1,0 +1,58 @@
+{
+  "id": "CLSA-2026-1777038119",
+  "summary": "plexus-utils: Fix of CVE-2025-67030",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "plexus-utils",
+        "purl": "pkg:rpm/tuxcare/plexus-utils?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.3.0-10.el9.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "plexus-utils-javadoc",
+        "purl": "pkg:rpm/tuxcare/plexus-utils-javadoc?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.3.0-10.el9.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2025-67030"
+  ],
+  "published": "2026-04-24T13:42:03Z",
+  "modified": "2026-04-24T13:42:03Z",
+  "details": "- CVE-2025-67030 fix zip slip via canonical path check in Expand",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/almalinux9.2esu/CLSA-2026-1777038119.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "id": "CLSA-2026-1774433526",
+  "summary": "expat: Fix of CVE-2026-32776",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "expat",
+        "purl": "pkg:rpm/tuxcare/expat?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.5.0-1.el9.tuxcare.els9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "expat-devel",
+        "purl": "pkg:rpm/tuxcare/expat-devel?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.5.0-1.el9.tuxcare.els9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "expat-static",
+        "purl": "pkg:rpm/tuxcare/expat-static?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.5.0-1.el9.tuxcare.els9"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-32776"
+  ],
+  "published": "2026-03-25T10:12:10Z",
+  "modified": "2026-03-25T10:12:10Z",
+  "details": "- CVE-2026-32776: fix NULL pointer dereference in storeEntityValue() with empty external parameter entity content",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/almalinux9.2esu/CLSA-2026-1774433526.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

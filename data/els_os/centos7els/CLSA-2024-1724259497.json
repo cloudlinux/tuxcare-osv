@@ -1,0 +1,58 @@
+{
+  "id": "CLSA-2024-1724259497",
+  "summary": "libndp: Fix of CVE-2024-5564",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:7",
+        "name": "libndp",
+        "purl": "pkg:rpm/tuxcare/libndp?distro=centos-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.2-9.el7.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:7",
+        "name": "libndp-devel",
+        "purl": "pkg:rpm/tuxcare/libndp-devel?distro=centos-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.2-9.el7.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2024-5564"
+  ],
+  "published": "2024-08-21T16:58:20Z",
+  "modified": "2024-08-21T16:58:20Z",
+  "details": "- CVE-2024-5564: validate route information option length",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/centos7-els/CLSA-2024-1724259497.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

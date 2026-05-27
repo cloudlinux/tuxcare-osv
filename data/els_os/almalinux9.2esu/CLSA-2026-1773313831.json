@@ -1,0 +1,38 @@
+{
+  "id": "CLSA-2026-1773313831",
+  "summary": "delve: Fix of CVE-2025-68121",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "delve",
+        "purl": "pkg:rpm/tuxcare/delve?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.9.1-1.el9.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2025-68121"
+  ],
+  "published": "2026-03-12T11:10:38Z",
+  "modified": "2026-03-12T11:10:38Z",
+  "details": "- Rebuild with golang 1.22.9-1.el9_2.tuxcare.els6 to fix CVE-2025-68121\n  - CVE-2025-68121: fix TLS session resumption bypass by preventing shared\n    auto-rotated ticket keys in Config and validating full certificate chain expiry",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/almalinux9.2esu/CLSA-2026-1773313831.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

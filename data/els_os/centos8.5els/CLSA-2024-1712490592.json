@@ -1,0 +1,38 @@
+{
+  "id": "CLSA-2024-1712490592",
+  "summary": "squid: Fix of CVE-2024-25111",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "squid",
+        "purl": "pkg:rpm/tuxcare/squid?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7:4.15-1.module_el8.5.0+2170+844797b0.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2024-25111"
+  ],
+  "published": "2024-04-07T11:49:55Z",
+  "modified": "2024-04-07T11:49:55Z",
+  "details": "- CVE-2024-25111: Fix infinite recursion when parsing HTTP chunks",
+  "references": [
+    {
+      "url": "https://errata.cloudlinux.com/centos8.5-els/CLSA-2024-1712490592.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

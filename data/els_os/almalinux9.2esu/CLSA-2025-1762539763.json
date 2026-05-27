@@ -1,0 +1,98 @@
+{
+  "id": "CLSA-2025-1762539763",
+  "summary": "icu: Fix of CVE-2025-5222",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "icu",
+        "purl": "pkg:rpm/tuxcare/icu?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "67.1-9.el9.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "libicu",
+        "purl": "pkg:rpm/tuxcare/libicu?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "67.1-9.el9.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "libicu-devel",
+        "purl": "pkg:rpm/tuxcare/libicu-devel?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "67.1-9.el9.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "libicu-doc",
+        "purl": "pkg:rpm/tuxcare/libicu-doc?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "67.1-9.el9.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2025-5222"
+  ],
+  "published": "2025-11-07T18:22:47Z",
+  "modified": "2025-11-07T18:22:47Z",
+  "details": "- CVE-2025-5222: fix stack buffer overflow in genrb binary by properly handling\n  'subtag' struct in SRBRoot::addTag function",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/almalinux9.2esu/CLSA-2025-1762539763.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

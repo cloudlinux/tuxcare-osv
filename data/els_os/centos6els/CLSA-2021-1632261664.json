@@ -1,0 +1,180 @@
+{
+  "id": "CLSA-2021-1632261664",
+  "summary": "Fix of CVE: CVE-2021-27364, CVE-2021-27363, CVE-2021-27365",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:6",
+        "name": "kernel",
+        "purl": "pkg:rpm/tuxcare/kernel?distro=centos-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.6.32-754.35.3.el6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:6",
+        "name": "kernel-debug",
+        "purl": "pkg:rpm/tuxcare/kernel-debug?distro=centos-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.6.32-754.35.3.el6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:6",
+        "name": "kernel-debug-devel",
+        "purl": "pkg:rpm/tuxcare/kernel-debug-devel?distro=centos-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.6.32-754.35.3.el6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:6",
+        "name": "kernel-devel",
+        "purl": "pkg:rpm/tuxcare/kernel-devel?distro=centos-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.6.32-754.35.3.el6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:6",
+        "name": "kernel-firmware",
+        "purl": "pkg:rpm/tuxcare/kernel-firmware?distro=centos-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.6.32-754.35.3.el6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:6",
+        "name": "kernel-headers",
+        "purl": "pkg:rpm/tuxcare/kernel-headers?distro=centos-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.6.32-754.35.3.el6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:6",
+        "name": "perf",
+        "purl": "pkg:rpm/tuxcare/perf?distro=centos-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.6.32-754.35.3.el6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:6",
+        "name": "python-perf",
+        "purl": "pkg:rpm/tuxcare/python-perf?distro=centos-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.6.32-754.35.3.el6"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2021-27364",
+    "CVE-2021-27363",
+    "CVE-2021-27365"
+  ],
+  "published": "2021-09-21T22:01:04Z",
+  "modified": "2021-09-21T22:01:04Z",
+  "details": "- CVE-2021-27365: scsi: iscsi: Ensure sysfs attributes are limited to PAGE_SIZE\n- CVE-2021-27365: scsi: iscsi: Verify lengths on passthrough PDUs\n- CVE-2021-27363: CVE-2021-27364: scsi: iscsi: Restrict sessions and handles to admin capabilities\n- sysfs: Add sysfs_emit and sysfs_emit_at to format sysfs output",
+  "references": [
+    {
+      "url": "https://errata.cloudlinux.com/els6/CLSA-2021-1632261664.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

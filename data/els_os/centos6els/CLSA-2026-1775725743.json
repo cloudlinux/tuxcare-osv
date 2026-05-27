@@ -1,0 +1,140 @@
+{
+  "id": "CLSA-2026-1775725743",
+  "summary": "ImageMagick: Fix of 3 CVEs",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:6",
+        "name": "ImageMagick",
+        "purl": "pkg:rpm/tuxcare/ImageMagick?distro=centos-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "6.7.2.7-7.el6.tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:6",
+        "name": "ImageMagick-c++",
+        "purl": "pkg:rpm/tuxcare/ImageMagick-c++?distro=centos-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "6.7.2.7-7.el6.tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:6",
+        "name": "ImageMagick-c++-devel",
+        "purl": "pkg:rpm/tuxcare/ImageMagick-c++-devel?distro=centos-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "6.7.2.7-7.el6.tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:6",
+        "name": "ImageMagick-devel",
+        "purl": "pkg:rpm/tuxcare/ImageMagick-devel?distro=centos-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "6.7.2.7-7.el6.tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:6",
+        "name": "ImageMagick-doc",
+        "purl": "pkg:rpm/tuxcare/ImageMagick-doc?distro=centos-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "6.7.2.7-7.el6.tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:6",
+        "name": "ImageMagick-perl",
+        "purl": "pkg:rpm/tuxcare/ImageMagick-perl?distro=centos-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "6.7.2.7-7.el6.tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2025-66628",
+    "CVE-2026-28494",
+    "CVE-2026-28693"
+  ],
+  "published": "2026-04-09T14:44:23Z",
+  "modified": "2026-04-09T14:44:23Z",
+  "details": "- CVE-2025-66628: fix integer overflow in TIM parser\n- CVE-2026-28494: fix stack buffer overflow in morphology kernel parsing\n- CVE-2026-28693: fix integer overflow in DIB coder",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/centos6els/CLSA-2026-1775725743.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

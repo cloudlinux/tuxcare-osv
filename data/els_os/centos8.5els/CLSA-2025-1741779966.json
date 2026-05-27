@@ -1,0 +1,58 @@
+{
+  "id": "CLSA-2025-1741779966",
+  "summary": "binutils: Fix of CVE-2025-0840",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "binutils",
+        "purl": "pkg:rpm/tuxcare/binutils?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.30-108.el8_5.1.tuxcare.els6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "binutils-devel",
+        "purl": "pkg:rpm/tuxcare/binutils-devel?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.30-108.el8_5.1.tuxcare.els6"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2025-0840"
+  ],
+  "published": "2025-03-12T11:46:15Z",
+  "modified": "2025-03-12T11:46:15Z",
+  "details": "- CVE-2025-0840: fix stack-buffer-overflow at objdump disassemble_bytes",
+  "references": [
+    {
+      "url": "https://errata.cloudlinux.com/centos8.5-els/CLSA-2025-1741779966.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

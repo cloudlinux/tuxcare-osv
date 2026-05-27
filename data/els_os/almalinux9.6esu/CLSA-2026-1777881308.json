@@ -1,0 +1,59 @@
+{
+  "id": "CLSA-2026-1777881308",
+  "summary": "jq: Fix of 2 CVEs",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "jq",
+        "purl": "pkg:rpm/tuxcare/jq?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.6-17.el9_6.2.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "jq-devel",
+        "purl": "pkg:rpm/tuxcare/jq-devel?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.6-17.el9_6.2.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-32316",
+    "CVE-2026-39979"
+  ],
+  "published": "2026-05-04T07:55:12Z",
+  "modified": "2026-05-04T07:55:12Z",
+  "details": "- CVE-2026-32316: fix heap buffer overflow in jvp_string_append and\n  jvp_string_copy_replace_bad\n- CVE-2026-39979: fix out-of-bounds read in jv_parse_sized",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/tuxcare9.6esu/CLSA-2026-1777881308.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

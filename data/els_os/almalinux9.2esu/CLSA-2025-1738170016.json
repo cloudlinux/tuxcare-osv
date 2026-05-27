@@ -1,0 +1,98 @@
+{
+  "id": "CLSA-2025-1738170016",
+  "summary": "unbound: Fix of CVE-2024-1488",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "python3-unbound",
+        "purl": "pkg:rpm/tuxcare/python3-unbound?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.16.2-3.el9.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "unbound",
+        "purl": "pkg:rpm/tuxcare/unbound?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.16.2-3.el9.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "unbound-devel",
+        "purl": "pkg:rpm/tuxcare/unbound-devel?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.16.2-3.el9.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "unbound-libs",
+        "purl": "pkg:rpm/tuxcare/unbound-libs?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.16.2-3.el9.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2024-1488"
+  ],
+  "published": "2025-01-29T17:00:23Z",
+  "modified": "2025-01-29T17:00:23Z",
+  "details": "- CVE-2024-1488: make sure that only the unbound group is allowed to\n  modify the configuration",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/almalinux9.2-esu/CLSA-2025-1738170016.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

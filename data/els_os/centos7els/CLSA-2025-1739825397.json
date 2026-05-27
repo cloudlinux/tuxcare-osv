@@ -1,0 +1,123 @@
+{
+  "id": "CLSA-2025-1739825397",
+  "summary": "freerdp: Fix of 6 CVEs",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:7",
+        "name": "freerdp",
+        "purl": "pkg:rpm/tuxcare/freerdp?distro=centos-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.1.1-5.el7_9.tuxcare.els4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:7",
+        "name": "freerdp-devel",
+        "purl": "pkg:rpm/tuxcare/freerdp-devel?distro=centos-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.1.1-5.el7_9.tuxcare.els4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:7",
+        "name": "freerdp-libs",
+        "purl": "pkg:rpm/tuxcare/freerdp-libs?distro=centos-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.1.1-5.el7_9.tuxcare.els4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:7",
+        "name": "libwinpr",
+        "purl": "pkg:rpm/tuxcare/libwinpr?distro=centos-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.1.1-5.el7_9.tuxcare.els4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:7",
+        "name": "libwinpr-devel",
+        "purl": "pkg:rpm/tuxcare/libwinpr-devel?distro=centos-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.1.1-5.el7_9.tuxcare.els4"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2024-32458",
+    "CVE-2024-32459",
+    "CVE-2024-32460",
+    "CVE-2024-32039",
+    "CVE-2024-32040",
+    "CVE-2024-32041"
+  ],
+  "published": "2025-02-17T20:50:02Z",
+  "modified": "2025-02-17T20:50:02Z",
+  "details": "- CVE-2024-32458: fix missing input length checks\n- CVE-2024-32459: fix missing input length check\n- CVE-2024-32460: fix out-of-bound read in interleaved_decompress\n- CVE-2024-32039: fix integer overflow\n- CVE-2024-32040: fix missing check\n- CVE-2024-32041: fix integer overflow",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/centos7-els/CLSA-2025-1739825397.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

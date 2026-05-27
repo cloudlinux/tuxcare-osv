@@ -1,0 +1,221 @@
+{
+  "id": "CLSA-2025-1750172760",
+  "summary": "kernel: Fix of 4 CVEs",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:6",
+        "name": "kernel",
+        "purl": "pkg:rpm/tuxcare/kernel?distro=oraclelinux-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.6.32-754.35.8.el6.tuxcare.els23"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:6",
+        "name": "kernel-abi-whitelists",
+        "purl": "pkg:rpm/tuxcare/kernel-abi-whitelists?distro=oraclelinux-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.6.32-754.35.8.el6.tuxcare.els23"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:6",
+        "name": "kernel-debug",
+        "purl": "pkg:rpm/tuxcare/kernel-debug?distro=oraclelinux-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.6.32-754.35.8.el6.tuxcare.els23"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:6",
+        "name": "kernel-debug-devel",
+        "purl": "pkg:rpm/tuxcare/kernel-debug-devel?distro=oraclelinux-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.6.32-754.35.8.el6.tuxcare.els23"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:6",
+        "name": "kernel-devel",
+        "purl": "pkg:rpm/tuxcare/kernel-devel?distro=oraclelinux-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.6.32-754.35.8.el6.tuxcare.els23"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:6",
+        "name": "kernel-doc",
+        "purl": "pkg:rpm/tuxcare/kernel-doc?distro=oraclelinux-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.6.32-754.35.8.el6.tuxcare.els23"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:6",
+        "name": "kernel-firmware",
+        "purl": "pkg:rpm/tuxcare/kernel-firmware?distro=oraclelinux-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.6.32-754.35.8.el6.tuxcare.els23"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:6",
+        "name": "kernel-headers",
+        "purl": "pkg:rpm/tuxcare/kernel-headers?distro=oraclelinux-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.6.32-754.35.8.el6.tuxcare.els23"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:6",
+        "name": "perf",
+        "purl": "pkg:rpm/tuxcare/perf?distro=oraclelinux-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.6.32-754.35.8.el6.tuxcare.els23"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:6",
+        "name": "python-perf",
+        "purl": "pkg:rpm/tuxcare/python-perf?distro=oraclelinux-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.6.32-754.35.8.el6.tuxcare.els23"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2022-49478",
+    "CVE-2021-47110",
+    "CVE-2022-49541",
+    "CVE-2022-49530"
+  ],
+  "published": "2025-06-17T15:06:05Z",
+  "modified": "2025-06-17T15:06:05Z",
+  "details": "- media: pvrusb2: fix array-index-out-of-bounds in pvr2_i2c_core_init {CVE-2022-49478}\n- x86/kvm: Disable kvmclock on all CPUs on shutdown {CVE-2021-47110}\n- cifs: fix potential double free during failed mount {CVE-2022-49541}\n- drm/amd/pm: fix double free in si_parse_power_table() {CVE-2022-49530}",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/oraclelinux6els/CLSA-2025-1750172760.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

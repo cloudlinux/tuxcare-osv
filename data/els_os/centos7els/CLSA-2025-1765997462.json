@@ -1,0 +1,98 @@
+{
+  "id": "CLSA-2025-1765997462",
+  "summary": "unbound: Fix of CVE-2024-8508",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:7",
+        "name": "unbound",
+        "purl": "pkg:rpm/tuxcare/unbound?distro=centos-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.6.6-5.el7_8.tuxcare.els4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:7",
+        "name": "unbound-devel",
+        "purl": "pkg:rpm/tuxcare/unbound-devel?distro=centos-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.6.6-5.el7_8.tuxcare.els4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:7",
+        "name": "unbound-libs",
+        "purl": "pkg:rpm/tuxcare/unbound-libs?distro=centos-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.6.6-5.el7_8.tuxcare.els4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:7",
+        "name": "unbound-python",
+        "purl": "pkg:rpm/tuxcare/unbound-python?distro=centos-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.6.6-5.el7_8.tuxcare.els4"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2024-8508"
+  ],
+  "published": "2025-12-19T17:38:14Z",
+  "modified": "2025-12-19T17:38:14Z",
+  "details": "- CVE-2024-8508: limit number of name compression calculations per packet to\n  prevent denial of service attacks.",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/centos7els/CLSA-2025-1765997462.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

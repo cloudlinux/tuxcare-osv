@@ -1,0 +1,160 @@
+{
+  "id": "CLSA-2026-1779461988",
+  "summary": "krb5: Fix of 3 CVEs",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS-Stream:8",
+        "name": "krb5-devel",
+        "purl": "pkg:rpm/tuxcare/krb5-devel?distro=centos-stream-8"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.18.2-27.el8.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS-Stream:8",
+        "name": "krb5-libs",
+        "purl": "pkg:rpm/tuxcare/krb5-libs?distro=centos-stream-8"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.18.2-27.el8.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS-Stream:8",
+        "name": "krb5-pkinit",
+        "purl": "pkg:rpm/tuxcare/krb5-pkinit?distro=centos-stream-8"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.18.2-27.el8.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS-Stream:8",
+        "name": "krb5-server",
+        "purl": "pkg:rpm/tuxcare/krb5-server?distro=centos-stream-8"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.18.2-27.el8.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS-Stream:8",
+        "name": "krb5-server-ldap",
+        "purl": "pkg:rpm/tuxcare/krb5-server-ldap?distro=centos-stream-8"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.18.2-27.el8.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS-Stream:8",
+        "name": "krb5-workstation",
+        "purl": "pkg:rpm/tuxcare/krb5-workstation?distro=centos-stream-8"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.18.2-27.el8.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS-Stream:8",
+        "name": "libkadm5",
+        "purl": "pkg:rpm/tuxcare/libkadm5?distro=centos-stream-8"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.18.2-27.el8.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2024-3596",
+    "CVE-2024-37370",
+    "CVE-2024-37371"
+  ],
+  "published": "2026-05-22T14:59:52Z",
+  "modified": "2026-05-22T14:59:52Z",
+  "details": "- CVE-2024-3596: generate and verify Message-Authenticator MACs in libkrad to\n  mitigate the BlastRADIUS attack on the RADIUS protocol; includes follow-up\n  fix for uninitialized pointer dereference in krad_packet_decode_request\n- CVE-2024-37370: prevent modification of Extra Count field in GSS krb5 wrap\n  token to avoid appearing truncated to application\n- CVE-2024-37371: fix invalid memory reads during GSS message token handling",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/centos-stream8els/CLSA-2026-1779461988.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

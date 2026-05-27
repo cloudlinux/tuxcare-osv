@@ -1,0 +1,78 @@
+{
+  "id": "CLSA-2026-1773931583",
+  "summary": "libssh: Fix of CVE-2026-3731",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "libssh",
+        "purl": "pkg:rpm/tuxcare/libssh?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.9.4-3.el8.tuxcare.els7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "libssh-config",
+        "purl": "pkg:rpm/tuxcare/libssh-config?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.9.4-3.el8.tuxcare.els7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "libssh-devel",
+        "purl": "pkg:rpm/tuxcare/libssh-devel?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.9.4-3.el8.tuxcare.els7"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-3731"
+  ],
+  "published": "2026-03-19T14:46:28Z",
+  "modified": "2026-03-19T14:46:28Z",
+  "details": "- CVE-2026-3731: fix off-by-one in sftp_extensions_get_name/sftp_extensions_get_data",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/centos8.5els/CLSA-2026-1773931583.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

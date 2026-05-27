@@ -1,0 +1,38 @@
+{
+  "id": "CLSA-2026-1777564129",
+  "summary": "tar: Fix of CVE-2019-9923",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:6",
+        "name": "tar",
+        "purl": "pkg:rpm/tuxcare/tar?distro=centos-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:1.23-15.el6_8.tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2019-9923"
+  ],
+  "published": "2026-05-05T21:19:42Z",
+  "modified": "2026-05-05T21:19:42Z",
+  "details": "- CVE-2019-9923: fix NULL pointer dereference in pax_decode_header on\n  malformed PAX extended headers",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/centos6els/CLSA-2026-1777564129.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

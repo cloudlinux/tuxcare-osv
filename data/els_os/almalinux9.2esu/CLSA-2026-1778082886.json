@@ -1,0 +1,78 @@
+{
+  "id": "CLSA-2026-1778082886",
+  "summary": "libssh: Fix of CVE-2026-0966",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "libssh",
+        "purl": "pkg:rpm/tuxcare/libssh?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.10.4-8.el9.tuxcare.els9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "libssh-config",
+        "purl": "pkg:rpm/tuxcare/libssh-config?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.10.4-8.el9.tuxcare.els9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "libssh-devel",
+        "purl": "pkg:rpm/tuxcare/libssh-devel?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.10.4-8.el9.tuxcare.els9"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-0966"
+  ],
+  "published": "2026-05-06T15:54:50Z",
+  "modified": "2026-05-06T15:54:50Z",
+  "details": "- CVE-2026-0966: avoid 1-byte heap buffer underflow in ssh_get_hexa() on NULL/zero-length input",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/almalinux9.2esu/CLSA-2026-1778082886.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

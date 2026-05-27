@@ -1,0 +1,58 @@
+{
+  "id": "CLSA-2026-1779369849",
+  "summary": "rsync: Fix of CVE-2026-43618",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS-Stream:8",
+        "name": "rsync",
+        "purl": "pkg:rpm/tuxcare/rsync?distro=centos-stream-8"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.1.3-19.el8.1.tuxcare.els7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS-Stream:8",
+        "name": "rsync-daemon",
+        "purl": "pkg:rpm/tuxcare/rsync-daemon?distro=centos-stream-8"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.1.3-19.el8.1.tuxcare.els7"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-43618"
+  ],
+  "published": "2026-05-21T13:24:14Z",
+  "modified": "2026-05-21T13:24:14Z",
+  "details": "- CVE-2026-43618: fix integer overflow in compressed-token decoder\n  allowing remote memory disclosure via crafted compressed stream",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/centos-stream8els/CLSA-2026-1779369849.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

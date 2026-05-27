@@ -1,0 +1,118 @@
+{
+  "id": "CLSA-2026-1778617167",
+  "summary": "freeipmi: Fix of CVE-2026-33554",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "freeipmi",
+        "purl": "pkg:rpm/tuxcare/freeipmi?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.6.9-1.el9.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "freeipmi-bmc-watchdog",
+        "purl": "pkg:rpm/tuxcare/freeipmi-bmc-watchdog?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.6.9-1.el9.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "freeipmi-devel",
+        "purl": "pkg:rpm/tuxcare/freeipmi-devel?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.6.9-1.el9.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "freeipmi-ipmidetectd",
+        "purl": "pkg:rpm/tuxcare/freeipmi-ipmidetectd?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.6.9-1.el9.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "freeipmi-ipmiseld",
+        "purl": "pkg:rpm/tuxcare/freeipmi-ipmiseld?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.6.9-1.el9.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-33554"
+  ],
+  "published": "2026-05-12T20:19:38Z",
+  "modified": "2026-05-12T20:19:38Z",
+  "details": "- CVE-2026-33554: fix buffer overflows in ipmi-oem response handling\n  for dell get-last-post-code, supermicro extra-firmware-info, and\n  wistron read-proprietary-string subcommands",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/almalinux9.2esu/CLSA-2026-1778617167.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

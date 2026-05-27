@@ -1,0 +1,98 @@
+{
+  "id": "CLSA-2026-1779434064",
+  "summary": "libdnf: Fix of CVE-2021-3445",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:RHEL:7",
+        "name": "libdnf",
+        "purl": "pkg:rpm/tuxcare/libdnf?distro=rhel-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.22.5-2.el7_9.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:RHEL:7",
+        "name": "libdnf-devel",
+        "purl": "pkg:rpm/tuxcare/libdnf-devel?distro=rhel-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.22.5-2.el7_9.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:RHEL:7",
+        "name": "python2-hawkey",
+        "purl": "pkg:rpm/tuxcare/python2-hawkey?distro=rhel-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.22.5-2.el7_9.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:RHEL:7",
+        "name": "python2-libdnf",
+        "purl": "pkg:rpm/tuxcare/python2-libdnf?distro=rhel-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.22.5-2.el7_9.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2021-3445"
+  ],
+  "published": "2026-05-22T07:14:28Z",
+  "modified": "2026-05-22T07:14:28Z",
+  "details": "- CVE-2021-3445: fix signature verification bypass via signature placed\n  in the main RPM header",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/rhel7els/CLSA-2026-1779434064.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

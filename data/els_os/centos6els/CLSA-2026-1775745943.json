@@ -1,0 +1,222 @@
+{
+  "id": "CLSA-2026-1775745943",
+  "summary": "kernel: Fix of 5 CVEs",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:6",
+        "name": "kernel",
+        "purl": "pkg:rpm/tuxcare/kernel?distro=centos-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.6.32-754.35.8.el6.tuxcare.els31"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:6",
+        "name": "kernel-abi-whitelists",
+        "purl": "pkg:rpm/tuxcare/kernel-abi-whitelists?distro=centos-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.6.32-754.35.8.el6.tuxcare.els31"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:6",
+        "name": "kernel-debug",
+        "purl": "pkg:rpm/tuxcare/kernel-debug?distro=centos-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.6.32-754.35.8.el6.tuxcare.els31"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:6",
+        "name": "kernel-debug-devel",
+        "purl": "pkg:rpm/tuxcare/kernel-debug-devel?distro=centos-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.6.32-754.35.8.el6.tuxcare.els31"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:6",
+        "name": "kernel-devel",
+        "purl": "pkg:rpm/tuxcare/kernel-devel?distro=centos-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.6.32-754.35.8.el6.tuxcare.els31"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:6",
+        "name": "kernel-doc",
+        "purl": "pkg:rpm/tuxcare/kernel-doc?distro=centos-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.6.32-754.35.8.el6.tuxcare.els31"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:6",
+        "name": "kernel-firmware",
+        "purl": "pkg:rpm/tuxcare/kernel-firmware?distro=centos-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.6.32-754.35.8.el6.tuxcare.els31"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:6",
+        "name": "kernel-headers",
+        "purl": "pkg:rpm/tuxcare/kernel-headers?distro=centos-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.6.32-754.35.8.el6.tuxcare.els31"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:6",
+        "name": "perf",
+        "purl": "pkg:rpm/tuxcare/perf?distro=centos-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.6.32-754.35.8.el6.tuxcare.els31"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:6",
+        "name": "python-perf",
+        "purl": "pkg:rpm/tuxcare/python-perf?distro=centos-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.6.32-754.35.8.el6.tuxcare.els31"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2023-4623",
+    "CVE-2026-23074",
+    "CVE-2026-23089",
+    "CVE-2025-39828",
+    "CVE-2025-38348"
+  ],
+  "published": "2026-04-09T14:45:51Z",
+  "modified": "2026-04-09T14:45:51Z",
+  "details": "- net/sched: sch_hfsc: upgrade 'rt' to 'sc' when it becomes a inner curve {CVE-2023-4623}\n- net/sched: Enforce that teql can only be used as root qdisc {CVE-2026-23074}\n- ALSA: usb-audio: Fix use-after-free in snd_usb_mixer_free() {CVE-2026-23089}\n- atm: atmtcp: Prevent arbitrary write in atmtcp_recv_control(). {CVE-2025-39828}\n- net/sched: sch_qfq: Avoid triggering might_sleep in atomic context in qfq_delete_class\n- wifi: p54: prevent buffer-overflow in p54_rx_eeprom_readback() {CVE-2025-38348}",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/centos6els/CLSA-2026-1775745943.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

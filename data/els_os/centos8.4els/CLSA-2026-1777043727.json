@@ -1,0 +1,38 @@
+{
+  "id": "CLSA-2026-1777043727",
+  "summary": "tar: Fix of CVE-2019-9923",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.4",
+        "name": "tar",
+        "purl": "pkg:rpm/tuxcare/tar?distro=centos-8.4"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:1.30-5.el8.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2019-9923"
+  ],
+  "published": "2026-04-24T15:15:31Z",
+  "modified": "2026-04-24T15:15:31Z",
+  "details": "- CVE-2019-9923: fix possible NULL dereference in pax_decode_header",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/centos8.4els/CLSA-2026-1777043727.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

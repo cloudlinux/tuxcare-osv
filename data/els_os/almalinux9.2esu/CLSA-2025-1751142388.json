@@ -1,0 +1,38 @@
+{
+  "id": "CLSA-2025-1751142388",
+  "summary": "grafana: Fix of CVE-2022-31130",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "grafana",
+        "purl": "pkg:rpm/tuxcare/grafana?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "9.0.9-4.el9_2.alma.1.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2022-31130"
+  ],
+  "published": "2025-06-28T20:26:33Z",
+  "modified": "2025-06-28T20:26:33Z",
+  "details": "- CVE-2022-31130: fix potential leak of authentication tokens to plugins",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/almalinux9.2esu/CLSA-2025-1751142388.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

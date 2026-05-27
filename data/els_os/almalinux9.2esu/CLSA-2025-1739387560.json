@@ -1,0 +1,178 @@
+{
+  "id": "CLSA-2025-1739387560",
+  "summary": "ncurses: Fix of CVE-2023-29491",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "ncurses",
+        "purl": "pkg:rpm/tuxcare/ncurses?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "6.2-8.20210508.el9.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "ncurses-base",
+        "purl": "pkg:rpm/tuxcare/ncurses-base?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "6.2-8.20210508.el9.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "ncurses-c++-libs",
+        "purl": "pkg:rpm/tuxcare/ncurses-c++-libs?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "6.2-8.20210508.el9.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "ncurses-compat-libs",
+        "purl": "pkg:rpm/tuxcare/ncurses-compat-libs?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "6.2-8.20210508.el9.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "ncurses-devel",
+        "purl": "pkg:rpm/tuxcare/ncurses-devel?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "6.2-8.20210508.el9.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "ncurses-libs",
+        "purl": "pkg:rpm/tuxcare/ncurses-libs?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "6.2-8.20210508.el9.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "ncurses-static",
+        "purl": "pkg:rpm/tuxcare/ncurses-static?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "6.2-8.20210508.el9.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "ncurses-term",
+        "purl": "pkg:rpm/tuxcare/ncurses-term?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "6.2-8.20210508.el9.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2023-29491"
+  ],
+  "published": "2025-02-12T19:12:45Z",
+  "modified": "2025-02-12T19:12:45Z",
+  "details": "- CVE-2023-29491: fix triggering memory corruption via malformed terminfo\n  database file when used by a setuid application",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/almalinux9.2-esu/CLSA-2025-1739387560.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

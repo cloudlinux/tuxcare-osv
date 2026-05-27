@@ -1,0 +1,78 @@
+{
+  "id": "CLSA-2026-1779181947",
+  "summary": "postfix: Fix of CVE-2026-43964",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:7",
+        "name": "postfix",
+        "purl": "pkg:rpm/tuxcare/postfix?distro=oraclelinux-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:2.10.1-9.el7.tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:7",
+        "name": "postfix-perl-scripts",
+        "purl": "pkg:rpm/tuxcare/postfix-perl-scripts?distro=oraclelinux-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:2.10.1-9.el7.tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:7",
+        "name": "postfix-sysvinit",
+        "purl": "pkg:rpm/tuxcare/postfix-sysvinit?distro=oraclelinux-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:2.10.1-9.el7.tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-43964"
+  ],
+  "published": "2026-05-19T09:12:31Z",
+  "modified": "2026-05-19T09:12:31Z",
+  "details": "- CVE-2026-43964: fix buffer over-read on enhanced status code without trailing text",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/oraclelinux7els/CLSA-2026-1779181947.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

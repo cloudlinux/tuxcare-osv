@@ -1,0 +1,118 @@
+{
+  "id": "CLSA-2023-1685536317",
+  "summary": "gnutls: Fix of CVE-2022-2509",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "gnutls",
+        "purl": "pkg:rpm/tuxcare/gnutls?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.6.16-4.el8.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "gnutls-c++",
+        "purl": "pkg:rpm/tuxcare/gnutls-c++?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.6.16-4.el8.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "gnutls-dane",
+        "purl": "pkg:rpm/tuxcare/gnutls-dane?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.6.16-4.el8.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "gnutls-devel",
+        "purl": "pkg:rpm/tuxcare/gnutls-devel?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.6.16-4.el8.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "gnutls-utils",
+        "purl": "pkg:rpm/tuxcare/gnutls-utils?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.6.16-4.el8.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2022-2509"
+  ],
+  "published": "2023-05-31T12:32:03Z",
+  "modified": "2023-05-31T12:32:03Z",
+  "details": "- CVE-2022-2509: Fix double free during gnutls_pkcs7_verify",
+  "references": [
+    {
+      "url": "https://errata.cloudlinux.com/centos8.5-els/CLSA-2023-1685536317.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

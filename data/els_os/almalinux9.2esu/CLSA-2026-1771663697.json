@@ -1,0 +1,119 @@
+{
+  "id": "CLSA-2026-1771663697",
+  "summary": "curl: Fix of 2 CVEs",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "curl",
+        "purl": "pkg:rpm/tuxcare/curl?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7.76.1-31.el9_2.1.tuxcare.els5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "curl-minimal",
+        "purl": "pkg:rpm/tuxcare/curl-minimal?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7.76.1-31.el9_2.1.tuxcare.els5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "libcurl",
+        "purl": "pkg:rpm/tuxcare/libcurl?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7.76.1-31.el9_2.1.tuxcare.els5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "libcurl-devel",
+        "purl": "pkg:rpm/tuxcare/libcurl-devel?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7.76.1-31.el9_2.1.tuxcare.els5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "libcurl-minimal",
+        "purl": "pkg:rpm/tuxcare/libcurl-minimal?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7.76.1-31.el9_2.1.tuxcare.els5"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2025-14524",
+    "CVE-2025-15224"
+  ],
+  "published": "2026-02-21T08:48:21Z",
+  "modified": "2026-02-21T08:48:21Z",
+  "details": "- CVE-2025-14524: fix OAuth2 bearer token leak on cross-protocol redirect\n- CVE-2025-15224: fix libssh public-key auth fallback to SSH agent",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/almalinux9.2esu/CLSA-2026-1771663697.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

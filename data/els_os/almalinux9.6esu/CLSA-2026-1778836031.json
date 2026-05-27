@@ -1,0 +1,78 @@
+{
+  "id": "CLSA-2026-1778836031",
+  "summary": "libsoup: Fix of CVE-2026-2708",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "libsoup",
+        "purl": "pkg:rpm/tuxcare/libsoup?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.72.0-10.el9_6.3.tuxcare.els7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "libsoup-devel",
+        "purl": "pkg:rpm/tuxcare/libsoup-devel?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.72.0-10.el9_6.3.tuxcare.els7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "libsoup-doc",
+        "purl": "pkg:rpm/tuxcare/libsoup-doc?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.72.0-10.el9_6.3.tuxcare.els7"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-2708"
+  ],
+  "published": "2026-05-16T17:30:12Z",
+  "modified": "2026-05-16T17:30:12Z",
+  "details": "- CVE-2026-2708: reject duplicate Content-Length headers with different values\n  to prevent HTTP request smuggling per RFC 9110 section 7.7",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/tuxcare9.6esu/CLSA-2026-1778836031.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

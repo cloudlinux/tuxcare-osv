@@ -1,0 +1,139 @@
+{
+  "id": "CLSA-2026-1771425162",
+  "summary": "ImageMagick: Fix of 2 CVEs",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:7",
+        "name": "ImageMagick",
+        "purl": "pkg:rpm/tuxcare/ImageMagick?distro=oraclelinux-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "6.9.10.68-7.0.3.el7_9.tuxcare.els4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:7",
+        "name": "ImageMagick-c++",
+        "purl": "pkg:rpm/tuxcare/ImageMagick-c++?distro=oraclelinux-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "6.9.10.68-7.0.3.el7_9.tuxcare.els4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:7",
+        "name": "ImageMagick-c++-devel",
+        "purl": "pkg:rpm/tuxcare/ImageMagick-c++-devel?distro=oraclelinux-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "6.9.10.68-7.0.3.el7_9.tuxcare.els4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:7",
+        "name": "ImageMagick-devel",
+        "purl": "pkg:rpm/tuxcare/ImageMagick-devel?distro=oraclelinux-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "6.9.10.68-7.0.3.el7_9.tuxcare.els4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:7",
+        "name": "ImageMagick-doc",
+        "purl": "pkg:rpm/tuxcare/ImageMagick-doc?distro=oraclelinux-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "6.9.10.68-7.0.3.el7_9.tuxcare.els4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:7",
+        "name": "ImageMagick-perl",
+        "purl": "pkg:rpm/tuxcare/ImageMagick-perl?distro=oraclelinux-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "6.9.10.68-7.0.3.el7_9.tuxcare.els4"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2025-68618",
+    "CVE-2025-69204"
+  ],
+  "published": "2026-02-18T14:32:47Z",
+  "modified": "2026-02-18T14:32:47Z",
+  "details": "- CVE-2025-68618: fix DOS when processing a specially crafted malicious SVG file\n- CVE-2025-69204: fix DOS due to buffer overflow during image processing of a specially\n  crafted SVG image",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/oraclelinux7els/CLSA-2026-1771425162.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

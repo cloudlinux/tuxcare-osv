@@ -1,0 +1,58 @@
+{
+  "id": "CLSA-2022-1650910003",
+  "summary": "Fix of CVE: CVE-2019-18276",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:6",
+        "name": "bash",
+        "purl": "pkg:rpm/tuxcare/bash?distro=centos-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.1.2-48.el6.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:6",
+        "name": "bash-doc",
+        "purl": "pkg:rpm/tuxcare/bash-doc?distro=centos-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.1.2-48.el6.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2019-18276"
+  ],
+  "published": "2022-04-25T18:06:43Z",
+  "modified": "2022-04-25T18:06:43Z",
+  "details": "- CVE-2019-18276: Fix priviledge dropping when running with effective\n  UID not equal to real UID",
+  "references": [
+    {
+      "url": "https://errata.cloudlinux.com/els6/CLSA-2022-1650910003.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

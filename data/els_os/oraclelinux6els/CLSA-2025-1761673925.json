@@ -1,0 +1,98 @@
+{
+  "id": "CLSA-2025-1761673925",
+  "summary": "libxml2: Fix of CVE-2022-49043",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:6",
+        "name": "libxml2",
+        "purl": "pkg:rpm/tuxcare/libxml2?distro=oraclelinux-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.7.6-21.0.1.el6_8.1.tuxcare.ol.els11"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:6",
+        "name": "libxml2-devel",
+        "purl": "pkg:rpm/tuxcare/libxml2-devel?distro=oraclelinux-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.7.6-21.0.1.el6_8.1.tuxcare.ol.els11"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:6",
+        "name": "libxml2-python",
+        "purl": "pkg:rpm/tuxcare/libxml2-python?distro=oraclelinux-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.7.6-21.0.1.el6_8.1.tuxcare.ol.els11"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:6",
+        "name": "libxml2-static",
+        "purl": "pkg:rpm/tuxcare/libxml2-static?distro=oraclelinux-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.7.6-21.0.1.el6_8.1.tuxcare.ol.els11"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2022-49043"
+  ],
+  "published": "2025-10-28T17:52:13Z",
+  "modified": "2025-10-28T17:52:13Z",
+  "details": "- CVE-2022-49043: fix use-after-free in xmlXIncludeAddNode, free URI after reporting\n  the error to avoid use-after-free",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/oraclelinux6els/CLSA-2025-1761673925.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

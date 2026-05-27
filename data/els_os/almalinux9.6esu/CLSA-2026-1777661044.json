@@ -1,0 +1,118 @@
+{
+  "id": "CLSA-2026-1777661044",
+  "summary": "vim: Fix of CVE-2026-33412",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "vim-X11",
+        "purl": "pkg:rpm/tuxcare/vim-X11?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:8.2.2637-22.el9_6.1.tuxcare.els17"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "vim-common",
+        "purl": "pkg:rpm/tuxcare/vim-common?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:8.2.2637-22.el9_6.1.tuxcare.els17"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "vim-enhanced",
+        "purl": "pkg:rpm/tuxcare/vim-enhanced?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:8.2.2637-22.el9_6.1.tuxcare.els17"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "vim-filesystem",
+        "purl": "pkg:rpm/tuxcare/vim-filesystem?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:8.2.2637-22.el9_6.1.tuxcare.els17"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "vim-minimal",
+        "purl": "pkg:rpm/tuxcare/vim-minimal?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:8.2.2637-22.el9_6.1.tuxcare.els17"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-33412"
+  ],
+  "published": "2026-05-01T18:44:09Z",
+  "modified": "2026-05-01T18:44:09Z",
+  "details": "- CVE-2026-33412: fix OS command injection via newline in glob() by adding\n  \\n to SHELL_SPECIAL in src/os_unix.c so newlines are escaped before the\n  pattern is passed to the user's shell",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/tuxcare9.6esu/CLSA-2026-1777661044.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

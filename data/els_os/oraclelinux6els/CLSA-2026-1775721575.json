@@ -1,0 +1,61 @@
+{
+  "id": "CLSA-2026-1775721575",
+  "summary": "binutils: Fix of 4 CVEs",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:6",
+        "name": "binutils",
+        "purl": "pkg:rpm/tuxcare/binutils?distro=oraclelinux-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:2.20.51.0.2-5.48.0.3.el6.tuxcare.ol.els7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:6",
+        "name": "binutils-devel",
+        "purl": "pkg:rpm/tuxcare/binutils-devel?distro=oraclelinux-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:2.20.51.0.2-5.48.0.3.el6.tuxcare.ol.els7"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2025-5244",
+    "CVE-2025-5245",
+    "CVE-2026-3441",
+    "CVE-2026-3442"
+  ],
+  "published": "2026-04-09T07:59:39Z",
+  "modified": "2026-04-09T07:59:39Z",
+  "details": "- CVE-2025-5244: fix NULL deref in elf_gc_sweep with empty groups\n- CVE-2025-5245: fix SEGV in debug_type_samep, handle undefined tagged enums\n- CVE-2026-3441 CVE-2026-3442: fix out-of-bounds read in XCOFF relocation processing",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/oraclelinux6els/CLSA-2026-1775721575.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

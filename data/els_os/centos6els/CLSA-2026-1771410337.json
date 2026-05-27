@@ -1,0 +1,116 @@
+{
+  "id": "CLSA-2026-1771410337",
+  "summary": "Update of nss",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:6",
+        "name": "nss",
+        "purl": "pkg:rpm/tuxcare/nss?distro=centos-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.44.0-12.el6.tuxcare.els9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:6",
+        "name": "nss-devel",
+        "purl": "pkg:rpm/tuxcare/nss-devel?distro=centos-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.44.0-12.el6.tuxcare.els9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:6",
+        "name": "nss-pkcs11-devel",
+        "purl": "pkg:rpm/tuxcare/nss-pkcs11-devel?distro=centos-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.44.0-12.el6.tuxcare.els9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:6",
+        "name": "nss-sysinit",
+        "purl": "pkg:rpm/tuxcare/nss-sysinit?distro=centos-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.44.0-12.el6.tuxcare.els9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:6",
+        "name": "nss-tools",
+        "purl": "pkg:rpm/tuxcare/nss-tools?distro=centos-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.44.0-12.el6.tuxcare.els9"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [],
+  "published": "2026-02-18T14:53:11Z",
+  "modified": "2026-02-18T14:53:11Z",
+  "details": "- update to CKBI 2.82 from NSS 3.120\n- updated certificates:\n-     # Certificate \"GlobalSign Root CA\"\n-     # Certificate \"Entrust.net Premium 2048 Secure Server CA\"\n-     # Certificate \"Comodo AAA Services root\"\n-     # Certificate \"XRamp Global CA Root\"\n-     # Certificate \"Go Daddy Class 2 CA\"\n-     # Certificate \"Starfield Class 2 CA\"\n- removed certificates:\n-     # Certificate \"Baltimore CyberTrust Root\"\n- added certificates:\n-     # Certificate \"TrustAsia SMIME ECC Root CA\"\n-     # Certificate \"TrustAsia SMIME RSA Root CA\"\n-     # Certificate \"TrustAsia TLS ECC Root CA\"\n-     # Certificate \"TrustAsia TLS RSA Root CA\"\n-     # Certificate \"SwissSign RSA SMIME Root CA 2022 - 1\"\n-     # Certificate \"SwissSign RSA TLS Root CA 2022 - 1\"\n-     # Certificate \"OISTE Client Root ECC G1\"\n-     # Certificate \"OISTE Client Root RSA G1\"\n-     # Certificate \"OISTE Server Root ECC G1\"\n-     # Certificate \"OISTE Server Root RSA G1\"",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/centos6els/CLSA-2026-1771410337.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

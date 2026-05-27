@@ -1,0 +1,78 @@
+{
+  "id": "CLSA-2026-1778756042",
+  "summary": "openexr: Fix of CVE-2026-41142",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "openexr",
+        "purl": "pkg:rpm/tuxcare/openexr?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.1.1-3.el9.tuxcare.els6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "openexr-devel",
+        "purl": "pkg:rpm/tuxcare/openexr-devel?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.1.1-3.el9.tuxcare.els6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "openexr-libs",
+        "purl": "pkg:rpm/tuxcare/openexr-libs?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.1.1-3.el9.tuxcare.els6"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-41142"
+  ],
+  "published": "2026-05-14T19:03:02Z",
+  "modified": "2026-05-14T19:03:02Z",
+  "details": "- CVE-2026-41142: fix integer overflow in ImageChannel::resize() pixel\n  count computation leading to heap out-of-bounds write via the\n  OpenEXRUtil public API",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/almalinux9.2esu/CLSA-2026-1778756042.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "id": "CLSA-2026-1777538339",
+  "summary": "binutils: Fix of 3 CVEs",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:RHEL:7",
+        "name": "binutils",
+        "purl": "pkg:rpm/tuxcare/binutils?distro=rhel-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.27-44.base.el7_9.1.tuxcare.els6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:RHEL:7",
+        "name": "binutils-devel",
+        "purl": "pkg:rpm/tuxcare/binutils-devel?distro=rhel-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.27-44.base.el7_9.1.tuxcare.els6"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2025-66862",
+    "CVE-2025-66863",
+    "CVE-2025-66865"
+  ],
+  "published": "2026-04-30T08:39:06Z",
+  "modified": "2026-04-30T08:39:06Z",
+  "details": "- CVE-2025-66862: fix buffer overflow in gnu_special cplus-dem.c\n- CVE-2025-66863: fix denial of service in d_discriminator cp-demangle.c\n- CVE-2025-66865: fix denial of service in d_print_comp_inner cp-demangle.c",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/rhel7els/CLSA-2026-1777538339.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "id": "CLSA-2026-1777970160",
+  "summary": "gd: Fix of CVE-2021-40145",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:RHEL:7",
+        "name": "gd",
+        "purl": "pkg:rpm/tuxcare/gd?distro=rhel-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.0.35-27.el7_9.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:RHEL:7",
+        "name": "gd-devel",
+        "purl": "pkg:rpm/tuxcare/gd-devel?distro=rhel-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.0.35-27.el7_9.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:RHEL:7",
+        "name": "gd-progs",
+        "purl": "pkg:rpm/tuxcare/gd-progs?distro=rhel-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.0.35-27.el7_9.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2021-40145"
+  ],
+  "published": "2026-05-05T08:36:07Z",
+  "modified": "2026-05-05T08:36:07Z",
+  "details": "- CVE-2021-40145: fix double free in gdImageGd2Ptr",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/rhel7els/CLSA-2026-1777970160.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

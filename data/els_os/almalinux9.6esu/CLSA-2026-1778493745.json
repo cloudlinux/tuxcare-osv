@@ -1,0 +1,42 @@
+{
+  "id": "CLSA-2026-1778493745",
+  "summary": "opensc: Fix of 5 CVEs",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "opensc",
+        "purl": "pkg:rpm/tuxcare/opensc?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.23.0-5.el9.tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2024-45615",
+    "CVE-2024-45616",
+    "CVE-2024-45617",
+    "CVE-2024-45618",
+    "CVE-2024-45620"
+  ],
+  "published": "2026-05-11T10:02:30Z",
+  "modified": "2026-05-11T10:02:30Z",
+  "details": "- CVE-2024-45615: initialize uninitialized variables passed as arguments\n- CVE-2024-45616: fix insufficient control of APDU response buffer length\n- CVE-2024-45617: check return values to avoid uninitialized variable use\n- CVE-2024-45618: check return values in pkcs15-init to avoid uninitialized data\n- CVE-2024-45620: fix incorrect access to partially-initialized buffers in pkcs15-init",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/tuxcare9.6esu/CLSA-2026-1778493745.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

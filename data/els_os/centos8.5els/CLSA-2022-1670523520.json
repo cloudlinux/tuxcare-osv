@@ -1,0 +1,99 @@
+{
+  "id": "CLSA-2022-1670523520",
+  "summary": "libxml2: Fix of 2 CVEs",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "libxml2",
+        "purl": "pkg:rpm/tuxcare/libxml2?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.9.7-9.el8_4.2.tuxcare.els4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "libxml2-devel",
+        "purl": "pkg:rpm/tuxcare/libxml2-devel?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.9.7-9.el8_4.2.tuxcare.els4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "libxml2-static",
+        "purl": "pkg:rpm/tuxcare/libxml2-static?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.9.7-9.el8_4.2.tuxcare.els4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "python3-libxml2",
+        "purl": "pkg:rpm/tuxcare/python3-libxml2?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.9.7-9.el8_4.2.tuxcare.els4"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2022-40303",
+    "CVE-2022-40304"
+  ],
+  "published": "2022-12-08T18:18:40Z",
+  "modified": "2022-12-08T18:18:40Z",
+  "details": "- CVE-2022-40303: fix integer overflows with XML_PARSE_HUGE\n- CVE-2022-40304: fix dict corruption caused by entity reference cycles",
+  "references": [
+    {
+      "url": "https://errata.cloudlinux.com/centos8.5-els/CLSA-2022-1670523520.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

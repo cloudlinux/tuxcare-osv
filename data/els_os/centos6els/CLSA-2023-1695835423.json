@@ -1,0 +1,78 @@
+{
+  "id": "CLSA-2023-1695835423",
+  "summary": "libssh2: Fix of CVE-2020-22218",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:6",
+        "name": "libssh2",
+        "purl": "pkg:rpm/tuxcare/libssh2?distro=centos-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.4.2-3.el6_10.1.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:6",
+        "name": "libssh2-devel",
+        "purl": "pkg:rpm/tuxcare/libssh2-devel?distro=centos-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.4.2-3.el6_10.1.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:6",
+        "name": "libssh2-docs",
+        "purl": "pkg:rpm/tuxcare/libssh2-docs?distro=centos-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.4.2-3.el6_10.1.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2020-22218"
+  ],
+  "published": "2023-09-27T17:23:47Z",
+  "modified": "2023-09-27T17:23:47Z",
+  "details": "- CVE-2020-22218: doing total_num zero length check",
+  "references": [
+    {
+      "url": "https://errata.cloudlinux.com/els6/CLSA-2023-1695835423.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

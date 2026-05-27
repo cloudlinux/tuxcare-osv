@@ -1,0 +1,58 @@
+{
+  "id": "CLSA-2024-1708639566",
+  "summary": "sudo: Fix of CVE-2023-42465",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:6",
+        "name": "sudo",
+        "purl": "pkg:rpm/tuxcare/sudo?distro=oraclelinux-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.8.6p3-32.el6.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:6",
+        "name": "sudo-devel",
+        "purl": "pkg:rpm/tuxcare/sudo-devel?distro=oraclelinux-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.8.6p3-32.el6.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2023-42465"
+  ],
+  "published": "2024-02-22T22:06:09Z",
+  "modified": "2024-02-22T22:06:09Z",
+  "details": "- Remove sudo-1.9.15-CVE-2023-42465.patch due to bug",
+  "references": [
+    {
+      "url": "https://errata.cloudlinux.com/ol6/CLSA-2024-1708639566.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

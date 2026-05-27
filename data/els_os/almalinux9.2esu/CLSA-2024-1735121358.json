@@ -1,0 +1,98 @@
+{
+  "id": "CLSA-2024-1735121358",
+  "summary": "openssl: Fix of CVE-2024-4603",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "openssl",
+        "purl": "pkg:rpm/tuxcare/openssl?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:3.0.7-17.el9_2.tuxcare.els5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "openssl-devel",
+        "purl": "pkg:rpm/tuxcare/openssl-devel?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:3.0.7-17.el9_2.tuxcare.els5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "openssl-libs",
+        "purl": "pkg:rpm/tuxcare/openssl-libs?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:3.0.7-17.el9_2.tuxcare.els5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "openssl-perl",
+        "purl": "pkg:rpm/tuxcare/openssl-perl?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:3.0.7-17.el9_2.tuxcare.els5"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2024-4603"
+  ],
+  "published": "2024-12-25T10:09:26Z",
+  "modified": "2024-12-25T10:09:26Z",
+  "details": "- CVE-2024-4603: Check DSA parameters for excessive sizes before validating",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/almalinux9.2-esu/CLSA-2024-1735121358.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

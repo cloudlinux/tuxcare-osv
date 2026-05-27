@@ -1,0 +1,79 @@
+{
+  "id": "CLSA-2026-1776353007",
+  "summary": "gstreamer1-plugins-good: Fix of 2 CVEs",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "gstreamer1-plugins-good",
+        "purl": "pkg:rpm/tuxcare/gstreamer1-plugins-good?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.22.12-4.el9.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "gstreamer1-plugins-good-gtk",
+        "purl": "pkg:rpm/tuxcare/gstreamer1-plugins-good-gtk?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.22.12-4.el9.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "gstreamer1-plugins-good-qt",
+        "purl": "pkg:rpm/tuxcare/gstreamer1-plugins-good-qt?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.22.12-4.el9.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-3083",
+    "CVE-2026-3085"
+  ],
+  "published": "2026-04-16T15:23:32Z",
+  "modified": "2026-04-16T15:23:32Z",
+  "details": "- CVE-2026-3083: fix rtpqdm2depay OOB write\n- CVE-2026-3085: fix rtpqdm2depay heap-based buffer overflow",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/tuxcare9.6esu/CLSA-2026-1776353007.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

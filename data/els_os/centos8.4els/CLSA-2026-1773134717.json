@@ -1,0 +1,119 @@
+{
+  "id": "CLSA-2026-1773134717",
+  "summary": "curl: Fix of 2 CVEs",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.4",
+        "name": "curl",
+        "purl": "pkg:rpm/tuxcare/curl?distro=centos-8.4"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7.61.1-22.el8.tuxcare.els16"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.4",
+        "name": "curl-minimal",
+        "purl": "pkg:rpm/tuxcare/curl-minimal?distro=centos-8.4"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7.61.1-22.el8.tuxcare.els16"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.4",
+        "name": "libcurl",
+        "purl": "pkg:rpm/tuxcare/libcurl?distro=centos-8.4"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7.61.1-22.el8.tuxcare.els16"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.4",
+        "name": "libcurl-devel",
+        "purl": "pkg:rpm/tuxcare/libcurl-devel?distro=centos-8.4"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7.61.1-22.el8.tuxcare.els16"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.4",
+        "name": "libcurl-minimal",
+        "purl": "pkg:rpm/tuxcare/libcurl-minimal?distro=centos-8.4"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7.61.1-22.el8.tuxcare.els16"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2025-14524",
+    "CVE-2025-15079"
+  ],
+  "published": "2026-03-10T09:25:22Z",
+  "modified": "2026-03-10T09:25:22Z",
+  "details": "- CVE-2025-14524: prevent bearer token leak on cross-protocol redirect\n- CVE-2025-15079: set both SSH knownhosts options to the same file to prevent\n  libssh global known_hosts override",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/centos8.4els/CLSA-2026-1773134717.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

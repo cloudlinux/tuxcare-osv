@@ -1,0 +1,98 @@
+{
+  "id": "CLSA-2025-1765380269",
+  "summary": "libpng: Fix of CVE-2025-64505",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "libpng",
+        "purl": "pkg:rpm/tuxcare/libpng?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:1.6.37-12.el9.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "libpng-devel",
+        "purl": "pkg:rpm/tuxcare/libpng-devel?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:1.6.37-12.el9.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "libpng-static",
+        "purl": "pkg:rpm/tuxcare/libpng-static?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:1.6.37-12.el9.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "libpng-tools",
+        "purl": "pkg:rpm/tuxcare/libpng-tools?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:1.6.37-12.el9.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2025-64505"
+  ],
+  "published": "2025-12-10T15:24:33Z",
+  "modified": "2025-12-10T15:24:33Z",
+  "details": "- CVE-2025-64505: fix heap buffer over-read vulnerability in png_do_quantize\n  function",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/tuxcare9.6esu/CLSA-2025-1765380269.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

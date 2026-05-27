@@ -1,0 +1,43 @@
+{
+  "id": "CLSA-2025-1762539123",
+  "summary": "git-lfs: Fix of 6 CVEs",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "git-lfs",
+        "purl": "pkg:rpm/tuxcare/git-lfs?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.2.0-1.el9.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2024-24790",
+    "CVE-2024-34156",
+    "CVE-2023-45288",
+    "CVE-2023-39322",
+    "CVE-2023-39321",
+    "CVE-2024-24788"
+  ],
+  "published": "2025-11-07T18:12:07Z",
+  "modified": "2025-11-07T18:12:07Z",
+  "details": "- Rebuild with golang >= 1.22.5.tuxcare.els7 to fix CVE-2024-24790,\n  CVE-2024-34156, CVE-2023-45288, CVE-2023-39322, CVE-2023-39321, CVE-2024-24788",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/almalinux9.2esu/CLSA-2025-1762539123.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "id": "CLSA-2025-1757698525",
+  "summary": "gdk-pixbuf2: Fix of CVE-2025-7345",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "gdk-pixbuf2",
+        "purl": "pkg:rpm/tuxcare/gdk-pixbuf2?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.42.6-3.el9.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "gdk-pixbuf2-devel",
+        "purl": "pkg:rpm/tuxcare/gdk-pixbuf2-devel?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.42.6-3.el9.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "gdk-pixbuf2-modules",
+        "purl": "pkg:rpm/tuxcare/gdk-pixbuf2-modules?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.42.6-3.el9.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "gdk-pixbuf2-tests",
+        "purl": "pkg:rpm/tuxcare/gdk-pixbuf2-tests?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.42.6-3.el9.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2025-7345"
+  ],
+  "published": "2025-09-12T17:35:28Z",
+  "modified": "2025-09-12T17:35:28Z",
+  "details": "- CVE-2025-7345: fix heap buffer overflow during base64 encoding in\n  gdk_pixbuf__jpeg_image_load_increment()",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/almalinux9.2esu/CLSA-2025-1757698525.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

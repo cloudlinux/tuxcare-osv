@@ -1,0 +1,138 @@
+{
+  "id": "CLSA-2022-1658171690",
+  "summary": "Fixed CVE-2016-10012 in openssh",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:6",
+        "name": "openssh",
+        "purl": "pkg:rpm/tuxcare/openssh?distro=oraclelinux-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.3p1-125.el6.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:6",
+        "name": "openssh-askpass",
+        "purl": "pkg:rpm/tuxcare/openssh-askpass?distro=oraclelinux-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.3p1-125.el6.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:6",
+        "name": "openssh-clients",
+        "purl": "pkg:rpm/tuxcare/openssh-clients?distro=oraclelinux-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.3p1-125.el6.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:6",
+        "name": "openssh-ldap",
+        "purl": "pkg:rpm/tuxcare/openssh-ldap?distro=oraclelinux-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.3p1-125.el6.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:6",
+        "name": "openssh-server",
+        "purl": "pkg:rpm/tuxcare/openssh-server?distro=oraclelinux-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.3p1-125.el6.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:6",
+        "name": "pam_ssh_agent_auth",
+        "purl": "pkg:rpm/tuxcare/pam_ssh_agent_auth?distro=oraclelinux-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.9.3-125.el6.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2016-10012"
+  ],
+  "published": "2022-07-18T19:14:50Z",
+  "modified": "2022-07-18T19:14:50Z",
+  "details": "\n- CVE-2016-10012: re-remove pre-authentication compression and potentially\n  unsecure shared memory manager used by zlib\n- Move not yet valid timestamps for certs to 2030-2040 range, make sure all\n  tests are passed and add %check\nunset DISPLAY\n section",
+  "references": [
+    {
+      "url": "https://errata.cloudlinux.com/ol6/CLSA-2022-1658171690.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "id": "CLSA-2025-1764321881",
+  "summary": "perl-FCGI: Fix of CVE-2025-40907",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:7",
+        "name": "perl-FCGI",
+        "purl": "pkg:rpm/tuxcare/perl-FCGI?distro=oraclelinux-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:0.74-8.el7.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2025-40907"
+  ],
+  "published": "2025-11-28T09:24:44Z",
+  "modified": "2025-11-28T09:24:44Z",
+  "details": "- CVE-2025-40907: fix integer overflow and heap-based buffer overflow in fcgi2 library",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/oraclelinux7els/CLSA-2025-1764321881.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

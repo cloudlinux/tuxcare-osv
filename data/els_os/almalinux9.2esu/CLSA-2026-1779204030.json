@@ -1,0 +1,38 @@
+{
+  "id": "CLSA-2026-1779204030",
+  "summary": "mod_jk: Fix of CVE-2024-46544",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "mod_jk",
+        "purl": "pkg:rpm/tuxcare/mod_jk?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.2.48-23.el9.tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2024-46544"
+  ],
+  "published": "2026-05-19T15:20:34Z",
+  "modified": "2026-05-19T15:20:34Z",
+  "details": "- CVE-2024-46544: fix insecure file permissions on shared memory and lock files",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/almalinux9.2esu/CLSA-2026-1779204030.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

@@ -1,0 +1,119 @@
+{
+  "id": "CLSA-2021-1634922570",
+  "summary": "Fixed CVEs in dovecot: CVE-2020-25275, CVE-2020-12100",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:6",
+        "name": "dovecot",
+        "purl": "pkg:rpm/tuxcare/dovecot?distro=oraclelinux-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:2.0.9-23.el6.cloudlinux.els"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:6",
+        "name": "dovecot-devel",
+        "purl": "pkg:rpm/tuxcare/dovecot-devel?distro=oraclelinux-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:2.0.9-23.el6.cloudlinux.els"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:6",
+        "name": "dovecot-mysql",
+        "purl": "pkg:rpm/tuxcare/dovecot-mysql?distro=oraclelinux-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:2.0.9-23.el6.cloudlinux.els"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:6",
+        "name": "dovecot-pgsql",
+        "purl": "pkg:rpm/tuxcare/dovecot-pgsql?distro=oraclelinux-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:2.0.9-23.el6.cloudlinux.els"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:6",
+        "name": "dovecot-pigeonhole",
+        "purl": "pkg:rpm/tuxcare/dovecot-pigeonhole?distro=oraclelinux-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:2.0.9-23.el6.cloudlinux.els"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2020-25275",
+    "CVE-2020-12100"
+  ],
+  "published": "2021-10-22T17:09:30Z",
+  "modified": "2022-05-17T17:28:33Z",
+  "details": "- CVE-2020-12100: Resource exhaustion via deeply nested MIME parts\n- CVE-2020-25275: Denial of service via mail MIME parsing",
+  "references": [
+    {
+      "url": "https://errata.cloudlinux.com/ol6/CLSA-2021-1634922570.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

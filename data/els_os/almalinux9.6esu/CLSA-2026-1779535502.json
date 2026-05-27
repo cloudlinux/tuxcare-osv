@@ -1,0 +1,118 @@
+{
+  "id": "CLSA-2026-1779535502",
+  "summary": "unbound: Fix of CVE-2026-33278",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "python3-unbound",
+        "purl": "pkg:rpm/tuxcare/python3-unbound?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.16.2-19.el9_6.1.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "unbound",
+        "purl": "pkg:rpm/tuxcare/unbound?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.16.2-19.el9_6.1.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "unbound-devel",
+        "purl": "pkg:rpm/tuxcare/unbound-devel?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.16.2-19.el9_6.1.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "unbound-dracut",
+        "purl": "pkg:rpm/tuxcare/unbound-dracut?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.16.2-19.el9_6.1.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "unbound-libs",
+        "purl": "pkg:rpm/tuxcare/unbound-libs?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.16.2-19.el9_6.1.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-33278"
+  ],
+  "published": "2026-05-23T11:25:06Z",
+  "modified": "2026-05-23T11:25:06Z",
+  "details": "- CVE-2026-33278: possible remote code execution during DNSSEC validation\n  via a dangling rrsets pointer in dns_msg_deepcopy_region exposed by the\n  backported KeyTrap mitigation",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/tuxcare9.6esu/CLSA-2026-1779535502.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

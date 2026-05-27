@@ -1,0 +1,59 @@
+{
+  "id": "CLSA-2025-1762362716",
+  "summary": "freeglut: Fix of 2 CVEs",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "freeglut",
+        "purl": "pkg:rpm/tuxcare/freeglut?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.2.1-9.el9.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "freeglut-devel",
+        "purl": "pkg:rpm/tuxcare/freeglut-devel?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.2.1-9.el9.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2024-24258",
+    "CVE-2024-24259"
+  ],
+  "published": "2025-11-05T17:12:02Z",
+  "modified": "2025-11-05T17:12:02Z",
+  "details": "- CVE-2024-24258: fix memory leak in glutAddSubMenu function\n- CVE-2024-24259: fix memory leak in glutAddMenuEntry function",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/almalinux9.2esu/CLSA-2025-1762362716.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

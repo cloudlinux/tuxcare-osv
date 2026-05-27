@@ -1,0 +1,99 @@
+{
+  "id": "CLSA-2022-1670522857",
+  "summary": "libxml2: Fix of 2 CVEs",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:6",
+        "name": "libxml2",
+        "purl": "pkg:rpm/tuxcare/libxml2?distro=oraclelinux-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.7.6-21.0.1.el6_8.1.tuxcare.ol.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:6",
+        "name": "libxml2-devel",
+        "purl": "pkg:rpm/tuxcare/libxml2-devel?distro=oraclelinux-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.7.6-21.0.1.el6_8.1.tuxcare.ol.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:6",
+        "name": "libxml2-python",
+        "purl": "pkg:rpm/tuxcare/libxml2-python?distro=oraclelinux-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.7.6-21.0.1.el6_8.1.tuxcare.ol.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:6",
+        "name": "libxml2-static",
+        "purl": "pkg:rpm/tuxcare/libxml2-static?distro=oraclelinux-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.7.6-21.0.1.el6_8.1.tuxcare.ol.els3"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2022-40303",
+    "CVE-2022-40304"
+  ],
+  "published": "2022-12-08T18:07:37Z",
+  "modified": "2022-12-08T18:07:37Z",
+  "details": "- CVE-2022-40303: fix integer overflows with XML_PARSE_HUGE\n- CVE-2022-40304: fix dict corruption caused by entity reference cycles",
+  "references": [
+    {
+      "url": "https://errata.cloudlinux.com/ol6/CLSA-2022-1670522857.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

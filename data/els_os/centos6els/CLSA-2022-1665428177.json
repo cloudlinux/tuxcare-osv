@@ -1,0 +1,119 @@
+{
+  "id": "CLSA-2022-1665428177",
+  "summary": "Fixed CVEs in sqlite: CVE-2020-35525, CVE-2020-13435",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:6",
+        "name": "lemon",
+        "purl": "pkg:rpm/tuxcare/lemon?distro=centos-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.6.20-1.el6_7.2.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:6",
+        "name": "sqlite",
+        "purl": "pkg:rpm/tuxcare/sqlite?distro=centos-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.6.20-1.el6_7.2.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:6",
+        "name": "sqlite-devel",
+        "purl": "pkg:rpm/tuxcare/sqlite-devel?distro=centos-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.6.20-1.el6_7.2.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:6",
+        "name": "sqlite-doc",
+        "purl": "pkg:rpm/tuxcare/sqlite-doc?distro=centos-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.6.20-1.el6_7.2.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:6",
+        "name": "sqlite-tcl",
+        "purl": "pkg:rpm/tuxcare/sqlite-tcl?distro=centos-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.6.20-1.el6_7.2.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2020-35525",
+    "CVE-2020-13435"
+  ],
+  "published": "2022-10-10T18:56:17Z",
+  "modified": "2022-10-10T18:56:17Z",
+  "details": "- CVE-2020-13435: add a code that tries to prevent a recurrence of\n  problems\n- CVE-2020-35525: a potential null pointer dereference was fixed",
+  "references": [
+    {
+      "url": "https://errata.cloudlinux.com/els6/CLSA-2022-1665428177.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

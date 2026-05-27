@@ -1,0 +1,138 @@
+{
+  "id": "CLSA-2022-1643917881",
+  "summary": "Fix of CVE: CVE-2021-4122",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.4",
+        "name": "cryptsetup",
+        "purl": "pkg:rpm/tuxcare/cryptsetup?distro=centos-8.4"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.3.3-4.el8.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.4",
+        "name": "cryptsetup-devel",
+        "purl": "pkg:rpm/tuxcare/cryptsetup-devel?distro=centos-8.4"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.3.3-4.el8.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.4",
+        "name": "cryptsetup-libs",
+        "purl": "pkg:rpm/tuxcare/cryptsetup-libs?distro=centos-8.4"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.3.3-4.el8.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.4",
+        "name": "cryptsetup-reencrypt",
+        "purl": "pkg:rpm/tuxcare/cryptsetup-reencrypt?distro=centos-8.4"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.3.3-4.el8.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.4",
+        "name": "integritysetup",
+        "purl": "pkg:rpm/tuxcare/integritysetup?distro=centos-8.4"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.3.3-4.el8.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.4",
+        "name": "veritysetup",
+        "purl": "pkg:rpm/tuxcare/veritysetup?distro=centos-8.4"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.3.3-4.el8.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2021-4122"
+  ],
+  "published": "2022-02-03T19:51:21Z",
+  "modified": "2022-02-03T19:51:21Z",
+  "details": "- CVE-2021-4122: fix possible attacks against data confidentiality\n  through LUKS2 online reencryption extension crash recovery.",
+  "references": [
+    {
+      "url": "https://errata.cloudlinux.com/centos8.4-els/CLSA-2022-1643917881.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "id": "CLSA-2026-1778873714",
+  "summary": "mod_http2: Fix of CVE-2023-45802",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "mod_http2",
+        "purl": "pkg:rpm/tuxcare/mod_http2?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.15.19-4.el9.4.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2023-45802"
+  ],
+  "published": "2026-05-15T22:44:38Z",
+  "modified": "2026-05-15T22:44:38Z",
+  "details": "- CVE-2023-45802: fix deferred memory reclaim of reset HTTP/2 streams",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/almalinux9.2esu/CLSA-2026-1778873714.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

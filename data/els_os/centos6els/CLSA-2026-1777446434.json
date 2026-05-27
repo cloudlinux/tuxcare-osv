@@ -1,0 +1,58 @@
+{
+  "id": "CLSA-2026-1777446434",
+  "summary": "gdb: Fix of CVE-2019-1010180",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:6",
+        "name": "gdb",
+        "purl": "pkg:rpm/tuxcare/gdb?distro=centos-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7.2-92.el6.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:6",
+        "name": "gdb-gdbserver",
+        "purl": "pkg:rpm/tuxcare/gdb-gdbserver?distro=centos-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7.2-92.el6.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2019-1010180"
+  ],
+  "published": "2026-04-29T07:07:19Z",
+  "modified": "2026-04-29T07:07:19Z",
+  "details": "- CVE-2019-1010180: add warning for corrupt ELF section size larger than file",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/centos6els/CLSA-2026-1777446434.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

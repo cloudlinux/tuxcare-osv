@@ -1,0 +1,198 @@
+{
+  "id": "CLSA-2025-1738267482",
+  "summary": "postfix: Fix of CVE-2023-51764",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "postfix",
+        "purl": "pkg:rpm/tuxcare/postfix?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:3.5.9-19.el9.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "postfix-cdb",
+        "purl": "pkg:rpm/tuxcare/postfix-cdb?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:3.5.9-19.el9.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "postfix-ldap",
+        "purl": "pkg:rpm/tuxcare/postfix-ldap?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:3.5.9-19.el9.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "postfix-lmdb",
+        "purl": "pkg:rpm/tuxcare/postfix-lmdb?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:3.5.9-19.el9.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "postfix-mysql",
+        "purl": "pkg:rpm/tuxcare/postfix-mysql?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:3.5.9-19.el9.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "postfix-pcre",
+        "purl": "pkg:rpm/tuxcare/postfix-pcre?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:3.5.9-19.el9.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "postfix-perl-scripts",
+        "purl": "pkg:rpm/tuxcare/postfix-perl-scripts?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:3.5.9-19.el9.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "postfix-pgsql",
+        "purl": "pkg:rpm/tuxcare/postfix-pgsql?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:3.5.9-19.el9.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "postfix-sqlite",
+        "purl": "pkg:rpm/tuxcare/postfix-sqlite?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:3.5.9-19.el9.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2023-51764"
+  ],
+  "published": "2025-01-30T20:04:49Z",
+  "modified": "2025-01-30T20:04:49Z",
+  "details": "- CVE-2023-51764: Improvements for inbound SMTP smuggling defense.\n  Reject or restrict input lines from an SMTP client that end in bare new line.\n  Replace each stray <CR> or <LF> character in message\n  content with a space character, to prevent outbound SMTP smuggling\n  To prevent the SMTP smuggling vulnerability, the option \"smtpd_forbid_bare_newline = reject\" must be set.",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/almalinux9.2-esu/CLSA-2025-1738267482.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

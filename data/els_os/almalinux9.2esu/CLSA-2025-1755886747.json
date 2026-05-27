@@ -1,0 +1,78 @@
+{
+  "id": "CLSA-2025-1755886747",
+  "summary": "redis: Fix of CVE-2025-48367",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "redis",
+        "purl": "pkg:rpm/tuxcare/redis?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "6.2.7-1.el9.tuxcare.els6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "redis-devel",
+        "purl": "pkg:rpm/tuxcare/redis-devel?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "6.2.7-1.el9.tuxcare.els6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "redis-doc",
+        "purl": "pkg:rpm/tuxcare/redis-doc?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "6.2.7-1.el9.tuxcare.els6"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2025-48367"
+  ],
+  "published": "2025-08-22T18:19:11Z",
+  "modified": "2025-08-22T18:19:11Z",
+  "details": "- CVE-2025-48367: prevent unauthenticated connections causing IP protocol errors\n  by implementing authentication checks",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/almalinux9.2esu/CLSA-2025-1755886747.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

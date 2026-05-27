@@ -1,0 +1,79 @@
+{
+  "id": "CLSA-2024-1711475067",
+  "summary": "libssh: Fix of 2 CVEs",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "libssh",
+        "purl": "pkg:rpm/tuxcare/libssh?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.10.4-8.el9.tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "libssh-config",
+        "purl": "pkg:rpm/tuxcare/libssh-config?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.10.4-8.el9.tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "libssh-devel",
+        "purl": "pkg:rpm/tuxcare/libssh-devel?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.10.4-8.el9.tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2023-1667",
+    "CVE-2023-48795"
+  ],
+  "published": "2024-03-26T18:03:38Z",
+  "modified": "2024-03-26T18:03:38Z",
+  "details": "- CVE-2023-1667: fix possible NULL-pointer dereference during re-keying with\n  algorithm guessing\n- CVE-2023-48795: fix the prefix truncation attack on Binary Packet Protocol",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/almalinux9.2-esu/CLSA-2024-1711475067.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

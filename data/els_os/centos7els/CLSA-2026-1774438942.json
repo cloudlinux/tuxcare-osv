@@ -1,0 +1,120 @@
+{
+  "id": "CLSA-2026-1774438942",
+  "summary": "freerdp: Fix of 3 CVEs",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:7",
+        "name": "freerdp",
+        "purl": "pkg:rpm/tuxcare/freerdp?distro=centos-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.1.1-5.el7_9.tuxcare.els18"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:7",
+        "name": "freerdp-devel",
+        "purl": "pkg:rpm/tuxcare/freerdp-devel?distro=centos-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.1.1-5.el7_9.tuxcare.els18"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:7",
+        "name": "freerdp-libs",
+        "purl": "pkg:rpm/tuxcare/freerdp-libs?distro=centos-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.1.1-5.el7_9.tuxcare.els18"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:7",
+        "name": "libwinpr",
+        "purl": "pkg:rpm/tuxcare/libwinpr?distro=centos-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.1.1-5.el7_9.tuxcare.els18"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:7",
+        "name": "libwinpr-devel",
+        "purl": "pkg:rpm/tuxcare/libwinpr-devel?distro=centos-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.1.1-5.el7_9.tuxcare.els18"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-29774",
+    "CVE-2026-31884",
+    "CVE-2026-29775"
+  ],
+  "published": "2026-03-27T12:29:24Z",
+  "modified": "2026-03-27T12:29:24Z",
+  "details": "- CVE-2026-29774: heap buffer overflow in H.264 AVC420/AVC444 YUV-to-RGB conversion\n- CVE-2026-31884: division by zero in ADPCM decoders when nBlockAlign is 0\n- CVE-2026-29775: off-by-one in bitmap_cache_put",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/centos7els/CLSA-2026-1774438942.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "id": "CLSA-2026-1778015406",
+  "summary": "cifs-utils: Fix of CVE-2022-29869",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:7",
+        "name": "cifs-utils",
+        "purl": "pkg:rpm/tuxcare/cifs-utils?distro=centos-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "6.2-10.el7.0.5.tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:7",
+        "name": "cifs-utils-devel",
+        "purl": "pkg:rpm/tuxcare/cifs-utils-devel?distro=centos-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "6.2-10.el7.0.5.tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2022-29869"
+  ],
+  "published": "2026-05-05T21:10:11Z",
+  "modified": "2026-05-05T21:10:11Z",
+  "details": "- CVE-2022-29869: avoid leaking sensitive credential file content via\n  verbose stderr in mount.cifs option parsing",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/centos7els/CLSA-2026-1778015406.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

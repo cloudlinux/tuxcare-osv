@@ -1,0 +1,98 @@
+{
+  "id": "CLSA-2026-1769542154",
+  "summary": "libxml2: Fix of CVE-2022-23308",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.4",
+        "name": "libxml2",
+        "purl": "pkg:rpm/tuxcare/libxml2?distro=centos-8.4"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.9.7-9.el8_4.2.tuxcare.els14"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.4",
+        "name": "libxml2-devel",
+        "purl": "pkg:rpm/tuxcare/libxml2-devel?distro=centos-8.4"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.9.7-9.el8_4.2.tuxcare.els14"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.4",
+        "name": "libxml2-static",
+        "purl": "pkg:rpm/tuxcare/libxml2-static?distro=centos-8.4"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.9.7-9.el8_4.2.tuxcare.els14"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.4",
+        "name": "python3-libxml2",
+        "purl": "pkg:rpm/tuxcare/python3-libxml2?distro=centos-8.4"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.9.7-9.el8_4.2.tuxcare.els14"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2022-23308"
+  ],
+  "published": "2026-01-27T19:29:17Z",
+  "modified": "2026-01-27T19:29:17Z",
+  "details": "- CVE-2022-23308-fix.patch: fix undefined reference to ID variable and apply\n  upstream regression fix to CVE-2022-23308 patch",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/centos8.4els/CLSA-2026-1769542154.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

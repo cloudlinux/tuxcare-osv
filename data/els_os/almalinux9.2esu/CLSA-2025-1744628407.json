@@ -1,0 +1,58 @@
+{
+  "id": "CLSA-2025-1744628407",
+  "summary": "dnsmasq: Fix of CVE-2023-28450",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "dnsmasq",
+        "purl": "pkg:rpm/tuxcare/dnsmasq?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.85-6.el9.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "dnsmasq-utils",
+        "purl": "pkg:rpm/tuxcare/dnsmasq-utils?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.85-6.el9.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2023-28450"
+  ],
+  "published": "2025-04-14T11:00:13Z",
+  "modified": "2025-04-14T11:00:13Z",
+  "details": "- CVE-2023-28450: Set the default maximum DNS UDP packet size to 1232",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/almalinux9.2-esu/CLSA-2025-1744628407.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

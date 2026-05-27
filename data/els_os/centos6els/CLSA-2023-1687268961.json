@@ -1,0 +1,98 @@
+{
+  "id": "CLSA-2023-1687268961",
+  "summary": "openssl: Fix of CVE-2023-2650",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:6",
+        "name": "openssl",
+        "purl": "pkg:rpm/tuxcare/openssl?distro=centos-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.0.1e-63.el6.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:6",
+        "name": "openssl-devel",
+        "purl": "pkg:rpm/tuxcare/openssl-devel?distro=centos-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.0.1e-63.el6.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:6",
+        "name": "openssl-perl",
+        "purl": "pkg:rpm/tuxcare/openssl-perl?distro=centos-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.0.1e-63.el6.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:6",
+        "name": "openssl-static",
+        "purl": "pkg:rpm/tuxcare/openssl-static?distro=centos-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.0.1e-63.el6.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2023-2650"
+  ],
+  "published": "2023-06-20T13:49:26Z",
+  "modified": "2023-06-20T13:49:26Z",
+  "details": "- CVE-2023-2650: Restrict the size of OBJECT IDENTIFIERs that OBJ_obj2txt will\n  translate\n- Update expired smime/SM2 certificates that affect tests.",
+  "references": [
+    {
+      "url": "https://errata.cloudlinux.com/els6/CLSA-2023-1687268961.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

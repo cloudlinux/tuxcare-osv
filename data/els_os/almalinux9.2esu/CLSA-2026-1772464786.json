@@ -1,0 +1,38 @@
+{
+  "id": "CLSA-2026-1772464786",
+  "summary": "grafana: Fix of CVE-2025-68121",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "grafana",
+        "purl": "pkg:rpm/tuxcare/grafana?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "9.0.9-4.el9_2.alma.1.tuxcare.els13"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2025-68121"
+  ],
+  "published": "2026-03-02T15:19:50Z",
+  "modified": "2026-03-02T15:19:50Z",
+  "details": "- rebuild with newer golang version 1.22.9-1.el9_2.tuxcare.els6 to fix the following CVE's\n- CVE-2025-68121: fix TLS session resumption bypass by preventing shared\n  auto-rotated ticket keys in Config and validating full certificate chain expiry",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/almalinux9.2esu/CLSA-2026-1772464786.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

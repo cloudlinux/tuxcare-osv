@@ -1,0 +1,38 @@
+{
+  "id": "CLSA-2025-1765286622",
+  "summary": "gnome-remote-desktop: Fix of CVE-2025-5024",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "gnome-remote-desktop",
+        "purl": "pkg:rpm/tuxcare/gnome-remote-desktop?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "40.0-7.el9.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2025-5024"
+  ],
+  "published": "2025-12-09T13:23:46Z",
+  "modified": "2025-12-09T13:23:46Z",
+  "details": "- CVE-2025-5024: add connection throttling to prevent resource exhaustion. Fixes\n  unauthenticated resource exhaustion and DoS attacks via connection flooding",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/almalinux9.2esu/CLSA-2025-1765286622.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

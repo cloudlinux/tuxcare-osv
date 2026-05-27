@@ -1,0 +1,180 @@
+{
+  "id": "CLSA-2026-1774261018",
+  "summary": "python3.9: Fix of 3 CVEs",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "python-unversioned-command",
+        "purl": "pkg:rpm/tuxcare/python-unversioned-command?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.9.16-1.el9_2.2.tuxcare.els19"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "python3",
+        "purl": "pkg:rpm/tuxcare/python3?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.9.16-1.el9_2.2.tuxcare.els19"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "python3-debug",
+        "purl": "pkg:rpm/tuxcare/python3-debug?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.9.16-1.el9_2.2.tuxcare.els19"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "python3-devel",
+        "purl": "pkg:rpm/tuxcare/python3-devel?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.9.16-1.el9_2.2.tuxcare.els19"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "python3-idle",
+        "purl": "pkg:rpm/tuxcare/python3-idle?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.9.16-1.el9_2.2.tuxcare.els19"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "python3-libs",
+        "purl": "pkg:rpm/tuxcare/python3-libs?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.9.16-1.el9_2.2.tuxcare.els19"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "python3-test",
+        "purl": "pkg:rpm/tuxcare/python3-test?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.9.16-1.el9_2.2.tuxcare.els19"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "python3-tkinter",
+        "purl": "pkg:rpm/tuxcare/python3-tkinter?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.9.16-1.el9_2.2.tuxcare.els19"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-0865",
+    "CVE-2025-15367",
+    "CVE-2026-1299"
+  ],
+  "published": "2026-03-23T10:17:05Z",
+  "modified": "2026-03-23T10:17:05Z",
+  "details": "- CVE-2026-0865: Prevent HTTP header injection: validate and reject user-\n  controlled header names and values containing newlines.\n- CVE-2025-15367: Reject control characters in POP3 commands\n- CVE-2026-1299: Reject incorrectly folded LiteralHeader values and quote\n  newlines during BytesGenerator serialization; prevent header injection",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/almalinux9.2esu/CLSA-2026-1774261018.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "id": "CLSA-2025-1758644444",
+  "summary": "libtiff: Fix of 2 CVEs",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:7",
+        "name": "libtiff",
+        "purl": "pkg:rpm/tuxcare/libtiff?distro=centos-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.0.3-35.el7.tuxcare.els4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:7",
+        "name": "libtiff-devel",
+        "purl": "pkg:rpm/tuxcare/libtiff-devel?distro=centos-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.0.3-35.el7.tuxcare.els4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:7",
+        "name": "libtiff-static",
+        "purl": "pkg:rpm/tuxcare/libtiff-static?distro=centos-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.0.3-35.el7.tuxcare.els4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:7",
+        "name": "libtiff-tools",
+        "purl": "pkg:rpm/tuxcare/libtiff-tools?distro=centos-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.0.3-35.el7.tuxcare.els4"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2025-8176",
+    "CVE-2025-8177"
+  ],
+  "published": "2025-09-23T16:20:48Z",
+  "modified": "2025-09-23T16:20:48Z",
+  "details": "- CVE-2025-8176: fix use after free in tools/tiffmedian.c\n- CVE-2025-8177: fix buffer overflow in tools/thumbnail.c",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/centos7els/CLSA-2025-1758644444.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

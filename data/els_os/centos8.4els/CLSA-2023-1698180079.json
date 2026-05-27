@@ -1,0 +1,78 @@
+{
+  "id": "CLSA-2023-1698180079",
+  "summary": "zlib: Fix of CVE-2023-45853",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.4",
+        "name": "zlib",
+        "purl": "pkg:rpm/tuxcare/zlib?distro=centos-8.4"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.2.11-17.el8.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.4",
+        "name": "zlib-devel",
+        "purl": "pkg:rpm/tuxcare/zlib-devel?distro=centos-8.4"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.2.11-17.el8.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.4",
+        "name": "zlib-static",
+        "purl": "pkg:rpm/tuxcare/zlib-static?distro=centos-8.4"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.2.11-17.el8.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2023-45853"
+  ],
+  "published": "2023-10-24T20:41:23Z",
+  "modified": "2023-10-24T20:41:23Z",
+  "details": "- CVE-2023-45853: Reject overflows of zip header fields in minizip",
+  "references": [
+    {
+      "url": "https://errata.cloudlinux.com/centos8.4-els/CLSA-2023-1698180079.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

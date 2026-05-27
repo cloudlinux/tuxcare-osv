@@ -1,0 +1,98 @@
+{
+  "id": "CLSA-2021-1634922862",
+  "summary": "Fixed CVE-2021-23840 in openssl",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:6",
+        "name": "openssl",
+        "purl": "pkg:rpm/tuxcare/openssl?distro=oraclelinux-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.0.1e-60.0.1.el6.cloudlinux.ol.els"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:6",
+        "name": "openssl-devel",
+        "purl": "pkg:rpm/tuxcare/openssl-devel?distro=oraclelinux-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.0.1e-60.0.1.el6.cloudlinux.ol.els"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:6",
+        "name": "openssl-perl",
+        "purl": "pkg:rpm/tuxcare/openssl-perl?distro=oraclelinux-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.0.1e-60.0.1.el6.cloudlinux.ol.els"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:6",
+        "name": "openssl-static",
+        "purl": "pkg:rpm/tuxcare/openssl-static?distro=oraclelinux-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.0.1e-60.0.1.el6.cloudlinux.ol.els"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2021-23840"
+  ],
+  "published": "2021-10-22T17:14:22Z",
+  "modified": "2022-05-17T17:28:33Z",
+  "details": "- Fixed integer overflow in CipherUpdate(CVE-2021-23840)",
+  "references": [
+    {
+      "url": "https://errata.cloudlinux.com/ol6/CLSA-2021-1634922862.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

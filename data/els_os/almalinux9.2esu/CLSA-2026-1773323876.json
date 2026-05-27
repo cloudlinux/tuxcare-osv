@@ -1,0 +1,98 @@
+{
+  "id": "CLSA-2026-1773323876",
+  "summary": "go-rpm-macros: Fix of CVE-2025-61726",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "go-filesystem",
+        "purl": "pkg:rpm/tuxcare/go-filesystem?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.2.0-1.el9_2.tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "go-rpm-macros",
+        "purl": "pkg:rpm/tuxcare/go-rpm-macros?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.2.0-1.el9_2.tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "go-rpm-templates",
+        "purl": "pkg:rpm/tuxcare/go-rpm-templates?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.2.0-1.el9_2.tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "go-srpm-macros",
+        "purl": "pkg:rpm/tuxcare/go-srpm-macros?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.2.0-1.el9_2.tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2025-61726"
+  ],
+  "published": "2026-03-12T13:58:00Z",
+  "modified": "2026-03-12T13:58:00Z",
+  "details": "- rebuild with newer golang version 1.22.9-1.el9_2.tuxcare.els6 to fix the following CVE\n- CVE-2025-61726: limit parsed URL query parameters to mitigate excessive memory\n  consumption during form parsing",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/almalinux9.2esu/CLSA-2026-1773323876.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

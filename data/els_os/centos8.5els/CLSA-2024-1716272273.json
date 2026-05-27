@@ -1,0 +1,38 @@
+{
+  "id": "CLSA-2024-1716272273",
+  "summary": "less: Fix of CVE-2022-48624",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "less",
+        "purl": "pkg:rpm/tuxcare/less?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "530-1.el8.tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2022-48624"
+  ],
+  "published": "2024-05-21T06:17:56Z",
+  "modified": "2024-05-21T06:17:56Z",
+  "details": "- CVE-2022-48624: filename.c: shell-quote filenames when invoking LESSCLOSE.",
+  "references": [
+    {
+      "url": "https://errata.cloudlinux.com/centos8.5-els/CLSA-2024-1716272273.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

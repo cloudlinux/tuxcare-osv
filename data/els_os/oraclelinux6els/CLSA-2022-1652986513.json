@@ -1,0 +1,118 @@
+{
+  "id": "CLSA-2022-1652986513",
+  "summary": "Fixed CVE-2022-29155 in openldap",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:6",
+        "name": "openldap",
+        "purl": "pkg:rpm/tuxcare/openldap?distro=oraclelinux-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.4.40-16.el6.tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:6",
+        "name": "openldap-clients",
+        "purl": "pkg:rpm/tuxcare/openldap-clients?distro=oraclelinux-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.4.40-16.el6.tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:6",
+        "name": "openldap-devel",
+        "purl": "pkg:rpm/tuxcare/openldap-devel?distro=oraclelinux-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.4.40-16.el6.tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:6",
+        "name": "openldap-servers",
+        "purl": "pkg:rpm/tuxcare/openldap-servers?distro=oraclelinux-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.4.40-16.el6.tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:6",
+        "name": "openldap-servers-sql",
+        "purl": "pkg:rpm/tuxcare/openldap-servers-sql?distro=oraclelinux-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.4.40-16.el6.tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2022-29155"
+  ],
+  "published": "2022-05-19T18:55:13Z",
+  "modified": "2022-05-17T17:28:33Z",
+  "details": "- CVE-2022-29155: fix SQL injection vulnerability caused by LDAP search operation",
+  "references": [
+    {
+      "url": "https://errata.cloudlinux.com/ol6/CLSA-2022-1652986513.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

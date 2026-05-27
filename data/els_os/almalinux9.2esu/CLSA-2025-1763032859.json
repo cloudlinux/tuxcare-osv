@@ -1,0 +1,38 @@
+{
+  "id": "CLSA-2025-1763032859",
+  "summary": "python3.11-urllib3: Fix of CVE-2023-43804",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "python3.11-urllib3",
+        "purl": "pkg:rpm/tuxcare/python3.11-urllib3?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.26.12-1.el9.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2023-43804"
+  ],
+  "published": "2025-11-13T11:21:02Z",
+  "modified": "2025-11-13T11:21:02Z",
+  "details": "- CVE-2023-43804: fix issue to properly handle Cookie header to prevent\n  information leakage via HTTP redirects",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/almalinux9.2esu/CLSA-2025-1763032859.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

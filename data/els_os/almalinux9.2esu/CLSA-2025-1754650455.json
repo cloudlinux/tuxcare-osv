@@ -1,0 +1,178 @@
+{
+  "id": "CLSA-2025-1754650455",
+  "summary": "tomcat: Fix of CVE-2024-56337",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "tomcat",
+        "purl": "pkg:rpm/tuxcare/tomcat?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:9.0.62-11.el9_2.3.tuxcare.els13"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "tomcat-admin-webapps",
+        "purl": "pkg:rpm/tuxcare/tomcat-admin-webapps?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:9.0.62-11.el9_2.3.tuxcare.els13"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "tomcat-docs-webapp",
+        "purl": "pkg:rpm/tuxcare/tomcat-docs-webapp?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:9.0.62-11.el9_2.3.tuxcare.els13"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "tomcat-el-3.0-api",
+        "purl": "pkg:rpm/tuxcare/tomcat-el-3.0-api?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:9.0.62-11.el9_2.3.tuxcare.els13"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "tomcat-jsp-2.3-api",
+        "purl": "pkg:rpm/tuxcare/tomcat-jsp-2.3-api?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:9.0.62-11.el9_2.3.tuxcare.els13"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "tomcat-lib",
+        "purl": "pkg:rpm/tuxcare/tomcat-lib?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:9.0.62-11.el9_2.3.tuxcare.els13"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "tomcat-servlet-4.0-api",
+        "purl": "pkg:rpm/tuxcare/tomcat-servlet-4.0-api?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:9.0.62-11.el9_2.3.tuxcare.els13"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "tomcat-webapps",
+        "purl": "pkg:rpm/tuxcare/tomcat-webapps?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:9.0.62-11.el9_2.3.tuxcare.els13"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2024-56337"
+  ],
+  "published": "2025-08-08T10:54:18Z",
+  "modified": "2025-08-08T10:54:18Z",
+  "details": "- CVE-2024-56337: prevent time-of-check time-of-use (TOCTOU) race condition vulnerability\n  by strengthening file validation logic during request handling and closing the gap\n  left by the partial mitigation in CVE\u20112024\u201150379",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/almalinux9.2esu/CLSA-2025-1754650455.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

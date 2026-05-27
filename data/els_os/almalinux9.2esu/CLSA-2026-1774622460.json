@@ -1,0 +1,40 @@
+{
+  "id": "CLSA-2026-1774622460",
+  "summary": "squid: Fix of 3 CVEs",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "squid",
+        "purl": "pkg:rpm/tuxcare/squid?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7:5.5-5.el9_2.1.tuxcare.els11"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2025-59362",
+    "CVE-2026-33526",
+    "CVE-2026-33515"
+  ],
+  "published": "2026-03-27T14:41:05Z",
+  "modified": "2026-03-27T14:41:05Z",
+  "details": "- CVE-2025-59362: fix ASN.1 encoding of long SNMP OIDs\n- CVE-2026-33526: do not escape malformed URI twice when sending ICP errors\n- CVE-2026-33515: fix validation of ICP packet sizes and URLs",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/almalinux9.2esu/CLSA-2026-1774622460.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

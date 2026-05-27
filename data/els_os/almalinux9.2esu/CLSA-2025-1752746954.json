@@ -1,0 +1,78 @@
+{
+  "id": "CLSA-2025-1752746954",
+  "summary": "sudo: Fix of CVE-2025-32462",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "sudo",
+        "purl": "pkg:rpm/tuxcare/sudo?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.9.5p2-9.el9.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "sudo-devel",
+        "purl": "pkg:rpm/tuxcare/sudo-devel?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.9.5p2-9.el9.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "sudo-python-plugin",
+        "purl": "pkg:rpm/tuxcare/sudo-python-plugin?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.9.5p2-9.el9.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2025-32462"
+  ],
+  "published": "2025-07-17T10:09:18Z",
+  "modified": "2025-07-17T10:09:18Z",
+  "details": "- CVE-2025-32462: prevent listed users from executing commands on unintended\n  machines by updating sudoers file validation",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/almalinux9.2esu/CLSA-2025-1752746954.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

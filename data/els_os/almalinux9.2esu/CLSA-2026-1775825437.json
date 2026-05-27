@@ -1,0 +1,38 @@
+{
+  "id": "CLSA-2026-1775825437",
+  "summary": "grafana: Fix of CVE-2026-21720",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "grafana",
+        "purl": "pkg:rpm/tuxcare/grafana?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "9.0.9-4.el9_2.alma.1.tuxcare.els14"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-21720"
+  ],
+  "published": "2026-04-10T12:50:42Z",
+  "modified": "2026-04-10T12:50:42Z",
+  "details": "- CVE-2026-21720: fix denial of service by preventing goroutine leaks and\n  memory exhaustion triggered by unauthenticated avatar cache requests",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/almalinux9.2esu/CLSA-2026-1775825437.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

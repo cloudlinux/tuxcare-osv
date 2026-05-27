@@ -1,0 +1,141 @@
+{
+  "id": "CLSA-2021-1634925483",
+  "summary": "Fixed CVEs in python: CVE-2018-20852, CVE-2020-8492, CVE-2020-26116, CVE-2020-27619",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:6",
+        "name": "python",
+        "purl": "pkg:rpm/tuxcare/python?distro=oraclelinux-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.6.6-70.el6.cloudlinux.els"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:6",
+        "name": "python-devel",
+        "purl": "pkg:rpm/tuxcare/python-devel?distro=oraclelinux-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.6.6-70.el6.cloudlinux.els"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:6",
+        "name": "python-libs",
+        "purl": "pkg:rpm/tuxcare/python-libs?distro=oraclelinux-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.6.6-70.el6.cloudlinux.els"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:6",
+        "name": "python-test",
+        "purl": "pkg:rpm/tuxcare/python-test?distro=oraclelinux-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.6.6-70.el6.cloudlinux.els"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:6",
+        "name": "python-tools",
+        "purl": "pkg:rpm/tuxcare/python-tools?distro=oraclelinux-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.6.6-70.el6.cloudlinux.els"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:6",
+        "name": "tkinter",
+        "purl": "pkg:rpm/tuxcare/tkinter?distro=oraclelinux-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.6.6-70.el6.cloudlinux.els"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2018-20852",
+    "CVE-2020-8492",
+    "CVE-2020-26116",
+    "CVE-2020-27619"
+  ],
+  "published": "2021-10-22T17:58:03Z",
+  "modified": "2022-05-17T17:28:33Z",
+  "details": "- Add Oracle Linux distribution in platform.py\n- CVE-2018-20852: Prefix dot in domain for proper subdomain validation\n- CVE-2020-8492: Python allows an HTTP server to conduct Regular Expression Denial of Service (ReDoS) attacks against a client\n- CVE-2020-26116: http.client allows CRLF injection if the attacker controls the HTTP request method\n- CVE-2020-27619: Unsafe use of eval() on data retrieved via HTTP in the test suite",
+  "references": [
+    {
+      "url": "https://errata.cloudlinux.com/ol6/CLSA-2021-1634925483.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

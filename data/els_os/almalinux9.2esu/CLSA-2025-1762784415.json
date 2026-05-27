@@ -1,0 +1,38 @@
+{
+  "id": "CLSA-2025-1762784415",
+  "summary": "mod_http2: Fix of CVE-2025-49630",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "mod_http2",
+        "purl": "pkg:rpm/tuxcare/mod_http2?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.15.19-4.el9.4.tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2025-49630"
+  ],
+  "published": "2025-11-10T14:20:20Z",
+  "modified": "2025-11-10T14:20:20Z",
+  "details": "- CVE-2025-49630: prevent denial of service attack by fixing assertion issue in\n  mod_proxy_http2",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/almalinux9.2esu/CLSA-2025-1762784415.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

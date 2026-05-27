@@ -1,0 +1,122 @@
+{
+  "id": "CLSA-2026-1776246056",
+  "summary": "glib2: Fix of 5 CVEs",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "glib2",
+        "purl": "pkg:rpm/tuxcare/glib2?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.68.4-16.el9_6.3.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "glib2-devel",
+        "purl": "pkg:rpm/tuxcare/glib2-devel?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.68.4-16.el9_6.3.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "glib2-doc",
+        "purl": "pkg:rpm/tuxcare/glib2-doc?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.68.4-16.el9_6.3.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "glib2-static",
+        "purl": "pkg:rpm/tuxcare/glib2-static?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.68.4-16.el9_6.3.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "glib2-tests",
+        "purl": "pkg:rpm/tuxcare/glib2-tests?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.68.4-16.el9_6.3.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-1489",
+    "CVE-2026-1484",
+    "CVE-2026-1485",
+    "CVE-2026-0988",
+    "CVE-2025-7039"
+  ],
+  "published": "2026-04-15T23:18:17Z",
+  "modified": "2026-04-15T23:18:17Z",
+  "details": "- CVE-2026-1489: fix integer overflow in Unicode case conversion functions\n- CVE-2026-1484: fix integer overflow in GLib Base64 encoding\n- CVE-2026-1485: fix buffer underflow in content type treemagic parsing\n- CVE-2026-0988: fix integer overflow in g_buffered_input_stream_peek()\n- CVE-2025-7039: fix integer overflow in temporary file creation",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/tuxcare9.6esu/CLSA-2026-1776246056.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "id": "CLSA-2026-1768413370",
+  "summary": "libpq: Fix of CVE-2025-12818",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "libpq",
+        "purl": "pkg:rpm/tuxcare/libpq?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "13.5-1.el9.tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "libpq-devel",
+        "purl": "pkg:rpm/tuxcare/libpq-devel?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "13.5-1.el9.tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2025-12818"
+  ],
+  "published": "2026-01-14T17:56:13Z",
+  "modified": "2026-01-14T17:56:13Z",
+  "details": "- CVE-2025-12818: fix integer overflow in libpq size calculations to prevent\n  undersized allocations and potential out-of-bounds writes from untrusted inputs",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/almalinux9.2esu/CLSA-2026-1768413370.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

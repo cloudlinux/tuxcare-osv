@@ -1,0 +1,79 @@
+{
+  "id": "CLSA-2024-1711476502",
+  "summary": "sudo: Fix of 2 CVEs",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "sudo",
+        "purl": "pkg:rpm/tuxcare/sudo?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.9.5p2-9.el9.tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "sudo-devel",
+        "purl": "pkg:rpm/tuxcare/sudo-devel?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.9.5p2-9.el9.tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "sudo-python-plugin",
+        "purl": "pkg:rpm/tuxcare/sudo-python-plugin?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.9.5p2-9.el9.tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2023-28486",
+    "CVE-2023-28487"
+  ],
+  "published": "2024-03-26T18:08:25Z",
+  "modified": "2024-03-26T18:08:25Z",
+  "details": "- CVE-2023-28486: Escape control characters in log messages\n- CVE-2023-28487: Escape control characters in sudoreplay output",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/almalinux9.2-esu/CLSA-2024-1711476502.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

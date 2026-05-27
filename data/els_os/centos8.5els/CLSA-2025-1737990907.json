@@ -1,0 +1,59 @@
+{
+  "id": "CLSA-2025-1737990907",
+  "summary": "rsync: Fix of 2 CVEs",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "rsync",
+        "purl": "pkg:rpm/tuxcare/rsync?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.1.3-12.el8.tuxcare.els6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "rsync-daemon",
+        "purl": "pkg:rpm/tuxcare/rsync-daemon?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.1.3-12.el8.tuxcare.els6"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2024-12747",
+    "CVE-2024-12086"
+  ],
+  "published": "2025-01-27T15:15:14Z",
+  "modified": "2025-01-27T15:15:14Z",
+  "details": "- CVE-2024-12747: fix race condition during symbolic links handling\n- CVE-2024-12086: fix infoleak when connect to malicious server",
+  "references": [
+    {
+      "url": "https://errata.cloudlinux.com/centos8.5-els/CLSA-2025-1737990907.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

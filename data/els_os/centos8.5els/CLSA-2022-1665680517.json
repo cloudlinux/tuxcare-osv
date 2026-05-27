@@ -1,0 +1,38 @@
+{
+  "id": "CLSA-2022-1665680517",
+  "summary": "Fixed CVE-2022-41318 in squid-1.module_el8.5.0+2079+24c223d9.tuxcare.els3",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "squid",
+        "purl": "pkg:rpm/tuxcare/squid?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7:4.15-1.module_el8.5.0+2079+24c223d9.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2022-41318"
+  ],
+  "published": "2022-10-13T17:01:57Z",
+  "modified": "2022-10-13T17:01:57Z",
+  "details": "- CVE-2022-41318: Fix buffer-over-read in SSPI and SMB authentication",
+  "references": [
+    {
+      "url": "https://errata.cloudlinux.com/centos8.5-els/CLSA-2022-1665680517.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

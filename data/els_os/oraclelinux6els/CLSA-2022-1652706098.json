@@ -1,0 +1,118 @@
+{
+  "id": "CLSA-2022-1652706098",
+  "summary": "Fixed CVE-2018-25032 in zlib",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:6",
+        "name": "minizip",
+        "purl": "pkg:rpm/tuxcare/minizip?distro=oraclelinux-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.2.3-29.el6.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:6",
+        "name": "minizip-devel",
+        "purl": "pkg:rpm/tuxcare/minizip-devel?distro=oraclelinux-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.2.3-29.el6.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:6",
+        "name": "zlib",
+        "purl": "pkg:rpm/tuxcare/zlib?distro=oraclelinux-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.2.3-29.el6.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:6",
+        "name": "zlib-devel",
+        "purl": "pkg:rpm/tuxcare/zlib-devel?distro=oraclelinux-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.2.3-29.el6.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:6",
+        "name": "zlib-static",
+        "purl": "pkg:rpm/tuxcare/zlib-static?distro=oraclelinux-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.2.3-29.el6.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2018-25032"
+  ],
+  "published": "2022-05-16T13:01:38Z",
+  "modified": "2022-05-17T17:28:33Z",
+  "details": "- CVE-2018-25032: Fix memory corruption when deflating\n  if the input has many distant matches",
+  "references": [
+    {
+      "url": "https://errata.cloudlinux.com/ol6/CLSA-2022-1652706098.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

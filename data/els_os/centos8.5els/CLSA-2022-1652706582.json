@@ -1,0 +1,78 @@
+{
+  "id": "CLSA-2022-1652706582",
+  "summary": "Fixed CVE-2018-25032 in zlib",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "zlib",
+        "purl": "pkg:rpm/tuxcare/zlib?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.2.11-17.el8.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "zlib-devel",
+        "purl": "pkg:rpm/tuxcare/zlib-devel?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.2.11-17.el8.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "zlib-static",
+        "purl": "pkg:rpm/tuxcare/zlib-static?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.2.11-17.el8.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2018-25032"
+  ],
+  "published": "2022-05-16T13:09:42Z",
+  "modified": "2022-05-16T13:09:42Z",
+  "details": "- CVE-2018-25032: Fix an out-of-bounds access flaw leading to memory corruption when \n  input has many distant matches",
+  "references": [
+    {
+      "url": "https://errata.cloudlinux.com/centos8.5-els/CLSA-2022-1652706582.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

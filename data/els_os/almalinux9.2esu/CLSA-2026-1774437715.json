@@ -1,0 +1,98 @@
+{
+  "id": "CLSA-2026-1774437715",
+  "summary": "capstone: Fix of CVE-2025-67873",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "capstone",
+        "purl": "pkg:rpm/tuxcare/capstone?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.0.2-10.el9.tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "capstone-devel",
+        "purl": "pkg:rpm/tuxcare/capstone-devel?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.0.2-10.el9.tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "capstone-java",
+        "purl": "pkg:rpm/tuxcare/capstone-java?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.0.2-10.el9.tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "python3-capstone",
+        "purl": "pkg:rpm/tuxcare/python3-capstone?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.0.2-10.el9.tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2025-67873"
+  ],
+  "published": "2026-03-26T10:38:35Z",
+  "modified": "2026-03-26T10:38:35Z",
+  "details": "- CVE-2025-67873: fix heap buffer overflow in cs_insn.bytes",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/almalinux9.2esu/CLSA-2026-1774437715.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

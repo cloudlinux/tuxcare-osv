@@ -1,0 +1,58 @@
+{
+  "id": "CLSA-2026-1777944214",
+  "summary": "libcap: Fix of CVE-2026-4878",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:7",
+        "name": "libcap",
+        "purl": "pkg:rpm/tuxcare/libcap?distro=centos-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.22-11.el7.tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:7",
+        "name": "libcap-devel",
+        "purl": "pkg:rpm/tuxcare/libcap-devel?distro=centos-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.22-11.el7.tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-4878"
+  ],
+  "published": "2026-05-05T21:06:41Z",
+  "modified": "2026-05-05T21:06:41Z",
+  "details": "- CVE-2026-4878: fix TOCTOU race in cap_set_file() by performing xattr writes via an O_NOFOLLOW file descriptor instead of the user-supplied path",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/centos7els/CLSA-2026-1777944214.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

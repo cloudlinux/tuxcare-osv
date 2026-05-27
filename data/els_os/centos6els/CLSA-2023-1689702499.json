@@ -1,0 +1,118 @@
+{
+  "id": "CLSA-2023-1689702499",
+  "summary": "openldap: Fix of CVE-2023-2953",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:6",
+        "name": "openldap",
+        "purl": "pkg:rpm/tuxcare/openldap?distro=centos-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.4.40-16.el6.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:6",
+        "name": "openldap-clients",
+        "purl": "pkg:rpm/tuxcare/openldap-clients?distro=centos-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.4.40-16.el6.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:6",
+        "name": "openldap-devel",
+        "purl": "pkg:rpm/tuxcare/openldap-devel?distro=centos-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.4.40-16.el6.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:6",
+        "name": "openldap-servers",
+        "purl": "pkg:rpm/tuxcare/openldap-servers?distro=centos-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.4.40-16.el6.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:6",
+        "name": "openldap-servers-sql",
+        "purl": "pkg:rpm/tuxcare/openldap-servers-sql?distro=centos-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.4.40-16.el6.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2023-2953"
+  ],
+  "published": "2023-07-18T17:48:24Z",
+  "modified": "2023-07-18T17:48:24Z",
+  "details": "- CVE-2023-2953: added check for strdup failure, to avoid null pointer dereference",
+  "references": [
+    {
+      "url": "https://errata.cloudlinux.com/els6/CLSA-2023-1689702499.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

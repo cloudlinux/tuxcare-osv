@@ -1,0 +1,118 @@
+{
+  "id": "CLSA-2023-1675111939",
+  "summary": "httpd: Fix of CVE-2022-36760",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:6",
+        "name": "httpd",
+        "purl": "pkg:rpm/tuxcare/httpd?distro=centos-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.2.15-72.el6.tuxcare.els8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:6",
+        "name": "httpd-devel",
+        "purl": "pkg:rpm/tuxcare/httpd-devel?distro=centos-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.2.15-72.el6.tuxcare.els8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:6",
+        "name": "httpd-manual",
+        "purl": "pkg:rpm/tuxcare/httpd-manual?distro=centos-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.2.15-72.el6.tuxcare.els8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:6",
+        "name": "httpd-tools",
+        "purl": "pkg:rpm/tuxcare/httpd-tools?distro=centos-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.2.15-72.el6.tuxcare.els8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:6",
+        "name": "mod_ssl",
+        "purl": "pkg:rpm/tuxcare/mod_ssl?distro=centos-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:2.2.15-72.el6.tuxcare.els8"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2022-36760"
+  ],
+  "published": "2023-01-30T20:52:19Z",
+  "modified": "2023-01-30T20:52:19Z",
+  "details": "- CVE-2022-36760: mod_proxy_ajp: fix possible HTTP request smuggling",
+  "references": [
+    {
+      "url": "https://errata.cloudlinux.com/els6/CLSA-2023-1675111939.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

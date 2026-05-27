@@ -1,0 +1,99 @@
+{
+  "id": "CLSA-2026-1774266713",
+  "summary": "exiv2: Fix of 2 CVEs",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "exiv2",
+        "purl": "pkg:rpm/tuxcare/exiv2?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.27.5-2.el9.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "exiv2-devel",
+        "purl": "pkg:rpm/tuxcare/exiv2-devel?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.27.5-2.el9.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "exiv2-doc",
+        "purl": "pkg:rpm/tuxcare/exiv2-doc?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.27.5-2.el9.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "exiv2-libs",
+        "purl": "pkg:rpm/tuxcare/exiv2-libs?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.27.5-2.el9.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-25884",
+    "CVE-2026-27596"
+  ],
+  "published": "2026-03-23T11:51:58Z",
+  "modified": "2026-03-23T11:51:58Z",
+  "details": "- CVE-2026-25884: fix out-of-bounds read in CRW image parser\n- CVE-2026-27596: fix integer underflow in preview component",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/almalinux9.2esu/CLSA-2026-1774266713.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

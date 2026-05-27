@@ -1,0 +1,118 @@
+{
+  "id": "CLSA-2026-1776873238",
+  "summary": "libarchive: Fix of CVE-2026-4424",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "bsdcat",
+        "purl": "pkg:rpm/tuxcare/bsdcat?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.5.3-6.el9_6.tuxcare.els5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "bsdcpio",
+        "purl": "pkg:rpm/tuxcare/bsdcpio?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.5.3-6.el9_6.tuxcare.els5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "bsdtar",
+        "purl": "pkg:rpm/tuxcare/bsdtar?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.5.3-6.el9_6.tuxcare.els5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "libarchive",
+        "purl": "pkg:rpm/tuxcare/libarchive?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.5.3-6.el9_6.tuxcare.els5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "libarchive-devel",
+        "purl": "pkg:rpm/tuxcare/libarchive-devel?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.5.3-6.el9_6.tuxcare.els5"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-4424"
+  ],
+  "published": "2026-04-23T18:35:59Z",
+  "modified": "2026-04-23T18:35:59Z",
+  "details": "- CVE-2026-4424: fix heap out-of-bounds read in RAR reader due to LZSS window\n  size mismatch after PPMd block",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/tuxcare9.6esu/CLSA-2026-1776873238.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

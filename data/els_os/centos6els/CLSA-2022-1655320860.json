@@ -1,0 +1,119 @@
+{
+  "id": "CLSA-2022-1655320860",
+  "summary": "Fixed CVEs in vim: CVE-2022-1927, CVE-2022-1897",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:6",
+        "name": "vim-X11",
+        "purl": "pkg:rpm/tuxcare/vim-X11?distro=centos-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3:7.4.629-5.2.el6.tuxcare.els16"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:6",
+        "name": "vim-common",
+        "purl": "pkg:rpm/tuxcare/vim-common?distro=centos-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3:7.4.629-5.2.el6.tuxcare.els16"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:6",
+        "name": "vim-enhanced",
+        "purl": "pkg:rpm/tuxcare/vim-enhanced?distro=centos-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3:7.4.629-5.2.el6.tuxcare.els16"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:6",
+        "name": "vim-filesystem",
+        "purl": "pkg:rpm/tuxcare/vim-filesystem?distro=centos-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3:7.4.629-5.2.el6.tuxcare.els16"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:6",
+        "name": "vim-minimal",
+        "purl": "pkg:rpm/tuxcare/vim-minimal?distro=centos-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3:7.4.629-5.2.el6.tuxcare.els16"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2022-1927",
+    "CVE-2022-1897"
+  ],
+  "published": "2022-06-15T19:21:00Z",
+  "modified": "2022-06-15T19:21:00Z",
+  "details": "- CVE-2022-1897: fix substitution which overwrites an allocated buffer\n- CVE-2022-1927: fix invalid cursor position after '0;' range",
+  "references": [
+    {
+      "url": "https://errata.cloudlinux.com/els6/CLSA-2022-1655320860.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

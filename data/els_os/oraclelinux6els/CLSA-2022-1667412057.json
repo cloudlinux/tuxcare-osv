@@ -1,0 +1,58 @@
+{
+  "id": "CLSA-2022-1667412057",
+  "summary": "expat: Fix of CVE-2022-43680",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:6",
+        "name": "expat",
+        "purl": "pkg:rpm/tuxcare/expat?distro=oraclelinux-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.0.1-13.el6_8.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:6",
+        "name": "expat-devel",
+        "purl": "pkg:rpm/tuxcare/expat-devel?distro=oraclelinux-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.0.1-13.el6_8.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2022-43680"
+  ],
+  "published": "2022-11-02T18:00:57Z",
+  "modified": "2022-11-02T18:00:57Z",
+  "details": "- CVE-2022-43680: Fix overeager DTD destruction",
+  "references": [
+    {
+      "url": "https://errata.cloudlinux.com/ol6/CLSA-2022-1667412057.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

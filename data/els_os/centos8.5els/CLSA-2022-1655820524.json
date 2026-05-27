@@ -1,0 +1,56 @@
+{
+  "id": "CLSA-2022-1655820524",
+  "summary": "Update of shim",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "shim-ia32",
+        "purl": "pkg:rpm/tuxcare/shim-ia32?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "15.4-2.el8_2.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "shim-x64",
+        "purl": "pkg:rpm/tuxcare/shim-x64?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "15.4-2.el8_2.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [],
+  "published": "2022-06-21T14:08:44Z",
+  "modified": "2022-06-21T14:08:44Z",
+  "details": "- Update to upstream 15.4 version\n- Add support for Secure Boot",
+  "references": [
+    {
+      "url": "https://errata.cloudlinux.com/centos8.5-els/CLSA-2022-1655820524.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

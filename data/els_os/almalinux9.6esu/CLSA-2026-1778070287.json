@@ -1,0 +1,38 @@
+{
+  "id": "CLSA-2026-1778070287",
+  "summary": "mod_http2: Fix of CVE-2026-23918",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "mod_http2",
+        "purl": "pkg:rpm/tuxcare/mod_http2?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.0.26-4.el9_6.1.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-23918"
+  ],
+  "published": "2026-05-06T12:24:54Z",
+  "modified": "2026-05-06T12:24:54Z",
+  "details": "- CVE-2026-23918: fix double free via double stream purge in mod_http2",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/tuxcare9.6esu/CLSA-2026-1778070287.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

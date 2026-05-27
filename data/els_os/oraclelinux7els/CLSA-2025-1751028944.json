@@ -1,0 +1,56 @@
+{
+  "id": "CLSA-2025-1751028944",
+  "summary": "Update of tzdata",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:7",
+        "name": "tzdata",
+        "purl": "pkg:rpm/tuxcare/tzdata?distro=oraclelinux-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2025b-1.el7.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:7",
+        "name": "tzdata-java",
+        "purl": "pkg:rpm/tuxcare/tzdata-java?distro=oraclelinux-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2025b-1.el7.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [],
+  "published": "2025-06-27T12:55:49Z",
+  "modified": "2025-06-27T12:55:49Z",
+  "details": "- Upgrade to tzdata-2025b\n  - New zone for Ays\u00e9n Region in Chile which moves from -04/-03 to -03.\n  - Paraguay adopted permanent -03 starting spring 2024.\n  - Improve pre-1991 data for the Philippines.\n  - Etc/Unknown is now reserved.",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/oraclelinux7els/CLSA-2025-1751028944.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

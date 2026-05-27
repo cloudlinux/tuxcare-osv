@@ -1,0 +1,118 @@
+{
+  "id": "CLSA-2026-1779124021",
+  "summary": "firewalld: Fix of CVE-2026-4948",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "firewall-applet",
+        "purl": "pkg:rpm/tuxcare/firewall-applet?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.3.4-15.el9_6.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "firewall-config",
+        "purl": "pkg:rpm/tuxcare/firewall-config?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.3.4-15.el9_6.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "firewalld",
+        "purl": "pkg:rpm/tuxcare/firewalld?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.3.4-15.el9_6.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "firewalld-filesystem",
+        "purl": "pkg:rpm/tuxcare/firewalld-filesystem?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.3.4-15.el9_6.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "python3-firewall",
+        "purl": "pkg:rpm/tuxcare/python3-firewall?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.3.4-15.el9_6.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-4948"
+  ],
+  "published": "2026-05-18T17:07:11Z",
+  "modified": "2026-05-18T17:07:11Z",
+  "details": "- CVE-2026-4948: use PK_ACTION_CONFIG instead of PK_ACTION_CONFIG_INFO for setZoneSettings2 and setPolicySettings to require config-write authorization",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/tuxcare9.6esu/CLSA-2026-1779124021.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "id": "CLSA-2026-1776069305",
+  "summary": "binutils: Fix of 2 CVEs",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:7",
+        "name": "binutils",
+        "purl": "pkg:rpm/tuxcare/binutils?distro=centos-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.27-44.base.el7_9.1.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:7",
+        "name": "binutils-devel",
+        "purl": "pkg:rpm/tuxcare/binutils-devel?distro=centos-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.27-44.base.el7_9.1.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-3441",
+    "CVE-2026-3442"
+  ],
+  "published": "2026-04-16T14:43:41Z",
+  "modified": "2026-04-16T14:43:41Z",
+  "details": "- CVE-2026-3441, CVE-2026-3442: fix out-of-bounds read in XCOFF relocation processing",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/centos7els/CLSA-2026-1776069305.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

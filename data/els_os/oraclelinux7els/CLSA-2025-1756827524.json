@@ -1,0 +1,78 @@
+{
+  "id": "CLSA-2025-1756827524",
+  "summary": "libxslt: Fix of CVE-2024-55549",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:7",
+        "name": "libxslt",
+        "purl": "pkg:rpm/tuxcare/libxslt?distro=oraclelinux-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.1.28-6.0.1.el7.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:7",
+        "name": "libxslt-devel",
+        "purl": "pkg:rpm/tuxcare/libxslt-devel?distro=oraclelinux-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.1.28-6.0.1.el7.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:7",
+        "name": "libxslt-python",
+        "purl": "pkg:rpm/tuxcare/libxslt-python?distro=oraclelinux-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.1.28-6.0.1.el7.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2024-55549"
+  ],
+  "published": "2025-12-08T22:18:40Z",
+  "modified": "2025-12-08T22:18:40Z",
+  "details": "- CVE-2024-55549: fix use-after-free issue related to exclusion\n  of result prefixes",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/oraclelinux7els/CLSA-2025-1756827524.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

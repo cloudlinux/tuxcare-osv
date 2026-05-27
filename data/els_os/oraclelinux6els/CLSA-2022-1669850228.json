@@ -1,0 +1,158 @@
+{
+  "id": "CLSA-2022-1669850228",
+  "summary": "kernel: Fix of CVE-2021-22543",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:6",
+        "name": "kernel",
+        "purl": "pkg:rpm/tuxcare/kernel?distro=oraclelinux-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.6.32-754.35.8.el6.tuxcare.els11"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:6",
+        "name": "kernel-debug",
+        "purl": "pkg:rpm/tuxcare/kernel-debug?distro=oraclelinux-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.6.32-754.35.8.el6.tuxcare.els11"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:6",
+        "name": "kernel-debug-devel",
+        "purl": "pkg:rpm/tuxcare/kernel-debug-devel?distro=oraclelinux-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.6.32-754.35.8.el6.tuxcare.els11"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:6",
+        "name": "kernel-devel",
+        "purl": "pkg:rpm/tuxcare/kernel-devel?distro=oraclelinux-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.6.32-754.35.8.el6.tuxcare.els11"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:6",
+        "name": "kernel-headers",
+        "purl": "pkg:rpm/tuxcare/kernel-headers?distro=oraclelinux-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.6.32-754.35.8.el6.tuxcare.els11"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:6",
+        "name": "perf",
+        "purl": "pkg:rpm/tuxcare/perf?distro=oraclelinux-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.6.32-754.35.8.el6.tuxcare.els11"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:6",
+        "name": "python-perf",
+        "purl": "pkg:rpm/tuxcare/python-perf?distro=oraclelinux-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.6.32-754.35.8.el6.tuxcare.els11"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2021-22543"
+  ],
+  "published": "2022-11-30T23:17:08Z",
+  "modified": "2022-11-30T23:17:08Z",
+  "details": "- KVM: do not allow mapping valid but non-reference-counted pages {CVE-2021-22543}",
+  "references": [
+    {
+      "url": "https://errata.cloudlinux.com/ol6/CLSA-2022-1669850228.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

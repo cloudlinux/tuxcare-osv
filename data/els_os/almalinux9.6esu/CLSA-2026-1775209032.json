@@ -1,0 +1,39 @@
+{
+  "id": "CLSA-2026-1775209032",
+  "summary": "squid: Fix of 2 CVEs",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "squid",
+        "purl": "pkg:rpm/tuxcare/squid?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7:5.5-19.el9_6.1.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-33515",
+    "CVE-2026-33526"
+  ],
+  "published": "2026-04-08T20:59:20Z",
+  "modified": "2026-04-08T20:59:20Z",
+  "details": "- CVE-2026-33515: fix validation of packet sizes and URLs in ICP\n- CVE-2026-33526: fix escaping malformed URI twice when sending ICP errors",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/tuxcare9.6esu/CLSA-2026-1775209032.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

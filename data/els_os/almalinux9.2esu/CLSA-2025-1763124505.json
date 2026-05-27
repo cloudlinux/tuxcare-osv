@@ -1,0 +1,58 @@
+{
+  "id": "CLSA-2025-1763124505",
+  "summary": "xorg-x11-server-Xwayland: Fix of CVE-2023-6816",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "xorg-x11-server-Xwayland",
+        "purl": "pkg:rpm/tuxcare/xorg-x11-server-Xwayland?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "21.1.3-7.el9.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "xorg-x11-server-Xwayland-devel",
+        "purl": "pkg:rpm/tuxcare/xorg-x11-server-Xwayland-devel?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "21.1.3-7.el9.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2023-6816"
+  ],
+  "published": "2025-11-14T12:48:29Z",
+  "modified": "2025-11-14T12:48:29Z",
+  "details": "- CVE-2023-6816: fix heap buffer overflow in logical button map allocation,\n  allocate sufficient space for maximum button mappings (up to 255)",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/almalinux9.2esu/CLSA-2025-1763124505.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

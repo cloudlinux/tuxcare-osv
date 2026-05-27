@@ -1,0 +1,99 @@
+{
+  "id": "CLSA-2025-1753377886",
+  "summary": "libxml2: Fix of 2 CVEs",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:6",
+        "name": "libxml2",
+        "purl": "pkg:rpm/tuxcare/libxml2?distro=centos-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.7.6-21.el6_8.1.tuxcare.els9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:6",
+        "name": "libxml2-devel",
+        "purl": "pkg:rpm/tuxcare/libxml2-devel?distro=centos-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.7.6-21.el6_8.1.tuxcare.els9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:6",
+        "name": "libxml2-python",
+        "purl": "pkg:rpm/tuxcare/libxml2-python?distro=centos-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.7.6-21.el6_8.1.tuxcare.els9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:6",
+        "name": "libxml2-static",
+        "purl": "pkg:rpm/tuxcare/libxml2-static?distro=centos-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.7.6-21.el6_8.1.tuxcare.els9"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2025-49794",
+    "CVE-2025-49796"
+  ],
+  "published": "2025-07-24T17:24:50Z",
+  "modified": "2025-07-24T17:24:50Z",
+  "details": "- CVE-2025-49794: fix memory safety issues in xmlSchematronReportOutput when parsing\n  XPath elements\n- CVE-2025-49796: fix memory corruption issue triggered by processing sch:name\n  elements in input XML file",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/centos6els/CLSA-2025-1753377886.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

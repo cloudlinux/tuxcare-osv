@@ -1,0 +1,78 @@
+{
+  "id": "CLSA-2026-1777280127",
+  "summary": "cyrus-imapd: Fix of CVE-2021-33582",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:7",
+        "name": "cyrus-imapd",
+        "purl": "pkg:rpm/tuxcare/cyrus-imapd?distro=oraclelinux-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.4.17-15.el7.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:7",
+        "name": "cyrus-imapd-devel",
+        "purl": "pkg:rpm/tuxcare/cyrus-imapd-devel?distro=oraclelinux-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.4.17-15.el7.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:7",
+        "name": "cyrus-imapd-utils",
+        "purl": "pkg:rpm/tuxcare/cyrus-imapd-utils?distro=oraclelinux-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.4.17-15.el7.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2021-33582"
+  ],
+  "published": "2026-04-27T08:55:33Z",
+  "modified": "2026-04-27T08:55:33Z",
+  "details": "- Fix CVE-2021-33582 - Denial of service via string hashing algorithm collisions",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/oraclelinux7els/CLSA-2026-1777280127.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "id": "CLSA-2026-1771001650",
+  "summary": "libpng: Fix of CVE-2026-22801",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "libpng",
+        "purl": "pkg:rpm/tuxcare/libpng?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:1.6.37-12.el9_2.tuxcare.els5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "libpng-devel",
+        "purl": "pkg:rpm/tuxcare/libpng-devel?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:1.6.37-12.el9_2.tuxcare.els5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "libpng-static",
+        "purl": "pkg:rpm/tuxcare/libpng-static?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:1.6.37-12.el9_2.tuxcare.els5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "libpng-tools",
+        "purl": "pkg:rpm/tuxcare/libpng-tools?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:1.6.37-12.el9_2.tuxcare.els5"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-22801"
+  ],
+  "published": "2026-02-13T16:54:14Z",
+  "modified": "2026-02-13T16:54:14Z",
+  "details": "- CVE-2026-22801: fix heap buffer over-read in png_image_write_*",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/almalinux9.2esu/CLSA-2026-1771001650.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

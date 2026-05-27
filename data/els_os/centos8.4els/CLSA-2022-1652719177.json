@@ -1,0 +1,78 @@
+{
+  "id": "CLSA-2022-1652719177",
+  "summary": "Fixed CVE-2021-28116 in squid-4.module_el8.4.0+2033+9782b8ab.2.tuxcare.els2",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.4",
+        "name": "libecap",
+        "purl": "pkg:rpm/tuxcare/libecap?distro=centos-8.4"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.0.1-2.module_el8.4.0+2033+9782b8ab"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.4",
+        "name": "libecap-devel",
+        "purl": "pkg:rpm/tuxcare/libecap-devel?distro=centos-8.4"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.0.1-2.module_el8.4.0+2033+9782b8ab"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.4",
+        "name": "squid",
+        "purl": "pkg:rpm/tuxcare/squid?distro=centos-8.4"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7:4.11-4.module_el8.4.0+2033+9782b8ab.2.tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2021-28116"
+  ],
+  "published": "2022-05-16T16:39:37Z",
+  "modified": "2022-05-16T16:39:37Z",
+  "details": "- CVE-2021-28116: Fix out of bound access when processing WCCPv2 messages\n",
+  "references": [
+    {
+      "url": "https://errata.cloudlinux.com/centos8.4-els/CLSA-2022-1652719177.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

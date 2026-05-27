@@ -1,0 +1,58 @@
+{
+  "id": "CLSA-2026-1772646645",
+  "summary": "butane: Fix of CVE-2025-61729",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "butane",
+        "purl": "pkg:rpm/tuxcare/butane?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.17.0-1.el9.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "butane-redistributable",
+        "purl": "pkg:rpm/tuxcare/butane-redistributable?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.17.0-1.el9.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2025-61729"
+  ],
+  "published": "2026-03-04T17:50:50Z",
+  "modified": "2026-03-04T17:50:50Z",
+  "details": "- rebuild with newer golang version 1.22.9-1.el9_2.tuxcare.els6 to fix the following CVE\n- CVE-2025-61729: limit parsed URL query parameters to mitigate excessive memory\n  consumption during form parsing",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/almalinux9.2esu/CLSA-2026-1772646645.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

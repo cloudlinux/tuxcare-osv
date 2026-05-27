@@ -1,0 +1,78 @@
+{
+  "id": "CLSA-2022-1671126165",
+  "summary": "curl: Fix of CVE-2022-32221",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:6",
+        "name": "curl",
+        "purl": "pkg:rpm/tuxcare/curl?distro=centos-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7.19.7-59.el6.tuxcare.els7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:6",
+        "name": "libcurl",
+        "purl": "pkg:rpm/tuxcare/libcurl?distro=centos-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7.19.7-59.el6.tuxcare.els7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:6",
+        "name": "libcurl-devel",
+        "purl": "pkg:rpm/tuxcare/libcurl-devel?distro=centos-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7.19.7-59.el6.tuxcare.els7"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2022-32221"
+  ],
+  "published": "2022-12-15T17:42:45Z",
+  "modified": "2022-12-15T17:42:45Z",
+  "details": "- CVE-2022-32221: fix issue when POST following PUT confusion",
+  "references": [
+    {
+      "url": "https://errata.cloudlinux.com/els6/CLSA-2022-1671126165.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "id": "CLSA-2026-1778146905",
+  "summary": "freerdp: Fix of CVE-2022-24883",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:7",
+        "name": "freerdp",
+        "purl": "pkg:rpm/tuxcare/freerdp?distro=oraclelinux-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.1.1-5.el7_9.tuxcare.els21"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:7",
+        "name": "freerdp-devel",
+        "purl": "pkg:rpm/tuxcare/freerdp-devel?distro=oraclelinux-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.1.1-5.el7_9.tuxcare.els21"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:7",
+        "name": "freerdp-libs",
+        "purl": "pkg:rpm/tuxcare/freerdp-libs?distro=oraclelinux-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.1.1-5.el7_9.tuxcare.els21"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:7",
+        "name": "libwinpr",
+        "purl": "pkg:rpm/tuxcare/libwinpr?distro=oraclelinux-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.1.1-5.el7_9.tuxcare.els21"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:7",
+        "name": "libwinpr-devel",
+        "purl": "pkg:rpm/tuxcare/libwinpr-devel?distro=oraclelinux-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.1.1-5.el7_9.tuxcare.els21"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2022-24883"
+  ],
+  "published": "2026-05-07T11:13:51Z",
+  "modified": "2026-05-07T11:13:51Z",
+  "details": "- Reuse centos7els branch for oraclelinux7els\n- CVE-2022-24883: fix server-side NTLM auth bypass against a SAM database\n  by rejecting auth when SamOpen fails or the user entry is missing",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/oraclelinux7els/CLSA-2026-1778146905.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

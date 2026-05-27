@@ -1,0 +1,78 @@
+{
+  "id": "CLSA-2026-1776703400",
+  "summary": "libssh: Fix of CVE-2026-0968",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "libssh",
+        "purl": "pkg:rpm/tuxcare/libssh?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.9.4-3.el8.tuxcare.els8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "libssh-config",
+        "purl": "pkg:rpm/tuxcare/libssh-config?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.9.4-3.el8.tuxcare.els8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "libssh-devel",
+        "purl": "pkg:rpm/tuxcare/libssh-devel?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.9.4-3.el8.tuxcare.els8"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-0968"
+  ],
+  "published": "2026-04-20T16:43:25Z",
+  "modified": "2026-04-20T16:43:25Z",
+  "details": "- CVE-2026-0968: sanitize input handling in sftp_parse_longname() to prevent\n  OOB read when processing malformed SFTP longname fields, add unit tests",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/centos8.5els/CLSA-2026-1776703400.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

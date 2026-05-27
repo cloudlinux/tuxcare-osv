@@ -1,0 +1,60 @@
+{
+  "id": "CLSA-2026-1772455449",
+  "summary": "buildah: Fix of 3 CVEs",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "buildah",
+        "purl": "pkg:rpm/tuxcare/buildah?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:1.39.6-1.el9_2.tuxcare.els5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "buildah-tests",
+        "purl": "pkg:rpm/tuxcare/buildah-tests?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:1.39.6-1.el9_2.tuxcare.els5"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2025-68121",
+    "CVE-2025-61726",
+    "CVE-2025-61729"
+  ],
+  "published": "2026-03-02T12:44:13Z",
+  "modified": "2026-03-02T12:44:13Z",
+  "details": "- rebuild with newer golang version 1.22.9-1.el9_2.tuxcare.els6 to fix the following CVE's\n- CVE-2025-68121: fix TLS session resumption bypass by preventing shared\n  auto-rotated ticket keys in Config and validating full certificate chain expiry\n- CVE-2025-61726: limit parsed URL query parameters to mitigate excessive memory\n  consumption during form parsing\n- CVE-2025-61729: fix excessive resource consumption when constructing hostname\n  error messages for certificates with many SANs",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/almalinux9.2esu/CLSA-2026-1772455449.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

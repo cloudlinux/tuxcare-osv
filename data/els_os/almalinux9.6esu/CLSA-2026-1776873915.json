@@ -1,0 +1,78 @@
+{
+  "id": "CLSA-2026-1776873915",
+  "summary": "rsync: Fix of CVE-2024-12086",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "rsync",
+        "purl": "pkg:rpm/tuxcare/rsync?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.2.5-3.el9.tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "rsync-daemon",
+        "purl": "pkg:rpm/tuxcare/rsync-daemon?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.2.5-3.el9.tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "rsync-rrsync",
+        "purl": "pkg:rpm/tuxcare/rsync-rrsync?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.2.5-3.el9.tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2024-12086"
+  ],
+  "published": "2026-04-22T16:05:20Z",
+  "modified": "2026-04-22T16:05:20Z",
+  "details": "- CVE-2024-12086: prevent info leak during file transfer by refusing\n  malicious fuzzy operations and confining basis-file opens to the\n  destination via secure_relative_open()",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/tuxcare9.6esu/CLSA-2026-1776873915.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

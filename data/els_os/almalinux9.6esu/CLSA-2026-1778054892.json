@@ -1,0 +1,99 @@
+{
+  "id": "CLSA-2026-1778054892",
+  "summary": "libpng: Fix of 2 CVEs",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "libpng",
+        "purl": "pkg:rpm/tuxcare/libpng?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:1.6.37-12.el9_6.tuxcare.els7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "libpng-devel",
+        "purl": "pkg:rpm/tuxcare/libpng-devel?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:1.6.37-12.el9_6.tuxcare.els7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "libpng-static",
+        "purl": "pkg:rpm/tuxcare/libpng-static?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:1.6.37-12.el9_6.tuxcare.els7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "libpng-tools",
+        "purl": "pkg:rpm/tuxcare/libpng-tools?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:1.6.37-12.el9_6.tuxcare.els7"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-33416",
+    "CVE-2026-33636"
+  ],
+  "published": "2026-05-06T08:08:17Z",
+  "modified": "2026-05-06T08:08:17Z",
+  "details": "- CVE-2026-33416: fix use-after-free via pointer aliasing in png_set_tRNS and png_set_PLTE\n- CVE-2026-33636: fix out-of-bounds read/write in ARM NEON palette expansion",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/tuxcare9.6esu/CLSA-2026-1778054892.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

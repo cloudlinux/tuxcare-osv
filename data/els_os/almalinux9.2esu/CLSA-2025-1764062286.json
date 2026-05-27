@@ -1,0 +1,99 @@
+{
+  "id": "CLSA-2025-1764062286",
+  "summary": "edk2: Fix of 2 CVEs",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "edk2-aarch64",
+        "purl": "pkg:rpm/tuxcare/edk2-aarch64?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "20221207gitfff6d81270b5-9.el9_2.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "edk2-ovmf",
+        "purl": "pkg:rpm/tuxcare/edk2-ovmf?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "20221207gitfff6d81270b5-9.el9_2.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "edk2-tools",
+        "purl": "pkg:rpm/tuxcare/edk2-tools?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "20221207gitfff6d81270b5-9.el9_2.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "edk2-tools-doc",
+        "purl": "pkg:rpm/tuxcare/edk2-tools-doc?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "20221207gitfff6d81270b5-9.el9_2.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2023-45236",
+    "CVE-2023-45237"
+  ],
+  "published": "2025-11-25T09:18:10Z",
+  "modified": "2025-11-25T09:18:10Z",
+  "details": "- CVE-2023-45236: fix TCP Initial Sequence Number generation in NetworkPkg\n  to prevent predictable sequence numbers\n- CVE-2023-45237: fix weak pseudo-random number generator in NetworkPkg\n  to prevent predictable TCP sequence numbers",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/almalinux9.2esu/CLSA-2025-1764062286.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "id": "CLSA-2025-1747903049",
+  "summary": "giflib: Fix of 2 CVEs",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "giflib",
+        "purl": "pkg:rpm/tuxcare/giflib?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.2.1-9.el9.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "giflib-devel",
+        "purl": "pkg:rpm/tuxcare/giflib-devel?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.2.1-9.el9.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "giflib-utils",
+        "purl": "pkg:rpm/tuxcare/giflib-utils?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.2.1-9.el9.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2023-48161",
+    "CVE-2025-31344"
+  ],
+  "published": "2025-05-22T08:37:34Z",
+  "modified": "2025-05-22T08:37:34Z",
+  "details": "- CVE-2023-48161: fix heap-buffer overflow\n- CVE-2025-31344: fix heap-buffer overflow",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/almalinux9.2-esu/CLSA-2025-1747903049.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

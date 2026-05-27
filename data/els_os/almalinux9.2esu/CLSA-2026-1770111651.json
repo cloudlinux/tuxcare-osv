@@ -1,0 +1,118 @@
+{
+  "id": "CLSA-2026-1770111651",
+  "summary": "glib2: Fix of CVE-2025-13601",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "glib2",
+        "purl": "pkg:rpm/tuxcare/glib2?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.68.4-6.el9.tuxcare.els4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "glib2-devel",
+        "purl": "pkg:rpm/tuxcare/glib2-devel?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.68.4-6.el9.tuxcare.els4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "glib2-doc",
+        "purl": "pkg:rpm/tuxcare/glib2-doc?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.68.4-6.el9.tuxcare.els4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "glib2-static",
+        "purl": "pkg:rpm/tuxcare/glib2-static?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.68.4-6.el9.tuxcare.els4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "glib2-tests",
+        "purl": "pkg:rpm/tuxcare/glib2-tests?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.68.4-6.el9.tuxcare.els4"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2025-13601"
+  ],
+  "published": "2026-02-03T09:40:54Z",
+  "modified": "2026-02-03T09:40:54Z",
+  "details": "- CVE-2025-13601: Fixed incorrect buffer size calculation in g_escape_uri_string()\n  and added fuzz tests\n- 4-0001-fix-gdatetime-test: fixes gdatetime test failing",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/almalinux9.2esu/CLSA-2026-1770111651.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "id": "CLSA-2023-1696970439",
+  "summary": "libwebp: Fix of 3 CVEs",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "libwebp",
+        "purl": "pkg:rpm/tuxcare/libwebp?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.0.0-5.el8.tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "libwebp-devel",
+        "purl": "pkg:rpm/tuxcare/libwebp-devel?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.0.0-5.el8.tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "libwebp-java",
+        "purl": "pkg:rpm/tuxcare/libwebp-java?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.0.0-5.el8.tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "libwebp-tools",
+        "purl": "pkg:rpm/tuxcare/libwebp-tools?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.0.0-5.el8.tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2018-25013",
+    "CVE-2018-25014",
+    "CVE-2023-1999"
+  ],
+  "published": "2023-10-10T20:40:43Z",
+  "modified": "2023-10-10T20:40:43Z",
+  "details": "- CVE-2018-25013, CVE-2018-25014: wait for all threads to be done in\n  DecodeRemaining\n- CVE-2023-1999: fix a double free error",
+  "references": [
+    {
+      "url": "https://errata.cloudlinux.com/centos8.5-els/CLSA-2023-1696970439.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

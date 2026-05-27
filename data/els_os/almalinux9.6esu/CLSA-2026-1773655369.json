@@ -1,0 +1,101 @@
+{
+  "id": "CLSA-2026-1773655369",
+  "summary": "gimp: Fix of 4 CVEs",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "gimp",
+        "purl": "pkg:rpm/tuxcare/gimp?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:2.99.8-4.el9_6.2.tuxcare.els5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "gimp-devel",
+        "purl": "pkg:rpm/tuxcare/gimp-devel?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:2.99.8-4.el9_6.2.tuxcare.els5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "gimp-devel-tools",
+        "purl": "pkg:rpm/tuxcare/gimp-devel-tools?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:2.99.8-4.el9_6.2.tuxcare.els5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "gimp-libs",
+        "purl": "pkg:rpm/tuxcare/gimp-libs?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:2.99.8-4.el9_6.2.tuxcare.els5"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-2044",
+    "CVE-2026-2045",
+    "CVE-2026-2048",
+    "CVE-2026-0797"
+  ],
+  "published": "2026-03-16T12:49:29Z",
+  "modified": "2026-03-16T12:49:29Z",
+  "details": "- CVE-2026-2044: fix uninitialized memory read in PGM file parser\n- CVE-2026-2045: fix heap buffer overflow in XWD file loader\n- CVE-2026-2048: fix out-of-bounds write in XWD file loader\n- CVE-2026-0797: fix missing fread return value checks in ICO file loader",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/tuxcare9.6esu/CLSA-2026-1773655369.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

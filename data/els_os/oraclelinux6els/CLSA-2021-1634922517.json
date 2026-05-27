@@ -1,0 +1,78 @@
+{
+  "id": "CLSA-2021-1634922517",
+  "summary": "Fixed CVE-2021-22925 in curl",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:6",
+        "name": "curl",
+        "purl": "pkg:rpm/tuxcare/curl?distro=oraclelinux-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7.19.7-58.el6.cloudlinux.els"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:6",
+        "name": "libcurl",
+        "purl": "pkg:rpm/tuxcare/libcurl?distro=oraclelinux-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7.19.7-58.el6.cloudlinux.els"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:6",
+        "name": "libcurl-devel",
+        "purl": "pkg:rpm/tuxcare/libcurl-devel?distro=oraclelinux-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7.19.7-58.el6.cloudlinux.els"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2021-22925"
+  ],
+  "published": "2021-10-22T17:08:37Z",
+  "modified": "2022-05-17T17:28:33Z",
+  "details": "- telnet stack contents disclosure again (CVE-2021-22925)",
+  "references": [
+    {
+      "url": "https://errata.cloudlinux.com/ol6/CLSA-2021-1634922517.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

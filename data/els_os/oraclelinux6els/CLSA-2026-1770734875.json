@@ -1,0 +1,58 @@
+{
+  "id": "CLSA-2026-1770734875",
+  "summary": "expat: Fix of CVE-2026-24515",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:6",
+        "name": "expat",
+        "purl": "pkg:rpm/tuxcare/expat?distro=oraclelinux-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.0.1-13.el6_8.tuxcare.els6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:6",
+        "name": "expat-devel",
+        "purl": "pkg:rpm/tuxcare/expat-devel?distro=oraclelinux-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.0.1-13.el6_8.tuxcare.els6"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-24515"
+  ],
+  "published": "2026-02-10T14:47:59Z",
+  "modified": "2026-02-10T14:47:59Z",
+  "details": "- CVE-2026-24515: Fix a null pointer dereference in the XML parser caused by the\n  failure to copy user data for unknown encoding handlers",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/oraclelinux6els/CLSA-2026-1770734875.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

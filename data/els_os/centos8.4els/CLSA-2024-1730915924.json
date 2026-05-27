@@ -1,0 +1,36 @@
+{
+  "id": "CLSA-2024-1730915924",
+  "summary": "Update of ca-certificates",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.4",
+        "name": "ca-certificates",
+        "purl": "pkg:rpm/tuxcare/ca-certificates?distro=centos-8.4"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2024.2.69-80.0.el8_4.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [],
+  "published": "2024-11-06T17:58:49Z",
+  "modified": "2024-11-06T17:58:49Z",
+  "details": "- update to CKBI 2.69 from NSS 3.103\n- updated certificates:\n-     # Certificate \"GLOBALTRUST 2020\"\n-     # Certificate \"OISTE WISeKey Global Root GC CA\"\n- removed certificates:\n-     # Certificate \"Security Communication Root CA\"\n-     # Certificate \"Camerfirma Chambers of Commerce Root\"\n-     # Certificate \"Chambers of Commerce Root - 2008\"\n-     # Certificate \"Global Chambersign Root - 2008\"\n-     # Certificate \"E-Tugra Global Root CA RSA v3\"\n-     # Certificate \"E-Tugra Global Root CA ECC v3\"\n- added certificates:\n-     # Certificate \"D-Trust SBR Root CA 1 2022\"\n-     # Certificate \"D-Trust SBR Root CA 2 2022\"\n-     # Certificate \"Telekom Security SMIME ECC Root 2021\"\n-     # Certificate \"Telekom Security TLS ECC Root 2020\"\n-     # Certificate \"Telekom Security SMIME RSA Root 2023\"\n-     # Certificate \"Telekom Security TLS RSA Root 2023\"\n-     # Certificate \"FIRMAPROFESIONAL CA ROOT-A WEB\"\n- remove duplicated certificate record:\n-     # Certificate \"Autoridad de Certificacion Firmaprofesional CIF A62634068\"",
+  "references": [
+    {
+      "url": "https://errata.cloudlinux.com/centos8.4-els/CLSA-2024-1730915924.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

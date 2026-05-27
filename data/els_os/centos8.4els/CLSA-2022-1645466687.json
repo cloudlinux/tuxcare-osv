@@ -1,0 +1,139 @@
+{
+  "id": "CLSA-2022-1645466687",
+  "summary": "Fix of CVE: CVE-2021-28153, CVE-2021-3800",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.4",
+        "name": "glib2",
+        "purl": "pkg:rpm/tuxcare/glib2?distro=centos-8.4"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.56.4-10.el8.4.1.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.4",
+        "name": "glib2-devel",
+        "purl": "pkg:rpm/tuxcare/glib2-devel?distro=centos-8.4"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.56.4-10.el8.4.1.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.4",
+        "name": "glib2-doc",
+        "purl": "pkg:rpm/tuxcare/glib2-doc?distro=centos-8.4"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.56.4-10.el8.4.1.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.4",
+        "name": "glib2-fam",
+        "purl": "pkg:rpm/tuxcare/glib2-fam?distro=centos-8.4"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.56.4-10.el8.4.1.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.4",
+        "name": "glib2-static",
+        "purl": "pkg:rpm/tuxcare/glib2-static?distro=centos-8.4"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.56.4-10.el8.4.1.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.4",
+        "name": "glib2-tests",
+        "purl": "pkg:rpm/tuxcare/glib2-tests?distro=centos-8.4"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.56.4-10.el8.4.1.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2021-28153",
+    "CVE-2021-3800"
+  ],
+  "published": "2022-02-21T18:04:47Z",
+  "modified": "2022-02-21T18:04:47Z",
+  "details": "- CVE-2021-28153: g_file_replace() with G_FILE_CREATE_REPLACE_DESTINATION creates empty target for dangling symlink (#1939118)\n- CVE-2021-3800: Possible privilege escalation thourgh pkexec and aliases (#1938284)",
+  "references": [
+    {
+      "url": "https://errata.cloudlinux.com/centos8.4-els/CLSA-2022-1645466687.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

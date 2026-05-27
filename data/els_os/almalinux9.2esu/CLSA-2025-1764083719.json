@@ -1,0 +1,98 @@
+{
+  "id": "CLSA-2025-1764083719",
+  "summary": "qt5-qt3d: Fix of CVE-2025-11277",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "qt5-qt3d",
+        "purl": "pkg:rpm/tuxcare/qt5-qt3d?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.15.3-1.el9.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "qt5-qt3d-devel",
+        "purl": "pkg:rpm/tuxcare/qt5-qt3d-devel?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.15.3-1.el9.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "qt5-qt3d-examples",
+        "purl": "pkg:rpm/tuxcare/qt5-qt3d-examples?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.15.3-1.el9.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "qt5-qt3d-tests",
+        "purl": "pkg:rpm/tuxcare/qt5-qt3d-tests?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.15.3-1.el9.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2025-11277"
+  ],
+  "published": "2025-11-25T15:15:24Z",
+  "modified": "2025-11-25T15:15:24Z",
+  "details": "- CVE-2025-11277: fix heap-based buffer overflow in Q3DImporter::InternReadFile\n  function of Q3DLoader.cpp",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/almalinux9.2esu/CLSA-2025-1764083719.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

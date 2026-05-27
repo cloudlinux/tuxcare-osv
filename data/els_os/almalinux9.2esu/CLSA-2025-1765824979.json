@@ -1,0 +1,98 @@
+{
+  "id": "CLSA-2025-1765824979",
+  "summary": "go-rpm-macros: Fix of CVE-2025-47906",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "go-filesystem",
+        "purl": "pkg:rpm/tuxcare/go-filesystem?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.2.0-1.el9_2.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "go-rpm-macros",
+        "purl": "pkg:rpm/tuxcare/go-rpm-macros?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.2.0-1.el9_2.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "go-rpm-templates",
+        "purl": "pkg:rpm/tuxcare/go-rpm-templates?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.2.0-1.el9_2.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "go-srpm-macros",
+        "purl": "pkg:rpm/tuxcare/go-srpm-macros?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.2.0-1.el9_2.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2025-47906"
+  ],
+  "published": "2025-12-15T18:56:22Z",
+  "modified": "2025-12-15T18:56:22Z",
+  "details": "- Rebuild with golang >= 1.22.9-1.el9_2.tuxcare.els2 to address CVE-2025-47906",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/almalinux9.2esu/CLSA-2025-1765824979.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

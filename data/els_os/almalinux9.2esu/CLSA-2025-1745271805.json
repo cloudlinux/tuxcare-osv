@@ -1,0 +1,98 @@
+{
+  "id": "CLSA-2025-1745271805",
+  "summary": "gmp: Fix of CVE-2021-43618",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "gmp",
+        "purl": "pkg:rpm/tuxcare/gmp?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:6.2.0-10.el9.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "gmp-c++",
+        "purl": "pkg:rpm/tuxcare/gmp-c++?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:6.2.0-10.el9.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "gmp-devel",
+        "purl": "pkg:rpm/tuxcare/gmp-devel?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:6.2.0-10.el9.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "gmp-static",
+        "purl": "pkg:rpm/tuxcare/gmp-static?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:6.2.0-10.el9.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2021-43618"
+  ],
+  "published": "2025-04-21T21:43:30Z",
+  "modified": "2025-04-21T21:43:30Z",
+  "details": "- CVE-2021-43618: fix integer overflow and buffer overflow in mpz/inp_raw.c to\n  prevent segmentation fault on 32-bit platforms",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/almalinux9.2-esu/CLSA-2025-1745271805.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

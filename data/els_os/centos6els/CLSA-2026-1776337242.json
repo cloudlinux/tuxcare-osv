@@ -1,0 +1,38 @@
+{
+  "id": "CLSA-2026-1776337242",
+  "summary": "haproxy: Fix of CVE-2019-18277",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:6",
+        "name": "haproxy",
+        "purl": "pkg:rpm/tuxcare/haproxy?distro=centos-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.5.18-1.el6.tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2019-18277"
+  ],
+  "published": "2026-04-16T14:45:52Z",
+  "modified": "2026-04-16T14:45:52Z",
+  "details": "- CVE-2019-18277: reject messages where \"chunked\" is missing\n  from transfer-encoding",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/centos6els/CLSA-2026-1776337242.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

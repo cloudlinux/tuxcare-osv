@@ -1,0 +1,98 @@
+{
+  "id": "CLSA-2026-1771840259",
+  "summary": "libpng: Fix of CVE-2026-25646",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "libpng",
+        "purl": "pkg:rpm/tuxcare/libpng?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:1.6.37-12.el9_2.tuxcare.els6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "libpng-devel",
+        "purl": "pkg:rpm/tuxcare/libpng-devel?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:1.6.37-12.el9_2.tuxcare.els6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "libpng-static",
+        "purl": "pkg:rpm/tuxcare/libpng-static?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:1.6.37-12.el9_2.tuxcare.els6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "libpng-tools",
+        "purl": "pkg:rpm/tuxcare/libpng-tools?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:1.6.37-12.el9_2.tuxcare.els6"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-25646"
+  ],
+  "published": "2026-02-23T09:51:04Z",
+  "modified": "2026-02-23T09:51:04Z",
+  "details": "- CVE-2026-25646: fix out-of-bounds read and potential heap buffer overflow in\n  png_set_quantize() caused by stale palette indices during color pruning",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/almalinux9.2esu/CLSA-2026-1771840259.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

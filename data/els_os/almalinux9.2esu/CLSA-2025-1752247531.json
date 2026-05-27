@@ -1,0 +1,58 @@
+{
+  "id": "CLSA-2025-1752247531",
+  "summary": "rsync: Fix of CVE-2024-12088",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "rsync",
+        "purl": "pkg:rpm/tuxcare/rsync?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.2.3-19.el9.tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "rsync-daemon",
+        "purl": "pkg:rpm/tuxcare/rsync-daemon?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.2.3-19.el9.tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2024-12088"
+  ],
+  "published": "2025-07-11T15:25:35Z",
+  "modified": "2025-07-11T15:25:35Z",
+  "details": "- CVE-2024-12088: fix path traversal vulnerability in symbolic link destinations\n  when using --safe-links option",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/almalinux9.2esu/CLSA-2025-1752247531.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

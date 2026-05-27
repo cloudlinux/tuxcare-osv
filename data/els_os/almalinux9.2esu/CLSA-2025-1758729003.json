@@ -1,0 +1,58 @@
+{
+  "id": "CLSA-2025-1758729003",
+  "summary": "lldpd: Fix of CVE-2023-41910",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "lldpd",
+        "purl": "pkg:rpm/tuxcare/lldpd?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.0.4-10.el9.tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "lldpd-devel",
+        "purl": "pkg:rpm/tuxcare/lldpd-devel?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.0.4-10.el9.tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2023-41910"
+  ],
+  "published": "2025-09-24T15:50:07Z",
+  "modified": "2025-09-24T15:50:07Z",
+  "details": "- CVE-2023-41910: fix out-of-bounds read on heap memory in cdp_decode",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/almalinux9.2esu/CLSA-2025-1758729003.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

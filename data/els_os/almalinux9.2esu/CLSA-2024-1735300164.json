@@ -1,0 +1,78 @@
+{
+  "id": "CLSA-2024-1735300164",
+  "summary": "pam: Fix of CVE-2024-10963",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "pam",
+        "purl": "pkg:rpm/tuxcare/pam?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.5.1-14.el9.tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "pam-devel",
+        "purl": "pkg:rpm/tuxcare/pam-devel?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.5.1-14.el9.tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "pam-docs",
+        "purl": "pkg:rpm/tuxcare/pam-docs?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.5.1-14.el9.tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2024-10963"
+  ],
+  "published": "2024-12-27T11:49:30Z",
+  "modified": "2024-12-27T11:49:30Z",
+  "details": "- CVE-2024-10963: pam_access: rework resolving of tokens as hostname",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/almalinux9.2-esu/CLSA-2024-1735300164.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

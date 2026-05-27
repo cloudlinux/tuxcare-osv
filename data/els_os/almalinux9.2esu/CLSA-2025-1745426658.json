@@ -1,0 +1,58 @@
+{
+  "id": "CLSA-2025-1745426658",
+  "summary": "buildah: Fix of CVE-2024-9675",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "buildah",
+        "purl": "pkg:rpm/tuxcare/buildah?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:1.29.1-2.el9_2.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "buildah-tests",
+        "purl": "pkg:rpm/tuxcare/buildah-tests?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:1.29.1-2.el9_2.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2024-9675"
+  ],
+  "published": "2025-04-23T16:44:23Z",
+  "modified": "2025-04-23T16:44:23Z",
+  "details": "- CVE-2024-9675: fix incorrect handling of paths in cache mounts that allows mounting\n  of arbitrary directories in a container",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/almalinux9.2-esu/CLSA-2025-1745426658.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

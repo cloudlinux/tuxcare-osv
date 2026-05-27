@@ -1,0 +1,38 @@
+{
+  "id": "CLSA-2026-1768410745",
+  "summary": "aide: Fix of CVE-2025-54389",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:7",
+        "name": "aide",
+        "purl": "pkg:rpm/tuxcare/aide?distro=oraclelinux-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.15.1-13.0.1.el7_9.1.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2025-54389"
+  ],
+  "published": "2026-01-14T17:15:38Z",
+  "modified": "2026-01-14T17:15:38Z",
+  "details": "- CVE-2025-54389: escape filenames in error/log messages to prevent terminal\n  escape sequence injection",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/oraclelinux7els/CLSA-2026-1768410745.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

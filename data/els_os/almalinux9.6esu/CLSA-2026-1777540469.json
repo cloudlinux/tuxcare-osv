@@ -1,0 +1,58 @@
+{
+  "id": "CLSA-2026-1777540469",
+  "summary": "taglib: Fix of CVE-2023-47466",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "taglib",
+        "purl": "pkg:rpm/tuxcare/taglib?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.12-6.el9.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "taglib-devel",
+        "purl": "pkg:rpm/tuxcare/taglib-devel?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.12-6.el9.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2023-47466"
+  ],
+  "published": "2026-04-30T09:14:34Z",
+  "modified": "2026-04-30T09:14:34Z",
+  "details": "- CVE-2023-47466: Fix segmentation violation and application crash during tag\n  writing via crafted WAV file",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/tuxcare9.6esu/CLSA-2026-1777540469.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

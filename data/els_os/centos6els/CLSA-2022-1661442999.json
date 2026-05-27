@@ -1,0 +1,38 @@
+{
+  "id": "CLSA-2022-1661442999",
+  "summary": "Fixed CVE-2022-37434 in rsync",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:6",
+        "name": "rsync",
+        "purl": "pkg:rpm/tuxcare/rsync?distro=centos-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.0.6-12.el6.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2022-37434"
+  ],
+  "published": "2022-08-25T15:56:39Z",
+  "modified": "2022-08-25T15:56:39Z",
+  "details": "- CVE-2022-37434: fix possible buffer overflow when getting a gzip header extra field\n  with inflate()",
+  "references": [
+    {
+      "url": "https://errata.cloudlinux.com/els6/CLSA-2022-1661442999.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

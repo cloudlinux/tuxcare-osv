@@ -1,0 +1,38 @@
+{
+  "id": "CLSA-2025-1737569565",
+  "summary": "rsync: Fix of CVE-2024-12085",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:7",
+        "name": "rsync",
+        "purl": "pkg:rpm/tuxcare/rsync?distro=centos-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.1.2-12.el7_9.tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2024-12085"
+  ],
+  "published": "2025-01-22T18:12:51Z",
+  "modified": "2025-01-22T18:12:51Z",
+  "details": "- CVE-2024-12085: fix to prevent information leak off the stack",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/centos7-els/CLSA-2025-1737569565.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

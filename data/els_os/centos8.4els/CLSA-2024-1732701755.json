@@ -1,0 +1,38 @@
+{
+  "id": "CLSA-2024-1732701755",
+  "summary": "squid: Fix of CVE-2024-45802",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.4",
+        "name": "squid",
+        "purl": "pkg:rpm/tuxcare/squid?distro=centos-8.4"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7:4.11-4.module_el8.4.0+2234+c2e9b845.2.tuxcare.els13"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2024-45802"
+  ],
+  "published": "2024-11-27T10:02:44Z",
+  "modified": "2024-11-27T10:02:44Z",
+  "details": "- CVE-2024-45802: Disable ESI due to unfixed multiple issues in ESI causing\n  DoS by a trusted server",
+  "references": [
+    {
+      "url": "https://errata.cloudlinux.com/centos8.4-els/CLSA-2024-1732701755.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

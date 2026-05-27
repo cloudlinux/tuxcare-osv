@@ -1,0 +1,38 @@
+{
+  "id": "CLSA-2025-1760025490",
+  "summary": "cloud-init: Fix of CVE-2023-1786",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "cloud-init",
+        "purl": "pkg:rpm/tuxcare/cloud-init?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "22.1-10.el9.alma.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2023-1786"
+  ],
+  "published": "2025-10-09T15:58:18Z",
+  "modified": "2025-10-09T15:58:18Z",
+  "details": "- CVE-2023-1786: fix leak of sensitive user/vendor data and enforce 640 perms\n  on cloud-init.log",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/almalinux9.2esu/CLSA-2025-1760025490.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

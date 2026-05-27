@@ -1,0 +1,38 @@
+{
+  "id": "CLSA-2025-1762536241",
+  "summary": "tar: Fix of CVE-2023-39804",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.4",
+        "name": "tar",
+        "purl": "pkg:rpm/tuxcare/tar?distro=centos-8.4"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:1.30-5.el8.tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2023-39804"
+  ],
+  "published": "2025-11-07T17:24:05Z",
+  "modified": "2025-11-07T17:24:05Z",
+  "details": "- CVE-2023-39804: fix crash in GNU tar caused by incorrect handling of\n  extended PAX xattr headers leading to memory corruption (DoS)",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/centos8.4els/CLSA-2025-1762536241.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

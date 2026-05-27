@@ -1,0 +1,79 @@
+{
+  "id": "CLSA-2025-1747430870",
+  "summary": "cups-filters: Fix of 2 CVEs",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "cups-filters",
+        "purl": "pkg:rpm/tuxcare/cups-filters?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.28.7-11.el9_2.1.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "cups-filters-devel",
+        "purl": "pkg:rpm/tuxcare/cups-filters-devel?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.28.7-11.el9_2.1.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "cups-filters-libs",
+        "purl": "pkg:rpm/tuxcare/cups-filters-libs?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.28.7-11.el9_2.1.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2024-47175",
+    "CVE-2024-47850"
+  ],
+  "published": "2025-05-16T21:27:55Z",
+  "modified": "2025-05-16T21:27:55Z",
+  "details": "- CVE-2024-47175: prevent PPD generation based on invalid IPP response\n- CVE-2024-47850: do not generate PPD for remote raw queues and add system-cups.slice",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/almalinux9.2-esu/CLSA-2025-1747430870.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

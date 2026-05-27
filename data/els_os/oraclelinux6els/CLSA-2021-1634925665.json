@@ -1,0 +1,58 @@
+{
+  "id": "CLSA-2021-1634925665",
+  "summary": "Fixed CVE-2021-3156 in sudo",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:6",
+        "name": "sudo",
+        "purl": "pkg:rpm/tuxcare/sudo?distro=oraclelinux-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.8.6p3-30.el6.cloudlinux.els6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:6",
+        "name": "sudo-devel",
+        "purl": "pkg:rpm/tuxcare/sudo-devel?distro=oraclelinux-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.8.6p3-30.el6.cloudlinux.els6"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2021-3156"
+  ],
+  "published": "2021-10-22T18:01:05Z",
+  "modified": "2022-05-17T17:28:33Z",
+  "details": "- Fixed Heap-based buffer overflow in Sudo (CVE-2021-3156)",
+  "references": [
+    {
+      "url": "https://errata.cloudlinux.com/ol6/CLSA-2021-1634925665.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

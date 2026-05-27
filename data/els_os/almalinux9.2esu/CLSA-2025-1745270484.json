@@ -1,0 +1,58 @@
+{
+  "id": "CLSA-2025-1745270484",
+  "summary": "libndp: Fix of CVE-2024-5564",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "libndp",
+        "purl": "pkg:rpm/tuxcare/libndp?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.8-4.el9.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "libndp-devel",
+        "purl": "pkg:rpm/tuxcare/libndp-devel?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.8-4.el9.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2024-5564"
+  ],
+  "published": "2025-04-21T21:21:29Z",
+  "modified": "2025-04-21T21:21:29Z",
+  "details": "- CVE-2024-5564: validate route information option length",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/almalinux9.2-esu/CLSA-2025-1745270484.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

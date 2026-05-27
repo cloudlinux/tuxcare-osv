@@ -1,0 +1,78 @@
+{
+  "id": "CLSA-2026-1768566531",
+  "summary": "libsoup: Fix of CVE-2025-14523",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "libsoup",
+        "purl": "pkg:rpm/tuxcare/libsoup?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.72.0-8.el9_2.tuxcare.els11"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "libsoup-devel",
+        "purl": "pkg:rpm/tuxcare/libsoup-devel?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.72.0-8.el9_2.tuxcare.els11"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "libsoup-doc",
+        "purl": "pkg:rpm/tuxcare/libsoup-doc?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.72.0-8.el9_2.tuxcare.els11"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2025-14523"
+  ],
+  "published": "2026-01-16T18:51:36Z",
+  "modified": "2026-01-16T18:51:36Z",
+  "details": "- CVE-2025-14523: reject requests with duplicate Host headers",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/almalinux9.2esu/CLSA-2026-1768566531.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

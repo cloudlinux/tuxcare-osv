@@ -1,0 +1,118 @@
+{
+  "id": "CLSA-2026-1778893359",
+  "summary": "libarchive: Fix of CVE-2025-60753",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "bsdcat",
+        "purl": "pkg:rpm/tuxcare/bsdcat?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.5.3-6.el9_2.tuxcare.els7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "bsdcpio",
+        "purl": "pkg:rpm/tuxcare/bsdcpio?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.5.3-6.el9_2.tuxcare.els7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "bsdtar",
+        "purl": "pkg:rpm/tuxcare/bsdtar?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.5.3-6.el9_2.tuxcare.els7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "libarchive",
+        "purl": "pkg:rpm/tuxcare/libarchive?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.5.3-6.el9_2.tuxcare.els7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "libarchive-devel",
+        "purl": "pkg:rpm/tuxcare/libarchive-devel?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.5.3-6.el9_2.tuxcare.els7"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2025-60753"
+  ],
+  "published": "2026-05-16T01:02:43Z",
+  "modified": "2026-05-16T01:02:43Z",
+  "details": "- CVE-2025-60753: denial of service in bsdtar -s substitution when the\n  regular expression matches a zero-length string, causing an infinite\n  loop in apply_substitution",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/almalinux9.2esu/CLSA-2026-1778893359.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

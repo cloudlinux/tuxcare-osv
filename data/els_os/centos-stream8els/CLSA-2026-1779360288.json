@@ -1,0 +1,118 @@
+{
+  "id": "CLSA-2026-1779360288",
+  "summary": "dovecot: Fix of CVE-2026-42006",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS-Stream:8",
+        "name": "dovecot",
+        "purl": "pkg:rpm/tuxcare/dovecot?distro=centos-stream-8"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:2.3.16-5.el8.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS-Stream:8",
+        "name": "dovecot-devel",
+        "purl": "pkg:rpm/tuxcare/dovecot-devel?distro=centos-stream-8"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:2.3.16-5.el8.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS-Stream:8",
+        "name": "dovecot-mysql",
+        "purl": "pkg:rpm/tuxcare/dovecot-mysql?distro=centos-stream-8"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:2.3.16-5.el8.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS-Stream:8",
+        "name": "dovecot-pgsql",
+        "purl": "pkg:rpm/tuxcare/dovecot-pgsql?distro=centos-stream-8"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:2.3.16-5.el8.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS-Stream:8",
+        "name": "dovecot-pigeonhole",
+        "purl": "pkg:rpm/tuxcare/dovecot-pigeonhole?distro=centos-stream-8"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:2.3.16-5.el8.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-42006"
+  ],
+  "published": "2026-05-21T10:44:52Z",
+  "modified": "2026-05-21T10:44:52Z",
+  "details": "- CVE-2026-42006: fix imap-login list_count_limit to actually limit open '('\n  characters; the previous fix limited closing ')' instead, leaving the\n  bracing memory exhaustion vector open",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/centos-stream8els/CLSA-2026-1779360288.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

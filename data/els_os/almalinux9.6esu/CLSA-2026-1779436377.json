@@ -1,0 +1,178 @@
+{
+  "id": "CLSA-2026-1779436377",
+  "summary": "cups: Fix of CVE-2026-27447",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "cups",
+        "purl": "pkg:rpm/tuxcare/cups?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:2.3.3op2-33.el9_6.1.tuxcare.els6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "cups-client",
+        "purl": "pkg:rpm/tuxcare/cups-client?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:2.3.3op2-33.el9_6.1.tuxcare.els6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "cups-devel",
+        "purl": "pkg:rpm/tuxcare/cups-devel?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:2.3.3op2-33.el9_6.1.tuxcare.els6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "cups-filesystem",
+        "purl": "pkg:rpm/tuxcare/cups-filesystem?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:2.3.3op2-33.el9_6.1.tuxcare.els6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "cups-ipptool",
+        "purl": "pkg:rpm/tuxcare/cups-ipptool?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:2.3.3op2-33.el9_6.1.tuxcare.els6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "cups-libs",
+        "purl": "pkg:rpm/tuxcare/cups-libs?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:2.3.3op2-33.el9_6.1.tuxcare.els6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "cups-lpd",
+        "purl": "pkg:rpm/tuxcare/cups-lpd?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:2.3.3op2-33.el9_6.1.tuxcare.els6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "cups-printerapp",
+        "purl": "pkg:rpm/tuxcare/cups-printerapp?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:2.3.3op2-33.el9_6.1.tuxcare.els6"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-27447"
+  ],
+  "published": "2026-05-22T07:53:04Z",
+  "modified": "2026-05-22T07:53:04Z",
+  "details": "- CVE-2026-27447: fix authorization bypass in cupsd by replacing case-insensitive\n  username comparisons with byte-exact strcmp against pw->pw_name; also include\n  upstream follow-up commit 849fba7d (\"Fix unauthenticated print policies\",\n  Issue #1557) to restore behavior for CUPSD_AUTH_NONE policies with named ACLs",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/tuxcare9.6esu/CLSA-2026-1779436377.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

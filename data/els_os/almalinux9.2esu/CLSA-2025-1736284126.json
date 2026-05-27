@@ -1,0 +1,38 @@
+{
+  "id": "CLSA-2025-1736284126",
+  "summary": "haproxy: Fix of CVE-2023-0836",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "haproxy",
+        "purl": "pkg:rpm/tuxcare/haproxy?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.4.17-6.el9.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2023-0836"
+  ],
+  "published": "2025-01-07T21:08:52Z",
+  "modified": "2025-01-07T21:08:52Z",
+  "details": "- CVE-2023-0836: Fix information leak vulnerability in connection buffer by\n  initializing 5 bytes in FCGI_BEGIN_REQUEST record encoding.",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/almalinux9.2-esu/CLSA-2025-1736284126.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

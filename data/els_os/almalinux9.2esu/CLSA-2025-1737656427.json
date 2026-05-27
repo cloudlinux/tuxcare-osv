@@ -1,0 +1,58 @@
+{
+  "id": "CLSA-2025-1737656427",
+  "summary": "libgcrypt: Fix of CVE-2024-2236",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "libgcrypt",
+        "purl": "pkg:rpm/tuxcare/libgcrypt?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.10.0-11.el9_2.tuxcare.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "libgcrypt-devel",
+        "purl": "pkg:rpm/tuxcare/libgcrypt-devel?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.10.0-11.el9_2.tuxcare.1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2024-2236"
+  ],
+  "published": "2025-04-11T08:20:55Z",
+  "modified": "2025-04-11T08:20:55Z",
+  "details": "- Synced to upstream plus ASN.1 patch\n- Tested on AlmaLinux 9.5\n- Fix CVE-2024-2236 (RHEL-34579)",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/almalinux9.2-fips/CLSA-2025-1737656427.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

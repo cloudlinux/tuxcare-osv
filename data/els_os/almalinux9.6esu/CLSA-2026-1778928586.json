@@ -1,0 +1,98 @@
+{
+  "id": "CLSA-2026-1778928586",
+  "summary": "libpng: Fix of CVE-2026-34757",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "libpng",
+        "purl": "pkg:rpm/tuxcare/libpng?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:1.6.37-12.el9_6.tuxcare.els8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "libpng-devel",
+        "purl": "pkg:rpm/tuxcare/libpng-devel?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:1.6.37-12.el9_6.tuxcare.els8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "libpng-static",
+        "purl": "pkg:rpm/tuxcare/libpng-static?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:1.6.37-12.el9_6.tuxcare.els8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "libpng-tools",
+        "purl": "pkg:rpm/tuxcare/libpng-tools?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:1.6.37-12.el9_6.tuxcare.els8"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-34757"
+  ],
+  "published": "2026-05-16T10:49:51Z",
+  "modified": "2026-05-16T10:49:51Z",
+  "details": "- CVE-2026-34757: use-after-free in png_set_PLTE, png_set_tRNS, png_set_hIST,\n  png_set_text, png_set_sPLT and png_set_unknown_chunks when the caller passes\n  the pointer returned by the corresponding getter back to the setter",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/tuxcare9.6esu/CLSA-2026-1778928586.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "id": "CLSA-2023-1675984682",
+  "summary": "sudo: Fix of CVE-2023-22809",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "sudo",
+        "purl": "pkg:rpm/tuxcare/sudo?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.8.29-7.el8_4.1.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "sudo-devel",
+        "purl": "pkg:rpm/tuxcare/sudo-devel?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.8.29-7.el8_4.1.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2023-22809"
+  ],
+  "published": "2023-02-09T23:18:02Z",
+  "modified": "2023-02-09T23:18:02Z",
+  "details": "- CVE-2023-22809: do not permit editor arguments to include \"--\"",
+  "references": [
+    {
+      "url": "https://errata.cloudlinux.com/centos8.5-els/CLSA-2023-1675984682.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

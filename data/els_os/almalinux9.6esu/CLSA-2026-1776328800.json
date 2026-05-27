@@ -1,0 +1,78 @@
+{
+  "id": "CLSA-2026-1776328800",
+  "summary": "libtasn1: Fix of CVE-2025-13151",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "libtasn1",
+        "purl": "pkg:rpm/tuxcare/libtasn1?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.16.0-9.el9.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "libtasn1-devel",
+        "purl": "pkg:rpm/tuxcare/libtasn1-devel?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.16.0-9.el9.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "libtasn1-tools",
+        "purl": "pkg:rpm/tuxcare/libtasn1-tools?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.16.0-9.el9.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2025-13151"
+  ],
+  "published": "2026-04-16T08:40:04Z",
+  "modified": "2026-04-16T08:40:04Z",
+  "details": "- CVE-2025-13151: fix stack-based buffer overflow in\n  asn1_expand_octet_string, _asn1_expand_object_id",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/tuxcare9.6esu/CLSA-2026-1776328800.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

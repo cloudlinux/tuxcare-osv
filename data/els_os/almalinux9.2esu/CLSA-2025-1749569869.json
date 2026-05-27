@@ -1,0 +1,80 @@
+{
+  "id": "CLSA-2025-1749569869",
+  "summary": "libsoup: Fix of 3 CVEs",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "libsoup",
+        "purl": "pkg:rpm/tuxcare/libsoup?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.72.0-8.el9_2.tuxcare.els5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "libsoup-devel",
+        "purl": "pkg:rpm/tuxcare/libsoup-devel?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.72.0-8.el9_2.tuxcare.els5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "libsoup-doc",
+        "purl": "pkg:rpm/tuxcare/libsoup-doc?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.72.0-8.el9_2.tuxcare.els5"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2025-46420",
+    "CVE-2025-32050",
+    "CVE-2025-32052"
+  ],
+  "published": "2025-06-10T15:37:54Z",
+  "modified": "2025-06-10T15:37:54Z",
+  "details": "- CVE-2025-46420: fix memory leaks in the soup_header_parse_quality_list()\n- CVE-2025-32050: fix using int instead of size_t for strcspn return to avoid\n  buffer under-read\n- CVE-2025-32052: fix heap buffer overflow in soup_content_sniffer_sniff",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/almalinux9.2esu/CLSA-2025-1749569869.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "id": "CLSA-2026-1771519663",
+  "summary": "libsoup: Fix of 2 CVEs",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:7",
+        "name": "libsoup",
+        "purl": "pkg:rpm/tuxcare/libsoup?distro=centos-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.62.2-2.0.5.el7.tuxcare.els4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:7",
+        "name": "libsoup-devel",
+        "purl": "pkg:rpm/tuxcare/libsoup-devel?distro=centos-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.62.2-2.0.5.el7.tuxcare.els4"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-1761",
+    "CVE-2026-0719"
+  ],
+  "published": "2026-02-20T09:46:21Z",
+  "modified": "2026-02-20T09:46:21Z",
+  "details": "- CVE-2026-1761: fix stack-based buffer overflow in multipart HTTP response\n  parsing caused by incorrect length calculation in\n  soup_filter_input_stream_read_until()\n- CVE-2026-0719: fix stack-based buffer overflow in NTLM authentication\n  caused by integer overflow in md4sum() with excessively long passwords",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/centos7els/CLSA-2026-1771519663.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

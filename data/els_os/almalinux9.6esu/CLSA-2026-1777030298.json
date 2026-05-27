@@ -1,0 +1,98 @@
+{
+  "id": "CLSA-2026-1777030298",
+  "summary": "gawk: Fix of CVE-2023-4156",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "gawk",
+        "purl": "pkg:rpm/tuxcare/gawk?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.1.0-6.el9.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "gawk-all-langpacks",
+        "purl": "pkg:rpm/tuxcare/gawk-all-langpacks?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.1.0-6.el9.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "gawk-devel",
+        "purl": "pkg:rpm/tuxcare/gawk-devel?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.1.0-6.el9.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "gawk-doc",
+        "purl": "pkg:rpm/tuxcare/gawk-doc?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.1.0-6.el9.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2023-4156"
+  ],
+  "published": "2026-04-24T11:31:42Z",
+  "modified": "2026-04-24T11:31:42Z",
+  "details": "- CVE-2023-4156: fix heap out-of-bounds read flaw in builtin.c to prevent\n  potential crash and information leakage",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/tuxcare9.6esu/CLSA-2026-1777030298.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

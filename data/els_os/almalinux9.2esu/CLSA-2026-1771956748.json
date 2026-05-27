@@ -1,0 +1,98 @@
+{
+  "id": "CLSA-2026-1771956748",
+  "summary": "gimp: Fix of CVE-2025-15059",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "gimp",
+        "purl": "pkg:rpm/tuxcare/gimp?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:2.99.8-4.el9.2.tuxcare.els4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "gimp-devel",
+        "purl": "pkg:rpm/tuxcare/gimp-devel?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:2.99.8-4.el9.2.tuxcare.els4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "gimp-devel-tools",
+        "purl": "pkg:rpm/tuxcare/gimp-devel-tools?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:2.99.8-4.el9.2.tuxcare.els4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "gimp-libs",
+        "purl": "pkg:rpm/tuxcare/gimp-libs?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:2.99.8-4.el9.2.tuxcare.els4"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2025-15059"
+  ],
+  "published": "2026-02-24T18:12:32Z",
+  "modified": "2026-02-24T18:12:32Z",
+  "details": "- CVE-2025-15059: fix PSP file loader to validate channel types for grayscale\n  images, preventing invalid memory access from incorrect offset computation",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/almalinux9.2esu/CLSA-2026-1771956748.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

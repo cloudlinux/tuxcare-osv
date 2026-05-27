@@ -1,0 +1,83 @@
+{
+  "id": "CLSA-2025-1747855403",
+  "summary": "squid: Fix of 6 CVEs",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:RHEL:7",
+        "name": "squid",
+        "purl": "pkg:rpm/tuxcare/squid?distro=rhel-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7:3.5.20-17.0.3.el7_9.10.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:RHEL:7",
+        "name": "squid-migration-script",
+        "purl": "pkg:rpm/tuxcare/squid-migration-script?distro=rhel-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7:3.5.20-17.0.3.el7_9.10.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:RHEL:7",
+        "name": "squid-sysvinit",
+        "purl": "pkg:rpm/tuxcare/squid-sysvinit?distro=rhel-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7:3.5.20-17.0.3.el7_9.10.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2021-28651",
+    "CVE-2021-28652",
+    "CVE-2021-31806",
+    "CVE-2021-31807",
+    "CVE-2021-31808",
+    "CVE-2021-33620"
+  ],
+  "published": "2025-05-21T19:23:27Z",
+  "modified": "2025-05-21T19:23:27Z",
+  "details": "- CVE-2021-28651: fix memory leak in RFC 2169 response parsing\n- CVE-2021-28652: fix broken cache manager URL parsing\n- CVE-2021-31806: fix memory management bug\n- CVE-2021-31807: fix integer overflow problem\n- CVE-2021-31808: fix input validation bug\n- CVE-2021-33620: handle more partial responses",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/rhel7-els/CLSA-2025-1747855403.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

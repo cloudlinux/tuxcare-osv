@@ -1,0 +1,118 @@
+{
+  "id": "CLSA-2023-1689702307",
+  "summary": "openldap: Fix of CVE-2023-2953",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:6",
+        "name": "openldap",
+        "purl": "pkg:rpm/tuxcare/openldap?distro=oraclelinux-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.4.40-16.el6.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:6",
+        "name": "openldap-clients",
+        "purl": "pkg:rpm/tuxcare/openldap-clients?distro=oraclelinux-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.4.40-16.el6.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:6",
+        "name": "openldap-devel",
+        "purl": "pkg:rpm/tuxcare/openldap-devel?distro=oraclelinux-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.4.40-16.el6.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:6",
+        "name": "openldap-servers",
+        "purl": "pkg:rpm/tuxcare/openldap-servers?distro=oraclelinux-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.4.40-16.el6.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:6",
+        "name": "openldap-servers-sql",
+        "purl": "pkg:rpm/tuxcare/openldap-servers-sql?distro=oraclelinux-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.4.40-16.el6.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2023-2953"
+  ],
+  "published": "2023-07-18T17:45:12Z",
+  "modified": "2023-07-18T17:45:12Z",
+  "details": "- CVE-2023-2953: added check for strdup failure, to avoid null pointer dereference",
+  "references": [
+    {
+      "url": "https://errata.cloudlinux.com/ol6/CLSA-2023-1689702307.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

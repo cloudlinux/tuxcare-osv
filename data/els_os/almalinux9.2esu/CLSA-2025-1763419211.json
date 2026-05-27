@@ -1,0 +1,58 @@
+{
+  "id": "CLSA-2025-1763419211",
+  "summary": "NetworkManager-libreswan: Fix of CVE-2024-9050",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "NetworkManager-libreswan",
+        "purl": "pkg:rpm/tuxcare/NetworkManager-libreswan?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.2.14-1.el9.3.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "NetworkManager-libreswan-gnome",
+        "purl": "pkg:rpm/tuxcare/NetworkManager-libreswan-gnome?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.2.14-1.el9.3.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2024-9050"
+  ],
+  "published": "2025-11-17T22:40:15Z",
+  "modified": "2025-11-17T22:40:15Z",
+  "details": "- CVE-2024-9050: sanitize VPN configuration input to prevent local privilege\n  escalation via malicious 'leftupdown' key value",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/almalinux9.2esu/CLSA-2025-1763419211.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

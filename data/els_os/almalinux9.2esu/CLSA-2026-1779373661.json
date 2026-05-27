@@ -1,0 +1,58 @@
+{
+  "id": "CLSA-2026-1779373661",
+  "summary": "iperf3: Fix of CVE-2024-26306",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "iperf3",
+        "purl": "pkg:rpm/tuxcare/iperf3?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.9-10.el9_2.alma.tuxcare.els4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "iperf3-devel",
+        "purl": "pkg:rpm/tuxcare/iperf3-devel?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.9-10.el9_2.alma.tuxcare.els4"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2024-26306"
+  ],
+  "published": "2026-05-21T14:27:53Z",
+  "modified": "2026-05-21T14:27:53Z",
+  "details": "- CVE-2024-26306: use OAEP padding instead of PKCS1 padding for OpenSSL to\n  address timing side-channel in RSA authentication. Note: peers running\n  patched and unpatched iperf3 will fail to authenticate unless the legacy\n  behavior is explicitly opted into via --use-pkcs1-padding on both ends.",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/almalinux9.2esu/CLSA-2026-1779373661.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "id": "CLSA-2025-1745270908",
+  "summary": "pixman: Fix of CVE-2022-44638",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "pixman",
+        "purl": "pkg:rpm/tuxcare/pixman?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.40.0-5.el9_2.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "pixman-devel",
+        "purl": "pkg:rpm/tuxcare/pixman-devel?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.40.0-5.el9_2.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2022-44638"
+  ],
+  "published": "2025-04-21T21:28:33Z",
+  "modified": "2025-04-21T21:28:33Z",
+  "details": "- CVE-2022-44638: fix out-of-bounds write  in rasterize_edges_8",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/almalinux9.2-esu/CLSA-2025-1745270908.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

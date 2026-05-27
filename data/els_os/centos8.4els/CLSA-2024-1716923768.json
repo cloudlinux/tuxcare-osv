@@ -1,0 +1,198 @@
+{
+  "id": "CLSA-2024-1716923768",
+  "summary": "httpd: Fix of CVE-2024-27316",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.4",
+        "name": "httpd",
+        "purl": "pkg:rpm/tuxcare/httpd?distro=centos-8.4"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.4.37-39.module_el8.4.0+2180+54659116.1.tuxcare.els14"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.4",
+        "name": "httpd-devel",
+        "purl": "pkg:rpm/tuxcare/httpd-devel?distro=centos-8.4"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.4.37-39.module_el8.4.0+2180+54659116.1.tuxcare.els14"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.4",
+        "name": "httpd-filesystem",
+        "purl": "pkg:rpm/tuxcare/httpd-filesystem?distro=centos-8.4"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.4.37-39.module_el8.4.0+2180+54659116.1.tuxcare.els14"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.4",
+        "name": "httpd-manual",
+        "purl": "pkg:rpm/tuxcare/httpd-manual?distro=centos-8.4"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.4.37-39.module_el8.4.0+2180+54659116.1.tuxcare.els14"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.4",
+        "name": "httpd-tools",
+        "purl": "pkg:rpm/tuxcare/httpd-tools?distro=centos-8.4"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.4.37-39.module_el8.4.0+2180+54659116.1.tuxcare.els14"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.4",
+        "name": "mod_ldap",
+        "purl": "pkg:rpm/tuxcare/mod_ldap?distro=centos-8.4"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.4.37-39.module_el8.4.0+2180+54659116.1.tuxcare.els14"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.4",
+        "name": "mod_proxy_html",
+        "purl": "pkg:rpm/tuxcare/mod_proxy_html?distro=centos-8.4"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:2.4.37-39.module_el8.4.0+2180+54659116.1.tuxcare.els14"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.4",
+        "name": "mod_session",
+        "purl": "pkg:rpm/tuxcare/mod_session?distro=centos-8.4"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.4.37-39.module_el8.4.0+2180+54659116.1.tuxcare.els14"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.4",
+        "name": "mod_ssl",
+        "purl": "pkg:rpm/tuxcare/mod_ssl?distro=centos-8.4"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:2.4.37-39.module_el8.4.0+2180+54659116.1.tuxcare.els14"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2024-27316"
+  ],
+  "published": "2024-05-28T19:16:11Z",
+  "modified": "2024-05-28T19:16:11Z",
+  "details": "- CVE-2024-27316: fix HTTP/2 DoS vulnerability caused by memory exhaustion from\n  endless continuation frames: Incoming headers that exceed limits are buffered\n  in nghttp2 to generate an HTTP 413 response",
+  "references": [
+    {
+      "url": "https://errata.cloudlinux.com/centos8.4-els/CLSA-2024-1716923768.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

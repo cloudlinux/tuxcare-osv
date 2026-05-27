@@ -1,0 +1,202 @@
+{
+  "id": "CLSA-2026-1775779143",
+  "summary": "java-11-openjdk: Fix of 5 CVEs",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS-Stream:8",
+        "name": "java-11-openjdk",
+        "purl": "pkg:rpm/tuxcare/java-11-openjdk?distro=centos-stream-8"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:11.0.30.0.7-1.el8.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS-Stream:8",
+        "name": "java-11-openjdk-demo",
+        "purl": "pkg:rpm/tuxcare/java-11-openjdk-demo?distro=centos-stream-8"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:11.0.30.0.7-1.el8.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS-Stream:8",
+        "name": "java-11-openjdk-devel",
+        "purl": "pkg:rpm/tuxcare/java-11-openjdk-devel?distro=centos-stream-8"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:11.0.30.0.7-1.el8.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS-Stream:8",
+        "name": "java-11-openjdk-headless",
+        "purl": "pkg:rpm/tuxcare/java-11-openjdk-headless?distro=centos-stream-8"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:11.0.30.0.7-1.el8.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS-Stream:8",
+        "name": "java-11-openjdk-javadoc",
+        "purl": "pkg:rpm/tuxcare/java-11-openjdk-javadoc?distro=centos-stream-8"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:11.0.30.0.7-1.el8.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS-Stream:8",
+        "name": "java-11-openjdk-javadoc-zip",
+        "purl": "pkg:rpm/tuxcare/java-11-openjdk-javadoc-zip?distro=centos-stream-8"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:11.0.30.0.7-1.el8.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS-Stream:8",
+        "name": "java-11-openjdk-jmods",
+        "purl": "pkg:rpm/tuxcare/java-11-openjdk-jmods?distro=centos-stream-8"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:11.0.30.0.7-1.el8.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS-Stream:8",
+        "name": "java-11-openjdk-src",
+        "purl": "pkg:rpm/tuxcare/java-11-openjdk-src?distro=centos-stream-8"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:11.0.30.0.7-1.el8.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS-Stream:8",
+        "name": "java-11-openjdk-static-libs",
+        "purl": "pkg:rpm/tuxcare/java-11-openjdk-static-libs?distro=centos-stream-8"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:11.0.30.0.7-1.el8.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-21945",
+    "CVE-2026-21933",
+    "CVE-2026-21925",
+    "CVE-2025-65018",
+    "CVE-2025-64720"
+  ],
+  "published": "2026-04-16T13:58:00Z",
+  "modified": "2026-04-16T13:58:00Z",
+  "details": "- Upgrade to openjdk-11.0.30+7 (GA). The following CVEs were fixed:\n- CVE-2026-21945: enhance Certificate Checking\n- CVE-2026-21933: improve HttpServer Request handling\n- CVE-2026-21925: improve JMX connections\n- CVE-2025-65018: fix LIBPNG heap buffer overflow\n- CVE-2025-64720: fix LIBPNG buffer overflow",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/centos-stream8els/CLSA-2026-1775779143.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

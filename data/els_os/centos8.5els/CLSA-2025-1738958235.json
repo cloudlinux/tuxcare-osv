@@ -1,0 +1,58 @@
+{
+  "id": "CLSA-2025-1738958235",
+  "summary": "rsync: Fix of CVE-2024-12087",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "rsync",
+        "purl": "pkg:rpm/tuxcare/rsync?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.1.3-12.el8.tuxcare.els7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "rsync-daemon",
+        "purl": "pkg:rpm/tuxcare/rsync-daemon?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.1.3-12.el8.tuxcare.els7"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2024-12087"
+  ],
+  "published": "2025-02-07T19:57:21Z",
+  "modified": "2025-02-07T19:57:21Z",
+  "details": "- CVE-2024-12087: fix path traversal vulnerability that allows write files\n  outside of the client's intended destination directory by malicious server",
+  "references": [
+    {
+      "url": "https://errata.cloudlinux.com/centos8.5-els/CLSA-2025-1738958235.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

@@ -1,0 +1,159 @@
+{
+  "id": "CLSA-2026-1778505256",
+  "summary": "python: Fix of 2 CVEs",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:7",
+        "name": "python",
+        "purl": "pkg:rpm/tuxcare/python?distro=oraclelinux-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.7.5-94.0.1.el7_9.tuxcare.els8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:7",
+        "name": "python-debug",
+        "purl": "pkg:rpm/tuxcare/python-debug?distro=oraclelinux-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.7.5-94.0.1.el7_9.tuxcare.els8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:7",
+        "name": "python-devel",
+        "purl": "pkg:rpm/tuxcare/python-devel?distro=oraclelinux-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.7.5-94.0.1.el7_9.tuxcare.els8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:7",
+        "name": "python-libs",
+        "purl": "pkg:rpm/tuxcare/python-libs?distro=oraclelinux-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.7.5-94.0.1.el7_9.tuxcare.els8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:7",
+        "name": "python-test",
+        "purl": "pkg:rpm/tuxcare/python-test?distro=oraclelinux-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.7.5-94.0.1.el7_9.tuxcare.els8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:7",
+        "name": "python-tools",
+        "purl": "pkg:rpm/tuxcare/python-tools?distro=oraclelinux-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.7.5-94.0.1.el7_9.tuxcare.els8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:7",
+        "name": "tkinter",
+        "purl": "pkg:rpm/tuxcare/tkinter?distro=oraclelinux-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.7.5-94.0.1.el7_9.tuxcare.els8"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2021-3733",
+    "CVE-2021-23336"
+  ],
+  "published": "2026-05-11T13:14:21Z",
+  "modified": "2026-05-11T13:14:21Z",
+  "details": "- CVE-2021-3733: fix ReDoS in urllib2 AbstractBasicAuthHandler regex; the\n  legacy '(?:.*,)*' prefix is replaced with the upstream-3.x form\n  '(?:^|,)' and the scheme charset excludes ',' to prevent quadratic\n  backtracking on crafted WWW-Authenticate headers\n- CVE-2021-23336: stop accepting ';' as a default query-string separator\n  in urlparse.parse_qs/parse_qsl and cgi.parse* / FieldStorage; only '&'\n  is used by default, with an opt-in 'separator' kwarg for callers that\n  need legacy behavior\n- Additional tests for CVE-2021-23336: drop obsolete legacy-';' entries\n  from Lib/test/test_cgi.py parse_strict_test_cases",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/oraclelinux7els/CLSA-2026-1778505256.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

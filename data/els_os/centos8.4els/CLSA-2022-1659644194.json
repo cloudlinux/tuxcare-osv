@@ -1,0 +1,56 @@
+{
+  "id": "CLSA-2022-1659644194",
+  "summary": "Update of tzdata",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.4",
+        "name": "tzdata",
+        "purl": "pkg:rpm/tuxcare/tzdata?distro=centos-8.4"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2022a-1.el8.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.4",
+        "name": "tzdata-java",
+        "purl": "pkg:rpm/tuxcare/tzdata-java?distro=centos-8.4"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2022a-1.el8.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [],
+  "published": "2022-08-04T20:16:34Z",
+  "modified": "2022-08-04T20:16:34Z",
+  "details": "- Fix contents of several patches that ended up not being applied",
+  "references": [
+    {
+      "url": "https://errata.cloudlinux.com/centos8.4-els/CLSA-2022-1659644194.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

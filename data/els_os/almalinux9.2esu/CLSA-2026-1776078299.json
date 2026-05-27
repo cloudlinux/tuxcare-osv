@@ -1,0 +1,78 @@
+{
+  "id": "CLSA-2026-1776078299",
+  "summary": "redis: Fix of CVE-2023-41056",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "redis",
+        "purl": "pkg:rpm/tuxcare/redis?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "6.2.21-1.el9_2.tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "redis-devel",
+        "purl": "pkg:rpm/tuxcare/redis-devel?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "6.2.21-1.el9_2.tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "redis-doc",
+        "purl": "pkg:rpm/tuxcare/redis-doc?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "6.2.21-1.el9_2.tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2023-41056"
+  ],
+  "published": "2026-04-13T11:05:04Z",
+  "modified": "2026-04-13T11:05:04Z",
+  "details": "- CVE-2023-41056: fix possible corruption in sdsResize due to incorrect\n  alloc_already_optimal logic skipping sds type header update",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/almalinux9.2esu/CLSA-2026-1776078299.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

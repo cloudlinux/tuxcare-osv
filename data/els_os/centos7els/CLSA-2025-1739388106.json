@@ -1,0 +1,80 @@
+{
+  "id": "CLSA-2025-1739388106",
+  "summary": "libevent: Fix of 3 CVEs",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:7",
+        "name": "libevent",
+        "purl": "pkg:rpm/tuxcare/libevent?distro=centos-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.0.21-4.el7.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:7",
+        "name": "libevent-devel",
+        "purl": "pkg:rpm/tuxcare/libevent-devel?distro=centos-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.0.21-4.el7.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:7",
+        "name": "libevent-doc",
+        "purl": "pkg:rpm/tuxcare/libevent-doc?distro=centos-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.0.21-4.el7.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2016-10195",
+    "CVE-2016-10196",
+    "CVE-2016-10197"
+  ],
+  "published": "2025-02-12T19:21:52Z",
+  "modified": "2025-02-12T19:21:52Z",
+  "details": "- CVE-2016-10195: fix an out-of-bounds stack read in the name_parse function\n- CVE-2016-10196: fix a stack-based buffer overflow in the\n  evutil_parse_sockaddr_port function\n- CVE-2016-10197: fix DoS via an empty hostname in the search_make_new function",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/centos7-els/CLSA-2025-1739388106.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

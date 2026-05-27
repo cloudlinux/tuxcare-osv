@@ -1,0 +1,58 @@
+{
+  "id": "CLSA-2026-1779694887",
+  "summary": "rsync: Fix of CVE-2026-29518",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "rsync",
+        "purl": "pkg:rpm/tuxcare/rsync?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.1.3-12.el8.tuxcare.els11"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "rsync-daemon",
+        "purl": "pkg:rpm/tuxcare/rsync-daemon?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.1.3-12.el8.tuxcare.els11"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-29518"
+  ],
+  "published": "2026-05-25T07:41:30Z",
+  "modified": "2026-05-25T07:41:30Z",
+  "details": "- CVE-2026-29518: fix daemon-no-chroot TOCTOU symlink race by tracking\n  per-module chroot in am_chrooted, routing sender read-path, receiver\n  basis-file open, mkstemp, and inplace write through\n  secure_relative_open() / secure_mkstemp()",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/centos8.5els/CLSA-2026-1779694887.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

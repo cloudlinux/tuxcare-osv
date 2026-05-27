@@ -1,0 +1,179 @@
+{
+  "id": "CLSA-2025-1758031287",
+  "summary": "httpd: Fix of 2 CVEs",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:RHEL:7",
+        "name": "httpd",
+        "purl": "pkg:rpm/tuxcare/httpd?distro=rhel-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.4.6-99.0.5.el7_9.1.tuxcare.els6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:RHEL:7",
+        "name": "httpd-devel",
+        "purl": "pkg:rpm/tuxcare/httpd-devel?distro=rhel-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.4.6-99.0.5.el7_9.1.tuxcare.els6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:RHEL:7",
+        "name": "httpd-manual",
+        "purl": "pkg:rpm/tuxcare/httpd-manual?distro=rhel-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.4.6-99.0.5.el7_9.1.tuxcare.els6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:RHEL:7",
+        "name": "httpd-tools",
+        "purl": "pkg:rpm/tuxcare/httpd-tools?distro=rhel-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.4.6-99.0.5.el7_9.1.tuxcare.els6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:RHEL:7",
+        "name": "mod_ldap",
+        "purl": "pkg:rpm/tuxcare/mod_ldap?distro=rhel-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.4.6-99.0.5.el7_9.1.tuxcare.els6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:RHEL:7",
+        "name": "mod_proxy_html",
+        "purl": "pkg:rpm/tuxcare/mod_proxy_html?distro=rhel-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:2.4.6-99.0.5.el7_9.1.tuxcare.els6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:RHEL:7",
+        "name": "mod_session",
+        "purl": "pkg:rpm/tuxcare/mod_session?distro=rhel-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.4.6-99.0.5.el7_9.1.tuxcare.els6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:RHEL:7",
+        "name": "mod_ssl",
+        "purl": "pkg:rpm/tuxcare/mod_ssl?distro=rhel-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:2.4.6-99.0.5.el7_9.1.tuxcare.els6"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2024-47252",
+    "CVE-2025-49812"
+  ],
+  "published": "2025-09-16T14:01:31Z",
+  "modified": "2025-09-16T14:01:31Z",
+  "details": "- CVE-2024-47252: escape user-supplied data in mod_ssl to prevent untrusted\n  SSL/TLS clients from inserting escape characters into log files\n- CVE-2025-49812: remove support for TLS upgrade to prevent HTTP\n  desynchronisation attack",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/rhel7els/CLSA-2025-1758031287.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

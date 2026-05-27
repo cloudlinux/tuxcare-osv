@@ -1,0 +1,119 @@
+{
+  "id": "CLSA-2021-1634925719",
+  "summary": "Fixed CVEs in vim: CVE-2021-3778, CVE-2021-3796",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:6",
+        "name": "vim-X11",
+        "purl": "pkg:rpm/tuxcare/vim-X11?distro=oraclelinux-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:7.4.629-6.el6.cloudlinux.els"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:6",
+        "name": "vim-common",
+        "purl": "pkg:rpm/tuxcare/vim-common?distro=oraclelinux-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:7.4.629-6.el6.cloudlinux.els"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:6",
+        "name": "vim-enhanced",
+        "purl": "pkg:rpm/tuxcare/vim-enhanced?distro=oraclelinux-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:7.4.629-6.el6.cloudlinux.els"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:6",
+        "name": "vim-filesystem",
+        "purl": "pkg:rpm/tuxcare/vim-filesystem?distro=oraclelinux-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:7.4.629-6.el6.cloudlinux.els"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:6",
+        "name": "vim-minimal",
+        "purl": "pkg:rpm/tuxcare/vim-minimal?distro=oraclelinux-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:7.4.629-6.el6.cloudlinux.els"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2021-3778",
+    "CVE-2021-3796"
+  ],
+  "published": "2021-10-22T18:01:59Z",
+  "modified": "2022-05-17T17:28:33Z",
+  "details": "- CVE-2021-3778: crafted input leads to heap-based buffer overflow\n- CVE-2021-3796: crafted input leads to use-after-free",
+  "references": [
+    {
+      "url": "https://errata.cloudlinux.com/ol6/CLSA-2021-1634925719.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "id": "CLSA-2023-1695326199",
+  "summary": "lz4: Fix of CVE-2021-3520",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:7",
+        "name": "lz4",
+        "purl": "pkg:rpm/tuxcare/lz4?distro=centos-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.8.3-1.el7.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:7",
+        "name": "lz4-devel",
+        "purl": "pkg:rpm/tuxcare/lz4-devel?distro=centos-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.8.3-1.el7.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:7",
+        "name": "lz4-static",
+        "purl": "pkg:rpm/tuxcare/lz4-static?distro=centos-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.8.3-1.el7.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2021-3520"
+  ],
+  "published": "2023-09-21T20:57:15Z",
+  "modified": "2023-09-21T20:57:15Z",
+  "details": "- CVE-2021-3520: Fix potential memory corruption with negative memmove() size",
+  "references": [
+    {
+      "url": "https://errata.cloudlinux.com/centos7-els/CLSA-2023-1695326199.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

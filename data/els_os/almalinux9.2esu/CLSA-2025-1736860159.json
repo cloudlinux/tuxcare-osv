@@ -1,0 +1,39 @@
+{
+  "id": "CLSA-2025-1736860159",
+  "summary": "squid: Fix of 2 CVEs",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "squid",
+        "purl": "pkg:rpm/tuxcare/squid?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7:5.5-5.el9_2.1.tuxcare.els5"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2024-23638",
+    "CVE-2024-37894"
+  ],
+  "published": "2025-01-14T13:09:25Z",
+  "modified": "2025-01-14T13:09:25Z",
+  "details": "- CVE-2024-23638: Fix Denial of Service attack against Cache Manager error responses\n- CVE-2024-37894: Fix Out-of-bounds Write error when assigning ESI variables",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/almalinux9.2-esu/CLSA-2025-1736860159.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

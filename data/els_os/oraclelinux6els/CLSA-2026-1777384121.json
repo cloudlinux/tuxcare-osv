@@ -1,0 +1,40 @@
+{
+  "id": "CLSA-2026-1777384121",
+  "summary": "squid: Fix of 3 CVEs",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:6",
+        "name": "squid",
+        "purl": "pkg:rpm/tuxcare/squid?distro=oraclelinux-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7:3.1.23-30.el6.tuxcare.els18"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2019-12521",
+    "CVE-2019-12524",
+    "CVE-2019-12520"
+  ],
+  "published": "2026-04-28T13:48:46Z",
+  "modified": "2026-04-28T13:48:46Z",
+  "details": "- CVE-2019-12521: fix ESI parser off-by-one heap overflow by enforcing a\n  stack-depth limit and throwing on overflow\n- CVE-2019-12524 already addressed by the CVE-2019-12520 backport (same\n  fix upstream; see Squid advisory SQUID-2019:4)",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/oraclelinux6els/CLSA-2026-1777384121.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

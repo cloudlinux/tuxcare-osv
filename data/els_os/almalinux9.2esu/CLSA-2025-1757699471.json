@@ -1,0 +1,750 @@
+{
+  "id": "CLSA-2025-1757699471",
+  "summary": "kernel: Fix of 13 CVEs",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "bpftool",
+        "purl": "pkg:rpm/tuxcare/bpftool?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7.0.0-284.1101.el9_2.tuxcare.7.els19"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "kernel",
+        "purl": "pkg:rpm/tuxcare/kernel?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.14.0-284.1101.el9_2.tuxcare.7.els19"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "kernel-abi-stablelists",
+        "purl": "pkg:rpm/tuxcare/kernel-abi-stablelists?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.14.0-284.1101.el9_2.tuxcare.7.els19"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "kernel-core",
+        "purl": "pkg:rpm/tuxcare/kernel-core?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.14.0-284.1101.el9_2.tuxcare.7.els19"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "kernel-cross-headers",
+        "purl": "pkg:rpm/tuxcare/kernel-cross-headers?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.14.0-284.1101.el9_2.tuxcare.7.els19"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "kernel-debug",
+        "purl": "pkg:rpm/tuxcare/kernel-debug?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.14.0-284.1101.el9_2.tuxcare.7.els19"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "kernel-debug-core",
+        "purl": "pkg:rpm/tuxcare/kernel-debug-core?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.14.0-284.1101.el9_2.tuxcare.7.els19"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "kernel-debug-devel",
+        "purl": "pkg:rpm/tuxcare/kernel-debug-devel?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.14.0-284.1101.el9_2.tuxcare.7.els19"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "kernel-debug-devel-matched",
+        "purl": "pkg:rpm/tuxcare/kernel-debug-devel-matched?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.14.0-284.1101.el9_2.tuxcare.7.els19"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "kernel-debug-modules",
+        "purl": "pkg:rpm/tuxcare/kernel-debug-modules?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.14.0-284.1101.el9_2.tuxcare.7.els19"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "kernel-debug-modules-core",
+        "purl": "pkg:rpm/tuxcare/kernel-debug-modules-core?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.14.0-284.1101.el9_2.tuxcare.7.els19"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "kernel-debug-modules-extra",
+        "purl": "pkg:rpm/tuxcare/kernel-debug-modules-extra?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.14.0-284.1101.el9_2.tuxcare.7.els19"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "kernel-debug-modules-internal",
+        "purl": "pkg:rpm/tuxcare/kernel-debug-modules-internal?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.14.0-284.1101.el9_2.tuxcare.7.els19"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "kernel-debug-modules-partner",
+        "purl": "pkg:rpm/tuxcare/kernel-debug-modules-partner?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.14.0-284.1101.el9_2.tuxcare.7.els19"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "kernel-debug-uki-virt",
+        "purl": "pkg:rpm/tuxcare/kernel-debug-uki-virt?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.14.0-284.1101.el9_2.tuxcare.7.els19"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "kernel-devel",
+        "purl": "pkg:rpm/tuxcare/kernel-devel?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.14.0-284.1101.el9_2.tuxcare.7.els19"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "kernel-devel-matched",
+        "purl": "pkg:rpm/tuxcare/kernel-devel-matched?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.14.0-284.1101.el9_2.tuxcare.7.els19"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "kernel-doc",
+        "purl": "pkg:rpm/tuxcare/kernel-doc?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.14.0-284.1101.el9_2.tuxcare.7.els19"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "kernel-headers",
+        "purl": "pkg:rpm/tuxcare/kernel-headers?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.14.0-284.1101.el9_2.tuxcare.7.els19"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "kernel-ipaclones-internal",
+        "purl": "pkg:rpm/tuxcare/kernel-ipaclones-internal?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.14.0-284.1101.el9_2.tuxcare.7.els19"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "kernel-modules",
+        "purl": "pkg:rpm/tuxcare/kernel-modules?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.14.0-284.1101.el9_2.tuxcare.7.els19"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "kernel-modules-core",
+        "purl": "pkg:rpm/tuxcare/kernel-modules-core?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.14.0-284.1101.el9_2.tuxcare.7.els19"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "kernel-modules-extra",
+        "purl": "pkg:rpm/tuxcare/kernel-modules-extra?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.14.0-284.1101.el9_2.tuxcare.7.els19"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "kernel-modules-internal",
+        "purl": "pkg:rpm/tuxcare/kernel-modules-internal?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.14.0-284.1101.el9_2.tuxcare.7.els19"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "kernel-modules-partner",
+        "purl": "pkg:rpm/tuxcare/kernel-modules-partner?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.14.0-284.1101.el9_2.tuxcare.7.els19"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "kernel-selftests-internal",
+        "purl": "pkg:rpm/tuxcare/kernel-selftests-internal?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.14.0-284.1101.el9_2.tuxcare.7.els19"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "kernel-tools",
+        "purl": "pkg:rpm/tuxcare/kernel-tools?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.14.0-284.1101.el9_2.tuxcare.7.els19"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "kernel-tools-libs",
+        "purl": "pkg:rpm/tuxcare/kernel-tools-libs?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.14.0-284.1101.el9_2.tuxcare.7.els19"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "kernel-tools-libs-devel",
+        "purl": "pkg:rpm/tuxcare/kernel-tools-libs-devel?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.14.0-284.1101.el9_2.tuxcare.7.els19"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "kernel-uki-virt",
+        "purl": "pkg:rpm/tuxcare/kernel-uki-virt?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.14.0-284.1101.el9_2.tuxcare.7.els19"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "libbpf",
+        "purl": "pkg:rpm/tuxcare/libbpf?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:1.0.0-2.el9_2.tuxcare.7.els19"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "libbpf-devel",
+        "purl": "pkg:rpm/tuxcare/libbpf-devel?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:1.0.0-2.el9_2.tuxcare.7.els19"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "libbpf-static",
+        "purl": "pkg:rpm/tuxcare/libbpf-static?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:1.0.0-2.el9_2.tuxcare.7.els19"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "perf",
+        "purl": "pkg:rpm/tuxcare/perf?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.14.0-284.1101.el9_2.tuxcare.7.els19"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "python3-perf",
+        "purl": "pkg:rpm/tuxcare/python3-perf?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.14.0-284.1101.el9_2.tuxcare.7.els19"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "rtla",
+        "purl": "pkg:rpm/tuxcare/rtla?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.14.0-284.1101.el9_2.tuxcare.7.els19"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2025-38084",
+    "CVE-2025-38352",
+    "CVE-2025-38464",
+    "CVE-2025-38461",
+    "CVE-2025-38211",
+    "CVE-2025-38200",
+    "CVE-2025-37914",
+    "CVE-2025-37823",
+    "CVE-2025-22058",
+    "CVE-2025-38350",
+    "CVE-2025-38177",
+    "CVE-2025-38000",
+    "CVE-2025-38124"
+  ],
+  "published": "2025-09-12T17:51:15Z",
+  "modified": "2025-09-12T17:51:15Z",
+  "details": "- mm/hugetlb: unshare page tables during VMA split, not before {CVE-2025-38084}\n- hugetlb: unshare some PMDs when splitting VMAs {CVE-2025-38084}\n- posix-cpu-timers: fix race between handle_posix_cpu_timers() and posix_cpu_timer_del() {CVE-2025-38352}\n- tipc: Fix use-after-free in tipc_conn_close(). {CVE-2025-38464}\n- vsock: Fix transport_* TOCTOU {CVE-2025-38461}\n- RDMA/iwcm: Fix use-after-free of work objects after cm_id destruction {CVE-2025-38211}\n- i40e: fix MMIO write access to an invalid page in i40e_clear_hw {CVE-2025-38200}\n- net_sched: ets: Fix double list add in class with netem as child qdisc {CVE-2025-37914}\n- net_sched: hfsc: Fix a potential UAF in hfsc_dequeue() too {CVE-2025-37823}\n- udp: Fix memory accounting leak. {CVE-2025-22058}\n- net/sched: Always pass notifications when child class becomes empty {CVE-2025-38350}\n- codel: remove sch->q.qlen check before qdisc_tree_reduce_backlog() {CVE-2025-38177}\n- sch_htb: make htb_deactivate() idempotent {CVE-2025-38177}\n- sch_drr: make drr_qlen_notify() idempotent {CVE-2025-38177}\n- sch_htb: make htb_qlen_notify() idempotent {CVE-2025-38177}\n- sch_qfq: make qfq_qlen_notify() idempotent {CVE-2025-38177}\n- sch_ets: make est_qlen_notify() idempotent {CVE-2025-38177}\n- sch_hfsc: make hfsc_qlen_notify() idempotent {CVE-2025-38177}\n- sch_hfsc: Fix qlen accounting bug when using peek in hfsc_enqueue() {CVE-2025-38000}\n- net: fix udp gso skb_segment after pull from frag_list {CVE-2025-38124}",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/almalinux9.2esu/CLSA-2025-1757699471.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

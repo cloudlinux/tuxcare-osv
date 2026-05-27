@@ -1,0 +1,58 @@
+{
+  "id": "CLSA-2025-1757409276",
+  "summary": "mpfr: Fix of CVE-2014-9474",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:RHEL:7",
+        "name": "mpfr",
+        "purl": "pkg:rpm/tuxcare/mpfr?distro=rhel-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.1.1-4.el7.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:RHEL:7",
+        "name": "mpfr-devel",
+        "purl": "pkg:rpm/tuxcare/mpfr-devel?distro=rhel-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.1.1-4.el7.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2014-9474"
+  ],
+  "published": "2025-09-09T09:14:40Z",
+  "modified": "2025-09-09T09:14:40Z",
+  "details": "- CVE-2014-9474: Fix of a buffer overflow due to incorrect GMP\n  documentation for mpn_set_str",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/rhel7els/CLSA-2025-1757409276.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

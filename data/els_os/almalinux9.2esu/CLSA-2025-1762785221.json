@@ -1,0 +1,76 @@
+{
+  "id": "CLSA-2025-1762785221",
+  "summary": "Update of redis",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "redis",
+        "purl": "pkg:rpm/tuxcare/redis?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "6.2.21-1.el9.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "redis-devel",
+        "purl": "pkg:rpm/tuxcare/redis-devel?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "6.2.21-1.el9.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "redis-doc",
+        "purl": "pkg:rpm/tuxcare/redis-doc?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "6.2.21-1.el9.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [],
+  "published": "2025-11-13T08:00:06Z",
+  "modified": "2025-11-13T08:00:06Z",
+  "details": "- update tarball to 6.2.21\n- CVE\u20112025\u201146818: fix Lua scripting vulnerability allowing code execution by\n  authenticated users\n- CVE\u20112025\u201146819: fix Lua scripting vulnerability causing out-of-bounds memory\n  access or server crash",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/almalinux9.2esu/CLSA-2025-1762785221.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

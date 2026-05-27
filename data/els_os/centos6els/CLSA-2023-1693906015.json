@@ -1,0 +1,58 @@
+{
+  "id": "CLSA-2023-1693906015",
+  "summary": "busybox: Fix of CVE-2022-48174",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:6",
+        "name": "busybox",
+        "purl": "pkg:rpm/tuxcare/busybox?distro=centos-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:1.15.1-21.el6_6.tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:6",
+        "name": "busybox-petitboot",
+        "purl": "pkg:rpm/tuxcare/busybox-petitboot?distro=centos-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:1.15.1-21.el6_6.tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2022-48174"
+  ],
+  "published": "2023-09-05T09:26:59Z",
+  "modified": "2023-09-05T09:26:59Z",
+  "details": "- CVE-2022-48174: fix unlikely stack overflow\n- testsuite was enabled",
+  "references": [
+    {
+      "url": "https://errata.cloudlinux.com/els6/CLSA-2023-1693906015.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

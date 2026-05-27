@@ -1,0 +1,36 @@
+{
+  "id": "CLSA-2026-1777538340",
+  "summary": "Update of cpio",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:7",
+        "name": "cpio",
+        "purl": "pkg:rpm/tuxcare/cpio?distro=oraclelinux-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.11-28.el7.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [],
+  "published": "2026-05-22T13:16:55Z",
+  "modified": "2026-05-22T13:16:55Z",
+  "details": "- Fix integer overflow in dstring.c ds_fgetstr that triggers\n  an out-of-bounds heap write",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/oraclelinux7els/CLSA-2026-1777538340.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

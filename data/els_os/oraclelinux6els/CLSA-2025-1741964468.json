@@ -1,0 +1,58 @@
+{
+  "id": "CLSA-2025-1741964468",
+  "summary": "binutils: Fix of CVE-2025-0840",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:6",
+        "name": "binutils",
+        "purl": "pkg:rpm/tuxcare/binutils?distro=oraclelinux-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:2.20.51.0.2-5.48.1.el6.tuxcare.els8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:6",
+        "name": "binutils-devel",
+        "purl": "pkg:rpm/tuxcare/binutils-devel?distro=oraclelinux-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:2.20.51.0.2-5.48.1.el6.tuxcare.els8"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2025-0840"
+  ],
+  "published": "2025-03-14T15:29:33Z",
+  "modified": "2025-03-14T15:29:33Z",
+  "details": "- CVE-2025-0840: fix stack-buffer-overflow at objdump disassemble_bytes",
+  "references": [
+    {
+      "url": "https://errata.cloudlinux.com/ol6/CLSA-2025-1741964468.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

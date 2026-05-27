@@ -1,0 +1,78 @@
+{
+  "id": "CLSA-2026-1777544744",
+  "summary": "squid: Fix of CVE-2023-49288",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:7",
+        "name": "squid",
+        "purl": "pkg:rpm/tuxcare/squid?distro=centos-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7:3.5.20-17.0.5.el7_9.99.tuxcare.els6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:7",
+        "name": "squid-migration-script",
+        "purl": "pkg:rpm/tuxcare/squid-migration-script?distro=centos-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7:3.5.20-17.0.5.el7_9.99.tuxcare.els6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:7",
+        "name": "squid-sysvinit",
+        "purl": "pkg:rpm/tuxcare/squid-sysvinit?distro=centos-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7:3.5.20-17.0.5.el7_9.99.tuxcare.els6"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2023-49288"
+  ],
+  "published": "2026-05-02T01:11:59Z",
+  "modified": "2026-05-02T01:11:59Z",
+  "details": "- CVE-2023-49288: fix use-after-free in store_client lifetime by locking\n  StoreEntry for the duration of the store_client object",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/centos7els/CLSA-2026-1777544744.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

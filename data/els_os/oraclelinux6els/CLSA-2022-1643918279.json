@@ -1,0 +1,78 @@
+{
+  "id": "CLSA-2022-1643918279",
+  "summary": "Fixed CVE-2022-23305 in log4j",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:6",
+        "name": "log4j",
+        "purl": "pkg:rpm/tuxcare/log4j?distro=oraclelinux-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.2.14-6.4.el6.tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:6",
+        "name": "log4j-javadoc",
+        "purl": "pkg:rpm/tuxcare/log4j-javadoc?distro=oraclelinux-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.2.14-6.4.el6.tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:6",
+        "name": "log4j-manual",
+        "purl": "pkg:rpm/tuxcare/log4j-manual?distro=oraclelinux-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.2.14-6.4.el6.tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2022-23305"
+  ],
+  "published": "2022-02-03T19:57:59Z",
+  "modified": "2022-05-17T17:28:33Z",
+  "details": "- CVE-2022-23305: disable JDBCAppender by default. Add optional parameter for\n  enabling it.",
+  "references": [
+    {
+      "url": "https://errata.cloudlinux.com/ol6/CLSA-2022-1643918279.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

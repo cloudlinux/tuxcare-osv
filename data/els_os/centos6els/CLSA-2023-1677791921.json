@@ -1,0 +1,38 @@
+{
+  "id": "CLSA-2023-1677791921",
+  "summary": "tar: Fix of CVE-2022-48303",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:6",
+        "name": "tar",
+        "purl": "pkg:rpm/tuxcare/tar?distro=centos-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:1.23-15.el6_8.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2022-48303"
+  ],
+  "published": "2023-03-02T21:18:41Z",
+  "modified": "2023-03-02T21:18:41Z",
+  "details": "- CVE-2022-48303: check for the end of field after leading byte (0x80 or 0xff)\n  of base-256 encoded header value",
+  "references": [
+    {
+      "url": "https://errata.cloudlinux.com/els6/CLSA-2023-1677791921.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

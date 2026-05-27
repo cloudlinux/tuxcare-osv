@@ -1,0 +1,58 @@
+{
+  "id": "CLSA-2026-1777393882",
+  "summary": "pixman: Fix of CVE-2022-44638",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:7",
+        "name": "pixman",
+        "purl": "pkg:rpm/tuxcare/pixman?distro=oraclelinux-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.34.0-1.el7.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:7",
+        "name": "pixman-devel",
+        "purl": "pkg:rpm/tuxcare/pixman-devel?distro=oraclelinux-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.34.0-1.el7.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2022-44638"
+  ],
+  "published": "2026-04-28T16:31:26Z",
+  "modified": "2026-04-28T16:31:26Z",
+  "details": "- CVE-2022-44638: Integer overflow in pixman_sample_floor_y leading to heap out-of-bounds write in rasterize_edges_8.",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/oraclelinux7els/CLSA-2026-1777393882.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

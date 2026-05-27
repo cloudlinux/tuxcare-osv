@@ -1,0 +1,99 @@
+{
+  "id": "CLSA-2026-1778860714",
+  "summary": "gimp: Fix of 2 CVEs",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "gimp",
+        "purl": "pkg:rpm/tuxcare/gimp?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:2.99.8-4.el9.2.tuxcare.els11"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "gimp-devel",
+        "purl": "pkg:rpm/tuxcare/gimp-devel?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:2.99.8-4.el9.2.tuxcare.els11"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "gimp-devel-tools",
+        "purl": "pkg:rpm/tuxcare/gimp-devel-tools?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:2.99.8-4.el9.2.tuxcare.els11"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "gimp-libs",
+        "purl": "pkg:rpm/tuxcare/gimp-libs?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:2.99.8-4.el9.2.tuxcare.els11"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-4153",
+    "CVE-2026-4154"
+  ],
+  "published": "2026-05-22T15:39:04Z",
+  "modified": "2026-05-22T15:39:04Z",
+  "details": "- CVE-2026-4153: fix heap-based buffer overflow in PSP file parser by computing\n  proper line_width for bit depths 1 and 4 with small widths\n- CVE-2026-4154: fix integer overflow and buffer overflow in XPM file parser\n  by adding GIMP_MAX_IMAGE_SIZE bounds checks and using g_try_new",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/almalinux9.2esu/CLSA-2026-1778860714.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

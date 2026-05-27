@@ -1,0 +1,99 @@
+{
+  "id": "CLSA-2025-1742466508",
+  "summary": "libxml2: Fix of 2 CVEs",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS-Stream:8",
+        "name": "libxml2",
+        "purl": "pkg:rpm/tuxcare/libxml2?distro=centos-stream-8"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.9.7-18.el8.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS-Stream:8",
+        "name": "libxml2-devel",
+        "purl": "pkg:rpm/tuxcare/libxml2-devel?distro=centos-stream-8"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.9.7-18.el8.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS-Stream:8",
+        "name": "libxml2-static",
+        "purl": "pkg:rpm/tuxcare/libxml2-static?distro=centos-stream-8"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.9.7-18.el8.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS-Stream:8",
+        "name": "python3-libxml2",
+        "purl": "pkg:rpm/tuxcare/python3-libxml2?distro=centos-stream-8"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.9.7-18.el8.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2024-56171",
+    "CVE-2025-24928"
+  ],
+  "published": "2025-03-20T11:42:18Z",
+  "modified": "2025-03-20T11:42:18Z",
+  "details": "- CVE-2024-56171: fix use-after-free in xmlSchemaIDCFillNodeTables and\n  xmlSchemaBubbleIDCNodeTables in xmlschemas.c\n- CVE-2025-24928: fix stack-based buffer overflow in xmlSnprintfElements in valid.c",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/centos8stream-els/CLSA-2025-1742466508.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

@@ -1,0 +1,159 @@
+{
+  "id": "CLSA-2022-1665073587",
+  "summary": "Fixed CVEs in sqlite: CVE-2020-35525, CVE-2021-20223",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "lemon",
+        "purl": "pkg:rpm/tuxcare/lemon?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.26.0-15.el8.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "sqlite",
+        "purl": "pkg:rpm/tuxcare/sqlite?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.26.0-15.el8.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "sqlite-analyzer",
+        "purl": "pkg:rpm/tuxcare/sqlite-analyzer?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.26.0-15.el8.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "sqlite-devel",
+        "purl": "pkg:rpm/tuxcare/sqlite-devel?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.26.0-15.el8.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "sqlite-doc",
+        "purl": "pkg:rpm/tuxcare/sqlite-doc?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.26.0-15.el8.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "sqlite-libs",
+        "purl": "pkg:rpm/tuxcare/sqlite-libs?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.26.0-15.el8.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "sqlite-tcl",
+        "purl": "pkg:rpm/tuxcare/sqlite-tcl?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.26.0-15.el8.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2020-35525",
+    "CVE-2021-20223"
+  ],
+  "published": "2022-10-06T16:26:27Z",
+  "modified": "2022-10-06T16:26:27Z",
+  "details": "- CVE-2021-20223: prevent fts5 tokenizer unicode61 from considering '\\0' to be\n  a token characters, even if other characters of class \"Cc\" are.\n- CVE-2020-35525: fix a potential null pointer dereference.",
+  "references": [
+    {
+      "url": "https://errata.cloudlinux.com/centos8.5-els/CLSA-2022-1665073587.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

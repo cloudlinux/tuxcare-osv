@@ -1,0 +1,58 @@
+{
+  "id": "CLSA-2026-1772812307",
+  "summary": "grafana: Fix of CVE-2026-21721",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "grafana",
+        "purl": "pkg:rpm/tuxcare/grafana?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "10.2.6-15.el9_6.tuxcare.els4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "grafana-selinux",
+        "purl": "pkg:rpm/tuxcare/grafana-selinux?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "10.2.6-15.el9_6.tuxcare.els4"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-21721"
+  ],
+  "published": "2026-03-06T15:51:51Z",
+  "modified": "2026-03-06T15:51:51Z",
+  "details": "- CVE-2026-21721: Fix dashboard permissions API; verify target dashboard scope\n  and prevent users with permission-management rights on one dashboard from\n  reading or modifying permissions on other dashboards",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/tuxcare9.6esu/CLSA-2026-1772812307.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

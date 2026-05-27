@@ -1,0 +1,38 @@
+{
+  "id": "CLSA-2025-1753800294",
+  "summary": "mod_auth_openidc: Fix of CVE-2022-23527",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "mod_auth_openidc",
+        "purl": "pkg:rpm/tuxcare/mod_auth_openidc?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.4.9.4-1.el9.tuxcare.els5"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2022-23527"
+  ],
+  "published": "2025-07-29T14:44:59Z",
+  "modified": "2025-07-29T14:44:59Z",
+  "details": "- CVE-2022-23527: fix open redirect vulnerability caused by improper URL\n  validation",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/almalinux9.2esu/CLSA-2025-1753800294.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "id": "CLSA-2026-1777301041",
+  "summary": "gd: Fix of CVE-2021-38115",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "gd",
+        "purl": "pkg:rpm/tuxcare/gd?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.3.2-3.el9.tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "gd-devel",
+        "purl": "pkg:rpm/tuxcare/gd-devel?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.3.2-3.el9.tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "gd-progs",
+        "purl": "pkg:rpm/tuxcare/gd-progs?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.3.2-3.el9.tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2021-38115"
+  ],
+  "published": "2026-04-27T14:44:06Z",
+  "modified": "2026-04-27T14:44:06Z",
+  "details": "- Fix CVE-2021-38115: out-of-bounds read in read_header_tga()",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/almalinux9.2esu/CLSA-2026-1777301041.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

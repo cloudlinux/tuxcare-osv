@@ -1,0 +1,78 @@
+{
+  "id": "CLSA-2026-1778604436",
+  "summary": "libtasn1: Fix of CVE-2018-6003",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:7",
+        "name": "libtasn1",
+        "purl": "pkg:rpm/tuxcare/libtasn1?distro=centos-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.10-1.el7.tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:7",
+        "name": "libtasn1-devel",
+        "purl": "pkg:rpm/tuxcare/libtasn1-devel?distro=centos-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.10-1.el7.tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:7",
+        "name": "libtasn1-tools",
+        "purl": "pkg:rpm/tuxcare/libtasn1-tools?distro=centos-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.10-1.el7.tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2018-6003"
+  ],
+  "published": "2026-05-13T08:54:47Z",
+  "modified": "2026-05-13T08:54:47Z",
+  "details": "- CVE-2018-6003: Restrict recursion depth in _asn1_decode_simple_ber()\n  to prevent stack exhaustion DoS via crafted indefinite-length BER input.",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/centos7els/CLSA-2026-1778604436.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

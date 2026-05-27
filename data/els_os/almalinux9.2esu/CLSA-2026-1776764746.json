@@ -1,0 +1,58 @@
+{
+  "id": "CLSA-2026-1776764746",
+  "summary": "libxslt: Fix of CVE-2021-30560",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "libxslt",
+        "purl": "pkg:rpm/tuxcare/libxslt?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.1.34-9.el9.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "libxslt-devel",
+        "purl": "pkg:rpm/tuxcare/libxslt-devel?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.1.34-9.el9.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2021-30560"
+  ],
+  "published": "2026-04-21T09:45:51Z",
+  "modified": "2026-04-21T09:45:51Z",
+  "details": "- CVE-2021-30560: fix use-after-free in xsltApplyTemplates",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/almalinux9.2esu/CLSA-2026-1776764746.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

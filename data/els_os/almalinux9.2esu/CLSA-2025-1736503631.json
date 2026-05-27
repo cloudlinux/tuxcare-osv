@@ -1,0 +1,41 @@
+{
+  "id": "CLSA-2025-1736503631",
+  "summary": "squid: Fix of 4 CVEs",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "squid",
+        "purl": "pkg:rpm/tuxcare/squid?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7:5.5-5.el9_2.1.tuxcare.els4"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2023-49285",
+    "CVE-2023-49286",
+    "CVE-2023-50269",
+    "CVE-2024-25617"
+  ],
+  "published": "2025-01-10T10:07:18Z",
+  "modified": "2025-01-10T10:07:18Z",
+  "details": "- CVE-2023-49285: Fix Buffer Overread bug to prevent Denial of Service attack\n- CVE-2023-49286: Fix Incorrect Check of Function Return Value bug in Helper\n  process management\n- CVE-2023-50269: Fix Uncontrolled Recursion bug in HTTP Request parsing by\n  limiting X-Forwarded-For header size to prevent Denial of Service attack.\n- CVE-2024-25617: Fix Collapse of Data into Unsafe Value bug to prevent Denial\n  of Service attack against HTTP header parsing",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/almalinux9.2-esu/CLSA-2025-1736503631.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

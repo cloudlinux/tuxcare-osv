@@ -1,0 +1,58 @@
+{
+  "id": "CLSA-2026-1777940187",
+  "summary": "sudo: Fix of CVE-2026-35535",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "sudo",
+        "purl": "pkg:rpm/tuxcare/sudo?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.8.29-7.el8_4.1.tuxcare.els5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "sudo-devel",
+        "purl": "pkg:rpm/tuxcare/sudo-devel?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.8.29-7.el8_4.1.tuxcare.els5"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-35535"
+  ],
+  "published": "2026-05-05T00:16:34Z",
+  "modified": "2026-05-05T00:16:34Z",
+  "details": "- CVE-2026-35535: make privilege drop failure fatal before running the mailer",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/centos8.5els/CLSA-2026-1777940187.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

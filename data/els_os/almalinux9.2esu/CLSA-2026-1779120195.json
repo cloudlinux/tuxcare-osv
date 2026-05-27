@@ -1,0 +1,98 @@
+{
+  "id": "CLSA-2026-1779120195",
+  "summary": "tbb: Fix of CVE-2020-11023",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "python3-tbb",
+        "purl": "pkg:rpm/tuxcare/python3-tbb?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2020.3-8.el9.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "tbb",
+        "purl": "pkg:rpm/tuxcare/tbb?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2020.3-8.el9.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "tbb-devel",
+        "purl": "pkg:rpm/tuxcare/tbb-devel?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2020.3-8.el9.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "tbb-doc",
+        "purl": "pkg:rpm/tuxcare/tbb-doc?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2020.3-8.el9.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2020-11023"
+  ],
+  "published": "2026-05-19T00:38:31Z",
+  "modified": "2026-05-19T00:38:31Z",
+  "details": "- CVE-2020-11023: fix XSS by removing bundled jQuery from Doxygen-generated tbb-doc HTML",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/almalinux9.2esu/CLSA-2026-1779120195.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

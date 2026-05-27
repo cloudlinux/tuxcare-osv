@@ -1,0 +1,40 @@
+{
+  "id": "CLSA-2021-1634925554",
+  "summary": "Fixed CVEs in squid: CVE-2020-8517, CVE-2020-8450, CVE-2020-8449",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:6",
+        "name": "squid",
+        "purl": "pkg:rpm/tuxcare/squid?distro=oraclelinux-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7:3.1.23-29.el6.cloudlinux.els"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2020-8517",
+    "CVE-2020-8450",
+    "CVE-2020-8449"
+  ],
+  "published": "2021-10-22T17:59:14Z",
+  "modified": "2022-05-17T17:28:33Z",
+  "details": "- CVE-2020-8449: fix improper HTTP request validation allowing access to \n  resources which are prohibited by security filters\n- CVE-2020-8450: fix incorrect buffer managment leading to buffer overflow\n- CVE-2020-8517: fix incorrect input validation allowing writing outside of buffer\n  and leading to denial of service",
+  "references": [
+    {
+      "url": "https://errata.cloudlinux.com/ol6/CLSA-2021-1634925554.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

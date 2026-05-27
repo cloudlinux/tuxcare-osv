@@ -1,0 +1,78 @@
+{
+  "id": "CLSA-2026-1778143751",
+  "summary": "libsndfile: Fix of CVE-2022-33065",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:7",
+        "name": "libsndfile",
+        "purl": "pkg:rpm/tuxcare/libsndfile?distro=centos-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.0.25-12.el7_9.1.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:7",
+        "name": "libsndfile-devel",
+        "purl": "pkg:rpm/tuxcare/libsndfile-devel?distro=centos-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.0.25-12.el7_9.1.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:7",
+        "name": "libsndfile-utils",
+        "purl": "pkg:rpm/tuxcare/libsndfile-utils?distro=centos-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.0.25-12.el7_9.1.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2022-33065"
+  ],
+  "published": "2026-05-08T11:50:06Z",
+  "modified": "2026-05-08T11:50:06Z",
+  "details": "- CVE-2022-33065: fix multiple signed integer overflows in au.c, mat4.c and mat5.c",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/centos7els/CLSA-2026-1778143751.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

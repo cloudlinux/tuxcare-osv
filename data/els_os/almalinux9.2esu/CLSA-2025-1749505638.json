@@ -1,0 +1,78 @@
+{
+  "id": "CLSA-2025-1749505638",
+  "summary": "gstreamer1-plugins-base: Fix of CVE-2024-47615",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "gstreamer1-plugins-base",
+        "purl": "pkg:rpm/tuxcare/gstreamer1-plugins-base?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.18.4-5.el9.tuxcare.els7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "gstreamer1-plugins-base-devel",
+        "purl": "pkg:rpm/tuxcare/gstreamer1-plugins-base-devel?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.18.4-5.el9.tuxcare.els7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "gstreamer1-plugins-base-tools",
+        "purl": "pkg:rpm/tuxcare/gstreamer1-plugins-base-tools?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.18.4-5.el9.tuxcare.els7"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2024-47615"
+  ],
+  "published": "2025-06-09T21:47:23Z",
+  "modified": "2025-06-09T21:47:23Z",
+  "details": "- CVE-2024-47615: fix out-of-bounds write in Ogg demuxer",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/almalinux9.2esu/CLSA-2025-1749505638.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

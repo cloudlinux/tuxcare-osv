@@ -1,0 +1,78 @@
+{
+  "id": "CLSA-2026-1779184141",
+  "summary": "expat: Fix of CVE-2026-45186",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "expat",
+        "purl": "pkg:rpm/tuxcare/expat?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.5.0-1.el8.tuxcare.els4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "expat-devel",
+        "purl": "pkg:rpm/tuxcare/expat-devel?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.5.0-1.el8.tuxcare.els4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "expat-static",
+        "purl": "pkg:rpm/tuxcare/expat-static?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.5.0-1.el8.tuxcare.els4"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-45186"
+  ],
+  "published": "2026-05-19T09:49:05Z",
+  "modified": "2026-05-19T09:49:05Z",
+  "details": "- CVE-2026-45186: fix quadratic complexity in attribute name collision check",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/centos8.5els/CLSA-2026-1779184141.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

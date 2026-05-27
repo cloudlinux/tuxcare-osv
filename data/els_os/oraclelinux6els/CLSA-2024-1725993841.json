@@ -1,0 +1,59 @@
+{
+  "id": "CLSA-2024-1725993841",
+  "summary": "expat: Fix of 2 CVEs",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:6",
+        "name": "expat",
+        "purl": "pkg:rpm/tuxcare/expat?distro=oraclelinux-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.0.1-13.el6_8.tuxcare.els5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:6",
+        "name": "expat-devel",
+        "purl": "pkg:rpm/tuxcare/expat-devel?distro=oraclelinux-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.0.1-13.el6_8.tuxcare.els5"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2024-45491",
+    "CVE-2024-45492"
+  ],
+  "published": "2024-09-10T18:44:04Z",
+  "modified": "2024-09-10T18:44:04Z",
+  "details": "- CVE-2024-45491: Detect integer overflow in dtdCopy on 32-bit platforms\n- CVE-2024-45492: Detect integer overflow in nextScaffoldPart on 32-bit platforms",
+  "references": [
+    {
+      "url": "https://errata.cloudlinux.com/ol6/CLSA-2024-1725993841.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

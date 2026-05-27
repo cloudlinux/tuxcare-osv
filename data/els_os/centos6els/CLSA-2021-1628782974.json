@@ -1,0 +1,40 @@
+{
+  "id": "CLSA-2021-1628782974",
+  "summary": "Fix of CVE: CVE-2020-8450, CVE-2020-8517, CVE-2020-8449",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:6",
+        "name": "squid",
+        "purl": "pkg:rpm/tuxcare/squid?distro=centos-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7:3.1.23-29.el6.cloudlinux.els"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2020-8450",
+    "CVE-2020-8517",
+    "CVE-2020-8449"
+  ],
+  "published": "2021-08-12T15:42:54Z",
+  "modified": "2021-08-12T15:42:54Z",
+  "details": "- CVE-2020-8449: fix improper HTTP request validation allowing access to \n  resources which are prohibited by security filters\n- CVE-2020-8450: fix incorrect buffer managment leading to buffer overflow\n- CVE-2020-8517: fix incorrect input validation allowing writing outside of buffer\n  and leading to denial of service",
+  "references": [
+    {
+      "url": "https://errata.cloudlinux.com/els6/CLSA-2021-1628782974.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

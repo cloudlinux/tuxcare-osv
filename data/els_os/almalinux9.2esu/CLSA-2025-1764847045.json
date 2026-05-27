@@ -1,0 +1,58 @@
+{
+  "id": "CLSA-2025-1764847045",
+  "summary": "jackson-annotations: Fix of CVE-2025-52999",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "pki-jackson-annotations",
+        "purl": "pkg:rpm/tuxcare/pki-jackson-annotations?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.14.1-1.el9.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "pki-jackson-annotations-javadoc",
+        "purl": "pkg:rpm/tuxcare/pki-jackson-annotations-javadoc?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.14.1-1.el9.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2025-52999"
+  ],
+  "published": "2025-12-04T11:17:29Z",
+  "modified": "2025-12-04T11:17:29Z",
+  "details": "- Rebuilt with the CVE-2025-52999: fixed jackson-core version\n- Fixed build: removed unavailable jackson-parent dependencies",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/almalinux9.2esu/CLSA-2025-1764847045.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

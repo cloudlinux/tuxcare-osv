@@ -1,0 +1,78 @@
+{
+  "id": "CLSA-2024-1718787931",
+  "summary": "libssh: Fix of CVE-2023-2283",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "libssh",
+        "purl": "pkg:rpm/tuxcare/libssh?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.10.4-8.el9.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "libssh-config",
+        "purl": "pkg:rpm/tuxcare/libssh-config?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.10.4-8.el9.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "libssh-devel",
+        "purl": "pkg:rpm/tuxcare/libssh-devel?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.10.4-8.el9.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2023-2283"
+  ],
+  "published": "2024-06-19T09:05:34Z",
+  "modified": "2024-06-19T09:05:34Z",
+  "details": "- CVE-2023-2283: src/pki_crypto.c: fix possible authentication bypass, remove\n  unneccessary null check; tests/client/torture_rekey.c: fix tests",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/almalinux9.2-esu/CLSA-2024-1718787931.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

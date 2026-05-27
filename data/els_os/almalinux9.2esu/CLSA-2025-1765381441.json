@@ -1,0 +1,78 @@
+{
+  "id": "CLSA-2025-1765381441",
+  "summary": "nghttp2: Fix of CVE-2024-28182",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "libnghttp2",
+        "purl": "pkg:rpm/tuxcare/libnghttp2?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.43.0-5.el9_2.1.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "libnghttp2-devel",
+        "purl": "pkg:rpm/tuxcare/libnghttp2-devel?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.43.0-5.el9_2.1.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "nghttp2",
+        "purl": "pkg:rpm/tuxcare/nghttp2?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.43.0-5.el9_2.1.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2024-28182"
+  ],
+  "published": "2025-12-10T15:44:05Z",
+  "modified": "2025-12-10T15:44:05Z",
+  "details": "- CVE-2024-28182: fix continuation frame floods via frame count limiting",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/almalinux9.2esu/CLSA-2025-1765381441.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

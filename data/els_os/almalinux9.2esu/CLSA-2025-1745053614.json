@@ -1,0 +1,179 @@
+{
+  "id": "CLSA-2025-1745053614",
+  "summary": "net-snmp: Fix of 2 CVEs",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "net-snmp",
+        "purl": "pkg:rpm/tuxcare/net-snmp?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:5.9.1-11.el9_2.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "net-snmp-agent-libs",
+        "purl": "pkg:rpm/tuxcare/net-snmp-agent-libs?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:5.9.1-11.el9_2.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "net-snmp-devel",
+        "purl": "pkg:rpm/tuxcare/net-snmp-devel?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:5.9.1-11.el9_2.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "net-snmp-gui",
+        "purl": "pkg:rpm/tuxcare/net-snmp-gui?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:5.9.1-11.el9_2.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "net-snmp-libs",
+        "purl": "pkg:rpm/tuxcare/net-snmp-libs?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:5.9.1-11.el9_2.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "net-snmp-perl",
+        "purl": "pkg:rpm/tuxcare/net-snmp-perl?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:5.9.1-11.el9_2.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "net-snmp-utils",
+        "purl": "pkg:rpm/tuxcare/net-snmp-utils?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:5.9.1-11.el9_2.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "python3-net-snmp",
+        "purl": "pkg:rpm/tuxcare/python3-net-snmp?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:5.9.1-11.el9_2.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2022-24805",
+    "CVE-2022-24810"
+  ],
+  "published": "2025-04-19T09:06:59Z",
+  "modified": "2025-04-19T09:06:59Z",
+  "details": "- CVE-2022-24805: fix buffer overflow issue in handling of the INDEX of NET-SNMP-VACM-\n  MIB that allows out-of-bounds memory access by user with read-only credentials\n- CVE-2022-24810: fix NULL pointer dereference caused by a user with read-write\n  credentials using a malformed OID in a SET to the nsVacmAccessTable",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/almalinux9.2-esu/CLSA-2025-1745053614.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

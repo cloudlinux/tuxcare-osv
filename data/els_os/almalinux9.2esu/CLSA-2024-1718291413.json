@@ -1,0 +1,103 @@
+{
+  "id": "CLSA-2024-1718291413",
+  "summary": "openssl: Fix of 6 CVEs",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "openssl",
+        "purl": "pkg:rpm/tuxcare/openssl?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:3.0.7-17.el9_2.tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "openssl-devel",
+        "purl": "pkg:rpm/tuxcare/openssl-devel?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:3.0.7-17.el9_2.tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "openssl-libs",
+        "purl": "pkg:rpm/tuxcare/openssl-libs?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:3.0.7-17.el9_2.tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "openssl-perl",
+        "purl": "pkg:rpm/tuxcare/openssl-perl?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:3.0.7-17.el9_2.tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2024-0727",
+    "CVE-2023-6129",
+    "CVE-2023-5678",
+    "CVE-2023-3817",
+    "CVE-2023-3446",
+    "CVE-2023-2975"
+  ],
+  "published": "2024-06-13T15:10:17Z",
+  "modified": "2024-06-13T15:10:17Z",
+  "details": "- CVE-2024-0727: Fix NULL pointer dereference in processing PKCS12 files,\n  preventing potential DoS attack\n- CVE-2023-6129: Fix POLY1305 MAC implementation bug that corrupts internal\n  state on PowerPC CPUs with vector instructions\n- CVE-2023-5678: Fix issue with excessively long X9.42 DH keys or parameters\n  causing long delays and potential DoS by adding checks in DH_generate_key()\n  and DH_check_pub_key() functions\n- CVE-2023-3817: Fix excessively long DH key or parameters check causing\n  potential Denial of Service by preventing unnecessary checks if q is larger\n  than p\n- CVE-2023-3446: Fix issue of excessively long DH keys or parameters causing\n  slow checks, leading to potential Denial of Service. Added additional checks\n  to prevent DoS vulnerability in DH_check(), DH_check_ex(), and\n  EVP_PKEY_param_check() functions\n- CVE-2023-2975: Fix issue with AES-SIV cipher ignoring empty associated data\n  entries by performing authentication operation for empty data during\n  EVP_EncryptUpdate()",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/almalinux9.2-esu/CLSA-2024-1718291413.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

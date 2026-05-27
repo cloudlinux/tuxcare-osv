@@ -1,0 +1,58 @@
+{
+  "id": "CLSA-2026-1776699147",
+  "summary": "binutils: Fix of CVE-2022-44840",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS-Stream:8",
+        "name": "binutils",
+        "purl": "pkg:rpm/tuxcare/binutils?distro=centos-stream-8"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.30-123.el8.tuxcare.els9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS-Stream:8",
+        "name": "binutils-devel",
+        "purl": "pkg:rpm/tuxcare/binutils-devel?distro=centos-stream-8"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.30-123.el8.tuxcare.els9"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2022-44840"
+  ],
+  "published": "2026-04-20T15:32:32Z",
+  "modified": "2026-04-20T15:32:32Z",
+  "details": "- CVE-2022-44840: fix pool section entries overflow for DWP version 1",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/centos-stream8els/CLSA-2026-1776699147.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

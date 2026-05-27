@@ -1,0 +1,118 @@
+{
+  "id": "CLSA-2026-1778882329",
+  "summary": "dovecot: Fix of CVE-2026-27857",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:7",
+        "name": "dovecot",
+        "purl": "pkg:rpm/tuxcare/dovecot?distro=oraclelinux-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:2.2.36-8.el7.tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:7",
+        "name": "dovecot-devel",
+        "purl": "pkg:rpm/tuxcare/dovecot-devel?distro=oraclelinux-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:2.2.36-8.el7.tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:7",
+        "name": "dovecot-mysql",
+        "purl": "pkg:rpm/tuxcare/dovecot-mysql?distro=oraclelinux-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:2.2.36-8.el7.tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:7",
+        "name": "dovecot-pgsql",
+        "purl": "pkg:rpm/tuxcare/dovecot-pgsql?distro=oraclelinux-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:2.2.36-8.el7.tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:7",
+        "name": "dovecot-pigeonhole",
+        "purl": "pkg:rpm/tuxcare/dovecot-pigeonhole?distro=oraclelinux-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:2.2.36-8.el7.tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-27857"
+  ],
+  "published": "2026-05-15T23:22:29Z",
+  "modified": "2026-05-15T23:22:29Z",
+  "details": "- CVE-2026-27857: improve fix by enforcing list_count_limit on '(' (open_list)\n  instead of ')' (close_list); the previous fix did not actually limit memory\n  growth from many '(' characters",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/oraclelinux7els/CLSA-2026-1778882329.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

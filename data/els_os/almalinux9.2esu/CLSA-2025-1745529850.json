@@ -1,0 +1,98 @@
+{
+  "id": "CLSA-2025-1745529850",
+  "summary": "libX11: Fix of CVE-2023-43786",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "libX11",
+        "purl": "pkg:rpm/tuxcare/libX11?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.7.0-7.el9_2.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "libX11-common",
+        "purl": "pkg:rpm/tuxcare/libX11-common?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.7.0-7.el9_2.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "libX11-devel",
+        "purl": "pkg:rpm/tuxcare/libX11-devel?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.7.0-7.el9_2.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "libX11-xcb",
+        "purl": "pkg:rpm/tuxcare/libX11-xcb?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.7.0-7.el9_2.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2023-43786"
+  ],
+  "published": "2025-04-24T21:24:17Z",
+  "modified": "2025-04-24T21:24:17Z",
+  "details": "- CVE-2023-43786: fix stack exhaustion from infinite recursion in PutSubImage()",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/almalinux9.2-esu/CLSA-2025-1745529850.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

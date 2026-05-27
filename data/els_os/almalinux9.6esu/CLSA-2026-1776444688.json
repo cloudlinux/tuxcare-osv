@@ -1,0 +1,160 @@
+{
+  "id": "CLSA-2026-1776444688",
+  "summary": "openssh: Fix of 3 CVEs",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "openssh",
+        "purl": "pkg:rpm/tuxcare/openssh?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8.7p1-45.el9.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "openssh-askpass",
+        "purl": "pkg:rpm/tuxcare/openssh-askpass?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8.7p1-45.el9.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "openssh-clients",
+        "purl": "pkg:rpm/tuxcare/openssh-clients?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8.7p1-45.el9.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "openssh-keycat",
+        "purl": "pkg:rpm/tuxcare/openssh-keycat?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8.7p1-45.el9.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "openssh-server",
+        "purl": "pkg:rpm/tuxcare/openssh-server?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8.7p1-45.el9.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "openssh-sk-dummy",
+        "purl": "pkg:rpm/tuxcare/openssh-sk-dummy?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8.7p1-45.el9.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "pam_ssh_agent_auth",
+        "purl": "pkg:rpm/tuxcare/pam_ssh_agent_auth?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.10.4-5.45.el9.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-35387",
+    "CVE-2026-35388",
+    "CVE-2026-35414"
+  ],
+  "published": "2026-04-17T17:24:01Z",
+  "modified": "2026-04-17T17:24:01Z",
+  "details": "- CVE-2026-35387: correctly match ECDSA signature algorithms against\n  HostKeyAlgorithms, PubkeyAcceptedAlgorithms and HostbasedAcceptedAlgorithms\n- CVE-2026-35388: add missing askpass check when using ControlMaster=ask/autoask\n  and \"ssh -O proxy ...\"\n- CVE-2026-35414: fix authorized_keys principals option matching to compare\n  comma-separated entries individually instead of using match_list",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/tuxcare9.6esu/CLSA-2026-1776444688.html",
+      "type": "ADVISORY"
+    }
+  ]
+}
