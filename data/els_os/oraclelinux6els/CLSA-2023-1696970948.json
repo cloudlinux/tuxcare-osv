@@ -1,0 +1,58 @@
+{
+  "id": "CLSA-2023-1696970948",
+  "summary": "binutils: Fix of CVE-2020-19726",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:6",
+        "name": "binutils",
+        "purl": "pkg:rpm/tuxcare/binutils?distro=oraclelinux-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:2.20.51.0.2-5.48.1.el6.tuxcare.els7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:6",
+        "name": "binutils-devel",
+        "purl": "pkg:rpm/tuxcare/binutils-devel?distro=oraclelinux-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:2.20.51.0.2-5.48.1.el6.tuxcare.els7"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2020-19726"
+  ],
+  "published": "2023-10-10T20:49:13Z",
+  "modified": "2023-10-10T20:49:13Z",
+  "details": "- CVE-2020-19726: Fix an illegal memory access in the BFD library which can be\n  triggered by attempting to parse a corrupt PE format file",
+  "references": [
+    {
+      "url": "https://errata.cloudlinux.com/ol6/CLSA-2023-1696970948.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

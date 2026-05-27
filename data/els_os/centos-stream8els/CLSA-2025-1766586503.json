@@ -1,0 +1,58 @@
+{
+  "id": "CLSA-2025-1766586503",
+  "summary": "binutils: Fix of CVE-2025-11083",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS-Stream:8",
+        "name": "binutils",
+        "purl": "pkg:rpm/tuxcare/binutils?distro=centos-stream-8"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.30-123.el8.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS-Stream:8",
+        "name": "binutils-devel",
+        "purl": "pkg:rpm/tuxcare/binutils-devel?distro=centos-stream-8"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.30-123.el8.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2025-11083"
+  ],
+  "published": "2025-12-24T14:28:27Z",
+  "modified": "2025-12-24T14:28:27Z",
+  "details": "- CVE-2025-11083: fix corrupt ELF section header handling",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/centos-stream8els/CLSA-2025-1766586503.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

@@ -1,0 +1,160 @@
+{
+  "id": "CLSA-2026-1777940906",
+  "summary": "python2: Fix of 3 CVEs",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS-Stream:8",
+        "name": "python2",
+        "purl": "pkg:rpm/tuxcare/python2?distro=centos-stream-8"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.7.18-17.module_el8+2390+a1827c35.tuxcare.els9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS-Stream:8",
+        "name": "python2-debug",
+        "purl": "pkg:rpm/tuxcare/python2-debug?distro=centos-stream-8"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.7.18-17.module_el8+2390+a1827c35.tuxcare.els9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS-Stream:8",
+        "name": "python2-devel",
+        "purl": "pkg:rpm/tuxcare/python2-devel?distro=centos-stream-8"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.7.18-17.module_el8+2390+a1827c35.tuxcare.els9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS-Stream:8",
+        "name": "python2-libs",
+        "purl": "pkg:rpm/tuxcare/python2-libs?distro=centos-stream-8"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.7.18-17.module_el8+2390+a1827c35.tuxcare.els9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS-Stream:8",
+        "name": "python2-test",
+        "purl": "pkg:rpm/tuxcare/python2-test?distro=centos-stream-8"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.7.18-17.module_el8+2390+a1827c35.tuxcare.els9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS-Stream:8",
+        "name": "python2-tkinter",
+        "purl": "pkg:rpm/tuxcare/python2-tkinter?distro=centos-stream-8"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.7.18-17.module_el8+2390+a1827c35.tuxcare.els9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS-Stream:8",
+        "name": "python2-tools",
+        "purl": "pkg:rpm/tuxcare/python2-tools?distro=centos-stream-8"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.7.18-17.module_el8+2390+a1827c35.tuxcare.els9"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2025-8194",
+    "CVE-2026-4519",
+    "CVE-2026-4786"
+  ],
+  "published": "2026-05-05T00:28:34Z",
+  "modified": "2026-05-05T00:28:34Z",
+  "details": "- CVE-2025-8194: validate that tarfile member offsets are non-negative to\n  prevent infinite loop / DoS during parsing of malicious tar archives\n- CVE-2026-4519: reject URLs with leading dashes in webbrowser.open() to\n  prevent injection of command-line options into spawned browser process\n- CVE-2026-4786: fix bypass of CVE-2026-4519 check via %action substitution\n  in UnixBrowser.open() that allowed dash-prefixed URLs through",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/centos-stream8els/CLSA-2026-1777940906.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

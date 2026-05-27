@@ -1,0 +1,38 @@
+{
+  "id": "CLSA-2025-1764688338",
+  "summary": "gstreamer1-plugins-good: Fix of CVE-2024-47537",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:7",
+        "name": "gstreamer1-plugins-good",
+        "purl": "pkg:rpm/tuxcare/gstreamer1-plugins-good?distro=oraclelinux-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.10.4-2.el7.tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2024-47537"
+  ],
+  "published": "2025-12-02T15:12:22Z",
+  "modified": "2025-12-02T15:12:22Z",
+  "details": "- CVE-2024-47537: qtdemux: fix integer overflow when allocating the\n  samples table for fragmented MP4",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/oraclelinux7els/CLSA-2025-1764688338.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "id": "CLSA-2021-1629902677",
+  "summary": "Fix of CVE: CVE-2020-14058, CVE-2020-15049",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:6",
+        "name": "squid",
+        "purl": "pkg:rpm/tuxcare/squid?distro=centos-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7:3.1.23-30.el6.cloudlinux.els"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2020-14058",
+    "CVE-2020-15049"
+  ],
+  "published": "2021-08-25T14:44:37Z",
+  "modified": "2021-08-25T14:44:37Z",
+  "details": "- CVE-2020-14058: fix handling of unknown SSL errors which resulted in denial of\n  service\n- CVE-2020-15049: fix incorrect validation of Content-Length field leading to\n  Http smuggling and Poisoning attack",
+  "references": [
+    {
+      "url": "https://errata.cloudlinux.com/els6/CLSA-2021-1629902677.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

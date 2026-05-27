@@ -1,0 +1,58 @@
+{
+  "id": "CLSA-2025-1742232795",
+  "summary": "binutils: Fix of CVE-2025-0840",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:6",
+        "name": "binutils",
+        "purl": "pkg:rpm/tuxcare/binutils?distro=centos-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:2.20.51.0.2-5.48.1.el6.tuxcare.els8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:6",
+        "name": "binutils-devel",
+        "purl": "pkg:rpm/tuxcare/binutils-devel?distro=centos-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:2.20.51.0.2-5.48.1.el6.tuxcare.els8"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2025-0840"
+  ],
+  "published": "2025-03-17T17:33:21Z",
+  "modified": "2025-03-17T17:33:21Z",
+  "details": "- CVE-2025-0840: fix stack-buffer-overflow at objdump disassemble_bytes",
+  "references": [
+    {
+      "url": "https://errata.cloudlinux.com/els6/CLSA-2025-1742232795.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "id": "CLSA-2022-1653004535",
+  "summary": "Fixed CVE-2018-25032 in rsync",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:6",
+        "name": "rsync",
+        "purl": "pkg:rpm/tuxcare/rsync?distro=centos-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.0.6-12.el6.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2018-25032"
+  ],
+  "published": "2022-05-19T23:55:35Z",
+  "modified": "2022-05-19T23:55:35Z",
+  "details": "- CVE-2018-25032: Fix memory corruption when deflating if the input\n  has many distant matches",
+  "references": [
+    {
+      "url": "https://errata.cloudlinux.com/els6/CLSA-2022-1653004535.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "id": "CLSA-2025-1755006018",
+  "summary": "iperf3: Fix of CVE-2023-7250",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "iperf3",
+        "purl": "pkg:rpm/tuxcare/iperf3?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.9-10.el9.alma.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "iperf3-devel",
+        "purl": "pkg:rpm/tuxcare/iperf3-devel?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.9-10.el9.alma.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2023-7250"
+  ],
+  "published": "2025-08-12T13:40:22Z",
+  "modified": "2025-08-12T13:40:22Z",
+  "details": "- CVE-2023-7250: fix flaw to prevent denial of service caused by malicious or\n  malfunctioning client sending incomplete data to server",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/almalinux9.2esu/CLSA-2025-1755006018.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "id": "CLSA-2025-1751913256",
+  "summary": "rsync: Fix of CVE-2024-12087",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:6",
+        "name": "rsync",
+        "purl": "pkg:rpm/tuxcare/rsync?distro=oraclelinux-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.0.6-12.el6.tuxcare.els6"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2024-12087"
+  ],
+  "published": "2025-07-07T18:34:20Z",
+  "modified": "2025-07-07T18:34:20Z",
+  "details": "- CVE-2024-12087: fix path traversal vulnerability by adding a proper symlink\n  verification and deduplication checks on a per-file-list basis",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/oraclelinux6els/CLSA-2025-1751913256.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

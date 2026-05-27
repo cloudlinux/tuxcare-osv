@@ -1,0 +1,59 @@
+{
+  "id": "CLSA-2025-1749570465",
+  "summary": "pam: Fix of 2 CVEs",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:RHEL:7",
+        "name": "pam",
+        "purl": "pkg:rpm/tuxcare/pam?distro=rhel-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.1.8-23.0.1.el7.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:RHEL:7",
+        "name": "pam-devel",
+        "purl": "pkg:rpm/tuxcare/pam-devel?distro=rhel-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.1.8-23.0.1.el7.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2024-10041",
+    "CVE-2024-22365"
+  ],
+  "published": "2025-06-10T15:47:50Z",
+  "modified": "2025-06-10T15:47:50Z",
+  "details": "- CVE-2024-10041: fix possibility of leakage of secret information\n  stored in memory\n- CVE-2024-22365: fix potential DoS via mkfifo because the openat\n  call lacks O_DIRECTORY",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/rhel7els/CLSA-2025-1749570465.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

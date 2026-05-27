@@ -1,0 +1,38 @@
+{
+  "id": "CLSA-2025-1764325574",
+  "summary": "gstreamer1-plugins-good: Fix of CVE-2024-47606",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:7",
+        "name": "gstreamer1-plugins-good",
+        "purl": "pkg:rpm/tuxcare/gstreamer1-plugins-good?distro=oraclelinux-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.10.4-2.el7.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2024-47606"
+  ],
+  "published": "2025-11-28T10:26:17Z",
+  "modified": "2025-11-28T10:26:17Z",
+  "details": "- CVE-2024-47606: qtdemux: avoid integer overflow when parsing Theora\n  extension\n- Fix documentation build with the newer gtk-doc",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/oraclelinux7els/CLSA-2025-1764325574.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

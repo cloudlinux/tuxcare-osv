@@ -1,0 +1,98 @@
+{
+  "id": "CLSA-2026-1774519941",
+  "summary": "webkit2gtk3: Fix of CVE-2025-43441",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "webkit2gtk3",
+        "purl": "pkg:rpm/tuxcare/webkit2gtk3?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.50.1-1.el9.tuxcare.els6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "webkit2gtk3-devel",
+        "purl": "pkg:rpm/tuxcare/webkit2gtk3-devel?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.50.1-1.el9.tuxcare.els6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "webkit2gtk3-jsc",
+        "purl": "pkg:rpm/tuxcare/webkit2gtk3-jsc?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.50.1-1.el9.tuxcare.els6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "webkit2gtk3-jsc-devel",
+        "purl": "pkg:rpm/tuxcare/webkit2gtk3-jsc-devel?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.50.1-1.el9.tuxcare.els6"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2025-43441"
+  ],
+  "published": "2026-03-26T10:12:25Z",
+  "modified": "2026-03-26T10:12:25Z",
+  "details": "- CVE-2025-43441: fix macro scratch register spilling in OMG tail calls\n  to prevent memory corruption via crafted web content",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/almalinux9.2esu/CLSA-2026-1774519941.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

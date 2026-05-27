@@ -1,0 +1,78 @@
+{
+  "id": "CLSA-2026-1779290839",
+  "summary": "giflib: Fix of CVE-2026-26740",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "giflib",
+        "purl": "pkg:rpm/tuxcare/giflib?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.2.1-9.el9.tuxcare.els4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "giflib-devel",
+        "purl": "pkg:rpm/tuxcare/giflib-devel?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.2.1-9.el9.tuxcare.els4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "giflib-utils",
+        "purl": "pkg:rpm/tuxcare/giflib-utils?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.2.1-9.el9.tuxcare.els4"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-26740"
+  ],
+  "published": "2026-05-20T15:27:23Z",
+  "modified": "2026-05-20T15:27:23Z",
+  "details": "- CVE-2026-26740: fix heap OOB write when rewriting truncated GCE in EGifGCBToSavedExtension",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/almalinux9.2esu/CLSA-2026-1779290839.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

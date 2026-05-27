@@ -1,0 +1,60 @@
+{
+  "id": "CLSA-2026-1777051205",
+  "summary": "zsh: Fix of 3 CVEs",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:6",
+        "name": "zsh",
+        "purl": "pkg:rpm/tuxcare/zsh?distro=centos-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.3.11-11.el6_10.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:6",
+        "name": "zsh-html",
+        "purl": "pkg:rpm/tuxcare/zsh-html?distro=centos-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.3.11-11.el6_10.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2018-1071",
+    "CVE-2018-7549",
+    "CVE-2018-13259"
+  ],
+  "published": "2026-04-25T08:49:27Z",
+  "modified": "2026-04-25T08:49:27Z",
+  "details": "- CVE-2018-1071: check bounds when copying path in hashcmd()\n- CVE-2018-7549: avoid crash copying empty hash table\n- CVE-2018-13259: fix shebang line truncation in zexecve()",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/centos6els/CLSA-2026-1777051205.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "id": "CLSA-2025-1755271152",
+  "summary": "dmidecode: Fix of CVE-2023-30630",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:6",
+        "name": "dmidecode",
+        "purl": "pkg:rpm/tuxcare/dmidecode?distro=oraclelinux-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:2.12-7.el6.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2023-30630"
+  ],
+  "published": "2025-08-15T15:19:16Z",
+  "modified": "2025-08-15T15:19:16Z",
+  "details": "- CVE-2023-30630: prevent --dump-bin from overwriting local files to\n  address privilege escalation vulnerability",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/oraclelinux6els/CLSA-2025-1755271152.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

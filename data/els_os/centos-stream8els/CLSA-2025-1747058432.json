@@ -1,0 +1,78 @@
+{
+  "id": "CLSA-2025-1747058432",
+  "summary": "libtasn1: Fix of CVE-2024-12133",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS-Stream:8",
+        "name": "libtasn1",
+        "purl": "pkg:rpm/tuxcare/libtasn1?distro=centos-stream-8"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.13-4.el8.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS-Stream:8",
+        "name": "libtasn1-devel",
+        "purl": "pkg:rpm/tuxcare/libtasn1-devel?distro=centos-stream-8"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.13-4.el8.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS-Stream:8",
+        "name": "libtasn1-tools",
+        "purl": "pkg:rpm/tuxcare/libtasn1-tools?distro=centos-stream-8"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.13-4.el8.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2024-12133"
+  ],
+  "published": "2025-05-12T14:00:37Z",
+  "modified": "2025-05-12T14:00:37Z",
+  "details": "- Fix CVE-2024-12133: improve handling of specific certificate data",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/centos8stream-els/CLSA-2025-1747058432.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

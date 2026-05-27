@@ -1,0 +1,98 @@
+{
+  "id": "CLSA-2024-1722003515",
+  "summary": "openldap: Fix of CVE-2023-2953",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS-Stream:8",
+        "name": "openldap",
+        "purl": "pkg:rpm/tuxcare/openldap?distro=centos-stream-8"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.4.46-18.el8.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS-Stream:8",
+        "name": "openldap-clients",
+        "purl": "pkg:rpm/tuxcare/openldap-clients?distro=centos-stream-8"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.4.46-18.el8.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS-Stream:8",
+        "name": "openldap-devel",
+        "purl": "pkg:rpm/tuxcare/openldap-devel?distro=centos-stream-8"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.4.46-18.el8.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS-Stream:8",
+        "name": "openldap-servers",
+        "purl": "pkg:rpm/tuxcare/openldap-servers?distro=centos-stream-8"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.4.46-18.el8.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2023-2953"
+  ],
+  "published": "2024-07-26T14:18:39Z",
+  "modified": "2024-07-26T14:18:39Z",
+  "details": "- CVE-2023-2953: added check for strdup failure, to avoid null pointer dereference",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/centos8stream-els/CLSA-2024-1722003515.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

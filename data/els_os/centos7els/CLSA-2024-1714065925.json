@@ -1,0 +1,38 @@
+{
+  "id": "CLSA-2024-1714065925",
+  "summary": "less: Fix of CVE-2022-48624",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:7",
+        "name": "less",
+        "purl": "pkg:rpm/tuxcare/less?distro=centos-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "458-9.el7.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2022-48624"
+  ],
+  "published": "2024-04-25T17:25:27Z",
+  "modified": "2024-04-25T17:25:27Z",
+  "details": "- Fix CVE-2022-48624: filename.c (close_altfile): before 606 omits shell_quote\n  calls for LESSCLOSE.",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/centos7-els/CLSA-2024-1714065925.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

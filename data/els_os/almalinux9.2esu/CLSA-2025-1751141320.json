@@ -1,0 +1,78 @@
+{
+  "id": "CLSA-2025-1751141320",
+  "summary": "gstreamer1-plugins-good: Fix of CVE-2024-47613",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "gstreamer1-plugins-good",
+        "purl": "pkg:rpm/tuxcare/gstreamer1-plugins-good?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.18.4-6.el9.tuxcare.els16"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "gstreamer1-plugins-good-gtk",
+        "purl": "pkg:rpm/tuxcare/gstreamer1-plugins-good-gtk?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.18.4-6.el9.tuxcare.els16"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "gstreamer1-plugins-good-qt",
+        "purl": "pkg:rpm/tuxcare/gstreamer1-plugins-good-qt?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.18.4-6.el9.tuxcare.els16"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2024-47613"
+  ],
+  "published": "2025-06-28T20:08:46Z",
+  "modified": "2025-06-28T20:08:46Z",
+  "details": "- CVE-2024-47613: fix integer overflow in available data check\n  for image tags",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/almalinux9.2esu/CLSA-2025-1751141320.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

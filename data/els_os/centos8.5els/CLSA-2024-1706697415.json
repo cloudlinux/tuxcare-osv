@@ -1,0 +1,38 @@
+{
+  "id": "CLSA-2024-1706697415",
+  "summary": "squid: Fix of CVE-2023-50269",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "squid",
+        "purl": "pkg:rpm/tuxcare/squid?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7:4.15-1.module_el8.5.0+2164+24c223d9.tuxcare.els8"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2023-50269"
+  ],
+  "published": "2024-01-31T10:36:58Z",
+  "modified": "2024-01-31T10:36:58Z",
+  "details": "- CVE-2023-50269: Limit the number of allowed X-Forwarded-For hops to prevent DoS",
+  "references": [
+    {
+      "url": "https://errata.cloudlinux.com/centos8.5-els/CLSA-2024-1706697415.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

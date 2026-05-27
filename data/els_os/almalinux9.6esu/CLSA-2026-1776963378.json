@@ -1,0 +1,145 @@
+{
+  "id": "CLSA-2026-1776963378",
+  "summary": "binutils: Fix of 8 CVEs",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "binutils",
+        "purl": "pkg:rpm/tuxcare/binutils?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.35.2-63.el9.tuxcare.els9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "binutils-devel",
+        "purl": "pkg:rpm/tuxcare/binutils-devel?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.35.2-63.el9.tuxcare.els9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "binutils-gold",
+        "purl": "pkg:rpm/tuxcare/binutils-gold?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.35.2-63.el9.tuxcare.els9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "cross-binutils-aarch64",
+        "purl": "pkg:rpm/tuxcare/cross-binutils-aarch64?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.35.2-63.el9.tuxcare.els9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "cross-binutils-ppc64le",
+        "purl": "pkg:rpm/tuxcare/cross-binutils-ppc64le?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.35.2-63.el9.tuxcare.els9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "cross-binutils-s390x",
+        "purl": "pkg:rpm/tuxcare/cross-binutils-s390x?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.35.2-63.el9.tuxcare.els9"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2022-47007",
+    "CVE-2022-47008",
+    "CVE-2022-47011",
+    "CVE-2022-47010",
+    "CVE-2022-48063",
+    "CVE-2022-48064",
+    "CVE-2022-48065",
+    "CVE-2022-38533"
+  ],
+  "published": "2026-04-23T16:56:23Z",
+  "modified": "2026-04-23T16:56:23Z",
+  "details": "- CVE-2022-47007: fix memory leak in stab_demangle_v3_arg\n- CVE-2022-47008: fix memory leak in make_tempdir and make_tempname\n- CVE-2022-47011: fix memory leak in parse_stab_struct_fields\n- CVE-2022-47010: fix memory leak in pr_function_type\n- CVE-2022-48063: fix excessive memory allocation in load_specific_debug_section for corrupt ELF\n- CVE-2022-48064: fix SHT_NOBITS section size sanity check in find_debug_info\n- CVE-2022-48065: fix memory leak in find_abstract_instance on duplicate DW_AT_decl_file\n- CVE-2022-38533: fix rewrite_elf_program_header looping on crafted file (strip/objcopy)",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/tuxcare9.6esu/CLSA-2026-1776963378.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

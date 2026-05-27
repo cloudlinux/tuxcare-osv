@@ -1,0 +1,62 @@
+{
+  "id": "CLSA-2026-1779455055",
+  "summary": "dnsmasq: Fix of 5 CVEs",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "dnsmasq",
+        "purl": "pkg:rpm/tuxcare/dnsmasq?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.85-6.el9_2.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "dnsmasq-utils",
+        "purl": "pkg:rpm/tuxcare/dnsmasq-utils?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.85-6.el9_2.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-2291",
+    "CVE-2026-4890",
+    "CVE-2026-4891",
+    "CVE-2026-4892",
+    "CVE-2026-4893"
+  ],
+  "published": "2026-05-22T13:04:19Z",
+  "modified": "2026-05-22T13:04:19Z",
+  "details": "- CVE-2026-2291: heap OOB write via undersized union bigname buffer\n- CVE-2026-4890: dnssec NSEC bitmap parsing infinite loop\n- CVE-2026-4891: dnssec missing rdlen validation in RRSIG records\n- CVE-2026-4892: helper buffer overflow with large DHCPv6 CLIDs\n- CVE-2026-4893: broken client subnet validation in process_reply",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/almalinux9.2esu/CLSA-2026-1779455055.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

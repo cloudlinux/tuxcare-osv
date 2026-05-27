@@ -1,0 +1,61 @@
+{
+  "id": "CLSA-2025-1762420748",
+  "summary": "frr: Fix of 4 CVEs",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "frr",
+        "purl": "pkg:rpm/tuxcare/frr?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8.3.1-5.el9.2.alma.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "frr-selinux",
+        "purl": "pkg:rpm/tuxcare/frr-selinux?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8.3.1-5.el9.2.alma.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2023-41358",
+    "CVE-2023-47235",
+    "CVE-2023-46753",
+    "CVE-2023-47234"
+  ],
+  "published": "2025-11-06T09:19:11Z",
+  "modified": "2025-11-06T09:19:11Z",
+  "details": "- CVE-2023-41358: fix crash when processing NLRIs with zero\n  attribute length\n- CVE-2023-47235: fix EOR handling to avoid unwanted processing of\n  malformed attributes\n- CVE-2023-46753: fix mandatory attributes check for UPDATE messages\n  with unknown transit attributes\n- CVE-2023-47234: fix handling NLRIs when MP_UNREACH_NLRI received\n  without mandatory attributes",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/almalinux9.2esu/CLSA-2025-1762420748.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

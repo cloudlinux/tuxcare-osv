@@ -1,0 +1,99 @@
+{
+  "id": "CLSA-2026-1776350524",
+  "summary": "libtiff: Fix of 2 CVEs",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:7",
+        "name": "libtiff",
+        "purl": "pkg:rpm/tuxcare/libtiff?distro=centos-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.0.3-35.el7.tuxcare.els8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:7",
+        "name": "libtiff-devel",
+        "purl": "pkg:rpm/tuxcare/libtiff-devel?distro=centos-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.0.3-35.el7.tuxcare.els8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:7",
+        "name": "libtiff-static",
+        "purl": "pkg:rpm/tuxcare/libtiff-static?distro=centos-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.0.3-35.el7.tuxcare.els8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:7",
+        "name": "libtiff-tools",
+        "purl": "pkg:rpm/tuxcare/libtiff-tools?distro=centos-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.0.3-35.el7.tuxcare.els8"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2022-3970",
+    "CVE-2022-0891"
+  ],
+  "published": "2026-04-16T14:42:08Z",
+  "modified": "2026-04-16T14:42:08Z",
+  "details": "- CVE-2022-3970: fix integer overflow in TIFFReadRGBATileExt on strips/tiles > 2 GB\n- CVE-2022-0891: fix heap buffer overflow in extractImageSection in tiffcrop",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/centos7els/CLSA-2026-1776350524.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "id": "CLSA-2021-1611743864",
+  "summary": "Fix CVE-2021-3156: Heap-based buffer overflow in sudo",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:6",
+        "name": "sudo",
+        "purl": "pkg:rpm/tuxcare/sudo?distro=centos-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.8.6p3-30.el6.cloudlinux.els6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:6",
+        "name": "sudo-devel",
+        "purl": "pkg:rpm/tuxcare/sudo-devel?distro=centos-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.8.6p3-30.el6.cloudlinux.els6"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2021-3156"
+  ],
+  "published": "2021-01-27T12:30:00Z",
+  "modified": "2027-01-27T12:30:00Z",
+  "details": "Fix CVE-2021-3156: Heap-based buffer overflow in sudo.",
+  "references": [
+    {
+      "url": "https://errata.cloudlinux.com/els6/CLSA-2021-1611743864.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

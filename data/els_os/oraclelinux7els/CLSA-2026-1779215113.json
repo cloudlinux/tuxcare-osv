@@ -1,0 +1,58 @@
+{
+  "id": "CLSA-2026-1779215113",
+  "summary": "fribidi: Fix of CVE-2022-25308",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:7",
+        "name": "fribidi",
+        "purl": "pkg:rpm/tuxcare/fribidi?distro=oraclelinux-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.0.2-1.el7_7.1.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:7",
+        "name": "fribidi-devel",
+        "purl": "pkg:rpm/tuxcare/fribidi-devel?distro=oraclelinux-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.0.2-1.el7_7.1.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2022-25308"
+  ],
+  "published": "2026-05-19T18:25:17Z",
+  "modified": "2026-05-19T18:25:17Z",
+  "details": "- CVE-2022-25308: fix stack-based buffer overflow",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/oraclelinux7els/CLSA-2026-1779215113.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

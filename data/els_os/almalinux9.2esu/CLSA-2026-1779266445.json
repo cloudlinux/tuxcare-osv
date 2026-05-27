@@ -1,0 +1,141 @@
+{
+  "id": "CLSA-2026-1779266445",
+  "summary": "binutils: Fix of 4 CVEs",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "binutils",
+        "purl": "pkg:rpm/tuxcare/binutils?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.35.2-37.el9.tuxcare.els12"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "binutils-devel",
+        "purl": "pkg:rpm/tuxcare/binutils-devel?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.35.2-37.el9.tuxcare.els12"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "binutils-gold",
+        "purl": "pkg:rpm/tuxcare/binutils-gold?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.35.2-37.el9.tuxcare.els12"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "cross-binutils-aarch64",
+        "purl": "pkg:rpm/tuxcare/cross-binutils-aarch64?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.35.2-37.el9.tuxcare.els12"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "cross-binutils-ppc64le",
+        "purl": "pkg:rpm/tuxcare/cross-binutils-ppc64le?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.35.2-37.el9.tuxcare.els12"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "cross-binutils-s390x",
+        "purl": "pkg:rpm/tuxcare/cross-binutils-s390x?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.35.2-37.el9.tuxcare.els12"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-3441",
+    "CVE-2026-3442",
+    "CVE-2025-7545",
+    "CVE-2025-5245"
+  ],
+  "published": "2026-05-20T08:40:50Z",
+  "modified": "2026-05-20T08:40:50Z",
+  "details": "- CVE-2026-3441: XCOFF linker XTY_LD x_scnlen out-of-bounds read\n- CVE-2026-3442: XCOFF linker r_symndx out-of-bounds read in obj_xcoff_sym_hashes\n- CVE-2025-7545: objcopy heap buffer overflow on --interleave with crafted small input\n- CVE-2025-5245: objdump SEGV / NULL deref in debug_type_samep and debug_write_type",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/almalinux9.2esu/CLSA-2026-1779266445.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "id": "CLSA-2025-1751297888",
+  "summary": "Update of shim-signed",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:RHEL:7",
+        "name": "mokutil",
+        "purl": "pkg:rpm/tuxcare/mokutil?distro=rhel-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "15.8-2.el7.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:RHEL:7",
+        "name": "shim-ia32",
+        "purl": "pkg:rpm/tuxcare/shim-ia32?distro=rhel-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "15.8-2.el7.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:RHEL:7",
+        "name": "shim-x64",
+        "purl": "pkg:rpm/tuxcare/shim-x64?distro=rhel-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "15.8-2.el7.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [],
+  "published": "2026-05-20T16:41:02Z",
+  "modified": "2026-05-20T16:41:02Z",
+  "details": "- Make this package installable on a system having an either\n  Cloudlinux or RHEL7 signed kernel\n- SBAT variables are used now",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/rhel7els/CLSA-2025-1751297888.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

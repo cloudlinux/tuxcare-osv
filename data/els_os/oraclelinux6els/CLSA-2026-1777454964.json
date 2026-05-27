@@ -1,0 +1,139 @@
+{
+  "id": "CLSA-2026-1777454964",
+  "summary": "python: Fix of 2 CVEs",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:6",
+        "name": "python",
+        "purl": "pkg:rpm/tuxcare/python?distro=oraclelinux-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.6.6-70.el6.tuxcare.els20"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:6",
+        "name": "python-devel",
+        "purl": "pkg:rpm/tuxcare/python-devel?distro=oraclelinux-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.6.6-70.el6.tuxcare.els20"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:6",
+        "name": "python-libs",
+        "purl": "pkg:rpm/tuxcare/python-libs?distro=oraclelinux-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.6.6-70.el6.tuxcare.els20"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:6",
+        "name": "python-test",
+        "purl": "pkg:rpm/tuxcare/python-test?distro=oraclelinux-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.6.6-70.el6.tuxcare.els20"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:6",
+        "name": "python-tools",
+        "purl": "pkg:rpm/tuxcare/python-tools?distro=oraclelinux-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.6.6-70.el6.tuxcare.els20"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:6",
+        "name": "tkinter",
+        "purl": "pkg:rpm/tuxcare/tkinter?distro=oraclelinux-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.6.6-70.el6.tuxcare.els20"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-4519",
+    "CVE-2026-4786"
+  ],
+  "published": "2026-04-29T09:29:28Z",
+  "modified": "2026-04-29T09:29:28Z",
+  "details": "- CVE-2026-4519: reject webbrowser.open() URLs with a leading dash to prevent\n  CLI option injection into the spawned browser process\n- CVE-2026-4786: validate URLs after %action substitution and swap the\n  substitution order in UnixBrowser.open() to close a bypass of the\n  CVE-2026-4519 dash-prefix check",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/oraclelinux6els/CLSA-2026-1777454964.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

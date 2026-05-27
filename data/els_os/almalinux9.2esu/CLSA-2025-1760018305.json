@@ -1,0 +1,38 @@
+{
+  "id": "CLSA-2025-1760018305",
+  "summary": "jackson-databind: Fix of CVE-2020-36518",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "pki-jackson-databind",
+        "purl": "pkg:rpm/tuxcare/pki-jackson-databind?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.14.1-2.el9.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2020-36518"
+  ],
+  "published": "2026-04-17T13:08:46Z",
+  "modified": "2026-04-17T13:08:46Z",
+  "details": "- CVE-2020-36518: fix denial of service via a large depth of nested objects",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/almalinux9.2esu/CLSA-2025-1760018305.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

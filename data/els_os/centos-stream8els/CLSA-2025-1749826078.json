@@ -1,0 +1,58 @@
+{
+  "id": "CLSA-2025-1749826078",
+  "summary": "rsync: Fix of CVE-2016-9840",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS-Stream:8",
+        "name": "rsync",
+        "purl": "pkg:rpm/tuxcare/rsync?distro=centos-stream-8"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.1.3-19.el8.1.tuxcare.els5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS-Stream:8",
+        "name": "rsync-daemon",
+        "purl": "pkg:rpm/tuxcare/rsync-daemon?distro=centos-stream-8"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.1.3-19.el8.1.tuxcare.els5"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2016-9840"
+  ],
+  "published": "2025-06-13T14:48:03Z",
+  "modified": "2025-06-13T14:48:03Z",
+  "details": "- CVE-2016-9840: fix improper pointer arithmetic in bundled zlib",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/centos-stream8els/CLSA-2025-1749826078.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

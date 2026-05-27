@@ -1,0 +1,58 @@
+{
+  "id": "CLSA-2026-1777454474",
+  "summary": "plexus-utils: Fix of CVE-2025-67030",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "plexus-utils",
+        "purl": "pkg:rpm/tuxcare/plexus-utils?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.3.0-13.el9.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "plexus-utils-javadoc",
+        "purl": "pkg:rpm/tuxcare/plexus-utils-javadoc?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.3.0-13.el9.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2025-67030"
+  ],
+  "published": "2026-04-29T09:21:19Z",
+  "modified": "2026-04-29T09:21:19Z",
+  "details": "- CVE-2025-67030: fix Zip Slip / directory traversal in Expand.extractFile (canonical path check)",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/tuxcare9.6esu/CLSA-2026-1777454474.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

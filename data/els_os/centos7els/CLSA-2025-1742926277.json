@@ -1,0 +1,198 @@
+{
+  "id": "CLSA-2025-1742926277",
+  "summary": "openssh: Fix of CVE-2025-26465",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:7",
+        "name": "openssh",
+        "purl": "pkg:rpm/tuxcare/openssh?distro=centos-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7.4p1-23.0.3.el7_9.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:7",
+        "name": "openssh-askpass",
+        "purl": "pkg:rpm/tuxcare/openssh-askpass?distro=centos-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7.4p1-23.0.3.el7_9.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:7",
+        "name": "openssh-cavs",
+        "purl": "pkg:rpm/tuxcare/openssh-cavs?distro=centos-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7.4p1-23.0.3.el7_9.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:7",
+        "name": "openssh-clients",
+        "purl": "pkg:rpm/tuxcare/openssh-clients?distro=centos-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7.4p1-23.0.3.el7_9.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:7",
+        "name": "openssh-keycat",
+        "purl": "pkg:rpm/tuxcare/openssh-keycat?distro=centos-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7.4p1-23.0.3.el7_9.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:7",
+        "name": "openssh-ldap",
+        "purl": "pkg:rpm/tuxcare/openssh-ldap?distro=centos-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7.4p1-23.0.3.el7_9.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:7",
+        "name": "openssh-server",
+        "purl": "pkg:rpm/tuxcare/openssh-server?distro=centos-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7.4p1-23.0.3.el7_9.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:7",
+        "name": "openssh-server-sysvinit",
+        "purl": "pkg:rpm/tuxcare/openssh-server-sysvinit?distro=centos-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7.4p1-23.0.3.el7_9.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:7",
+        "name": "pam_ssh_agent_auth",
+        "purl": "pkg:rpm/tuxcare/pam_ssh_agent_auth?distro=centos-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.10.3-2.23.0.3.el7_9.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2025-26465"
+  ],
+  "published": "2025-03-25T18:11:22Z",
+  "modified": "2025-03-25T18:11:22Z",
+  "details": "- CVE-2025-26465: fix vulnerability in OpenSSH when the VerifyHostKeyDNS option is enabled\n- enlarge format buffer size for certificate serial number so the log message can record any 64-bit\n  integer without truncation (openssh bz#3012) [Orabug: 30448895]",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/centos7-els/CLSA-2025-1742926277.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

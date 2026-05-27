@@ -1,0 +1,78 @@
+{
+  "id": "CLSA-2026-1776697883",
+  "summary": "giflib: Fix of CVE-2023-39742",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "giflib",
+        "purl": "pkg:rpm/tuxcare/giflib?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.2.1-9.el9.tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "giflib-devel",
+        "purl": "pkg:rpm/tuxcare/giflib-devel?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.2.1-9.el9.tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "giflib-utils",
+        "purl": "pkg:rpm/tuxcare/giflib-utils?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.2.1-9.el9.tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2023-39742"
+  ],
+  "published": "2026-04-20T15:11:28Z",
+  "modified": "2026-04-20T15:11:28Z",
+  "details": "- CVE-2023-39742: fix segfault in getarg.c",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/tuxcare9.6esu/CLSA-2026-1776697883.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

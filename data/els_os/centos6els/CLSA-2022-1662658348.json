@@ -1,0 +1,38 @@
+{
+  "id": "CLSA-2022-1662658348",
+  "summary": "Fixed CVE-2022-29154 in rsync",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:6",
+        "name": "rsync",
+        "purl": "pkg:rpm/tuxcare/rsync?distro=centos-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.0.6-12.el6.tuxcare.els4"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2022-29154"
+  ],
+  "published": "2022-09-08T17:32:28Z",
+  "modified": "2022-09-08T17:32:28Z",
+  "details": "- CVE-2022-29154: fix arbitrary file write vulnerability via malicious rsync\n  server (MITM attack), refactoring\n- fix test-system components, enable 'daemon' and 'hardlinks' tests",
+  "references": [
+    {
+      "url": "https://errata.cloudlinux.com/els6/CLSA-2022-1662658348.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

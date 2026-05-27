@@ -1,0 +1,38 @@
+{
+  "id": "CLSA-2023-1700164647",
+  "summary": "squid: Fix of CVE-2023-46847",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:6",
+        "name": "squid",
+        "purl": "pkg:rpm/tuxcare/squid?distro=oraclelinux-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7:3.1.23-30.el6.tuxcare.els8"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2023-46847"
+  ],
+  "published": "2023-11-16T19:57:30Z",
+  "modified": "2023-11-16T19:57:30Z",
+  "details": "- CVE-2023-46847: Fix stack buffer overflow when parsing Digest Authorization",
+  "references": [
+    {
+      "url": "https://errata.cloudlinux.com/ol6/CLSA-2023-1700164647.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

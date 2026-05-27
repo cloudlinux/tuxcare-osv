@@ -1,0 +1,59 @@
+{
+  "id": "CLSA-2026-1778142360",
+  "summary": "jq: Fix of 2 CVEs",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "jq",
+        "purl": "pkg:rpm/tuxcare/jq?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.6-14.el9.tuxcare.els4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "jq-devel",
+        "purl": "pkg:rpm/tuxcare/jq-devel?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.6-14.el9.tuxcare.els4"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-33947",
+    "CVE-2026-33948"
+  ],
+  "published": "2026-05-07T08:26:07Z",
+  "modified": "2026-05-07T08:26:07Z",
+  "details": "- CVE-2026-33947: limit path depth in jv_setpath, jv_getpath, and jv_delpaths to prevent stack overflow from deep path arrays\n- CVE-2026-33948: remove strlen-based length calculation that truncated JSON input at embedded NUL bytes, preventing parser-differential attacks",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/almalinux9.2esu/CLSA-2026-1778142360.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

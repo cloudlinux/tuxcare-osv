@@ -1,0 +1,78 @@
+{
+  "id": "CLSA-2026-1777463367",
+  "summary": "curl: Fix of CVE-2023-27533",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:RHEL:7",
+        "name": "curl",
+        "purl": "pkg:rpm/tuxcare/curl?distro=rhel-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7.29.0-59.0.3.el7_9.2.tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:RHEL:7",
+        "name": "libcurl",
+        "purl": "pkg:rpm/tuxcare/libcurl?distro=rhel-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7.29.0-59.0.3.el7_9.2.tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:RHEL:7",
+        "name": "libcurl-devel",
+        "purl": "pkg:rpm/tuxcare/libcurl-devel?distro=rhel-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7.29.0-59.0.3.el7_9.2.tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2023-27533"
+  ],
+  "published": "2026-04-29T14:28:33Z",
+  "modified": "2026-04-29T14:28:33Z",
+  "details": "- CVE-2023-27533: telnet: only accept option arguments in ascii",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/rhel7els/CLSA-2026-1777463367.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

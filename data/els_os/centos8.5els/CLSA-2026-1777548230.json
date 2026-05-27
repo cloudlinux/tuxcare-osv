@@ -1,0 +1,158 @@
+{
+  "id": "CLSA-2026-1777548230",
+  "summary": "python2: Fix of CVE-2026-6100",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "python2",
+        "purl": "pkg:rpm/tuxcare/python2?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.7.18-7.module_el8.5.0+2386+c0bb17f5.tuxcare.els20"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "python2-debug",
+        "purl": "pkg:rpm/tuxcare/python2-debug?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.7.18-7.module_el8.5.0+2386+c0bb17f5.tuxcare.els20"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "python2-devel",
+        "purl": "pkg:rpm/tuxcare/python2-devel?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.7.18-7.module_el8.5.0+2386+c0bb17f5.tuxcare.els20"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "python2-libs",
+        "purl": "pkg:rpm/tuxcare/python2-libs?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.7.18-7.module_el8.5.0+2386+c0bb17f5.tuxcare.els20"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "python2-test",
+        "purl": "pkg:rpm/tuxcare/python2-test?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.7.18-7.module_el8.5.0+2386+c0bb17f5.tuxcare.els20"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "python2-tkinter",
+        "purl": "pkg:rpm/tuxcare/python2-tkinter?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.7.18-7.module_el8.5.0+2386+c0bb17f5.tuxcare.els20"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "python2-tools",
+        "purl": "pkg:rpm/tuxcare/python2-tools?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.7.18-7.module_el8.5.0+2386+c0bb17f5.tuxcare.els20"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-6100"
+  ],
+  "published": "2026-04-30T11:23:54Z",
+  "modified": "2026-04-30T11:23:54Z",
+  "details": "- CVE-2026-6100: defensively null bzs->next_in on the error path of\n  BZ2Decomp_decompress to align with upstream; the UAF window does\n  not exist in Python 2.7 (next_in is reassigned at function entry,\n  lzma/gzip are not C extensions)",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/centos8.5els/CLSA-2026-1777548230.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

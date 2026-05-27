@@ -1,0 +1,78 @@
+{
+  "id": "CLSA-2025-1751893277",
+  "summary": "jose: Fix of CVE-2023-50967",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "jose",
+        "purl": "pkg:rpm/tuxcare/jose?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "11-3.el9.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "libjose",
+        "purl": "pkg:rpm/tuxcare/libjose?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "11-3.el9.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "libjose-devel",
+        "purl": "pkg:rpm/tuxcare/libjose-devel?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "11-3.el9.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2023-50967"
+  ],
+  "published": "2025-07-07T13:01:21Z",
+  "modified": "2025-07-07T13:01:21Z",
+  "details": "- CVE-2023-50967: fix denial of service issue caused by large p2c value",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/almalinux9.2esu/CLSA-2025-1751893277.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

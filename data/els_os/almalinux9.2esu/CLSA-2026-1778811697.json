@@ -1,0 +1,38 @@
+{
+  "id": "CLSA-2026-1778811697",
+  "summary": "wget: Fix of CVE-2021-31879",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "wget",
+        "purl": "pkg:rpm/tuxcare/wget?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.21.1-7.el9.tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2021-31879"
+  ],
+  "published": "2026-05-15T08:32:08Z",
+  "modified": "2026-05-15T08:32:08Z",
+  "details": "- CVE-2021-31879: do not propagate Authorization/Cookie headers across HTTP 3xx redirects (openSUSE patch)",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/almalinux9.2esu/CLSA-2026-1778811697.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "id": "CLSA-2022-1650909007",
+  "summary": "Fixed CVE-2019-18276 in bash",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:6",
+        "name": "bash",
+        "purl": "pkg:rpm/tuxcare/bash?distro=oraclelinux-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.1.2-48.el6.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:6",
+        "name": "bash-doc",
+        "purl": "pkg:rpm/tuxcare/bash-doc?distro=oraclelinux-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.1.2-48.el6.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2019-18276"
+  ],
+  "published": "2022-04-25T17:50:07Z",
+  "modified": "2022-05-17T17:28:33Z",
+  "details": "- CVE-2019-18276: Fix priviledge dropping when running with effective\n  UID not equal to real UID",
+  "references": [
+    {
+      "url": "https://errata.cloudlinux.com/ol6/CLSA-2022-1650909007.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

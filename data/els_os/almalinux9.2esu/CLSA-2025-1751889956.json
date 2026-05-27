@@ -1,0 +1,38 @@
+{
+  "id": "CLSA-2025-1751889956",
+  "summary": "grafana: Fix of CVE-2022-39306",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "grafana",
+        "purl": "pkg:rpm/tuxcare/grafana?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "9.0.9-4.el9_2.alma.1.tuxcare.els6"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2022-39306"
+  ],
+  "published": "2025-07-07T12:06:01Z",
+  "modified": "2025-07-07T12:06:01Z",
+  "details": "- CVE-2022-39306: fix privilege escalation vulnerability caused by improper input\n  validation",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/almalinux9.2esu/CLSA-2025-1751889956.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

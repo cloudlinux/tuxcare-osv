@@ -1,0 +1,38 @@
+{
+  "id": "CLSA-2025-1752749664",
+  "summary": "libreswan: Fix of CVE-2024-3652",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "libreswan",
+        "purl": "pkg:rpm/tuxcare/libreswan?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.9-4.el9_2.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2024-3652"
+  ],
+  "published": "2025-07-17T10:54:29Z",
+  "modified": "2025-07-17T10:54:29Z",
+  "details": "- CVE-2024-3652: fix assertion failure and crash caused by requesting AES-GMAC\n  without specifying esp= line",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/almalinux9.2esu/CLSA-2025-1752749664.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "id": "CLSA-2025-1756932191",
+  "summary": "buildah: Fix of CVE-2024-9407",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "buildah",
+        "purl": "pkg:rpm/tuxcare/buildah?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:1.35.4-1.el9_2.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "buildah-tests",
+        "purl": "pkg:rpm/tuxcare/buildah-tests?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:1.35.4-1.el9_2.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2024-9407"
+  ],
+  "published": "2025-09-03T20:43:15Z",
+  "modified": "2025-09-03T20:43:15Z",
+  "details": "- CVE-2024-9407: validate input for bind-propagation option in Dockerfile RUN\n  --mount instruction to prevent arbitrary parameter passing and potential file\n  modification",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/almalinux9.2esu/CLSA-2025-1756932191.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

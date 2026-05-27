@@ -1,0 +1,56 @@
+{
+  "id": "CLSA-2022-1667495103",
+  "summary": "Update of tzdata",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.4",
+        "name": "tzdata",
+        "purl": "pkg:rpm/tuxcare/tzdata?distro=centos-8.4"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2022c-1.el8.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.4",
+        "name": "tzdata-java",
+        "purl": "pkg:rpm/tuxcare/tzdata-java?distro=centos-8.4"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2022c-1.el8.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [],
+  "published": "2022-11-03T17:05:03Z",
+  "modified": "2022-11-03T17:05:03Z",
+  "details": "- Upgrade to tzdata-2022c\n  - Add a work-around for an awk bug in FreeBSD, macOS, etc\n  - Improve tzselect with respect to intercontinental Zones\n  - Chile transitions to DST on 2022-09-11, not 2022-09-04\n  - 'make install' now defaults LOCALTIME to Factory rather than GMT\n  - More zones that are the same since 1970 have been moved to backzone",
+  "references": [
+    {
+      "url": "https://errata.cloudlinux.com/centos8.4-els/CLSA-2022-1667495103.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

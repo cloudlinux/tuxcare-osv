@@ -1,0 +1,79 @@
+{
+  "id": "CLSA-2026-1778129164",
+  "summary": "nghttp2: Fix of 2 CVEs",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "libnghttp2",
+        "purl": "pkg:rpm/tuxcare/libnghttp2?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.43.0-5.el9_2.1.tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "libnghttp2-devel",
+        "purl": "pkg:rpm/tuxcare/libnghttp2-devel?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.43.0-5.el9_2.1.tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "nghttp2",
+        "purl": "pkg:rpm/tuxcare/nghttp2?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.43.0-5.el9_2.1.tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2023-35945",
+    "CVE-2026-27135"
+  ],
+  "published": "2026-05-07T04:46:09Z",
+  "modified": "2026-05-07T04:46:09Z",
+  "details": "- CVE-2023-35945: fix memory leak on RST_STREAM followed by GOAWAY\n- CVE-2026-27135: fix iframe state validation to prevent assertion failure",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/almalinux9.2esu/CLSA-2026-1778129164.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

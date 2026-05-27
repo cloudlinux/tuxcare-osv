@@ -1,0 +1,38 @@
+{
+  "id": "CLSA-2024-1733142094",
+  "summary": "squid: Fix of CVE-2024-23638",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "squid",
+        "purl": "pkg:rpm/tuxcare/squid?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7:4.15-1.module_el8.5.0+2238+84d1ef7b.tuxcare.els13"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2024-23638"
+  ],
+  "published": "2024-12-02T12:21:40Z",
+  "modified": "2024-12-02T12:21:40Z",
+  "details": "- CVE-2024-23638: Do not update StoreEntry expiration after errorAppendEntry()",
+  "references": [
+    {
+      "url": "https://errata.cloudlinux.com/centos8.5-els/CLSA-2024-1733142094.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

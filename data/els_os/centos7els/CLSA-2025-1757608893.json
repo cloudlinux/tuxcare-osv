@@ -1,0 +1,58 @@
+{
+  "id": "CLSA-2025-1757608893",
+  "summary": "c-ares: Fix of CVE-2016-5180",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:7",
+        "name": "c-ares",
+        "purl": "pkg:rpm/tuxcare/c-ares?distro=centos-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.10.0-3.el7_9.1.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:7",
+        "name": "c-ares-devel",
+        "purl": "pkg:rpm/tuxcare/c-ares-devel?distro=centos-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.10.0-3.el7_9.1.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2016-5180"
+  ],
+  "published": "2025-09-11T16:41:36Z",
+  "modified": "2025-09-11T16:41:36Z",
+  "details": "- CVE-2016-5180: fix heap-based buffer overflow in the ares_create_query\n  causing DoS",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/centos7els/CLSA-2025-1757608893.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

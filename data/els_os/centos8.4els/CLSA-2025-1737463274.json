@@ -1,0 +1,59 @@
+{
+  "id": "CLSA-2025-1737463274",
+  "summary": "rsync: Fix of 2 CVEs",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.4",
+        "name": "rsync",
+        "purl": "pkg:rpm/tuxcare/rsync?distro=centos-8.4"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.1.3-12.el8.tuxcare.els5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.4",
+        "name": "rsync-daemon",
+        "purl": "pkg:rpm/tuxcare/rsync-daemon?distro=centos-8.4"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.1.3-12.el8.tuxcare.els5"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2024-12088",
+    "CVE-2024-12085"
+  ],
+  "published": "2025-01-21T14:34:07Z",
+  "modified": "2025-01-21T14:34:07Z",
+  "details": "- CVE-2024-12088: fix path traversal vulnerability by properly verifying\n  symbolic link destinations\n- CVE-2024-12085: fix issue with checksum length manipulation leading to\n  uninitialized memory leak",
+  "references": [
+    {
+      "url": "https://errata.cloudlinux.com/centos8.4-els/CLSA-2025-1737463274.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

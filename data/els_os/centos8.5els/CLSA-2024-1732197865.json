@@ -1,0 +1,78 @@
+{
+  "id": "CLSA-2024-1732197865",
+  "summary": "expat: Fix of CVE-2024-50602",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "expat",
+        "purl": "pkg:rpm/tuxcare/expat?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.2.5-13.el8.tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "expat-devel",
+        "purl": "pkg:rpm/tuxcare/expat-devel?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.2.5-13.el8.tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "expat-static",
+        "purl": "pkg:rpm/tuxcare/expat-static?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.2.5-13.el8.tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2024-50602"
+  ],
+  "published": "2024-11-21T14:04:31Z",
+  "modified": "2024-11-21T14:04:31Z",
+  "details": "- CVE-2024-50602: Fix crash in XML_ResumeParser function by preventing\n  XML_StopParser from stopping/suspending unstarted parser",
+  "references": [
+    {
+      "url": "https://errata.cloudlinux.com/centos8.5-els/CLSA-2024-1732197865.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

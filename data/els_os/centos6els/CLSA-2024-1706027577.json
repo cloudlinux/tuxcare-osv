@@ -1,0 +1,38 @@
+{
+  "id": "CLSA-2024-1706027577",
+  "summary": "squid34: Fix of CVE-2023-50269",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:6",
+        "name": "squid34",
+        "purl": "pkg:rpm/tuxcare/squid34?distro=centos-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7:3.4.14-16.el6.tuxcare.els7"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2023-50269"
+  ],
+  "published": "2024-01-23T16:33:00Z",
+  "modified": "2024-01-23T16:33:00Z",
+  "details": "- CVE-2023-50269: Limit the number of allowed X-Forwarded-For hops to prevent DoS",
+  "references": [
+    {
+      "url": "https://errata.cloudlinux.com/els6/CLSA-2024-1706027577.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

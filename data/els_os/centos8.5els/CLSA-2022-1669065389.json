@@ -1,0 +1,179 @@
+{
+  "id": "CLSA-2022-1669065389",
+  "summary": "nginx: Fix of 2 CVEs",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "nginx",
+        "purl": "pkg:rpm/tuxcare/nginx?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:1.14.1-9.module_el8.5.0+2086+af250afe.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "nginx-all-modules",
+        "purl": "pkg:rpm/tuxcare/nginx-all-modules?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:1.14.1-9.module_el8.5.0+2086+af250afe.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "nginx-filesystem",
+        "purl": "pkg:rpm/tuxcare/nginx-filesystem?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:1.14.1-9.module_el8.5.0+2086+af250afe.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "nginx-mod-http-image-filter",
+        "purl": "pkg:rpm/tuxcare/nginx-mod-http-image-filter?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:1.14.1-9.module_el8.5.0+2086+af250afe.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "nginx-mod-http-perl",
+        "purl": "pkg:rpm/tuxcare/nginx-mod-http-perl?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:1.14.1-9.module_el8.5.0+2086+af250afe.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "nginx-mod-http-xslt-filter",
+        "purl": "pkg:rpm/tuxcare/nginx-mod-http-xslt-filter?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:1.14.1-9.module_el8.5.0+2086+af250afe.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "nginx-mod-mail",
+        "purl": "pkg:rpm/tuxcare/nginx-mod-mail?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:1.14.1-9.module_el8.5.0+2086+af250afe.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "nginx-mod-stream",
+        "purl": "pkg:rpm/tuxcare/nginx-mod-stream?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:1.14.1-9.module_el8.5.0+2086+af250afe.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2022-41741",
+    "CVE-2022-41742"
+  ],
+  "published": "2022-11-21T21:16:29Z",
+  "modified": "2022-11-21T21:16:29Z",
+  "details": "- CVE-2022-41741: fix memory corruption in the ngx_http_mp4_module\n- CVE-2022-41742: fix memory disclosure in the ngx_http_mp4_module",
+  "references": [
+    {
+      "url": "https://errata.cloudlinux.com/centos8.5-els/CLSA-2022-1669065389.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

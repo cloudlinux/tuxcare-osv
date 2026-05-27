@@ -1,0 +1,79 @@
+{
+  "id": "CLSA-2026-1778778961",
+  "summary": "curl: Fix of 2 CVEs",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:6",
+        "name": "curl",
+        "purl": "pkg:rpm/tuxcare/curl?distro=oraclelinux-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7.19.7-59.el6.tuxcare.els16"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:6",
+        "name": "libcurl",
+        "purl": "pkg:rpm/tuxcare/libcurl?distro=oraclelinux-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7.19.7-59.el6.tuxcare.els16"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:6",
+        "name": "libcurl-devel",
+        "purl": "pkg:rpm/tuxcare/libcurl-devel?distro=oraclelinux-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7.19.7-59.el6.tuxcare.els16"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2018-1000120",
+    "CVE-2018-1000007"
+  ],
+  "published": "2026-05-14T20:17:07Z",
+  "modified": "2026-05-14T20:17:07Z",
+  "details": "- CVE-2018-1000120: fix buffer overflow exists in the FTP URL handling\n- CVE-2018-1000007: fix leak authentication data to third parties in HTTP requests",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/oraclelinux6els/CLSA-2026-1778778961.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

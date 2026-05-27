@@ -1,0 +1,120 @@
+{
+  "id": "CLSA-2026-1777542146",
+  "summary": "vim: Fix of 3 CVEs",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:7",
+        "name": "vim-X11",
+        "purl": "pkg:rpm/tuxcare/vim-X11?distro=oraclelinux-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:7.4.629-8.0.1.el7_9.tuxcare.els12"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:7",
+        "name": "vim-common",
+        "purl": "pkg:rpm/tuxcare/vim-common?distro=oraclelinux-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:7.4.629-8.0.1.el7_9.tuxcare.els12"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:7",
+        "name": "vim-enhanced",
+        "purl": "pkg:rpm/tuxcare/vim-enhanced?distro=oraclelinux-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:7.4.629-8.0.1.el7_9.tuxcare.els12"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:7",
+        "name": "vim-filesystem",
+        "purl": "pkg:rpm/tuxcare/vim-filesystem?distro=oraclelinux-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:7.4.629-8.0.1.el7_9.tuxcare.els12"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:7",
+        "name": "vim-minimal",
+        "purl": "pkg:rpm/tuxcare/vim-minimal?distro=oraclelinux-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:7.4.629-8.0.1.el7_9.tuxcare.els12"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2023-1170",
+    "CVE-2023-1175",
+    "CVE-2023-1264"
+  ],
+  "published": "2026-04-30T09:42:32Z",
+  "modified": "2026-04-30T09:42:32Z",
+  "details": "- CVE-2023-1170: at the end of do_put() (ops.c), clamp the cursor column\n  back to the line length (and recompute coladd under virtualedit=all)\n  so a Visual block put past the new NUL no longer leaves the cursor\n  pointing past end-of-line.\n- CVE-2023-1175: in op_yank() (ops.c), when the yank starts inside a\n  multi-cell tab under virtual editing, clamp bd.startspaces to 0\n  before incrementing startcol so a negative width can't drive the\n  later block-yank copy out of bounds.\n- CVE-2023-1264: in vgetorpeek() (getchar.c), guard the dead-character\n  putcmdline()/unputcmdline() paths with cmdline_has_buffer() (new\n  ex_getln.c helper) so a nested :open command with a NULL ccline.cmdbuff\n  no longer dereferences it.",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/oraclelinux7els/CLSA-2026-1777542146.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "id": "CLSA-2025-1742806677",
+  "summary": "shim: Fix of 4 CVEs",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "shim-x64",
+        "purl": "pkg:rpm/tuxcare/shim-x64?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "15.8-1.el9.alma.1.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2023-40546",
+    "CVE-2023-40547",
+    "CVE-2023-40550",
+    "CVE-2023-40551"
+  ],
+  "published": "2025-03-24T08:58:03Z",
+  "modified": "2025-03-24T08:58:03Z",
+  "details": "- Make this package installable only on a system having a either\n  Almalinux or Cloudlinux signed kernel\n- Update to shim-15.8 and fix the following CVEs:\n  Resolves: CVE-2023-40546\n  Resolves: CVE-2023-40547\n  Resolves: \u0421VE-2023-40548\n  Resolves: \u0421VE-2023-40549\n  Resolves: CVE-2023-40550\n  Resolves: CVE-2023-40551",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/almalinux9.2-esu/CLSA-2025-1742806677.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

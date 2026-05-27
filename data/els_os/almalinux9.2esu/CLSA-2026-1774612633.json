@@ -1,0 +1,58 @@
+{
+  "id": "CLSA-2026-1774612633",
+  "summary": "gnupg2: Fix of CVE-2025-30258",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "gnupg2",
+        "purl": "pkg:rpm/tuxcare/gnupg2?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.3.3-2.el9_0.tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "gnupg2-smime",
+        "purl": "pkg:rpm/tuxcare/gnupg2-smime?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.3.3-2.el9_0.tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2025-30258"
+  ],
+  "published": "2026-03-27T11:57:17Z",
+  "modified": "2026-03-27T11:57:17Z",
+  "details": "- CVE-2025-30258: fix verification DoS due to a malicious subkey in the keyring",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/almalinux9.2esu/CLSA-2026-1774612633.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "id": "CLSA-2026-1777279920",
+  "summary": "cyrus-imapd: Fix of CVE-2021-33582",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:RHEL:7",
+        "name": "cyrus-imapd",
+        "purl": "pkg:rpm/tuxcare/cyrus-imapd?distro=rhel-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.4.17-15.el7.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:RHEL:7",
+        "name": "cyrus-imapd-devel",
+        "purl": "pkg:rpm/tuxcare/cyrus-imapd-devel?distro=rhel-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.4.17-15.el7.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:RHEL:7",
+        "name": "cyrus-imapd-utils",
+        "purl": "pkg:rpm/tuxcare/cyrus-imapd-utils?distro=rhel-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.4.17-15.el7.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2021-33582"
+  ],
+  "published": "2026-04-27T08:52:08Z",
+  "modified": "2026-04-27T08:52:08Z",
+  "details": "- Fix CVE-2021-33582 - Denial of service via string hashing algorithm collisions",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/rhel7els/CLSA-2026-1777279920.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

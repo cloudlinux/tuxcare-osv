@@ -1,0 +1,78 @@
+{
+  "id": "CLSA-2023-1695406987",
+  "summary": "libtasn1: Fix of CVE-2021-46848",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:7",
+        "name": "libtasn1",
+        "purl": "pkg:rpm/tuxcare/libtasn1?distro=centos-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.10-1.el7.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:7",
+        "name": "libtasn1-devel",
+        "purl": "pkg:rpm/tuxcare/libtasn1-devel?distro=centos-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.10-1.el7.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:7",
+        "name": "libtasn1-tools",
+        "purl": "pkg:rpm/tuxcare/libtasn1-tools?distro=centos-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.10-1.el7.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2021-46848"
+  ],
+  "published": "2023-09-22T18:23:11Z",
+  "modified": "2023-09-22T18:23:11Z",
+  "details": "- CVE-2021-46848: Fix ETYPE_OK off by one array size check.",
+  "references": [
+    {
+      "url": "https://errata.cloudlinux.com/centos7-els/CLSA-2023-1695406987.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "id": "CLSA-2024-1712490771",
+  "summary": "unixODBC: Fix of CVE-2024-1013",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "unixODBC",
+        "purl": "pkg:rpm/tuxcare/unixODBC?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.3.7-1.el8.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "unixODBC-devel",
+        "purl": "pkg:rpm/tuxcare/unixODBC-devel?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.3.7-1.el8.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2024-1013"
+  ],
+  "published": "2024-04-07T11:52:54Z",
+  "modified": "2024-04-07T11:52:54Z",
+  "details": "- CVE-2024-1013: Fix out-of-bounds stack write by adjusting byte size in callee\n  function",
+  "references": [
+    {
+      "url": "https://errata.cloudlinux.com/centos8.5-els/CLSA-2024-1712490771.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

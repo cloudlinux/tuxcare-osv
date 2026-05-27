@@ -1,0 +1,79 @@
+{
+  "id": "CLSA-2026-1773308416",
+  "summary": "cups-filters: Fix of 2 CVEs",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "cups-filters",
+        "purl": "pkg:rpm/tuxcare/cups-filters?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.28.7-11.el9_2.1.tuxcare.els5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "cups-filters-devel",
+        "purl": "pkg:rpm/tuxcare/cups-filters-devel?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.28.7-11.el9_2.1.tuxcare.els5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "cups-filters-libs",
+        "purl": "pkg:rpm/tuxcare/cups-filters-libs?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.28.7-11.el9_2.1.tuxcare.els5"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2025-64503",
+    "CVE-2025-57812"
+  ],
+  "published": "2026-03-12T09:40:21Z",
+  "modified": "2026-03-12T09:40:21Z",
+  "details": "- CVE-2025-64503: fix out-of-bounds write in pdftoraster filter caused by\n  integer overflow when processing PDFs with large MediaBox values\n- CVE-2025-57812: fix out-of-bounds read/write in imagetoraster TIFF processing\n  caused by incorrect buffer size calculation in cupsImageLut",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/almalinux9.2esu/CLSA-2026-1773308416.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

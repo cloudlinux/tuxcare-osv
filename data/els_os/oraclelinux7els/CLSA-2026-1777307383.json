@@ -1,0 +1,78 @@
+{
+  "id": "CLSA-2026-1777307383",
+  "summary": "lz4: Fix of CVE-2021-3520",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:7",
+        "name": "lz4",
+        "purl": "pkg:rpm/tuxcare/lz4?distro=oraclelinux-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.8.3-1.el7.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:7",
+        "name": "lz4-devel",
+        "purl": "pkg:rpm/tuxcare/lz4-devel?distro=oraclelinux-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.8.3-1.el7.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:7",
+        "name": "lz4-static",
+        "purl": "pkg:rpm/tuxcare/lz4-static?distro=oraclelinux-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.8.3-1.el7.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2021-3520"
+  ],
+  "published": "2026-04-27T16:29:48Z",
+  "modified": "2026-04-27T16:29:48Z",
+  "details": "- CVE-2021-3520: Fix potential memory corruption with negative memmove() size",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/oraclelinux7els/CLSA-2026-1777307383.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

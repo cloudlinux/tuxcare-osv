@@ -1,0 +1,58 @@
+{
+  "id": "CLSA-2026-1776438517",
+  "summary": "gstreamer1-plugins-bad-free: Fix of CVE-2026-3082",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "gstreamer1-plugins-bad-free",
+        "purl": "pkg:rpm/tuxcare/gstreamer1-plugins-bad-free?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.18.4-6.el9_2.tuxcare.els5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "gstreamer1-plugins-bad-free-devel",
+        "purl": "pkg:rpm/tuxcare/gstreamer1-plugins-bad-free-devel?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.18.4-6.el9_2.tuxcare.els5"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-3082"
+  ],
+  "published": "2026-04-17T15:08:42Z",
+  "modified": "2026-04-17T15:08:42Z",
+  "details": "- CVE-2026-3082: fix heap-based buffer overflow in JPEG parser READ_BYTES\n  macro by adding sizeof(buf) bounds check",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/almalinux9.2esu/CLSA-2026-1776438517.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "id": "CLSA-2023-1685378500",
+  "summary": "sysstat: Fix of 2 CVEs",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "sysstat",
+        "purl": "pkg:rpm/tuxcare/sysstat?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "11.7.3-6.el8.tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2023-33204",
+    "CVE-2022-39377"
+  ],
+  "published": "2023-05-29T16:41:45Z",
+  "modified": "2023-05-29T16:41:45Z",
+  "details": "- CVE-2023-33204: fix possible buffer overflow in an incomplete fix for\n  CVE-2022-39377",
+  "references": [
+    {
+      "url": "https://errata.cloudlinux.com/centos8.5-els/CLSA-2023-1685378500.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "id": "CLSA-2025-1753801232",
+  "summary": "redis: Fix of CVE-2024-31228",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "redis",
+        "purl": "pkg:rpm/tuxcare/redis?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "6.2.7-1.el9.tuxcare.els4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "redis-devel",
+        "purl": "pkg:rpm/tuxcare/redis-devel?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "6.2.7-1.el9.tuxcare.els4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "redis-doc",
+        "purl": "pkg:rpm/tuxcare/redis-doc?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "6.2.7-1.el9.tuxcare.els4"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2024-31228"
+  ],
+  "published": "2025-07-29T15:00:36Z",
+  "modified": "2025-07-29T15:00:36Z",
+  "details": "- CVE-2024-31228: fix unbounded recursion on supported commands by limiting\n  pattern matching length",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/almalinux9.2esu/CLSA-2025-1753801232.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

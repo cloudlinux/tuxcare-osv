@@ -1,0 +1,78 @@
+{
+  "id": "CLSA-2026-1775836571",
+  "summary": "redis: Fix of CVE-2023-41056",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "redis",
+        "purl": "pkg:rpm/tuxcare/redis?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "6.2.20-1.el9_6.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "redis-devel",
+        "purl": "pkg:rpm/tuxcare/redis-devel?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "6.2.20-1.el9_6.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "redis-doc",
+        "purl": "pkg:rpm/tuxcare/redis-doc?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "6.2.20-1.el9_6.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2023-41056"
+  ],
+  "published": "2026-04-10T15:56:16Z",
+  "modified": "2026-04-10T15:56:16Z",
+  "details": "- CVE-2023-41056: fix possible corruption in sdsResize",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/tuxcare9.6esu/CLSA-2026-1775836571.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

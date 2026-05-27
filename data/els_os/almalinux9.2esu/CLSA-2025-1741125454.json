@@ -1,0 +1,38 @@
+{
+  "id": "CLSA-2025-1741125454",
+  "summary": "bubblewrap: Fix of CVE-2024-42472",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "bubblewrap",
+        "purl": "pkg:rpm/tuxcare/bubblewrap?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.4.1-6.el9.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2024-42472"
+  ],
+  "published": "2025-03-04T21:57:39Z",
+  "modified": "2025-03-04T21:57:39Z",
+  "details": "- fix CVE-2024-42472 in flatpak by adding --bind-fd and --ro-bind-fd options in\n  in bubblewrap, enabling race-free bind mounts using an O_PATH file descriptor\n  instead of a direct path",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/almalinux9.2-esu/CLSA-2025-1741125454.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

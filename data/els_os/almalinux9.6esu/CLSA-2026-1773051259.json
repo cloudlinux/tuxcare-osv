@@ -1,0 +1,98 @@
+{
+  "id": "CLSA-2026-1773051259",
+  "summary": "libtiff: Fix of CVE-2025-61143",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "libtiff",
+        "purl": "pkg:rpm/tuxcare/libtiff?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.4.0-13.el9_6.2.tuxcare.els5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "libtiff-devel",
+        "purl": "pkg:rpm/tuxcare/libtiff-devel?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.4.0-13.el9_6.2.tuxcare.els5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "libtiff-static",
+        "purl": "pkg:rpm/tuxcare/libtiff-static?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.4.0-13.el9_6.2.tuxcare.els5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "libtiff-tools",
+        "purl": "pkg:rpm/tuxcare/libtiff-tools?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.4.0-13.el9_6.2.tuxcare.els5"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2025-61143"
+  ],
+  "published": "2026-03-09T10:14:23Z",
+  "modified": "2026-03-09T10:14:23Z",
+  "details": "- CVE-2025-61143: fix OOB in tiffdither and fix null pointer dereference in tiffcrop",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/tuxcare9.6esu/CLSA-2026-1773051259.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "id": "CLSA-2026-1778940132",
+  "summary": "rsync: Fix of CVE-2026-41035",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS-Stream:8",
+        "name": "rsync",
+        "purl": "pkg:rpm/tuxcare/rsync?distro=centos-stream-8"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.1.3-19.el8.1.tuxcare.els6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS-Stream:8",
+        "name": "rsync-daemon",
+        "purl": "pkg:rpm/tuxcare/rsync-daemon?distro=centos-stream-8"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.1.3-19.el8.1.tuxcare.els6"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-41035"
+  ],
+  "published": "2026-05-16T15:14:15Z",
+  "modified": "2026-05-16T15:14:15Z",
+  "details": "- CVE-2026-41035: receiver use-after-free in receive_xattr via untrusted\n  xattr count passed to qsort",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/centos-stream8els/CLSA-2026-1778940132.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

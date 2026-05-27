@@ -1,0 +1,198 @@
+{
+  "id": "CLSA-2026-1778175067",
+  "summary": "cyrus-sasl: Fix of CVE-2019-19906",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:6",
+        "name": "cyrus-sasl",
+        "purl": "pkg:rpm/tuxcare/cyrus-sasl?distro=oraclelinux-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.1.23-15.el6_6.2.tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:6",
+        "name": "cyrus-sasl-devel",
+        "purl": "pkg:rpm/tuxcare/cyrus-sasl-devel?distro=oraclelinux-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.1.23-15.el6_6.2.tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:6",
+        "name": "cyrus-sasl-gssapi",
+        "purl": "pkg:rpm/tuxcare/cyrus-sasl-gssapi?distro=oraclelinux-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.1.23-15.el6_6.2.tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:6",
+        "name": "cyrus-sasl-ldap",
+        "purl": "pkg:rpm/tuxcare/cyrus-sasl-ldap?distro=oraclelinux-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.1.23-15.el6_6.2.tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:6",
+        "name": "cyrus-sasl-lib",
+        "purl": "pkg:rpm/tuxcare/cyrus-sasl-lib?distro=oraclelinux-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.1.23-15.el6_6.2.tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:6",
+        "name": "cyrus-sasl-md5",
+        "purl": "pkg:rpm/tuxcare/cyrus-sasl-md5?distro=oraclelinux-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.1.23-15.el6_6.2.tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:6",
+        "name": "cyrus-sasl-ntlm",
+        "purl": "pkg:rpm/tuxcare/cyrus-sasl-ntlm?distro=oraclelinux-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.1.23-15.el6_6.2.tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:6",
+        "name": "cyrus-sasl-plain",
+        "purl": "pkg:rpm/tuxcare/cyrus-sasl-plain?distro=oraclelinux-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.1.23-15.el6_6.2.tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:6",
+        "name": "cyrus-sasl-sql",
+        "purl": "pkg:rpm/tuxcare/cyrus-sasl-sql?distro=oraclelinux-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.1.23-15.el6_6.2.tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2019-19906"
+  ],
+  "published": "2026-05-07T17:31:13Z",
+  "modified": "2026-05-07T17:31:13Z",
+  "details": "- CVE-2019-19906: fix off-by-one in _sasl_add_string (lib/common.c) that\n  could cause denial of service or information disclosure via crafted input",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/oraclelinux6els/CLSA-2026-1778175067.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

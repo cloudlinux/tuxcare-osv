@@ -1,0 +1,159 @@
+{
+  "id": "CLSA-2026-1771925958",
+  "summary": "python2: Fix of 2 CVEs",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "python2",
+        "purl": "pkg:rpm/tuxcare/python2?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.7.18-7.module_el8.5.0+2354+0d350335.tuxcare.els17"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "python2-debug",
+        "purl": "pkg:rpm/tuxcare/python2-debug?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.7.18-7.module_el8.5.0+2354+0d350335.tuxcare.els17"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "python2-devel",
+        "purl": "pkg:rpm/tuxcare/python2-devel?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.7.18-7.module_el8.5.0+2354+0d350335.tuxcare.els17"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "python2-libs",
+        "purl": "pkg:rpm/tuxcare/python2-libs?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.7.18-7.module_el8.5.0+2354+0d350335.tuxcare.els17"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "python2-test",
+        "purl": "pkg:rpm/tuxcare/python2-test?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.7.18-7.module_el8.5.0+2354+0d350335.tuxcare.els17"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "python2-tkinter",
+        "purl": "pkg:rpm/tuxcare/python2-tkinter?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.7.18-7.module_el8.5.0+2354+0d350335.tuxcare.els17"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "python2-tools",
+        "purl": "pkg:rpm/tuxcare/python2-tools?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.7.18-7.module_el8.5.0+2354+0d350335.tuxcare.els17"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-1299",
+    "CVE-2024-6923"
+  ],
+  "published": "2026-02-24T09:39:23Z",
+  "modified": "2026-02-24T09:39:23Z",
+  "details": "- CVE-2026-1299: reject email header values containing newlines without \n  whitespace to prevent header injection and info leak via the buffer protocol\n- CVE-2024-6923: ensure email headers are encoded and verified correctly, \n  raising exceptions for malformed input to prevent processing of invalid or dangerous headers",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/centos8.5els/CLSA-2026-1771925958.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

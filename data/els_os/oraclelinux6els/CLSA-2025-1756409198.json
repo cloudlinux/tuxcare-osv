@@ -1,0 +1,38 @@
+{
+  "id": "CLSA-2025-1756409198",
+  "summary": "wget: Fix of CVE-2024-38428",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:6",
+        "name": "wget",
+        "purl": "pkg:rpm/tuxcare/wget?distro=oraclelinux-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.12-10.el6.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2024-38428"
+  ],
+  "published": "2025-08-28T19:26:42Z",
+  "modified": "2025-08-28T19:26:42Z",
+  "details": "- CVE-2024-38428: fix mishandle semicolons in userinfo subcomponent of URI to\n  prevent insecure behavior",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/oraclelinux6els/CLSA-2025-1756409198.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

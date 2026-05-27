@@ -1,0 +1,78 @@
+{
+  "id": "CLSA-2022-1654107183",
+  "summary": "Fixed CVE-2021-33582 in cyrus-imapd",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:6",
+        "name": "cyrus-imapd",
+        "purl": "pkg:rpm/tuxcare/cyrus-imapd?distro=centos-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.3.16-15.el6.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:6",
+        "name": "cyrus-imapd-devel",
+        "purl": "pkg:rpm/tuxcare/cyrus-imapd-devel?distro=centos-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.3.16-15.el6.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:6",
+        "name": "cyrus-imapd-utils",
+        "purl": "pkg:rpm/tuxcare/cyrus-imapd-utils?distro=centos-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.3.16-15.el6.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2021-33582"
+  ],
+  "published": "2022-06-01T18:13:03Z",
+  "modified": "2022-06-01T18:13:03Z",
+  "details": "- CVE-2021-33582: Fix a bad string hashing algorithm which could lead to\n  collisions and cause a CPU denial of service",
+  "references": [
+    {
+      "url": "https://errata.cloudlinux.com/els6/CLSA-2022-1654107183.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

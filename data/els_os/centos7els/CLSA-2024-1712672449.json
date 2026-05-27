@@ -1,0 +1,36 @@
+{
+  "id": "CLSA-2024-1712672449",
+  "summary": "Update of cpio",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:7",
+        "name": "cpio",
+        "purl": "pkg:rpm/tuxcare/cpio?distro=centos-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.11-28.el7.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [],
+  "published": "2024-04-09T14:21:57Z",
+  "modified": "2024-04-09T14:21:57Z",
+  "details": "- Fix integer overflow in dstring.c ds_fgetstr that triggers\n  an out-of-bounds heap write",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/centos7-els/CLSA-2024-1712672449.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

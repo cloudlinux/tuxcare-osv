@@ -1,0 +1,38 @@
+{
+  "id": "CLSA-2025-1763137741",
+  "summary": "python3.11-cryptography: Fix of CVE-2023-49083",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "python3.11-cryptography",
+        "purl": "pkg:rpm/tuxcare/python3.11-cryptography?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "37.0.2-5.el9.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2023-49083"
+  ],
+  "published": "2025-11-14T16:29:05Z",
+  "modified": "2025-11-14T16:29:05Z",
+  "details": "- CVE-2023-49083: fix crash when loading PKCS#7 bundle with no certificates\n- Fix RUSTFLAGS macro expansion in build process",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/almalinux9.2esu/CLSA-2025-1763137741.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

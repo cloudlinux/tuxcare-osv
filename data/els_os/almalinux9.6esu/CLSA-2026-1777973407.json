@@ -1,0 +1,78 @@
+{
+  "id": "CLSA-2026-1777973407",
+  "summary": "libvpx: Fix of CVE-2024-5197",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "libvpx",
+        "purl": "pkg:rpm/tuxcare/libvpx?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.9.0-9.el9_6.tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "libvpx-devel",
+        "purl": "pkg:rpm/tuxcare/libvpx-devel?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.9.0-9.el9_6.tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "libvpx-utils",
+        "purl": "pkg:rpm/tuxcare/libvpx-utils?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.9.0-9.el9_6.tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2024-5197"
+  ],
+  "published": "2026-05-05T09:30:11Z",
+  "modified": "2026-05-05T09:30:11Z",
+  "details": "- CVE-2024-5197: fix integer overflows in image allocation and wrapping logic",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/tuxcare9.6esu/CLSA-2026-1777973407.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

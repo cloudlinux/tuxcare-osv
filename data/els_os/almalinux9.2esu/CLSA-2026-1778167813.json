@@ -1,0 +1,59 @@
+{
+  "id": "CLSA-2026-1778167813",
+  "summary": "libXpm: Fix of 2 CVEs",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "libXpm",
+        "purl": "pkg:rpm/tuxcare/libXpm?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.5.13-8.el9_1.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "libXpm-devel",
+        "purl": "pkg:rpm/tuxcare/libXpm-devel?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.5.13-8.el9_1.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2023-43788",
+    "CVE-2023-43789"
+  ],
+  "published": "2026-05-07T15:30:18Z",
+  "modified": "2026-05-07T15:30:18Z",
+  "details": "- CVE-2023-43788: out of bounds read in XpmCreateXpmImageFromBuffer()\n- CVE-2023-43789: out of bounds read on XPM with corrupted colormap",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/almalinux9.2esu/CLSA-2026-1778167813.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

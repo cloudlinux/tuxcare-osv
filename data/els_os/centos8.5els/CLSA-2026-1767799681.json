@@ -1,0 +1,80 @@
+{
+  "id": "CLSA-2026-1767799681",
+  "summary": "expat: Fix of 3 CVEs",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "expat",
+        "purl": "pkg:rpm/tuxcare/expat?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.5.0-1.el8.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "expat-devel",
+        "purl": "pkg:rpm/tuxcare/expat-devel?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.5.0-1.el8.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "expat-static",
+        "purl": "pkg:rpm/tuxcare/expat-static?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.5.0-1.el8.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2024-28757",
+    "CVE-2025-59375",
+    "CVE-2013-0340"
+  ],
+  "published": "2026-01-07T15:28:05Z",
+  "modified": "2026-01-07T15:28:05Z",
+  "details": "- Rebase to version 2.5.0\n- CVE-2024-28757: prevent billion laughs attacks in isolated external parser\n  (part of #839), reject direct parameter entity recursion (part of #839)\n- CVE-2025-59375: fix memory amplification and add allocation tracker\n- CVE-2013-0340: properly handle entities expansion",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/centos8.5els/CLSA-2026-1767799681.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

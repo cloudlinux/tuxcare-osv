@@ -1,0 +1,58 @@
+{
+  "id": "CLSA-2023-1699379448",
+  "summary": "libcap: Fix of CVE-2023-2603",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:7",
+        "name": "libcap",
+        "purl": "pkg:rpm/tuxcare/libcap?distro=centos-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.22-11.el7.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:7",
+        "name": "libcap-devel",
+        "purl": "pkg:rpm/tuxcare/libcap-devel?distro=centos-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.22-11.el7.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2023-2603"
+  ],
+  "published": "2023-11-07T17:50:52Z",
+  "modified": "2023-11-07T17:50:52Z",
+  "details": "- CVE-2023-2603: integer overflow if the input string is close to 4GiB.",
+  "references": [
+    {
+      "url": "https://errata.cloudlinux.com/centos7-els/CLSA-2023-1699379448.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

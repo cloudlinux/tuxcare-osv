@@ -1,0 +1,58 @@
+{
+  "id": "CLSA-2024-1732554981",
+  "summary": "binutils: Fix of CVE-2018-12699",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "binutils",
+        "purl": "pkg:rpm/tuxcare/binutils?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.30-108.el8_5.1.tuxcare.els5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "binutils-devel",
+        "purl": "pkg:rpm/tuxcare/binutils-devel?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.30-108.el8_5.1.tuxcare.els5"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2018-12699"
+  ],
+  "published": "2024-11-25T17:16:26Z",
+  "modified": "2024-11-25T17:16:26Z",
+  "details": "- CVE-2018-12699: Fix heap-based buffer overflow, oom, and\n  stack overflow issues.",
+  "references": [
+    {
+      "url": "https://errata.cloudlinux.com/centos8.5-els/CLSA-2024-1732554981.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

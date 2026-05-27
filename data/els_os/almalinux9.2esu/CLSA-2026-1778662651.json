@@ -1,0 +1,78 @@
+{
+  "id": "CLSA-2026-1778662651",
+  "summary": "libcap: Fix of CVE-2026-4878",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "libcap",
+        "purl": "pkg:rpm/tuxcare/libcap?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.48-9.el9_2.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "libcap-devel",
+        "purl": "pkg:rpm/tuxcare/libcap-devel?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.48-9.el9_2.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "libcap-static",
+        "purl": "pkg:rpm/tuxcare/libcap-static?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.48-9.el9_2.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-4878"
+  ],
+  "published": "2026-05-13T08:57:36Z",
+  "modified": "2026-05-13T08:57:36Z",
+  "details": "- CVE-2026-4878: cap_set_file() TOCTOU race via path-based xattr operations",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/almalinux9.2esu/CLSA-2026-1778662651.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

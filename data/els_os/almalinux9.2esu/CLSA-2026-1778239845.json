@@ -1,0 +1,59 @@
+{
+  "id": "CLSA-2026-1778239845",
+  "summary": "skopeo: Fix of 2 CVEs",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "skopeo",
+        "purl": "pkg:rpm/tuxcare/skopeo?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:1.11.2-0.1.el9.tuxcare.els4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "skopeo-tests",
+        "purl": "pkg:rpm/tuxcare/skopeo-tests?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:1.11.2-0.1.el9.tuxcare.els4"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2024-6104",
+    "CVE-2024-28180"
+  ],
+  "published": "2026-05-08T11:30:51Z",
+  "modified": "2026-05-08T11:30:51Z",
+  "details": "- CVE-2024-6104: backport go-retryablehttp URL redaction so basic-auth\n  credentials embedded in request URLs are not written to logs/errors\n- CVE-2024-28180: backport go-jose decompression-bomb fix to both\n  vendored major versions (github.com/go-jose/go-jose/v3 and\n  gopkg.in/square/go-jose.v2)",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/almalinux9.2esu/CLSA-2026-1778239845.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

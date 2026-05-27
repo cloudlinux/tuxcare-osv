@@ -1,0 +1,58 @@
+{
+  "id": "CLSA-2026-1776354546",
+  "summary": "jq: Fix of CVE-2024-23337",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "jq",
+        "purl": "pkg:rpm/tuxcare/jq?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.6-14.el9.tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "jq-devel",
+        "purl": "pkg:rpm/tuxcare/jq-devel?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.6-14.el9.tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2024-23337"
+  ],
+  "published": "2026-04-16T15:49:11Z",
+  "modified": "2026-04-16T15:49:11Z",
+  "details": "- CVE-2024-23337: fix signed integer overflow in jvp_array_write and\n  jvp_object_rehash that could lead to SEGV on growing arrays and objects",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/almalinux9.2esu/CLSA-2026-1776354546.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

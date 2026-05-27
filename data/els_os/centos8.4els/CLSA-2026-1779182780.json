@@ -1,0 +1,123 @@
+{
+  "id": "CLSA-2026-1779182780",
+  "summary": "vim: Fix of 6 CVEs",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.4",
+        "name": "vim-X11",
+        "purl": "pkg:rpm/tuxcare/vim-X11?distro=centos-8.4"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:8.0.1763-16.el8.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.4",
+        "name": "vim-common",
+        "purl": "pkg:rpm/tuxcare/vim-common?distro=centos-8.4"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:8.0.1763-16.el8.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.4",
+        "name": "vim-enhanced",
+        "purl": "pkg:rpm/tuxcare/vim-enhanced?distro=centos-8.4"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:8.0.1763-16.el8.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.4",
+        "name": "vim-filesystem",
+        "purl": "pkg:rpm/tuxcare/vim-filesystem?distro=centos-8.4"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:8.0.1763-16.el8.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.4",
+        "name": "vim-minimal",
+        "purl": "pkg:rpm/tuxcare/vim-minimal?distro=centos-8.4"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:8.0.1763-16.el8.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2021-4069",
+    "CVE-2022-2000",
+    "CVE-2022-3099",
+    "CVE-2022-1968",
+    "CVE-2022-0443",
+    "CVE-2022-1735"
+  ],
+  "published": "2026-05-19T09:26:24Z",
+  "modified": "2026-05-19T09:26:24Z",
+  "details": "- CVE-2021-4069: copy ml_get_curline() in ex_open() so a flushed line buffer is not used after vim_regexec()\n- CVE-2022-2000: truncate IObuff with \"...\" in append_command() when remaining space is below threshold\n- CVE-2022-3099: guard do_cmdline() breakpoint lookup with lines_ga.ga_len > current_line check\n- CVE-2022-1968: introduce get_line_and_copy() in find_pattern_in_path() so mark-based regex cannot invalidate the line\n- CVE-2022-0443: cache buf_valid() in set_curbuf() and fall back to lastbuf when buffer was wiped out\n- CVE-2022-1735: add check_visual_pos() and call it after every change/stop_insert so VIsual mark is clamped",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/centos8.4els/CLSA-2026-1779182780.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

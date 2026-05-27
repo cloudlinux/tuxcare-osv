@@ -1,0 +1,139 @@
+{
+  "id": "CLSA-2025-1750444475",
+  "summary": "open-vm-tools: Fix of 2 CVEs",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "open-vm-tools",
+        "purl": "pkg:rpm/tuxcare/open-vm-tools?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "12.1.5-1.el9.3.alma.1.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "open-vm-tools-desktop",
+        "purl": "pkg:rpm/tuxcare/open-vm-tools-desktop?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "12.1.5-1.el9.3.alma.1.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "open-vm-tools-devel",
+        "purl": "pkg:rpm/tuxcare/open-vm-tools-devel?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "12.1.5-1.el9.3.alma.1.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "open-vm-tools-salt-minion",
+        "purl": "pkg:rpm/tuxcare/open-vm-tools-salt-minion?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "12.1.5-1.el9.3.alma.1.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "open-vm-tools-sdmp",
+        "purl": "pkg:rpm/tuxcare/open-vm-tools-sdmp?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "12.1.5-1.el9.3.alma.1.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "open-vm-tools-test",
+        "purl": "pkg:rpm/tuxcare/open-vm-tools-test?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "12.1.5-1.el9.3.alma.1.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2023-34058",
+    "CVE-2023-34059"
+  ],
+  "published": "2025-06-20T18:34:40Z",
+  "modified": "2025-06-20T18:34:40Z",
+  "details": "- CVE-2023-34058: don't accept tokens with unrelated certs\n- CVE-2023-34059: fix file descriptor vuln by moving privilege drop from suidWrapper to vmtoolsd",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/almalinux9.2esu/CLSA-2025-1750444475.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

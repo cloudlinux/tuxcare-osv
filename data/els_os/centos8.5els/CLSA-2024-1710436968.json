@@ -1,0 +1,38 @@
+{
+  "id": "CLSA-2024-1710436968",
+  "summary": "squid: Fix of CVE-2024-25617",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "squid",
+        "purl": "pkg:rpm/tuxcare/squid?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7:4.15-1.module_el8.5.0+2168+2bf62d96.tuxcare.els9"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2024-25617"
+  ],
+  "published": "2024-03-14T17:22:51Z",
+  "modified": "2024-03-14T17:22:51Z",
+  "details": "- CVE-2024-25617: Improve handling of expanding HTTP header values to prevent DoS",
+  "references": [
+    {
+      "url": "https://errata.cloudlinux.com/centos8.5-els/CLSA-2024-1710436968.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

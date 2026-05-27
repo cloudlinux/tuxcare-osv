@@ -1,0 +1,78 @@
+{
+  "id": "CLSA-2022-1656961578",
+  "summary": "Fixed CVE-2022-27782 in curl",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:6",
+        "name": "curl",
+        "purl": "pkg:rpm/tuxcare/curl?distro=oraclelinux-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7.19.7-59.el6.tuxcare.els6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:6",
+        "name": "libcurl",
+        "purl": "pkg:rpm/tuxcare/libcurl?distro=oraclelinux-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7.19.7-59.el6.tuxcare.els6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:6",
+        "name": "libcurl-devel",
+        "purl": "pkg:rpm/tuxcare/libcurl-devel?distro=oraclelinux-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7.19.7-59.el6.tuxcare.els6"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2022-27782"
+  ],
+  "published": "2022-07-04T19:06:18Z",
+  "modified": "2022-07-04T19:06:18Z",
+  "details": "- CVE-2022-27782: add missing checks of ssl and ssh options during matching\n  a connection for reuse",
+  "references": [
+    {
+      "url": "https://errata.cloudlinux.com/ol6/CLSA-2022-1656961578.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

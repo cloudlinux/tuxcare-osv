@@ -1,0 +1,78 @@
+{
+  "id": "CLSA-2025-1745586793",
+  "summary": "cups-filters: Fix of CVE-2024-47076",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "cups-filters",
+        "purl": "pkg:rpm/tuxcare/cups-filters?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.28.7-11.el9_2.1.tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "cups-filters-devel",
+        "purl": "pkg:rpm/tuxcare/cups-filters-devel?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.28.7-11.el9_2.1.tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "cups-filters-libs",
+        "purl": "pkg:rpm/tuxcare/cups-filters-libs?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.28.7-11.el9_2.1.tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2024-47076"
+  ],
+  "published": "2025-04-25T13:13:18Z",
+  "modified": "2025-04-25T13:13:18Z",
+  "details": "- CVE-2024-47076: cfGetPrinterAttributes5() Validate response attributes before return",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/almalinux9.2-esu/CLSA-2025-1745586793.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

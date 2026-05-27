@@ -1,0 +1,38 @@
+{
+  "id": "CLSA-2023-1700592975",
+  "summary": "squid: Fix of CVE-2023-46724",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "squid",
+        "purl": "pkg:rpm/tuxcare/squid?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7:4.15-1.module_el8.5.0+2151+24c223d9.tuxcare.els5"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2023-46724"
+  ],
+  "published": "2023-11-21T18:56:19Z",
+  "modified": "2023-11-21T18:56:19Z",
+  "details": "- CVE-2023-46724: Fix validation of certificates with CN=*",
+  "references": [
+    {
+      "url": "https://errata.cloudlinux.com/centos8.5-els/CLSA-2023-1700592975.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

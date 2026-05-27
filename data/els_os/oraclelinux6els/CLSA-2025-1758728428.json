@@ -1,0 +1,39 @@
+{
+  "id": "CLSA-2025-1758728428",
+  "summary": "spamassassin: Fix of 2 CVEs",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:6",
+        "name": "spamassassin",
+        "purl": "pkg:rpm/tuxcare/spamassassin?distro=oraclelinux-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.3.1-3.el6.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2020-1930",
+    "CVE-2020-1931"
+  ],
+  "published": "2025-09-24T15:40:31Z",
+  "modified": "2025-09-24T15:40:31Z",
+  "details": "- CVE-2020-1930: fix command-execution vulnerability in SpamAssassin .cf parsing\n- CVE-2020-1931: fix command-execution vulnerability in SpamAssassin .cf parsing",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/oraclelinux6els/CLSA-2025-1758728428.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

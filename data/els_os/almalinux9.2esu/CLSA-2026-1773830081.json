@@ -1,0 +1,78 @@
+{
+  "id": "CLSA-2026-1773830081",
+  "summary": "libvpx: Fix of CVE-2026-2447",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "libvpx",
+        "purl": "pkg:rpm/tuxcare/libvpx?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.9.0-7.el9_2.alma.1.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "libvpx-devel",
+        "purl": "pkg:rpm/tuxcare/libvpx-devel?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.9.0-7.el9_2.alma.1.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "libvpx-utils",
+        "purl": "pkg:rpm/tuxcare/libvpx-utils?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.9.0-7.el9_2.alma.1.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-2447"
+  ],
+  "published": "2026-03-18T10:34:45Z",
+  "modified": "2026-03-18T10:34:45Z",
+  "details": "- CVE-2026-2447: fix heap buffer overflow in write_superframe_index",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/almalinux9.2esu/CLSA-2026-1773830081.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

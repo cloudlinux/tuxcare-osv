@@ -1,0 +1,58 @@
+{
+  "id": "CLSA-2026-1777322146",
+  "summary": "jq: Fix of CVE-2026-32316",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "jq",
+        "purl": "pkg:rpm/tuxcare/jq?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.6-14.el9.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "jq-devel",
+        "purl": "pkg:rpm/tuxcare/jq-devel?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.6-14.el9.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-32316"
+  ],
+  "published": "2026-04-27T20:35:51Z",
+  "modified": "2026-04-27T20:35:51Z",
+  "details": "- CVE-2026-32316: fix heap buffer overflow in jvp_string_append and\n  jvp_string_copy_replace_bad caused by uint32_t overflow in size\n  calculations for strings exceeding INT_MAX bytes",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/almalinux9.2esu/CLSA-2026-1777322146.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

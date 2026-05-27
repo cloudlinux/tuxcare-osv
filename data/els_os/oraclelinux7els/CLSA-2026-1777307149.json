@@ -1,0 +1,98 @@
+{
+  "id": "CLSA-2026-1777307149",
+  "summary": "libarchive: Fix of CVE-2021-31566",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:7",
+        "name": "bsdcpio",
+        "purl": "pkg:rpm/tuxcare/bsdcpio?distro=oraclelinux-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.1.2-14.el7_7.tuxcare.els5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:7",
+        "name": "bsdtar",
+        "purl": "pkg:rpm/tuxcare/bsdtar?distro=oraclelinux-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.1.2-14.el7_7.tuxcare.els5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:7",
+        "name": "libarchive",
+        "purl": "pkg:rpm/tuxcare/libarchive?distro=oraclelinux-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.1.2-14.el7_7.tuxcare.els5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:7",
+        "name": "libarchive-devel",
+        "purl": "pkg:rpm/tuxcare/libarchive-devel?distro=oraclelinux-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.1.2-14.el7_7.tuxcare.els5"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2021-31566"
+  ],
+  "published": "2026-04-27T16:25:54Z",
+  "modified": "2026-04-27T16:25:54Z",
+  "details": "- CVE-2021-31566: extend backport with upstream 8a1bd5c and ede459d2 to close\n  the trailing-slash variant of the fixup-list symlink-follow attack",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/oraclelinux7els/CLSA-2026-1777307149.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

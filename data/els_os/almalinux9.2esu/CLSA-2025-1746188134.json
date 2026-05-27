@@ -1,0 +1,58 @@
+{
+  "id": "CLSA-2025-1746188134",
+  "summary": "buildah: Fix of CVE-2024-9341",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "buildah",
+        "purl": "pkg:rpm/tuxcare/buildah?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:1.29.1-2.el9_2.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "buildah-tests",
+        "purl": "pkg:rpm/tuxcare/buildah-tests?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:1.29.1-2.el9_2.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2024-9341"
+  ],
+  "published": "2025-05-02T12:15:39Z",
+  "modified": "2025-05-02T12:15:39Z",
+  "details": "- CVE-2024-9341: fix insecure handling of file paths inside vendored c/common",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/almalinux9.2-esu/CLSA-2025-1746188134.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

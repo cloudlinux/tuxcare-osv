@@ -1,0 +1,98 @@
+{
+  "id": "CLSA-2022-1643211885",
+  "summary": "Fixed CVE-2021-4034 in polkit",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:6",
+        "name": "polkit",
+        "purl": "pkg:rpm/tuxcare/polkit?distro=oraclelinux-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.96-11.el6_10.1.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:6",
+        "name": "polkit-desktop-policy",
+        "purl": "pkg:rpm/tuxcare/polkit-desktop-policy?distro=oraclelinux-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.96-11.el6_10.1.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:6",
+        "name": "polkit-devel",
+        "purl": "pkg:rpm/tuxcare/polkit-devel?distro=oraclelinux-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.96-11.el6_10.1.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:6",
+        "name": "polkit-docs",
+        "purl": "pkg:rpm/tuxcare/polkit-docs?distro=oraclelinux-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.96-11.el6_10.1.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2021-4034"
+  ],
+  "published": "2022-01-26T15:44:45Z",
+  "modified": "2022-05-17T17:28:33Z",
+  "details": "- CVE-2021-4034: pkexec: argv overflow results in local privilege esc.",
+  "references": [
+    {
+      "url": "https://errata.cloudlinux.com/ol6/CLSA-2022-1643211885.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

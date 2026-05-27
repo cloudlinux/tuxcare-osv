@@ -1,0 +1,78 @@
+{
+  "id": "CLSA-2025-1751141865",
+  "summary": "gstreamer1-plugins-base: Fix of CVE-2023-37328",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "gstreamer1-plugins-base",
+        "purl": "pkg:rpm/tuxcare/gstreamer1-plugins-base?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.18.4-5.el9.tuxcare.els8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "gstreamer1-plugins-base-devel",
+        "purl": "pkg:rpm/tuxcare/gstreamer1-plugins-base-devel?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.18.4-5.el9.tuxcare.els8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "gstreamer1-plugins-base-tools",
+        "purl": "pkg:rpm/tuxcare/gstreamer1-plugins-base-tools?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.18.4-5.el9.tuxcare.els8"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2023-37328"
+  ],
+  "published": "2025-06-28T20:17:50Z",
+  "modified": "2025-06-28T20:17:50Z",
+  "details": "- CVE-2023-37328: fix subrip tag parsing to prevent out-of-bounds\n  access in gstsubparse",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/almalinux9.2esu/CLSA-2025-1751141865.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

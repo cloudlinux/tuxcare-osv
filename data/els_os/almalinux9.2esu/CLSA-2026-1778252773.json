@@ -1,0 +1,38 @@
+{
+  "id": "CLSA-2026-1778252773",
+  "summary": "squid: Fix of CVE-2022-41317",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "squid",
+        "purl": "pkg:rpm/tuxcare/squid?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7:5.5-5.el9_2.1.tuxcare.els13"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2022-41317"
+  ],
+  "published": "2026-05-08T21:01:56Z",
+  "modified": "2026-05-08T21:01:56Z",
+  "details": "- CVE-2022-41317: fix exposure of sensitive cache manager information via\n  non-HTTP URI schemes due to typo in default manager ACL regex",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/almalinux9.2esu/CLSA-2026-1778252773.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

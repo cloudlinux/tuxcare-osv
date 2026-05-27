@@ -1,0 +1,38 @@
+{
+  "id": "CLSA-2026-1776940861",
+  "summary": "screen: Fix of CVE-2023-24626",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:7",
+        "name": "screen",
+        "purl": "pkg:rpm/tuxcare/screen?distro=oraclelinux-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.1.0-0.27.20120314git3c2946.el7_9.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2023-24626"
+  ],
+  "published": "2026-04-23T10:41:05Z",
+  "modified": "2026-04-23T10:41:05Z",
+  "details": "- CVE-2023-24626: fix missing signal sending permission check on failed\n  query messages",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/oraclelinux7els/CLSA-2026-1776940861.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

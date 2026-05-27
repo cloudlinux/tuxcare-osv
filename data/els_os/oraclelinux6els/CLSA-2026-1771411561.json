@@ -1,0 +1,36 @@
+{
+  "id": "CLSA-2026-1771411561",
+  "summary": "Update of ca-certificates",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:6",
+        "name": "ca-certificates",
+        "purl": "pkg:rpm/tuxcare/ca-certificates?distro=oraclelinux-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2026.2.82-60.1.el6.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [],
+  "published": "2026-02-18T10:46:05Z",
+  "modified": "2026-02-18T10:46:05Z",
+  "details": "- update to CKBI 2.82 from NSS 3.120\n- updated certificates:\n-     # Certificate \"GlobalSign Root CA\"\n-     # Certificate \"Entrust.net Premium 2048 Secure Server CA\"\n-     # Certificate \"Comodo AAA Services root\"\n-     # Certificate \"XRamp Global CA Root\"\n-     # Certificate \"Go Daddy Class 2 CA\"\n-     # Certificate \"Starfield Class 2 CA\"\n- removed certificates:\n-     # Certificate \"Baltimore CyberTrust Root\"\n- added certificates:\n-     # Certificate \"TrustAsia SMIME ECC Root CA\"\n-     # Certificate \"TrustAsia SMIME RSA Root CA\"\n-     # Certificate \"TrustAsia TLS ECC Root CA\"\n-     # Certificate \"TrustAsia TLS RSA Root CA\"\n-     # Certificate \"SwissSign RSA SMIME Root CA 2022 - 1\"\n-     # Certificate \"SwissSign RSA TLS Root CA 2022 - 1\"\n-     # Certificate \"OISTE Client Root ECC G1\"\n-     # Certificate \"OISTE Client Root RSA G1\"\n-     # Certificate \"OISTE Server Root ECC G1\"\n-     # Certificate \" OISTE Server Root RSA G1\"",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/oraclelinux6els/CLSA-2026-1771411561.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

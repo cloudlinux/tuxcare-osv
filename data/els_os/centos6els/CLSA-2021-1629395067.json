@@ -1,0 +1,160 @@
+{
+  "id": "CLSA-2021-1629395067",
+  "summary": "Fix of CVE: CVE-2021-33574, CVE-2021-35942, CVE-2021-38604",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:6",
+        "name": "glibc",
+        "purl": "pkg:rpm/tuxcare/glibc?distro=centos-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.12-2.213.el6.cloudlinux.els"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:6",
+        "name": "glibc-common",
+        "purl": "pkg:rpm/tuxcare/glibc-common?distro=centos-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.12-2.213.el6.cloudlinux.els"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:6",
+        "name": "glibc-devel",
+        "purl": "pkg:rpm/tuxcare/glibc-devel?distro=centos-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.12-2.213.el6.cloudlinux.els"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:6",
+        "name": "glibc-headers",
+        "purl": "pkg:rpm/tuxcare/glibc-headers?distro=centos-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.12-2.213.el6.cloudlinux.els"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:6",
+        "name": "glibc-static",
+        "purl": "pkg:rpm/tuxcare/glibc-static?distro=centos-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.12-2.213.el6.cloudlinux.els"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:6",
+        "name": "glibc-utils",
+        "purl": "pkg:rpm/tuxcare/glibc-utils?distro=centos-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.12-2.213.el6.cloudlinux.els"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:6",
+        "name": "nscd",
+        "purl": "pkg:rpm/tuxcare/nscd?distro=centos-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.12-2.213.el6.cloudlinux.els"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2021-33574",
+    "CVE-2021-35942",
+    "CVE-2021-38604"
+  ],
+  "published": "2021-08-19T17:44:27Z",
+  "modified": "2021-08-19T17:44:27Z",
+  "details": "- Adopt pthread_attr_copy functionality, test case is included\n- CVE-2021-33574: avoid use-after-free vulnerability\n- CVE-2021-35942: avoid out-of-bounds read via\n  signed integer overflow in array index\n- CVE-2021-38604: considered. No NULL pointer dereference is possible",
+  "references": [
+    {
+      "url": "https://errata.cloudlinux.com/els6/CLSA-2021-1629395067.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

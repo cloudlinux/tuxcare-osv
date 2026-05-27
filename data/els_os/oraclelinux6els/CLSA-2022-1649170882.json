@@ -1,0 +1,58 @@
+{
+  "id": "CLSA-2022-1649170882",
+  "summary": "Fixed CVE-2022-0547 in openvpn",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:6",
+        "name": "openvpn",
+        "purl": "pkg:rpm/tuxcare/openvpn?distro=oraclelinux-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.4.9-1.el6.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:6",
+        "name": "openvpn-devel",
+        "purl": "pkg:rpm/tuxcare/openvpn-devel?distro=oraclelinux-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.4.9-1.el6.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2022-0547"
+  ],
+  "published": "2022-04-05T15:01:22Z",
+  "modified": "2022-05-17T17:28:33Z",
+  "details": "- CVE-2022-0547: Fix authentication bypass via multiple deferred authentication plug-ins",
+  "references": [
+    {
+      "url": "https://errata.cloudlinux.com/ol6/CLSA-2022-1649170882.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

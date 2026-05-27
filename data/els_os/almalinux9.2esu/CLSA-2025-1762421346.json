@@ -1,0 +1,58 @@
+{
+  "id": "CLSA-2025-1762421346",
+  "summary": "mod_security: Fix of CVE-2025-47947",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "mod_security",
+        "purl": "pkg:rpm/tuxcare/mod_security?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.9.6-1.el9.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "mod_security-mlogc",
+        "purl": "pkg:rpm/tuxcare/mod_security-mlogc?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.9.6-1.el9.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2025-47947"
+  ],
+  "published": "2025-11-06T09:29:09Z",
+  "modified": "2025-11-06T09:29:09Z",
+  "details": "- CVE-2025-47947: fix potential DoS by adding ARGS to the sanitize list only if\n  it's not added yet",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/almalinux9.2esu/CLSA-2025-1762421346.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "id": "CLSA-2022-1646915745",
+  "summary": "Fix of CVE: CVE-2021-40145",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "gd",
+        "purl": "pkg:rpm/tuxcare/gd?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.2.5-7.el8.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "gd-devel",
+        "purl": "pkg:rpm/tuxcare/gd-devel?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.2.5-7.el8.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "gd-progs",
+        "purl": "pkg:rpm/tuxcare/gd-progs?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.2.5-7.el8.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2021-40145"
+  ],
+  "published": "2022-03-10T12:35:45Z",
+  "modified": "2022-03-10T12:35:45Z",
+  "details": "- CVE-2021-40145: Fix a double free in gdImageGd2Ptr in gd_gd2.c in the GD Graphics Library",
+  "references": [
+    {
+      "url": "https://errata.cloudlinux.com/centos8.5-els/CLSA-2022-1646915745.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

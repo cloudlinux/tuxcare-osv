@@ -1,0 +1,60 @@
+{
+  "id": "CLSA-2026-1777886414",
+  "summary": "xorg-x11-server-Xwayland: Fix of 3 CVEs",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "xorg-x11-server-Xwayland",
+        "purl": "pkg:rpm/tuxcare/xorg-x11-server-Xwayland?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "21.1.3-7.el9.tuxcare.els14"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "xorg-x11-server-Xwayland-devel",
+        "purl": "pkg:rpm/tuxcare/xorg-x11-server-Xwayland-devel?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "21.1.3-7.el9.tuxcare.els14"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-33999",
+    "CVE-2026-34001",
+    "CVE-2026-34003"
+  ],
+  "published": "2026-05-04T09:20:19Z",
+  "modified": "2026-05-04T09:20:19Z",
+  "details": "- CVE-2026-33999: fix buffer re-use in _XkbSetCompatMap() (ELSCVE-122736)\n- CVE-2026-34001: fix use-after-free in miSyncTriggerFence() (ELSCVE-122732)\n- CVE-2026-34003: add bounds checking in CheckKeyTypes() and companion\n  helpers (ELSCVE-122740)",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/almalinux9.2esu/CLSA-2026-1777886414.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

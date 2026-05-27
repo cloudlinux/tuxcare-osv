@@ -1,0 +1,58 @@
+{
+  "id": "CLSA-2026-1769162862",
+  "summary": "gnupg2: Fix of CVE-2025-68973",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS-Stream:8",
+        "name": "gnupg2",
+        "purl": "pkg:rpm/tuxcare/gnupg2?distro=centos-stream-8"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.2.20-3.el8.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS-Stream:8",
+        "name": "gnupg2-smime",
+        "purl": "pkg:rpm/tuxcare/gnupg2-smime?distro=centos-stream-8"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.2.20-3.el8.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2025-68973"
+  ],
+  "published": "2026-01-23T10:07:46Z",
+  "modified": "2026-01-23T10:07:46Z",
+  "details": "- CVE-2025-68973: fix faulty double increment",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/centos-stream8els/CLSA-2026-1769162862.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

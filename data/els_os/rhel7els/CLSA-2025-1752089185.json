@@ -1,0 +1,60 @@
+{
+  "id": "CLSA-2025-1752089185",
+  "summary": "libsoup: Fix of 3 CVEs",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:RHEL:7",
+        "name": "libsoup",
+        "purl": "pkg:rpm/tuxcare/libsoup?distro=rhel-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.62.2-2.0.1.el7.tuxcare.els4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:RHEL:7",
+        "name": "libsoup-devel",
+        "purl": "pkg:rpm/tuxcare/libsoup-devel?distro=rhel-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.62.2-2.0.1.el7.tuxcare.els4"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2025-32906",
+    "CVE-2025-32911",
+    "CVE-2025-32913"
+  ],
+  "published": "2025-07-09T19:26:30Z",
+  "modified": "2025-07-09T19:26:30Z",
+  "details": "- CVE-2025-32906: fix out-of-bound read vulnerability\n- CVE-2025-32911: fix use-after-free vulnerability\n- CVE-2025-32913: fix NULL pointer dereference",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/rhel7els/CLSA-2025-1752089185.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

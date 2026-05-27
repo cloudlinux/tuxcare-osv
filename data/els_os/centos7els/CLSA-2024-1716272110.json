@@ -1,0 +1,138 @@
+{
+  "id": "CLSA-2024-1716272110",
+  "summary": "ncurses: Fix of CVE-2023-50495",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:7",
+        "name": "ncurses",
+        "purl": "pkg:rpm/tuxcare/ncurses?distro=centos-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.9-14.20130511.el7_4.tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:7",
+        "name": "ncurses-base",
+        "purl": "pkg:rpm/tuxcare/ncurses-base?distro=centos-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.9-14.20130511.el7_4.tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:7",
+        "name": "ncurses-devel",
+        "purl": "pkg:rpm/tuxcare/ncurses-devel?distro=centos-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.9-14.20130511.el7_4.tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:7",
+        "name": "ncurses-libs",
+        "purl": "pkg:rpm/tuxcare/ncurses-libs?distro=centos-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.9-14.20130511.el7_4.tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:7",
+        "name": "ncurses-static",
+        "purl": "pkg:rpm/tuxcare/ncurses-static?distro=centos-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.9-14.20130511.el7_4.tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:7",
+        "name": "ncurses-term",
+        "purl": "pkg:rpm/tuxcare/ncurses-term?distro=centos-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.9-14.20130511.el7_4.tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2023-50495"
+  ],
+  "published": "2024-05-21T09:53:22Z",
+  "modified": "2024-05-21T09:53:22Z",
+  "details": "- CVE-2023-50495: check return value of _nc_save_str() (from upstream patch 20230424),\n  add validity checks in _nc_parse_entry() (from upstream patch 20170826)",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/centos7-els/CLSA-2024-1716272110.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

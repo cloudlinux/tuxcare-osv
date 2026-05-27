@@ -1,0 +1,58 @@
+{
+  "id": "CLSA-2025-1744924875",
+  "summary": "libsoup: Fix of CVE-2024-52531",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:7",
+        "name": "libsoup",
+        "purl": "pkg:rpm/tuxcare/libsoup?distro=oraclelinux-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.62.2-2.0.1.el7.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:7",
+        "name": "libsoup-devel",
+        "purl": "pkg:rpm/tuxcare/libsoup-devel?distro=oraclelinux-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.62.2-2.0.1.el7.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2024-52531"
+  ],
+  "published": "2025-04-17T21:21:21Z",
+  "modified": "2025-04-17T21:21:21Z",
+  "details": "- CVE-2024-52531: fix buffer overflow caused by conversion to UTF-8",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/oraclelinux7-els/CLSA-2025-1744924875.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

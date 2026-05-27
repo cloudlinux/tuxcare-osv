@@ -1,0 +1,38 @@
+{
+  "id": "CLSA-2025-1762420153",
+  "summary": "delve: Fix of CVE-2024-34156",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "delve",
+        "purl": "pkg:rpm/tuxcare/delve?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.9.1-1.el9.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2024-34156"
+  ],
+  "published": "2025-11-06T09:09:22Z",
+  "modified": "2025-11-06T09:09:22Z",
+  "details": "- rebuild with newer golang to fix CVE-2024-34156 (stack exhaustion in\n  encoding/gob when decoding deeply nested structures)",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/almalinux9.2esu/CLSA-2025-1762420153.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

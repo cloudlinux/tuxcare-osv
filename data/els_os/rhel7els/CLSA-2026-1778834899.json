@@ -1,0 +1,78 @@
+{
+  "id": "CLSA-2026-1778834899",
+  "summary": "postfix: Fix of CVE-2023-51764",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:RHEL:7",
+        "name": "postfix",
+        "purl": "pkg:rpm/tuxcare/postfix?distro=rhel-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:2.10.1-9.el7.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:RHEL:7",
+        "name": "postfix-perl-scripts",
+        "purl": "pkg:rpm/tuxcare/postfix-perl-scripts?distro=rhel-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:2.10.1-9.el7.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:RHEL:7",
+        "name": "postfix-sysvinit",
+        "purl": "pkg:rpm/tuxcare/postfix-sysvinit?distro=rhel-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:2.10.1-9.el7.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2023-51764"
+  ],
+  "published": "2026-05-15T08:48:24Z",
+  "modified": "2026-05-15T08:48:24Z",
+  "details": "- CVE-2023-51764: fix SMTP smuggling (backport of 2.11.11-smuggling-patch)",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/rhel7els/CLSA-2026-1778834899.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

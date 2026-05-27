@@ -1,0 +1,99 @@
+{
+  "id": "CLSA-2025-1764778336",
+  "summary": "libarchive: Fix of 2 CVEs",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:7",
+        "name": "bsdcpio",
+        "purl": "pkg:rpm/tuxcare/bsdcpio?distro=oraclelinux-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.1.2-14.el7_7.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:7",
+        "name": "bsdtar",
+        "purl": "pkg:rpm/tuxcare/bsdtar?distro=oraclelinux-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.1.2-14.el7_7.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:7",
+        "name": "libarchive",
+        "purl": "pkg:rpm/tuxcare/libarchive?distro=oraclelinux-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.1.2-14.el7_7.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:7",
+        "name": "libarchive-devel",
+        "purl": "pkg:rpm/tuxcare/libarchive-devel?distro=oraclelinux-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.1.2-14.el7_7.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2025-5917",
+    "CVE-2025-5918"
+  ],
+  "published": "2025-12-03T16:12:19Z",
+  "modified": "2025-12-03T16:12:19Z",
+  "details": "- CVE-2025-5917: fix overflow in build_ustar_entry\n- CVE-2025-5918: do not skip past EOF while reading",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/oraclelinux7els/CLSA-2025-1764778336.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

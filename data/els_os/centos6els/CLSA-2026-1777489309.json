@@ -1,0 +1,58 @@
+{
+  "id": "CLSA-2026-1777489309",
+  "summary": "ansible: Fix of CVE-2019-14904",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:6",
+        "name": "ansible",
+        "purl": "pkg:rpm/tuxcare/ansible?distro=centos-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.6.20-1.el6.tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:6",
+        "name": "ansible-doc",
+        "purl": "pkg:rpm/tuxcare/ansible-doc?distro=centos-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.6.20-1.el6.tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2019-14904"
+  ],
+  "published": "2026-05-02T01:04:11Z",
+  "modified": "2026-05-02T01:04:11Z",
+  "details": "- CVE-2019-14904: validate solaris_zone name to prevent command injection",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/centos6els/CLSA-2026-1777489309.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

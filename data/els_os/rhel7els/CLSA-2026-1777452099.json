@@ -1,0 +1,58 @@
+{
+  "id": "CLSA-2026-1777452099",
+  "summary": "nettle: Fix of CVE-2021-3580",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:RHEL:7",
+        "name": "nettle",
+        "purl": "pkg:rpm/tuxcare/nettle?distro=rhel-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.7.1-9.el7_9.tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:RHEL:7",
+        "name": "nettle-devel",
+        "purl": "pkg:rpm/tuxcare/nettle-devel?distro=rhel-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.7.1-9.el7_9.tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2021-3580"
+  ],
+  "published": "2026-04-29T08:41:44Z",
+  "modified": "2026-04-29T08:41:44Z",
+  "details": "- CVE-2021-3580: add input validation to RSA decrypt family and length check to _pkcs1_sec_decrypt",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/rhel7els/CLSA-2026-1777452099.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "id": "CLSA-2026-1777563191",
+  "summary": "tar: Fix of CVE-2019-9923",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:6",
+        "name": "tar",
+        "purl": "pkg:rpm/tuxcare/tar?distro=oraclelinux-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:1.23-15.el6_8.tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2019-9923"
+  ],
+  "published": "2026-04-30T15:33:16Z",
+  "modified": "2026-04-30T15:33:16Z",
+  "details": "- CVE-2019-9923: fix NULL pointer dereference in pax_decode_header on\n  malformed PAX extended headers",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/oraclelinux6els/CLSA-2026-1777563191.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

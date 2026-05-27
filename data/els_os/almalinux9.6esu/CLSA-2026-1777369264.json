@@ -1,0 +1,78 @@
+{
+  "id": "CLSA-2026-1777369264",
+  "summary": "wireshark: Fix of CVE-2022-0586",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "wireshark",
+        "purl": "pkg:rpm/tuxcare/wireshark?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:3.4.10-7.el9_6.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "wireshark-cli",
+        "purl": "pkg:rpm/tuxcare/wireshark-cli?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:3.4.10-7.el9_6.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "wireshark-devel",
+        "purl": "pkg:rpm/tuxcare/wireshark-devel?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:3.4.10-7.el9_6.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2022-0586"
+  ],
+  "published": "2026-04-28T09:41:09Z",
+  "modified": "2026-04-28T09:41:09Z",
+  "details": "- CVE-2022-0586: fix infinite loop in RTMPT dissector rtmpt_get_amf_length",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/tuxcare9.6esu/CLSA-2026-1777369264.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

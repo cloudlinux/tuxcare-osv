@@ -1,0 +1,36 @@
+{
+  "id": "CLSA-2025-1763639786",
+  "summary": "Update of squid",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "squid",
+        "purl": "pkg:rpm/tuxcare/squid?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7:5.5-5.el9_2.1.tuxcare.els9"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [],
+  "published": "2025-11-20T11:56:30Z",
+  "modified": "2025-11-20T11:56:30Z",
+  "details": "- fix store_client memory leak causing OOM\n- fix PeerDigest lifetime management to prevent leaks",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/almalinux9.2esu/CLSA-2025-1763639786.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

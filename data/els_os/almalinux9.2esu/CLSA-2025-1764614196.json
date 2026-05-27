@@ -1,0 +1,38 @@
+{
+  "id": "CLSA-2025-1764614196",
+  "summary": "tpm2-tools: Fix of CVE-2024-29039",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "tpm2-tools",
+        "purl": "pkg:rpm/tuxcare/tpm2-tools?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.2-2.el9_1.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2024-29039"
+  ],
+  "published": "2025-12-01T20:49:03Z",
+  "modified": "2025-12-01T20:49:03Z",
+  "details": "- CVE-2024-29039: add comparison of pcr selection to prevent misleading picture\n  of the TPM state",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/almalinux9.2esu/CLSA-2025-1764614196.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

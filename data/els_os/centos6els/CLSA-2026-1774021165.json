@@ -1,0 +1,58 @@
+{
+  "id": "CLSA-2026-1774021165",
+  "summary": "expat: Fix of CVE-2026-25210",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:6",
+        "name": "expat",
+        "purl": "pkg:rpm/tuxcare/expat?distro=centos-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.0.1-13.el6_8.tuxcare.els7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:6",
+        "name": "expat-devel",
+        "purl": "pkg:rpm/tuxcare/expat-devel?distro=centos-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.0.1-13.el6_8.tuxcare.els7"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-25210"
+  ],
+  "published": "2026-03-23T14:52:23Z",
+  "modified": "2026-03-23T14:52:23Z",
+  "details": "- CVE-2026-25210: fix memory corruption via integer overflow in doContent\n  function during tag buffer reallocation",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/centos6els/CLSA-2026-1774021165.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

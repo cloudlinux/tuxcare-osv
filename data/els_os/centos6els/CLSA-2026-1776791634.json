@@ -1,0 +1,40 @@
+{
+  "id": "CLSA-2026-1776791634",
+  "summary": "rsync: Fix of 3 CVEs",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:6",
+        "name": "rsync",
+        "purl": "pkg:rpm/tuxcare/rsync?distro=centos-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.0.6-12.el6.tuxcare.els7"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2017-16548",
+    "CVE-2017-17434",
+    "CVE-2018-5764"
+  ],
+  "published": "2026-04-21T17:13:59Z",
+  "modified": "2026-04-21T17:13:59Z",
+  "details": "- CVE-2017-16548: fix heap overread in receive_xattr by enforcing trailing\n  NUL on received xattr names\n- CVE-2017-17434: sanitize xname in read_ndx_and_attrs and check daemon\n  filter against fnamecmp in recv_files\n- CVE-2018-5764: prevent client from resetting protect_args during the\n  second parse_arguments pass on the daemon",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/centos6els/CLSA-2026-1776791634.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

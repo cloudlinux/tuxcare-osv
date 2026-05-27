@@ -1,0 +1,39 @@
+{
+  "id": "CLSA-2023-1703184171",
+  "summary": "squid: Fix of 2 CVEs",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:6",
+        "name": "squid",
+        "purl": "pkg:rpm/tuxcare/squid?distro=oraclelinux-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7:3.1.23-30.el6.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2023-49285",
+    "CVE-2023-49286"
+  ],
+  "published": "2023-12-21T18:42:55Z",
+  "modified": "2023-12-21T18:42:55Z",
+  "details": "- CVE-2023-49285: Fix date parsing in RFC 1123 to prevent Buffer OverRead\n- CVE-2023-49286: Fix DoS attack against Helper process management",
+  "references": [
+    {
+      "url": "https://errata.cloudlinux.com/ol6/CLSA-2023-1703184171.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

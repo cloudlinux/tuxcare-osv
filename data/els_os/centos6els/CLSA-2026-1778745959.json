@@ -1,0 +1,78 @@
+{
+  "id": "CLSA-2026-1778745959",
+  "summary": "libssh2: Fix of CVE-2026-7598",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:6",
+        "name": "libssh2",
+        "purl": "pkg:rpm/tuxcare/libssh2?distro=centos-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.4.2-3.0.1.el6_10.1.tuxcare.els4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:6",
+        "name": "libssh2-devel",
+        "purl": "pkg:rpm/tuxcare/libssh2-devel?distro=centos-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.4.2-3.0.1.el6_10.1.tuxcare.els4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:6",
+        "name": "libssh2-docs",
+        "purl": "pkg:rpm/tuxcare/libssh2-docs?distro=centos-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.4.2-3.0.1.el6_10.1.tuxcare.els4"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-7598"
+  ],
+  "published": "2026-05-14T19:22:04Z",
+  "modified": "2026-05-14T19:22:04Z",
+  "details": "- CVE-2026-7598: add username_len/password_len bounds checks in\n  userauth_list() and userauth_password() to prevent integer overflow\n  when allocating the SSH USERAUTH_REQUEST packet buffer",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/centos6els/CLSA-2026-1778745959.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

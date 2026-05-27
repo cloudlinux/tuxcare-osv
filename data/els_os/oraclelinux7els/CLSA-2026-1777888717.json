@@ -1,0 +1,38 @@
+{
+  "id": "CLSA-2026-1777888717",
+  "summary": "gawk: Fix of CVE-2023-4156",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:7",
+        "name": "gawk",
+        "purl": "pkg:rpm/tuxcare/gawk?distro=oraclelinux-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.0.2-4.el7_3.1.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2023-4156"
+  ],
+  "published": "2026-05-04T10:31:50Z",
+  "modified": "2026-05-04T10:31:50Z",
+  "details": "- Fix CVE-2023-4156: builtin.c (format_tree): When collecting positional field\n  widths or precisions, check for wrap around to negative values.",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/oraclelinux7els/CLSA-2026-1777888717.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

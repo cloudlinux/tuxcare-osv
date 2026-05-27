@@ -1,0 +1,38 @@
+{
+  "id": "CLSA-2024-1735311253",
+  "summary": "squid: Fix of CVE-2023-5824",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "squid",
+        "purl": "pkg:rpm/tuxcare/squid?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7:5.5-5.el9_2.1.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2023-5824"
+  ],
+  "published": "2024-12-27T14:54:19Z",
+  "modified": "2024-12-27T14:54:19Z",
+  "details": "- CVE-2023-5824: do not send serialized HTTP response header bytes in\n  storeClientCopy() answers. Ignore serialized header size when calling\n  storeClientCopy().",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/almalinux9.2-esu/CLSA-2024-1735311253.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

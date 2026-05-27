@@ -1,0 +1,56 @@
+{
+  "id": "CLSA-2023-1675984774",
+  "summary": "Update of tzdata",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "tzdata",
+        "purl": "pkg:rpm/tuxcare/tzdata?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2022g-1.el8.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "tzdata-java",
+        "purl": "pkg:rpm/tuxcare/tzdata-java?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2022g-1.el8.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [],
+  "published": "2023-02-09T23:19:34Z",
+  "modified": "2023-02-09T23:19:34Z",
+  "details": "- Upgrade to tzdata-2022g\n  - The northern edge of the Mexican state of Chihuahua will\n    change time zone to agree with nearby US locations on\n    2022-11-30.\n  - Added a new Zone America/Ciudad_Juarez that splits from\n    America/Ojinaga.\n  - Mexico will stop observing DST except near the US border.\n  - Chihuahua moved to -06 year round starting on 2022-10-30.\n  - Fiji no longer observes DST.",
+  "references": [
+    {
+      "url": "https://errata.cloudlinux.com/centos8.5-els/CLSA-2023-1675984774.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

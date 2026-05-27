@@ -1,0 +1,39 @@
+{
+  "id": "CLSA-2025-1738833413",
+  "summary": "rsync: Fix of 2 CVEs",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:7",
+        "name": "rsync",
+        "purl": "pkg:rpm/tuxcare/rsync?distro=oraclelinux-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.1.2-12.el7_9.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2024-12087",
+    "CVE-2024-12088"
+  ],
+  "published": "2025-02-06T09:16:59Z",
+  "modified": "2025-02-06T09:16:59Z",
+  "details": "- CVE-2024-12087: fix path traversal vulnerability in rsync enabled by the '--inc-recursive' option\n- CVE-2024-12088: make --safe-links stricter",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/oraclelinux7-els/CLSA-2025-1738833413.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

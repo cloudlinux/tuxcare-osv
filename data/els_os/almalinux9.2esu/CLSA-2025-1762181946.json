@@ -1,0 +1,58 @@
+{
+  "id": "CLSA-2025-1762181946",
+  "summary": "frr: Fix of CVE-2023-38406",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "frr",
+        "purl": "pkg:rpm/tuxcare/frr?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8.3.1-5.el9.2.alma.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "frr-selinux",
+        "purl": "pkg:rpm/tuxcare/frr-selinux?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8.3.1-5.el9.2.alma.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2023-38406"
+  ],
+  "published": "2025-11-03T14:59:10Z",
+  "modified": "2025-11-03T14:59:10Z",
+  "details": "- CVE-2023-38406: fix BGP Flowspec NLRI overflow vulnerability\n  where zero-length packets could cause packet processing errors",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/almalinux9.2esu/CLSA-2025-1762181946.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

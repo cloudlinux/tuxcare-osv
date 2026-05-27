@@ -1,0 +1,98 @@
+{
+  "id": "CLSA-2025-1757666692",
+  "summary": "libtiff: Fix of CVE-2017-9117",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:7",
+        "name": "libtiff",
+        "purl": "pkg:rpm/tuxcare/libtiff?distro=centos-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.0.3-35.el7.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:7",
+        "name": "libtiff-devel",
+        "purl": "pkg:rpm/tuxcare/libtiff-devel?distro=centos-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.0.3-35.el7.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:7",
+        "name": "libtiff-static",
+        "purl": "pkg:rpm/tuxcare/libtiff-static?distro=centos-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.0.3-35.el7.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:7",
+        "name": "libtiff-tools",
+        "purl": "pkg:rpm/tuxcare/libtiff-tools?distro=centos-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.0.3-35.el7.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2017-9117"
+  ],
+  "published": "2025-09-12T08:44:56Z",
+  "modified": "2025-09-12T08:44:56Z",
+  "details": "- CVE-2017-9117: add checks for all BMP reading operations to avoid\n  buffer overflow",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/centos7els/CLSA-2025-1757666692.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

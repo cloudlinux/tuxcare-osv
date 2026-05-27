@@ -1,0 +1,80 @@
+{
+  "id": "CLSA-2026-1778223262",
+  "summary": "curl: Fix of 3 CVEs",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:6",
+        "name": "curl",
+        "purl": "pkg:rpm/tuxcare/curl?distro=centos-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7.19.7-59.el6.tuxcare.els14"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:6",
+        "name": "libcurl",
+        "purl": "pkg:rpm/tuxcare/libcurl?distro=centos-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7.19.7-59.el6.tuxcare.els14"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:6",
+        "name": "libcurl-devel",
+        "purl": "pkg:rpm/tuxcare/libcurl-devel?distro=centos-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7.19.7-59.el6.tuxcare.els14"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2016-8618",
+    "CVE-2016-8619",
+    "CVE-2019-5482"
+  ],
+  "published": "2026-05-08T11:36:58Z",
+  "modified": "2026-05-08T11:36:58Z",
+  "details": "- CVE-2016-8618: fix double-free in curl_maprintf\n- CVE-2016-8619: fix double-free in krb5 code\n- CVE-2019-5482: fix heap buffer overflow in TFTP receive",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/centos6els/CLSA-2026-1778223262.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "id": "CLSA-2024-1726163202",
+  "summary": "expat: Fix of 3 CVEs",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS-Stream:8",
+        "name": "expat",
+        "purl": "pkg:rpm/tuxcare/expat?distro=centos-stream-8"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.2.5-13.el8.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS-Stream:8",
+        "name": "expat-devel",
+        "purl": "pkg:rpm/tuxcare/expat-devel?distro=centos-stream-8"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.2.5-13.el8.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS-Stream:8",
+        "name": "expat-static",
+        "purl": "pkg:rpm/tuxcare/expat-static?distro=centos-stream-8"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.2.5-13.el8.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2024-45490",
+    "CVE-2024-45491",
+    "CVE-2024-45492"
+  ],
+  "published": "2024-09-12T17:46:46Z",
+  "modified": "2024-09-12T17:46:46Z",
+  "details": "- The release version was raised because it corresponds to version 13\n- CVE-2024-45490: reject negative len for XML_ParseBuffer to prevent\n  improper restriction of XML External Entity Reference\n- CVE-2024-45491: prevent integer overflow in dtdCopy\n- CVE-2024-45492: prevent integer overflow in nextScaffoldPart",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/centos8stream-els/CLSA-2024-1726163202.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

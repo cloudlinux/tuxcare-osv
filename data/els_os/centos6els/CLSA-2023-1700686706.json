@@ -1,0 +1,36 @@
+{
+  "id": "CLSA-2023-1700686706",
+  "summary": "Update of microcode_ctl",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:6",
+        "name": "microcode_ctl",
+        "purl": "pkg:rpm/tuxcare/microcode_ctl?distro=centos-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3:1.17-33.40.el6_10.tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [],
+  "published": "2023-11-22T20:58:30Z",
+  "modified": "2023-11-22T20:58:30Z",
+  "details": "- Fix silent microcode rejection in some cases\n- Loading to /dev/null is enabled on VM",
+  "references": [
+    {
+      "url": "https://errata.cloudlinux.com/els6/CLSA-2023-1700686706.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

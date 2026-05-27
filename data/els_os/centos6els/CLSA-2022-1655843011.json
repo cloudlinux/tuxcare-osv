@@ -1,0 +1,78 @@
+{
+  "id": "CLSA-2022-1655843011",
+  "summary": "Fixed CVE-2019-17571 in log4j",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:6",
+        "name": "log4j",
+        "purl": "pkg:rpm/tuxcare/log4j?distro=centos-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.2.14-6.4.el6.tuxcare.els4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:6",
+        "name": "log4j-javadoc",
+        "purl": "pkg:rpm/tuxcare/log4j-javadoc?distro=centos-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.2.14-6.4.el6.tuxcare.els4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:6",
+        "name": "log4j-manual",
+        "purl": "pkg:rpm/tuxcare/log4j-manual?distro=centos-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.2.14-6.4.el6.tuxcare.els4"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2019-17571"
+  ],
+  "published": "2022-06-21T20:23:31Z",
+  "modified": "2022-06-21T20:23:31Z",
+  "details": "- CVE-2019-17571: Fix the deserialization of untrusted data in SocketServer\n  that allows an attacker to remotely execute arbitrary code",
+  "references": [
+    {
+      "url": "https://errata.cloudlinux.com/els6/CLSA-2022-1655843011.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

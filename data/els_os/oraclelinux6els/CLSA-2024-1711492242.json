@@ -1,0 +1,38 @@
+{
+  "id": "CLSA-2024-1711492242",
+  "summary": "squid: Fix of CVE-2024-25617",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:6",
+        "name": "squid",
+        "purl": "pkg:rpm/tuxcare/squid?distro=oraclelinux-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7:3.1.23-30.el6.tuxcare.els12"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2024-25617"
+  ],
+  "published": "2024-03-26T22:30:45Z",
+  "modified": "2024-03-26T22:30:45Z",
+  "details": "- CVE-2024-25617: Fix denial of service in HTTP header parser",
+  "references": [
+    {
+      "url": "https://errata.cloudlinux.com/ol6/CLSA-2024-1711492242.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "id": "CLSA-2025-1767001153",
+  "summary": "pam: Fix of CVE-2025-8941",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "pam",
+        "purl": "pkg:rpm/tuxcare/pam?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.5.1-14.el9.tuxcare.els4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "pam-devel",
+        "purl": "pkg:rpm/tuxcare/pam-devel?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.5.1-14.el9.tuxcare.els4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "pam-docs",
+        "purl": "pkg:rpm/tuxcare/pam-docs?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.5.1-14.el9.tuxcare.els4"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2025-8941"
+  ],
+  "published": "2025-12-29T09:39:17Z",
+  "modified": "2025-12-29T09:39:17Z",
+  "details": "- CVE-2025-8941: fix additiinally potential privilege escalationvia multiple symlink\n  attacks and race conditions",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/almalinux9.2esu/CLSA-2025-1767001153.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

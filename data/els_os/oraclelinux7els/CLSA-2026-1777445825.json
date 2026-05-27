@@ -1,0 +1,138 @@
+{
+  "id": "CLSA-2026-1777445825",
+  "summary": "ncurses: Fix of CVE-2025-69720",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:7",
+        "name": "ncurses",
+        "purl": "pkg:rpm/tuxcare/ncurses?distro=oraclelinux-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.9-14.20130511.el7_4.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:7",
+        "name": "ncurses-base",
+        "purl": "pkg:rpm/tuxcare/ncurses-base?distro=oraclelinux-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.9-14.20130511.el7_4.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:7",
+        "name": "ncurses-devel",
+        "purl": "pkg:rpm/tuxcare/ncurses-devel?distro=oraclelinux-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.9-14.20130511.el7_4.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:7",
+        "name": "ncurses-libs",
+        "purl": "pkg:rpm/tuxcare/ncurses-libs?distro=oraclelinux-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.9-14.20130511.el7_4.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:7",
+        "name": "ncurses-static",
+        "purl": "pkg:rpm/tuxcare/ncurses-static?distro=oraclelinux-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.9-14.20130511.el7_4.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:7",
+        "name": "ncurses-term",
+        "purl": "pkg:rpm/tuxcare/ncurses-term?distro=oraclelinux-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.9-14.20130511.el7_4.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2025-69720"
+  ],
+  "published": "2026-04-29T06:57:18Z",
+  "modified": "2026-04-29T06:57:18Z",
+  "details": "- CVE-2025-69720: add a limit-check in infocmp -i option's\n  analyze_string function to prevent stack-based buffer overflow\n  (from upstream ncurses 6.5 patchlevel 20251213)",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/oraclelinux7els/CLSA-2026-1777445825.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

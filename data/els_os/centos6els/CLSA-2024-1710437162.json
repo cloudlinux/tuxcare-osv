@@ -1,0 +1,139 @@
+{
+  "id": "CLSA-2024-1710437162",
+  "summary": "bind: Fix of 2 CVEs",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:6",
+        "name": "bind",
+        "purl": "pkg:rpm/tuxcare/bind?distro=centos-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "33:9.8.2-0.68.rc1.el6.11.tuxcare.els8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:6",
+        "name": "bind-chroot",
+        "purl": "pkg:rpm/tuxcare/bind-chroot?distro=centos-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "33:9.8.2-0.68.rc1.el6.11.tuxcare.els8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:6",
+        "name": "bind-devel",
+        "purl": "pkg:rpm/tuxcare/bind-devel?distro=centos-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "33:9.8.2-0.68.rc1.el6.11.tuxcare.els8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:6",
+        "name": "bind-libs",
+        "purl": "pkg:rpm/tuxcare/bind-libs?distro=centos-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "33:9.8.2-0.68.rc1.el6.11.tuxcare.els8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:6",
+        "name": "bind-sdb",
+        "purl": "pkg:rpm/tuxcare/bind-sdb?distro=centos-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "33:9.8.2-0.68.rc1.el6.11.tuxcare.els8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:6",
+        "name": "bind-utils",
+        "purl": "pkg:rpm/tuxcare/bind-utils?distro=centos-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "33:9.8.2-0.68.rc1.el6.11.tuxcare.els8"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2023-50387",
+    "CVE-2023-50868"
+  ],
+  "published": "2024-03-14T17:26:05Z",
+  "modified": "2024-03-14T17:26:05Z",
+  "details": "- CVE-2023-50387: Resolved CPU exhaustion from specially crafted DNSSEC-signed\n  zone responses\n- CVE-2023-50868: Resolved CPU exhaustion from DNSSEC-signed zones using NSEC3\n- Enable internal tests by default",
+  "references": [
+    {
+      "url": "https://errata.cloudlinux.com/els6/CLSA-2024-1710437162.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

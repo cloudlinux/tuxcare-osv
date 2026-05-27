@@ -1,0 +1,38 @@
+{
+  "id": "CLSA-2024-1729512774",
+  "summary": "python-pip: Fix of CVE-2024-37891",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:7",
+        "name": "python3-pip",
+        "purl": "pkg:rpm/tuxcare/python3-pip?distro=centos-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "9.0.3-8.el7.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2024-37891"
+  ],
+  "published": "2024-10-21T12:12:58Z",
+  "modified": "2024-10-21T12:12:58Z",
+  "details": "- CVE-2024-37891: strip Proxy-Authorization header on redirects",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/centos7-els/CLSA-2024-1729512774.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

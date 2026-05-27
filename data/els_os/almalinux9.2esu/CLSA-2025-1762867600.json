@@ -1,0 +1,38 @@
+{
+  "id": "CLSA-2025-1762867600",
+  "summary": "git-lfs: Fix of CVE-2024-53263",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "git-lfs",
+        "purl": "pkg:rpm/tuxcare/git-lfs?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.2.0-1.el9.tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2024-53263"
+  ],
+  "published": "2025-11-11T13:26:45Z",
+  "modified": "2025-11-11T13:26:45Z",
+  "details": "- CVE-2024-53263: fix issue where Git LFS could expose user credentials via URL-\n  encoded control characters in host's URL",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/almalinux9.2esu/CLSA-2025-1762867600.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

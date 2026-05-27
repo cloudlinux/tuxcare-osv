@@ -1,0 +1,59 @@
+{
+  "id": "CLSA-2025-1764580671",
+  "summary": "pki-servlet-engine: Fix of 2 CVEs",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "pki-servlet-4.0-api",
+        "purl": "pkg:rpm/tuxcare/pki-servlet-4.0-api?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:9.0.50-1.el9.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "pki-servlet-engine",
+        "purl": "pkg:rpm/tuxcare/pki-servlet-engine?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:9.0.50-1.el9.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2024-50379",
+    "CVE-2024-38286"
+  ],
+  "published": "2025-12-01T19:08:17Z",
+  "modified": "2025-12-01T19:08:17Z",
+  "details": "- CVE-2024-50379: fix TOCTOU vulnerability in JSP compilation to prevent RCE on\n  case insensitive file systems\n- CVE-2024-38286: fix issue of resource allocation without limits or throttling\n  vulnerability in TLS handshake process\n- Apply skip-common-daemon patch to remove the commons-daemon.jar copy in build.xml,\n  as Alma/RHEL cannot ship bundled JARs and must use the system commons-daemon\n  The ELS-provided source archive requires this adaptation",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/almalinux9.2esu/CLSA-2025-1764580671.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

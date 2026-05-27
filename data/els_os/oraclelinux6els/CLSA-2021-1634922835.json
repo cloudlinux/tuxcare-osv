@@ -1,0 +1,98 @@
+{
+  "id": "CLSA-2021-1634922835",
+  "summary": "Fixed CVE-2020-11868 in ntp",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:6",
+        "name": "ntp",
+        "purl": "pkg:rpm/tuxcare/ntp?distro=oraclelinux-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.2.6p5-16.el6.cloudlinux.els"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:6",
+        "name": "ntp-doc",
+        "purl": "pkg:rpm/tuxcare/ntp-doc?distro=oraclelinux-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.2.6p5-16.el6.cloudlinux.els"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:6",
+        "name": "ntp-perl",
+        "purl": "pkg:rpm/tuxcare/ntp-perl?distro=oraclelinux-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.2.6p5-16.el6.cloudlinux.els"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:6",
+        "name": "ntpdate",
+        "purl": "pkg:rpm/tuxcare/ntpdate?distro=oraclelinux-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.2.6p5-16.el6.cloudlinux.els"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2020-11868"
+  ],
+  "published": "2021-10-22T17:13:55Z",
+  "modified": "2022-05-17T17:28:33Z",
+  "details": "- CVE-2020-11868: incorrect handling of packets from unauthenticated\n  synchronization source with spoofed IP address leads to denial of service.",
+  "references": [
+    {
+      "url": "https://errata.cloudlinux.com/ol6/CLSA-2021-1634922835.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "id": "CLSA-2026-1776172802",
+  "summary": "binutils: Fix of CVE-2025-11082",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:6",
+        "name": "binutils",
+        "purl": "pkg:rpm/tuxcare/binutils?distro=centos-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:2.20.51.0.2-5.48.1.el6.tuxcare.els12"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:6",
+        "name": "binutils-devel",
+        "purl": "pkg:rpm/tuxcare/binutils-devel?distro=centos-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:2.20.51.0.2-5.48.1.el6.tuxcare.els12"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2025-11082"
+  ],
+  "published": "2026-04-16T14:45:17Z",
+  "modified": "2026-04-16T14:45:17Z",
+  "details": "- CVE-2025-11082: fix heap-based buffer overflow in _bfd_elf_parse_eh_frame",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/centos6els/CLSA-2026-1776172802.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

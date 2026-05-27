@@ -1,0 +1,59 @@
+{
+  "id": "CLSA-2025-1747251120",
+  "summary": "buildah: Fix of 2 CVEs",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "buildah",
+        "purl": "pkg:rpm/tuxcare/buildah?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:1.29.5-1.el9_2.tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "buildah-tests",
+        "purl": "pkg:rpm/tuxcare/buildah-tests?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:1.29.5-1.el9_2.tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2023-45287",
+    "CVE-2024-34156"
+  ],
+  "published": "2025-05-14T19:32:04Z",
+  "modified": "2025-05-14T19:32:04Z",
+  "details": "- Rebuild with new golang version to address the following CVEs:\n- CVE-2023-45287: Timing Side Channel attack in RSA based TLS key exchanges\n- CVE-2024-34156: panic due to stack exhaustion for Decoder.Decode",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/almalinux9.2-esu/CLSA-2025-1747251120.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

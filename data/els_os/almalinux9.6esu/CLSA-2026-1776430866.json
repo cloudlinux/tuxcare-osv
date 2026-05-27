@@ -1,0 +1,142 @@
+{
+  "id": "CLSA-2026-1776430866",
+  "summary": "binutils: Fix of 5 CVEs",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "binutils",
+        "purl": "pkg:rpm/tuxcare/binutils?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.35.2-63.el9.tuxcare.els7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "binutils-devel",
+        "purl": "pkg:rpm/tuxcare/binutils-devel?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.35.2-63.el9.tuxcare.els7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "binutils-gold",
+        "purl": "pkg:rpm/tuxcare/binutils-gold?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.35.2-63.el9.tuxcare.els7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "cross-binutils-aarch64",
+        "purl": "pkg:rpm/tuxcare/cross-binutils-aarch64?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.35.2-63.el9.tuxcare.els7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "cross-binutils-ppc64le",
+        "purl": "pkg:rpm/tuxcare/cross-binutils-ppc64le?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.35.2-63.el9.tuxcare.els7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "cross-binutils-s390x",
+        "purl": "pkg:rpm/tuxcare/cross-binutils-s390x?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.35.2-63.el9.tuxcare.els7"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2022-44840",
+    "CVE-2023-25584",
+    "CVE-2022-47673",
+    "CVE-2022-47696",
+    "CVE-2022-45703"
+  ],
+  "published": "2026-04-17T17:28:13Z",
+  "modified": "2026-04-17T17:28:13Z",
+  "details": "- CVE-2022-44840: fix heap buffer overflow in find_section_in_set in dwarf.c\n- CVE-2023-25584: fix lack of bounds checking in vms-alpha.c parse_module\n- CVE-2022-47673: fix OOB reads in parse_module\n- CVE-2022-47696: fix uninitialised the_bfd field in mach-o.c synthetic symbols\n- CVE-2022-45703: fix heap buffer overflow in display_gdb_index in dwarf.c",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/tuxcare9.6esu/CLSA-2026-1776430866.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

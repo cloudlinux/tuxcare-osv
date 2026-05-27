@@ -1,0 +1,38 @@
+{
+  "id": "CLSA-2025-1751142056",
+  "summary": "rsync: Fix of CVE-2024-12747",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:RHEL:7",
+        "name": "rsync",
+        "purl": "pkg:rpm/tuxcare/rsync?distro=rhel-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.1.2-12.el7_9.tuxcare.els4"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2024-12747"
+  ],
+  "published": "2025-06-28T20:21:01Z",
+  "modified": "2025-06-28T20:21:01Z",
+  "details": "- CVE-2024-12747: fix symlink race condition in sender",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/rhel7els/CLSA-2025-1751142056.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

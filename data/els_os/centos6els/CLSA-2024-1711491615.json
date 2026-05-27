@@ -1,0 +1,38 @@
+{
+  "id": "CLSA-2024-1711491615",
+  "summary": "squid: Fix of CVE-2024-25617",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:6",
+        "name": "squid",
+        "purl": "pkg:rpm/tuxcare/squid?distro=centos-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7:3.1.23-30.el6.tuxcare.els12"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2024-25617"
+  ],
+  "published": "2024-03-26T22:20:18Z",
+  "modified": "2024-03-26T22:20:18Z",
+  "details": "- CVE-2024-25617: Fix denial of service in HTTP header parser",
+  "references": [
+    {
+      "url": "https://errata.cloudlinux.com/els6/CLSA-2024-1711491615.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

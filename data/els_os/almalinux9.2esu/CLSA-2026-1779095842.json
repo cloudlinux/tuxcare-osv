@@ -1,0 +1,78 @@
+{
+  "id": "CLSA-2026-1779095842",
+  "summary": "memcached: Fix of CVE-2021-37519",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "memcached",
+        "purl": "pkg:rpm/tuxcare/memcached?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.6.9-7.el9.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "memcached-devel",
+        "purl": "pkg:rpm/tuxcare/memcached-devel?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.6.9-7.el9.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "memcached-selinux",
+        "purl": "pkg:rpm/tuxcare/memcached-selinux?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.6.9-7.el9.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2021-37519"
+  ],
+  "published": "2026-05-18T09:17:26Z",
+  "modified": "2026-05-18T09:17:26Z",
+  "details": "- CVE-2021-37519: heap buffer overflow in authfile_load() when the auth\n  file lacks a trailing newline; missing bounds check on fgets() and\n  missing NUL check in the user-entry parse loop allow local DoS via a\n  crafted --auth-file.",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/almalinux9.2esu/CLSA-2026-1779095842.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

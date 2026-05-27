@@ -1,0 +1,78 @@
+{
+  "id": "CLSA-2026-1779216196",
+  "summary": "libssh2: Fix of CVE-2026-7598",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:7",
+        "name": "libssh2",
+        "purl": "pkg:rpm/tuxcare/libssh2?distro=oraclelinux-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.8.0-4.el7_9.1.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:7",
+        "name": "libssh2-devel",
+        "purl": "pkg:rpm/tuxcare/libssh2-devel?distro=oraclelinux-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.8.0-4.el7_9.1.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:7",
+        "name": "libssh2-docs",
+        "purl": "pkg:rpm/tuxcare/libssh2-docs?distro=oraclelinux-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.8.0-4.el7_9.1.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-7598"
+  ],
+  "published": "2026-05-19T18:43:20Z",
+  "modified": "2026-05-19T18:43:20Z",
+  "details": "- CVE-2026-7598: fix integer overflow in userauth_password (CVE-2026-7598)",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/oraclelinux7els/CLSA-2026-1779216196.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

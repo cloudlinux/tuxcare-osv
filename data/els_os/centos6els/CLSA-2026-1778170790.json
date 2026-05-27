@@ -1,0 +1,78 @@
+{
+  "id": "CLSA-2026-1778170790",
+  "summary": "quagga: Fix of CVE-2018-5381",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:6",
+        "name": "quagga",
+        "purl": "pkg:rpm/tuxcare/quagga?distro=centos-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.99.15-14.el6.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:6",
+        "name": "quagga-contrib",
+        "purl": "pkg:rpm/tuxcare/quagga-contrib?distro=centos-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.99.15-14.el6.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:6",
+        "name": "quagga-devel",
+        "purl": "pkg:rpm/tuxcare/quagga-devel?distro=centos-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.99.15-14.el6.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2018-5381"
+  ],
+  "published": "2026-05-08T11:37:43Z",
+  "modified": "2026-05-08T11:37:43Z",
+  "details": "- CVE-2018-5381: bgpd capability parser can enter an infinite loop on\n  invalid OPEN messages whose Multi-Protocol capability has an\n  unrecognized AFI/SAFI, causing a denial of service.",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/centos6els/CLSA-2026-1778170790.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

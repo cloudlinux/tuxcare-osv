@@ -1,0 +1,38 @@
+{
+  "id": "CLSA-2023-1703181677",
+  "summary": "haproxy: Fix of CVE-2023-45539",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "haproxy",
+        "purl": "pkg:rpm/tuxcare/haproxy?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.8.27-2.el8.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2023-45539"
+  ],
+  "published": "2023-12-21T18:01:21Z",
+  "modified": "2023-12-21T18:01:21Z",
+  "details": "- CVE-2023-45539: h1: do not accept '#' as part of the URI component;\n  h2: reject more chars from the :path pseudo header",
+  "references": [
+    {
+      "url": "https://errata.cloudlinux.com/centos8.5-els/CLSA-2023-1703181677.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

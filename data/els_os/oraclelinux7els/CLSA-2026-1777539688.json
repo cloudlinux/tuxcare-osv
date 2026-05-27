@@ -1,0 +1,39 @@
+{
+  "id": "CLSA-2026-1777539688",
+  "summary": "sysstat: Fix of 2 CVEs",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:7",
+        "name": "sysstat",
+        "purl": "pkg:rpm/tuxcare/sysstat?distro=oraclelinux-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "10.1.5-20.0.3.el7_9.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2022-39377",
+    "CVE-2023-33204"
+  ],
+  "published": "2026-04-30T09:39:00Z",
+  "modified": "2026-04-30T09:39:00Z",
+  "details": "- CVE-2022-39377: size_t overflow in allocate_structures (sa_common.c) may cause buffer overflow leading to RCE\n- CVE-2023-33204: integer overflow in check_overflow (common.c) - incomplete fix for CVE-2022-39377",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/oraclelinux7els/CLSA-2026-1777539688.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

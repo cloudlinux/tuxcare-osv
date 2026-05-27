@@ -1,0 +1,38 @@
+{
+  "id": "CLSA-2025-1751134987",
+  "summary": "rsync: Fix of CVE-2024-12088",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:6",
+        "name": "rsync",
+        "purl": "pkg:rpm/tuxcare/rsync?distro=centos-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.0.6-12.el6.tuxcare.els5"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2024-12088"
+  ],
+  "published": "2025-06-28T18:23:12Z",
+  "modified": "2025-06-28T18:23:12Z",
+  "details": "- CVE-2024-12088: fix improper verification of symbolic link destinations to\n  prevent path traversal vulnerability",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/centos6els/CLSA-2025-1751134987.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "id": "CLSA-2022-1644500972",
+  "summary": "Fix of CVE: CVE-2022-23307, CVE-2022-23302",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:6",
+        "name": "log4j",
+        "purl": "pkg:rpm/tuxcare/log4j?distro=centos-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.2.14-6.4.el6.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:6",
+        "name": "log4j-javadoc",
+        "purl": "pkg:rpm/tuxcare/log4j-javadoc?distro=centos-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.2.14-6.4.el6.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:6",
+        "name": "log4j-manual",
+        "purl": "pkg:rpm/tuxcare/log4j-manual?distro=centos-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.2.14-6.4.el6.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2022-23307",
+    "CVE-2022-23302"
+  ],
+  "published": "2022-02-10T13:49:32Z",
+  "modified": "2022-02-10T13:49:32Z",
+  "details": "- CVE-2022-23307: Fix Unsafe deserialization flaw in Chainsaw log viewer\n- CVE-2022-23302: Fix remote code execution when application is configured to use JMSSink",
+  "references": [
+    {
+      "url": "https://errata.cloudlinux.com/els6/CLSA-2022-1644500972.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

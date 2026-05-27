@@ -1,0 +1,58 @@
+{
+  "id": "CLSA-2023-1699909692",
+  "summary": "sudo: Fix of CVE-2023-23240",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:7",
+        "name": "sudo",
+        "purl": "pkg:rpm/tuxcare/sudo?distro=centos-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.8.23-10.el7_9.3.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:7",
+        "name": "sudo-devel",
+        "purl": "pkg:rpm/tuxcare/sudo-devel?distro=centos-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.8.23-10.el7_9.3.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2023-23240"
+  ],
+  "published": "2023-11-13T21:08:16Z",
+  "modified": "2023-11-13T21:08:16Z",
+  "details": "- CVE-2023-23240: Add security checks before using temp files for SELinux RBAC sudoedit",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/centos7-els/CLSA-2023-1699909692.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "id": "CLSA-2026-1777387432",
+  "summary": "buildah: Fix of CVE-2026-34986",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "buildah",
+        "purl": "pkg:rpm/tuxcare/buildah?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:1.39.6-1.el9_2.tuxcare.els6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "buildah-tests",
+        "purl": "pkg:rpm/tuxcare/buildah-tests?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:1.39.6-1.el9_2.tuxcare.els6"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-34986"
+  ],
+  "published": "2026-04-28T15:34:10Z",
+  "modified": "2026-04-28T15:34:10Z",
+  "details": "- CVE-2026-34986: fix go-jose panic on JWE decryption when encrypted_key field is empty",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/almalinux9.2esu/CLSA-2026-1777387432.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

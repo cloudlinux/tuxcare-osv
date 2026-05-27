@@ -1,0 +1,98 @@
+{
+  "id": "CLSA-2025-1747251688",
+  "summary": "corosync: Fix of CVE-2025-30472",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "corosync",
+        "purl": "pkg:rpm/tuxcare/corosync?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.1.7-1.el9.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "corosync-vqsim",
+        "purl": "pkg:rpm/tuxcare/corosync-vqsim?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.1.7-1.el9.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "corosynclib",
+        "purl": "pkg:rpm/tuxcare/corosynclib?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.1.7-1.el9.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "corosynclib-devel",
+        "purl": "pkg:rpm/tuxcare/corosynclib-devel?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.1.7-1.el9.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2025-30472"
+  ],
+  "published": "2025-05-14T19:41:33Z",
+  "modified": "2025-05-14T19:41:33Z",
+  "details": "- CVE-2025-30472: fix stack-based buffer overflow in orf_token_endian_convert by\n  adding input validation for large UDP packets",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/almalinux9.2-esu/CLSA-2025-1747251688.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "id": "CLSA-2026-1778143159",
+  "summary": "jq: Fix of 2 CVEs",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "jq",
+        "purl": "pkg:rpm/tuxcare/jq?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.6-17.el9_6.2.tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "jq-devel",
+        "purl": "pkg:rpm/tuxcare/jq-devel?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.6-17.el9_6.2.tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-33948",
+    "CVE-2026-33947"
+  ],
+  "published": "2026-05-07T08:39:25Z",
+  "modified": "2026-05-07T08:39:25Z",
+  "details": "- CVE-2026-33948: fix NUL truncation in JSON parser (validation bypass)\n- CVE-2026-33947: fix unbounded recursion stack overflow in jv_setpath/getpath/delpaths",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/tuxcare9.6esu/CLSA-2026-1778143159.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

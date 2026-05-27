@@ -1,0 +1,58 @@
+{
+  "id": "CLSA-2025-1744116893",
+  "summary": "c-ares: Fix of CVE-2022-4904",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "c-ares",
+        "purl": "pkg:rpm/tuxcare/c-ares?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.17.1-5.el9_2.1.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "c-ares-devel",
+        "purl": "pkg:rpm/tuxcare/c-ares-devel?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.17.1-5.el9_2.1.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2022-4904"
+  ],
+  "published": "2025-04-08T12:54:58Z",
+  "modified": "2025-04-08T12:54:58Z",
+  "details": "- CVE-2022-4904: fix missing checks in ares_set_sortlist to prevent possible\n  stack overflow",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/almalinux9.2-esu/CLSA-2025-1744116893.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

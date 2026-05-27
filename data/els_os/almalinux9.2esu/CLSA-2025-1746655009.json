@@ -1,0 +1,38 @@
+{
+  "id": "CLSA-2025-1746655009",
+  "summary": "mod_auth_openidc: Fix of CVE-2024-24814",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "mod_auth_openidc",
+        "purl": "pkg:rpm/tuxcare/mod_auth_openidc?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.4.9.4-1.el9.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2024-24814"
+  ],
+  "published": "2025-05-07T21:56:54Z",
+  "modified": "2025-05-07T21:56:54Z",
+  "details": "- CVE-2024-24814: fix DoS when `OIDCSessionType client-cookie` is set and\n  a crafted Cookie header is supplied",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/almalinux9.2-esu/CLSA-2025-1746655009.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

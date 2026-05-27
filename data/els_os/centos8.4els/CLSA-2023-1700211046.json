@@ -1,0 +1,39 @@
+{
+  "id": "CLSA-2023-1700211046",
+  "summary": "squid: Fix of 2 CVEs",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.4",
+        "name": "squid",
+        "purl": "pkg:rpm/tuxcare/squid?distro=centos-8.4"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7:4.11-4.module_el8.4.0+2144+2063f9d1.2.tuxcare.els5"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2023-46846",
+    "CVE-2023-46847"
+  ],
+  "published": "2023-11-17T08:50:50Z",
+  "modified": "2023-11-17T08:50:50Z",
+  "details": "- CVE-2023-46846: Improve HTTP chunked encoding compliance\n- CVE-2023-46847: Fix stack buffer overflow when parsing Digest Authorization",
+  "references": [
+    {
+      "url": "https://errata.cloudlinux.com/centos8.4-els/CLSA-2023-1700211046.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "id": "CLSA-2026-1777035524",
+  "summary": "libsoup: Fix of CVE-2026-5119",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:RHEL:7",
+        "name": "libsoup",
+        "purl": "pkg:rpm/tuxcare/libsoup?distro=rhel-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.62.2-2.0.5.el7.tuxcare.els5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:RHEL:7",
+        "name": "libsoup-devel",
+        "purl": "pkg:rpm/tuxcare/libsoup-devel?distro=rhel-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.62.2-2.0.5.el7.tuxcare.els5"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-5119"
+  ],
+  "published": "2026-04-24T12:58:49Z",
+  "modified": "2026-04-24T12:58:49Z",
+  "details": "- CVE-2026-5119: do not send cookies to a HTTP proxy for a HTTPS request",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/rhel7els/CLSA-2026-1777035524.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

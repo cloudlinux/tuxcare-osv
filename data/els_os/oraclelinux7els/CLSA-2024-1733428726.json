@@ -1,0 +1,38 @@
+{
+  "id": "CLSA-2024-1733428726",
+  "summary": "wget: Fix of CVE-2024-38428",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:7",
+        "name": "wget",
+        "purl": "pkg:rpm/tuxcare/wget?distro=oraclelinux-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.14-18.el7_6.1.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2024-38428"
+  ],
+  "published": "2024-12-05T19:58:53Z",
+  "modified": "2024-12-05T19:58:53Z",
+  "details": "- CVE-2024-38428: properly re-implement userinfo parsing (rfc2396)",
+  "references": [
+    {
+      "url": "https://errata.cloudlinux.com/oraclelinux7-els/CLSA-2024-1733428726.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

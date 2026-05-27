@@ -1,0 +1,58 @@
+{
+  "id": "CLSA-2022-1646085735",
+  "summary": "Fix of CVE: CVE-2021-45078",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "binutils",
+        "purl": "pkg:rpm/tuxcare/binutils?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.30-108.el8.5.1.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "binutils-devel",
+        "purl": "pkg:rpm/tuxcare/binutils-devel?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.30-108.el8.5.1.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2021-45078"
+  ],
+  "published": "2022-02-28T22:02:15Z",
+  "modified": "2022-02-28T22:02:15Z",
+  "details": "- CVE-2021-45078: Fix out-of-bounds write in stab_xcoff_builtin_type() in stabs.c",
+  "references": [
+    {
+      "url": "https://errata.cloudlinux.com/centos8.5-els/CLSA-2022-1646085735.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "id": "CLSA-2024-1711036383",
+  "summary": "shim: Fix of 4 CVEs",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "shim-ia32",
+        "purl": "pkg:rpm/tuxcare/shim-ia32?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "15.8-1.el8.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "shim-x64",
+        "purl": "pkg:rpm/tuxcare/shim-x64?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "15.8-1.el8.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2023-40546",
+    "CVE-2023-40547",
+    "CVE-2023-40550",
+    "CVE-2023-40551"
+  ],
+  "published": "2024-03-21T15:53:06Z",
+  "modified": "2024-03-21T15:53:06Z",
+  "details": "- Make this package installable only on a system having Cloudlinux signed\n  components: grub2 and kernel\n- Update to shim-15.8 and fix the following CVEs:\n  Resolves: CVE-2023-40546\n  Resolves: CVE-2023-40547\n  Resolves: \u0421VE-2023-40548\n  Resolves: \u0421VE-2023-40549\n  Resolves: CVE-2023-40550\n  Resolves: CVE-2023-40551",
+  "references": [
+    {
+      "url": "https://errata.cloudlinux.com/centos8.5-els/CLSA-2024-1711036383.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

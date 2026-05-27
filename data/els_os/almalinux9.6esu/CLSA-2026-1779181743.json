@@ -1,0 +1,58 @@
+{
+  "id": "CLSA-2026-1779181743",
+  "summary": "pyOpenSSL: Fix of CVE-2026-27448",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "pyOpenSSL-doc",
+        "purl": "pkg:rpm/tuxcare/pyOpenSSL-doc?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "21.0.0-1.el9.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "python3-pyOpenSSL",
+        "purl": "pkg:rpm/tuxcare/python3-pyOpenSSL?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "21.0.0-1.el9.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-27448"
+  ],
+  "published": "2026-05-19T09:09:07Z",
+  "modified": "2026-05-19T09:09:07Z",
+  "details": "- CVE-2026-27448: fix fail-open in set_tlsext_servername_callback when callback raises exception",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/tuxcare9.6esu/CLSA-2026-1779181743.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

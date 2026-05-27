@@ -1,0 +1,120 @@
+{
+  "id": "CLSA-2026-1778892584",
+  "summary": "389-ds-base: Fix of 3 CVEs",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "389-ds-base",
+        "purl": "pkg:rpm/tuxcare/389-ds-base?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.2.4-5.el9_2.tuxcare.els4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "389-ds-base-devel",
+        "purl": "pkg:rpm/tuxcare/389-ds-base-devel?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.2.4-5.el9_2.tuxcare.els4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "389-ds-base-libs",
+        "purl": "pkg:rpm/tuxcare/389-ds-base-libs?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.2.4-5.el9_2.tuxcare.els4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "389-ds-base-snmp",
+        "purl": "pkg:rpm/tuxcare/389-ds-base-snmp?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.2.4-5.el9_2.tuxcare.els4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "python3-lib389",
+        "purl": "pkg:rpm/tuxcare/python3-lib389?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.2.4-5.el9_2.tuxcare.els4"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2024-5953",
+    "CVE-2024-2199",
+    "CVE-2025-2487"
+  ],
+  "published": "2026-05-16T00:49:49Z",
+  "modified": "2026-05-16T00:49:49Z",
+  "details": "- CVE-2024-5953: fix DoS via malformed password hash on bind\n- CVE-2024-2199: fix DoS via malformed userPassword modify\n- CVE-2025-2487: fix NULL pointer deref on failed MODDN operations",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/almalinux9.2esu/CLSA-2026-1778892584.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

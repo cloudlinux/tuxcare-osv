@@ -1,0 +1,40 @@
+{
+  "id": "CLSA-2026-1776173582",
+  "summary": "squid: Fix of 3 CVEs",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS-Stream:8",
+        "name": "squid",
+        "purl": "pkg:rpm/tuxcare/squid?distro=centos-stream-8"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7:4.15-10.module_el8+2367+3575bad4.tuxcare.els5"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-32748",
+    "CVE-2026-33515",
+    "CVE-2026-33526"
+  ],
+  "published": "2026-04-15T23:27:52Z",
+  "modified": "2026-04-15T23:27:52Z",
+  "details": "- CVE-2026-32748: ICP: fix HttpRequest lifetime for ICP v3 queries\n- CVE-2026-33515: ICP: fix validation of packet sizes and URLs\n- CVE-2026-33526: do not escape malformed URI twice when sending ICP\n  errors",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/centos-stream8els/CLSA-2026-1776173582.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

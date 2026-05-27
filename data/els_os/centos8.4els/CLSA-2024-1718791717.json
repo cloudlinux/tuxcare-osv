@@ -1,0 +1,78 @@
+{
+  "id": "CLSA-2024-1718791717",
+  "summary": "procps-ng: Fix of CVE-2023-4016",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.4",
+        "name": "procps-ng",
+        "purl": "pkg:rpm/tuxcare/procps-ng?distro=centos-8.4"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.3.15-6.el8.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.4",
+        "name": "procps-ng-devel",
+        "purl": "pkg:rpm/tuxcare/procps-ng-devel?distro=centos-8.4"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.3.15-6.el8.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.4",
+        "name": "procps-ng-i18n",
+        "purl": "pkg:rpm/tuxcare/procps-ng-i18n?distro=centos-8.4"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.3.15-6.el8.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2023-4016"
+  ],
+  "published": "2024-06-19T10:08:41Z",
+  "modified": "2024-06-19T10:08:41Z",
+  "details": "- CVE-2023-4016: possible overflow in multiplication when allocating\n  memory in ps/parser.c",
+  "references": [
+    {
+      "url": "https://errata.cloudlinux.com/centos8.4-els/CLSA-2024-1718791717.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "id": "CLSA-2024-1708428112",
+  "summary": "sudo: Fix of CVE-2023-42465",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:6",
+        "name": "sudo",
+        "purl": "pkg:rpm/tuxcare/sudo?distro=oraclelinux-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.8.6p3-32.el6.tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:6",
+        "name": "sudo-devel",
+        "purl": "pkg:rpm/tuxcare/sudo-devel?distro=oraclelinux-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.8.6p3-32.el6.tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2023-42465"
+  ],
+  "published": "2024-02-20T11:21:55Z",
+  "modified": "2024-02-20T11:21:55Z",
+  "details": "- CVE-2023-42465: make sudo less vulnerable to ROWHAMMER attacks",
+  "references": [
+    {
+      "url": "https://errata.cloudlinux.com/ol6/CLSA-2024-1708428112.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

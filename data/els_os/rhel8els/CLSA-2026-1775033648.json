@@ -1,0 +1,58 @@
+{
+  "id": "CLSA-2026-1775033648",
+  "summary": "postgresql-jdbc: Fix of CVE-2022-21724",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:RHEL:8",
+        "name": "postgresql-jdbc",
+        "purl": "pkg:rpm/tuxcare/postgresql-jdbc?distro=rhel-8"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "42.2.14-3.el8_9.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:RHEL:8",
+        "name": "postgresql-jdbc-javadoc",
+        "purl": "pkg:rpm/tuxcare/postgresql-jdbc-javadoc?distro=rhel-8"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "42.2.14-3.el8_9.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2022-21724"
+  ],
+  "published": "2026-04-01T08:54:12Z",
+  "modified": "2026-04-01T08:54:12Z",
+  "details": "- CVE-2022-21724: ensure arbitrary classes can't be passed instead of\n  SocketFactory, SSLSocketFactory, CallbackHandler, HostnameVerifier\n- Restore testing from previous spec versions, exclude broken tests",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/rhel8els/CLSA-2026-1775033648.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

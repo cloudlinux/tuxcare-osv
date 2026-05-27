@@ -1,0 +1,101 @@
+{
+  "id": "CLSA-2025-1744116383",
+  "summary": "libtiff: Fix of 4 CVEs",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "libtiff",
+        "purl": "pkg:rpm/tuxcare/libtiff?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.4.0-8.el9_2.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "libtiff-devel",
+        "purl": "pkg:rpm/tuxcare/libtiff-devel?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.4.0-8.el9_2.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "libtiff-static",
+        "purl": "pkg:rpm/tuxcare/libtiff-static?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.4.0-8.el9_2.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "libtiff-tools",
+        "purl": "pkg:rpm/tuxcare/libtiff-tools?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.4.0-8.el9_2.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2024-7006",
+    "CVE-2023-6228",
+    "CVE-2022-40090",
+    "CVE-2023-2731"
+  ],
+  "published": "2025-04-08T12:46:28Z",
+  "modified": "2025-04-08T12:46:28Z",
+  "details": "- CVE-2024-7006: check return value of _TIFFCreateAnonField() to avoid potential DoS via\n  memory allocation failures\n- CVE-2023-6228: validate input image codec in tiffcp to prevent heap-based buffer\n  overflow and potential application crash\n- CVE-2022-40090: improve IFD loop handling in TIFFReadDirectory to prevent DoS via\n  crafted TIFF files\n- CVE-2023-2731: handle missing end-of-information marker in LZWDecode() to prevent\n  NULL pointer dereference and potential DoS",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/almalinux9.2-esu/CLSA-2025-1744116383.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

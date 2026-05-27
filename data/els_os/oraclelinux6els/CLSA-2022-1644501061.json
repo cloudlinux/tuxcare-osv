@@ -1,0 +1,79 @@
+{
+  "id": "CLSA-2022-1644501061",
+  "summary": "Fixed CVEs in log4j: CVE-2022-23302, CVE-2022-23307",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:6",
+        "name": "log4j",
+        "purl": "pkg:rpm/tuxcare/log4j?distro=oraclelinux-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.2.14-6.4.el6.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:6",
+        "name": "log4j-javadoc",
+        "purl": "pkg:rpm/tuxcare/log4j-javadoc?distro=oraclelinux-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.2.14-6.4.el6.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:6",
+        "name": "log4j-manual",
+        "purl": "pkg:rpm/tuxcare/log4j-manual?distro=oraclelinux-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.2.14-6.4.el6.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2022-23302",
+    "CVE-2022-23307"
+  ],
+  "published": "2022-02-10T13:51:01Z",
+  "modified": "2022-05-17T17:28:33Z",
+  "details": "- CVE-2022-23307: Fix Unsafe deserialization flaw in Chainsaw log viewer\n- CVE-2022-23302: Fix remote code execution when application is configured to use JMSSink",
+  "references": [
+    {
+      "url": "https://errata.cloudlinux.com/ol6/CLSA-2022-1644501061.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "id": "CLSA-2025-1763374645",
+  "summary": "varnish: Fix of 2 CVEs",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "varnish",
+        "purl": "pkg:rpm/tuxcare/varnish?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "6.6.2-3.el9_2.1.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "varnish-devel",
+        "purl": "pkg:rpm/tuxcare/varnish-devel?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "6.6.2-3.el9_2.1.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "varnish-docs",
+        "purl": "pkg:rpm/tuxcare/varnish-docs?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "6.6.2-3.el9_2.1.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2024-30156",
+    "CVE-2025-47905"
+  ],
+  "published": "2025-11-17T10:17:29Z",
+  "modified": "2025-11-17T10:17:29Z",
+  "details": "- CVE-2024-30156: fix HTTP/2 flow control vulnerability allowing window credit\n  exhaustion (Broke Window Attack) causing potential denial of service\n- CVE-2025-47905: fix client-side request smuggling via malformed HTTP/1 chunked\n  requests",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/almalinux9.2esu/CLSA-2025-1763374645.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

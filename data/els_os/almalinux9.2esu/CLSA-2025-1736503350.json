@@ -1,0 +1,38 @@
+{
+  "id": "CLSA-2025-1736503350",
+  "summary": "haproxy: Fix of CVE-2023-40225",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "haproxy",
+        "purl": "pkg:rpm/tuxcare/haproxy?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.4.17-6.el9.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2023-40225"
+  ],
+  "published": "2025-01-10T10:02:37Z",
+  "modified": "2025-01-10T10:02:37Z",
+  "details": "- CVE-2023-40225: Fix forward empty Content-Length headers issue",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/almalinux9.2-esu/CLSA-2025-1736503350.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

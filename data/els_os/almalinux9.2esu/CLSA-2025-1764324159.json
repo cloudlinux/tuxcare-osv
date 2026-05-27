@@ -1,0 +1,38 @@
+{
+  "id": "CLSA-2025-1764324159",
+  "summary": "haproxy: Fix of CVE-2025-11230",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "haproxy",
+        "purl": "pkg:rpm/tuxcare/haproxy?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.4.17-6.el9.tuxcare.els4"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2025-11230"
+  ],
+  "published": "2025-11-28T10:02:43Z",
+  "modified": "2025-11-28T10:02:43Z",
+  "details": "- CVE-2025-11230: fix denial of service vulnerability in mjson library by\n  optimizing exponent calculation to prevent CPU exhaustion from crafted\n  JSON requests",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/almalinux9.2esu/CLSA-2025-1764324159.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

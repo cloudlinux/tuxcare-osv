@@ -1,0 +1,98 @@
+{
+  "id": "CLSA-2022-1643291562",
+  "summary": "Fix of CVE: CVE-2021-4034",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "polkit",
+        "purl": "pkg:rpm/tuxcare/polkit?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.115-12.el8.5.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "polkit-devel",
+        "purl": "pkg:rpm/tuxcare/polkit-devel?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.115-12.el8.5.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "polkit-docs",
+        "purl": "pkg:rpm/tuxcare/polkit-docs?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.115-12.el8.5.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "polkit-libs",
+        "purl": "pkg:rpm/tuxcare/polkit-libs?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.115-12.el8.5.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2021-4034"
+  ],
+  "published": "2022-01-27T13:52:42Z",
+  "modified": "2022-01-27T13:52:42Z",
+  "details": "- CVE-2021-4034: polkit: Local privilege escalation in pkexec due to incorrect handling of argument vector",
+  "references": [
+    {
+      "url": "https://errata.cloudlinux.com/centos8.5-els/CLSA-2022-1643291562.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

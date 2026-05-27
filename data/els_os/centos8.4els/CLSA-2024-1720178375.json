@@ -1,0 +1,158 @@
+{
+  "id": "CLSA-2024-1720178375",
+  "summary": "python2: Fix of CVE-2024-0450",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.4",
+        "name": "python2",
+        "purl": "pkg:rpm/tuxcare/python2?distro=centos-8.4"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.7.18-4.module_el8.4.0+2187+b1352f4a.tuxcare.els12"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.4",
+        "name": "python2-debug",
+        "purl": "pkg:rpm/tuxcare/python2-debug?distro=centos-8.4"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.7.18-4.module_el8.4.0+2187+b1352f4a.tuxcare.els12"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.4",
+        "name": "python2-devel",
+        "purl": "pkg:rpm/tuxcare/python2-devel?distro=centos-8.4"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.7.18-4.module_el8.4.0+2187+b1352f4a.tuxcare.els12"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.4",
+        "name": "python2-libs",
+        "purl": "pkg:rpm/tuxcare/python2-libs?distro=centos-8.4"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.7.18-4.module_el8.4.0+2187+b1352f4a.tuxcare.els12"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.4",
+        "name": "python2-test",
+        "purl": "pkg:rpm/tuxcare/python2-test?distro=centos-8.4"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.7.18-4.module_el8.4.0+2187+b1352f4a.tuxcare.els12"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.4",
+        "name": "python2-tkinter",
+        "purl": "pkg:rpm/tuxcare/python2-tkinter?distro=centos-8.4"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.7.18-4.module_el8.4.0+2187+b1352f4a.tuxcare.els12"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.4",
+        "name": "python2-tools",
+        "purl": "pkg:rpm/tuxcare/python2-tools?distro=centos-8.4"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.7.18-4.module_el8.4.0+2187+b1352f4a.tuxcare.els12"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2024-0450"
+  ],
+  "published": "2024-07-05T11:19:38Z",
+  "modified": "2024-07-05T11:19:38Z",
+  "details": "- CVE-2024-0450: Make zipfile module reject zip archives which overlap entries\n  in the archive. Prevent \u201cquoted-overlap\u201d zip-bombs exploit.",
+  "references": [
+    {
+      "url": "https://errata.cloudlinux.com/centos8.4-els/CLSA-2024-1720178375.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

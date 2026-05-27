@@ -1,0 +1,39 @@
+{
+  "id": "CLSA-2026-1776880278",
+  "summary": "sysstat: Fix of 2 CVEs",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:RHEL:7",
+        "name": "sysstat",
+        "purl": "pkg:rpm/tuxcare/sysstat?distro=rhel-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "10.1.5-20.el7_9.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2022-39377",
+    "CVE-2023-33204"
+  ],
+  "published": "2026-04-22T17:51:22Z",
+  "modified": "2026-04-22T17:51:22Z",
+  "details": "- CVE-2022-39377: check an overflow and exit if it be\n- CVE-2023-33204: fix possible buffer overflow in an incomplete fix for\n  CVE-2022-39377",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/rhel7els/CLSA-2026-1776880278.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

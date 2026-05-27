@@ -1,0 +1,38 @@
+{
+  "id": "CLSA-2026-1777947090",
+  "summary": "shadow-utils: Fix of CVE-2017-12424",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:6",
+        "name": "shadow-utils",
+        "purl": "pkg:rpm/tuxcare/shadow-utils?distro=centos-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:4.1.5.1-5.el6.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2017-12424"
+  ],
+  "published": "2026-05-05T21:16:20Z",
+  "modified": "2026-05-05T21:16:20Z",
+  "details": "- CVE-2017-12424: fix heap buffer overflow in commonio_sort when an entry has a NULL line",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/centos6els/CLSA-2026-1777947090.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

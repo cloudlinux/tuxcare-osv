@@ -1,0 +1,58 @@
+{
+  "id": "CLSA-2026-1776691972",
+  "summary": "binutils: Fix of CVE-2025-7545",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:7",
+        "name": "binutils",
+        "purl": "pkg:rpm/tuxcare/binutils?distro=oraclelinux-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.27-44.base.0.3.el7_9.1.tuxcare.els4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:7",
+        "name": "binutils-devel",
+        "purl": "pkg:rpm/tuxcare/binutils-devel?distro=oraclelinux-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.27-44.base.0.3.el7_9.1.tuxcare.els4"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2025-7545"
+  ],
+  "published": "2026-04-20T13:32:57Z",
+  "modified": "2026-04-20T13:32:57Z",
+  "details": "- CVE-2025-7545: fix heap buffer overflow in objcopy copy_section",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/oraclelinux7els/CLSA-2026-1776691972.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

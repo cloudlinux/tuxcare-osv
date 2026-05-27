@@ -1,0 +1,58 @@
+{
+  "id": "CLSA-2024-1724260558",
+  "summary": "libcdio: Fix of CVE-2024-36600",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:7",
+        "name": "libcdio",
+        "purl": "pkg:rpm/tuxcare/libcdio?distro=centos-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.92-3.el7.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:7",
+        "name": "libcdio-devel",
+        "purl": "pkg:rpm/tuxcare/libcdio-devel?distro=centos-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.92-3.el7.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2024-36600"
+  ],
+  "published": "2024-08-21T17:16:01Z",
+  "modified": "2024-08-21T17:16:01Z",
+  "details": "- CVE-2024-36600: Allocate more space for buffer, prevent overflow,\n  add input validation",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/centos7-els/CLSA-2024-1724260558.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

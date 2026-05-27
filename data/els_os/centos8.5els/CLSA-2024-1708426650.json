@@ -1,0 +1,58 @@
+{
+  "id": "CLSA-2024-1708426650",
+  "summary": "sudo: Fix of CVE-2023-42465",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "sudo",
+        "purl": "pkg:rpm/tuxcare/sudo?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.8.29-7.el8_4.1.tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "sudo-devel",
+        "purl": "pkg:rpm/tuxcare/sudo-devel?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.8.29-7.el8_4.1.tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2023-42465"
+  ],
+  "published": "2024-02-20T10:57:33Z",
+  "modified": "2024-02-20T10:57:33Z",
+  "details": "- CVE-2023-42465: make sudo less vulnerable to ROWHAMMER attacks",
+  "references": [
+    {
+      "url": "https://errata.cloudlinux.com/centos8.5-els/CLSA-2024-1708426650.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

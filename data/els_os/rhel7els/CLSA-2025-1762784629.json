@@ -1,0 +1,60 @@
+{
+  "id": "CLSA-2025-1762784629",
+  "summary": "libsoup: Fix of 3 CVEs",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:RHEL:7",
+        "name": "libsoup",
+        "purl": "pkg:rpm/tuxcare/libsoup?distro=rhel-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.62.2-2.0.5.el7.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:RHEL:7",
+        "name": "libsoup-devel",
+        "purl": "pkg:rpm/tuxcare/libsoup-devel?distro=rhel-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.62.2-2.0.5.el7.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2025-4948",
+    "CVE-2025-32049",
+    "CVE-2025-32914"
+  ],
+  "published": "2025-11-10T14:23:53Z",
+  "modified": "2025-11-10T14:23:53Z",
+  "details": "- CVE-2025-4948: fix integer underflow in soup_multipart_new_from_message()\n- CVE-2025-32049: fix Denial of Service attack to websocket server\n- CVE-2025-32914: fix OOB Read through soup_multipart_new_from_message()",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/rhel7els/CLSA-2025-1762784629.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "id": "CLSA-2025-1763033515",
+  "summary": "qt5-qt3d: Fix of CVE-2025-3159",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "qt5-qt3d",
+        "purl": "pkg:rpm/tuxcare/qt5-qt3d?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.15.3-1.el9.tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "qt5-qt3d-devel",
+        "purl": "pkg:rpm/tuxcare/qt5-qt3d-devel?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.15.3-1.el9.tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "qt5-qt3d-examples",
+        "purl": "pkg:rpm/tuxcare/qt5-qt3d-examples?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.15.3-1.el9.tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "qt5-qt3d-tests",
+        "purl": "pkg:rpm/tuxcare/qt5-qt3d-tests?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.15.3-1.el9.tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2025-3159"
+  ],
+  "published": "2025-11-13T11:31:59Z",
+  "modified": "2025-11-13T11:31:59Z",
+  "details": "- CVE-2025-3159: fix heap-based buffer overflow in\n  Assimp::ASE::Parser::ParseLV4MeshBonesVertices function of ASE File Handler",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/almalinux9.2esu/CLSA-2025-1763033515.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

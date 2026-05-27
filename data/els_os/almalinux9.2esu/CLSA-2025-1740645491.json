@@ -1,0 +1,158 @@
+{
+  "id": "CLSA-2025-1740645491",
+  "summary": "python3.11: Fix of CVE-2023-27043",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "python3.11",
+        "purl": "pkg:rpm/tuxcare/python3.11?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.11.2-2.el9_2.2.tuxcare.els7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "python3.11-debug",
+        "purl": "pkg:rpm/tuxcare/python3.11-debug?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.11.2-2.el9_2.2.tuxcare.els7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "python3.11-devel",
+        "purl": "pkg:rpm/tuxcare/python3.11-devel?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.11.2-2.el9_2.2.tuxcare.els7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "python3.11-idle",
+        "purl": "pkg:rpm/tuxcare/python3.11-idle?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.11.2-2.el9_2.2.tuxcare.els7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "python3.11-libs",
+        "purl": "pkg:rpm/tuxcare/python3.11-libs?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.11.2-2.el9_2.2.tuxcare.els7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "python3.11-test",
+        "purl": "pkg:rpm/tuxcare/python3.11-test?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.11.2-2.el9_2.2.tuxcare.els7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "python3.11-tkinter",
+        "purl": "pkg:rpm/tuxcare/python3.11-tkinter?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.11.2-2.el9_2.2.tuxcare.els7"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2023-27043"
+  ],
+  "published": "2025-02-27T08:38:16Z",
+  "modified": "2025-02-27T08:38:16Z",
+  "details": "- CVE-2023-27043: add a strict parsing mode to prevent incorrect address interpretation.\n  By default, strict=True is enabled. If you need the legacy behavior, explicitly set strict=False\n  when calling parseaddr() or getaddresses()\n- Additionally, strict parsing can be disabled globally by setting the environment variable\n  PYTHON_EMAIL_DISABLE_STRICT_ADDR_PARSING to a non-empty string or by creating the configuration\n  file /etc/python/email.cfg  with the following content:\n    [email_addr_parsing]\n    PYTHON_EMAIL_DISABLE_STRICT_ADDR_PARSING = true",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/almalinux9.2-esu/CLSA-2025-1740645491.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

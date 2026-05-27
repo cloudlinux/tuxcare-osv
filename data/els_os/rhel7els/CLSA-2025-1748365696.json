@@ -1,0 +1,58 @@
+{
+  "id": "CLSA-2025-1748365696",
+  "summary": "sudo: Fix of CVE-2023-42465",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:RHEL:7",
+        "name": "sudo",
+        "purl": "pkg:rpm/tuxcare/sudo?distro=rhel-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.8.23-10.el7_9.3.tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:RHEL:7",
+        "name": "sudo-devel",
+        "purl": "pkg:rpm/tuxcare/sudo-devel?distro=rhel-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.8.23-10.el7_9.3.tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2023-42465"
+  ],
+  "published": "2025-05-27T17:08:21Z",
+  "modified": "2025-05-27T17:08:21Z",
+  "details": "- CVE-2023-42465: Make sudo less vulnerable to ROWHAMMER attacks",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/rhel7-els/CLSA-2025-1748365696.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

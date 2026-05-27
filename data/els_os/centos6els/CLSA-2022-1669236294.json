@@ -1,0 +1,38 @@
+{
+  "id": "CLSA-2022-1669236294",
+  "summary": "xterm: Fix of CVE-2022-45063",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:6",
+        "name": "xterm",
+        "purl": "pkg:rpm/tuxcare/xterm?distro=centos-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "253-2.el6.tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2022-45063"
+  ],
+  "published": "2022-11-23T20:44:54Z",
+  "modified": "2022-11-23T20:44:54Z",
+  "details": "- CVE-2022-45063: improve error recovery when setting a bitmap font for the VT100 window\n- Add NULL pointer checks in x_strcasecmp() and x_strncasecmp() to help with error\n  recovery for a missing font",
+  "references": [
+    {
+      "url": "https://errata.cloudlinux.com/els6/CLSA-2022-1669236294.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

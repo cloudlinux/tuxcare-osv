@@ -1,0 +1,39 @@
+{
+  "id": "CLSA-2025-1761051864",
+  "summary": "python3-setuptools: Fix of 2 CVEs",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:7",
+        "name": "python3-setuptools",
+        "purl": "pkg:rpm/tuxcare/python3-setuptools?distro=oraclelinux-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "39.2.0-10.0.5.el7.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2022-40897",
+    "CVE-2024-6345"
+  ],
+  "published": "2025-10-21T13:04:32Z",
+  "modified": "2025-10-21T13:04:32Z",
+  "details": "- CVE-2022-40897: fix Regular Expression Denial of Service (ReDoS) in package_index.py\n- CVE-2024-6345: fix remote code execution in package_index module",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/oraclelinux7els/CLSA-2025-1761051864.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

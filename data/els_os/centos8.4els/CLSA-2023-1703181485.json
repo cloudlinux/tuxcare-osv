@@ -1,0 +1,39 @@
+{
+  "id": "CLSA-2023-1703181485",
+  "summary": "squid: Fix of 2 CVEs",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.4",
+        "name": "squid",
+        "purl": "pkg:rpm/tuxcare/squid?distro=centos-8.4"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7:4.11-4.module_el8.4.0+2161+76fa22b6.2.tuxcare.els8"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2023-49285",
+    "CVE-2023-49286"
+  ],
+  "published": "2023-12-21T17:58:09Z",
+  "modified": "2023-12-21T17:58:09Z",
+  "details": "- CVE-2023-49285: Fix date parsing in RFC 1123 to prevent Buffer OverRead\n- CVE-2023-49286: Fix DoS attack against Helper process management",
+  "references": [
+    {
+      "url": "https://errata.cloudlinux.com/centos8.4-els/CLSA-2023-1703181485.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "id": "CLSA-2025-1750782908",
+  "summary": "squashfs-tools: Fix of CVE-2021-40153",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "squashfs-tools",
+        "purl": "pkg:rpm/tuxcare/squashfs-tools?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.4-8.git1.el9.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2021-40153"
+  ],
+  "published": "2025-06-24T16:35:13Z",
+  "modified": "2025-06-24T16:35:13Z",
+  "details": "- CVE-2021-40153: fix directory traversal vulnerability in squashfs_opendir by\n  validating filenames before creating new files",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/almalinux9.2esu/CLSA-2025-1750782908.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

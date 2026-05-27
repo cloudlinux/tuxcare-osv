@@ -1,0 +1,58 @@
+{
+  "id": "CLSA-2022-1650376937",
+  "summary": "Fix of CVE: CVE-2022-28391",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:6",
+        "name": "busybox",
+        "purl": "pkg:rpm/tuxcare/busybox?distro=centos-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:1.15.1-21.el6_6.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:6",
+        "name": "busybox-petitboot",
+        "purl": "pkg:rpm/tuxcare/busybox-petitboot?distro=centos-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:1.15.1-21.el6_6.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2022-28391"
+  ],
+  "published": "2022-04-19T14:02:17Z",
+  "modified": "2022-04-19T14:02:17Z",
+  "details": "- CVE-2022-28391: fix possible terminal injection attacks from DNS query results",
+  "references": [
+    {
+      "url": "https://errata.cloudlinux.com/els6/CLSA-2022-1650376937.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

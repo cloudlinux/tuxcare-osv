@@ -1,0 +1,58 @@
+{
+  "id": "CLSA-2025-1757692387",
+  "summary": "lldpd: Fix of CVE-2020-27827",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "lldpd",
+        "purl": "pkg:rpm/tuxcare/lldpd?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.0.4-10.el9.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "lldpd-devel",
+        "purl": "pkg:rpm/tuxcare/lldpd-devel?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.0.4-10.el9.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2020-27827"
+  ],
+  "published": "2025-09-12T15:53:11Z",
+  "modified": "2025-09-12T15:53:11Z",
+  "details": "- CVE-2020-27827: fix memory allocation issue caused by specially crafted LLDP\n  packets",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/almalinux9.2esu/CLSA-2025-1757692387.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

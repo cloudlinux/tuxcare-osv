@@ -1,0 +1,38 @@
+{
+  "id": "CLSA-2025-1762868093",
+  "summary": "grafana-pcp: Fix of CVE-2024-34156",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "grafana-pcp",
+        "purl": "pkg:rpm/tuxcare/grafana-pcp?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.1.1-1.el9_2.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2024-34156"
+  ],
+  "published": "2025-11-11T13:34:57Z",
+  "modified": "2025-11-11T13:34:57Z",
+  "details": "- rebuild with golang >= 1.22.5-1.el9_2.tuxcare.els7\n- CVE-2024-34156: fix stack exhaustion in Decoder.Decode in golang",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/almalinux9.2esu/CLSA-2025-1762868093.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

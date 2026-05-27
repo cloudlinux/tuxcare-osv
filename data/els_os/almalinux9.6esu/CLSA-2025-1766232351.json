@@ -1,0 +1,120 @@
+{
+  "id": "CLSA-2025-1766232351",
+  "summary": "libarchive: Fix of 3 CVEs",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "bsdcat",
+        "purl": "pkg:rpm/tuxcare/bsdcat?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.5.3-6.el9_6.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "bsdcpio",
+        "purl": "pkg:rpm/tuxcare/bsdcpio?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.5.3-6.el9_6.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "bsdtar",
+        "purl": "pkg:rpm/tuxcare/bsdtar?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.5.3-6.el9_6.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "libarchive",
+        "purl": "pkg:rpm/tuxcare/libarchive?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.5.3-6.el9_6.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "libarchive-devel",
+        "purl": "pkg:rpm/tuxcare/libarchive-devel?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.5.3-6.el9_6.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2025-5916",
+    "CVE-2025-5917",
+    "CVE-2025-5918"
+  ],
+  "published": "2026-02-09T17:32:46Z",
+  "modified": "2026-02-09T17:32:46Z",
+  "details": "- CVE-2025-5916: fix signed integer overflow in WARC format reader\n- CVE-2025-5917: fix buffer overflow in build_ustar_entry for PAX format\n- CVE-2025-5918: prevent skipping past EOF in archive file reading",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/tuxcare9.6esu/CLSA-2025-1766232351.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

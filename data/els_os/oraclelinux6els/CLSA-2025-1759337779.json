@@ -1,0 +1,58 @@
+{
+  "id": "CLSA-2025-1759337779",
+  "summary": "openvpn: Fix of CVE-2020-15078",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:6",
+        "name": "openvpn",
+        "purl": "pkg:rpm/tuxcare/openvpn?distro=oraclelinux-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.4.9-1.el6.tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:6",
+        "name": "openvpn-devel",
+        "purl": "pkg:rpm/tuxcare/openvpn-devel?distro=oraclelinux-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.4.9-1.el6.tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2020-15078"
+  ],
+  "published": "2025-10-01T16:56:25Z",
+  "modified": "2025-10-01T16:56:25Z",
+  "details": "- CVE-2020-15078: fix authentication bypass and access to control channel data on\n  servers configured with deferred authentication",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/oraclelinux6els/CLSA-2025-1759337779.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

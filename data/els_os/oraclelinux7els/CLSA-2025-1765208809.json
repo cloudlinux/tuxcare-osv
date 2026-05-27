@@ -1,0 +1,161 @@
+{
+  "id": "CLSA-2025-1765208809",
+  "summary": "tigervnc: Fix of 4 CVEs",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:7",
+        "name": "tigervnc",
+        "purl": "pkg:rpm/tuxcare/tigervnc?distro=oraclelinux-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.8.0-33.0.7.el7_9.tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:7",
+        "name": "tigervnc-icons",
+        "purl": "pkg:rpm/tuxcare/tigervnc-icons?distro=oraclelinux-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.8.0-33.0.7.el7_9.tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:7",
+        "name": "tigervnc-license",
+        "purl": "pkg:rpm/tuxcare/tigervnc-license?distro=oraclelinux-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.8.0-33.0.7.el7_9.tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:7",
+        "name": "tigervnc-server",
+        "purl": "pkg:rpm/tuxcare/tigervnc-server?distro=oraclelinux-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.8.0-33.0.7.el7_9.tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:7",
+        "name": "tigervnc-server-applet",
+        "purl": "pkg:rpm/tuxcare/tigervnc-server-applet?distro=oraclelinux-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.8.0-33.0.7.el7_9.tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:7",
+        "name": "tigervnc-server-minimal",
+        "purl": "pkg:rpm/tuxcare/tigervnc-server-minimal?distro=oraclelinux-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.8.0-33.0.7.el7_9.tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:7",
+        "name": "tigervnc-server-module",
+        "purl": "pkg:rpm/tuxcare/tigervnc-server-module?distro=oraclelinux-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.8.0-33.0.7.el7_9.tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2025-62229",
+    "CVE-2025-62230",
+    "CVE-2025-62231",
+    "CVE-2024-9632"
+  ],
+  "published": "2025-12-08T15:46:53Z",
+  "modified": "2025-12-08T15:46:53Z",
+  "details": "- Rebuilt with xorg-x11-server-1.20.4-99.el7_9.tuxcare.els8, mitigating\n  the security vulnerabilities identified by the following CVEs:\n  CVE-2025-62229, CVE-2025-62230, CVE-2025-62231\n- Moved CVE-2024-9632 patch to xorg-x11-server package",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/oraclelinux7els/CLSA-2025-1765208809.html",
+      "type": "ADVISORY"
+    }
+  ]
+}
