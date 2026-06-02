@@ -1,0 +1,98 @@
+{
+  "id": "CLSA-2025-1761326171",
+  "summary": "Fix CVE(s): CVE-2019-18276",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Debian:10",
+        "name": "bash",
+        "purl": "pkg:deb/tuxcare/bash?distro=debian-10"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.0-4+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Debian:10",
+        "name": "bash-builtins",
+        "purl": "pkg:deb/tuxcare/bash-builtins?distro=debian-10"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.0-4+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Debian:10",
+        "name": "bash-doc",
+        "purl": "pkg:deb/tuxcare/bash-doc?distro=debian-10"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.0-4+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Debian:10",
+        "name": "bash-static",
+        "purl": "pkg:deb/tuxcare/bash-static?distro=debian-10"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.0-4+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2019-18276"
+  ],
+  "published": "2025-10-24T17:16:15Z",
+  "modified": "2025-10-24T17:16:15Z",
+  "details": "   * SECURITY UPDATE: privilege escalation vulnerability in privileged mode\n     - debian/patches/CVE-2019-18276.patch: fix setuid/setgid handling\n       when bash is running in privileged mode, use setresuid/setresgid\n       over setuid/setgid when available\n     - CVE-2019-18276",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/debian10els/CLSA-2025-1761326171.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

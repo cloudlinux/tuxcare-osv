@@ -1,0 +1,138 @@
+{
+  "id": "CLSA-2025-1763490076",
+  "summary": "Fix CVE(s): CVE-2025-62168",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Debian:10",
+        "name": "squid",
+        "purl": "pkg:deb/tuxcare/squid?distro=debian-10"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.6-1+deb10u10+tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Debian:10",
+        "name": "squid-cgi",
+        "purl": "pkg:deb/tuxcare/squid-cgi?distro=debian-10"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.6-1+deb10u10+tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Debian:10",
+        "name": "squid-common",
+        "purl": "pkg:deb/tuxcare/squid-common?distro=debian-10"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.6-1+deb10u10+tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Debian:10",
+        "name": "squid-purge",
+        "purl": "pkg:deb/tuxcare/squid-purge?distro=debian-10"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.6-1+deb10u10+tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Debian:10",
+        "name": "squid3",
+        "purl": "pkg:deb/tuxcare/squid3?distro=debian-10"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.6-1+deb10u10+tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Debian:10",
+        "name": "squidclient",
+        "purl": "pkg:deb/tuxcare/squidclient?distro=debian-10"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.6-1+deb10u10+tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2025-62168"
+  ],
+  "published": "2025-11-18T18:21:20Z",
+  "modified": "2025-11-18T18:21:20Z",
+  "details": "   * SECURITY UPDATE: failure to redact HTTP authentication credentials in error\n     handling allows information disclosure\n     - debian/patches/CVE-2025-62168.patch: Fix HttpRequest::pack to mask\n       sensitive information to prevent disclosure\n     - CVE-2025-62168",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/debian10els/CLSA-2025-1763490076.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

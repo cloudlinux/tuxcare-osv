@@ -1,0 +1,198 @@
+{
+  "id": "CLSA-2022-1643211736",
+  "summary": "Fix CVE(s): CVE-2021-4034",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "gir1.2-polkit-1.0",
+        "purl": "pkg:deb/tuxcare/gir1.2-polkit-1.0?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.105-14.1ubuntu0.5+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "libpolkit-agent-1-0",
+        "purl": "pkg:deb/tuxcare/libpolkit-agent-1-0?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.105-14.1ubuntu0.5+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "libpolkit-agent-1-dev",
+        "purl": "pkg:deb/tuxcare/libpolkit-agent-1-dev?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.105-14.1ubuntu0.5+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "libpolkit-backend-1-0",
+        "purl": "pkg:deb/tuxcare/libpolkit-backend-1-0?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.105-14.1ubuntu0.5+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "libpolkit-backend-1-dev",
+        "purl": "pkg:deb/tuxcare/libpolkit-backend-1-dev?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.105-14.1ubuntu0.5+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "libpolkit-gobject-1-0",
+        "purl": "pkg:deb/tuxcare/libpolkit-gobject-1-0?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.105-14.1ubuntu0.5+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "libpolkit-gobject-1-dev",
+        "purl": "pkg:deb/tuxcare/libpolkit-gobject-1-dev?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.105-14.1ubuntu0.5+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "policykit-1",
+        "purl": "pkg:deb/tuxcare/policykit-1?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.105-14.1ubuntu0.5+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "policykit-1-doc",
+        "purl": "pkg:deb/tuxcare/policykit-1-doc?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.105-14.1ubuntu0.5+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2021-4034"
+  ],
+  "published": "2022-01-26T15:42:16Z",
+  "modified": "2022-01-26T15:42:16Z",
+  "details": "\n   * SECURITY UPDATE: Local Privilege Escalation in pkexec\n     - debian/patches/CVE-2021-4034.patch: properly handle command-line\n       arguments in src/programs/pkcheck.c, src/programs/pkexec.c.\n     - CVE-2021-4034",
+  "references": [
+    {
+      "url": "https://errata.cloudlinux.com/ubuntu16_04/CLSA-2022-1643211736",
+      "type": "ADVISORY"
+    }
+  ]
+}

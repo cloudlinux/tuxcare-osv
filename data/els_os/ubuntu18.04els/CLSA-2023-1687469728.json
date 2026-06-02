@@ -1,0 +1,59 @@
+{
+  "id": "CLSA-2023-1687469728",
+  "summary": "Fix CVE(s): CVE-2022-39377, CVE-2023-33204",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "isag",
+        "purl": "pkg:deb/tuxcare/isag?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "11.6.1-1ubuntu0.2+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "sysstat",
+        "purl": "pkg:deb/tuxcare/sysstat?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "11.6.1-1ubuntu0.2+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2022-39377",
+    "CVE-2023-33204"
+  ],
+  "published": "2023-06-22T21:35:33Z",
+  "modified": "2023-06-22T21:35:33Z",
+  "details": "\n   * SECURITY UPDATE: a possible overflow because of an incomplete fix of\n     CVE-2022-39377\n     - debian/patches/CVE-2023-33204.patch: check an overflow and exit if it be\n     - CVE-2023-33204",
+  "references": [
+    {
+      "url": "https://errata.cloudlinux.com/ubuntu18_04-els/CLSA-2023-1687469728",
+      "type": "ADVISORY"
+    }
+  ]
+}

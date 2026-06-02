@@ -1,0 +1,179 @@
+{
+  "id": "CLSA-2026-1776965055",
+  "summary": "Fix CVE(s): CVE-2025-32988, CVE-2025-32990",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:20.04",
+        "name": "gnutls-bin",
+        "purl": "pkg:deb/tuxcare/gnutls-bin?distro=ubuntu-20.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.6.13-2ubuntu1.12+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:20.04",
+        "name": "gnutls-doc",
+        "purl": "pkg:deb/tuxcare/gnutls-doc?distro=ubuntu-20.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.6.13-2ubuntu1.12+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:20.04",
+        "name": "guile-gnutls",
+        "purl": "pkg:deb/tuxcare/guile-gnutls?distro=ubuntu-20.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.6.13-2ubuntu1.12+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:20.04",
+        "name": "libgnutls-dane0",
+        "purl": "pkg:deb/tuxcare/libgnutls-dane0?distro=ubuntu-20.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.6.13-2ubuntu1.12+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:20.04",
+        "name": "libgnutls-openssl27",
+        "purl": "pkg:deb/tuxcare/libgnutls-openssl27?distro=ubuntu-20.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.6.13-2ubuntu1.12+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:20.04",
+        "name": "libgnutls28-dev",
+        "purl": "pkg:deb/tuxcare/libgnutls28-dev?distro=ubuntu-20.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.6.13-2ubuntu1.12+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:20.04",
+        "name": "libgnutls30",
+        "purl": "pkg:deb/tuxcare/libgnutls30?distro=ubuntu-20.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.6.13-2ubuntu1.12+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:20.04",
+        "name": "libgnutlsxx28",
+        "purl": "pkg:deb/tuxcare/libgnutlsxx28?distro=ubuntu-20.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.6.13-2ubuntu1.12+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2025-32988",
+    "CVE-2025-32990"
+  ],
+  "published": "2026-04-23T17:24:20Z",
+  "modified": "2026-04-23T17:24:20Z",
+  "details": "   * SECURITY UPDATE: heap buffer overflow in certtool template parsing\n     - debian/patches/CVE-2025-32990.patch: use calloc(MAX_ENTRIES + 1)\n       instead of malloc(MAX_ENTRIES) in READ_MULTI_LINE and\n       READ_MULTI_LINE_TOKENIZED macros in src/certtool-cfg.c.\n     - CVE-2025-32990\n   * SECURITY UPDATE: double free when exporting othernames in SAN\n     - debian/patches/CVE-2025-32988.patch: remove erroneous\n       asn1_delete_structure calls on non-owned ext parameter in\n       _gnutls_write_new_othername in lib/x509/extensions.c.\n     - CVE-2025-32988",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/ubuntu20.04els/CLSA-2026-1776965055.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

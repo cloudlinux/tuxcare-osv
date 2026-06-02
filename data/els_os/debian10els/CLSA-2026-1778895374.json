@@ -1,0 +1,58 @@
+{
+  "id": "CLSA-2026-1778895374",
+  "summary": "Fix CVE(s): CVE-2026-7598",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Debian:10",
+        "name": "libssh2-1",
+        "purl": "pkg:deb/tuxcare/libssh2-1?distro=debian-10"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.8.0-2.1+deb10u1+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Debian:10",
+        "name": "libssh2-1-dev",
+        "purl": "pkg:deb/tuxcare/libssh2-1-dev?distro=debian-10"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.8.0-2.1+deb10u1+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-7598"
+  ],
+  "published": "2026-05-16T01:36:18Z",
+  "modified": "2026-05-16T01:36:18Z",
+  "details": "   * SECURITY UPDATE: Fix integer overflow in userauth_password username_len/password_len bounds checks\n     - debian/patches/CVE-2026-7598.patch: Fix integer overflow in userauth_password username_len/password_len bounds checks\n     - CVE-2026-7598",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/debian10els/CLSA-2026-1778895374.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

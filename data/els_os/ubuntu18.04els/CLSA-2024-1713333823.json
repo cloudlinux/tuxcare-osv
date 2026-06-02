@@ -1,0 +1,158 @@
+{
+  "id": "CLSA-2024-1713333823",
+  "summary": "Fix CVE(s): CVE-2024-22365",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "libpam-cracklib",
+        "purl": "pkg:deb/tuxcare/libpam-cracklib?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.1.8-3.6ubuntu2.18.04.6+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "libpam-doc",
+        "purl": "pkg:deb/tuxcare/libpam-doc?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.1.8-3.6ubuntu2.18.04.6+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "libpam-modules",
+        "purl": "pkg:deb/tuxcare/libpam-modules?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.1.8-3.6ubuntu2.18.04.6+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "libpam-modules-bin",
+        "purl": "pkg:deb/tuxcare/libpam-modules-bin?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.1.8-3.6ubuntu2.18.04.6+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "libpam-runtime",
+        "purl": "pkg:deb/tuxcare/libpam-runtime?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.1.8-3.6ubuntu2.18.04.6+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "libpam0g",
+        "purl": "pkg:deb/tuxcare/libpam0g?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.1.8-3.6ubuntu2.18.04.6+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "libpam0g-dev",
+        "purl": "pkg:deb/tuxcare/libpam0g-dev?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.1.8-3.6ubuntu2.18.04.6+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2024-22365"
+  ],
+  "published": "2024-04-17T06:03:45Z",
+  "modified": "2024-04-17T06:03:45Z",
+  "details": "   * Backport 031bb5a5d0d950253b68138b498dc93be69a64cb: fix CVE-2024-22365\n     - debian/patches-applied/CVE-2024-22365.patch: pam_namespace:\n       protect_dir(): use O_DIRECTORY to prevent local DoS situations\n     - CVE-2024-22365",
+  "references": [
+    {
+      "url": "https://errata.cloudlinux.com/ubuntu18-els/CLSA-2024-1713333823.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

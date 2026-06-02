@@ -1,0 +1,58 @@
+{
+  "id": "CLSA-2023-1695835334",
+  "summary": "Fix CVE(s): CVE-2020-22218",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "libssh2-1",
+        "purl": "pkg:deb/tuxcare/libssh2-1?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.5.0-2ubuntu0.1+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "libssh2-1-dev",
+        "purl": "pkg:deb/tuxcare/libssh2-1-dev?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.5.0-2ubuntu0.1+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2020-22218"
+  ],
+  "published": "2023-09-27T17:22:18Z",
+  "modified": "2023-09-27T17:22:18Z",
+  "details": "\n   * SECURITY UPDATE: An issue was discovered in function\n     _libssh2_packet_add in libssh2 1.10.0 allows attackers to access out\n     of bounds memory.\n     - debian/patches/CVE-2020-22218.patch: doing total_num zero length\n       check.\n     - CVE-2020-22218",
+  "references": [
+    {
+      "url": "https://errata.cloudlinux.com/ubuntu16_04-els/CLSA-2023-1695835334",
+      "type": "ADVISORY"
+    }
+  ]
+}

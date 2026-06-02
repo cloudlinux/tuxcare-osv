@@ -1,0 +1,38 @@
+{
+  "id": "CLSA-2025-1762449077",
+  "summary": "Fix CVE(s): CVE-2023-30630",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Debian:10",
+        "name": "dmidecode",
+        "purl": "pkg:deb/tuxcare/dmidecode?distro=debian-10"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.2-1+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2023-30630"
+  ],
+  "published": "2025-11-06T17:11:23Z",
+  "modified": "2025-11-06T17:11:23Z",
+  "details": "   * SECURITY UPDATE: Overwrite a local file\n     - debian/patches/CVE-2023-30630.patch: Prevent --dump-bin from overwriting\n       local files to address privilege escalation vulnerability\n     - CVE-2023-30630",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/debian10els/CLSA-2025-1762449077.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

@@ -1,0 +1,179 @@
+{
+  "id": "CLSA-2023-1686586528",
+  "summary": "Fix CVE(s): CVE-2020-1938, CVE-2022-42252",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "libtomcat8-embed-java",
+        "purl": "pkg:deb/tuxcare/libtomcat8-embed-java?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8.5.39-1ubuntu1~18.04.3+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "libtomcat8-java",
+        "purl": "pkg:deb/tuxcare/libtomcat8-java?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8.5.39-1ubuntu1~18.04.3+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "tomcat8",
+        "purl": "pkg:deb/tuxcare/tomcat8?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8.5.39-1ubuntu1~18.04.3+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "tomcat8-admin",
+        "purl": "pkg:deb/tuxcare/tomcat8-admin?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8.5.39-1ubuntu1~18.04.3+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "tomcat8-common",
+        "purl": "pkg:deb/tuxcare/tomcat8-common?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8.5.39-1ubuntu1~18.04.3+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "tomcat8-docs",
+        "purl": "pkg:deb/tuxcare/tomcat8-docs?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8.5.39-1ubuntu1~18.04.3+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "tomcat8-examples",
+        "purl": "pkg:deb/tuxcare/tomcat8-examples?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8.5.39-1ubuntu1~18.04.3+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "tomcat8-user",
+        "purl": "pkg:deb/tuxcare/tomcat8-user?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8.5.39-1ubuntu1~18.04.3+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2020-1938",
+    "CVE-2022-42252"
+  ],
+  "published": "2023-06-12T16:15:33Z",
+  "modified": "2023-06-12T16:15:33Z",
+  "details": "\n   * SECURITY UPDATE: Apache Tomcat request smuggling\n     - debian/patches/CVE-2022-42252.patch: Requests with invalid\n       content-length should always be rejected.\n     - CVE-2022-42252\n   * SECURITY UPDATE: AJP Request Injection and potential Remote Code Execution\n     - debian/patches/CVE-2020-1938.patch: Add new AJP attribute\n       allowedRequestAttributesPattern. Rename requiredSecret to secret and\n       add secretRequired. Change the default bind address for AJP to the\n       loopback address.\n     - CVE-2020-1938",
+  "references": [
+    {
+      "url": "https://errata.cloudlinux.com/ubuntu18_04-els/CLSA-2023-1686586528",
+      "type": "ADVISORY"
+    }
+  ]
+}

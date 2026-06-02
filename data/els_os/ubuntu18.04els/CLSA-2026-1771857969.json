@@ -1,0 +1,159 @@
+{
+  "id": "CLSA-2026-1771857969",
+  "summary": "Fix CVE(s): CVE-2025-14087, CVE-2025-14512",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "libglib2.0-0",
+        "purl": "pkg:deb/tuxcare/libglib2.0-0?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.56.4-0ubuntu0.18.04.9+tuxcare.els4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "libglib2.0-bin",
+        "purl": "pkg:deb/tuxcare/libglib2.0-bin?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.56.4-0ubuntu0.18.04.9+tuxcare.els4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "libglib2.0-data",
+        "purl": "pkg:deb/tuxcare/libglib2.0-data?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.56.4-0ubuntu0.18.04.9+tuxcare.els4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "libglib2.0-dev",
+        "purl": "pkg:deb/tuxcare/libglib2.0-dev?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.56.4-0ubuntu0.18.04.9+tuxcare.els4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "libglib2.0-dev-bin",
+        "purl": "pkg:deb/tuxcare/libglib2.0-dev-bin?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.56.4-0ubuntu0.18.04.9+tuxcare.els4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "libglib2.0-doc",
+        "purl": "pkg:deb/tuxcare/libglib2.0-doc?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.56.4-0ubuntu0.18.04.9+tuxcare.els4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "libglib2.0-tests",
+        "purl": "pkg:deb/tuxcare/libglib2.0-tests?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.56.4-0ubuntu0.18.04.9+tuxcare.els4"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2025-14087",
+    "CVE-2025-14512"
+  ],
+  "published": "2026-02-23T14:46:14Z",
+  "modified": "2026-02-23T14:46:14Z",
+  "details": "   * SECURITY UPDATE: Buffer underflow in GVariant parser leads to heap\n     corruption\n     - debian/patches/CVE-2025-14087_14512.patch: Fix integer overflows in\n       GVariant text format parser when processing input longer than INT_MAX\n     - CVE-2025-14087\n   * SECURITY UPDATE: Integer overflow in escape_byte_string() leads to heap\n     buffer overflow\n     - debian/patches/CVE-2025-14087_14512.patch: Fix integer overflow in\n       escape_byte_string() for byte strings with many invalid characters\n     - CVE-2025-14512",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/ubuntu18.04els/CLSA-2026-1771857969.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

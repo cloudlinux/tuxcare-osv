@@ -1,0 +1,138 @@
+{
+  "id": "CLSA-2023-1693904834",
+  "summary": "Fix CVE(s): CVE-2022-48174",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "busybox",
+        "purl": "pkg:deb/tuxcare/busybox?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:1.27.2-2ubuntu3.4+tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "busybox-initramfs",
+        "purl": "pkg:deb/tuxcare/busybox-initramfs?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:1.27.2-2ubuntu3.4+tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "busybox-static",
+        "purl": "pkg:deb/tuxcare/busybox-static?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:1.27.2-2ubuntu3.4+tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "busybox-syslogd",
+        "purl": "pkg:deb/tuxcare/busybox-syslogd?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:1.27.2-2ubuntu3.4+tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "udhcpc",
+        "purl": "pkg:deb/tuxcare/udhcpc?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:1.27.2-2ubuntu3.4+tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "udhcpd",
+        "purl": "pkg:deb/tuxcare/udhcpd?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:1.27.2-2ubuntu3.4+tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2022-48174"
+  ],
+  "published": "2023-09-05T09:07:18Z",
+  "modified": "2023-09-05T09:07:18Z",
+  "details": "\n   * SECURITY UPDATE: unlikely stack overflow vulnerability\n     - debian/patches/CVE-2022-48174.patch: break if a number\n       string containing invalid characters\n     - CVE-2022-48174",
+  "references": [
+    {
+      "url": "https://errata.cloudlinux.com/ubuntu18_04-els/CLSA-2023-1693904834",
+      "type": "ADVISORY"
+    }
+  ]
+}

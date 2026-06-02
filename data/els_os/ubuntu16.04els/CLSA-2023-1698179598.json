@@ -1,0 +1,138 @@
+{
+  "id": "CLSA-2023-1698179598",
+  "summary": "Fix CVE(s): CVE-2023-45853",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "lib32z1",
+        "purl": "pkg:deb/tuxcare/lib32z1?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:1.2.8.dfsg-2ubuntu4.3+tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "lib32z1-dev",
+        "purl": "pkg:deb/tuxcare/lib32z1-dev?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:1.2.8.dfsg-2ubuntu4.3+tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "libx32z1",
+        "purl": "pkg:deb/tuxcare/libx32z1?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:1.2.8.dfsg-2ubuntu4.3+tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "libx32z1-dev",
+        "purl": "pkg:deb/tuxcare/libx32z1-dev?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:1.2.8.dfsg-2ubuntu4.3+tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "zlib1g",
+        "purl": "pkg:deb/tuxcare/zlib1g?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:1.2.8.dfsg-2ubuntu4.3+tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "zlib1g-dev",
+        "purl": "pkg:deb/tuxcare/zlib1g-dev?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:1.2.8.dfsg-2ubuntu4.3+tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2023-45853"
+  ],
+  "published": "2023-10-24T20:33:23Z",
+  "modified": "2023-10-24T20:33:23Z",
+  "details": "\n   * SECURITY UPDATE: Reject overflows of zip header fields in minizip\n     - debian/patches/CVE-2023-45853.patch: Check length of comment,\n       filename and extra field in zipOpenNewFileInZip4_64\n     - CVE-2023-45853",
+  "references": [
+    {
+      "url": "https://errata.cloudlinux.com/ubuntu16_04-els/CLSA-2023-1698179598",
+      "type": "ADVISORY"
+    }
+  ]
+}

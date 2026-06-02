@@ -1,0 +1,182 @@
+{
+  "id": "CLSA-2025-1754649468",
+  "summary": "Fix of 5 CVEs",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "openjdk-11-demo",
+        "purl": "pkg:deb/tuxcare/openjdk-11-demo?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "11.0.28+6-0ubuntu1~18.04.1+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "openjdk-11-doc",
+        "purl": "pkg:deb/tuxcare/openjdk-11-doc?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "11.0.28+6-0ubuntu1~18.04.1+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "openjdk-11-jdk",
+        "purl": "pkg:deb/tuxcare/openjdk-11-jdk?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "11.0.28+6-0ubuntu1~18.04.1+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "openjdk-11-jdk-headless",
+        "purl": "pkg:deb/tuxcare/openjdk-11-jdk-headless?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "11.0.28+6-0ubuntu1~18.04.1+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "openjdk-11-jre",
+        "purl": "pkg:deb/tuxcare/openjdk-11-jre?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "11.0.28+6-0ubuntu1~18.04.1+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "openjdk-11-jre-headless",
+        "purl": "pkg:deb/tuxcare/openjdk-11-jre-headless?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "11.0.28+6-0ubuntu1~18.04.1+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "openjdk-11-jre-zero",
+        "purl": "pkg:deb/tuxcare/openjdk-11-jre-zero?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "11.0.28+6-0ubuntu1~18.04.1+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "openjdk-11-source",
+        "purl": "pkg:deb/tuxcare/openjdk-11-source?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "11.0.28+6-0ubuntu1~18.04.1+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2025-30749",
+    "CVE-2025-30754",
+    "CVE-2025-30761",
+    "CVE-2025-50059",
+    "CVE-2025-50106"
+  ],
+  "published": "2025-08-08T10:38:04Z",
+  "modified": "2025-08-08T10:38:04Z",
+  "details": "   * OpenJDK 11.0.28 release, build 6.\n     - CVE-2025-30749: Java 2D heap corruption, code execution/DoS\n     - CVE-2025-30754: JSSE TLS handshake flaw, weakened encryption\n     - CVE-2025-30761: nashorn sandbox bypass, code execution\n     - CVE-2025-50059: HTTP client header bug, data leak\n     - CVE-2025-50106: Glyph rendering memory bug, crash/code exec\n     - Release notes:\n       https://mail.openjdk.org/pipermail/jdk-updates-dev/2025-July/045612.html",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/ubuntu18.04els/CLSA-2025-1754649468.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

@@ -1,0 +1,178 @@
+{
+  "id": "CLSA-2024-1726773445",
+  "summary": "Fix CVE(s): CVE-2024-7264",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "curl",
+        "purl": "pkg:deb/tuxcare/curl?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7.58.0-2ubuntu3.24+tuxcare.els6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "libcurl3-gnutls",
+        "purl": "pkg:deb/tuxcare/libcurl3-gnutls?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7.58.0-2ubuntu3.24+tuxcare.els6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "libcurl3-nss",
+        "purl": "pkg:deb/tuxcare/libcurl3-nss?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7.58.0-2ubuntu3.24+tuxcare.els6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "libcurl4",
+        "purl": "pkg:deb/tuxcare/libcurl4?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7.58.0-2ubuntu3.24+tuxcare.els6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "libcurl4-doc",
+        "purl": "pkg:deb/tuxcare/libcurl4-doc?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7.58.0-2ubuntu3.24+tuxcare.els6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "libcurl4-gnutls-dev",
+        "purl": "pkg:deb/tuxcare/libcurl4-gnutls-dev?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7.58.0-2ubuntu3.24+tuxcare.els6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "libcurl4-nss-dev",
+        "purl": "pkg:deb/tuxcare/libcurl4-nss-dev?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7.58.0-2ubuntu3.24+tuxcare.els6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "libcurl4-openssl-dev",
+        "purl": "pkg:deb/tuxcare/libcurl4-openssl-dev?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7.58.0-2ubuntu3.24+tuxcare.els6"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2024-7264"
+  ],
+  "published": "2024-09-19T19:17:28Z",
+  "modified": "2024-09-19T19:17:28Z",
+  "details": "   * SECURITY UPDATE: Heap Buffer Overflow in ASN.1 Parser\n     - debian/patches/CVE-2024-7264.patch: Clean up GTime2str function to handle\n       optional fractional seconds properly. Fix GTime2str() issues and add unit\n       tests to verify correct behaviour\n     - CVE-2024-7264",
+  "references": [
+    {
+      "url": "https://errata.cloudlinux.com/ubuntu18-els/CLSA-2024-1726773445.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

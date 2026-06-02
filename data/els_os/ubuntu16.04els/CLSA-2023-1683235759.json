@@ -1,0 +1,100 @@
+{
+  "id": "CLSA-2023-1683235759",
+  "summary": "Fix CVE(s): CVE-2022-3996, CVE-2023-0464, CVE-2023-0466",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "libssl-dev",
+        "purl": "pkg:deb/tuxcare/libssl-dev?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.0.2g-1ubuntu4.21+tuxcare.els6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "libssl-doc",
+        "purl": "pkg:deb/tuxcare/libssl-doc?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.0.2g-1ubuntu4.21+tuxcare.els6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "libssl1.0.0",
+        "purl": "pkg:deb/tuxcare/libssl1.0.0?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.0.2g-1ubuntu4.21+tuxcare.els6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "openssl",
+        "purl": "pkg:deb/tuxcare/openssl?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.0.2g-1ubuntu4.21+tuxcare.els6"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2022-3996",
+    "CVE-2023-0464",
+    "CVE-2023-0466"
+  ],
+  "published": "2023-05-04T21:29:24Z",
+  "modified": "2023-05-04T21:29:24Z",
+  "details": "\n   * SECURITY UPDATE: Excessive resource use verifying X.509 policy constraints\n     - debian/patches/CVE-2023-0464.patch: Limit X.509 certificate tree size to\n       avoid exponential use of computational resources\n     - CVE-2023-0464\n   * SECURITY UPDATE: Incorrecly documented X509_VERIFY_PARAM_add0_policy()\n     - debian/patches/CVE-2023-0466.patch: Align documentation with actual\n       implementation\n     - CVE-2023-0466\n   * SECURITY UPDATE: Double locking in X.509 policy cache handling\n     - debian/patches/CVE-2022-3996.patch: Revert previously introduced\n       redundant flag setting and so avoid locking at all\n     - CVE-2022-3996",
+  "references": [
+    {
+      "url": "https://errata.cloudlinux.com/ubuntu16_04-els/CLSA-2023-1683235759",
+      "type": "ADVISORY"
+    }
+  ]
+}

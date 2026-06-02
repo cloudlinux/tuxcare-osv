@@ -1,0 +1,138 @@
+{
+  "id": "CLSA-2025-1754410992",
+  "summary": "Fix CVE(s): CVE-2025-6965",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:20.04",
+        "name": "lemon",
+        "purl": "pkg:deb/tuxcare/lemon?distro=ubuntu-20.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.31.1-4ubuntu0.7+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:20.04",
+        "name": "libsqlite3-0",
+        "purl": "pkg:deb/tuxcare/libsqlite3-0?distro=ubuntu-20.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.31.1-4ubuntu0.7+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:20.04",
+        "name": "libsqlite3-dev",
+        "purl": "pkg:deb/tuxcare/libsqlite3-dev?distro=ubuntu-20.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.31.1-4ubuntu0.7+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:20.04",
+        "name": "libsqlite3-tcl",
+        "purl": "pkg:deb/tuxcare/libsqlite3-tcl?distro=ubuntu-20.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.31.1-4ubuntu0.7+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:20.04",
+        "name": "sqlite3",
+        "purl": "pkg:deb/tuxcare/sqlite3?distro=ubuntu-20.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.31.1-4ubuntu0.7+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:20.04",
+        "name": "sqlite3-doc",
+        "purl": "pkg:deb/tuxcare/sqlite3-doc?distro=ubuntu-20.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.31.1-4ubuntu0.7+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2025-6965"
+  ],
+  "published": "2025-08-05T16:23:16Z",
+  "modified": "2025-08-05T16:23:16Z",
+  "details": "   * SECURITY UPDATE: excessive aggregate terms potentially leading to memory\n     corruption\n     - debian/patches/CVE-2025-6965.patch: fix a potential memory corruption if the number\n       of aggregate terms in a query exceeds the maximum number of columns\n     - CVE-2025-6965",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/ubuntu20.04els/CLSA-2025-1754410992.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

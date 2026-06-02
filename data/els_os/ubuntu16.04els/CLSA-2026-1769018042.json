@@ -1,0 +1,138 @@
+{
+  "id": "CLSA-2026-1769018042",
+  "summary": "Fix CVE(s): CVE-2025-68973",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "dirmngr",
+        "purl": "pkg:deb/tuxcare/dirmngr?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.1.11-6ubuntu2.1+tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "gnupg-agent",
+        "purl": "pkg:deb/tuxcare/gnupg-agent?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.1.11-6ubuntu2.1+tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "gnupg2",
+        "purl": "pkg:deb/tuxcare/gnupg2?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.1.11-6ubuntu2.1+tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "gpgsm",
+        "purl": "pkg:deb/tuxcare/gpgsm?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.1.11-6ubuntu2.1+tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "gpgv2",
+        "purl": "pkg:deb/tuxcare/gpgv2?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.1.11-6ubuntu2.1+tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "scdaemon",
+        "purl": "pkg:deb/tuxcare/scdaemon?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.1.11-6ubuntu2.1+tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2025-68973"
+  ],
+  "published": "2026-03-06T16:32:47Z",
+  "modified": "2026-03-06T16:32:47Z",
+  "details": "   * SECURITY UPDATE: memory corruption in armor parser\n     - debian/patches/CVE-2025-68973.patch: Fix faulty double increment\n       in armor_filter function.\n     - CVE-2025-68973",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/ubuntu16.04els/CLSA-2026-1769018042.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

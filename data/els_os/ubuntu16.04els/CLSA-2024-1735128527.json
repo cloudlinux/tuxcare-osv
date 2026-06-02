@@ -1,0 +1,78 @@
+{
+  "id": "CLSA-2024-1735128527",
+  "summary": "Fix CVE(s): CVE-2024-50602",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "expat",
+        "purl": "pkg:deb/tuxcare/expat?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.1.0-7ubuntu0.16.04.5+tuxcare.els6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "libexpat1",
+        "purl": "pkg:deb/tuxcare/libexpat1?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.1.0-7ubuntu0.16.04.5+tuxcare.els6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "libexpat1-dev",
+        "purl": "pkg:deb/tuxcare/libexpat1-dev?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.1.0-7ubuntu0.16.04.5+tuxcare.els6"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2024-50602"
+  ],
+  "published": "2024-12-25T12:08:53Z",
+  "modified": "2024-12-25T12:08:53Z",
+  "details": "   * SECURITY UPDATE: Crash in XML_ResumeParser function\n     - debian/patches/CVE-2024-50602.patch: Refuse to stop/suspend an\n       unstarted parser (XML_ERROR_NOT_STARTED). Fix XML_StopParser to be\n       explicit about XML_PARSING and handle default case. Cover\n       XML_StopParser's new handling of status XML_INITIALIZED, Fix crash\n       with NULL pointer dereference in normal_updatePosition\n     - CVE-2024-50602",
+  "references": [
+    {
+      "url": "https://errata.cloudlinux.com/ubuntu16-els/CLSA-2024-1735128527.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

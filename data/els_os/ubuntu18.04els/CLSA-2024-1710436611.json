@@ -1,0 +1,178 @@
+{
+  "id": "CLSA-2024-1710436611",
+  "summary": "Fix CVE(s): CVE-2023-46218",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "curl",
+        "purl": "pkg:deb/tuxcare/curl?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7.58.0-2ubuntu3.24+tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "libcurl3-gnutls",
+        "purl": "pkg:deb/tuxcare/libcurl3-gnutls?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7.58.0-2ubuntu3.24+tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "libcurl3-nss",
+        "purl": "pkg:deb/tuxcare/libcurl3-nss?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7.58.0-2ubuntu3.24+tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "libcurl4",
+        "purl": "pkg:deb/tuxcare/libcurl4?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7.58.0-2ubuntu3.24+tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "libcurl4-doc",
+        "purl": "pkg:deb/tuxcare/libcurl4-doc?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7.58.0-2ubuntu3.24+tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "libcurl4-gnutls-dev",
+        "purl": "pkg:deb/tuxcare/libcurl4-gnutls-dev?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7.58.0-2ubuntu3.24+tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "libcurl4-nss-dev",
+        "purl": "pkg:deb/tuxcare/libcurl4-nss-dev?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7.58.0-2ubuntu3.24+tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "libcurl4-openssl-dev",
+        "purl": "pkg:deb/tuxcare/libcurl4-openssl-dev?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7.58.0-2ubuntu3.24+tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2023-46218"
+  ],
+  "published": "2024-03-14T17:16:53Z",
+  "modified": "2024-03-14T17:16:53Z",
+  "details": "   * SECURITY UPDATE: Insecure cookie domain verification\n     - debian/patches/CVE-2023-46218.patch: lowercase domain names before PSL\n       checks to fix cookie domain validation\n     - CVE-2023-46218",
+  "references": [
+    {
+      "url": "https://errata.cloudlinux.com/ubuntu18-els/CLSA-2024-1710436611.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

@@ -1,0 +1,138 @@
+{
+  "id": "CLSA-2022-1668118023",
+  "summary": "Fix CVE(s): CVE-2022-35737",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "lemon",
+        "purl": "pkg:deb/tuxcare/lemon?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.11.0-1ubuntu1.5+tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "libsqlite3-0",
+        "purl": "pkg:deb/tuxcare/libsqlite3-0?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.11.0-1ubuntu1.5+tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "libsqlite3-dev",
+        "purl": "pkg:deb/tuxcare/libsqlite3-dev?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.11.0-1ubuntu1.5+tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "libsqlite3-tcl",
+        "purl": "pkg:deb/tuxcare/libsqlite3-tcl?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.11.0-1ubuntu1.5+tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "sqlite3",
+        "purl": "pkg:deb/tuxcare/sqlite3?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.11.0-1ubuntu1.5+tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "sqlite3-doc",
+        "purl": "pkg:deb/tuxcare/sqlite3-doc?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.11.0-1ubuntu1.5+tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2022-35737"
+  ],
+  "published": "2022-11-10T22:07:03Z",
+  "modified": "2022-11-10T22:07:03Z",
+  "details": "\n   * SECURITY UPDATE: array-bounds overflow if billions of bytes are\n     used in a string argument to a C API\n     - debian/patches/CVE-2022-35737.patch: increase the size of loop\n       variables in the printf() implementation to avoid overflow.\n     - CVE-2022-35737",
+  "references": [
+    {
+      "url": "https://errata.cloudlinux.com/ubuntu16-els/CLSA-2022-1668118023",
+      "type": "ADVISORY"
+    }
+  ]
+}

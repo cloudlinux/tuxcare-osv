@@ -1,0 +1,158 @@
+{
+  "id": "CLSA-2024-1712671933",
+  "summary": "Fix CVE(s): CVE-2024-22365",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "libpam-cracklib",
+        "purl": "pkg:deb/tuxcare/libpam-cracklib?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.1.8-3.2ubuntu2.3+tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "libpam-doc",
+        "purl": "pkg:deb/tuxcare/libpam-doc?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.1.8-3.2ubuntu2.3+tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "libpam-modules",
+        "purl": "pkg:deb/tuxcare/libpam-modules?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.1.8-3.2ubuntu2.3+tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "libpam-modules-bin",
+        "purl": "pkg:deb/tuxcare/libpam-modules-bin?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.1.8-3.2ubuntu2.3+tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "libpam-runtime",
+        "purl": "pkg:deb/tuxcare/libpam-runtime?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.1.8-3.2ubuntu2.3+tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "libpam0g",
+        "purl": "pkg:deb/tuxcare/libpam0g?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.1.8-3.2ubuntu2.3+tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "libpam0g-dev",
+        "purl": "pkg:deb/tuxcare/libpam0g-dev?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.1.8-3.2ubuntu2.3+tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2024-22365"
+  ],
+  "published": "2024-04-09T14:12:15Z",
+  "modified": "2024-04-09T14:12:15Z",
+  "details": "   * SECURITY UPDATE: denial of service (blocked login process) via mkfifo\n     - debian/patches-applied/CVE-2024-22365.patch: pam_namespace:\n       protect_dir(): use O_DIRECTORY to prevent local DoS situations\n     - CVE-2024-22365",
+  "references": [
+    {
+      "url": "https://errata.cloudlinux.com/ubuntu16-els/CLSA-2024-1712671933.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

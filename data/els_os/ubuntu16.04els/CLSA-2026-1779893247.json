@@ -1,0 +1,202 @@
+{
+  "id": "CLSA-2026-1779893247",
+  "summary": "Fix of 5 CVEs",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "libservlet3.0-java",
+        "purl": "pkg:deb/tuxcare/libservlet3.0-java?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7.0.68-1ubuntu0.4+tuxcare.els8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "libservlet3.0-java-doc",
+        "purl": "pkg:deb/tuxcare/libservlet3.0-java-doc?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7.0.68-1ubuntu0.4+tuxcare.els8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "libtomcat7-java",
+        "purl": "pkg:deb/tuxcare/libtomcat7-java?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7.0.68-1ubuntu0.4+tuxcare.els8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "tomcat7",
+        "purl": "pkg:deb/tuxcare/tomcat7?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7.0.68-1ubuntu0.4+tuxcare.els8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "tomcat7-admin",
+        "purl": "pkg:deb/tuxcare/tomcat7-admin?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7.0.68-1ubuntu0.4+tuxcare.els8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "tomcat7-common",
+        "purl": "pkg:deb/tuxcare/tomcat7-common?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7.0.68-1ubuntu0.4+tuxcare.els8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "tomcat7-docs",
+        "purl": "pkg:deb/tuxcare/tomcat7-docs?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7.0.68-1ubuntu0.4+tuxcare.els8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "tomcat7-examples",
+        "purl": "pkg:deb/tuxcare/tomcat7-examples?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7.0.68-1ubuntu0.4+tuxcare.els8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "tomcat7-user",
+        "purl": "pkg:deb/tuxcare/tomcat7-user?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7.0.68-1ubuntu0.4+tuxcare.els8"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-43513",
+    "CVE-2026-43512",
+    "CVE-2026-43514",
+    "CVE-2026-43515",
+    "CVE-2026-41284"
+  ],
+  "published": "2026-05-27T14:47:32Z",
+  "modified": "2026-05-27T14:47:32Z",
+  "details": "   * SECURITY UPDATE: add case sensitive attribute to LockOutRealm\n     - debian/patches/CVE-2026-43513.patch: add case sensitive attribute to LockOutRealm\n     - CVE-2026-43513\n   * SECURITY UPDATE: fix the handling of invalid users with DIGEST authentication\n     - debian/patches/CVE-2026-43512.patch: fix the handling of invalid users with DIGEST authentication\n     - CVE-2026-43512\n   * SECURITY UPDATE: switch AJP secret comparison to a constant time algorithm\n     - debian/patches/CVE-2026-43514.patch: switch AJP secret comparison to a constant time algorithm\n     - CVE-2026-43514\n   * SECURITY UPDATE: ensure RealmBase finds all matching extension based constraints\n     - debian/patches/CVE-2026-43515.patch: ensure RealmBase finds all matching extension based constraints\n     - CVE-2026-43515\n   * SECURITY UPDATE: add a configurable limit for WebDAV XML request bodies\n     - debian/patches/CVE-2026-41284.patch: add a configurable limit for WebDAV XML request bodies\n     - CVE-2026-41284",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/ubuntu16.04els/CLSA-2026-1779893247.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

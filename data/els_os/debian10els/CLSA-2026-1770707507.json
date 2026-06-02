@@ -1,0 +1,78 @@
+{
+  "id": "CLSA-2026-1770707507",
+  "summary": "Fix CVE(s): CVE-2026-24515",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Debian:10",
+        "name": "expat",
+        "purl": "pkg:deb/tuxcare/expat?distro=debian-10"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.2.6-2+deb10u7+tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Debian:10",
+        "name": "libexpat1",
+        "purl": "pkg:deb/tuxcare/libexpat1?distro=debian-10"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.2.6-2+deb10u7+tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Debian:10",
+        "name": "libexpat1-dev",
+        "purl": "pkg:deb/tuxcare/libexpat1-dev?distro=debian-10"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.2.6-2+deb10u7+tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-24515"
+  ],
+  "published": "2026-02-10T07:11:52Z",
+  "modified": "2026-02-10T07:11:52Z",
+  "details": "   * SECURITY UPDATE: Make XML_ExternalEntityParserCreate copy unknown encoding  handler user data\n     - debian/patches/CVE-2026-24515.patch: copy unknown encoding\n       handler user data and add tests to cover effect\n     - CVE-2026-24515",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/debian10els/CLSA-2026-1770707507.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "id": "CLSA-2025-1761901881",
+  "summary": "Fix CVE(s): CVE-2023-5764",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Debian:10",
+        "name": "ansible",
+        "purl": "pkg:deb/tuxcare/ansible?distro=debian-10"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.7.7+dfsg-1+deb10u2+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Debian:10",
+        "name": "ansible-doc",
+        "purl": "pkg:deb/tuxcare/ansible-doc?distro=debian-10"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.7.7+dfsg-1+deb10u2+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2023-5764"
+  ],
+  "published": "2025-10-31T09:11:29Z",
+  "modified": "2025-10-31T09:11:29Z",
+  "details": "   * SECURITY UPDATE: template injection allows code injection through specially\n     crafted files\n     - debian/patches/CVE-2023-5764.patch: avoid evaluate unsafe conditions\n     - debian/patches/CVE-2023-5764-ext-tests.patch: addional tests\n     - CVE-2023-5764",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/debian10els/CLSA-2025-1761901881.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

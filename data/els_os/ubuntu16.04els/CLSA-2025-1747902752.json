@@ -1,0 +1,38 @@
+{
+  "id": "CLSA-2025-1747902752",
+  "summary": "Fix CVE(s): CVE-2018-16837",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "ansible",
+        "purl": "pkg:deb/tuxcare/ansible?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.1.1.0-1~ubuntu16.04.1+tuxcare.els8"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2018-16837"
+  ],
+  "published": "2025-05-22T08:32:37Z",
+  "modified": "2025-05-22T08:32:37Z",
+  "details": "   * SECURITY UPDATE: sensitive data leakage through User module\n     - debian/patches/CVE-2018-16837.patch: do not pass ssh_key_passphrase on\n       cmdline, fix passphrase being passed on command line\n     - CVE-2018-16837",
+  "references": [
+    {
+      "url": "https://errata.cloudlinux.com/ubuntu16-els/CLSA-2025-1747902752.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

@@ -1,0 +1,139 @@
+{
+  "id": "CLSA-2022-1665428733",
+  "summary": "Fix CVE(s): CVE-2020-13435, CVE-2020-13425",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "lemon",
+        "purl": "pkg:deb/tuxcare/lemon?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.11.0-1ubuntu1.5+tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "libsqlite3-0",
+        "purl": "pkg:deb/tuxcare/libsqlite3-0?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.11.0-1ubuntu1.5+tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "libsqlite3-dev",
+        "purl": "pkg:deb/tuxcare/libsqlite3-dev?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.11.0-1ubuntu1.5+tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "libsqlite3-tcl",
+        "purl": "pkg:deb/tuxcare/libsqlite3-tcl?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.11.0-1ubuntu1.5+tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "sqlite3",
+        "purl": "pkg:deb/tuxcare/sqlite3?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.11.0-1ubuntu1.5+tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "sqlite3-doc",
+        "purl": "pkg:deb/tuxcare/sqlite3-doc?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.11.0-1ubuntu1.5+tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2020-13435",
+    "CVE-2020-13425"
+  ],
+  "published": "2022-10-10T19:05:33Z",
+  "modified": "2022-10-10T19:05:33Z",
+  "details": "\n   * SECURITY UPDATE: segfault in sqlite3ExprCodeTarget\n     - debian/patches/CVE-2020-13435.patch: tries to prevent a recurrence\n       of problems.\n     - CVE-2020-13425",
+  "references": [
+    {
+      "url": "https://errata.cloudlinux.com/ubuntu16_04/CLSA-2022-1665428733",
+      "type": "ADVISORY"
+    }
+  ]
+}

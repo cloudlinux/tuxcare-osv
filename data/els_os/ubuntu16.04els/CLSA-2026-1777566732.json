@@ -1,0 +1,78 @@
+{
+  "id": "CLSA-2026-1777566732",
+  "summary": "Fix CVE(s): CVE-2018-10841",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "glusterfs-client",
+        "purl": "pkg:deb/tuxcare/glusterfs-client?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.7.6-1ubuntu1+tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "glusterfs-common",
+        "purl": "pkg:deb/tuxcare/glusterfs-common?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.7.6-1ubuntu1+tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "glusterfs-server",
+        "purl": "pkg:deb/tuxcare/glusterfs-server?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.7.6-1ubuntu1+tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2018-10841"
+  ],
+  "published": "2026-04-30T16:32:33Z",
+  "modified": "2026-04-30T16:32:33Z",
+  "details": "   * SECURITY UPDATE: privilege escalation on glusterd nodes via the CLI\n     RPC program being exposed on the TCP listener when management-plane\n     SSL is enabled, allowing a TLS-authenticated client outside the\n     trusted storage pool to issue privileged volume-management commands\n     via gluster --remote-host\n     - debian/patches/CVE-2018-10841.patch: drop gd_inet_programs[1] =\n       &gd_svc_cli_prog rebinding in glusterd init() so the trusted-pool\n       CLI program remains bound to the TCP listener and the full CLI\n       RPC program continues to be served only over the local UNIX\n       domain socket\n     - CVE-2018-10841",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/ubuntu16.04els/CLSA-2026-1777566732.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

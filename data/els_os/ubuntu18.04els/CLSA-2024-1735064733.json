@@ -1,0 +1,178 @@
+{
+  "id": "CLSA-2024-1735064733",
+  "summary": "Fix CVE(s): CVE-2023-28708",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "libtomcat8-embed-java",
+        "purl": "pkg:deb/tuxcare/libtomcat8-embed-java?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8.5.39-1ubuntu1~18.04.3+tuxcare.els8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "libtomcat8-java",
+        "purl": "pkg:deb/tuxcare/libtomcat8-java?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8.5.39-1ubuntu1~18.04.3+tuxcare.els8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "tomcat8",
+        "purl": "pkg:deb/tuxcare/tomcat8?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8.5.39-1ubuntu1~18.04.3+tuxcare.els8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "tomcat8-admin",
+        "purl": "pkg:deb/tuxcare/tomcat8-admin?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8.5.39-1ubuntu1~18.04.3+tuxcare.els8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "tomcat8-common",
+        "purl": "pkg:deb/tuxcare/tomcat8-common?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8.5.39-1ubuntu1~18.04.3+tuxcare.els8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "tomcat8-docs",
+        "purl": "pkg:deb/tuxcare/tomcat8-docs?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8.5.39-1ubuntu1~18.04.3+tuxcare.els8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "tomcat8-examples",
+        "purl": "pkg:deb/tuxcare/tomcat8-examples?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8.5.39-1ubuntu1~18.04.3+tuxcare.els8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "tomcat8-user",
+        "purl": "pkg:deb/tuxcare/tomcat8-user?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8.5.39-1ubuntu1~18.04.3+tuxcare.els8"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2023-28708"
+  ],
+  "published": "2024-12-24T18:25:40Z",
+  "modified": "2024-12-24T18:25:40Z",
+  "details": "   * SECURITY UPDATE: Missing secure attribute in session cookies with\n     RemoteIpFilter\n     - debian/patches/CVE-2023-28708.patch: Fix JSessionId secure attribute\n       missing with RemoteIpFilter and X-Forwarded-Proto set to https\n     - CVE-2023-28708",
+  "references": [
+    {
+      "url": "https://errata.cloudlinux.com/ubuntu18-els/CLSA-2024-1735064733.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

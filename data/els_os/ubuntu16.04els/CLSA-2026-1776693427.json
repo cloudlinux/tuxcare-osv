@@ -1,0 +1,118 @@
+{
+  "id": "CLSA-2026-1776693427",
+  "summary": "Fix CVE(s): CVE-2019-1010180",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "gdb",
+        "purl": "pkg:deb/tuxcare/gdb?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7.11.1-0ubuntu1~16.5+tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "gdb-doc",
+        "purl": "pkg:deb/tuxcare/gdb-doc?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7.11.1-0ubuntu1~16.5+tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "gdb-multiarch",
+        "purl": "pkg:deb/tuxcare/gdb-multiarch?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7.11.1-0ubuntu1~16.5+tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "gdb-source",
+        "purl": "pkg:deb/tuxcare/gdb-source?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7.11.1-0ubuntu1~16.5+tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "gdbserver",
+        "purl": "pkg:deb/tuxcare/gdbserver?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7.11.1-0ubuntu1~16.5+tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2019-1010180"
+  ],
+  "published": "2026-04-21T17:11:20Z",
+  "modified": "2026-04-21T17:11:20Z",
+  "details": "   * SECURITY UPDATE: buffer overflow when ELF section size is invalid\n     - debian/patches/CVE-2019-1010180.patch: reject ELF sections whose\n       recorded size exceeds the file size\n     - CVE-2019-1010180",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/ubuntu16.04els/CLSA-2026-1776693427.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

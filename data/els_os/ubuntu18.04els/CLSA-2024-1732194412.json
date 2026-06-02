@@ -1,0 +1,191 @@
+{
+  "id": "CLSA-2024-1732194412",
+  "summary": "Fix of 14 CVEs",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "openjdk-8-demo",
+        "purl": "pkg:deb/tuxcare/openjdk-8-demo?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8u432-ga-0ubuntu1~18.04+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "openjdk-8-doc",
+        "purl": "pkg:deb/tuxcare/openjdk-8-doc?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8u432-ga-0ubuntu1~18.04+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "openjdk-8-jdk",
+        "purl": "pkg:deb/tuxcare/openjdk-8-jdk?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8u432-ga-0ubuntu1~18.04+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "openjdk-8-jdk-headless",
+        "purl": "pkg:deb/tuxcare/openjdk-8-jdk-headless?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8u432-ga-0ubuntu1~18.04+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "openjdk-8-jre",
+        "purl": "pkg:deb/tuxcare/openjdk-8-jre?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8u432-ga-0ubuntu1~18.04+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "openjdk-8-jre-headless",
+        "purl": "pkg:deb/tuxcare/openjdk-8-jre-headless?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8u432-ga-0ubuntu1~18.04+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "openjdk-8-jre-zero",
+        "purl": "pkg:deb/tuxcare/openjdk-8-jre-zero?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8u432-ga-0ubuntu1~18.04+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "openjdk-8-source",
+        "purl": "pkg:deb/tuxcare/openjdk-8-source?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8u432-ga-0ubuntu1~18.04+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2024-21131",
+    "CVE-2024-21138",
+    "CVE-2024-21140",
+    "CVE-2024-21144",
+    "CVE-2024-21145",
+    "CVE-2024-21147",
+    "CVE-2024-21208",
+    "CVE-2024-21210",
+    "CVE-2024-21217",
+    "CVE-2024-21235",
+    "CVE-2024-21011",
+    "CVE-2024-21068",
+    "CVE-2024-21085",
+    "CVE-2024-21094"
+  ],
+  "published": "2024-11-21T13:07:03Z",
+  "modified": "2024-11-21T13:07:03Z",
+  "details": "   * Update to 8u432-ga fixing a number of CVEs\n     - CVE-2024-21131: UTF8 size overflow\n     - CVE-2024-21138: infinite loop vunlerability in SymbolTable\n     - CVE-2024-21140: int overflow/underflow in Range Check Elimination\n     - CVE-2024-21144: invalid header validation leads to Pack200 excessive\n       loading time\n     - CVE-2024-21145: out-of-bounds access in MaskFill\n     - CVE-2024-21147: out-of-bounds array index in Range Check Elimination\n     - CVE-2024-21208: improper handling of maxHeaderSize in HTTP client\n     - CVE-2024-21210: integer overflow in array indexing in SuperWord\n     - CVE-2024-21217: out-of-memory because of unbounded allocation in\n       MessageFormat\n     - CVE-2024-21235: incorrect range check because of integer conversion\n       error in LoopNode\n   * Update patches\n     - debian/patches/zero-sh.diff\n   * Remove patches that became part of the update\n     - debian/patches/CVE-2024-21011.patch\n     - debian/patches/CVE-2024-21068.patch\n     - debian/patches/CVE-2024-21085.patch\n     - debian/patches/CVE-2024-21094.patch",
+  "references": [
+    {
+      "url": "https://errata.cloudlinux.com/ubuntu18-els/CLSA-2024-1732194412.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

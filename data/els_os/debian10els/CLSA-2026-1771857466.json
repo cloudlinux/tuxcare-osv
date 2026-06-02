@@ -1,0 +1,158 @@
+{
+  "id": "CLSA-2026-1771857466",
+  "summary": "Fix CVE(s): CVE-2025-14087",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Debian:10",
+        "name": "libglib2.0-0",
+        "purl": "pkg:deb/tuxcare/libglib2.0-0?distro=debian-10"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.58.3-2+deb10u6+tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Debian:10",
+        "name": "libglib2.0-bin",
+        "purl": "pkg:deb/tuxcare/libglib2.0-bin?distro=debian-10"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.58.3-2+deb10u6+tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Debian:10",
+        "name": "libglib2.0-data",
+        "purl": "pkg:deb/tuxcare/libglib2.0-data?distro=debian-10"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.58.3-2+deb10u6+tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Debian:10",
+        "name": "libglib2.0-dev",
+        "purl": "pkg:deb/tuxcare/libglib2.0-dev?distro=debian-10"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.58.3-2+deb10u6+tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Debian:10",
+        "name": "libglib2.0-dev-bin",
+        "purl": "pkg:deb/tuxcare/libglib2.0-dev-bin?distro=debian-10"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.58.3-2+deb10u6+tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Debian:10",
+        "name": "libglib2.0-doc",
+        "purl": "pkg:deb/tuxcare/libglib2.0-doc?distro=debian-10"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.58.3-2+deb10u6+tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Debian:10",
+        "name": "libglib2.0-tests",
+        "purl": "pkg:deb/tuxcare/libglib2.0-tests?distro=debian-10"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.58.3-2+deb10u6+tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2025-14087"
+  ],
+  "published": "2026-02-23T14:37:50Z",
+  "modified": "2026-02-23T14:37:50Z",
+  "details": "   * SECURITY UPDATE: Buffer underflow / integer overflow in GVariant text\n     format parser\n     - debian/patches/CVE-2025-14087.patch: fix potential integer overflow\n       parsing strings, bytestrings, and child element counts in\n       gvariant-parser.c\n     - CVE-2025-14087",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/debian10els/CLSA-2026-1771857466.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

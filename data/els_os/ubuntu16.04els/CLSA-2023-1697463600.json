@@ -1,0 +1,159 @@
+{
+  "id": "CLSA-2023-1697463600",
+  "summary": "Fix CVE(s): CVE-2023-42116, CVE-2023-42114",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "exim4",
+        "purl": "pkg:deb/tuxcare/exim4?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.86.2-2ubuntu2.6+tuxcare.els4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "exim4-base",
+        "purl": "pkg:deb/tuxcare/exim4-base?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.86.2-2ubuntu2.6+tuxcare.els4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "exim4-config",
+        "purl": "pkg:deb/tuxcare/exim4-config?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.86.2-2ubuntu2.6+tuxcare.els4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "exim4-daemon-heavy",
+        "purl": "pkg:deb/tuxcare/exim4-daemon-heavy?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.86.2-2ubuntu2.6+tuxcare.els4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "exim4-daemon-light",
+        "purl": "pkg:deb/tuxcare/exim4-daemon-light?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.86.2-2ubuntu2.6+tuxcare.els4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "exim4-dev",
+        "purl": "pkg:deb/tuxcare/exim4-dev?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.86.2-2ubuntu2.6+tuxcare.els4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "eximon4",
+        "purl": "pkg:deb/tuxcare/eximon4?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.86.2-2ubuntu2.6+tuxcare.els4"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2023-42116",
+    "CVE-2023-42114"
+  ],
+  "published": "2023-10-16T13:40:05Z",
+  "modified": "2023-10-16T13:40:05Z",
+  "details": "\n   * SECURITY UPDATE: Multiple security issues\n     - debian/patches/CVE-2023-42114.patch: fix possible OOB read\n       in SPA authenticator\n     - CVE-2023-42114\n     - debian/patches/CVE-2023-42116.patch: fix possible OOB write\n       in SPA authenticator\n     - CVE-2023-42116",
+  "references": [
+    {
+      "url": "https://errata.cloudlinux.com/ubuntu16_04-els/CLSA-2023-1697463600",
+      "type": "ADVISORY"
+    }
+  ]
+}

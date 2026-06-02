@@ -1,0 +1,158 @@
+{
+  "id": "CLSA-2025-1766137116",
+  "summary": "Fix CVE(s): CVE-2025-6020",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "libpam-cracklib",
+        "purl": "pkg:deb/tuxcare/libpam-cracklib?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.1.8-3.6ubuntu2.18.04.6+tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "libpam-doc",
+        "purl": "pkg:deb/tuxcare/libpam-doc?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.1.8-3.6ubuntu2.18.04.6+tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "libpam-modules",
+        "purl": "pkg:deb/tuxcare/libpam-modules?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.1.8-3.6ubuntu2.18.04.6+tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "libpam-modules-bin",
+        "purl": "pkg:deb/tuxcare/libpam-modules-bin?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.1.8-3.6ubuntu2.18.04.6+tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "libpam-runtime",
+        "purl": "pkg:deb/tuxcare/libpam-runtime?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.1.8-3.6ubuntu2.18.04.6+tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "libpam0g",
+        "purl": "pkg:deb/tuxcare/libpam0g?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.1.8-3.6ubuntu2.18.04.6+tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "libpam0g-dev",
+        "purl": "pkg:deb/tuxcare/libpam0g-dev?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.1.8-3.6ubuntu2.18.04.6+tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2025-6020"
+  ],
+  "published": "2025-12-19T09:38:40Z",
+  "modified": "2025-12-19T09:38:40Z",
+  "details": "   * Reworked CVE-2025-6020 patches to preserve ABI compatibility\n     - Add _pam_modutil_sanitize_helper_fds() as a static inline helper\n       in the header for modules\n     - Keep the exported pam_modutil_sanitize_helper_fds() in libpam as a wrapper\n       that calls the new helper",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/ubuntu18.04els/CLSA-2025-1766137116.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

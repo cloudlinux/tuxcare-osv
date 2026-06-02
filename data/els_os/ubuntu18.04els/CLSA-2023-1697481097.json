@@ -1,0 +1,56 @@
+{
+  "id": "CLSA-2023-1697481097",
+  "summary": "Update of alt-php",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "ubuntu-advantage-pro",
+        "purl": "pkg:deb/tuxcare/ubuntu-advantage-pro?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:29.4~18.04+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "ubuntu-advantage-tools",
+        "purl": "pkg:deb/tuxcare/ubuntu-advantage-tools?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:29.4~18.04+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [],
+  "published": "2023-10-16T18:31:42Z",
+  "modified": "2023-10-16T18:31:42Z",
+  "details": "\n   * Bump epoch\n   * Disable ESM notification after installation:\n     - remove ESM hook for apt-system\n     - remove ESM infra/apps repositories from apt sources list\n   * Automatically mark some pytest to skip if FIPS kernel is running in a\n     disabled state (they always fail in this mode)",
+  "references": [
+    {
+      "url": "https://errata.cloudlinux.com/ubuntu18_04-els/CLSA-2023-1697481097",
+      "type": "ADVISORY"
+    }
+  ]
+}

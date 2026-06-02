@@ -1,0 +1,158 @@
+{
+  "id": "CLSA-2026-1771329952",
+  "summary": "Fix CVE(s): CVE-2025-13601",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:20.04",
+        "name": "libglib2.0-0",
+        "purl": "pkg:deb/tuxcare/libglib2.0-0?distro=ubuntu-20.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.64.6-1~ubuntu20.04.9+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:20.04",
+        "name": "libglib2.0-bin",
+        "purl": "pkg:deb/tuxcare/libglib2.0-bin?distro=ubuntu-20.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.64.6-1~ubuntu20.04.9+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:20.04",
+        "name": "libglib2.0-data",
+        "purl": "pkg:deb/tuxcare/libglib2.0-data?distro=ubuntu-20.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.64.6-1~ubuntu20.04.9+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:20.04",
+        "name": "libglib2.0-dev",
+        "purl": "pkg:deb/tuxcare/libglib2.0-dev?distro=ubuntu-20.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.64.6-1~ubuntu20.04.9+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:20.04",
+        "name": "libglib2.0-dev-bin",
+        "purl": "pkg:deb/tuxcare/libglib2.0-dev-bin?distro=ubuntu-20.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.64.6-1~ubuntu20.04.9+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:20.04",
+        "name": "libglib2.0-doc",
+        "purl": "pkg:deb/tuxcare/libglib2.0-doc?distro=ubuntu-20.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.64.6-1~ubuntu20.04.9+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:20.04",
+        "name": "libglib2.0-tests",
+        "purl": "pkg:deb/tuxcare/libglib2.0-tests?distro=ubuntu-20.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.64.6-1~ubuntu20.04.9+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2025-13601"
+  ],
+  "published": "2026-02-17T12:05:56Z",
+  "modified": "2026-02-17T12:05:56Z",
+  "details": "   * SECURITY UPDATE: Heap-based buffer overflow\n     - debian/patches/CVE-2025-13601.patch: Fix heap-based buffer overflow by\n       correcting buffer size calculation in g_escape_uri_string()\n     - CVE-2025-13601",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/ubuntu20.04els/CLSA-2026-1771329952.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

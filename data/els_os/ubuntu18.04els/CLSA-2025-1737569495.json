@@ -1,0 +1,38 @@
+{
+  "id": "CLSA-2025-1737569495",
+  "summary": "Fix CVE(s): CVE-2024-12085",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "rsync",
+        "purl": "pkg:deb/tuxcare/rsync?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.1.2-2.1ubuntu1.6+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2024-12085"
+  ],
+  "published": "2025-01-22T18:11:41Z",
+  "modified": "2025-01-22T18:11:41Z",
+  "details": "   * SECURITY UPDATE: possible information leak via checksum comparison\n     - debian/patches/CVE-2024-12085.patch: fix issue with checksum length\n       manipulation leading to uninitialized memory leak\n     - CVE-2024-12085",
+  "references": [
+    {
+      "url": "https://errata.cloudlinux.com/ubuntu18-els/CLSA-2025-1737569495.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

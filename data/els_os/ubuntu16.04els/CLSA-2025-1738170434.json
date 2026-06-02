@@ -1,0 +1,38 @@
+{
+  "id": "CLSA-2025-1738170434",
+  "summary": "Fix CVE(s): CVE-2024-12747",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "rsync",
+        "purl": "pkg:deb/tuxcare/rsync?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.1.1-3ubuntu1.3+tuxcare.els6"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2024-12747"
+  ],
+  "published": "2025-01-29T17:07:20Z",
+  "modified": "2025-01-29T17:07:20Z",
+  "details": "   * SECURITY UPDATE: race condition during rsync's handling of\n     symbolic links\n     - debian/patches/CVE-2024-12747.patch: prevent symlink race\n       preventing a normal file from being replaced by a symlink\n     - CVE-2024-12747\n   * debian/rules, debian/patches/series: use series file to manage patches\n   * debian/patches/ssh-6-option.diff make it compatible with Quilt",
+  "references": [
+    {
+      "url": "https://errata.cloudlinux.com/ubuntu16-els/CLSA-2025-1738170434.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

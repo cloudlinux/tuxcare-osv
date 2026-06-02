@@ -1,0 +1,76 @@
+{
+  "id": "CLSA-2024-1730916930",
+  "summary": "Update of alt-php",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "libnss3",
+        "purl": "pkg:deb/tuxcare/libnss3?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:3.35-2ubuntu2.16+tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "libnss3-dev",
+        "purl": "pkg:deb/tuxcare/libnss3-dev?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:3.35-2ubuntu2.16+tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "libnss3-tools",
+        "purl": "pkg:deb/tuxcare/libnss3-tools?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:3.35-2ubuntu2.16+tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [],
+  "published": "2024-11-06T18:15:36Z",
+  "modified": "2024-11-06T18:15:36Z",
+  "details": "   * Update ca-certificates database to 20240909:\n     - mozilla\\{certdata.txt,nssckbi.h}: Update Mozilla certificate\n       authority bundle of the version 2.70.\n     - The following certificates were updated:\n       # Certificate \"certSIGN ROOT CA\"\n       # Certificate \"ACCVRAIZ1\"\n       # Certificate \"OISTE WISeKey Global Root GC CA\"\n     - The following certificates were added:\n       # Certificate \"D-Trust SBR Root CA 1 2022\"\n       # Certificate \"D-Trust SBR Root CA 2 2022\"\n       # Certificate \"Telekom Security SMIME ECC Root 2021\"\n       # Certificate \"Telekom Security TLS ECC Root 2020\"\n       # Certificate \"Telekom Security SMIME RSA Root 2023\"\n       # Certificate \"Telekom Security TLS RSA Root 2023\"\n       # Certificate \"FIRMAPROFESIONAL CA ROOT-A WEB\"\n       # Certificate \"TWCA CYBER Root CA\"\n       # Certificate \"TWCA Global Root CA G2\"\n       # Certificate \"SecureSign Root CA12\"\n       # Certificate \"SecureSign Root CA14\"\n       # Certificate \"SecureSign Root CA15\"\n     - The following certificates were removed:\n       # Certificate \"Security Communication Root CA\"\n       # Certificate \"Camerfirma Chambers of Commerce Root\"\n       # Certificate \"Chambers of Commerce Root - 2008\"\n       # Certificate \"Global Chambersign Root - 2008\"\n       # Certificate \"E-Tugra Global Root CA ECC v3\"\n       # Certificate \"E-Tugra Global Root CA RSA v3\"\n       # Duplicated certificate \"Autoridad de Certificacion Firmaprofesional CIF\n         A62634068\"",
+  "references": [
+    {
+      "url": "https://errata.cloudlinux.com/ubuntu18-els/CLSA-2024-1730916930.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

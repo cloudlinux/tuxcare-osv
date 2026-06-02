@@ -1,0 +1,118 @@
+{
+  "id": "CLSA-2025-1759782399",
+  "summary": "Fix CVE(s): CVE-2025-5372",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:20.04",
+        "name": "libssh-4",
+        "purl": "pkg:deb/tuxcare/libssh-4?distro=ubuntu-20.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.9.3-2ubuntu2.5+tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:20.04",
+        "name": "libssh-dev",
+        "purl": "pkg:deb/tuxcare/libssh-dev?distro=ubuntu-20.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.9.3-2ubuntu2.5+tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:20.04",
+        "name": "libssh-doc",
+        "purl": "pkg:deb/tuxcare/libssh-doc?distro=ubuntu-20.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.9.3-2ubuntu2.5+tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:20.04",
+        "name": "libssh-gcrypt-4",
+        "purl": "pkg:deb/tuxcare/libssh-gcrypt-4?distro=ubuntu-20.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.9.3-2ubuntu2.5+tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:20.04",
+        "name": "libssh-gcrypt-dev",
+        "purl": "pkg:deb/tuxcare/libssh-gcrypt-dev?distro=ubuntu-20.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.9.3-2ubuntu2.5+tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2025-5372"
+  ],
+  "published": "2025-10-06T20:26:46Z",
+  "modified": "2025-10-06T20:26:46Z",
+  "details": "   * SECURITY UPDATE: improper return value handling in key derivation function\n     - debian/patches/CVE-2025-5372.patch: reformat ssh_kdf() to fix formatting\n       issue with EVP_KDF_ctrl calls\n     - debian/patches/CVE-2025-5372-1.patch: simplify error checking and handling\n       of return codes in ssh_kdf\n     - CVE-2025-5372",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/ubuntu20.04els/CLSA-2025-1759782399.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

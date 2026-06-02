@@ -1,0 +1,160 @@
+{
+  "id": "CLSA-2022-1652706309",
+  "summary": "Fix CVE(s): CVE-2019-17041, CVE-2019-17042, CVE-2018-16881",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "rsyslog",
+        "purl": "pkg:deb/tuxcare/rsyslog?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8.16.0-1ubuntu3.1+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "rsyslog-elasticsearch",
+        "purl": "pkg:deb/tuxcare/rsyslog-elasticsearch?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8.16.0-1ubuntu3.1+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "rsyslog-gnutls",
+        "purl": "pkg:deb/tuxcare/rsyslog-gnutls?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8.16.0-1ubuntu3.1+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "rsyslog-gssapi",
+        "purl": "pkg:deb/tuxcare/rsyslog-gssapi?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8.16.0-1ubuntu3.1+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "rsyslog-mysql",
+        "purl": "pkg:deb/tuxcare/rsyslog-mysql?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8.16.0-1ubuntu3.1+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "rsyslog-pgsql",
+        "purl": "pkg:deb/tuxcare/rsyslog-pgsql?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8.16.0-1ubuntu3.1+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "rsyslog-relp",
+        "purl": "pkg:deb/tuxcare/rsyslog-relp?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8.16.0-1ubuntu3.1+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2019-17041",
+    "CVE-2019-17042",
+    "CVE-2018-16881"
+  ],
+  "published": "2022-05-16T13:05:09Z",
+  "modified": "2022-05-16T13:05:09Z",
+  "details": "\n   * SECURITY UPDATE: denial of dervice\n     - debian/patches/CVE-2018-16881.patch: introduces a frame size check in\n       the processDataRcvd function of plugins/imptcp/imptcp.c.\n     - CVE-2018-16881\n   * SECURITY UPDATE: heap-based overflow\n     - debian/patches/CVE-2019-17041.patch: adds length checks for invalid\n       AIX log message in contrib/pmaixforwardedfrom/pmaixforwardedfrom.c.\n     - CVE-2019-17041\n   * SECURITY UPDATE: heap-based overflow\n     - debian/patches/CVE-2019-17042.patch: adds length checks for invalid\n       Cisco log messages in contrib/pmcisconames/pmcisconames.c.\n     - CVE-2019-17042",
+  "references": [
+    {
+      "url": "https://errata.cloudlinux.com/ubuntu16_04/CLSA-2022-1652706309",
+      "type": "ADVISORY"
+    }
+  ]
+}

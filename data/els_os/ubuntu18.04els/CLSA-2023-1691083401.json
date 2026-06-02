@@ -1,0 +1,38 @@
+{
+  "id": "CLSA-2023-1691083401",
+  "summary": "Fix CVE(s): CVE-2022-3697",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "ansible",
+        "purl": "pkg:deb/tuxcare/ansible?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.5.1+dfsg-1ubuntu0.1+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2022-3697"
+  ],
+  "published": "2023-08-03T17:23:26Z",
+  "modified": "2023-08-03T17:23:26Z",
+  "details": "\n   * SECURITY UPDATE: improper handling of tower_callback parameter in\n     amazon.aws collection\n     - debian/patches/CVE-2022-3697.patch: ec2_instance - validate options\n       on tower_callback\n     - CVE-2022-3697\n   * Enable unit testing.",
+  "references": [
+    {
+      "url": "https://errata.cloudlinux.com/ubuntu18_04-els/CLSA-2023-1691083401",
+      "type": "ADVISORY"
+    }
+  ]
+}

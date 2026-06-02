@@ -1,0 +1,158 @@
+{
+  "id": "CLSA-2021-1639681613",
+  "summary": "Fix CVE(s): CVE-2021-2388",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "openjdk-9-demo",
+        "purl": "pkg:deb/tuxcare/openjdk-9-demo?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "9~b114-0ubuntu2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "openjdk-9-doc",
+        "purl": "pkg:deb/tuxcare/openjdk-9-doc?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "9~b114-0ubuntu2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "openjdk-9-jdk",
+        "purl": "pkg:deb/tuxcare/openjdk-9-jdk?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "9~b114-0ubuntu2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "openjdk-9-jdk-headless",
+        "purl": "pkg:deb/tuxcare/openjdk-9-jdk-headless?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "9~b114-0ubuntu2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "openjdk-9-jre",
+        "purl": "pkg:deb/tuxcare/openjdk-9-jre?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "9~b114-0ubuntu2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "openjdk-9-jre-headless",
+        "purl": "pkg:deb/tuxcare/openjdk-9-jre-headless?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "9~b114-0ubuntu2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "openjdk-9-source",
+        "purl": "pkg:deb/tuxcare/openjdk-9-source?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "9~b114-0ubuntu2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2021-2388"
+  ],
+  "published": "2021-12-16T19:06:53Z",
+  "modified": "2021-12-16T19:06:53Z",
+  "details": "\n   * Fix CVE-2021-2388 OpenJDK: Incorrect comparison during\n     range check elimination\n   * Add JDK-8165323.diff: (fs) Files.getFileStore fails\n     with \"Mount point not found\" in chroot environment",
+  "references": [
+    {
+      "url": "https://errata.cloudlinux.com/ubuntu16_04/CLSA-2021-1639681613",
+      "type": "ADVISORY"
+    }
+  ]
+}

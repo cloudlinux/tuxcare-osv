@@ -1,0 +1,159 @@
+{
+  "id": "CLSA-2022-1669241675",
+  "summary": "Fix CVE(s): CVE-2022-2928, CVE-2022-2929",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "isc-dhcp-client",
+        "purl": "pkg:deb/tuxcare/isc-dhcp-client?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.3.3-5ubuntu12.11+tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "isc-dhcp-client-ddns",
+        "purl": "pkg:deb/tuxcare/isc-dhcp-client-ddns?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.3.3-5ubuntu12.11+tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "isc-dhcp-common",
+        "purl": "pkg:deb/tuxcare/isc-dhcp-common?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.3.3-5ubuntu12.11+tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "isc-dhcp-dev",
+        "purl": "pkg:deb/tuxcare/isc-dhcp-dev?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.3.3-5ubuntu12.11+tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "isc-dhcp-relay",
+        "purl": "pkg:deb/tuxcare/isc-dhcp-relay?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.3.3-5ubuntu12.11+tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "isc-dhcp-server",
+        "purl": "pkg:deb/tuxcare/isc-dhcp-server?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.3.3-5ubuntu12.11+tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "isc-dhcp-server-ldap",
+        "purl": "pkg:deb/tuxcare/isc-dhcp-server-ldap?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.3.3-5ubuntu12.11+tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2022-2928",
+    "CVE-2022-2929"
+  ],
+  "published": "2022-11-23T22:14:35Z",
+  "modified": "2022-11-23T22:14:35Z",
+  "details": "\n   * SECURITY UPDATE: option refcount overflow\n     - debian/patches/CVE-2022-2928.patch: fix work with reference counter\n       'refcount'\n     - CVE-2022-2928\n   * SECURITY UPDATE: DHCP memory leak\n     - debian/patches/CVE-2022-2929.patch: free memory when incorrect 'fqdn'\n       labels are used\n     - CVE-2022-2929",
+  "references": [
+    {
+      "url": "https://errata.cloudlinux.com/ubuntu16-els/CLSA-2022-1669241675",
+      "type": "ADVISORY"
+    }
+  ]
+}

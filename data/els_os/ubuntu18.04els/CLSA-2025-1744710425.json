@@ -1,0 +1,38 @@
+{
+  "id": "CLSA-2025-1744710425",
+  "summary": "Fix CVE(s): CVE-2024-5594",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "openvpn",
+        "purl": "pkg:deb/tuxcare/openvpn?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.4.4-2ubuntu1.7+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2024-5594"
+  ],
+  "published": "2025-04-15T14:17:48Z",
+  "modified": "2025-04-15T14:17:48Z",
+  "details": "   * SECURITY UPDATE: Improper PUSH_REPLY sanitization allows attackers\n     to inject arbitrary data into third-party executables\n     - debian/patches/CVE-2024-5594.patch: Properly handle null bytes\n       and invalid characters in control\n     - CVE-2024-5594\n   * UPDATE CERTIFICATES: Renew sample keys\n     - debian/patches/sample-keys-renew.patch: Renew sample keys for 10 years",
+  "references": [
+    {
+      "url": "https://errata.cloudlinux.com/ubuntu18-els/CLSA-2025-1744710425.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

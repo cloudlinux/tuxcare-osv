@@ -1,0 +1,138 @@
+{
+  "id": "CLSA-2025-1755885175",
+  "summary": "Fix CVE(s): CVE-2025-29088",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "lemon",
+        "purl": "pkg:deb/tuxcare/lemon?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.11.0-1ubuntu1.5+tuxcare.els5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "libsqlite3-0",
+        "purl": "pkg:deb/tuxcare/libsqlite3-0?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.11.0-1ubuntu1.5+tuxcare.els5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "libsqlite3-dev",
+        "purl": "pkg:deb/tuxcare/libsqlite3-dev?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.11.0-1ubuntu1.5+tuxcare.els5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "libsqlite3-tcl",
+        "purl": "pkg:deb/tuxcare/libsqlite3-tcl?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.11.0-1ubuntu1.5+tuxcare.els5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "sqlite3",
+        "purl": "pkg:deb/tuxcare/sqlite3?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.11.0-1ubuntu1.5+tuxcare.els5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "sqlite3-doc",
+        "purl": "pkg:deb/tuxcare/sqlite3-doc?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.11.0-1ubuntu1.5+tuxcare.els5"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2025-29088"
+  ],
+  "published": "2025-08-22T17:52:59Z",
+  "modified": "2025-08-22T17:52:59Z",
+  "details": "   * SECURITY UPDATE: denial of service via sqlite3_db_config argument values\n     - debian/patches/CVE-2025-29088.patch: harden the SQLITE_DBCONFIG_LOOKASIDE\n       interface against misuse, such as described in forum post 48f365daec\n       Enhancements to the SQLITE_DBCONFIG_LOOKASIDE documentation\n     - CVE-2025-29088",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/ubuntu16.04els/CLSA-2025-1755885175.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

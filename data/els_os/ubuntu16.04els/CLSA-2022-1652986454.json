@@ -1,0 +1,118 @@
+{
+  "id": "CLSA-2022-1652986454",
+  "summary": "Fix CVE(s): CVE-2022-29155",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "ldap-utils",
+        "purl": "pkg:deb/tuxcare/ldap-utils?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.4.42+dfsg-2ubuntu3.13.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "libldap-2.4-2",
+        "purl": "pkg:deb/tuxcare/libldap-2.4-2?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.4.42+dfsg-2ubuntu3.13.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "libldap2-dev",
+        "purl": "pkg:deb/tuxcare/libldap2-dev?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.4.42+dfsg-2ubuntu3.13.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "slapd",
+        "purl": "pkg:deb/tuxcare/slapd?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.4.42+dfsg-2ubuntu3.13.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "slapd-smbk5pwd",
+        "purl": "pkg:deb/tuxcare/slapd-smbk5pwd?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.4.42+dfsg-2ubuntu3.13.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2022-29155"
+  ],
+  "published": "2022-05-19T18:54:14Z",
+  "modified": "2022-05-19T18:54:14Z",
+  "details": "\n   * SECURITY UPDATE: SQL injection vulnerability\n     - debian/patches/CVE-2022-29155.patch: Escape filter values\n       in servers/slapd/back-sql/search.c.\n     - CVE-2022-29155",
+  "references": [
+    {
+      "url": "https://errata.cloudlinux.com/ubuntu16_04/CLSA-2022-1652986454",
+      "type": "ADVISORY"
+    }
+  ]
+}

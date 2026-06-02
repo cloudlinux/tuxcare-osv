@@ -1,0 +1,38 @@
+{
+  "id": "CLSA-2025-1744628190",
+  "summary": "Fix CVE(s): CVE-2019-14846",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "ansible",
+        "purl": "pkg:deb/tuxcare/ansible?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.1.1.0-1~ubuntu16.04.1+tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2019-14846"
+  ],
+  "published": "2025-04-14T10:56:35Z",
+  "modified": "2025-04-14T10:56:35Z",
+  "details": "   * SECURITY UPDATE: security vulnerability in logging credentials at DEBUG\n     level\n     - debian/patches/CVE-2019-14846.patch: Fix plugins leaking boto credentials\n       to logs by switching logging level to INFO\n     - CVE-2019-14846",
+  "references": [
+    {
+      "url": "https://errata.cloudlinux.com/ubuntu16-els/CLSA-2025-1744628190.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

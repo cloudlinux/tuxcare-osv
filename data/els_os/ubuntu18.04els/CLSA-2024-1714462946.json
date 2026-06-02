@@ -1,0 +1,118 @@
+{
+  "id": "CLSA-2024-1714462946",
+  "summary": "Fix CVE(s): CVE-2024-1013",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "libodbc1",
+        "purl": "pkg:deb/tuxcare/libodbc1?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.3.4-1.1ubuntu3+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "odbcinst",
+        "purl": "pkg:deb/tuxcare/odbcinst?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.3.4-1.1ubuntu3+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "odbcinst1debian2",
+        "purl": "pkg:deb/tuxcare/odbcinst1debian2?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.3.4-1.1ubuntu3+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "unixodbc",
+        "purl": "pkg:deb/tuxcare/unixodbc?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.3.4-1.1ubuntu3+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "unixodbc-dev",
+        "purl": "pkg:deb/tuxcare/unixodbc-dev?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.3.4-1.1ubuntu3+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2024-1013"
+  ],
+  "published": "2024-04-30T07:42:29Z",
+  "modified": "2024-04-30T07:42:29Z",
+  "details": "   * SECURITY UPDATE: PostgreSQL driver: Fix incompatible pointer-to-integer types\n     - debian/patches/CVE-2024-1013.patch: Fix out-of-bounds stack write by adjusting\n       byte size in callee function\n     - CVE-2024-1013",
+  "references": [
+    {
+      "url": "https://errata.cloudlinux.com/ubuntu18-els/CLSA-2024-1714462946.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

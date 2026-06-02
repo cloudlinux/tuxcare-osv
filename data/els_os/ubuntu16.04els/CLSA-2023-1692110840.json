@@ -1,0 +1,118 @@
+{
+  "id": "CLSA-2023-1692110840",
+  "summary": "Fix CVE(s): CVE-2018-7409",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "libodbc1",
+        "purl": "pkg:deb/tuxcare/libodbc1?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.3.1-4.1+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "odbcinst",
+        "purl": "pkg:deb/tuxcare/odbcinst?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.3.1-4.1+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "odbcinst1debian2",
+        "purl": "pkg:deb/tuxcare/odbcinst1debian2?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.3.1-4.1+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "unixodbc",
+        "purl": "pkg:deb/tuxcare/unixodbc?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.3.1-4.1+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "unixodbc-dev",
+        "purl": "pkg:deb/tuxcare/unixodbc-dev?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.3.1-4.1+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2018-7409"
+  ],
+  "published": "2023-08-15T14:47:24Z",
+  "modified": "2023-08-15T14:47:24Z",
+  "details": "\n   * SECURITY UPDATE: Fix buffer overflow\n     - debian/patch/CVE-2018-7409: fix unicode_to_ansi_copy(), don't include\n       NUL-terminator in length in unicode_to_ansi_alloc(), make sure that\n       the error handling doesn't overrun the buffer\n     - CVE-2018-7409",
+  "references": [
+    {
+      "url": "https://errata.cloudlinux.com/ubuntu16_04-els/CLSA-2023-1692110840",
+      "type": "ADVISORY"
+    }
+  ]
+}

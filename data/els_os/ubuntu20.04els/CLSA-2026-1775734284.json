@@ -1,0 +1,119 @@
+{
+  "id": "CLSA-2026-1775734284",
+  "summary": "Fix CVE(s): CVE-2026-32748, CVE-2026-33526",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:20.04",
+        "name": "squid",
+        "purl": "pkg:deb/tuxcare/squid?distro=ubuntu-20.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.10-1ubuntu1.13+tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:20.04",
+        "name": "squid-cgi",
+        "purl": "pkg:deb/tuxcare/squid-cgi?distro=ubuntu-20.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.10-1ubuntu1.13+tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:20.04",
+        "name": "squid-common",
+        "purl": "pkg:deb/tuxcare/squid-common?distro=ubuntu-20.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.10-1ubuntu1.13+tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:20.04",
+        "name": "squid-purge",
+        "purl": "pkg:deb/tuxcare/squid-purge?distro=ubuntu-20.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.10-1ubuntu1.13+tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:20.04",
+        "name": "squidclient",
+        "purl": "pkg:deb/tuxcare/squidclient?distro=ubuntu-20.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.10-1ubuntu1.13+tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-32748",
+    "CVE-2026-33526"
+  ],
+  "published": "2026-04-09T11:31:29Z",
+  "modified": "2026-04-09T11:31:29Z",
+  "details": "   * SECURITY UPDATE: denial of service via use-after-free in ICP\n     - debian/patches/CVE-2026-33526.patch: remove duplicate\n       rfc1738_escape call in icpGetRequest that invalidated the\n       previously escaped URL pointer\n     - CVE-2026-33526\n   * SECURITY UPDATE: denial of service via use-after-free in ICP\n     request handling\n     - debian/patches/CVE-2026-32748.patch: return HttpRequestPointer\n       and move icpAccessAllowed into icpGetRequest to fix HttpRequest\n       lifetime for ICP v3 queries\n     - CVE-2026-32748",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/ubuntu20.04els/CLSA-2026-1775734284.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

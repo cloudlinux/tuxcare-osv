@@ -1,0 +1,38 @@
+{
+  "id": "CLSA-2025-1745052021",
+  "summary": "Fix CVE(s): CVE-2020-1739",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "ansible",
+        "purl": "pkg:deb/tuxcare/ansible?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.5.1+dfsg-1ubuntu0.1+tuxcare.els7"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2020-1739"
+  ],
+  "published": "2025-04-19T08:40:26Z",
+  "modified": "2025-04-19T08:40:26Z",
+  "details": "   * SECURITY UPDATE: password disclosure via svn module argument\n     - debian/patches/CVE-2020-1739.patch: Fix security issue by providing\n       password securely with --password-from-stdin option and warn if svn\n       version is too old to support it\n     - CVE-2020-1739",
+  "references": [
+    {
+      "url": "https://errata.cloudlinux.com/ubuntu18-els/CLSA-2025-1745052021.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

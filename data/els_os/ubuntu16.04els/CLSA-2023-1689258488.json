@@ -1,0 +1,60 @@
+{
+  "id": "CLSA-2023-1689258488",
+  "summary": "Fix CVE(s): CVE-2023-28486, CVE-2023-2848, CVE-2023-28487",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "sudo",
+        "purl": "pkg:deb/tuxcare/sudo?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.8.16-0ubuntu1.11+tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "sudo-ldap",
+        "purl": "pkg:deb/tuxcare/sudo-ldap?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.8.16-0ubuntu1.11+tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2023-28486",
+    "CVE-2023-2848",
+    "CVE-2023-28487"
+  ],
+  "published": "2023-07-13T14:28:12Z",
+  "modified": "2023-07-13T14:28:12Z",
+  "details": "\n   * SECURITY UPDATE: control characters are not escaped\n     - debian/patches/CVE-2023-2848x.patch: escape control chars\n     - CVE-2023-28486\n     - CVE-2023-28487",
+  "references": [
+    {
+      "url": "https://errata.cloudlinux.com/ubuntu16_04-els/CLSA-2023-1689258488",
+      "type": "ADVISORY"
+    }
+  ]
+}

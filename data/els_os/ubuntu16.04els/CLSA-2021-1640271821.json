@@ -1,0 +1,173 @@
+{
+  "id": "CLSA-2021-1640271821",
+  "summary": "Fix CVE(s): CVE-2020-28024, CVE-2020-28025, CVE-2020-28026, CVE-2020-28020, CVE-2020-28021, CVE-2020-28022, CVE-2020-28011, CVE-2020-28013, CVE-2020-28012, CVE-2020-28015, CVE-2020-28007, CVE-2020-28017, CVE-2021-27216, CVE-2020-28008, CVE-2020-28009, CVE-2020-28014",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "exim4",
+        "purl": "pkg:deb/tuxcare/exim4?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.86.2-2ubuntu2.6+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "exim4-base",
+        "purl": "pkg:deb/tuxcare/exim4-base?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.86.2-2ubuntu2.6+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "exim4-config",
+        "purl": "pkg:deb/tuxcare/exim4-config?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.86.2-2ubuntu2.6+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "exim4-daemon-heavy",
+        "purl": "pkg:deb/tuxcare/exim4-daemon-heavy?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.86.2-2ubuntu2.6+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "exim4-daemon-light",
+        "purl": "pkg:deb/tuxcare/exim4-daemon-light?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.86.2-2ubuntu2.6+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "exim4-dev",
+        "purl": "pkg:deb/tuxcare/exim4-dev?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.86.2-2ubuntu2.6+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "eximon4",
+        "purl": "pkg:deb/tuxcare/eximon4?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.86.2-2ubuntu2.6+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2020-28024",
+    "CVE-2020-28025",
+    "CVE-2020-28026",
+    "CVE-2020-28020",
+    "CVE-2020-28021",
+    "CVE-2020-28022",
+    "CVE-2020-28011",
+    "CVE-2020-28013",
+    "CVE-2020-28012",
+    "CVE-2020-28015",
+    "CVE-2020-28007",
+    "CVE-2020-28017",
+    "CVE-2021-27216",
+    "CVE-2020-28008",
+    "CVE-2020-28009",
+    "CVE-2020-28014"
+  ],
+  "published": "2021-12-23T15:03:41Z",
+  "modified": "2021-12-23T15:03:41Z",
+  "details": "\n   * SECURITY UPDATE: Multiple security issues\n     - debian/patches/CVE-2020-28007.patch\n     - debian/patches/CVE-2020-28008.patch\n     - debian/patches/CVE-2020-28009.patch\n     - debian/patches/CVE-2020-28011.patch\n     - debian/patches/CVE-2020-28012.patch\n     - debian/patches/CVE-2020-28013.patch\n     - debian/patches/CVE-2020-28014+CVE-2021-27216.patch\n     - debian/patches/CVE-2020-28015+28021.patch\n     - debian/patches/CVE-2020-28017.patch\n     - debian/patches/CVE-2020-28020.patch\n     - debian/patches/CVE-2020-28022.patch\n     - debian/patches/CVE-2020-28024.patch\n     - debian/patches/CVE-2020-28025.patch\n     - debian/patches/CVE-2020-28026.patch: backport patches from upstream to\n       correct issues.\n     - CVE-2020-28007, CVE-2020-28008, CVE-2020-28009,\n       CVE-2020-28011, CVE-2020-28012, CVE-2020-28013, CVE-2020-28014,\n       CVE-2020-28015, CVE-2020-28017,\n       CVE-2020-28020, CVE-2020-28021, CVE-2020-28022,\n       CVE-2020-28024, CVE-2020-28025, CVE-2020-28026,\n       CVE-2021-27216",
+  "references": [
+    {
+      "url": "https://errata.cloudlinux.com/ubuntu16_04/CLSA-2021-1640271821",
+      "type": "ADVISORY"
+    }
+  ]
+}

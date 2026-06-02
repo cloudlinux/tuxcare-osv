@@ -1,0 +1,78 @@
+{
+  "id": "CLSA-2022-1664192553",
+  "summary": "Fix CVE(s): CVE-2022-40674",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "expat",
+        "purl": "pkg:deb/tuxcare/expat?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.1.0-7ubuntu0.16.04.5+tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "libexpat1",
+        "purl": "pkg:deb/tuxcare/libexpat1?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.1.0-7ubuntu0.16.04.5+tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "libexpat1-dev",
+        "purl": "pkg:deb/tuxcare/libexpat1-dev?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.1.0-7ubuntu0.16.04.5+tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2022-40674"
+  ],
+  "published": "2022-09-26T11:42:33Z",
+  "modified": "2022-09-26T11:42:33Z",
+  "details": "\n   * SECURITY UPDATE: Unsafe exiting internalEntityParser\n     - debian/patches/CVE-2022-40674.patch: Ensure raw tagnames are\n       safe exiting internalEntityParser\n     - CVE-2022-40674\n   * tests were activated\n   * some leaks fixed:\n     - debian/patches/fix-leak-xmlparse.patch: tidy up attribute prefix\n       bindings on error (fixes #17)\n     - debian/patches/fix-tests-leak.patch: free the external entity\n       parser in external_entity_loader_set_encoding()\n     - debian/patches/fix-tests-leak2.patch: free the content model in\n       dummy_element_decl_handler()\n     - debian/patches/dispose-test-stuff.patch: removes some of the\n       memory leaks discovered by AddressSanitizer in the test suite\n       (Issue #23)",
+  "references": [
+    {
+      "url": "https://errata.cloudlinux.com/ubuntu16_04/CLSA-2022-1664192553",
+      "type": "ADVISORY"
+    }
+  ]
+}

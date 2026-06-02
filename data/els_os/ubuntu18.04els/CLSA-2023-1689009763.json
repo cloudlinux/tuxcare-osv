@@ -1,0 +1,78 @@
+{
+  "id": "CLSA-2023-1689009763",
+  "summary": "Fix CVE(s): CVE-2021-40812",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "libgd-dev",
+        "purl": "pkg:deb/tuxcare/libgd-dev?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.2.5-4ubuntu0.5+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "libgd-tools",
+        "purl": "pkg:deb/tuxcare/libgd-tools?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.2.5-4ubuntu0.5+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "libgd3",
+        "purl": "pkg:deb/tuxcare/libgd3?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.2.5-4ubuntu0.5+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2021-40812"
+  ],
+  "published": "2023-07-10T17:22:48Z",
+  "modified": "2023-07-10T17:22:48Z",
+  "details": "\n   * SECURITY UPDATE: Out of bounds read due to a lack of return value checks\n     - debian/patches/CVE-2021-40812.patch: Added return value checks following\n       calls to gdPutBuf in src/gd_webp.c and src/gd_bmp.c\n     - CVE-2021-40812",
+  "references": [
+    {
+      "url": "https://errata.cloudlinux.com/ubuntu18_04-els/CLSA-2023-1689009763",
+      "type": "ADVISORY"
+    }
+  ]
+}

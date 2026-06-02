@@ -1,0 +1,118 @@
+{
+  "id": "CLSA-2021-1639578644",
+  "summary": "Fix CVE(s): CVE-2021-43527",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "libnss3",
+        "purl": "pkg:deb/tuxcare/libnss3?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:3.28.4-0ubuntu0.16.04.14+tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "libnss3-1d",
+        "purl": "pkg:deb/tuxcare/libnss3-1d?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:3.28.4-0ubuntu0.16.04.14+tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "libnss3-dev",
+        "purl": "pkg:deb/tuxcare/libnss3-dev?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:3.28.4-0ubuntu0.16.04.14+tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "libnss3-nssdb",
+        "purl": "pkg:deb/tuxcare/libnss3-nssdb?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:3.28.4-0ubuntu0.16.04.14+tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "libnss3-tools",
+        "purl": "pkg:deb/tuxcare/libnss3-tools?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:3.28.4-0ubuntu0.16.04.14+tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2021-43527"
+  ],
+  "published": "2021-12-15T14:30:44Z",
+  "modified": "2021-12-15T14:30:44Z",
+  "details": "\n   * SECURITY REGRESSION: Broken SSL connections\n     - debian/patches/CVE-2021-43527.patch: Add missing break statement",
+  "references": [
+    {
+      "url": "https://errata.cloudlinux.com/ubuntu16_04/CLSA-2021-1639578644",
+      "type": "ADVISORY"
+    }
+  ]
+}

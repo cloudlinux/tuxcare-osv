@@ -1,0 +1,158 @@
+{
+  "id": "CLSA-2023-1675111190",
+  "summary": "Fix CVE(s): CVE-2022-28321",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "libpam-cracklib",
+        "purl": "pkg:deb/tuxcare/libpam-cracklib?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.1.8-3.2ubuntu2.3+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "libpam-doc",
+        "purl": "pkg:deb/tuxcare/libpam-doc?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.1.8-3.2ubuntu2.3+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "libpam-modules",
+        "purl": "pkg:deb/tuxcare/libpam-modules?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.1.8-3.2ubuntu2.3+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "libpam-modules-bin",
+        "purl": "pkg:deb/tuxcare/libpam-modules-bin?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.1.8-3.2ubuntu2.3+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "libpam-runtime",
+        "purl": "pkg:deb/tuxcare/libpam-runtime?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.1.8-3.2ubuntu2.3+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "libpam0g",
+        "purl": "pkg:deb/tuxcare/libpam0g?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.1.8-3.2ubuntu2.3+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "libpam0g-dev",
+        "purl": "pkg:deb/tuxcare/libpam0g-dev?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.1.8-3.2ubuntu2.3+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2022-28321"
+  ],
+  "published": "2023-01-30T20:39:50Z",
+  "modified": "2023-01-30T20:39:50Z",
+  "details": "\n   * SECURITY UPDATE: access denial bypass in pam_access.so\n     - debian/patches-applied/CVE-2022-28321.patch: properly use getnameinfo()\n       and getaddrinfo() to handle hostnames in access.conf, add freeaddrinfo()\n       to avoid memory leaks on return from network_netmask_match() as well\n     - CVE-2022-28321",
+  "references": [
+    {
+      "url": "https://errata.cloudlinux.com/ubuntu16-els/CLSA-2023-1675111190",
+      "type": "ADVISORY"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "id": "CLSA-2023-1675985375",
+  "summary": "Fix CVE(s): CVE-2023-22809",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "sudo",
+        "purl": "pkg:deb/tuxcare/sudo?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.8.16-0ubuntu1.11+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "sudo-ldap",
+        "purl": "pkg:deb/tuxcare/sudo-ldap?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.8.16-0ubuntu1.11+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2023-22809"
+  ],
+  "published": "2023-02-09T23:29:35Z",
+  "modified": "2023-02-09T23:29:35Z",
+  "details": "\n   * SECURITY UPDATE: edit a file not permitted by the security policy\n     - debian/patches/CVE-2023-22809.patch: do not permit editor\n       arguments to include \"--\"\n     - CVE-2023-22809",
+  "references": [
+    {
+      "url": "https://errata.cloudlinux.com/ubuntu16_04-els/CLSA-2023-1675985375",
+      "type": "ADVISORY"
+    }
+  ]
+}

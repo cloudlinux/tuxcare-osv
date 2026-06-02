@@ -1,0 +1,119 @@
+{
+  "id": "CLSA-2022-1670518262",
+  "summary": "Fix CVE(s): CVE-2022-40303, CVE-2022-40304",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "libxml2",
+        "purl": "pkg:deb/tuxcare/libxml2?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.9.3+dfsg1-1ubuntu0.7+tuxcare.els5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "libxml2-dev",
+        "purl": "pkg:deb/tuxcare/libxml2-dev?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.9.3+dfsg1-1ubuntu0.7+tuxcare.els5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "libxml2-doc",
+        "purl": "pkg:deb/tuxcare/libxml2-doc?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.9.3+dfsg1-1ubuntu0.7+tuxcare.els5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "libxml2-utils",
+        "purl": "pkg:deb/tuxcare/libxml2-utils?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.9.3+dfsg1-1ubuntu0.7+tuxcare.els5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "python-libxml2",
+        "purl": "pkg:deb/tuxcare/python-libxml2?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.9.3+dfsg1-1ubuntu0.7+tuxcare.els5"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2022-40303",
+    "CVE-2022-40304"
+  ],
+  "published": "2022-12-08T16:51:02Z",
+  "modified": "2022-12-08T16:51:02Z",
+  "details": "\n   * SECURITY UPDATE: Integer overflows with XML_PARSE_HUGE\n     - debian/patches/CVE-2022-40303.patch: Impose size limits when\n       XML_PARSE_HUGE is set and add length checks to core parser functions\n     - CVE-2022-40303\n   * SECURITY UPDATE: Dict corruption caused by entity reference cycles\n     - debian/patches/CVE-2022-40304.patch: Stop storing entity content, orig,\n       ExternalID and SystemID in a dict since these values are unlikely to\n       occur multiple times in a document, so they shouldn't have been stored\n       in a dict in the first place\n     - CVE-2022-40304",
+  "references": [
+    {
+      "url": "https://errata.cloudlinux.com/ubuntu16-els/CLSA-2022-1670518262",
+      "type": "ADVISORY"
+    }
+  ]
+}

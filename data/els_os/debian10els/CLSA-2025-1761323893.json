@@ -1,0 +1,158 @@
+{
+  "id": "CLSA-2025-1761323893",
+  "summary": "Fix CVE(s): CVE-2023-31484",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Debian:10",
+        "name": "libperl-dev",
+        "purl": "pkg:deb/tuxcare/libperl-dev?distro=debian-10"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.28.1-6+deb10u1+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Debian:10",
+        "name": "libperl5.28",
+        "purl": "pkg:deb/tuxcare/libperl5.28?distro=debian-10"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.28.1-6+deb10u1+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Debian:10",
+        "name": "perl",
+        "purl": "pkg:deb/tuxcare/perl?distro=debian-10"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.28.1-6+deb10u1+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Debian:10",
+        "name": "perl-base",
+        "purl": "pkg:deb/tuxcare/perl-base?distro=debian-10"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.28.1-6+deb10u1+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Debian:10",
+        "name": "perl-debug",
+        "purl": "pkg:deb/tuxcare/perl-debug?distro=debian-10"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.28.1-6+deb10u1+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Debian:10",
+        "name": "perl-doc",
+        "purl": "pkg:deb/tuxcare/perl-doc?distro=debian-10"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.28.1-6+deb10u1+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Debian:10",
+        "name": "perl-modules-5.28",
+        "purl": "pkg:deb/tuxcare/perl-modules-5.28?distro=debian-10"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.28.1-6+deb10u1+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2023-31484"
+  ],
+  "published": "2025-10-24T16:38:23Z",
+  "modified": "2025-10-24T16:38:23Z",
+  "details": "   * SECURITY UPDATE: missing TLS certificate verification\n     - debian/patches/fixes/CVE-2023-31484.patch: enable SSL/TLS cert checking\n       in .../CPAN/HTTP/Client.pm\n     - CVE-2023-31484",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/debian10els/CLSA-2025-1761323893.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

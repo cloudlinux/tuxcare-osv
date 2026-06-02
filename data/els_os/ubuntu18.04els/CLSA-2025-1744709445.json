@@ -1,0 +1,38 @@
+{
+  "id": "CLSA-2025-1744709445",
+  "summary": "Fix CVE(s): CVE-2020-10729",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "ansible",
+        "purl": "pkg:deb/tuxcare/ansible?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.5.1+dfsg-1ubuntu0.1+tuxcare.els6"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2020-10729"
+  ],
+  "published": "2025-04-15T09:30:51Z",
+  "modified": "2025-04-15T09:30:51Z",
+  "details": "   * SECURITY UPDATE: insufficiently Random Passwords Leakage\n     - debian/patches/CVE-2020-10729.patch: Fix caching of Jinja2 expressions to\n       prevent caching dynamic results\n     - CVE-2020-10729",
+  "references": [
+    {
+      "url": "https://errata.cloudlinux.com/ubuntu18-els/CLSA-2025-1744709445.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

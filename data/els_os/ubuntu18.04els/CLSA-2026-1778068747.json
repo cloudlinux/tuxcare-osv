@@ -1,0 +1,118 @@
+{
+  "id": "CLSA-2026-1778068747",
+  "summary": "Fix CVE(s): CVE-2026-0966",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "libssh-4",
+        "purl": "pkg:deb/tuxcare/libssh-4?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.8.0~20170825.94fa1e38-1ubuntu0.7+tuxcare.els5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "libssh-dev",
+        "purl": "pkg:deb/tuxcare/libssh-dev?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.8.0~20170825.94fa1e38-1ubuntu0.7+tuxcare.els5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "libssh-doc",
+        "purl": "pkg:deb/tuxcare/libssh-doc?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.8.0~20170825.94fa1e38-1ubuntu0.7+tuxcare.els5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "libssh-gcrypt-4",
+        "purl": "pkg:deb/tuxcare/libssh-gcrypt-4?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.8.0~20170825.94fa1e38-1ubuntu0.7+tuxcare.els5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "libssh-gcrypt-dev",
+        "purl": "pkg:deb/tuxcare/libssh-gcrypt-dev?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.8.0~20170825.94fa1e38-1ubuntu0.7+tuxcare.els5"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-0966"
+  ],
+  "published": "2026-05-06T11:59:12Z",
+  "modified": "2026-05-06T11:59:12Z",
+  "details": "   * SECURITY UPDATE: heap buffer underflow in ssh_get_hexa() on zero-length\n     or NULL input, remotely reachable via GSSAPI authentication logging\n     - debian/patches/CVE-2026-0966.patch: reject NULL/zero-length input in\n       ssh_get_hexa() in src/dh.c\n     - CVE-2026-0966: fix heap buffer underflow in ssh_get_hexa()",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/ubuntu18.04els/CLSA-2026-1778068747.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

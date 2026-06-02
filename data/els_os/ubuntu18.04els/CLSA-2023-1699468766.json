@@ -1,0 +1,98 @@
+{
+  "id": "CLSA-2023-1699468766",
+  "summary": "Fix CVE(s): CVE-2018-12327",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "ntp",
+        "purl": "pkg:deb/tuxcare/ntp?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:4.2.8p10+dfsg-5ubuntu7.3+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "ntp-doc",
+        "purl": "pkg:deb/tuxcare/ntp-doc?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:4.2.8p10+dfsg-5ubuntu7.3+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "ntpdate",
+        "purl": "pkg:deb/tuxcare/ntpdate?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:4.2.8p10+dfsg-5ubuntu7.3+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "sntp",
+        "purl": "pkg:deb/tuxcare/sntp?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:4.2.8p10+dfsg-5ubuntu7.3+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2018-12327"
+  ],
+  "published": "2023-11-08T18:39:31Z",
+  "modified": "2023-11-08T18:39:31Z",
+  "details": "\n   * SECURITY UPDATE: Arbitrary code execution vulnerability in ntpq/ntpdc\n     - debian/patches/CVE-2018-12327.patch: fix stack buffer overflow in\n       NTPQ/NTPDC.\n     - CVE-2018-12327",
+  "references": [
+    {
+      "url": "https://errata.cloudlinux.com/ubuntu18_04-els/CLSA-2023-1699468766",
+      "type": "ADVISORY"
+    }
+  ]
+}

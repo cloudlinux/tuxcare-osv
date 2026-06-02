@@ -1,0 +1,36 @@
+{
+  "id": "CLSA-2024-1711564698",
+  "summary": "Update of alt-php",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "tzdata",
+        "purl": "pkg:deb/tuxcare/tzdata?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2024a-0ubuntu0.18.04+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [],
+  "published": "2024-03-27T18:38:21Z",
+  "modified": "2024-03-27T18:38:21Z",
+  "details": "   * New upstream 2024a version:\n     - Kazakhstan unifies on UTC+5 beginning 2024-03-01.\n     - Palestine springs forward a week later after Ramadan.\n     - zic no longer pretends to support indefinite-past DST.\n     - localtime no longer mishandles Ciudad Ju\u00e1rez in 2422.\n   * New upstream 2023d version:\n     - Ittoqqortoormiit, Greenland changes time zones on 2024-03-31.\n     - Vostok, Antarctica changed time zones on 2023-12-18.\n     - Casey, Antarctica changed time zones five times since 2020.\n     - Code and data fixes for Palestine timestamps starting in 2072.\n     - A new data file zonenow.tab for timestamps starting now.\n   * Add autopkgtest test case for 2023d, 2024a releases.\n   * Install zonenow.tab.\n   * Update make-systemv.patch.",
+  "references": [
+    {
+      "url": "https://errata.cloudlinux.com/ubuntu18-els/CLSA-2024-1711564698.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

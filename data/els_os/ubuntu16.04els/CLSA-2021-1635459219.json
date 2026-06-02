@@ -1,0 +1,81 @@
+{
+  "id": "CLSA-2021-1635459219",
+  "summary": "Fix CVE(s): CVE-2021-40812, CVE-2021-40145, CVE-2021-38115, CVE-2017-6363",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "libgd-dev",
+        "purl": "pkg:deb/tuxcare/libgd-dev?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.1.1-4ubuntu0.16.04.13"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "libgd-tools",
+        "purl": "pkg:deb/tuxcare/libgd-tools?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.1.1-4ubuntu0.16.04.13"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "libgd3",
+        "purl": "pkg:deb/tuxcare/libgd3?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.1.1-4ubuntu0.16.04.13"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2021-40812",
+    "CVE-2021-40145",
+    "CVE-2021-38115",
+    "CVE-2017-6363"
+  ],
+  "published": "2021-10-28T22:13:39Z",
+  "modified": "2021-10-28T22:13:39Z",
+  "details": "\n   * SECURITY UPDATE: unhandled memory allocation error in gdImageGd2Ptr\n     - debian/patches/CVE-2021-40145.patch: check for non-zero return\n       code from _gdImageGd2\n     - CVE-2021-40145\n   * SECURITY UPDATE: unhandled value returned from gdPutBuf\n     - debian/patches/CVE-2021-40812.patch: handle possible gdPutBuf\n       error in _gdImageBmpCtx and _gdImageWebpCtx\n       CVE-2021-40812\n   * SECURITY UPDATE: unhandled value returned from gdGetBuf\n     - debian/patches/CVE-2021-38115.patch: handle possible gdGetBuf\n       error in read_header_tga\n       CVE-2021-38115\n   * SECURITY UPDATE: handle possible heap buffer overread\n     - debian/patches/CVE-2017-6363.patch: make sure transparent\n       index is within bounds of the palette\n       CVE-2017-6363",
+  "references": [
+    {
+      "url": "https://errata.cloudlinux.com/ubuntu16_04/CLSA-2021-1635459219",
+      "type": "ADVISORY"
+    }
+  ]
+}

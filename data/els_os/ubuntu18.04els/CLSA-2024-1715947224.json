@@ -1,0 +1,38 @@
+{
+  "id": "CLSA-2024-1715947224",
+  "summary": "Fix CVE(s): CVE-2024-32487",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "less",
+        "purl": "pkg:deb/tuxcare/less?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "487-0.1+tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2024-32487"
+  ],
+  "published": "2024-05-17T12:00:27Z",
+  "modified": "2024-05-17T12:00:27Z",
+  "details": "   * SECURITY UPDATE: quoting is mishandled in filename.c.\n     - debian/patches/CVE-2024-32487.patch: Fix bug when viewing a file\n       whose name contains a newline.\n     - CVE-2024-32487",
+  "references": [
+    {
+      "url": "https://errata.cloudlinux.com/ubuntu18-els/CLSA-2024-1715947224.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

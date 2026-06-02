@@ -1,0 +1,118 @@
+{
+  "id": "CLSA-2026-1776262694",
+  "summary": "Fix CVE(s): CVE-2026-0968",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:20.04",
+        "name": "libssh-4",
+        "purl": "pkg:deb/tuxcare/libssh-4?distro=ubuntu-20.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.9.3-2ubuntu2.5+tuxcare.els4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:20.04",
+        "name": "libssh-dev",
+        "purl": "pkg:deb/tuxcare/libssh-dev?distro=ubuntu-20.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.9.3-2ubuntu2.5+tuxcare.els4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:20.04",
+        "name": "libssh-doc",
+        "purl": "pkg:deb/tuxcare/libssh-doc?distro=ubuntu-20.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.9.3-2ubuntu2.5+tuxcare.els4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:20.04",
+        "name": "libssh-gcrypt-4",
+        "purl": "pkg:deb/tuxcare/libssh-gcrypt-4?distro=ubuntu-20.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.9.3-2ubuntu2.5+tuxcare.els4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:20.04",
+        "name": "libssh-gcrypt-dev",
+        "purl": "pkg:deb/tuxcare/libssh-gcrypt-dev?distro=ubuntu-20.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.9.3-2ubuntu2.5+tuxcare.els4"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-0968"
+  ],
+  "published": "2026-04-16T15:26:02Z",
+  "modified": "2026-04-16T15:26:02Z",
+  "details": "   * SECURITY UPDATE: null pointer dereference and out-of-bounds read in\n     sftp_parse_longname when processing malformed SSH_FXP_NAME messages\n     - debian/patches/CVE-2026-0968.patch: add null check, input\n       validation, and end-of-string guards in sftp_parse_longname\n     - CVE-2026-0968",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/ubuntu20.04els/CLSA-2026-1776262694.html",
+      "type": "ADVISORY"
+    }
+  ]
+}
