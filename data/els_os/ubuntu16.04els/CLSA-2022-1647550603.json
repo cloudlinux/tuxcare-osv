@@ -1,0 +1,98 @@
+{
+  "id": "CLSA-2022-1647550603",
+  "summary": "Fix CVE(s): CVE-2022-0778",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "libssl-dev",
+        "purl": "pkg:deb/tuxcare/libssl-dev?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.0.2g-1ubuntu4.21+tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "libssl-doc",
+        "purl": "pkg:deb/tuxcare/libssl-doc?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.0.2g-1ubuntu4.21+tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "libssl1.0.0",
+        "purl": "pkg:deb/tuxcare/libssl1.0.0?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.0.2g-1ubuntu4.21+tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "openssl",
+        "purl": "pkg:deb/tuxcare/openssl?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.0.2g-1ubuntu4.21+tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2022-0778"
+  ],
+  "published": "2022-03-17T20:56:43Z",
+  "modified": "2022-03-17T20:56:43Z",
+  "details": "\n   * SECURITY UPDATE: Infinite loop in BN_mod_sqrt()\n     - debian/patches/CVE-2022-0778.patch: fix infinite loop in crypto/bn/bn_sqrt.c.\n     - CVE-2022-0778",
+  "references": [
+    {
+      "url": "https://errata.cloudlinux.com/ubuntu16_04/CLSA-2022-1647550603",
+      "type": "ADVISORY"
+    }
+  ]
+}

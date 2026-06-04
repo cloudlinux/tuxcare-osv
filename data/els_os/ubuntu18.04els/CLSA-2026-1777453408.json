@@ -1,0 +1,118 @@
+{
+  "id": "CLSA-2026-1777453408",
+  "summary": "Fix CVE(s): CVE-2026-35414",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "openssh-client",
+        "purl": "pkg:deb/tuxcare/openssh-client?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:7.6p1-4ubuntu0.7+tuxcare.els8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "openssh-server",
+        "purl": "pkg:deb/tuxcare/openssh-server?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:7.6p1-4ubuntu0.7+tuxcare.els8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "openssh-sftp-server",
+        "purl": "pkg:deb/tuxcare/openssh-sftp-server?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:7.6p1-4ubuntu0.7+tuxcare.els8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "ssh",
+        "purl": "pkg:deb/tuxcare/ssh?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:7.6p1-4ubuntu0.7+tuxcare.els8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "ssh-askpass-gnome",
+        "purl": "pkg:deb/tuxcare/ssh-askpass-gnome?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:7.6p1-4ubuntu0.7+tuxcare.els8"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-35414"
+  ],
+  "published": "2026-04-29T09:03:33Z",
+  "modified": "2026-04-29T09:03:33Z",
+  "details": "   * SECURITY UPDATE: incorrect matching of principals in the authorized_keys\n     principals=\"...\" option when a certificate principal contains a comma.\n     - debian/patches/CVE-2026-35414.patch: fix match_principals_option to\n       split on comma and compare principals exactly\n     - CVE-2026-35414",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/ubuntu18.04els/CLSA-2026-1777453408.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

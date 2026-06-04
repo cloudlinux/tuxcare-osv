@@ -1,0 +1,36 @@
+{
+  "id": "CLSA-2025-1759937401",
+  "summary": "Update of alt-php",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Debian:10",
+        "name": "els-os-release",
+        "purl": "pkg:deb/tuxcare/els-os-release?distro=debian-10"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.0.0-2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [],
+  "published": "2025-10-08T15:35:05Z",
+  "modified": "2025-10-08T15:35:05Z",
+  "details": "   * Move gpg key and repo installation from debian/install to postinst\n   * Add support for multiple deb platforms",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/debian10els/CLSA-2025-1759937401.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

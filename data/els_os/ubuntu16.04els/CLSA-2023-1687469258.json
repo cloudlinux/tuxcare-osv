@@ -1,0 +1,78 @@
+{
+  "id": "CLSA-2023-1687469258",
+  "summary": "Fix CVE(s): CVE-2022-34903",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "gnupg",
+        "purl": "pkg:deb/tuxcare/gnupg?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.4.20-1ubuntu3.3+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "gnupg-curl",
+        "purl": "pkg:deb/tuxcare/gnupg-curl?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.4.20-1ubuntu3.3+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "gpgv",
+        "purl": "pkg:deb/tuxcare/gpgv?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.4.20-1ubuntu3.3+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2022-34903"
+  ],
+  "published": "2023-06-22T21:27:43Z",
+  "modified": "2023-06-22T21:27:43Z",
+  "details": "\n   * SECURITY UPDATE: buffer overflow allows for signature spoofing\n     - debian/patches/CVE-2022-34903.patch: always use a break to terminate the\n       escape detection loop.\n     - CVE-2022-34903",
+  "references": [
+    {
+      "url": "https://errata.cloudlinux.com/ubuntu16_04-els/CLSA-2023-1687469258",
+      "type": "ADVISORY"
+    }
+  ]
+}

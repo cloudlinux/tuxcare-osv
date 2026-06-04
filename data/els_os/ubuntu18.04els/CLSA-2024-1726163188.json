@@ -1,0 +1,79 @@
+{
+  "id": "CLSA-2024-1726163188",
+  "summary": "Fix CVE(s): CVE-2024-45491, CVE-2024-45492",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "expat",
+        "purl": "pkg:deb/tuxcare/expat?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.2.5-3ubuntu0.9+tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "libexpat1",
+        "purl": "pkg:deb/tuxcare/libexpat1?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.2.5-3ubuntu0.9+tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "libexpat1-dev",
+        "purl": "pkg:deb/tuxcare/libexpat1-dev?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.2.5-3ubuntu0.9+tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2024-45491",
+    "CVE-2024-45492"
+  ],
+  "published": "2024-09-12T17:46:31Z",
+  "modified": "2024-09-12T17:46:31Z",
+  "details": "   * SECURITY UPDATE: integer overflow\n     - debian/patches/CVE-2024-45491.patch: prevent integer overflow\n       in dtdCopy\n     - CVE-2024-45491\n   * SECURITY UPDATE: integer overflow\n     - debian/patches/CVE-2024-45492.patch: prevent integer overflow\n       in nextScaffoldPart\n     - CVE-2024-45492",
+  "references": [
+    {
+      "url": "https://errata.cloudlinux.com/ubuntu18-els/CLSA-2024-1726163188.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

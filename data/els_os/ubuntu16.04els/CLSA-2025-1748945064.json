@@ -1,0 +1,39 @@
+{
+  "id": "CLSA-2025-1748945064",
+  "summary": "Fix CVE(s): CVE-2019-10206, CVE-2019-14856",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "ansible",
+        "purl": "pkg:deb/tuxcare/ansible?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.1.1.0-1~ubuntu16.04.1+tuxcare.els12"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2019-10206",
+    "CVE-2019-14856"
+  ],
+  "published": "2025-06-03T10:04:30Z",
+  "modified": "2025-06-03T10:04:30Z",
+  "details": "   * SECURITY UPDATE: password prompt vulnerability from template expansion\n     - debian/patches/CVE-2019-10206.patch: prevent templating of passwords from\n       prompt to avoid special characters triggering it incorrectly\n     - CVE-2019-10206\n     - debian/patches/CVE-2019-14856.patch: fix incomplete CVE-2019-10206 patch\n     - CVE-2019-14856",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/ubuntu16.04els/CLSA-2025-1748945064.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

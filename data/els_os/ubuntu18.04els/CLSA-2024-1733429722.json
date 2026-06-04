@@ -1,0 +1,38 @@
+{
+  "id": "CLSA-2024-1733429722",
+  "summary": "Fix CVE(s): CVE-2024-48992",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "needrestart",
+        "purl": "pkg:deb/tuxcare/needrestart?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.1-1ubuntu0.1+tuxcare.els4"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2024-48992"
+  ],
+  "published": "2024-12-05T20:15:27Z",
+  "modified": "2024-12-05T20:15:27Z",
+  "details": "   * SECURITY UPDATE: Arbitrary code execution via manipulated RUBYLIB\n     environment variable\n     - debian/patches/CVE-2024-48992.patch: Prevent script from setting RUBYLIB\n       environment variable to avoid LPE\n     - CVE-2024-48992",
+  "references": [
+    {
+      "url": "https://errata.cloudlinux.com/ubuntu18-els/CLSA-2024-1733429722.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

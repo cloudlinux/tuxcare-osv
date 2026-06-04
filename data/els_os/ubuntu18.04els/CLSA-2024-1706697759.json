@@ -1,0 +1,178 @@
+{
+  "id": "CLSA-2024-1706697759",
+  "summary": "Fix CVE(s): CVE-2023-22081",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "openjdk-11-demo",
+        "purl": "pkg:deb/tuxcare/openjdk-11-demo?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "11.0.21+9-0ubuntu1~18.04.1+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "openjdk-11-doc",
+        "purl": "pkg:deb/tuxcare/openjdk-11-doc?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "11.0.21+9-0ubuntu1~18.04.1+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "openjdk-11-jdk",
+        "purl": "pkg:deb/tuxcare/openjdk-11-jdk?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "11.0.21+9-0ubuntu1~18.04.1+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "openjdk-11-jdk-headless",
+        "purl": "pkg:deb/tuxcare/openjdk-11-jdk-headless?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "11.0.21+9-0ubuntu1~18.04.1+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "openjdk-11-jre",
+        "purl": "pkg:deb/tuxcare/openjdk-11-jre?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "11.0.21+9-0ubuntu1~18.04.1+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "openjdk-11-jre-headless",
+        "purl": "pkg:deb/tuxcare/openjdk-11-jre-headless?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "11.0.21+9-0ubuntu1~18.04.1+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "openjdk-11-jre-zero",
+        "purl": "pkg:deb/tuxcare/openjdk-11-jre-zero?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "11.0.21+9-0ubuntu1~18.04.1+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "openjdk-11-source",
+        "purl": "pkg:deb/tuxcare/openjdk-11-source?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "11.0.21+9-0ubuntu1~18.04.1+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2023-22081"
+  ],
+  "published": "2024-01-31T10:42:51Z",
+  "modified": "2024-01-31T10:42:51Z",
+  "details": "   * OpenJDK 11.0.21 release, build 9.\n    - CVE-2023-22081\n    - Release notes:\n      https://mail.openjdk.org/pipermail/jdk-updates-dev/2023-October/026351.html\n    - adjust debian/pathes/exclude-broken-tests.patch",
+  "references": [
+    {
+      "url": "https://errata.cloudlinux.com/ubuntu18-els/CLSA-2024-1706697759.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

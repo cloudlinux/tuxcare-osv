@@ -1,0 +1,58 @@
+{
+  "id": "CLSA-2023-1685023926",
+  "summary": "Fix CVE(s): CVE-2022-39377",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "isag",
+        "purl": "pkg:deb/tuxcare/isag?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "11.2.0-1ubuntu0.3+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "sysstat",
+        "purl": "pkg:deb/tuxcare/sysstat?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "11.2.0-1ubuntu0.3+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2022-39377"
+  ],
+  "published": "2023-05-25T14:12:11Z",
+  "modified": "2023-05-25T14:12:11Z",
+  "details": "\n   * SECURITY UPDATE: an overflow of 64-bit value used to a memory allocation\n     - debian/patches/CVE-2022-39377.patch: check an overflow and exit if it be\n     - CVE-2022-39377",
+  "references": [
+    {
+      "url": "https://errata.cloudlinux.com/ubuntu16_04-els/CLSA-2023-1685023926",
+      "type": "ADVISORY"
+    }
+  ]
+}

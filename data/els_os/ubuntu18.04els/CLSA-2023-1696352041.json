@@ -1,0 +1,38 @@
+{
+  "id": "CLSA-2023-1696352041",
+  "summary": "Fix CVE(s): CVE-2022-48571",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "memcached",
+        "purl": "pkg:deb/tuxcare/memcached?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.5.6-0ubuntu1.2+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2022-48571"
+  ],
+  "published": "2023-10-03T16:54:05Z",
+  "modified": "2023-10-03T16:54:05Z",
+  "details": "\n   * SECURITY UPDATE: denial of service\n     - debian/patches/CVE-2022-48571.patch: fix the crash when receiving\n       multi-packet uploads in UDP\n     - CVE-2022-48571",
+  "references": [
+    {
+      "url": "https://errata.cloudlinux.com/ubuntu18_04-els/CLSA-2023-1696352041",
+      "type": "ADVISORY"
+    }
+  ]
+}

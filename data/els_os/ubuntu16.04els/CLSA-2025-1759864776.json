@@ -1,0 +1,158 @@
+{
+  "id": "CLSA-2025-1759864776",
+  "summary": "Fix CVE(s): CVE-2025-6020",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "libpam-cracklib",
+        "purl": "pkg:deb/tuxcare/libpam-cracklib?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.1.8-3.2ubuntu2.3+tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "libpam-doc",
+        "purl": "pkg:deb/tuxcare/libpam-doc?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.1.8-3.2ubuntu2.3+tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "libpam-modules",
+        "purl": "pkg:deb/tuxcare/libpam-modules?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.1.8-3.2ubuntu2.3+tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "libpam-modules-bin",
+        "purl": "pkg:deb/tuxcare/libpam-modules-bin?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.1.8-3.2ubuntu2.3+tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "libpam-runtime",
+        "purl": "pkg:deb/tuxcare/libpam-runtime?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.1.8-3.2ubuntu2.3+tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "libpam0g",
+        "purl": "pkg:deb/tuxcare/libpam0g?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.1.8-3.2ubuntu2.3+tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "libpam0g-dev",
+        "purl": "pkg:deb/tuxcare/libpam0g-dev?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.1.8-3.2ubuntu2.3+tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2025-6020"
+  ],
+  "published": "2025-10-07T19:19:40Z",
+  "modified": "2025-10-07T19:19:40Z",
+  "details": "   * SECURITY UPDATE: fix privilege escalation in pam_namespace\n     - debian/patches-applied/CVE-2025-6020-pre.patch: prerequisite changes\n     - debian/patches-applied/CVE-2025-6020.patch: enforce proper handling of\n       instance directory symlinks to prevent mounting arbitrary paths\n     - CVE-2025-6020",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/ubuntu16.04els/CLSA-2025-1759864776.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

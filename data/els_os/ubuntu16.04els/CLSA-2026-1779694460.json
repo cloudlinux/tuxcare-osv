@@ -1,0 +1,38 @@
+{
+  "id": "CLSA-2026-1779694460",
+  "summary": "Fix CVE(s): CVE-2026-29518",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "rsync",
+        "purl": "pkg:deb/tuxcare/rsync?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.1.1-3ubuntu1.3+tuxcare.els9"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-29518"
+  ],
+  "published": "2026-05-25T07:34:24Z",
+  "modified": "2026-05-25T07:34:24Z",
+  "details": "   * SECURITY UPDATE: daemon-no-chroot TOCTOU symlink race\n     - debian/patches/CVE-2026-29518.patch: track per-module chroot in\n       am_chrooted and use_secure_symlinks; route the sender's read-path\n       open, the receiver's basis-file open, mkstemp, and inplace write\n       through secure_relative_open() / secure_mkstemp()\n     - CVE-2026-29518",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/ubuntu16.04els/CLSA-2026-1779694460.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

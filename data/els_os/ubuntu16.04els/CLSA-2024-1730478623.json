@@ -1,0 +1,159 @@
+{
+  "id": "CLSA-2024-1730478623",
+  "summary": "Fix CVE(s): CVE-2023-7347, CVE-2024-7347",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "nginx",
+        "purl": "pkg:deb/tuxcare/nginx?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.10.3-0ubuntu0.16.04.8+tuxcare.els5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "nginx-common",
+        "purl": "pkg:deb/tuxcare/nginx-common?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.10.3-0ubuntu0.16.04.8+tuxcare.els5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "nginx-core",
+        "purl": "pkg:deb/tuxcare/nginx-core?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.10.3-0ubuntu0.16.04.8+tuxcare.els5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "nginx-doc",
+        "purl": "pkg:deb/tuxcare/nginx-doc?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.10.3-0ubuntu0.16.04.8+tuxcare.els5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "nginx-extras",
+        "purl": "pkg:deb/tuxcare/nginx-extras?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.10.3-0ubuntu0.16.04.8+tuxcare.els5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "nginx-full",
+        "purl": "pkg:deb/tuxcare/nginx-full?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.10.3-0ubuntu0.16.04.8+tuxcare.els5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "nginx-light",
+        "purl": "pkg:deb/tuxcare/nginx-light?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.10.3-0ubuntu0.16.04.8+tuxcare.els5"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2023-7347",
+    "CVE-2024-7347"
+  ],
+  "published": "2024-11-01T16:42:17Z",
+  "modified": "2024-11-01T16:42:17Z",
+  "details": "   * SECURITY UPDATE: mp4 module allows buffer underread and unordered chunks\n     - debian/patches/CVE-2024-7347.patch: fix buffer underread while\n       updating stsz atom and reject unordered chunks\n     - CVE-2023-7347",
+  "references": [
+    {
+      "url": "https://errata.cloudlinux.com/ubuntu16-els/CLSA-2024-1730478623.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

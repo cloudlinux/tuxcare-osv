@@ -1,0 +1,118 @@
+{
+  "id": "CLSA-2023-1703610859",
+  "summary": "Fix CVE(s): CVE-2023-51385",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "openssh-client",
+        "purl": "pkg:deb/tuxcare/openssh-client?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:7.6p1-4ubuntu0.7+tuxcare.els4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "openssh-server",
+        "purl": "pkg:deb/tuxcare/openssh-server?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:7.6p1-4ubuntu0.7+tuxcare.els4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "openssh-sftp-server",
+        "purl": "pkg:deb/tuxcare/openssh-sftp-server?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:7.6p1-4ubuntu0.7+tuxcare.els4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "ssh",
+        "purl": "pkg:deb/tuxcare/ssh?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:7.6p1-4ubuntu0.7+tuxcare.els4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "ssh-askpass-gnome",
+        "purl": "pkg:deb/tuxcare/ssh-askpass-gnome?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:7.6p1-4ubuntu0.7+tuxcare.els4"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2023-51385"
+  ],
+  "published": "2023-12-26T17:14:23Z",
+  "modified": "2023-12-26T17:14:23Z",
+  "details": "\n   * SECURITY UPDATE: possible OS command injection\n     - debian/patches/CVE-2023-51385.patch: ban user/hostnames with most\n       shell metacharacters in command line\n     - CVE-2023-51385",
+  "references": [
+    {
+      "url": "https://errata.cloudlinux.com/ubuntu18_04-els/CLSA-2023-1703610859",
+      "type": "ADVISORY"
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "id": "CLSA-2025-1763124681",
+  "summary": "Fix CVE(s): CVE-2025-62168",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:20.04",
+        "name": "squid",
+        "purl": "pkg:deb/tuxcare/squid?distro=ubuntu-20.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.10-1ubuntu1.13+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:20.04",
+        "name": "squid-cgi",
+        "purl": "pkg:deb/tuxcare/squid-cgi?distro=ubuntu-20.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.10-1ubuntu1.13+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:20.04",
+        "name": "squid-common",
+        "purl": "pkg:deb/tuxcare/squid-common?distro=ubuntu-20.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.10-1ubuntu1.13+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:20.04",
+        "name": "squid-purge",
+        "purl": "pkg:deb/tuxcare/squid-purge?distro=ubuntu-20.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.10-1ubuntu1.13+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:20.04",
+        "name": "squidclient",
+        "purl": "pkg:deb/tuxcare/squidclient?distro=ubuntu-20.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.10-1ubuntu1.13+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2025-62168"
+  ],
+  "published": "2025-11-14T12:51:25Z",
+  "modified": "2025-11-14T12:51:25Z",
+  "details": "   * SECURITY UPDATE: information disclosure vulnerability in error handling\n     - debian/patches/CVE-2025-62168.patch: Fix HttpRequest::pack function to\n       handle sensitive data by including a parameter for masking sensitive\n       information\n     - CVE-2025-62168",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/ubuntu20.04els/CLSA-2025-1763124681.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

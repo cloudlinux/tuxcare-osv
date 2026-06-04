@@ -1,0 +1,38 @@
+{
+  "id": "CLSA-2022-1662658118",
+  "summary": "Fix CVE(s): CVE-2022-29154",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "rsync",
+        "purl": "pkg:deb/tuxcare/rsync?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.1.1-3ubuntu1.3+tuxcare.els4"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2022-29154"
+  ],
+  "published": "2022-09-08T17:28:38Z",
+  "modified": "2022-09-08T17:28:38Z",
+  "details": "\n   * SECURITY UPDATE: arbitrary file write vulnerability via malicious\n     rsync server (MITM attack), refactoring\n     - debian/patches/CVE-2022-29154-0.patch: prepare for CVE-2022-29154\n       patch\n     - debian/patches/CVE-2022-29154-1.patch: add extra file-list safety\n       checks\n     - CVE-2022-29154",
+  "references": [
+    {
+      "url": "https://errata.cloudlinux.com/ubuntu16_04/CLSA-2022-1662658118",
+      "type": "ADVISORY"
+    }
+  ]
+}

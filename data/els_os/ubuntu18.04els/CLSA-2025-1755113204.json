@@ -1,0 +1,138 @@
+{
+  "id": "CLSA-2025-1755113204",
+  "summary": "Fix CVE(s): CVE-2025-29088",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "lemon",
+        "purl": "pkg:deb/tuxcare/lemon?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.22.0-1ubuntu0.7+tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "libsqlite3-0",
+        "purl": "pkg:deb/tuxcare/libsqlite3-0?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.22.0-1ubuntu0.7+tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "libsqlite3-dev",
+        "purl": "pkg:deb/tuxcare/libsqlite3-dev?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.22.0-1ubuntu0.7+tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "libsqlite3-tcl",
+        "purl": "pkg:deb/tuxcare/libsqlite3-tcl?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.22.0-1ubuntu0.7+tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "sqlite3",
+        "purl": "pkg:deb/tuxcare/sqlite3?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.22.0-1ubuntu0.7+tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "sqlite3-doc",
+        "purl": "pkg:deb/tuxcare/sqlite3-doc?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.22.0-1ubuntu0.7+tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2025-29088"
+  ],
+  "published": "2025-08-13T19:26:48Z",
+  "modified": "2025-08-13T19:26:48Z",
+  "details": "   * SECURITY UPDATE: denial of service issue due to incorrect memory allocations\n     - debian/patches/CVE-2025-29088.patch: harden the SQLITE_DBCONFIG_LOOKASIDE\n       interface against misuse, such as described in forum post 48f365daec\n       Enhancements to the SQLITE_DBCONFIG_LOOKASIDE documentation\n     - CVE-2025-29088",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/ubuntu18.04els/CLSA-2025-1755113204.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

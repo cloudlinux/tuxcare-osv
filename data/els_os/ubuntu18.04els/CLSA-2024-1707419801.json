@@ -1,0 +1,158 @@
+{
+  "id": "CLSA-2024-1707419801",
+  "summary": "Fix CVE(s): CVE-2023-5981",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "gnutls-bin",
+        "purl": "pkg:deb/tuxcare/gnutls-bin?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.5.18-1ubuntu1.6+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "gnutls-doc",
+        "purl": "pkg:deb/tuxcare/gnutls-doc?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.5.18-1ubuntu1.6+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "libgnutls-dane0",
+        "purl": "pkg:deb/tuxcare/libgnutls-dane0?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.5.18-1ubuntu1.6+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "libgnutls-openssl27",
+        "purl": "pkg:deb/tuxcare/libgnutls-openssl27?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.5.18-1ubuntu1.6+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "libgnutls28-dev",
+        "purl": "pkg:deb/tuxcare/libgnutls28-dev?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.5.18-1ubuntu1.6+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "libgnutls30",
+        "purl": "pkg:deb/tuxcare/libgnutls30?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.5.18-1ubuntu1.6+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "libgnutlsxx28",
+        "purl": "pkg:deb/tuxcare/libgnutlsxx28?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.5.18-1ubuntu1.6+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2023-5981"
+  ],
+  "published": "2024-02-08T19:16:44Z",
+  "modified": "2024-02-08T19:16:44Z",
+  "details": "   * SECURITY UPDATE: timing side-channel in the RSA-PSK ClientKeyExchange\n     - debian/patches/nettle-pk-randomness-level.patch: (nettle/pk) use the\n       appropriate level of randomness for each operation.\n     - debian/patches/pk-_gnutls_switch_lib_state.patch: (pk) always use\n       _gnutls_switch_lib_state.\n     - debian/patches/constant-time-cache-pkcs-1-rsa-decryption.patch: Constant\n       time/cache PKCS#1 RSA decryption.\n     - debian/patches/auth-rsa_psk-side-channel.patch: (auth/rsa_psk) side-step\n       potential side-channel.\n     - debian/libgnutls30.symbols: add gnutls_privkey_decrypt_data2.\n     - CVE-2023-5981",
+  "references": [
+    {
+      "url": "https://errata.cloudlinux.com/ubuntu18-els/CLSA-2024-1707419801.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

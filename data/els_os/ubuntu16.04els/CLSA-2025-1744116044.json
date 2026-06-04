@@ -1,0 +1,38 @@
+{
+  "id": "CLSA-2025-1744116044",
+  "summary": "Fix CVE(s): CVE-2016-8614",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "ansible",
+        "purl": "pkg:deb/tuxcare/ansible?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.1.1.0-1~ubuntu16.04.1+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2016-8614"
+  ],
+  "published": "2025-04-08T12:40:49Z",
+  "modified": "2025-04-08T12:40:49Z",
+  "details": "   * SECURITY UPDATE: improper verification of key fingerprints in apt_key module\n     - debian/patches/CVE-2016-8614.patch: fix use of long key IDs for delete,\n       check for key_id presence and fix key_id length for verification. Fix\n       reversed order of return values in parse_key_id function\n     - CVE-2016-8614",
+  "references": [
+    {
+      "url": "https://errata.cloudlinux.com/ubuntu16-els/CLSA-2025-1744116044.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

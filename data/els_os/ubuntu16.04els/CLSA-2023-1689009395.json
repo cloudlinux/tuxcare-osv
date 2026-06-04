@@ -1,0 +1,206 @@
+{
+  "id": "CLSA-2023-1689009395",
+  "summary": "Fix of 9 CVEs",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "openjdk-8-demo",
+        "purl": "pkg:deb/tuxcare/openjdk-8-demo?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8u372-ga-0ubuntu1~16.04+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "openjdk-8-doc",
+        "purl": "pkg:deb/tuxcare/openjdk-8-doc?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8u372-ga-0ubuntu1~16.04+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "openjdk-8-jdk",
+        "purl": "pkg:deb/tuxcare/openjdk-8-jdk?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8u372-ga-0ubuntu1~16.04+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "openjdk-8-jdk-headless",
+        "purl": "pkg:deb/tuxcare/openjdk-8-jdk-headless?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8u372-ga-0ubuntu1~16.04+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "openjdk-8-jre",
+        "purl": "pkg:deb/tuxcare/openjdk-8-jre?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8u372-ga-0ubuntu1~16.04+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "openjdk-8-jre-headless",
+        "purl": "pkg:deb/tuxcare/openjdk-8-jre-headless?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8u372-ga-0ubuntu1~16.04+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "openjdk-8-jre-jamvm",
+        "purl": "pkg:deb/tuxcare/openjdk-8-jre-jamvm?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8u372-ga-0ubuntu1~16.04+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "openjdk-8-jre-zero",
+        "purl": "pkg:deb/tuxcare/openjdk-8-jre-zero?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8u372-ga-0ubuntu1~16.04+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "openjdk-8-source",
+        "purl": "pkg:deb/tuxcare/openjdk-8-source?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8u372-ga-0ubuntu1~16.04+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2023-21930",
+    "CVE-2023-21937",
+    "CVE-2023-21938",
+    "CVE-2023-21939",
+    "CVE-2023-21954",
+    "CVE-2023-21967",
+    "CVE-2023-21968",
+    "CVE-2023-21830",
+    "CVE-2023-21843"
+  ],
+  "published": "2023-07-10T17:16:50Z",
+  "modified": "2023-07-10T17:16:50Z",
+  "details": "\n   * Backport upstream releases 8u372 to 16.04 LTS\n   * CVEs fixed in 8u372:\n     - CVE-2023-21930: Improper connection handling during TLS handshake\n     - CVE-2023-21937: Missing string checks for NULL characters\n     - CVE-2023-21938: Incorrect handling of NULL characters in ProcessBuilder\n     - CVE-2023-21939: Swing HTML parsing issue\n     - CVE-2023-21954: Incorrect enqueue of references in garbage collector\n     - CVE-2023-21967: Certificate validation issue in TLS session negotiation\n     - CVE-2023-21968: Missing check for slash characters in URI-to-path conversion\n   * CVEs fixed in 8u362:\n     - CVE-2023-21830: Improper restrictions in CORBA deserialization\n     - CVE-2023-21843: Soundbank URL remote loading\n   * debian/rules: remove IcedTeaPlugin.so reference (LP: #2016396)\n   * debian/JB-jre-headless.postinst.in: trigger ca-certificates-java after jre\n     is set up\n   * Drop applied jdk8u-get-datetime-string.patch",
+  "references": [
+    {
+      "url": "https://errata.cloudlinux.com/ubuntu16_04-els/CLSA-2023-1689009395",
+      "type": "ADVISORY"
+    }
+  ]
+}

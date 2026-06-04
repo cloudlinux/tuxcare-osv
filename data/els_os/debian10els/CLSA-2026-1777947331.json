@@ -1,0 +1,158 @@
+{
+  "id": "CLSA-2026-1777947331",
+  "summary": "Fix CVE(s): CVE-2023-35945",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Debian:10",
+        "name": "libnghttp2-14",
+        "purl": "pkg:deb/tuxcare/libnghttp2-14?distro=debian-10"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.36.0-2+deb10u3+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Debian:10",
+        "name": "libnghttp2-dev",
+        "purl": "pkg:deb/tuxcare/libnghttp2-dev?distro=debian-10"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.36.0-2+deb10u3+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Debian:10",
+        "name": "libnghttp2-doc",
+        "purl": "pkg:deb/tuxcare/libnghttp2-doc?distro=debian-10"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.36.0-2+deb10u3+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Debian:10",
+        "name": "nghttp2",
+        "purl": "pkg:deb/tuxcare/nghttp2?distro=debian-10"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.36.0-2+deb10u3+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Debian:10",
+        "name": "nghttp2-client",
+        "purl": "pkg:deb/tuxcare/nghttp2-client?distro=debian-10"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.36.0-2+deb10u3+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Debian:10",
+        "name": "nghttp2-proxy",
+        "purl": "pkg:deb/tuxcare/nghttp2-proxy?distro=debian-10"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.36.0-2+deb10u3+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Debian:10",
+        "name": "nghttp2-server",
+        "purl": "pkg:deb/tuxcare/nghttp2-server?distro=debian-10"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.36.0-2+deb10u3+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2023-35945"
+  ],
+  "published": "2026-05-05T02:15:38Z",
+  "modified": "2026-05-05T02:15:38Z",
+  "details": "   * SECURITY UPDATE: HTTP/2 memory leak in nghttp2 codec\n     - debian/patches/CVE-2023-35945.patch: fix memory leak in\n       nghttp2_session_mem_send_internal when stream close callback fails\n       with a fatal error\n     - CVE-2023-35945",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/debian10els/CLSA-2026-1777947331.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

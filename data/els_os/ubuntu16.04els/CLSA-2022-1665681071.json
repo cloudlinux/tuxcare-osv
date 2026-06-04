@@ -1,0 +1,38 @@
+{
+  "id": "CLSA-2022-1665681071",
+  "summary": "Fix CVE(s): CVE-2022-2806",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "sosreport",
+        "purl": "pkg:deb/tuxcare/sosreport?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.9.1-1ubuntu0.16.04.2+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2022-2806"
+  ],
+  "published": "2022-10-13T17:11:11Z",
+  "modified": "2022-10-13T17:11:11Z",
+  "details": "\n   * SECURITY UPDATE: Exposed sensitive information\n     - debian/patches/CVE-2022-2806.patch: filter out all password keys\n       in sos/report/plugins/ovirt.py\n     - CVE-2022-2806",
+  "references": [
+    {
+      "url": "https://errata.cloudlinux.com/ubuntu16_04/CLSA-2022-1665681071",
+      "type": "ADVISORY"
+    }
+  ]
+}

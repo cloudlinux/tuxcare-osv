@@ -1,0 +1,78 @@
+{
+  "id": "CLSA-2023-1703008559",
+  "summary": "Fix CVE(s): CVE-2023-45539",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "haproxy",
+        "purl": "pkg:deb/tuxcare/haproxy?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.6.3-1ubuntu0.3+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "haproxy-doc",
+        "purl": "pkg:deb/tuxcare/haproxy-doc?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.6.3-1ubuntu0.3+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "vim-haproxy",
+        "purl": "pkg:deb/tuxcare/vim-haproxy?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.6.3-1ubuntu0.3+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2023-45539"
+  ],
+  "published": "2023-12-19T17:56:03Z",
+  "modified": "2023-12-19T17:56:03Z",
+  "details": "\n   * SECURITY UPDATE: Accepting '#' as part of the URI component might\n     allow remote attackers to obtain sensitive information or have\n     unspecified other impact\n     - debian/patches/CVE-2023-45539.patch: h1: do not accept '#' as part\n       of the URI component; h2: reject more chars from the :path pseudo\n       header\n     - CVE-2023-45539",
+  "references": [
+    {
+      "url": "https://errata.cloudlinux.com/ubuntu16_04-els/CLSA-2023-1703008559",
+      "type": "ADVISORY"
+    }
+  ]
+}

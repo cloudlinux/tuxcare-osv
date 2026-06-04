@@ -1,0 +1,98 @@
+{
+  "id": "CLSA-2026-1777941636",
+  "summary": "Fix CVE(s): CVE-2026-4878",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:20.04",
+        "name": "libcap-dev",
+        "purl": "pkg:deb/tuxcare/libcap-dev?distro=ubuntu-20.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:2.32-1ubuntu0.2+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:20.04",
+        "name": "libcap2",
+        "purl": "pkg:deb/tuxcare/libcap2?distro=ubuntu-20.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:2.32-1ubuntu0.2+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:20.04",
+        "name": "libcap2-bin",
+        "purl": "pkg:deb/tuxcare/libcap2-bin?distro=ubuntu-20.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:2.32-1ubuntu0.2+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:20.04",
+        "name": "libpam-cap",
+        "purl": "pkg:deb/tuxcare/libpam-cap?distro=ubuntu-20.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:2.32-1ubuntu0.2+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-4878"
+  ],
+  "published": "2026-05-05T00:40:45Z",
+  "modified": "2026-05-05T00:40:45Z",
+  "details": "   * SECURITY UPDATE: TOCTOU race in cap_set_file()\n     - debian/patches/CVE-2026-4878.patch: lock onto the target file via an\n       O_PATH descriptor and operate via /proc/self/fd/N in libcap/cap_file.c\n       so that file capability changes cannot be redirected to an attacker-\n       controlled file by a local user with write access to a parent directory.\n     - CVE-2026-4878",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/ubuntu20.04els/CLSA-2026-1777941636.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

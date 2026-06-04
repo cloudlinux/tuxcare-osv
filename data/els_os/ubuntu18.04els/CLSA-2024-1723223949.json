@@ -1,0 +1,38 @@
+{
+  "id": "CLSA-2024-1723223949",
+  "summary": "Fix CVE(s): CVE-2024-38428",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "wget",
+        "purl": "pkg:deb/tuxcare/wget?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.19.4-1ubuntu2.2+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2024-38428"
+  ],
+  "published": "2024-08-09T17:19:12Z",
+  "modified": "2024-08-09T17:19:12Z",
+  "details": "   * SECURITY UPDATE: Insecure behavior with semicolons in URI userinfo\n     - debian/patches/CVE-2024-38428.patch: Properly re-implement userinfo\n       parsing (rfc2396) to fix outdated RFC implementation\n     - CVE-2024-38428",
+  "references": [
+    {
+      "url": "https://errata.cloudlinux.com/ubuntu18-els/CLSA-2024-1723223949.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

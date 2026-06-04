@@ -1,0 +1,178 @@
+{
+  "id": "CLSA-2023-1698689712",
+  "summary": "Fix CVE(s): CVE-2023-44487",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "libtomcat8-embed-java",
+        "purl": "pkg:deb/tuxcare/libtomcat8-embed-java?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8.5.39-1ubuntu1~18.04.3+tuxcare.els5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "libtomcat8-java",
+        "purl": "pkg:deb/tuxcare/libtomcat8-java?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8.5.39-1ubuntu1~18.04.3+tuxcare.els5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "tomcat8",
+        "purl": "pkg:deb/tuxcare/tomcat8?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8.5.39-1ubuntu1~18.04.3+tuxcare.els5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "tomcat8-admin",
+        "purl": "pkg:deb/tuxcare/tomcat8-admin?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8.5.39-1ubuntu1~18.04.3+tuxcare.els5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "tomcat8-common",
+        "purl": "pkg:deb/tuxcare/tomcat8-common?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8.5.39-1ubuntu1~18.04.3+tuxcare.els5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "tomcat8-docs",
+        "purl": "pkg:deb/tuxcare/tomcat8-docs?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8.5.39-1ubuntu1~18.04.3+tuxcare.els5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "tomcat8-examples",
+        "purl": "pkg:deb/tuxcare/tomcat8-examples?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8.5.39-1ubuntu1~18.04.3+tuxcare.els5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "tomcat8-user",
+        "purl": "pkg:deb/tuxcare/tomcat8-user?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8.5.39-1ubuntu1~18.04.3+tuxcare.els5"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2023-44487"
+  ],
+  "published": "2023-10-30T18:15:17Z",
+  "modified": "2023-10-30T18:15:17Z",
+  "details": "\n   * SECURITY UPDATE: The HTTP/2 protocol allows a denial of service\n       because request cancellation can reset many streams quickly\n     - debian/patches/CVE-2023-44487.patch: Improvements to HTTP/2 overhead\n       protection\n     - CVE-2023-44487",
+  "references": [
+    {
+      "url": "https://errata.cloudlinux.com/ubuntu18_04-els/CLSA-2023-1698689712",
+      "type": "ADVISORY"
+    }
+  ]
+}

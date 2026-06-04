@@ -1,0 +1,139 @@
+{
+  "id": "CLSA-2025-1753374216",
+  "summary": "Fix CVE(s): CVE-2025-49794, CVE-2025-49796",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "libxml2",
+        "purl": "pkg:deb/tuxcare/libxml2?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.9.4+dfsg1-6.1ubuntu1.9+tuxcare.els4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "libxml2-dev",
+        "purl": "pkg:deb/tuxcare/libxml2-dev?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.9.4+dfsg1-6.1ubuntu1.9+tuxcare.els4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "libxml2-doc",
+        "purl": "pkg:deb/tuxcare/libxml2-doc?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.9.4+dfsg1-6.1ubuntu1.9+tuxcare.els4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "libxml2-utils",
+        "purl": "pkg:deb/tuxcare/libxml2-utils?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.9.4+dfsg1-6.1ubuntu1.9+tuxcare.els4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "python-libxml2",
+        "purl": "pkg:deb/tuxcare/python-libxml2?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.9.4+dfsg1-6.1ubuntu1.9+tuxcare.els4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "python3-libxml2",
+        "purl": "pkg:deb/tuxcare/python3-libxml2?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.9.4+dfsg1-6.1ubuntu1.9+tuxcare.els4"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2025-49794",
+    "CVE-2025-49796"
+  ],
+  "published": "2025-07-24T16:23:41Z",
+  "modified": "2025-07-24T16:23:41Z",
+  "details": "   * SECURITY UPDATE: memory vulnerabilities in schematron\n     - debian/patches/CVE-2025-49794_CVE-2025-49796.patch: fix memory safety\n       issues in xmlSchematronReportOutput when parsing XPath elements and\n       memory corruption issue triggered by processing sch:name elements\n       in input XML file\n     - CVE-2025-49794\n     - CVE-2025-49796",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/ubuntu18.04els/CLSA-2025-1753374216.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

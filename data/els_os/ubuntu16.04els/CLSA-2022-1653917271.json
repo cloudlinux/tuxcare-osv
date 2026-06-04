@@ -1,0 +1,158 @@
+{
+  "id": "CLSA-2022-1653917271",
+  "summary": "Fix CVE(s): CVE-2022-24903",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "rsyslog",
+        "purl": "pkg:deb/tuxcare/rsyslog?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8.16.0-1ubuntu3.1+tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "rsyslog-elasticsearch",
+        "purl": "pkg:deb/tuxcare/rsyslog-elasticsearch?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8.16.0-1ubuntu3.1+tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "rsyslog-gnutls",
+        "purl": "pkg:deb/tuxcare/rsyslog-gnutls?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8.16.0-1ubuntu3.1+tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "rsyslog-gssapi",
+        "purl": "pkg:deb/tuxcare/rsyslog-gssapi?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8.16.0-1ubuntu3.1+tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "rsyslog-mysql",
+        "purl": "pkg:deb/tuxcare/rsyslog-mysql?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8.16.0-1ubuntu3.1+tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "rsyslog-pgsql",
+        "purl": "pkg:deb/tuxcare/rsyslog-pgsql?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8.16.0-1ubuntu3.1+tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "rsyslog-relp",
+        "purl": "pkg:deb/tuxcare/rsyslog-relp?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8.16.0-1ubuntu3.1+tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2022-24903"
+  ],
+  "published": "2022-05-30T13:27:51Z",
+  "modified": "2022-05-30T13:27:51Z",
+  "details": "\n   * SECURITY UPDATE: heap buffer overflow\n     - debian/patches/CVE-2022-24903.patch: introduces a bounds check to address\n       a potential heap buffer overflow in plugins/imptcp/imptcp.c.\n     - CVE-2022-24903",
+  "references": [
+    {
+      "url": "https://errata.cloudlinux.com/ubuntu16_04/CLSA-2022-1653917271",
+      "type": "ADVISORY"
+    }
+  ]
+}

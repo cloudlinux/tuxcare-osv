@@ -1,0 +1,198 @@
+{
+  "id": "CLSA-2026-1777884162",
+  "summary": "Fix CVE(s): CVE-2018-8014",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "libservlet3.0-java",
+        "purl": "pkg:deb/tuxcare/libservlet3.0-java?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7.0.68-1ubuntu0.4+tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "libservlet3.0-java-doc",
+        "purl": "pkg:deb/tuxcare/libservlet3.0-java-doc?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7.0.68-1ubuntu0.4+tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "libtomcat7-java",
+        "purl": "pkg:deb/tuxcare/libtomcat7-java?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7.0.68-1ubuntu0.4+tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "tomcat7",
+        "purl": "pkg:deb/tuxcare/tomcat7?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7.0.68-1ubuntu0.4+tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "tomcat7-admin",
+        "purl": "pkg:deb/tuxcare/tomcat7-admin?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7.0.68-1ubuntu0.4+tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "tomcat7-common",
+        "purl": "pkg:deb/tuxcare/tomcat7-common?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7.0.68-1ubuntu0.4+tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "tomcat7-docs",
+        "purl": "pkg:deb/tuxcare/tomcat7-docs?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7.0.68-1ubuntu0.4+tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "tomcat7-examples",
+        "purl": "pkg:deb/tuxcare/tomcat7-examples?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7.0.68-1ubuntu0.4+tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "tomcat7-user",
+        "purl": "pkg:deb/tuxcare/tomcat7-user?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7.0.68-1ubuntu0.4+tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2018-8014"
+  ],
+  "published": "2026-05-04T08:42:46Z",
+  "modified": "2026-05-04T08:42:46Z",
+  "details": "   * Fix build process:\n     - debian/keystores/ca-cert.pem, ca.jks: regenerate self-signed test CA\n       using the existing ca-key.pem (previous CA valid only until\n       21.03.2025). New validity: 21.04.2026 to 18.04.2036.\n     - debian/keystores/localhost-cert.pem, localhost.jks,\n       localhost-copy1.jks: re-issue against the new CA to keep the chain\n       consistent. Existing localhost-key.pem is preserved.\n     - debian/keystores/user1-cert.pem, user1.jks: re-issue against the\n       new CA using the existing user1-key.pem (previous cert valid only\n       until 21.03.2025).\n     - debian/keystores/updating-certs.txt: refresh the procedure notes\n       with current serials and expiry dates.\n   * SECURITY UPDATE: Insecure default configuration of the CORS filter\n     allowed cross-origin requests with credentials from any origin. The\n     default settings enabled supportsCredentials alongside a wildcard\n     allowedOrigins. Affects Apache Tomcat 7.0.41 to 7.0.88.\n     - debian/patches/CVE-2018-8014.patch: Change default allowedOrigins\n       to empty and default supportsCredentials to false in the CORS\n       filter, reject the unsafe combination of supportsCredentials=true\n       with allowedOrigins=* at configuration time, and simplify the\n       handleSimpleCORS logic accordingly. Backport of upstream commit\n       d83a76732e. Note: applications relying on the previous permissive\n       defaults must configure the filter explicitly.\n     - CVE-2018-8014",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/ubuntu16.04els/CLSA-2026-1777884162.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

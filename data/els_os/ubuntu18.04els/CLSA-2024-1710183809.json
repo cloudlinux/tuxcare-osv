@@ -1,0 +1,98 @@
+{
+  "id": "CLSA-2024-1710183809",
+  "summary": "Fix CVE(s): CVE-2024-0727",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "libssl-dev",
+        "purl": "pkg:deb/tuxcare/libssl-dev?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.1.1-1ubuntu2.1~18.04.23+tuxcare.els4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "libssl-doc",
+        "purl": "pkg:deb/tuxcare/libssl-doc?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.1.1-1ubuntu2.1~18.04.23+tuxcare.els4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "libssl1.1",
+        "purl": "pkg:deb/tuxcare/libssl1.1?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.1.1-1ubuntu2.1~18.04.23+tuxcare.els4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "openssl",
+        "purl": "pkg:deb/tuxcare/openssl?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.1.1-1ubuntu2.1~18.04.23+tuxcare.els4"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2024-0727"
+  ],
+  "published": "2024-03-11T19:03:32Z",
+  "modified": "2024-03-11T19:03:32Z",
+  "details": "   * SECURITY UPDATE: Potential Denial of Service via maliciously formatted\n     PKCS12 file\n     - debian/patches/CVE-2024-0727.patch: Fix decode error in\n       PKCS12_unpack_p7data, PKCS12_unpack_p7encdata, and PKCS12_unpack_authsafes\n       functions\n     - CVE-2024-0727",
+  "references": [
+    {
+      "url": "https://errata.cloudlinux.com/ubuntu18-els/CLSA-2024-1710183809.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

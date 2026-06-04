@@ -1,0 +1,38 @@
+{
+  "id": "CLSA-2025-1758228073",
+  "summary": "Fix CVE(s): CVE-2023-30630",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "dmidecode",
+        "purl": "pkg:deb/tuxcare/dmidecode?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.1-1ubuntu0.1+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2023-30630"
+  ],
+  "published": "2025-09-18T20:41:16Z",
+  "modified": "2025-09-18T20:41:16Z",
+  "details": "   * SECURITY UPDATE: Overwrite a local file\n     - debian/patches/CVE-2023-30630.patch: Prevent --dump-bin from overwriting\n       local files to address privilege escalation vulnerability\n     - CVE-2023-30630",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/ubuntu18.04els/CLSA-2025-1758228073.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

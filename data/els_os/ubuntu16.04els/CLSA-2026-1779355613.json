@@ -1,0 +1,178 @@
+{
+  "id": "CLSA-2026-1779355613",
+  "summary": "Fix CVE(s): CVE-2026-3833",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "gnutls-bin",
+        "purl": "pkg:deb/tuxcare/gnutls-bin?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.4.10-4ubuntu1.9+tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "gnutls-doc",
+        "purl": "pkg:deb/tuxcare/gnutls-doc?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.4.10-4ubuntu1.9+tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "guile-gnutls",
+        "purl": "pkg:deb/tuxcare/guile-gnutls?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.4.10-4ubuntu1.9+tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "libgnutls-dev",
+        "purl": "pkg:deb/tuxcare/libgnutls-dev?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.4.10-4ubuntu1.9+tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "libgnutls-openssl27",
+        "purl": "pkg:deb/tuxcare/libgnutls-openssl27?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.4.10-4ubuntu1.9+tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "libgnutls28-dev",
+        "purl": "pkg:deb/tuxcare/libgnutls28-dev?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.4.10-4ubuntu1.9+tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "libgnutls30",
+        "purl": "pkg:deb/tuxcare/libgnutls30?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.4.10-4ubuntu1.9+tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "libgnutlsxx28",
+        "purl": "pkg:deb/tuxcare/libgnutlsxx28?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.4.10-4ubuntu1.9+tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-3833"
+  ],
+  "published": "2026-05-21T09:26:58Z",
+  "modified": "2026-05-21T09:26:58Z",
+  "details": "   * SECURITY UPDATE: nameConstraints case-sensitive comparison bypass\n     - debian/patches/CVE-2026-3833.patch: perform case-insensitive comparison\n       of dNSName and rfc822Name domain labels in X.509 nameConstraints\n       processing, fixing excludedSubtrees / permittedSubtrees bypass via\n       letter-casing in the SAN.\n     - CVE-2026-3833",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/ubuntu16.04els/CLSA-2026-1779355613.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "id": "CLSA-2026-1778602690",
+  "summary": "Fix CVE(s): CVE-2026-7598",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "libssh2-1",
+        "purl": "pkg:deb/tuxcare/libssh2-1?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.5.0-2ubuntu0.1+tuxcare.els5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "libssh2-1-dev",
+        "purl": "pkg:deb/tuxcare/libssh2-1-dev?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.5.0-2ubuntu0.1+tuxcare.els5"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-7598"
+  ],
+  "published": "2026-05-12T16:18:15Z",
+  "modified": "2026-05-12T16:18:15Z",
+  "details": "   * SECURITY UPDATE: fix integer overflow in username_len bounds checks across userauth_list, userauth_password and password change paths in src/userauth.c\n     - debian/patches/CVE-2026-7598.patch: fix integer overflow in username_len bounds checks across userauth_list, userauth_password and password change paths in src/userauth.c\n     - CVE-2026-7598",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/ubuntu16.04els/CLSA-2026-1778602690.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

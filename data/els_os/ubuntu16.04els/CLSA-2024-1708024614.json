@@ -1,0 +1,36 @@
+{
+  "id": "CLSA-2024-1708024614",
+  "summary": "Update of alt-php",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "amd64-microcode",
+        "purl": "pkg:deb/tuxcare/amd64-microcode?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.20231205.1ubuntu0.16.04.2+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [],
+  "published": "2024-02-15T19:32:42Z",
+  "modified": "2024-02-15T19:32:42Z",
+  "details": "   * New microcode update packages from AMD upstream up to 2023-12-05:\n     + Update Microcode for 19h family: sig 0x00a10f12, sig 0x00a10f11,\n       sig 0x00aa0f02;\n     + Update Microcode for 17h family: sig 0x00830f10;",
+  "references": [
+    {
+      "url": "https://errata.cloudlinux.com/ubuntu16-els/CLSA-2024-1708024614.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

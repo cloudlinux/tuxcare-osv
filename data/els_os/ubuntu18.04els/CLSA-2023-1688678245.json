@@ -1,0 +1,98 @@
+{
+  "id": "CLSA-2023-1688678245",
+  "summary": "Fix CVE(s): CVE-2023-2603",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "libcap-dev",
+        "purl": "pkg:deb/tuxcare/libcap-dev?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:2.25-1.2+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "libcap2",
+        "purl": "pkg:deb/tuxcare/libcap2?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:2.25-1.2+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "libcap2-bin",
+        "purl": "pkg:deb/tuxcare/libcap2-bin?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:2.25-1.2+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "libpam-cap",
+        "purl": "pkg:deb/tuxcare/libpam-cap?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:2.25-1.2+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2023-2603"
+  ],
+  "published": "2023-07-06T21:17:29Z",
+  "modified": "2023-07-06T21:17:29Z",
+  "details": "\n    * SECURITY UPDATE: Integer overflow in _libcap_strdup()\n     - debian/patches/CVE-2023-2603.patch: enhance libcap's internal strdup\n       code to limit the processing of long strings\n     - CVE-2023-2603",
+  "references": [
+    {
+      "url": "https://errata.cloudlinux.com/ubuntu18_04-els/CLSA-2023-1688678245",
+      "type": "ADVISORY"
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "id": "CLSA-2026-1777397374",
+  "summary": "Fix CVE(s): CVE-2026-28390",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:20.04",
+        "name": "libssl-dev",
+        "purl": "pkg:deb/tuxcare/libssl-dev?distro=ubuntu-20.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.1.1f-1ubuntu2.24+tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:20.04",
+        "name": "libssl-doc",
+        "purl": "pkg:deb/tuxcare/libssl-doc?distro=ubuntu-20.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.1.1f-1ubuntu2.24+tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:20.04",
+        "name": "libssl1.1",
+        "purl": "pkg:deb/tuxcare/libssl1.1?distro=ubuntu-20.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.1.1f-1ubuntu2.24+tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:20.04",
+        "name": "openssl",
+        "purl": "pkg:deb/tuxcare/openssl?distro=ubuntu-20.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.1.1f-1ubuntu2.24+tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-28390"
+  ],
+  "published": "2026-04-29T07:00:37Z",
+  "modified": "2026-04-29T07:00:37Z",
+  "details": "   * SECURITY UPDATE: A NULL pointer dereference in rsa_cms_decrypt() when\n     processing CMS messages with RSA-OAEP encryption where pSourceFunc is\n     present but its parameters field is absent can trigger a crash, leading\n     to Denial of Service.\n     - debian/patches/CVE-2026-28390.patch: use X509_ALGOR_get0 and\n       ASN1_STRING_* accessors to safely parse pSourceFunc; duplicate the\n       OAEP label before handing it to EVP_PKEY_CTX_set0_rsa_oaep_label.\n     - CVE-2026-28390",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/ubuntu20.04els/CLSA-2026-1777397374.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

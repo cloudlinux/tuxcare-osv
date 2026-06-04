@@ -1,0 +1,178 @@
+{
+  "id": "CLSA-2021-1635459182",
+  "summary": "Fix CVE(s): CVE-2021-22898",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "curl",
+        "purl": "pkg:deb/tuxcare/curl?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7.47.0-1ubuntu2.20"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "libcurl3",
+        "purl": "pkg:deb/tuxcare/libcurl3?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7.47.0-1ubuntu2.20"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "libcurl3-gnutls",
+        "purl": "pkg:deb/tuxcare/libcurl3-gnutls?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7.47.0-1ubuntu2.20"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "libcurl3-nss",
+        "purl": "pkg:deb/tuxcare/libcurl3-nss?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7.47.0-1ubuntu2.20"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "libcurl4-doc",
+        "purl": "pkg:deb/tuxcare/libcurl4-doc?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7.47.0-1ubuntu2.20"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "libcurl4-gnutls-dev",
+        "purl": "pkg:deb/tuxcare/libcurl4-gnutls-dev?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7.47.0-1ubuntu2.20"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "libcurl4-nss-dev",
+        "purl": "pkg:deb/tuxcare/libcurl4-nss-dev?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7.47.0-1ubuntu2.20"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "libcurl4-openssl-dev",
+        "purl": "pkg:deb/tuxcare/libcurl4-openssl-dev?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7.47.0-1ubuntu2.20"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2021-22898"
+  ],
+  "published": "2021-10-28T22:13:02Z",
+  "modified": "2021-10-28T22:13:02Z",
+  "details": "\n   * SECURITY UPDATE: TELNET stack contents disclosure\n     - debian/patches/CVE-2021-22898.patch: check sscanf() for correct number\n       of matches in lib/telnet.c\n     - CVE-2021-22898",
+  "references": [
+    {
+      "url": "https://errata.cloudlinux.com/ubuntu16_04/CLSA-2021-1635459182",
+      "type": "ADVISORY"
+    }
+  ]
+}

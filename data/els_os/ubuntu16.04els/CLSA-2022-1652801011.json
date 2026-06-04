@@ -1,0 +1,118 @@
+{
+  "id": "CLSA-2022-1652801011",
+  "summary": "Fix CVE(s): CVE-2022-1271",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "liblzma-dev",
+        "purl": "pkg:deb/tuxcare/liblzma-dev?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.1.1alpha+20120614-2ubuntu2+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "liblzma-doc",
+        "purl": "pkg:deb/tuxcare/liblzma-doc?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.1.1alpha+20120614-2ubuntu2+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "liblzma5",
+        "purl": "pkg:deb/tuxcare/liblzma5?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.1.1alpha+20120614-2ubuntu2+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "xz-utils",
+        "purl": "pkg:deb/tuxcare/xz-utils?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.1.1alpha+20120614-2ubuntu2+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "xzdec",
+        "purl": "pkg:deb/tuxcare/xzdec?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.1.1alpha+20120614-2ubuntu2+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2022-1271"
+  ],
+  "published": "2022-05-17T15:23:31Z",
+  "modified": "2022-05-17T15:23:31Z",
+  "details": "\n   * SECURITY UPDATE: arbitrary file overwrite or code execution with\n     crafted file names\n     - debian/patches/CVE-2022-1271.patch: fix escaping of malicious\n       filenames in src/scripts/xzgrep.in.\n     - CVE-2022-1271",
+  "references": [
+    {
+      "url": "https://errata.cloudlinux.com/ubuntu16_04/CLSA-2022-1652801011",
+      "type": "ADVISORY"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "id": "CLSA-2023-1689701258",
+  "summary": "Fix CVE(s): CVE-2021-20230",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "stunnel4",
+        "purl": "pkg:deb/tuxcare/stunnel4?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3:5.44-1ubuntu3+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2021-20230"
+  ],
+  "published": "2023-07-18T17:27:43Z",
+  "modified": "2023-07-18T17:27:43Z",
+  "details": "\n   * SECURITY UPDATE: Attacker bypasses redirection using unauthorized\n     CA-signed certificate.\n     - debian/patches/CVE-2021-20230.patch: Patch enhancing certificate\n       verification process to prevent unauthorized redirection with\n       CA-signed certificates by refining session data checks.\n     - CVE-2021-20230\n   * Fix tests:\n     - debian/patches/renew-cert-script.patch: Add script that\n       re-generate expired test certs.\n   * Repacked orig source tarball with renewed certs.\n   * Removed no longer required patch, that mute tests with expired certificates.",
+  "references": [
+    {
+      "url": "https://errata.cloudlinux.com/ubuntu18_04-els/CLSA-2023-1689701258",
+      "type": "ADVISORY"
+    }
+  ]
+}

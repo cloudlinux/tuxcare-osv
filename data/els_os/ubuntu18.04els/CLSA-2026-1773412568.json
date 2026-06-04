@@ -1,0 +1,178 @@
+{
+  "id": "CLSA-2026-1773412568",
+  "summary": "Fix CVE(s): CVE-2025-15224",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "curl",
+        "purl": "pkg:deb/tuxcare/curl?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7.58.0-2ubuntu3.24+tuxcare.els8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "libcurl3-gnutls",
+        "purl": "pkg:deb/tuxcare/libcurl3-gnutls?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7.58.0-2ubuntu3.24+tuxcare.els8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "libcurl3-nss",
+        "purl": "pkg:deb/tuxcare/libcurl3-nss?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7.58.0-2ubuntu3.24+tuxcare.els8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "libcurl4",
+        "purl": "pkg:deb/tuxcare/libcurl4?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7.58.0-2ubuntu3.24+tuxcare.els8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "libcurl4-doc",
+        "purl": "pkg:deb/tuxcare/libcurl4-doc?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7.58.0-2ubuntu3.24+tuxcare.els8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "libcurl4-gnutls-dev",
+        "purl": "pkg:deb/tuxcare/libcurl4-gnutls-dev?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7.58.0-2ubuntu3.24+tuxcare.els8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "libcurl4-nss-dev",
+        "purl": "pkg:deb/tuxcare/libcurl4-nss-dev?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7.58.0-2ubuntu3.24+tuxcare.els8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "libcurl4-openssl-dev",
+        "purl": "pkg:deb/tuxcare/libcurl4-openssl-dev?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7.58.0-2ubuntu3.24+tuxcare.els8"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2025-15224"
+  ],
+  "published": "2026-03-13T14:36:13Z",
+  "modified": "2026-03-13T14:36:13Z",
+  "details": "   * SECURITY UPDATE: unexpected SSH agent authentication during public-key SSH-\n     based transfers\n     - debian/patches/CVE-2025-15224.patch: Require private key or SSH agent for\n       public-key authentication; prevent attempted public-key auth when neither\n       private key nor agent present; fix missing check that allowed public-key\n       auth flag without key or agent.\n     - CVE-2025-15224",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/ubuntu18.04els/CLSA-2026-1773412568.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

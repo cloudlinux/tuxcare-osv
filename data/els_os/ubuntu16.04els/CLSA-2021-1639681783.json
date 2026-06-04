@@ -1,0 +1,98 @@
+{
+  "id": "CLSA-2021-1639681783",
+  "summary": "Fix CVE(s): CVE-2021-3712",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "libssl-dev",
+        "purl": "pkg:deb/tuxcare/libssl-dev?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.0.2g-1ubuntu4.21"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "libssl-doc",
+        "purl": "pkg:deb/tuxcare/libssl-doc?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.0.2g-1ubuntu4.21"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "libssl1.0.0",
+        "purl": "pkg:deb/tuxcare/libssl1.0.0?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.0.2g-1ubuntu4.21"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "openssl",
+        "purl": "pkg:deb/tuxcare/openssl?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.0.2g-1ubuntu4.21"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2021-3712"
+  ],
+  "published": "2021-12-16T19:09:43Z",
+  "modified": "2021-12-16T19:09:43Z",
+  "details": "\n   * SECURITY UPDATE: fix assumption that ASN.1 string is NULL terminated\n   \twhen it exactly doesn't.\n   \t- debian/patches/CVE-2021-3712.patch: backport all found cases where\n   \t  code relayed on assumtion that ASN.1 string is NULL terminated\n   \t- CVE-2021-3712",
+  "references": [
+    {
+      "url": "https://errata.cloudlinux.com/ubuntu16_04/CLSA-2021-1639681783",
+      "type": "ADVISORY"
+    }
+  ]
+}

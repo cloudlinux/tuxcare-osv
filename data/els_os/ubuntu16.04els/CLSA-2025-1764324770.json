@@ -1,0 +1,38 @@
+{
+  "id": "CLSA-2025-1764324770",
+  "summary": "Fix CVE(s): CVE-2022-30688",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "needrestart",
+        "purl": "pkg:deb/tuxcare/needrestart?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.6-1+tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2022-30688"
+  ],
+  "published": "2025-11-28T10:12:54Z",
+  "modified": "2025-11-28T10:12:54Z",
+  "details": "   * SECURITY UPDATE: insecure regex patterns for interpreter detection\n     - debian/patches/CVE-2022-30688.patch: prevent local privilege escalation by\n       anchoring interpreter regex patterns\n     - CVE-2022-30688",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/ubuntu16.04els/CLSA-2025-1764324770.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

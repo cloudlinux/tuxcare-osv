@@ -1,0 +1,36 @@
+{
+  "id": "CLSA-2026-1773411204",
+  "summary": "Update of alt-php",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:20.04",
+        "name": "els-os-release",
+        "purl": "pkg:deb/tuxcare/els-os-release?distro=ubuntu-20.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.0.0-2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [],
+  "published": "2026-03-13T14:13:29Z",
+  "modified": "2026-03-13T14:13:29Z",
+  "details": "   * Move gpg key and repo installation from debian/install to postinst\n   * Add support for multiple deb platforms",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/ubuntu20.04els/CLSA-2026-1773411204.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

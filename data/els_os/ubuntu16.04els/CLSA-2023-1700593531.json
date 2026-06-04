@@ -1,0 +1,98 @@
+{
+  "id": "CLSA-2023-1700593531",
+  "summary": "Fix CVE(s): CVE-2023-3446",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "libssl-dev",
+        "purl": "pkg:deb/tuxcare/libssl-dev?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.0.2g-1ubuntu4.21+tuxcare.els9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "libssl-doc",
+        "purl": "pkg:deb/tuxcare/libssl-doc?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.0.2g-1ubuntu4.21+tuxcare.els9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "libssl1.0.0",
+        "purl": "pkg:deb/tuxcare/libssl1.0.0?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.0.2g-1ubuntu4.21+tuxcare.els9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "openssl",
+        "purl": "pkg:deb/tuxcare/openssl?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.0.2g-1ubuntu4.21+tuxcare.els9"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2023-3446"
+  ],
+  "published": "2023-11-21T19:05:36Z",
+  "modified": "2023-11-21T19:05:36Z",
+  "details": "\n   * SECURITY UPDATE: Denial of service could be encountered if a DH key\n     or DH parameters check experience long delays.\n     - debian/patches/CVE-2023-3446.patch: Adds check to prevent the testing\n       of an excessively large modulus in DH_check().\n     - CVE-2023-3446",
+  "references": [
+    {
+      "url": "https://errata.cloudlinux.com/ubuntu16_04-els/CLSA-2023-1700593531",
+      "type": "ADVISORY"
+    }
+  ]
+}

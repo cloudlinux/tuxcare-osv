@@ -1,0 +1,38 @@
+{
+  "id": "CLSA-2025-1746654462",
+  "summary": "Fix CVE(s): CVE-2020-1739",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "ansible",
+        "purl": "pkg:deb/tuxcare/ansible?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.1.1.0-1~ubuntu16.04.1+tuxcare.els5"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2020-1739"
+  ],
+  "published": "2025-05-07T21:47:46Z",
+  "modified": "2025-05-07T21:47:46Z",
+  "details": "   * SECURITY UPDATE: insecure password handling in svn module\n     - debian/patches/CVE-2020-1739.patch: Update subversion module to provide\n       password securely with --password-from-stdin option to prevent leaking in\n       case of outdated svn versions\n     - CVE-2020-1739",
+  "references": [
+    {
+      "url": "https://errata.cloudlinux.com/ubuntu16-els/CLSA-2025-1746654462.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

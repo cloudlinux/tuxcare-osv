@@ -1,0 +1,205 @@
+{
+  "id": "CLSA-2022-1660064249",
+  "summary": "Fix CVE(s): CVE-2022-21434, CVE-2022-21426, CVE-2022-21443, CVE-2022-34169, CVE-2022-21540, CVE-2022-21541, CVE-2022-21476, CVE-2022-21496",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "openjdk-8-demo",
+        "purl": "pkg:deb/tuxcare/openjdk-8-demo?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8u342-b07-0ubuntu1~16.04+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "openjdk-8-doc",
+        "purl": "pkg:deb/tuxcare/openjdk-8-doc?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8u342-b07-0ubuntu1~16.04+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "openjdk-8-jdk",
+        "purl": "pkg:deb/tuxcare/openjdk-8-jdk?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8u342-b07-0ubuntu1~16.04+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "openjdk-8-jdk-headless",
+        "purl": "pkg:deb/tuxcare/openjdk-8-jdk-headless?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8u342-b07-0ubuntu1~16.04+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "openjdk-8-jre",
+        "purl": "pkg:deb/tuxcare/openjdk-8-jre?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8u342-b07-0ubuntu1~16.04+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "openjdk-8-jre-headless",
+        "purl": "pkg:deb/tuxcare/openjdk-8-jre-headless?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8u342-b07-0ubuntu1~16.04+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "openjdk-8-jre-jamvm",
+        "purl": "pkg:deb/tuxcare/openjdk-8-jre-jamvm?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8u342-b07-0ubuntu1~16.04+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "openjdk-8-jre-zero",
+        "purl": "pkg:deb/tuxcare/openjdk-8-jre-zero?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8u342-b07-0ubuntu1~16.04+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "openjdk-8-source",
+        "purl": "pkg:deb/tuxcare/openjdk-8-source?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8u342-b07-0ubuntu1~16.04+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2022-21434",
+    "CVE-2022-21426",
+    "CVE-2022-21443",
+    "CVE-2022-34169",
+    "CVE-2022-21540",
+    "CVE-2022-21541",
+    "CVE-2022-21476",
+    "CVE-2022-21496"
+  ],
+  "published": "2022-08-09T16:57:29Z",
+  "modified": "2022-08-09T16:57:29Z",
+  "details": "\n   * Backport upstream releases 8u342 and 8u332 to 16.04 LTS\n   * Security fixes in 8u342:\n     - JDK-8272243: Improve DER parsing\n     - JDK-8272249: Better properties of loaded Properties\n     - JDK-8277608: Address IP Addressing\n     - JDK-8281859, CVE-2022-21540: Improve class compilation\n     - JDK-8281866, CVE-2022-21541: Enhance MethodHandle invocations\n     - JDK-8283190: Improve MIDI processing\n     - JDK-8284370: Improve zlib usage\n     - JDK-8285407, CVE-2022-34169: Improve Xalan supports\n   * Security fixes in 8u332:\n     - JDK-8269938: Enhance XML processing passes redux\n     - JDK-8270504, CVE-2022-21426: Better XPath expression handling\n     - JDK-8272255: Completely handle MIDI files\n     - JDK-8272261: Improve JFR recording file processing\n     - JDK-8272594: Better record of recordings\n     - JDK-8274221: More definite BER encodings\n     - JDK-8275151, CVE-2022-21443: Improved Object Identification\n     - JDK-8277227: Better identification of OIDs\n     - JDK-8277672, CVE-2022-21434: Better invocation handler handling\n     - JDK-8278008, CVE-2022-21476: Improve Santuario processing\n     - JDK-8278356: Improve file creation\n     - JDK-8278449: Improve keychain support\n     - JDK-8278805: Enhance BMP image loading\n     - JDK-8278972, CVE-2022-21496: Improve URL supports\n     - JDK-8281388: Change wrapping of EncryptedPrivateKeyInfo",
+  "references": [
+    {
+      "url": "https://errata.cloudlinux.com/ubuntu16_04/CLSA-2022-1660064249",
+      "type": "ADVISORY"
+    }
+  ]
+}

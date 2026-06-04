@@ -1,0 +1,99 @@
+{
+  "id": "CLSA-2022-1654011190",
+  "summary": "Fix CVE(s): CVE-2022-1473, CVE-2022-1292",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "libssl-dev",
+        "purl": "pkg:deb/tuxcare/libssl-dev?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.0.2g-1ubuntu4.21+tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "libssl-doc",
+        "purl": "pkg:deb/tuxcare/libssl-doc?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.0.2g-1ubuntu4.21+tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "libssl1.0.0",
+        "purl": "pkg:deb/tuxcare/libssl1.0.0?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.0.2g-1ubuntu4.21+tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "openssl",
+        "purl": "pkg:deb/tuxcare/openssl?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.0.2g-1ubuntu4.21+tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2022-1473",
+    "CVE-2022-1292"
+  ],
+  "published": "2022-05-31T15:33:10Z",
+  "modified": "2022-05-31T15:33:10Z",
+  "details": "\n   * SECURITY UPDATE: Improper Neutralization\n     - debian/patches/CVE-2022-1292.patch: restrict using shell to invoke\n       openssl due to possible privilege escalation\n     - debian/patches/CVE-2022-1473.patch: fix bug OPENSSL_LH_flush() memory\n       releasing leading to DoS\n     - CVE-2022-1292\n     - CVE-2022-1473",
+  "references": [
+    {
+      "url": "https://errata.cloudlinux.com/ubuntu16_04/CLSA-2022-1654011190",
+      "type": "ADVISORY"
+    }
+  ]
+}

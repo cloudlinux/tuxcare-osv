@@ -1,0 +1,78 @@
+{
+  "id": "CLSA-2022-1667412749",
+  "summary": "Fix CVE(s): CVE-2022-43680",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "expat",
+        "purl": "pkg:deb/tuxcare/expat?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.1.0-7ubuntu0.16.04.5+tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "libexpat1",
+        "purl": "pkg:deb/tuxcare/libexpat1?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.1.0-7ubuntu0.16.04.5+tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "libexpat1-dev",
+        "purl": "pkg:deb/tuxcare/libexpat1-dev?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.1.0-7ubuntu0.16.04.5+tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2022-43680"
+  ],
+  "published": "2022-11-02T18:12:29Z",
+  "modified": "2022-11-02T18:12:29Z",
+  "details": "\n   * SECURITY UPDATE: Fix overeager DTD destruction\n     - debian/patches/CVE-2022-43680: Fix heap use-after-free after overeager\n       destruction of a shared DTD in function XML_ExternalEntityParserCreate\n       in out-of-memory situations\n     - CVE-2022-43680",
+  "references": [
+    {
+      "url": "https://errata.cloudlinux.com/ubuntu16-els/CLSA-2022-1667412749",
+      "type": "ADVISORY"
+    }
+  ]
+}

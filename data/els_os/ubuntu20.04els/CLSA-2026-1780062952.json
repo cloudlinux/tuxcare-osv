@@ -1,0 +1,98 @@
+{
+  "id": "CLSA-2026-1780062952",
+  "summary": "Fix CVE(s): CVE-2026-28389",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:20.04",
+        "name": "libssl-dev",
+        "purl": "pkg:deb/tuxcare/libssl-dev?distro=ubuntu-20.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.1.1f-1ubuntu2.24+tuxcare.els5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:20.04",
+        "name": "libssl-doc",
+        "purl": "pkg:deb/tuxcare/libssl-doc?distro=ubuntu-20.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.1.1f-1ubuntu2.24+tuxcare.els5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:20.04",
+        "name": "libssl1.1",
+        "purl": "pkg:deb/tuxcare/libssl1.1?distro=ubuntu-20.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.1.1f-1ubuntu2.24+tuxcare.els5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:20.04",
+        "name": "openssl",
+        "purl": "pkg:deb/tuxcare/openssl?distro=ubuntu-20.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.1.1f-1ubuntu2.24+tuxcare.els5"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-28389"
+  ],
+  "published": "2026-05-29T13:55:57Z",
+  "modified": "2026-05-29T13:55:57Z",
+  "details": "   * SECURITY UPDATE: NULL pointer dereference in CMS EnvelopedData processing\n     when a KeyAgreeRecipientInfo message omits the optional parameters field of\n     KeyEncryptionAlgorithmIdentifier. Both dh_cms_set_shared_info() and\n     ecdh_cms_set_shared_info() dereference alg->parameter without a NULL check,\n     allowing a remote attacker to crash applications that process untrusted CMS\n     data (e.g. S/MIME decryption), causing Denial of Service before any\n     authentication or cryptographic operations occur.\n     - debian/patches/CVE-2026-28389.patch: use X509_ALGOR_get0() to safely\n       extract algorithm OID and parameter type/value in dh_cms_set_shared_info()\n       in crypto/dh/dh_ameth.c and ecdh_cms_set_shared_info() in\n       crypto/ec/ec_ameth.c instead of dereferencing alg->parameter directly\n     - CVE-2026-28389",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/ubuntu20.04els/CLSA-2026-1780062952.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

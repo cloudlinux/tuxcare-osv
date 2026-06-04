@@ -1,0 +1,138 @@
+{
+  "id": "CLSA-2022-1660760405",
+  "summary": "Fix CVE(s): CVE-2022-37434",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "lib32z1",
+        "purl": "pkg:deb/tuxcare/lib32z1?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:1.2.8.dfsg-2ubuntu4.3+tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "lib32z1-dev",
+        "purl": "pkg:deb/tuxcare/lib32z1-dev?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:1.2.8.dfsg-2ubuntu4.3+tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "libx32z1",
+        "purl": "pkg:deb/tuxcare/libx32z1?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:1.2.8.dfsg-2ubuntu4.3+tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "libx32z1-dev",
+        "purl": "pkg:deb/tuxcare/libx32z1-dev?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:1.2.8.dfsg-2ubuntu4.3+tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "zlib1g",
+        "purl": "pkg:deb/tuxcare/zlib1g?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:1.2.8.dfsg-2ubuntu4.3+tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "zlib1g-dev",
+        "purl": "pkg:deb/tuxcare/zlib1g-dev?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:1.2.8.dfsg-2ubuntu4.3+tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2022-37434"
+  ],
+  "published": "2022-08-17T18:20:05Z",
+  "modified": "2022-08-17T18:20:05Z",
+  "details": "\n   * SECURITY UPDATE: possible buffer overflow when getting a gzip header\n     extra field with inflate()\n     - debian/patches/CVE-2022-37434.patch: ensure that space the user\n       provided with inflateGetHeader() is enough when multiple calls\n       of inflate() delivers an extra header data.\n     - CVE-2022-37434",
+  "references": [
+    {
+      "url": "https://errata.cloudlinux.com/ubuntu16_04/CLSA-2022-1660760405",
+      "type": "ADVISORY"
+    }
+  ]
+}

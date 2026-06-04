@@ -1,0 +1,38 @@
+{
+  "id": "CLSA-2024-1713523762",
+  "summary": "Fix CVE(s): CVE-2022-48624",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "less",
+        "purl": "pkg:deb/tuxcare/less?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "481-2.1ubuntu0.2+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2022-48624"
+  ],
+  "published": "2024-04-19T10:49:24Z",
+  "modified": "2024-04-19T10:49:24Z",
+  "details": "   * SECURITY UPDATE: shell-quote filenames when invoking LESSCLOSE.\n     - debian/patches/CVE-2022-48624.patch: Fix close_altfile in filename.c\n       in less before 606 omits shell_quote calls for LESSCLOSE.\n     - CVE-2022-48624",
+  "references": [
+    {
+      "url": "https://errata.cloudlinux.com/ubuntu16-els/CLSA-2024-1713523762.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

@@ -1,0 +1,138 @@
+{
+  "id": "CLSA-2024-1710789017",
+  "summary": "Fix CVE(s): CVE-2024-25617",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "squid",
+        "purl": "pkg:deb/tuxcare/squid?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.5.27-1ubuntu1.14+tuxcare.els5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "squid-cgi",
+        "purl": "pkg:deb/tuxcare/squid-cgi?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.5.27-1ubuntu1.14+tuxcare.els5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "squid-common",
+        "purl": "pkg:deb/tuxcare/squid-common?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.5.27-1ubuntu1.14+tuxcare.els5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "squid-purge",
+        "purl": "pkg:deb/tuxcare/squid-purge?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.5.27-1ubuntu1.14+tuxcare.els5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "squid3",
+        "purl": "pkg:deb/tuxcare/squid3?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.5.27-1ubuntu1.14+tuxcare.els5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "squidclient",
+        "purl": "pkg:deb/tuxcare/squidclient?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.5.27-1ubuntu1.14+tuxcare.els5"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2024-25617"
+  ],
+  "published": "2024-03-18T19:10:20Z",
+  "modified": "2024-03-18T19:10:20Z",
+  "details": "   * SECURITY UPDATE: Denial of Service attack against HTTP header parsing\n     - debian/patches/CVE-2024-25617.patch: Improve handling of expanding\n       HTTP header values\n     - CVE-2024-25617",
+  "references": [
+    {
+      "url": "https://errata.cloudlinux.com/ubuntu18-els/CLSA-2024-1710789017.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "id": "CLSA-2022-1649170601",
+  "summary": "Fix CVE(s): CVE-2022-0547",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "openvpn",
+        "purl": "pkg:deb/tuxcare/openvpn?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.3.10-1ubuntu2.2+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2022-0547"
+  ],
+  "published": "2022-04-05T14:56:41Z",
+  "modified": "2022-04-05T14:56:41Z",
+  "details": "\n   * SECURITY UPDATE: authentication bypass via multiple deferred\n     authentication plug-ins\n     - debian/patches/CVE-2022-0547.patch: disallow multiple deferred\n       authentication plug-ins in doc/openvpn.8, src/openvpn/plugin.c.\n     - CVE-2022-0547",
+  "references": [
+    {
+      "url": "https://errata.cloudlinux.com/ubuntu16_04/CLSA-2022-1649170601",
+      "type": "ADVISORY"
+    }
+  ]
+}

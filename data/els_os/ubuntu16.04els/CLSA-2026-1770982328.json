@@ -1,0 +1,78 @@
+{
+  "id": "CLSA-2026-1770982328",
+  "summary": "Fix CVE(s): CVE-2025-68973",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "gnupg",
+        "purl": "pkg:deb/tuxcare/gnupg?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.4.20-1ubuntu3.3+tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "gnupg-curl",
+        "purl": "pkg:deb/tuxcare/gnupg-curl?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.4.20-1ubuntu3.3+tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "gpgv",
+        "purl": "pkg:deb/tuxcare/gpgv?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.4.20-1ubuntu3.3+tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2025-68973"
+  ],
+  "published": "2026-02-13T11:32:12Z",
+  "modified": "2026-02-13T11:32:12Z",
+  "details": "   * SECURITY UPDATE: Possible memory corruption in the armor parser\n     - debian/patches/CVE-2025-68973.patch: fix faulty double increment\n     - CVE-2025-68973",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/ubuntu16.04els/CLSA-2026-1770982328.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

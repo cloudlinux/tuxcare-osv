@@ -1,0 +1,38 @@
+{
+  "id": "CLSA-2025-1762783856",
+  "summary": "Fix CVE(s): CVE-2024-38428",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Debian:10",
+        "name": "wget",
+        "purl": "pkg:deb/tuxcare/wget?distro=debian-10"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.20.1-1.1+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2024-38428"
+  ],
+  "published": "2025-11-10T14:11:01Z",
+  "modified": "2025-11-10T14:11:01Z",
+  "details": "   * SECURITY UPDATE: mishandling of semicolons in userinfo\n     - debian/patches/CVE-2024-38428.patch: properly re-implement userinfo\n       parsing in src/url.c.\n     - CVE-2024-38428",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/debian10els/CLSA-2025-1762783856.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

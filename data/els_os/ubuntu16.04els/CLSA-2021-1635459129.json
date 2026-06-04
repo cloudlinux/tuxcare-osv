@@ -1,0 +1,181 @@
+{
+  "id": "CLSA-2021-1635459129",
+  "summary": "Fix CVE(s): CVE-2021-26690, CVE-2021-26691, CVE-2021-30641, CVE-2020-35452",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "apache2",
+        "purl": "pkg:deb/tuxcare/apache2?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.4.18-2ubuntu3.18"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "apache2-bin",
+        "purl": "pkg:deb/tuxcare/apache2-bin?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.4.18-2ubuntu3.18"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "apache2-data",
+        "purl": "pkg:deb/tuxcare/apache2-data?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.4.18-2ubuntu3.18"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "apache2-dev",
+        "purl": "pkg:deb/tuxcare/apache2-dev?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.4.18-2ubuntu3.18"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "apache2-doc",
+        "purl": "pkg:deb/tuxcare/apache2-doc?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.4.18-2ubuntu3.18"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "apache2-suexec-custom",
+        "purl": "pkg:deb/tuxcare/apache2-suexec-custom?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.4.18-2ubuntu3.18"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "apache2-suexec-pristine",
+        "purl": "pkg:deb/tuxcare/apache2-suexec-pristine?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.4.18-2ubuntu3.18"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "apache2-utils",
+        "purl": "pkg:deb/tuxcare/apache2-utils?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.4.18-2ubuntu3.18"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2021-26690",
+    "CVE-2021-26691",
+    "CVE-2021-30641",
+    "CVE-2020-35452"
+  ],
+  "published": "2021-10-28T22:12:09Z",
+  "modified": "2021-10-28T22:12:09Z",
+  "details": "\n   * SECURITY UPDATE: Unexpected URL matching with 'MergeSlashes OFF'\n     - debian/patches/CVE-2021-30641.patch: legacy default slash-matching behavior\n       with 'MergeSlashes OFF'.\n     - CVE-2021-30641\n   * SECURITY UPDATE: heap overflow in mod_session\n     - debian/patches/CVE-2021-26691.patch: A specially crafted SessionHeader\n       sent by an origin server could cause a heap overflow.\n     - CVE-2021-26691\n   * SECURITY UPDATE: NULL pointer dereference in mod_session\n     - debian/patches/CVE-2021-26690.patch: A specially crafted Cookie header\n       handled by mod_session can cause a NULL pointer dereference and crash,\n       leading to a possible Denial Of Service.\n     - CVE-2021-26690\n   * SECURITY UPDATE: mod_auth_digest possible stack overflow by one nul byte\n     - debian/patches/CVE-2020-35452.patch: A specially crafted Digest nonce can cause\n     a stack overflow in mod_auth_digest.\n     - CVE-2020-35452",
+  "references": [
+    {
+      "url": "https://errata.cloudlinux.com/ubuntu16_04/CLSA-2021-1635459129",
+      "type": "ADVISORY"
+    }
+  ]
+}

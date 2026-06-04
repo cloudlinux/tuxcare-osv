@@ -1,0 +1,38 @@
+{
+  "id": "CLSA-2024-1733246466",
+  "summary": "Fix CVE(s): CVE-2024-48991",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "needrestart",
+        "purl": "pkg:deb/tuxcare/needrestart?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.1-1ubuntu0.1+tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2024-48991"
+  ],
+  "published": "2024-12-03T17:21:11Z",
+  "modified": "2024-12-03T17:21:11Z",
+  "details": "   * SECURITY UPDATE: Race condition allows local attackers to execute arbitrary\n     code as root\n     - debian/patches/CVE-2024-48991.patch: Prevent race condition on\n       /proc/$PID/exec evaluation by synchronizing $exe with the initial value\n       from Proc:ProcessTable\n     - CVE-2024-48991",
+  "references": [
+    {
+      "url": "https://errata.cloudlinux.com/ubuntu18-els/CLSA-2024-1733246466.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

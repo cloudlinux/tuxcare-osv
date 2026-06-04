@@ -1,0 +1,78 @@
+{
+  "id": "CLSA-2026-1773930717",
+  "summary": "Fix CVE(s): CVE-2026-25210",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "expat",
+        "purl": "pkg:deb/tuxcare/expat?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.2.5-3ubuntu0.9+tuxcare.els5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "libexpat1",
+        "purl": "pkg:deb/tuxcare/libexpat1?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.2.5-3ubuntu0.9+tuxcare.els5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "libexpat1-dev",
+        "purl": "pkg:deb/tuxcare/libexpat1-dev?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.2.5-3ubuntu0.9+tuxcare.els5"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-25210"
+  ],
+  "published": "2026-03-19T14:32:01Z",
+  "modified": "2026-03-19T14:32:01Z",
+  "details": "   * SECURITY UPDATE: integer overflow in doContent tag buffer reallocation.\n     - debian/patches/CVE-2026-25210.patch: add overflow check for tag\n       buffer reallocation\n     - CVE-2026-25210",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/ubuntu18.04els/CLSA-2026-1773930717.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

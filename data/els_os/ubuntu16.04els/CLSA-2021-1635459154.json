@@ -1,0 +1,138 @@
+{
+  "id": "CLSA-2021-1635459154",
+  "summary": "Fix CVE(s): CVE-2021-28831",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "busybox",
+        "purl": "pkg:deb/tuxcare/busybox?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:1.22.0-15ubuntu1.5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "busybox-initramfs",
+        "purl": "pkg:deb/tuxcare/busybox-initramfs?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:1.22.0-15ubuntu1.5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "busybox-static",
+        "purl": "pkg:deb/tuxcare/busybox-static?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:1.22.0-15ubuntu1.5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "busybox-syslogd",
+        "purl": "pkg:deb/tuxcare/busybox-syslogd?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:1.22.0-15ubuntu1.5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "udhcpc",
+        "purl": "pkg:deb/tuxcare/udhcpc?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:1.22.0-15ubuntu1.5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "udhcpd",
+        "purl": "pkg:deb/tuxcare/udhcpd?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:1.22.0-15ubuntu1.5"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2021-28831"
+  ],
+  "published": "2021-10-28T22:12:34Z",
+  "modified": "2021-10-28T22:12:34Z",
+  "details": "\n   * SECURITY UPDATE: operation on invalid pointer\n     - debian/patches/CVE-2021-28831.patch: decompress_gunzip.c mishandles the error bit\n       on the huft_build result pointer, with a resultant invalid free\n       or segmentation fault, via malformed gzip data.\n     - CVE-2021-28831",
+  "references": [
+    {
+      "url": "https://errata.cloudlinux.com/ubuntu16_04/CLSA-2021-1635459154",
+      "type": "ADVISORY"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "id": "CLSA-2026-1771412648",
+  "summary": "Update of alt-php",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:20.04",
+        "name": "ca-certificates",
+        "purl": "pkg:deb/tuxcare/ca-certificates?distro=ubuntu-20.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "20260210~20.04.1+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [],
+  "published": "2026-02-18T11:04:13Z",
+  "modified": "2026-02-18T11:04:13Z",
+  "details": "   * Update ca-certificates database to 20260210:\n     - mozilla\\{certdata.h,nssckbi.h}: Update Mozilla certificate\n       authority bundle of the version 2.82.\n     - The following certificates were updated:\n       # Certificate \"ePKI Root Certification Authority\"\n     - The following certificates were added:\n       # Certificate \"TrustAsia TLS ECC Root CA\"\n       # Certificate \"TrustAsia TLS RSA Root CA\"\n       # Certificate \"SwissSign RSA TLS Root CA 2022 - 1\"\n       # Certificate \"OISTE Server Root ECC G1\"\n       # Certificate \" OISTE Server Root RSA G1\"\n     - The following certificates were removed:\n       # Certificate \"Baltimore CyberTrust Root\"",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/ubuntu20.04els/CLSA-2026-1771412648.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

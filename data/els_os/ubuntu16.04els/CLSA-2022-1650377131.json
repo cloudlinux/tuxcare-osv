@@ -1,0 +1,138 @@
+{
+  "id": "CLSA-2022-1650377131",
+  "summary": "Fix CVE(s): CVE-2022-28391",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "busybox",
+        "purl": "pkg:deb/tuxcare/busybox?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:1.22.0-15ubuntu1.4+tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "busybox-initramfs",
+        "purl": "pkg:deb/tuxcare/busybox-initramfs?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:1.22.0-15ubuntu1.4+tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "busybox-static",
+        "purl": "pkg:deb/tuxcare/busybox-static?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:1.22.0-15ubuntu1.4+tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "busybox-syslogd",
+        "purl": "pkg:deb/tuxcare/busybox-syslogd?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:1.22.0-15ubuntu1.4+tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "udhcpc",
+        "purl": "pkg:deb/tuxcare/udhcpc?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:1.22.0-15ubuntu1.4+tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "udhcpd",
+        "purl": "pkg:deb/tuxcare/udhcpd?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:1.22.0-15ubuntu1.4+tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2022-28391"
+  ],
+  "published": "2022-04-19T14:05:31Z",
+  "modified": "2022-04-19T14:05:31Z",
+  "details": "\n   * SECURITY UPDATE: possible remote code execution\n     - debian/patches/CVE-2022-28391.patch: fix possible terminal injection\n       attacks from DNS query results\n     - CVE-2022-28391",
+  "references": [
+    {
+      "url": "https://errata.cloudlinux.com/ubuntu16_04/CLSA-2022-1650377131",
+      "type": "ADVISORY"
+    }
+  ]
+}

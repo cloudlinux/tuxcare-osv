@@ -1,0 +1,178 @@
+{
+  "id": "CLSA-2026-1778934026",
+  "summary": "Fix CVE(s): CVE-2026-42010",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:20.04",
+        "name": "gnutls-bin",
+        "purl": "pkg:deb/tuxcare/gnutls-bin?distro=ubuntu-20.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.6.13-2ubuntu1.12+tuxcare.els4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:20.04",
+        "name": "gnutls-doc",
+        "purl": "pkg:deb/tuxcare/gnutls-doc?distro=ubuntu-20.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.6.13-2ubuntu1.12+tuxcare.els4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:20.04",
+        "name": "guile-gnutls",
+        "purl": "pkg:deb/tuxcare/guile-gnutls?distro=ubuntu-20.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.6.13-2ubuntu1.12+tuxcare.els4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:20.04",
+        "name": "libgnutls-dane0",
+        "purl": "pkg:deb/tuxcare/libgnutls-dane0?distro=ubuntu-20.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.6.13-2ubuntu1.12+tuxcare.els4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:20.04",
+        "name": "libgnutls-openssl27",
+        "purl": "pkg:deb/tuxcare/libgnutls-openssl27?distro=ubuntu-20.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.6.13-2ubuntu1.12+tuxcare.els4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:20.04",
+        "name": "libgnutls28-dev",
+        "purl": "pkg:deb/tuxcare/libgnutls28-dev?distro=ubuntu-20.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.6.13-2ubuntu1.12+tuxcare.els4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:20.04",
+        "name": "libgnutls30",
+        "purl": "pkg:deb/tuxcare/libgnutls30?distro=ubuntu-20.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.6.13-2ubuntu1.12+tuxcare.els4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:20.04",
+        "name": "libgnutlsxx28",
+        "purl": "pkg:deb/tuxcare/libgnutlsxx28?distro=ubuntu-20.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.6.13-2ubuntu1.12+tuxcare.els4"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-42010"
+  ],
+  "published": "2026-05-16T12:20:31Z",
+  "modified": "2026-05-16T12:20:31Z",
+  "details": "   * SECURITY UPDATE: Authentication bypass via NUL-byte truncation in RSA-PSK username lookup\n     - debian/patches/CVE-2026-42010.patch: replace strlen(info->username) with\n       info->username_len in _gnutls_proc_rsa_psk_client_kx in lib/auth/rsa_psk.c\n       to prevent NUL-byte truncation allowing username matching with truncated entries\n     - CVE-2026-42010",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/ubuntu20.04els/CLSA-2026-1778934026.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

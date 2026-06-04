@@ -1,0 +1,98 @@
+{
+  "id": "CLSA-2026-1779351595",
+  "summary": "Fix CVE(s): CVE-2026-23631",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Debian:10",
+        "name": "redis",
+        "purl": "pkg:deb/tuxcare/redis?distro=debian-10"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5:5.0.14-1+deb10u5+tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Debian:10",
+        "name": "redis-sentinel",
+        "purl": "pkg:deb/tuxcare/redis-sentinel?distro=debian-10"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5:5.0.14-1+deb10u5+tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Debian:10",
+        "name": "redis-server",
+        "purl": "pkg:deb/tuxcare/redis-server?distro=debian-10"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5:5.0.14-1+deb10u5+tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Debian:10",
+        "name": "redis-tools",
+        "purl": "pkg:deb/tuxcare/redis-tools?distro=debian-10"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5:5.0.14-1+deb10u5+tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-23631"
+  ],
+  "published": "2026-05-21T09:28:51Z",
+  "modified": "2026-05-21T09:28:51Z",
+  "details": "   * SECURITY UPDATE: Use-after-free in readSyncBulkPayload during fullsync\n     - debian/patches/0015-CVE-2026-23631.patch: guard readSyncBulkPayload\n       in src/replication.c with an early return when server.lua_timedout is\n       set, so a fullsync cannot free the Lua scripting engine while a\n       timed-out script is still running on the replica. Backport of upstream\n       redis commit 80c2b5a0a (7.2 branch), adapted to 5.0 by using\n       server.lua_timedout in place of isInsideYieldingLongCommand().\n     - CVE-2026-23631",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/debian10els/CLSA-2026-1779351595.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

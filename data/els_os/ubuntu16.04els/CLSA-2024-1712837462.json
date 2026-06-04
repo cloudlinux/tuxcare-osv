@@ -1,0 +1,118 @@
+{
+  "id": "CLSA-2024-1712837462",
+  "summary": "Fix CVE(s): CVE-2024-1013",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "libodbc1",
+        "purl": "pkg:deb/tuxcare/libodbc1?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.3.1-4.1+tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "odbcinst",
+        "purl": "pkg:deb/tuxcare/odbcinst?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.3.1-4.1+tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "odbcinst1debian2",
+        "purl": "pkg:deb/tuxcare/odbcinst1debian2?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.3.1-4.1+tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "unixodbc",
+        "purl": "pkg:deb/tuxcare/unixodbc?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.3.1-4.1+tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "unixodbc-dev",
+        "purl": "pkg:deb/tuxcare/unixodbc-dev?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.3.1-4.1+tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2024-1013"
+  ],
+  "published": "2024-04-11T12:11:05Z",
+  "modified": "2024-04-11T12:11:05Z",
+  "details": "   * SECURITY UPDATE: Fix incompatible pointer-to-integer types\n     - debian/patch/CVE-2024-1013.patch: PostgreSQL driver: Fix incompatible\n     pointer-to-integer types. This change is required to avoid a build\n     failure with GCC 14.\n     - CVE-2024-1013",
+  "references": [
+    {
+      "url": "https://errata.cloudlinux.com/ubuntu16-els/CLSA-2024-1712837462.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "id": "CLSA-2025-1758228293",
+  "summary": "Fix CVE(s): CVE-2025-7425",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "libxml2",
+        "purl": "pkg:deb/tuxcare/libxml2?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.9.3+dfsg1-1ubuntu0.7+tuxcare.els12"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "libxml2-dev",
+        "purl": "pkg:deb/tuxcare/libxml2-dev?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.9.3+dfsg1-1ubuntu0.7+tuxcare.els12"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "libxml2-doc",
+        "purl": "pkg:deb/tuxcare/libxml2-doc?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.9.3+dfsg1-1ubuntu0.7+tuxcare.els12"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "libxml2-utils",
+        "purl": "pkg:deb/tuxcare/libxml2-utils?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.9.3+dfsg1-1ubuntu0.7+tuxcare.els12"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "python-libxml2",
+        "purl": "pkg:deb/tuxcare/python-libxml2?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.9.3+dfsg1-1ubuntu0.7+tuxcare.els12"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2025-7425"
+  ],
+  "published": "2025-09-18T20:44:57Z",
+  "modified": "2025-09-18T20:44:57Z",
+  "details": "   * SECURITY UPDATE: memory corruption vulnerability in attribute type flags\n     - debian/patches/CVE-2025-7425.patch: fix heap-use-after-free in xmlFreeID\n       caused by `atype` corruption\n     - CVE-2025-7425",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/ubuntu16.04els/CLSA-2025-1758228293.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

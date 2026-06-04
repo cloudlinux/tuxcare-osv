@@ -1,0 +1,139 @@
+{
+  "id": "CLSA-2025-1761844638",
+  "summary": "Fix CVE(s): CVE-2023-49288, CVE-2023-5824",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Debian:10",
+        "name": "squid",
+        "purl": "pkg:deb/tuxcare/squid?distro=debian-10"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.6-1+deb10u10+tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Debian:10",
+        "name": "squid-cgi",
+        "purl": "pkg:deb/tuxcare/squid-cgi?distro=debian-10"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.6-1+deb10u10+tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Debian:10",
+        "name": "squid-common",
+        "purl": "pkg:deb/tuxcare/squid-common?distro=debian-10"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.6-1+deb10u10+tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Debian:10",
+        "name": "squid-purge",
+        "purl": "pkg:deb/tuxcare/squid-purge?distro=debian-10"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.6-1+deb10u10+tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Debian:10",
+        "name": "squid3",
+        "purl": "pkg:deb/tuxcare/squid3?distro=debian-10"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.6-1+deb10u10+tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Debian:10",
+        "name": "squidclient",
+        "purl": "pkg:deb/tuxcare/squidclient?distro=debian-10"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.6-1+deb10u10+tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2023-49288",
+    "CVE-2023-5824"
+  ],
+  "published": "2025-10-30T18:04:01Z",
+  "modified": "2025-10-30T18:04:01Z",
+  "details": "   * SECURITY UPDATE: excessive cached HTTP response header size causing worker\n     process stall or crash\n     - debian/patches/CVE-2023-5824.patch: Refactor serialized HTTP response header\n       handling to prevent cache flow\n     - CVE-2023-5824\n   * SECURITY UPDATE: Use-After-Free in the HTTP Collapsed Forwarding Feature\n     - debian/patches/CVE-2023-5824.patch: Removed Use-After-Free during refactor\n       serialized HTTP response header\n     - CVE-2023-49288",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/debian10els/CLSA-2025-1761844638.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

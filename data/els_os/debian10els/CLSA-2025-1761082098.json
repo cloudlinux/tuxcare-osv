@@ -1,0 +1,38 @@
+{
+  "id": "CLSA-2025-1761082098",
+  "summary": "Fix CVE(s): CVE-2022-0547",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Debian:10",
+        "name": "openvpn",
+        "purl": "pkg:deb/tuxcare/openvpn?distro=debian-10"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.4.7-1+deb10u1+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2022-0547"
+  ],
+  "published": "2025-10-21T21:28:25Z",
+  "modified": "2025-10-21T21:28:25Z",
+  "details": "   * SECURITY UPDATE: Authentication bypass in external authentication\n     plug-ins with only partially correct credentials\n     - debian/patches/CVE-2022-0547.patch: disallow multiple deferred\n       authentication plug-ins\n     - CVE-2022-0547\n   * Update sample keys for testing\n     - debian/sample-keys/*\n     - debian/rules\n     - debian/source/include-binaries",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/debian10els/CLSA-2025-1761082098.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

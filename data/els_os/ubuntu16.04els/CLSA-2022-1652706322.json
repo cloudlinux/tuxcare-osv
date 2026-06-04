@@ -1,0 +1,38 @@
+{
+  "id": "CLSA-2022-1652706322",
+  "summary": "Fix CVE(s): CVE-2022-1271",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "gzip",
+        "purl": "pkg:deb/tuxcare/gzip?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.6-4ubuntu1+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2022-1271"
+  ],
+  "published": "2022-05-16T13:05:22Z",
+  "modified": "2022-05-16T13:05:22Z",
+  "details": "\n   * SECURITY UPDATE: arbitrary file override with crafted file names\n     - debian/patches/CVE-2022-1271-1.patch: avoid exploit via multi-newline\n       file names in zgrep.in.\n     - debian/patches/CVE-2022-1271-2.patch: add test in tests/Makefile.am,\n       tests/zgrep-abuse.\n     - debian/patches/CVE-2022-1271-3.patch: port to POSIX sed in zgrep.in.\n     - debian/patches/CVE-2022-1271-4.patch: optimize out a grep in\n       gzexe.in.\n     - debian/patches/CVE-2022-1271-5.patch: use C locale more often in\n       gzexe.in, sample/zfile, zdiff.in, zgrep.in, znew.in.\n     - debian/patches/CVE-2022-1271-6.patch: fix \"binary file matches\"\n       mislabeling in tests/Makefile.am, tests/zgrep-binary, zgrep.in.\n     - debian/rules: fix permissions on new test scripts.\n     - CVE-2022-1271",
+  "references": [
+    {
+      "url": "https://errata.cloudlinux.com/ubuntu16_04/CLSA-2022-1652706322",
+      "type": "ADVISORY"
+    }
+  ]
+}

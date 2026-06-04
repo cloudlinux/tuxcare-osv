@@ -1,0 +1,78 @@
+{
+  "id": "CLSA-2023-1681151394",
+  "summary": "Fix CVE(s): CVE-2022-26253",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "glusterfs-client",
+        "purl": "pkg:deb/tuxcare/glusterfs-client?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.7.6-1ubuntu1+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "glusterfs-common",
+        "purl": "pkg:deb/tuxcare/glusterfs-common?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.7.6-1ubuntu1+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "glusterfs-server",
+        "purl": "pkg:deb/tuxcare/glusterfs-server?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.7.6-1ubuntu1+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2022-26253"
+  ],
+  "published": "2023-04-10T18:29:58Z",
+  "modified": "2023-04-10T18:29:58Z",
+  "details": "\n   * SECURITY UPDATE: stack-based buffer overread in FUSE xlator\n     - debian/patches/CVE-2022-26253.patch: access the graph->id\n       only while event is associated specific to FUSE xlator.\n     - CVE-2022-26253",
+  "references": [
+    {
+      "url": "https://errata.cloudlinux.com/ubuntu16_04-els/CLSA-2023-1681151394",
+      "type": "ADVISORY"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "id": "CLSA-2024-1716485825",
+  "summary": "Fix CVE(s): CVE-2023-5764",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "ansible",
+        "purl": "pkg:deb/tuxcare/ansible?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.5.1+dfsg-1ubuntu0.1+tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2023-5764"
+  ],
+  "published": "2024-05-23T17:37:09Z",
+  "modified": "2024-05-23T17:37:09Z",
+  "details": "   * SECURITY UPDATE: template injection allows code injection through specially\n     crafted files\n     - debian/patches/CVE-2023-5764.patch: avoid evaluate unsafe conditions\n     - debian/patches/CVE-2023-5764-ext-tests.patch: addional tests\n     - CVE-2023-5764",
+  "references": [
+    {
+      "url": "https://errata.cloudlinux.com/ubuntu18-els/CLSA-2024-1716485825.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

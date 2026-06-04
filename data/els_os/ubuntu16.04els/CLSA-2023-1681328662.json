@@ -1,0 +1,118 @@
+{
+  "id": "CLSA-2023-1681328662",
+  "summary": "Fix CVE(s): CVE-2023-0767",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "libnss3",
+        "purl": "pkg:deb/tuxcare/libnss3?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:3.28.4-0ubuntu0.16.04.14+tuxcare.els5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "libnss3-1d",
+        "purl": "pkg:deb/tuxcare/libnss3-1d?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:3.28.4-0ubuntu0.16.04.14+tuxcare.els5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "libnss3-dev",
+        "purl": "pkg:deb/tuxcare/libnss3-dev?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:3.28.4-0ubuntu0.16.04.14+tuxcare.els5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "libnss3-nssdb",
+        "purl": "pkg:deb/tuxcare/libnss3-nssdb?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:3.28.4-0ubuntu0.16.04.14+tuxcare.els5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "libnss3-tools",
+        "purl": "pkg:deb/tuxcare/libnss3-tools?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:3.28.4-0ubuntu0.16.04.14+tuxcare.els5"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2023-0767"
+  ],
+  "published": "2023-04-12T20:41:25Z",
+  "modified": "2023-04-12T20:41:25Z",
+  "details": "\n   * SECURITY UPDATE: An attacker could construct a PKCS 12 cert bundle in such\n     a way that could allow for arbitrary memory writes via PKCS 12 Safe Bag\n     attributes being mishandled\n     - debian/patches/CVE-2023-0767.patch: improve handling of unknown PKCS#12\n       safe bag types\n     - CVE-2023-0767",
+  "references": [
+    {
+      "url": "https://errata.cloudlinux.com/ubuntu16_04-els/CLSA-2023-1681328662",
+      "type": "ADVISORY"
+    }
+  ]
+}

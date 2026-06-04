@@ -1,0 +1,118 @@
+{
+  "id": "CLSA-2025-1764771100",
+  "summary": "Fix CVE(s): CVE-2019-1010180",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Debian:10",
+        "name": "gdb",
+        "purl": "pkg:deb/tuxcare/gdb?distro=debian-10"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8.2.1-2+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Debian:10",
+        "name": "gdb-minimal",
+        "purl": "pkg:deb/tuxcare/gdb-minimal?distro=debian-10"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8.2.1-2+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Debian:10",
+        "name": "gdb-multiarch",
+        "purl": "pkg:deb/tuxcare/gdb-multiarch?distro=debian-10"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8.2.1-2+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Debian:10",
+        "name": "gdb-source",
+        "purl": "pkg:deb/tuxcare/gdb-source?distro=debian-10"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8.2.1-2+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Debian:10",
+        "name": "gdbserver",
+        "purl": "pkg:deb/tuxcare/gdbserver?distro=debian-10"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8.2.1-2+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2019-1010180"
+  ],
+  "published": "2025-12-03T14:11:44Z",
+  "modified": "2025-12-03T14:11:44Z",
+  "details": "   * SECURITY UPDATE: Buffer overflow when ELF section size is invalid\n     - debian/patches/CVE-2019-1010180.patch: Skip processing invalid ELF sections\n     - CVE-2019-1010180",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/debian10els/CLSA-2025-1764771100.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

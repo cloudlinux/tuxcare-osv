@@ -1,0 +1,78 @@
+{
+  "id": "CLSA-2026-1770395482",
+  "summary": "Fix CVE(s): CVE-2026-24515",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:20.04",
+        "name": "expat",
+        "purl": "pkg:deb/tuxcare/expat?distro=ubuntu-20.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.2.9-1ubuntu0.8+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:20.04",
+        "name": "libexpat1",
+        "purl": "pkg:deb/tuxcare/libexpat1?distro=ubuntu-20.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.2.9-1ubuntu0.8+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:20.04",
+        "name": "libexpat1-dev",
+        "purl": "pkg:deb/tuxcare/libexpat1-dev?distro=ubuntu-20.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.2.9-1ubuntu0.8+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-24515"
+  ],
+  "published": "2026-02-06T16:31:27Z",
+  "modified": "2026-02-06T16:31:27Z",
+  "details": "   * SECURITY UPDATE: XML_ExternalEntityParserCreate does not copy unknown\n     encoding handler user data\n     - debian/patches/CVE-2026-24515.patch: Fix a null pointer dereference\n       in the XML parser caused by the failure to copy user data for\n       unknown encoding handlers\n     - CVE-2026-24515",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/ubuntu20.04els/CLSA-2026-1770395482.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "id": "CLSA-2022-1643637259",
+  "summary": "Fix CVE(s): CVE-2017-12424, CVE-2018-7169",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "login",
+        "purl": "pkg:deb/tuxcare/login?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:4.2-3.1ubuntu5.5+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "passwd",
+        "purl": "pkg:deb/tuxcare/passwd?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:4.2-3.1ubuntu5.5+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "uidmap",
+        "purl": "pkg:deb/tuxcare/uidmap?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:4.2-3.1ubuntu5.5+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2017-12424",
+    "CVE-2018-7169"
+  ],
+  "published": "2022-01-31T13:54:19Z",
+  "modified": "2022-01-31T13:54:19Z",
+  "details": "\n   * SECURITY UPDATE: Crash or buffer overflow\n     - debian/patches/CVE-2017-12424.patch: fix buffer overflow if\n       NULL line is present in db in lib/commonio.c.\n     - CVE-2017-12424\n   * SECURITY UPDATE: Access to privileged information\n     - debian/patches/CVE-2018-7169.patch: newgidmap:\n       enforce setgroups=deny if self-mapping a group in\n       src/newgidmap.c.\n     - CVE-2018-7169",
+  "references": [
+    {
+      "url": "https://errata.cloudlinux.com/ubuntu16_04/CLSA-2022-1643637259",
+      "type": "ADVISORY"
+    }
+  ]
+}

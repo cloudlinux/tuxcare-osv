@@ -1,0 +1,58 @@
+{
+  "id": "CLSA-2025-1761744879",
+  "summary": "Fix CVE(s): CVE-2019-9923",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Debian:10",
+        "name": "tar",
+        "purl": "pkg:deb/tuxcare/tar?distro=debian-10"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.30+dfsg-6+deb10u1+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Debian:10",
+        "name": "tar-scripts",
+        "purl": "pkg:deb/tuxcare/tar-scripts?distro=debian-10"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.30+dfsg-6+deb10u1+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2019-9923"
+  ],
+  "published": "2025-10-29T13:34:44Z",
+  "modified": "2025-10-29T13:34:44Z",
+  "details": "   * SECURITY UPDATE: NULL pointer dereference\n     - debian/patches/CVE-2019-9923.patch: fix a NULL pointer dereference when\n       parsing certain archives that have malformed extended headers in\n       pax_decode_header() in sparse.c\n     - CVE-2019-9923",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/debian10els/CLSA-2025-1761744879.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

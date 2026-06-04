@@ -1,0 +1,158 @@
+{
+  "id": "CLSA-2021-1635459208",
+  "summary": "Fix CVE(s): CVE-2021-25217",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "isc-dhcp-client",
+        "purl": "pkg:deb/tuxcare/isc-dhcp-client?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.3.3-5ubuntu12.11"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "isc-dhcp-client-ddns",
+        "purl": "pkg:deb/tuxcare/isc-dhcp-client-ddns?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.3.3-5ubuntu12.11"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "isc-dhcp-common",
+        "purl": "pkg:deb/tuxcare/isc-dhcp-common?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.3.3-5ubuntu12.11"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "isc-dhcp-dev",
+        "purl": "pkg:deb/tuxcare/isc-dhcp-dev?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.3.3-5ubuntu12.11"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "isc-dhcp-relay",
+        "purl": "pkg:deb/tuxcare/isc-dhcp-relay?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.3.3-5ubuntu12.11"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "isc-dhcp-server",
+        "purl": "pkg:deb/tuxcare/isc-dhcp-server?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.3.3-5ubuntu12.11"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "isc-dhcp-server-ldap",
+        "purl": "pkg:deb/tuxcare/isc-dhcp-server-ldap?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.3.3-5ubuntu12.11"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2021-25217"
+  ],
+  "published": "2021-10-28T22:13:28Z",
+  "modified": "2021-10-28T22:13:28Z",
+  "details": "\n   * SECURITY UPDATE: buffer overrun in common code (parse_X)\n     - debian/patches/CVE-2021-25217.patch: fix incorrect order of operations in common/parse.c.\n     - CVE-2021-25217",
+  "references": [
+    {
+      "url": "https://errata.cloudlinux.com/ubuntu16_04/CLSA-2021-1635459208",
+      "type": "ADVISORY"
+    }
+  ]
+}

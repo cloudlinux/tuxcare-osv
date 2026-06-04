@@ -1,0 +1,119 @@
+{
+  "id": "CLSA-2025-1748282288",
+  "summary": "Fix CVE(s): CVE-2025-32414, CVE-2025-32415",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "libxml2",
+        "purl": "pkg:deb/tuxcare/libxml2?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.9.3+dfsg1-1ubuntu0.7+tuxcare.els9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "libxml2-dev",
+        "purl": "pkg:deb/tuxcare/libxml2-dev?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.9.3+dfsg1-1ubuntu0.7+tuxcare.els9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "libxml2-doc",
+        "purl": "pkg:deb/tuxcare/libxml2-doc?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.9.3+dfsg1-1ubuntu0.7+tuxcare.els9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "libxml2-utils",
+        "purl": "pkg:deb/tuxcare/libxml2-utils?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.9.3+dfsg1-1ubuntu0.7+tuxcare.els9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "python-libxml2",
+        "purl": "pkg:deb/tuxcare/python-libxml2?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.9.3+dfsg1-1ubuntu0.7+tuxcare.els9"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2025-32414",
+    "CVE-2025-32415"
+  ],
+  "published": "2025-05-26T17:58:12Z",
+  "modified": "2025-05-26T17:58:12Z",
+  "details": "   * SECURITY UPDATE: Out-of-bounds memory access in Python API bindings\n     - debian/patches/CVE-2025-32414.patch: Limit character reads and reserve\n       buffer space for UTF-8 encoding to prevent overflow\n     - CVE-2025-32414\n   * SECURITY UPDATE: Heap buffer under-read in XML schema validation\n     - debian/patches/CVE-2025-32415.patch: Fix heap buffer overflow\n       in xmlSchemaIDCFillNodeTables\n     - CVE-2025-32415",
+  "references": [
+    {
+      "url": "https://errata.cloudlinux.com/ubuntu16-els/CLSA-2025-1748282288.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

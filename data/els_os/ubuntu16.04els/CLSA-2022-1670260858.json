@@ -1,0 +1,78 @@
+{
+  "id": "CLSA-2022-1670260858",
+  "summary": "Fix CVE(s): CVE-2013-4235",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "login",
+        "purl": "pkg:deb/tuxcare/login?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:4.2-3.1ubuntu5.5+tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "passwd",
+        "purl": "pkg:deb/tuxcare/passwd?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:4.2-3.1ubuntu5.5+tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "uidmap",
+        "purl": "pkg:deb/tuxcare/uidmap?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:4.2-3.1ubuntu5.5+tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2013-4235"
+  ],
+  "published": "2022-12-05T17:20:58Z",
+  "modified": "2022-12-05T17:20:58Z",
+  "details": "\n   * SECURITY UPDATE: Race condition when copying and removing directory trees\n     - debian/patches/CVE-2013-4235.patch: fix races in chown_tree(),\n       remove_tree() and copy_tree()\n     - CVE-2013-4235",
+  "references": [
+    {
+      "url": "https://errata.cloudlinux.com/ubuntu16-els/CLSA-2022-1670260858",
+      "type": "ADVISORY"
+    }
+  ]
+}

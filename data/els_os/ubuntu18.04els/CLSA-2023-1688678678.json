@@ -1,0 +1,58 @@
+{
+  "id": "CLSA-2023-1688678678",
+  "summary": "Fix CVE(s): CVE-2021-23240",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "sudo",
+        "purl": "pkg:deb/tuxcare/sudo?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.8.21p2-3ubuntu1.6+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "sudo-ldap",
+        "purl": "pkg:deb/tuxcare/sudo-ldap?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.8.21p2-3ubuntu1.6+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2021-23240"
+  ],
+  "published": "2023-07-06T21:24:43Z",
+  "modified": "2023-07-06T21:24:43Z",
+  "details": "\n   * SECURITY UPDATE: privilege escalation via symlinks\n     - debian/patches/CVE-2021-23240.patch: fix opportunity for local unprivileged user\n       to gain file ownership via symlinks.\n     - CVE-2021-23240",
+  "references": [
+    {
+      "url": "https://errata.cloudlinux.com/ubuntu18_04-els/CLSA-2023-1688678678",
+      "type": "ADVISORY"
+    }
+  ]
+}

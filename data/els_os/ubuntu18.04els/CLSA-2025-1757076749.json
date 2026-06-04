@@ -1,0 +1,138 @@
+{
+  "id": "CLSA-2025-1757076749",
+  "summary": "Fix CVE(s): CVE-2025-54574",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "squid",
+        "purl": "pkg:deb/tuxcare/squid?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.5.27-1ubuntu1.14+tuxcare.els9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "squid-cgi",
+        "purl": "pkg:deb/tuxcare/squid-cgi?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.5.27-1ubuntu1.14+tuxcare.els9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "squid-common",
+        "purl": "pkg:deb/tuxcare/squid-common?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.5.27-1ubuntu1.14+tuxcare.els9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "squid-purge",
+        "purl": "pkg:deb/tuxcare/squid-purge?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.5.27-1ubuntu1.14+tuxcare.els9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "squid3",
+        "purl": "pkg:deb/tuxcare/squid3?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.5.27-1ubuntu1.14+tuxcare.els9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "squidclient",
+        "purl": "pkg:deb/tuxcare/squidclient?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.5.27-1ubuntu1.14+tuxcare.els9"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2025-54574"
+  ],
+  "published": "2025-09-05T12:52:32Z",
+  "modified": "2025-09-05T12:52:32Z",
+  "details": "   * SECURITY UPDATE: Disable URN protocol access to prevent potential\n     security vulnerabilities\n     - debian/patches/CVE-2025-54574.patch: Add ACL rules to deny URN\n       protocol access by default\n     - CVE-2025-54574",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/ubuntu18.04els/CLSA-2025-1757076749.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

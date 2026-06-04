@@ -1,0 +1,118 @@
+{
+  "id": "CLSA-2025-1760024944",
+  "summary": "Fix CVE(s): CVE-2025-6297",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "dpkg",
+        "purl": "pkg:deb/tuxcare/dpkg?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.19.0.5ubuntu2.4+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "dpkg-dev",
+        "purl": "pkg:deb/tuxcare/dpkg-dev?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.19.0.5ubuntu2.4+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "dselect",
+        "purl": "pkg:deb/tuxcare/dselect?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.19.0.5ubuntu2.4+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "libdpkg-dev",
+        "purl": "pkg:deb/tuxcare/libdpkg-dev?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.19.0.5ubuntu2.4+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "libdpkg-perl",
+        "purl": "pkg:deb/tuxcare/libdpkg-perl?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.19.0.5ubuntu2.4+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2025-6297"
+  ],
+  "published": "2025-10-09T15:49:08Z",
+  "modified": "2025-10-09T15:49:08Z",
+  "details": "   * SECURITY UPDATE: Fix directory cleanup vulnerability\n     - dpkg-deb/info.c: Fix cleanup for control member with restricted\n       directories\n     - Add treewalk to set proper permissions before removal for non-root users\n     - CVE-2025-6297",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/ubuntu18.04els/CLSA-2025-1760024944.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

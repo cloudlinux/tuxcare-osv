@@ -1,0 +1,38 @@
+{
+  "id": "CLSA-2025-1744719966",
+  "summary": "Fix CVE(s): CVE-2020-10729",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "ansible",
+        "purl": "pkg:deb/tuxcare/ansible?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.1.1.0-1~ubuntu16.04.1+tuxcare.els4"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2020-10729"
+  ],
+  "published": "2025-04-15T12:26:12Z",
+  "modified": "2025-04-15T12:26:12Z",
+  "details": "   * SECURITY UPDATE: insufficiently random password generation vulnerability\n     - debian/patches/CVE-2020-10729.patch: Fix issue with caching Jinja2\n       expressions, only cache results of single variable names\n     - CVE-2020-10729",
+  "references": [
+    {
+      "url": "https://errata.cloudlinux.com/ubuntu16-els/CLSA-2025-1744719966.html",
+      "type": "ADVISORY"
+    }
+  ]
+}
