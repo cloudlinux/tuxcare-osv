@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1777250303",
+  "modified": "2026-08-04T14:52:28Z",
+  "published": "2026-08-04T14:52:28Z",
+  "summary": "TuxCare security update for minimatch (1 CVE)",
+  "details": "TuxCare rebuilt minimatch to address 1 CVE. Fixed in 3.1.2-tuxcare.4.",
+  "upstream": [
+    "CVE-2026-27903"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "minimatch",
+        "purl": "pkg:npm/minimatch@3.1.2-tuxcare.4"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.1.2-tuxcare.4"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

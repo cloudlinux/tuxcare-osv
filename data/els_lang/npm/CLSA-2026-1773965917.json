@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1773965917",
+  "modified": "2026-08-04T14:52:13Z",
+  "published": "2026-08-04T14:52:13Z",
+  "summary": "TuxCare security update for crypto-js (1 CVE)",
+  "details": "TuxCare rebuilt crypto-js to address 1 CVE. Fixed in 3.3.0-tuxcare.1.",
+  "upstream": [
+    "CVE-2023-46233"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "crypto-js",
+        "purl": "pkg:npm/crypto-js@3.3.0-tuxcare.1"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.3.0-tuxcare.1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1776991058",
+  "modified": "2026-08-04T14:52:28Z",
+  "published": "2026-08-04T14:52:28Z",
+  "summary": "TuxCare security update for ws (3 CVEs)",
+  "details": "TuxCare rebuilt ws to address 3 CVEs. Fixed in 1.1.2-tuxcare.1.",
+  "upstream": [
+    "CVE-2020-8244",
+    "CVE-2026-3449",
+    "GHSA-5v72-xg48-5rpm"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "ws",
+        "purl": "pkg:npm/ws@1.1.2-tuxcare.1"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.1.2-tuxcare.1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

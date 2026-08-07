@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1779151640",
+  "modified": "2026-08-04T14:52:32Z",
+  "published": "2026-08-04T14:52:32Z",
+  "summary": "TuxCare security update for lxml (1 CVE)",
+  "details": "TuxCare rebuilt lxml to address 1 CVE. Fixed in 4.9.4.post1+tuxcare.",
+  "upstream": [
+    "CVE-2026-41066"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:PyPI",
+        "name": "lxml",
+        "purl": "pkg:pypi/lxml@4.9.4.post1+tuxcare"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.9.4.post1+tuxcare"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

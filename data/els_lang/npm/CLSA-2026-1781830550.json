@@ -1,0 +1,53 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1781830550",
+  "modified": "2026-08-04T14:52:38Z",
+  "published": "2026-08-04T14:52:38Z",
+  "summary": "TuxCare security update for 2 packages (1 CVE)",
+  "details": "TuxCare rebuilt 2 packages to address 1 CVE. Fixed in 17.1.1-tuxcare.1.",
+  "upstream": [
+    "CVE-2017-16009"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "ag-grid",
+        "purl": "pkg:npm/ag-grid@17.1.1-tuxcare.1"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "17.1.1-tuxcare.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "ag-grid-enterprise",
+        "purl": "pkg:npm/ag-grid-enterprise@17.1.1-tuxcare.1"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "17.1.1-tuxcare.1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

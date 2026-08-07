@@ -1,0 +1,53 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2025-1759277170",
+  "modified": "2026-08-04T14:52:05Z",
+  "published": "2026-08-04T14:52:05Z",
+  "summary": "TuxCare security update for com.querydsl (1 CVE)",
+  "details": "TuxCare rebuilt 2 com.querydsl packages to address 1 CVE. Fixed in 5.1.0-tuxcare.1.",
+  "upstream": [
+    "CVE-2024-49203"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "com.querydsl:querydsl-core",
+        "purl": "pkg:maven/com.querydsl/querydsl-core@5.1.0-tuxcare.1"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.1.0-tuxcare.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "com.querydsl:querydsl-jpa",
+        "purl": "pkg:maven/com.querydsl/querydsl-jpa@5.1.0-tuxcare.1"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.1.0-tuxcare.1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

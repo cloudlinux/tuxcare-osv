@@ -1,0 +1,34 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1772583210",
+  "modified": "2026-08-04T14:52:10Z",
+  "published": "2026-08-04T14:52:10Z",
+  "summary": "TuxCare security update for knockout (2 CVEs)",
+  "details": "TuxCare rebuilt knockout to address 2 CVEs. Fixed in 2.3.0-tuxcare.2.",
+  "upstream": [
+    "CVE-2019-14862",
+    "GHSA-39q2-94rc-95cp"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "knockout",
+        "purl": "pkg:npm/knockout@2.3.0-tuxcare.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.3.0-tuxcare.2"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

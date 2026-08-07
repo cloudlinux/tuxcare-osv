@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1782867615",
+  "modified": "2026-08-04T14:52:40Z",
+  "published": "2026-08-04T14:52:40Z",
+  "summary": "TuxCare security update for y18n (5 CVEs)",
+  "details": "TuxCare rebuilt y18n to address 5 CVEs. Fixed in 4.0.0-tuxcare.1.",
+  "upstream": [
+    "CVE-2020-7774",
+    "CVE-2021-23495",
+    "CVE-2022-0437",
+    "CVE-2025-7783",
+    "GHSA-5c6j-r48x-rmvq"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "y18n",
+        "purl": "pkg:npm/y18n@4.0.0-tuxcare.1"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.0.0-tuxcare.1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

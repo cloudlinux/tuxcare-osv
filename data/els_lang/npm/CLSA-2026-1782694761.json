@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1782694761",
+  "modified": "2026-08-04T14:52:39Z",
+  "published": "2026-08-04T14:52:39Z",
+  "summary": "TuxCare security update for ip-address (1 CVE)",
+  "details": "TuxCare rebuilt ip-address to address 1 CVE. Fixed in 9.0.5-tuxcare.1.",
+  "upstream": [
+    "CVE-2026-42338"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "ip-address",
+        "purl": "pkg:npm/ip-address@9.0.5-tuxcare.1"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "9.0.5-tuxcare.1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

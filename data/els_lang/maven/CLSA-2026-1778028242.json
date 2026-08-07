@@ -1,0 +1,53 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1778028242",
+  "modified": "2026-08-04T14:52:30Z",
+  "published": "2026-08-04T14:52:30Z",
+  "summary": "TuxCare security update for com.squareup.retrofit2 (1 CVE)",
+  "details": "TuxCare rebuilt 2 com.squareup.retrofit2 packages to address 1 CVE. Fixed in 2.9.0-tuxcare.1.",
+  "upstream": [
+    "CVE-2026-24400"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "com.squareup.retrofit2:retrofit",
+        "purl": "pkg:maven/com.squareup.retrofit2/retrofit@2.9.0-tuxcare.1"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.9.0-tuxcare.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "com.squareup.retrofit2:retrofit-mock",
+        "purl": "pkg:maven/com.squareup.retrofit2/retrofit-mock@2.9.0-tuxcare.1"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.9.0-tuxcare.1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

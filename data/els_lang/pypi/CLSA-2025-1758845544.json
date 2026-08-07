@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2025-1758845544",
+  "modified": "2026-08-04T14:52:09Z",
+  "published": "2026-08-04T14:52:09Z",
+  "summary": "TuxCare security update for python-jose (1 CVE)",
+  "details": "TuxCare rebuilt python-jose to address 1 CVE. Fixed in 3.3.0.post1+tuxcare.",
+  "upstream": [
+    "CVE-2024-33664"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:PyPI",
+        "name": "python-jose",
+        "purl": "pkg:pypi/python-jose@3.3.0.post1+tuxcare"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.3.0.post1+tuxcare"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

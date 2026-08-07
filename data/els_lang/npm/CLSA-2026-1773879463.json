@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1773879463",
+  "modified": "2026-08-04T14:52:13Z",
+  "published": "2026-08-04T14:52:13Z",
+  "summary": "TuxCare security update for shell-quote (1 CVE)",
+  "details": "TuxCare rebuilt shell-quote to address 1 CVE. Fixed in 1.7.2-tuxcare.1.",
+  "upstream": [
+    "CVE-2021-42740"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "shell-quote",
+        "purl": "pkg:npm/shell-quote@1.7.2-tuxcare.1"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.7.2-tuxcare.1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1782954036",
+  "modified": "2026-08-04T14:52:41Z",
+  "published": "2026-08-04T14:52:41Z",
+  "summary": "TuxCare security update for word-wrap (4 CVEs)",
+  "details": "TuxCare rebuilt word-wrap to address 4 CVEs. Fixed in 1.2.3-tuxcare.1.",
+  "upstream": [
+    "CVE-2022-37599",
+    "CVE-2022-37601",
+    "CVE-2022-37603",
+    "CVE-2023-26115"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "word-wrap",
+        "purl": "pkg:npm/word-wrap@1.2.3-tuxcare.1"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.2.3-tuxcare.1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

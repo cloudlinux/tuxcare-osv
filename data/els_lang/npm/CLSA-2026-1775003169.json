@@ -1,0 +1,34 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1775003169",
+  "modified": "2026-08-04T14:52:18Z",
+  "published": "2026-08-04T14:52:18Z",
+  "summary": "TuxCare security update for node-fetch (2 CVEs)",
+  "details": "TuxCare rebuilt node-fetch to address 2 CVEs. Fixed in 2.6.1-tuxcare.1.",
+  "upstream": [
+    "CVE-2021-43138",
+    "CVE-2022-0235"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "node-fetch",
+        "purl": "pkg:npm/node-fetch@2.6.1-tuxcare.1"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.6.1-tuxcare.1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1781484857",
+  "modified": "2026-08-04T14:52:37Z",
+  "published": "2026-08-04T14:52:37Z",
+  "summary": "TuxCare security update for express (1 CVE)",
+  "details": "TuxCare rebuilt express to address 1 CVE. Fixed in 4.19.2-tuxcare.1.",
+  "upstream": [
+    "CVE-2024-43796"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "express",
+        "purl": "pkg:npm/express@4.19.2-tuxcare.1"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.19.2-tuxcare.1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

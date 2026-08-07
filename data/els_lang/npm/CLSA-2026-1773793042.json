@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1773793042",
+  "modified": "2026-08-04T14:52:13Z",
+  "published": "2026-08-04T14:52:13Z",
+  "summary": "TuxCare security update for cross-spawn (1 CVE)",
+  "details": "TuxCare rebuilt cross-spawn to address 1 CVE. Fixed in 0.2.9-tuxcare.1.",
+  "upstream": [
+    "CVE-2024-21538"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "cross-spawn",
+        "purl": "pkg:npm/cross-spawn@0.2.9-tuxcare.1"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.2.9-tuxcare.1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1776818209",
+  "modified": "2026-08-04T14:52:27Z",
+  "published": "2026-08-04T14:52:27Z",
+  "summary": "TuxCare security update for redis (2 CVEs)",
+  "details": "TuxCare rebuilt redis to address 2 CVEs. Fixed in 2.8.0-tuxcare.1.",
+  "upstream": [
+    "CVE-2021-29469",
+    "CVE-2026-29074"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "redis",
+        "purl": "pkg:npm/redis@2.8.0-tuxcare.1"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.8.0-tuxcare.1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

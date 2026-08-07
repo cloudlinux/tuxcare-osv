@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1784509824",
+  "modified": "2026-08-04T14:52:45Z",
+  "published": "2026-08-04T14:52:45Z",
+  "summary": "TuxCare security update for http-proxy-middleware (1 CVE)",
+  "details": "TuxCare rebuilt http-proxy-middleware to address 1 CVE. Fixed in 2.0.7-tuxcare.3.",
+  "upstream": [
+    "CVE-2026-55602"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "http-proxy-middleware",
+        "purl": "pkg:npm/http-proxy-middleware@2.0.7-tuxcare.3"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.0.7-tuxcare.3"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

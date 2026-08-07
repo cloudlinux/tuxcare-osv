@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1779238048",
+  "modified": "2026-08-04T14:52:32Z",
+  "published": "2026-08-04T14:52:32Z",
+  "summary": "TuxCare security update for path-to-regexp (1 CVE)",
+  "details": "TuxCare rebuilt path-to-regexp to address 1 CVE. Fixed in 0.1.12-tuxcare.1.",
+  "upstream": [
+    "CVE-2026-4867"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "path-to-regexp",
+        "purl": "pkg:npm/path-to-regexp@0.1.12-tuxcare.1"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.1.12-tuxcare.1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

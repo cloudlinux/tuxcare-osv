@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1773620213",
+  "modified": "2026-08-04T14:52:12Z",
+  "published": "2026-08-04T14:52:12Z",
+  "summary": "TuxCare security update for jspdf (3 CVEs)",
+  "details": "TuxCare rebuilt jspdf to address 3 CVEs. Fixed in 2.5.2-tuxcare.7.",
+  "upstream": [
+    "CVE-2026-25535",
+    "CVE-2026-25755",
+    "CVE-2026-25940"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "jspdf",
+        "purl": "pkg:npm/jspdf@2.5.2-tuxcare.7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.5.2-tuxcare.7"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

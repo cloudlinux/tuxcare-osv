@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1775262595",
+  "modified": "2026-08-04T14:52:21Z",
+  "published": "2026-08-04T14:52:21Z",
+  "summary": "TuxCare security update for ssr-window (4 CVEs)",
+  "details": "TuxCare rebuilt ssr-window to address 4 CVEs. Fixed in 4.0.2-tuxcare.1.",
+  "upstream": [
+    "AIKIDO-2025-100931",
+    "CVE-2026-24001",
+    "CVE-2026-33671",
+    "CVE-2026-33672"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "ssr-window",
+        "purl": "pkg:npm/ssr-window@4.0.2-tuxcare.1"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.0.2-tuxcare.1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

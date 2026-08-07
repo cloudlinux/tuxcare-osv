@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1783904630",
+  "modified": "2026-08-04T14:52:43Z",
+  "published": "2026-08-04T14:52:43Z",
+  "summary": "TuxCare security update for tinymce (3 CVEs)",
+  "details": "TuxCare rebuilt tinymce to address 3 CVEs. Fixed in 4.9.11-tuxcare.2.",
+  "upstream": [
+    "CVE-2026-47759",
+    "CVE-2026-47761",
+    "CVE-2026-47762"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "tinymce",
+        "purl": "pkg:npm/tinymce@4.9.11-tuxcare.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.9.11-tuxcare.2"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

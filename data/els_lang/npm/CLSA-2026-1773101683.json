@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1773101683",
+  "modified": "2026-08-04T14:52:11Z",
+  "published": "2026-08-04T14:52:11Z",
+  "summary": "TuxCare security update for form-data (3 CVEs)",
+  "details": "TuxCare rebuilt form-data to address 3 CVEs. Fixed in 0.2.0-tuxcare.1.",
+  "upstream": [
+    "CVE-2017-16119",
+    "CVE-2022-38900",
+    "CVE-2025-7783"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "form-data",
+        "purl": "pkg:npm/form-data@0.2.0-tuxcare.1"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.2.0-tuxcare.1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

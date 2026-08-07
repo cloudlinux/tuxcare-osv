@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1785914728",
+  "modified": "2026-08-05T07:25:28Z",
+  "published": "2026-08-05T07:25:28Z",
+  "summary": "TuxCare security update for certifi (3 CVEs)",
+  "details": "TuxCare rebuilt certifi to address 3 CVEs. Fixed in 2022.12.7.post3+tuxcare.",
+  "upstream": [
+    "CVE-2023-37920",
+    "CVE-2023-37920 CVE-2024-39689",
+    "CVE-2024-39689"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:PyPI",
+        "name": "certifi",
+        "purl": "pkg:pypi/certifi@2022.12.7.post3+tuxcare"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2022.12.7.post3+tuxcare"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

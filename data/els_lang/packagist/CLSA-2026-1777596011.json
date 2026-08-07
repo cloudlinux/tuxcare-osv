@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1777596011",
+  "modified": "2026-08-04T14:52:29Z",
+  "published": "2026-08-04T14:52:29Z",
+  "summary": "TuxCare security update for laravel/framework (1 CVE)",
+  "details": "TuxCare rebuilt laravel/framework to address 1 CVE. Fixed in 5.4.36-p4+tuxcare.",
+  "upstream": [
+    "GHSA-qm5c-m76r-2hfr"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Packagist",
+        "name": "laravel/framework",
+        "purl": "pkg:composer/laravel/framework@5.4.36-p4+tuxcare"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.4.36-p4+tuxcare"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

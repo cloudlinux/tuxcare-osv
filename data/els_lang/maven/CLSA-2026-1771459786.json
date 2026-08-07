@@ -1,0 +1,76 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1771459786",
+  "modified": "2026-08-04T14:52:07Z",
+  "published": "2026-08-04T14:52:07Z",
+  "summary": "TuxCare security update for org.apache.axis (4 CVEs)",
+  "details": "TuxCare rebuilt 3 org.apache.axis packages to address 4 CVEs. Fixed in 1.4-tuxcare.1.",
+  "upstream": [
+    "CVE-2018-8032",
+    "CVE-2019-0227",
+    "CVE-2020-11988",
+    "CVE-2023-40743"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.apache.axis:axis",
+        "purl": "pkg:maven/org.apache.axis/axis@1.4-tuxcare.1"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.4-tuxcare.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.apache.axis:axis-jaxrpc",
+        "purl": "pkg:maven/org.apache.axis/axis-jaxrpc@1.4-tuxcare.1"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.4-tuxcare.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.apache.axis:axis-saaj",
+        "purl": "pkg:maven/org.apache.axis/axis-saaj@1.4-tuxcare.1"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.4-tuxcare.1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

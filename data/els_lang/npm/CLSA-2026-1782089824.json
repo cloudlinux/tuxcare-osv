@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1782089824",
+  "modified": "2026-08-04T14:52:38Z",
+  "published": "2026-08-04T14:52:38Z",
+  "summary": "TuxCare security update for async (1 CVE)",
+  "details": "TuxCare rebuilt async to address 1 CVE. Fixed in 2.6.3-tuxcare.1.",
+  "upstream": [
+    "CVE-2021-43138"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "async",
+        "purl": "pkg:npm/async@2.6.3-tuxcare.1"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.6.3-tuxcare.1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

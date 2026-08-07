@@ -1,0 +1,53 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1784769537",
+  "modified": "2026-08-04T14:52:47Z",
+  "published": "2026-08-04T14:52:47Z",
+  "summary": "TuxCare security update for xalan (1 CVE)",
+  "details": "TuxCare rebuilt 2 xalan packages to address 1 CVE. Fixed in 2.7.2-tuxcare.1.",
+  "upstream": [
+    "CVE-2022-34169"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "xalan:serializer",
+        "purl": "pkg:maven/xalan/serializer@2.7.2-tuxcare.1"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.7.2-tuxcare.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "xalan:xalan",
+        "purl": "pkg:maven/xalan/xalan@2.7.2-tuxcare.1"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.7.2-tuxcare.1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

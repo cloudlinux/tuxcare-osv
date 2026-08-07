@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1771375983",
+  "modified": "2026-08-04T14:52:36Z",
+  "published": "2026-08-04T14:52:36Z",
+  "summary": "TuxCare security update for phpmailer/phpmailer (3 CVEs)",
+  "details": "TuxCare rebuilt phpmailer/phpmailer to address 3 CVEs. Fixed in 5.2.28-p1+tuxcare.",
+  "upstream": [
+    "CVE-2020-13625",
+    "CVE-2021-34551",
+    "CVE-2021-3603"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Packagist",
+        "name": "phpmailer/phpmailer",
+        "purl": "pkg:composer/phpmailer/phpmailer@5.2.28-p1+tuxcare"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.2.28-p1+tuxcare"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

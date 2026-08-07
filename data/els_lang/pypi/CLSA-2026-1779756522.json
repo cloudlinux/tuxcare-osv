@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1779756522",
+  "modified": "2026-08-04T14:52:33Z",
+  "published": "2026-08-04T14:52:33Z",
+  "summary": "TuxCare security update for dulwich (1 CVE)",
+  "details": "TuxCare rebuilt dulwich to address 1 CVE. Fixed in 0.25.2.post1+tuxcare.",
+  "upstream": [
+    "AIKIDO-2026-10554"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:PyPI",
+        "name": "dulwich",
+        "purl": "pkg:pypi/dulwich@0.25.2.post1+tuxcare"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.25.2.post1+tuxcare"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

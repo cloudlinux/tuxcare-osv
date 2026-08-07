@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1776818215",
+  "modified": "2026-08-04T14:52:27Z",
+  "published": "2026-08-04T14:52:27Z",
+  "summary": "TuxCare security update for phpunit/phpunit (1 CVE)",
+  "details": "TuxCare rebuilt phpunit/phpunit to address 1 CVE. Fixed in 8.4.3-p1+tuxcare.",
+  "upstream": [
+    "CVE-2026-24765"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Packagist",
+        "name": "phpunit/phpunit",
+        "purl": "pkg:composer/phpunit/phpunit@8.4.3-p1+tuxcare"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8.4.3-p1+tuxcare"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

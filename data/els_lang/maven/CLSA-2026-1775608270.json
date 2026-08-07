@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1775608270",
+  "modified": "2026-08-04T14:52:22Z",
+  "published": "2026-08-04T14:52:22Z",
+  "summary": "TuxCare security update for org.apache.ivy:ivy (3 CVEs)",
+  "details": "TuxCare rebuilt org.apache.ivy:ivy to address 3 CVEs. Fixed in 2.3.0-tuxcare.1.",
+  "upstream": [
+    "CVE-2021-23926",
+    "CVE-2022-37866",
+    "CVE-2022-46751"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.apache.ivy:ivy",
+        "purl": "pkg:maven/org.apache.ivy/ivy@2.3.0-tuxcare.1"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.3.0-tuxcare.1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

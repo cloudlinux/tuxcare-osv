@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2025-1752797525",
+  "modified": "2026-08-04T14:52:09Z",
+  "published": "2026-08-04T14:52:09Z",
+  "summary": "TuxCare security update for httpx (1 CVE)",
+  "details": "TuxCare rebuilt httpx to address 1 CVE. Fixed in 0.22.0.post1+tuxcare.",
+  "upstream": [
+    "CVE-2021-41945"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:PyPI",
+        "name": "httpx",
+        "purl": "pkg:pypi/httpx@0.22.0.post1+tuxcare"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.22.0.post1+tuxcare"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

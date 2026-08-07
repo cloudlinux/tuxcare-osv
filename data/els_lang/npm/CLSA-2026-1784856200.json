@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1784856200",
+  "modified": "2026-08-04T14:52:48Z",
+  "published": "2026-08-04T14:52:48Z",
+  "summary": "TuxCare security update for immutable (1 CVE)",
+  "details": "TuxCare rebuilt immutable to address 1 CVE. Fixed in 4.3.7-tuxcare.3.",
+  "upstream": [
+    "CVE-2026-59880"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "immutable",
+        "purl": "pkg:npm/immutable@4.3.7-tuxcare.3"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.3.7-tuxcare.3"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1772496677",
+  "modified": "2026-08-04T14:52:08Z",
+  "published": "2026-08-04T14:52:08Z",
+  "summary": "TuxCare security update for anyio (1 CVE)",
+  "details": "TuxCare rebuilt anyio to address 1 CVE. Fixed in 3.7.1.post1+tuxcare.",
+  "upstream": [
+    "AIKIDO-2025-10170"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:PyPI",
+        "name": "anyio",
+        "purl": "pkg:pypi/anyio@3.7.1.post1+tuxcare"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.7.1.post1+tuxcare"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1775176070",
+  "modified": "2026-08-04T14:52:20Z",
+  "published": "2026-08-04T14:52:20Z",
+  "summary": "TuxCare security update for 2 packages (2 CVEs)",
+  "details": "TuxCare rebuilt 2 packages to address 2 CVEs. Fixed in 2.5.5-tuxcare.1.",
+  "upstream": [
+    "CVE-2022-25873",
+    "CVE-2025-1461"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "@vuetify/api-generator",
+        "purl": "pkg:npm/%40vuetify/api-generator@2.5.5-tuxcare.1"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.5.5-tuxcare.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "vuetify",
+        "purl": "pkg:npm/vuetify@2.5.5-tuxcare.1"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.5.5-tuxcare.1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

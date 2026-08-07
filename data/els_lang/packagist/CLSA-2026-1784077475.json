@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1784077475",
+  "modified": "2026-08-04T14:52:43Z",
+  "published": "2026-08-04T14:52:43Z",
+  "summary": "TuxCare security update for monolog/monolog (1 CVE)",
+  "details": "TuxCare rebuilt monolog/monolog to address 1 CVE. Fixed in 1.11.0-p1+tuxcare.",
+  "upstream": [
+    "GHSA-f57v-q966-7fh6"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Packagist",
+        "name": "monolog/monolog",
+        "purl": "pkg:composer/monolog/monolog@1.11.0-p1+tuxcare"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.11.0-p1+tuxcare"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

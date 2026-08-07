@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2025-1754957513",
+  "modified": "2026-08-04T14:52:08Z",
+  "published": "2026-08-04T14:52:08Z",
+  "summary": "TuxCare security update for fastapi (1 CVE)",
+  "details": "TuxCare rebuilt fastapi to address 1 CVE. Fixed in 0.63.0.post1+tuxcare.",
+  "upstream": [
+    "CVE-2021-32677"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:PyPI",
+        "name": "fastapi",
+        "purl": "pkg:pypi/fastapi@0.63.0.post1+tuxcare"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.63.0.post1+tuxcare"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

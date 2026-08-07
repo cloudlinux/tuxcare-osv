@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1772496673",
+  "modified": "2026-08-04T14:52:08Z",
+  "published": "2026-08-04T14:52:08Z",
+  "summary": "TuxCare security update for useragent (7 CVEs)",
+  "details": "TuxCare rebuilt useragent to address 7 CVEs. Fixed in 2.3.0-tuxcare.1.",
+  "upstream": [
+    "CVE-2017-16115",
+    "CVE-2020-26311",
+    "CVE-2023-22467",
+    "CVE-2024-45801",
+    "CVE-2024-47875",
+    "CVE-2024-48910",
+    "CVE-2025-26791"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "useragent",
+        "purl": "pkg:npm/useragent@2.3.0-tuxcare.1"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.3.0-tuxcare.1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

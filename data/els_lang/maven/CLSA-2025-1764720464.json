@@ -1,0 +1,34 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2025-1764720464",
+  "modified": "2026-08-04T14:52:06Z",
+  "published": "2026-08-04T14:52:06Z",
+  "summary": "TuxCare security update for org.postgresql:postgresql (2 CVEs)",
+  "details": "TuxCare rebuilt org.postgresql:postgresql to address 2 CVEs. Fixed in 42.2.16-tuxcare.2.",
+  "upstream": [
+    "CVE-2022-31197",
+    "CVE-2022-41946"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.postgresql:postgresql",
+        "purl": "pkg:maven/org.postgresql/postgresql@42.2.16-tuxcare.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "42.2.16-tuxcare.2"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

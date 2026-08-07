@@ -1,0 +1,93 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1784682821",
+  "modified": "2026-08-04T14:52:46Z",
+  "published": "2026-08-04T14:52:46Z",
+  "summary": "TuxCare security update for ch.qos.logback (1 CVE)",
+  "details": "TuxCare rebuilt 4 ch.qos.logback packages to address 1 CVE. Fixed in 1.5.18-tuxcare.2.",
+  "upstream": [
+    "CVE-2026-10532"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "ch.qos.logback:logback-access",
+        "purl": "pkg:maven/ch.qos.logback/logback-access@1.5.18-tuxcare.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.5.18-tuxcare.2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "ch.qos.logback:logback-classic",
+        "purl": "pkg:maven/ch.qos.logback/logback-classic@1.5.18-tuxcare.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.5.18-tuxcare.2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "ch.qos.logback:logback-core",
+        "purl": "pkg:maven/ch.qos.logback/logback-core@1.5.18-tuxcare.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.5.18-tuxcare.2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "ch.qos.logback:logback-parent",
+        "purl": "pkg:maven/ch.qos.logback/logback-parent@1.5.18-tuxcare.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.5.18-tuxcare.2"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

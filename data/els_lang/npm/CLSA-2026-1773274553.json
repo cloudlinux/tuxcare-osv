@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1773274553",
+  "modified": "2026-08-04T14:52:12Z",
+  "published": "2026-08-04T14:52:12Z",
+  "summary": "TuxCare security update for tough-cookie (4 CVEs)",
+  "details": "TuxCare rebuilt tough-cookie to address 4 CVEs. Fixed in 2.4.3-tuxcare.1.",
+  "upstream": [
+    "CVE-2023-26136",
+    "CVE-2024-45801",
+    "CVE-2024-47875",
+    "CVE-2025-26791"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "tough-cookie",
+        "purl": "pkg:npm/tough-cookie@2.4.3-tuxcare.1"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.4.3-tuxcare.1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

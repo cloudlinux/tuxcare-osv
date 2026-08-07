@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1775521830",
+  "modified": "2026-08-04T14:52:22Z",
+  "published": "2026-08-04T14:52:22Z",
+  "summary": "TuxCare security update for mysql:mysql-connector-java (1 CVE)",
+  "details": "TuxCare rebuilt mysql:mysql-connector-java to address 1 CVE. Fixed in 5.1.49-tuxcare.1.",
+  "upstream": [
+    "CVE-2021-2471"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "mysql:mysql-connector-java",
+        "purl": "pkg:maven/mysql/mysql-connector-java@5.1.49-tuxcare.1"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.1.49-tuxcare.1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

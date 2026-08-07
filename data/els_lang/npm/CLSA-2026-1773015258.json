@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1773015258",
+  "modified": "2026-08-04T14:52:11Z",
+  "published": "2026-08-04T14:52:11Z",
+  "summary": "TuxCare security update for hawk (5 CVEs)",
+  "details": "TuxCare rebuilt hawk to address 5 CVEs. Fixed in 3.1.0-tuxcare.1.",
+  "upstream": [
+    "CVE-2016-2515",
+    "CVE-2017-1000048",
+    "CVE-2017-16137",
+    "CVE-2022-29167",
+    "GHSA-5c6j-r48x-rmvq"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "hawk",
+        "purl": "pkg:npm/hawk@3.1.0-tuxcare.1"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.1.0-tuxcare.1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

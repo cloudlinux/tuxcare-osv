@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1774398061",
+  "modified": "2026-08-04T14:52:14Z",
+  "published": "2026-08-04T14:52:14Z",
+  "summary": "TuxCare security update for mime (3 CVEs)",
+  "details": "TuxCare rebuilt mime to address 3 CVEs. Fixed in 1.3.0-tuxcare.1.",
+  "upstream": [
+    "CVE-2017-16138",
+    "CVE-2025-32014",
+    "GHSA-q42p-pg8m-cqh6"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "mime",
+        "purl": "pkg:npm/mime@1.3.0-tuxcare.1"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.3.0-tuxcare.1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1781139211",
+  "modified": "2026-08-04T14:52:36Z",
+  "published": "2026-08-04T14:52:36Z",
+  "summary": "TuxCare security update for elliptic (7 CVEs)",
+  "details": "TuxCare rebuilt elliptic to address 7 CVEs. Fixed in 6.5.4-tuxcare.1.",
+  "upstream": [
+    "CVE-2024-42459",
+    "CVE-2024-42460",
+    "CVE-2024-42461",
+    "CVE-2024-48948",
+    "CVE-2024-48949",
+    "CVE-2025-14505",
+    "GHSA-vjh7-7g9h-fjfh"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "elliptic",
+        "purl": "pkg:npm/elliptic@6.5.4-tuxcare.1"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "6.5.4-tuxcare.1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

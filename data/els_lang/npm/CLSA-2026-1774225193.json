@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1774225193",
+  "modified": "2026-08-04T14:52:14Z",
+  "published": "2026-08-04T14:52:14Z",
+  "summary": "TuxCare security update for yargs-parser (1 CVE)",
+  "details": "TuxCare rebuilt yargs-parser to address 1 CVE. Fixed in 11.1.1-tuxcare.1.",
+  "upstream": [
+    "CVE-2020-7608"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "yargs-parser",
+        "purl": "pkg:npm/yargs-parser@11.1.1-tuxcare.1"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "11.1.1-tuxcare.1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

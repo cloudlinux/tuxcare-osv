@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1773706622",
+  "modified": "2026-08-04T14:52:13Z",
+  "published": "2026-08-04T14:52:13Z",
+  "summary": "TuxCare security update for clean-css (1 CVE)",
+  "details": "TuxCare rebuilt clean-css to address 1 CVE. Fixed in 2.2.23-tuxcare.1.",
+  "upstream": [
+    "GHSA-wxhq-pm8v-cw75"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "clean-css",
+        "purl": "pkg:npm/clean-css@2.2.23-tuxcare.1"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.2.23-tuxcare.1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

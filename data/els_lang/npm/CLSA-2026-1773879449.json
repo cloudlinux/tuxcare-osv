@@ -1,0 +1,34 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1773879449",
+  "modified": "2026-08-04T14:52:13Z",
+  "published": "2026-08-04T14:52:13Z",
+  "summary": "TuxCare security update for mysql (2 CVEs)",
+  "details": "TuxCare rebuilt mysql to address 2 CVEs. Fixed in 2.18.1-tuxcare.1.",
+  "upstream": [
+    "AIKIDO-2026-10225",
+    "CVE-2024-34343"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "mysql",
+        "purl": "pkg:npm/mysql@2.18.1-tuxcare.1"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.18.1-tuxcare.1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

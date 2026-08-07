@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1773274562",
+  "modified": "2026-08-04T14:52:12Z",
+  "published": "2026-08-04T14:52:12Z",
+  "summary": "TuxCare security update for tunnel-agent (5 CVEs)",
+  "details": "TuxCare rebuilt tunnel-agent to address 5 CVEs. Fixed in 0.4.0-tuxcare.1.",
+  "upstream": [
+    "CVE-2015-0925",
+    "CVE-2022-46175",
+    "CVE-2024-47764",
+    "GHSA-xc7v-wxcw-j472",
+    "NSWG-ECO-17"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "tunnel-agent",
+        "purl": "pkg:npm/tunnel-agent@0.4.0-tuxcare.1"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.4.0-tuxcare.1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

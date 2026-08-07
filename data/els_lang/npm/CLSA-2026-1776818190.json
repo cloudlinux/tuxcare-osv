@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1776818190",
+  "modified": "2026-08-04T14:52:27Z",
+  "published": "2026-08-04T14:52:27Z",
+  "summary": "TuxCare security update for tmp (1 CVE)",
+  "details": "TuxCare rebuilt tmp to address 1 CVE. Fixed in 0.0.24-tuxcare.1.",
+  "upstream": [
+    "CVE-2025-54798"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "tmp",
+        "purl": "pkg:npm/tmp@0.0.24-tuxcare.1"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.0.24-tuxcare.1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
