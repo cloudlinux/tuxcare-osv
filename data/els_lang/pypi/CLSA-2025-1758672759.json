@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2025-1758672759",
+  "modified": "2026-08-04T14:52:09Z",
+  "published": "2026-08-04T14:52:09Z",
+  "summary": "TuxCare security update for tqdm (1 CVE)",
+  "details": "TuxCare rebuilt tqdm to address 1 CVE. Fixed in 4.66.1.post1+tuxcare.",
+  "upstream": [
+    "CVE-2024-34062"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:PyPI",
+        "name": "tqdm",
+        "purl": "pkg:pypi/tqdm@4.66.1.post1+tuxcare"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.66.1.post1+tuxcare"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

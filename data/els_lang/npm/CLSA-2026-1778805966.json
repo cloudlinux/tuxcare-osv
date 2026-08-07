@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1778805966",
+  "modified": "2026-08-04T14:52:31Z",
+  "published": "2026-08-04T14:52:31Z",
+  "summary": "TuxCare security update for uuid (1 CVE)",
+  "details": "TuxCare rebuilt uuid to address 1 CVE. Fixed in 11.0.5-tuxcare.1.",
+  "upstream": [
+    "GHSA-w5hq-g745-h8pq"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "uuid",
+        "purl": "pkg:npm/uuid@11.0.5-tuxcare.1"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "11.0.5-tuxcare.1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

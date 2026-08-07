@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1774830262",
+  "modified": "2026-08-04T14:52:16Z",
+  "published": "2026-08-04T14:52:16Z",
+  "summary": "TuxCare security update for loader-utils (4 CVEs)",
+  "details": "TuxCare rebuilt loader-utils to address 4 CVEs. Fixed in 1.2.3-tuxcare.1.",
+  "upstream": [
+    "CVE-2022-37599",
+    "CVE-2022-37601",
+    "CVE-2022-37603",
+    "CVE-2023-26115"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "loader-utils",
+        "purl": "pkg:npm/loader-utils@1.2.3-tuxcare.1"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.2.3-tuxcare.1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

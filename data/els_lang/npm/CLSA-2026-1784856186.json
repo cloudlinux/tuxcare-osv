@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1784856186",
+  "modified": "2026-08-04T14:52:48Z",
+  "published": "2026-08-04T14:52:48Z",
+  "summary": "TuxCare security update for webpack-bundle-analyzer (1 CVE)",
+  "details": "TuxCare rebuilt webpack-bundle-analyzer to address 1 CVE. Fixed in 2.13.1-tuxcare.1.",
+  "upstream": [
+    "GHSA-pgr8-jg6h-8gw6"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "webpack-bundle-analyzer",
+        "purl": "pkg:npm/webpack-bundle-analyzer@2.13.1-tuxcare.1"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.13.1-tuxcare.1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

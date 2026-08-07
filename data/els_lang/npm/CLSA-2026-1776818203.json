@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1776818203",
+  "modified": "2026-08-04T14:52:27Z",
+  "published": "2026-08-04T14:52:27Z",
+  "summary": "TuxCare security update for loopback (1 CVE)",
+  "details": "TuxCare rebuilt loopback to address 1 CVE. Fixed in 1.10.0-tuxcare.2.",
+  "upstream": [
+    "GHSA-724c-6vrf-99rq"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "loopback",
+        "purl": "pkg:npm/loopback@1.10.0-tuxcare.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.10.0-tuxcare.2"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

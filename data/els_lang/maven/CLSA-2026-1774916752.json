@@ -1,0 +1,53 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1774916752",
+  "modified": "2026-08-04T14:52:17Z",
+  "published": "2026-08-04T14:52:17Z",
+  "summary": "TuxCare security update for org.apache.thrift (1 CVE)",
+  "details": "TuxCare rebuilt 2 org.apache.thrift packages to address 1 CVE. Fixed in 0.9.3-tuxcare.4.",
+  "upstream": [
+    "CVE-2019-3565"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.apache.thrift:libfb303",
+        "purl": "pkg:maven/org.apache.thrift/libfb303@0.9.3-tuxcare.4"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.9.3-tuxcare.4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.apache.thrift:libthrift",
+        "purl": "pkg:maven/org.apache.thrift/libthrift@0.9.3-tuxcare.4"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.9.3-tuxcare.4"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

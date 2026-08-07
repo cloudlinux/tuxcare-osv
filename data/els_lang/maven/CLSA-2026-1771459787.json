@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1771459787",
+  "modified": "2026-08-04T14:52:07Z",
+  "published": "2026-08-04T14:52:07Z",
+  "summary": "TuxCare security update for org.mozilla:rhino (1 CVE)",
+  "details": "TuxCare rebuilt org.mozilla:rhino to address 1 CVE. Fixed in 1.7.10-tuxcare.1.",
+  "upstream": [
+    "CVE-2025-66453"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.mozilla:rhino",
+        "purl": "pkg:maven/org.mozilla/rhino@1.7.10-tuxcare.1"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.7.10-tuxcare.1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

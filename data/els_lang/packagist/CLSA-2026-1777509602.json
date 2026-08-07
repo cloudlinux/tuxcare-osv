@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1777509602",
+  "modified": "2026-08-04T14:52:29Z",
+  "published": "2026-08-04T14:52:29Z",
+  "summary": "TuxCare security update for doctrine/orm (1 CVE)",
+  "details": "TuxCare rebuilt doctrine/orm to address 1 CVE. Fixed in 2.8.3-p1+tuxcare.",
+  "upstream": [
+    "GHSA-vjrg-wpm8-rhrw"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Packagist",
+        "name": "doctrine/orm",
+        "purl": "pkg:composer/doctrine/orm@2.8.3-p1+tuxcare"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.8.3-p1+tuxcare"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

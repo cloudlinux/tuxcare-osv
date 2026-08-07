@@ -1,0 +1,73 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1771978226",
+  "modified": "2026-08-04T14:52:07Z",
+  "published": "2026-08-04T14:52:07Z",
+  "summary": "TuxCare security update for org.jboss.xnio (1 CVE)",
+  "details": "TuxCare rebuilt 3 org.jboss.xnio packages to address 1 CVE. Fixed in 3.8.0.Final-tuxcare.1.",
+  "upstream": [
+    "CVE-2023-5685"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.jboss.xnio:xnio-all",
+        "purl": "pkg:maven/org.jboss.xnio/xnio-all@3.8.0.Final-tuxcare.1"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.8.0.Final-tuxcare.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.jboss.xnio:xnio-api",
+        "purl": "pkg:maven/org.jboss.xnio/xnio-api@3.8.0.Final-tuxcare.1"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.8.0.Final-tuxcare.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.jboss.xnio:xnio-nio",
+        "purl": "pkg:maven/org.jboss.xnio/xnio-nio@3.8.0.Final-tuxcare.1"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.8.0.Final-tuxcare.1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

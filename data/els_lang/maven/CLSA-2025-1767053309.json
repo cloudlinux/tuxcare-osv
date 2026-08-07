@@ -1,0 +1,95 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2025-1767053309",
+  "modified": "2026-08-04T14:52:06Z",
+  "published": "2026-08-04T14:52:06Z",
+  "summary": "TuxCare security update for ch.qos.logback (3 CVEs)",
+  "details": "TuxCare rebuilt 4 ch.qos.logback packages to address 3 CVEs. Fixed in 1.4.14-tuxcare.1.",
+  "upstream": [
+    "CVE-2024-12798",
+    "CVE-2024-12801",
+    "CVE-2025-11226"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "ch.qos.logback:logback-access",
+        "purl": "pkg:maven/ch.qos.logback/logback-access@1.4.14-tuxcare.1"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.4.14-tuxcare.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "ch.qos.logback:logback-classic",
+        "purl": "pkg:maven/ch.qos.logback/logback-classic@1.4.14-tuxcare.1"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.4.14-tuxcare.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "ch.qos.logback:logback-core",
+        "purl": "pkg:maven/ch.qos.logback/logback-core@1.4.14-tuxcare.1"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.4.14-tuxcare.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "ch.qos.logback:logback-parent",
+        "purl": "pkg:maven/ch.qos.logback/logback-parent@1.4.14-tuxcare.1"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.4.14-tuxcare.1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1772583200",
+  "modified": "2026-08-04T14:52:10Z",
+  "published": "2026-08-04T14:52:10Z",
+  "summary": "TuxCare security update for stringstream (4 CVEs)",
+  "details": "TuxCare rebuilt stringstream to address 4 CVEs. Fixed in 0.0.5-tuxcare.1.",
+  "upstream": [
+    "CVE-2016-10540",
+    "CVE-2018-21270",
+    "CVE-2022-3517",
+    "CVE-2024-47764"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "stringstream",
+        "purl": "pkg:npm/stringstream@0.0.5-tuxcare.1"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.0.5-tuxcare.1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

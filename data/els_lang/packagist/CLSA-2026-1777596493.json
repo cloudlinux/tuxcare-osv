@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1777596493",
+  "modified": "2026-08-04T14:52:33Z",
+  "published": "2026-08-04T14:52:33Z",
+  "summary": "TuxCare security update for league/flysystem (1 CVE)",
+  "details": "TuxCare rebuilt league/flysystem to address 1 CVE. Fixed in 1.1.10-p1+tuxcare.",
+  "upstream": [
+    "CVE-2021-32708"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Packagist",
+        "name": "league/flysystem",
+        "purl": "pkg:composer/league/flysystem@1.1.10-p1+tuxcare"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.1.10-p1+tuxcare"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

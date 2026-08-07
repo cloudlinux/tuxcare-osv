@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2025-1754870602",
+  "modified": "2026-08-04T14:52:04Z",
+  "published": "2026-08-04T14:52:04Z",
+  "summary": "TuxCare security update for org.postgresql:postgresql (1 CVE)",
+  "details": "TuxCare rebuilt org.postgresql:postgresql to address 1 CVE. Fixed in 42.5.0-tuxcare.1.",
+  "upstream": [
+    "CVE-2024-1597"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.postgresql:postgresql",
+        "purl": "pkg:maven/org.postgresql/postgresql@42.5.0-tuxcare.1"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "42.5.0-tuxcare.1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

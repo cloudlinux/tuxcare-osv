@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1773101689",
+  "modified": "2026-08-04T14:52:11Z",
+  "published": "2026-08-04T14:52:11Z",
+  "summary": "TuxCare security update for highlight.js (1 CVE)",
+  "details": "TuxCare rebuilt highlight.js to address 1 CVE. Fixed in 9.18.5-tuxcare.1.",
+  "upstream": [
+    "GHSA-7wwv-vh3v-89cq"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "highlight.js",
+        "purl": "pkg:npm/highlight.js@9.18.5-tuxcare.1"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "9.18.5-tuxcare.1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

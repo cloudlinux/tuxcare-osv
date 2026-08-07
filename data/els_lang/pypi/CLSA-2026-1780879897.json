@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1780879897",
+  "modified": "2026-08-04T14:52:35Z",
+  "published": "2026-08-04T14:52:35Z",
+  "summary": "TuxCare security update for requests (1 CVE)",
+  "details": "TuxCare rebuilt requests to address 1 CVE. Fixed in 2.32.3.post2+tuxcare.",
+  "upstream": [
+    "CVE-2026-25645"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:PyPI",
+        "name": "requests",
+        "purl": "pkg:pypi/requests@2.32.3.post2+tuxcare"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.32.3.post2+tuxcare"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

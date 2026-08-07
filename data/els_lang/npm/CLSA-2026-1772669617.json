@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1772669617",
+  "modified": "2026-08-04T14:52:10Z",
+  "published": "2026-08-04T14:52:10Z",
+  "summary": "TuxCare security update for concat-stream (3 CVEs)",
+  "details": "TuxCare rebuilt concat-stream to address 3 CVEs. Fixed in 1.5.0-tuxcare.1.",
+  "upstream": [
+    "CVE-2021-23495",
+    "CVE-2022-0437",
+    "GHSA-g74r-ffvr-5q9f"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "concat-stream",
+        "purl": "pkg:npm/concat-stream@1.5.0-tuxcare.1"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.5.0-tuxcare.1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

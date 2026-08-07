@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1772669616",
+  "modified": "2026-08-04T14:52:10Z",
+  "published": "2026-08-04T14:52:10Z",
+  "summary": "TuxCare security update for printf (1 CVE)",
+  "details": "TuxCare rebuilt printf to address 1 CVE. Fixed in 0.2.5-tuxcare.1.",
+  "upstream": [
+    "CVE-2021-23354"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "printf",
+        "purl": "pkg:npm/printf@0.2.5-tuxcare.1"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.2.5-tuxcare.1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

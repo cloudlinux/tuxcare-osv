@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1774570933",
+  "modified": "2026-08-04T14:52:15Z",
+  "published": "2026-08-04T14:52:15Z",
+  "summary": "TuxCare security update for http-signature (1 CVE)",
+  "details": "TuxCare rebuilt http-signature to address 1 CVE. Fixed in 0.9.11-tuxcare.1.",
+  "upstream": [
+    "CVE-2017-16005"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "http-signature",
+        "purl": "pkg:npm/http-signature@0.9.11-tuxcare.1"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.9.11-tuxcare.1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

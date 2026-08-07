@@ -1,0 +1,34 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1782089809",
+  "modified": "2026-08-04T14:52:38Z",
+  "published": "2026-08-04T14:52:38Z",
+  "summary": "TuxCare security update for uuid (2 CVEs)",
+  "details": "TuxCare rebuilt uuid to address 2 CVEs. Fixed in 3.4.0-tuxcare.2.",
+  "upstream": [
+    "AIKIDO-2026-10892",
+    "CVE-2026-41907"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "uuid",
+        "purl": "pkg:npm/uuid@3.4.0-tuxcare.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.4.0-tuxcare.2"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

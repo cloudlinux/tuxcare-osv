@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1770336545",
+  "modified": "2026-08-04T14:52:07Z",
+  "published": "2026-08-04T14:52:07Z",
+  "summary": "TuxCare security update for sitemap (1 CVE)",
+  "details": "TuxCare rebuilt sitemap to address 1 CVE. Fixed in 7.1.1-tuxcare.1.",
+  "upstream": [
+    "AIKIDO-2025-10769"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "sitemap",
+        "purl": "pkg:npm/sitemap@7.1.1-tuxcare.1"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7.1.1-tuxcare.1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

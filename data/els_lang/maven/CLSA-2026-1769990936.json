@@ -1,0 +1,53 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1769990936",
+  "modified": "2026-08-04T14:52:07Z",
+  "published": "2026-08-04T14:52:07Z",
+  "summary": "TuxCare security update for com.google.code.gson (1 CVE)",
+  "details": "TuxCare rebuilt 2 com.google.code.gson packages to address 1 CVE. Fixed in 2.8.9-tuxcare.1.",
+  "upstream": [
+    "CVE-2025-53864"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "com.google.code.gson:gson",
+        "purl": "pkg:maven/com.google.code.gson/gson@2.8.9-tuxcare.1"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.8.9-tuxcare.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "com.google.code.gson:gson-parent",
+        "purl": "pkg:maven/com.google.code.gson/gson-parent@2.8.9-tuxcare.1"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.8.9-tuxcare.1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

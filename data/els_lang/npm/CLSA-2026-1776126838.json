@@ -1,0 +1,38 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1776126838",
+  "modified": "2026-08-04T14:52:25Z",
+  "published": "2026-08-04T14:52:25Z",
+  "summary": "TuxCare security update for svelte (6 CVEs)",
+  "details": "TuxCare rebuilt svelte to address 6 CVEs. Fixed in 2.16.1-tuxcare.1.",
+  "upstream": [
+    "CVE-2022-25875",
+    "CVE-2024-45047",
+    "CVE-2026-27121",
+    "CVE-2026-27122",
+    "CVE-2026-27125",
+    "CVE-2026-27901"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "svelte",
+        "purl": "pkg:npm/svelte@2.16.1-tuxcare.1"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.16.1-tuxcare.1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

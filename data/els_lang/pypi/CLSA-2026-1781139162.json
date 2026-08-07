@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1781139162",
+  "modified": "2026-08-04T14:52:36Z",
+  "published": "2026-08-04T14:52:36Z",
+  "summary": "TuxCare security update for fastmcp (1 CVE)",
+  "details": "TuxCare rebuilt fastmcp to address 1 CVE. Fixed in 2.14.7.post2+tuxcare.",
+  "upstream": [
+    "CVE-2025-64340"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:PyPI",
+        "name": "fastmcp",
+        "purl": "pkg:pypi/fastmcp@2.14.7.post2+tuxcare"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.14.7.post2+tuxcare"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

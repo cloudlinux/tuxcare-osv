@@ -1,0 +1,34 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1784077481",
+  "modified": "2026-08-04T14:52:43Z",
+  "published": "2026-08-04T14:52:43Z",
+  "summary": "TuxCare security update for craftcms/cms (2 CVEs)",
+  "details": "TuxCare rebuilt craftcms/cms to address 2 CVEs. Fixed in 3.9.15-p6+tuxcare.",
+  "upstream": [
+    "CVE-2026-55790",
+    "GHSA-x76w-8c62-48mg"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Packagist",
+        "name": "craftcms/cms",
+        "purl": "pkg:composer/craftcms/cms@3.9.15-p6+tuxcare"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.9.15-p6+tuxcare"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

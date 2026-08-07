@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1776299664",
+  "modified": "2026-08-04T14:52:26Z",
+  "published": "2026-08-04T14:52:26Z",
+  "summary": "TuxCare security update for npm-registry-fetch (1 CVE)",
+  "details": "TuxCare rebuilt npm-registry-fetch to address 1 CVE. Fixed in 3.9.1-tuxcare.1.",
+  "upstream": [
+    "GHSA-jmqm-f2gx-4fjv"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "npm-registry-fetch",
+        "purl": "pkg:npm/npm-registry-fetch@3.9.1-tuxcare.1"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.9.1-tuxcare.1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

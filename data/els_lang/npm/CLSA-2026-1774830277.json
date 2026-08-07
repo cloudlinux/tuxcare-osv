@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1774830277",
+  "modified": "2026-08-04T14:52:16Z",
+  "published": "2026-08-04T14:52:16Z",
+  "summary": "TuxCare security update for object-path (3 CVEs)",
+  "details": "TuxCare rebuilt object-path to address 3 CVEs. Fixed in 0.11.4-tuxcare.1.",
+  "upstream": [
+    "CVE-2020-15256",
+    "CVE-2021-23434",
+    "CVE-2021-3805"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "object-path",
+        "purl": "pkg:npm/object-path@0.11.4-tuxcare.1"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.11.4-tuxcare.1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

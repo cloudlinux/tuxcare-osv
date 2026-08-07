@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1775089631",
+  "modified": "2026-08-04T14:52:19Z",
+  "published": "2026-08-04T14:52:19Z",
+  "summary": "TuxCare security update for xerces:xercesImpl (1 CVE)",
+  "details": "TuxCare rebuilt xerces:xercesImpl to address 1 CVE. Fixed in 2.12.0-tuxcare.2.",
+  "upstream": [
+    "CVE-2020-14338"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "xerces:xercesImpl",
+        "purl": "pkg:maven/xerces/xercesImpl@2.12.0-tuxcare.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.12.0-tuxcare.2"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1772239984",
+  "modified": "2026-08-04T14:52:36Z",
+  "published": "2026-08-04T14:52:36Z",
+  "summary": "TuxCare security update for illuminate/database (2 CVEs)",
+  "details": "TuxCare rebuilt illuminate/database to address 2 CVEs. Fixed in 5.4.36-p1+tuxcare.",
+  "upstream": [
+    "CVE-2021-43808",
+    "GHSA-4mg9-vhxq-vm7j"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Packagist",
+        "name": "illuminate/database",
+        "purl": "pkg:composer/illuminate/database@5.4.36-p1+tuxcare"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.4.36-p1+tuxcare"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

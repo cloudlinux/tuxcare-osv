@@ -1,0 +1,34 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1779670109",
+  "modified": "2026-08-04T14:52:33Z",
+  "published": "2026-08-04T14:52:33Z",
+  "summary": "TuxCare security update for langgraph-checkpoint (2 CVEs)",
+  "details": "TuxCare rebuilt langgraph-checkpoint to address 2 CVEs. Fixed in 2.1.2.post1+tuxcare.",
+  "upstream": [
+    "CVE-2024-49768",
+    "CVE-2025-64439"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:PyPI",
+        "name": "langgraph-checkpoint",
+        "purl": "pkg:pypi/langgraph-checkpoint@2.1.2.post1+tuxcare"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.1.2.post1+tuxcare"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2025-1751328213",
+  "modified": "2026-08-04T14:52:04Z",
+  "published": "2026-08-04T14:52:04Z",
+  "summary": "TuxCare security update for commons-httpclient:commons-httpclient (1 CVE)",
+  "details": "TuxCare rebuilt commons-httpclient:commons-httpclient to address 1 CVE. Fixed in 3.1.tuxcare.1.",
+  "upstream": [
+    "CVE-2012-5783"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "commons-httpclient:commons-httpclient",
+        "purl": "pkg:maven/commons-httpclient/commons-httpclient@3.1.tuxcare.1"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.1.tuxcare.1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

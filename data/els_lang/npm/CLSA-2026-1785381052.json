@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1785381052",
+  "modified": "2026-08-04T14:52:51Z",
+  "published": "2026-08-04T14:52:51Z",
+  "summary": "TuxCare security update for angular (4 CVEs)",
+  "details": "TuxCare rebuilt angular to address 4 CVEs. Fixed in 1.5.10-tuxcare.3.",
+  "upstream": [
+    "CVE-2022-25844",
+    "CVE-2025-2336",
+    "CVE-2025-4690",
+    "CVE-2026-11998"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "angular",
+        "purl": "pkg:npm/angular@1.5.10-tuxcare.3"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.5.10-tuxcare.3"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

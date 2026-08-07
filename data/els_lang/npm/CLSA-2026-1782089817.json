@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1782089817",
+  "modified": "2026-08-04T14:52:38Z",
+  "published": "2026-08-04T14:52:38Z",
+  "summary": "TuxCare security update for ansi-regex (5 CVEs)",
+  "details": "TuxCare rebuilt ansi-regex to address 5 CVEs. Fixed in 3.0.0-tuxcare.1.",
+  "upstream": [
+    "CVE-2021-23495",
+    "CVE-2021-33623",
+    "CVE-2021-3807",
+    "CVE-2022-0437",
+    "CVE-2025-25975"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "ansi-regex",
+        "purl": "pkg:npm/ansi-regex@3.0.0-tuxcare.1"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.0.0-tuxcare.1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2025-1752710588",
+  "modified": "2026-08-04T14:52:04Z",
+  "published": "2026-08-04T14:52:04Z",
+  "summary": "TuxCare security update for ch.qos.logback (2 CVEs)",
+  "details": "TuxCare rebuilt 2 ch.qos.logback packages to address 2 CVEs. Fixed in 1.2.13.tuxcare.",
+  "upstream": [
+    "CVE-2024-12798",
+    "CVE-2024-12801"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "ch.qos.logback:logback-classic",
+        "purl": "pkg:maven/ch.qos.logback/logback-classic@1.2.13.tuxcare"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.2.13.tuxcare"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "ch.qos.logback:logback-core",
+        "purl": "pkg:maven/ch.qos.logback/logback-core@1.2.13.tuxcare"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.2.13.tuxcare"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1776904632",
+  "modified": "2026-08-04T14:52:27Z",
+  "published": "2026-08-04T14:52:27Z",
+  "summary": "TuxCare security update for uglify-js (2 CVEs)",
+  "details": "TuxCare rebuilt uglify-js to address 2 CVEs. Fixed in 3.4.10-tuxcare.1.",
+  "upstream": [
+    "CVE-2015-8857",
+    "CVE-2015-8858"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "uglify-js",
+        "purl": "pkg:npm/uglify-js@3.4.10-tuxcare.1"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.4.10-tuxcare.1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

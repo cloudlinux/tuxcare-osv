@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2024-1733443230",
+  "modified": "2026-08-04T14:52:03Z",
+  "published": "2026-08-04T14:52:03Z",
+  "summary": "TuxCare security update for com.nimbusds:nimbus-jose-jwt (1 CVE)",
+  "details": "TuxCare rebuilt com.nimbusds:nimbus-jose-jwt to address 1 CVE. Fixed in 9.24.4.tuxcare.",
+  "upstream": [
+    "CVE-2023-52428"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "com.nimbusds:nimbus-jose-jwt",
+        "purl": "pkg:maven/com.nimbusds/nimbus-jose-jwt@9.24.4.tuxcare"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "9.24.4.tuxcare"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

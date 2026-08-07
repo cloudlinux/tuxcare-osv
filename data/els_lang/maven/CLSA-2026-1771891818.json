@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1771891818",
+  "modified": "2026-08-04T14:52:07Z",
+  "published": "2026-08-04T14:52:07Z",
+  "summary": "TuxCare security update for jdom:jdom (1 CVE)",
+  "details": "TuxCare rebuilt jdom:jdom to address 1 CVE. Fixed in 1.0-tuxcare.1.",
+  "upstream": [
+    "CVE-2021-33813"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "jdom:jdom",
+        "purl": "pkg:maven/jdom/jdom@1.0-tuxcare.1"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.0-tuxcare.1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

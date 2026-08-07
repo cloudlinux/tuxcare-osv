@@ -1,0 +1,34 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1785380885",
+  "modified": "2026-08-04T14:52:51Z",
+  "published": "2026-08-04T14:52:51Z",
+  "summary": "TuxCare security update for storybook (2 CVEs)",
+  "details": "TuxCare rebuilt storybook to address 2 CVEs. Fixed in 10.1.9-tuxcare.1.",
+  "upstream": [
+    "CVE-2025-68429",
+    "CVE-2026-27148"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "storybook",
+        "purl": "pkg:npm/storybook@10.1.9-tuxcare.1"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "10.1.9-tuxcare.1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

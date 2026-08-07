@@ -1,0 +1,34 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1773015266",
+  "modified": "2026-08-04T14:52:11Z",
+  "published": "2026-08-04T14:52:11Z",
+  "summary": "TuxCare security update for engine.io (2 CVEs)",
+  "details": "TuxCare rebuilt engine.io to address 2 CVEs. Fixed in 3.2.1-tuxcare.2.",
+  "upstream": [
+    "CVE-2020-36048",
+    "CVE-2022-41940"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "engine.io",
+        "purl": "pkg:npm/engine.io@3.2.1-tuxcare.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.2.1-tuxcare.2"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1781139191",
+  "modified": "2026-08-04T14:52:36Z",
+  "published": "2026-08-04T14:52:36Z",
+  "summary": "TuxCare security update for flask-cors (1 CVE)",
+  "details": "TuxCare rebuilt flask-cors to address 1 CVE. Fixed in 4.0.2.post2+tuxcare.",
+  "upstream": [
+    "CVE-2024-6844"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:PyPI",
+        "name": "flask-cors",
+        "purl": "pkg:pypi/flask-cors@4.0.2.post2+tuxcare"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.0.2.post2+tuxcare"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

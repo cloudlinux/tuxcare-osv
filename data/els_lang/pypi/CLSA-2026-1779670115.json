@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1779670115",
+  "modified": "2026-08-04T14:52:33Z",
+  "published": "2026-08-04T14:52:33Z",
+  "summary": "TuxCare security update for apache-airflow-providers-http (1 CVE)",
+  "details": "TuxCare rebuilt apache-airflow-providers-http to address 1 CVE. Fixed in 4.13.3.post1+tuxcare.",
+  "upstream": [
+    "CVE-2025-69219"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:PyPI",
+        "name": "apache-airflow-providers-http",
+        "purl": "pkg:pypi/apache-airflow-providers-http@4.13.3.post1+tuxcare"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.13.3.post1+tuxcare"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

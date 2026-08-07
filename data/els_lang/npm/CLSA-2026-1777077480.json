@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1777077480",
+  "modified": "2026-08-04T14:52:28Z",
+  "published": "2026-08-04T14:52:28Z",
+  "summary": "TuxCare security update for json5 (1 CVE)",
+  "details": "TuxCare rebuilt json5 to address 1 CVE. Fixed in 1.0.2-tuxcare.5.",
+  "upstream": [
+    "CVE-2022-46175"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "json5",
+        "purl": "pkg:npm/json5@1.0.2-tuxcare.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.0.2-tuxcare.5"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

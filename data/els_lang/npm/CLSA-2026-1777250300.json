@@ -1,0 +1,54 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1777250300",
+  "modified": "2026-08-04T14:52:28Z",
+  "published": "2026-08-04T14:52:28Z",
+  "summary": "TuxCare security update for 2 packages (2 CVEs)",
+  "details": "TuxCare rebuilt 2 packages to address 2 CVEs. Fixed in 2.0.4-tuxcare.4.",
+  "upstream": [
+    "CVE-2021-21353",
+    "CVE-2024-36361"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "pug",
+        "purl": "pkg:npm/pug@2.0.4-tuxcare.4"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.0.4-tuxcare.4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "pug-attrs",
+        "purl": "pkg:npm/pug-attrs@2.0.4-tuxcare.4"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.0.4-tuxcare.4"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

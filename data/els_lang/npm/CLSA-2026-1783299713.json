@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1783299713",
+  "modified": "2026-08-04T14:52:42Z",
+  "published": "2026-08-04T14:52:42Z",
+  "summary": "TuxCare security update for npm (1 CVE)",
+  "details": "TuxCare rebuilt npm to address 1 CVE. Fixed in 6.13.4-tuxcare.1.",
+  "upstream": [
+    "CVE-2020-15095"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "npm",
+        "purl": "pkg:npm/npm@6.13.4-tuxcare.1"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "6.13.4-tuxcare.1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1782867610",
+  "modified": "2026-08-04T14:52:40Z",
+  "published": "2026-08-04T14:52:40Z",
+  "summary": "TuxCare security update for highcharts (2 CVEs)",
+  "details": "TuxCare rebuilt highcharts to address 2 CVEs. Fixed in 6.1.0-tuxcare.1.",
+  "upstream": [
+    "CVE-2021-29489",
+    "GHSA-gr4j-r575-g665"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "highcharts",
+        "purl": "pkg:npm/highcharts@6.1.0-tuxcare.1"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "6.1.0-tuxcare.1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

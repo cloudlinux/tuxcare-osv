@@ -1,0 +1,34 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1784596329",
+  "modified": "2026-08-04T14:52:45Z",
+  "published": "2026-08-04T14:52:45Z",
+  "summary": "TuxCare security update for defu (2 CVEs)",
+  "details": "TuxCare rebuilt defu to address 2 CVEs. Fixed in 5.0.1-tuxcare.1.",
+  "upstream": [
+    "CVE-2026-35209",
+    "GHSA-5c6j-r48x-rmvq"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "defu",
+        "purl": "pkg:npm/defu@5.0.1-tuxcare.1"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.0.1-tuxcare.1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

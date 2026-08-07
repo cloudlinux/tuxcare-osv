@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2025-1764115973",
+  "modified": "2026-08-04T14:52:09Z",
+  "published": "2026-08-04T14:52:09Z",
+  "summary": "TuxCare security update for websockets (1 CVE)",
+  "details": "TuxCare rebuilt websockets to address 1 CVE. Fixed in 8.1.post1+tuxcare.",
+  "upstream": [
+    "CVE-2021-33880"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:PyPI",
+        "name": "websockets",
+        "purl": "pkg:pypi/websockets@8.1.post1+tuxcare"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8.1.post1+tuxcare"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

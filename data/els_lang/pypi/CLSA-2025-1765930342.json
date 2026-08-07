@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2025-1765930342",
+  "modified": "2026-08-04T14:52:09Z",
+  "published": "2026-08-04T14:52:09Z",
+  "summary": "TuxCare security update for pypdf (1 CVE)",
+  "details": "TuxCare rebuilt pypdf to address 1 CVE. Fixed in 5.9.0.post2+tuxcare.",
+  "upstream": [
+    "CVE-2025-62707"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:PyPI",
+        "name": "pypdf",
+        "purl": "pkg:pypi/pypdf@5.9.0.post2+tuxcare"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.9.0.post2+tuxcare"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

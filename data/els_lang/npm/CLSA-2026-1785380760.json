@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1785380760",
+  "modified": "2026-08-04T14:52:50Z",
+  "published": "2026-08-04T14:52:50Z",
+  "summary": "TuxCare security update for axios (7 CVEs)",
+  "details": "TuxCare rebuilt axios to address 7 CVEs. Fixed in 1.7.9-tuxcare.3.",
+  "upstream": [
+    "CVE-2025-2336",
+    "CVE-2025-4690",
+    "CVE-2026-44486",
+    "CVE-2026-44495",
+    "GHSA-42h9-826w-cgv3",
+    "GHSA-jqh4-m9w3-8hp9",
+    "GHSA-pmv8-rq9r-6j72"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "axios",
+        "purl": "pkg:npm/axios@1.7.9-tuxcare.3"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.7.9-tuxcare.3"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1772496676",
+  "modified": "2026-08-04T14:52:08Z",
+  "published": "2026-08-04T14:52:08Z",
+  "summary": "TuxCare security update for d3-color (8 CVEs)",
+  "details": "TuxCare rebuilt d3-color to address 8 CVEs. Fixed in 1.4.1-tuxcare.1.",
+  "upstream": [
+    "CVE-2020-15262",
+    "CVE-2020-7690",
+    "CVE-2020-7691",
+    "CVE-2021-23353",
+    "CVE-2025-29907",
+    "CVE-2025-57810",
+    "CVE-2025-68428",
+    "GHSA-36jr-mh4h-2g58"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "d3-color",
+        "purl": "pkg:npm/d3-color@1.4.1-tuxcare.1"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.4.1-tuxcare.1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1773188137",
+  "modified": "2026-08-04T14:52:12Z",
+  "published": "2026-08-04T14:52:12Z",
+  "summary": "TuxCare security update for fstream (1 CVE)",
+  "details": "TuxCare rebuilt fstream to address 1 CVE. Fixed in 1.0.8-tuxcare.3.",
+  "upstream": [
+    "CVE-2019-13173"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "fstream",
+        "purl": "pkg:npm/fstream@1.0.8-tuxcare.3"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.0.8-tuxcare.3"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

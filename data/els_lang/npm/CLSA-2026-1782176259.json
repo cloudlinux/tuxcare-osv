@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1782176259",
+  "modified": "2026-08-04T14:52:39Z",
+  "published": "2026-08-04T14:52:39Z",
+  "summary": "TuxCare security update for bn.js (3 CVEs)",
+  "details": "TuxCare rebuilt bn.js to address 3 CVEs. Fixed in 4.11.8-tuxcare.1.",
+  "upstream": [
+    "CVE-2020-15366",
+    "CVE-2025-69873",
+    "CVE-2026-2739"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "bn.js",
+        "purl": "pkg:npm/bn.js@4.11.8-tuxcare.1"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.11.8-tuxcare.1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

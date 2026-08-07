@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2025-1760313984",
+  "modified": "2026-08-04T14:52:05Z",
+  "published": "2026-08-04T14:52:05Z",
+  "summary": "TuxCare security update for org.json:json (1 CVE)",
+  "details": "TuxCare rebuilt org.json:json to address 1 CVE. Fixed in 20090211-tuxcare.1.",
+  "upstream": [
+    "CVE-2022-45688"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.json:json",
+        "purl": "pkg:maven/org.json/json@20090211-tuxcare.1"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "20090211-tuxcare.1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

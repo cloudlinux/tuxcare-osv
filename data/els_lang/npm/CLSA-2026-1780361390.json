@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1780361390",
+  "modified": "2026-08-04T14:52:34Z",
+  "published": "2026-08-04T14:52:34Z",
+  "summary": "TuxCare security update for diff (5 CVEs)",
+  "details": "TuxCare rebuilt diff to address 5 CVEs. Fixed in 5.0.0-tuxcare.1.",
+  "upstream": [
+    "CVE-2018-3738",
+    "CVE-2021-23495",
+    "CVE-2022-0437",
+    "CVE-2024-29180",
+    "CVE-2026-24001"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "diff",
+        "purl": "pkg:npm/diff@5.0.0-tuxcare.1"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.0.0-tuxcare.1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
