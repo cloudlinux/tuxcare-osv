@@ -1,21 +1,19 @@
 {
   "schema_version": "1.8.0",
-  "id": "CLSA-2026-1776213255",
-  "modified": "2026-08-10T13:08:18Z",
-  "published": "2026-08-04T14:52:26Z",
-  "summary": "TuxCare security update for 38 packages (3 CVEs)",
-  "details": "TuxCare rebuilt 38 packages to address 3 CVEs. Fixed in 9.0.90-tuxcare.5.",
+  "id": "CLSA-2026-1786361708",
+  "modified": "2026-08-10T11:35:08Z",
+  "published": "2026-08-10T11:35:08Z",
+  "summary": "TuxCare security update for io.netty (1 CVE)",
+  "details": "TuxCare rebuilt 40 io.netty packages to address 1 CVE. Fixed in 4.1.49.Final-tuxcare.2.",
   "upstream": [
-    "CVE-2026-25854",
-    "CVE-2026-29146",
-    "CVE-2026-34486"
+    "CVE-2026-48043"
   ],
   "affected": [
     {
       "package": {
         "ecosystem": "TuxCare:Maven",
-        "name": "org.apache.tomcat.embed:tomcat-embed-core",
-        "purl": "pkg:maven/org.apache.tomcat.embed/tomcat-embed-core@9.0.90-tuxcare.5"
+        "name": "io.netty:netty-all",
+        "purl": "pkg:maven/io.netty/netty-all@4.1.49.Final-tuxcare.2"
       },
       "ranges": [
         {
@@ -25,7 +23,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "9.0.90-tuxcare.5"
+              "fixed": "4.1.49.Final-tuxcare.2"
             }
           ]
         }
@@ -34,8 +32,8 @@
     {
       "package": {
         "ecosystem": "TuxCare:Maven",
-        "name": "org.apache.tomcat.embed:tomcat-embed-el",
-        "purl": "pkg:maven/org.apache.tomcat.embed/tomcat-embed-el@9.0.90-tuxcare.5"
+        "name": "io.netty:netty-bom",
+        "purl": "pkg:maven/io.netty/netty-bom@4.1.49.Final-tuxcare.2"
       },
       "ranges": [
         {
@@ -45,7 +43,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "9.0.90-tuxcare.5"
+              "fixed": "4.1.49.Final-tuxcare.2"
             }
           ]
         }
@@ -54,8 +52,8 @@
     {
       "package": {
         "ecosystem": "TuxCare:Maven",
-        "name": "org.apache.tomcat.embed:tomcat-embed-jasper",
-        "purl": "pkg:maven/org.apache.tomcat.embed/tomcat-embed-jasper@9.0.90-tuxcare.5"
+        "name": "io.netty:netty-buffer",
+        "purl": "pkg:maven/io.netty/netty-buffer@4.1.49.Final-tuxcare.2"
       },
       "ranges": [
         {
@@ -65,7 +63,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "9.0.90-tuxcare.5"
+              "fixed": "4.1.49.Final-tuxcare.2"
             }
           ]
         }
@@ -74,8 +72,8 @@
     {
       "package": {
         "ecosystem": "TuxCare:Maven",
-        "name": "org.apache.tomcat.embed:tomcat-embed-websocket",
-        "purl": "pkg:maven/org.apache.tomcat.embed/tomcat-embed-websocket@9.0.90-tuxcare.5"
+        "name": "io.netty:netty-codec",
+        "purl": "pkg:maven/io.netty/netty-codec@4.1.49.Final-tuxcare.2"
       },
       "ranges": [
         {
@@ -85,7 +83,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "9.0.90-tuxcare.5"
+              "fixed": "4.1.49.Final-tuxcare.2"
             }
           ]
         }
@@ -94,8 +92,8 @@
     {
       "package": {
         "ecosystem": "TuxCare:Maven",
-        "name": "org.apache.tomcat.experimental:tomcat-embed-programmatic",
-        "purl": "pkg:maven/org.apache.tomcat.experimental/tomcat-embed-programmatic@9.0.90-tuxcare.5"
+        "name": "io.netty:netty-codec-dns",
+        "purl": "pkg:maven/io.netty/netty-codec-dns@4.1.49.Final-tuxcare.2"
       },
       "ranges": [
         {
@@ -105,7 +103,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "9.0.90-tuxcare.5"
+              "fixed": "4.1.49.Final-tuxcare.2"
             }
           ]
         }
@@ -114,8 +112,8 @@
     {
       "package": {
         "ecosystem": "TuxCare:Maven",
-        "name": "org.apache.tomcat:tomcat",
-        "purl": "pkg:maven/org.apache.tomcat/tomcat@9.0.90-tuxcare.5"
+        "name": "io.netty:netty-codec-haproxy",
+        "purl": "pkg:maven/io.netty/netty-codec-haproxy@4.1.49.Final-tuxcare.2"
       },
       "ranges": [
         {
@@ -125,7 +123,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "9.0.90-tuxcare.5"
+              "fixed": "4.1.49.Final-tuxcare.2"
             }
           ]
         }
@@ -134,8 +132,8 @@
     {
       "package": {
         "ecosystem": "TuxCare:Maven",
-        "name": "org.apache.tomcat:tomcat-annotations-api",
-        "purl": "pkg:maven/org.apache.tomcat/tomcat-annotations-api@9.0.90-tuxcare.5"
+        "name": "io.netty:netty-codec-http",
+        "purl": "pkg:maven/io.netty/netty-codec-http@4.1.49.Final-tuxcare.2"
       },
       "ranges": [
         {
@@ -145,7 +143,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "9.0.90-tuxcare.5"
+              "fixed": "4.1.49.Final-tuxcare.2"
             }
           ]
         }
@@ -154,8 +152,8 @@
     {
       "package": {
         "ecosystem": "TuxCare:Maven",
-        "name": "org.apache.tomcat:tomcat-api",
-        "purl": "pkg:maven/org.apache.tomcat/tomcat-api@9.0.90-tuxcare.5"
+        "name": "io.netty:netty-codec-http2",
+        "purl": "pkg:maven/io.netty/netty-codec-http2@4.1.49.Final-tuxcare.2"
       },
       "ranges": [
         {
@@ -165,7 +163,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "9.0.90-tuxcare.5"
+              "fixed": "4.1.49.Final-tuxcare.2"
             }
           ]
         }
@@ -174,8 +172,8 @@
     {
       "package": {
         "ecosystem": "TuxCare:Maven",
-        "name": "org.apache.tomcat:tomcat-catalina",
-        "purl": "pkg:maven/org.apache.tomcat/tomcat-catalina@9.0.90-tuxcare.5"
+        "name": "io.netty:netty-codec-memcache",
+        "purl": "pkg:maven/io.netty/netty-codec-memcache@4.1.49.Final-tuxcare.2"
       },
       "ranges": [
         {
@@ -185,7 +183,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "9.0.90-tuxcare.5"
+              "fixed": "4.1.49.Final-tuxcare.2"
             }
           ]
         }
@@ -194,8 +192,8 @@
     {
       "package": {
         "ecosystem": "TuxCare:Maven",
-        "name": "org.apache.tomcat:tomcat-catalina-ant",
-        "purl": "pkg:maven/org.apache.tomcat/tomcat-catalina-ant@9.0.90-tuxcare.5"
+        "name": "io.netty:netty-codec-mqtt",
+        "purl": "pkg:maven/io.netty/netty-codec-mqtt@4.1.49.Final-tuxcare.2"
       },
       "ranges": [
         {
@@ -205,7 +203,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "9.0.90-tuxcare.5"
+              "fixed": "4.1.49.Final-tuxcare.2"
             }
           ]
         }
@@ -214,8 +212,8 @@
     {
       "package": {
         "ecosystem": "TuxCare:Maven",
-        "name": "org.apache.tomcat:tomcat-catalina-ha",
-        "purl": "pkg:maven/org.apache.tomcat/tomcat-catalina-ha@9.0.90-tuxcare.5"
+        "name": "io.netty:netty-codec-redis",
+        "purl": "pkg:maven/io.netty/netty-codec-redis@4.1.49.Final-tuxcare.2"
       },
       "ranges": [
         {
@@ -225,7 +223,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "9.0.90-tuxcare.5"
+              "fixed": "4.1.49.Final-tuxcare.2"
             }
           ]
         }
@@ -234,8 +232,8 @@
     {
       "package": {
         "ecosystem": "TuxCare:Maven",
-        "name": "org.apache.tomcat:tomcat-coyote",
-        "purl": "pkg:maven/org.apache.tomcat/tomcat-coyote@9.0.90-tuxcare.5"
+        "name": "io.netty:netty-codec-smtp",
+        "purl": "pkg:maven/io.netty/netty-codec-smtp@4.1.49.Final-tuxcare.2"
       },
       "ranges": [
         {
@@ -245,7 +243,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "9.0.90-tuxcare.5"
+              "fixed": "4.1.49.Final-tuxcare.2"
             }
           ]
         }
@@ -254,8 +252,8 @@
     {
       "package": {
         "ecosystem": "TuxCare:Maven",
-        "name": "org.apache.tomcat:tomcat-dbcp",
-        "purl": "pkg:maven/org.apache.tomcat/tomcat-dbcp@9.0.90-tuxcare.5"
+        "name": "io.netty:netty-codec-socks",
+        "purl": "pkg:maven/io.netty/netty-codec-socks@4.1.49.Final-tuxcare.2"
       },
       "ranges": [
         {
@@ -265,7 +263,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "9.0.90-tuxcare.5"
+              "fixed": "4.1.49.Final-tuxcare.2"
             }
           ]
         }
@@ -274,8 +272,8 @@
     {
       "package": {
         "ecosystem": "TuxCare:Maven",
-        "name": "org.apache.tomcat:tomcat-el-api",
-        "purl": "pkg:maven/org.apache.tomcat/tomcat-el-api@9.0.90-tuxcare.5"
+        "name": "io.netty:netty-codec-stomp",
+        "purl": "pkg:maven/io.netty/netty-codec-stomp@4.1.49.Final-tuxcare.2"
       },
       "ranges": [
         {
@@ -285,7 +283,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "9.0.90-tuxcare.5"
+              "fixed": "4.1.49.Final-tuxcare.2"
             }
           ]
         }
@@ -294,8 +292,8 @@
     {
       "package": {
         "ecosystem": "TuxCare:Maven",
-        "name": "org.apache.tomcat:tomcat-i18n-cs",
-        "purl": "pkg:maven/org.apache.tomcat/tomcat-i18n-cs@9.0.90-tuxcare.5"
+        "name": "io.netty:netty-codec-xml",
+        "purl": "pkg:maven/io.netty/netty-codec-xml@4.1.49.Final-tuxcare.2"
       },
       "ranges": [
         {
@@ -305,7 +303,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "9.0.90-tuxcare.5"
+              "fixed": "4.1.49.Final-tuxcare.2"
             }
           ]
         }
@@ -314,8 +312,8 @@
     {
       "package": {
         "ecosystem": "TuxCare:Maven",
-        "name": "org.apache.tomcat:tomcat-i18n-de",
-        "purl": "pkg:maven/org.apache.tomcat/tomcat-i18n-de@9.0.90-tuxcare.5"
+        "name": "io.netty:netty-common",
+        "purl": "pkg:maven/io.netty/netty-common@4.1.49.Final-tuxcare.2"
       },
       "ranges": [
         {
@@ -325,7 +323,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "9.0.90-tuxcare.5"
+              "fixed": "4.1.49.Final-tuxcare.2"
             }
           ]
         }
@@ -334,8 +332,8 @@
     {
       "package": {
         "ecosystem": "TuxCare:Maven",
-        "name": "org.apache.tomcat:tomcat-i18n-es",
-        "purl": "pkg:maven/org.apache.tomcat/tomcat-i18n-es@9.0.90-tuxcare.5"
+        "name": "io.netty:netty-dev-tools",
+        "purl": "pkg:maven/io.netty/netty-dev-tools@4.1.49.Final-tuxcare.2"
       },
       "ranges": [
         {
@@ -345,7 +343,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "9.0.90-tuxcare.5"
+              "fixed": "4.1.49.Final-tuxcare.2"
             }
           ]
         }
@@ -354,8 +352,8 @@
     {
       "package": {
         "ecosystem": "TuxCare:Maven",
-        "name": "org.apache.tomcat:tomcat-i18n-fr",
-        "purl": "pkg:maven/org.apache.tomcat/tomcat-i18n-fr@9.0.90-tuxcare.5"
+        "name": "io.netty:netty-example",
+        "purl": "pkg:maven/io.netty/netty-example@4.1.49.Final-tuxcare.2"
       },
       "ranges": [
         {
@@ -365,7 +363,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "9.0.90-tuxcare.5"
+              "fixed": "4.1.49.Final-tuxcare.2"
             }
           ]
         }
@@ -374,8 +372,8 @@
     {
       "package": {
         "ecosystem": "TuxCare:Maven",
-        "name": "org.apache.tomcat:tomcat-i18n-ja",
-        "purl": "pkg:maven/org.apache.tomcat/tomcat-i18n-ja@9.0.90-tuxcare.5"
+        "name": "io.netty:netty-handler",
+        "purl": "pkg:maven/io.netty/netty-handler@4.1.49.Final-tuxcare.2"
       },
       "ranges": [
         {
@@ -385,7 +383,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "9.0.90-tuxcare.5"
+              "fixed": "4.1.49.Final-tuxcare.2"
             }
           ]
         }
@@ -394,8 +392,8 @@
     {
       "package": {
         "ecosystem": "TuxCare:Maven",
-        "name": "org.apache.tomcat:tomcat-i18n-ko",
-        "purl": "pkg:maven/org.apache.tomcat/tomcat-i18n-ko@9.0.90-tuxcare.5"
+        "name": "io.netty:netty-handler-proxy",
+        "purl": "pkg:maven/io.netty/netty-handler-proxy@4.1.49.Final-tuxcare.2"
       },
       "ranges": [
         {
@@ -405,7 +403,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "9.0.90-tuxcare.5"
+              "fixed": "4.1.49.Final-tuxcare.2"
             }
           ]
         }
@@ -414,8 +412,8 @@
     {
       "package": {
         "ecosystem": "TuxCare:Maven",
-        "name": "org.apache.tomcat:tomcat-i18n-pt-BR",
-        "purl": "pkg:maven/org.apache.tomcat/tomcat-i18n-pt-BR@9.0.90-tuxcare.5"
+        "name": "io.netty:netty-microbench",
+        "purl": "pkg:maven/io.netty/netty-microbench@4.1.49.Final-tuxcare.2"
       },
       "ranges": [
         {
@@ -425,7 +423,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "9.0.90-tuxcare.5"
+              "fixed": "4.1.49.Final-tuxcare.2"
             }
           ]
         }
@@ -434,8 +432,8 @@
     {
       "package": {
         "ecosystem": "TuxCare:Maven",
-        "name": "org.apache.tomcat:tomcat-i18n-ru",
-        "purl": "pkg:maven/org.apache.tomcat/tomcat-i18n-ru@9.0.90-tuxcare.5"
+        "name": "io.netty:netty-parent",
+        "purl": "pkg:maven/io.netty/netty-parent@4.1.49.Final-tuxcare.2"
       },
       "ranges": [
         {
@@ -445,7 +443,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "9.0.90-tuxcare.5"
+              "fixed": "4.1.49.Final-tuxcare.2"
             }
           ]
         }
@@ -454,8 +452,8 @@
     {
       "package": {
         "ecosystem": "TuxCare:Maven",
-        "name": "org.apache.tomcat:tomcat-i18n-zh-CN",
-        "purl": "pkg:maven/org.apache.tomcat/tomcat-i18n-zh-CN@9.0.90-tuxcare.5"
+        "name": "io.netty:netty-resolver",
+        "purl": "pkg:maven/io.netty/netty-resolver@4.1.49.Final-tuxcare.2"
       },
       "ranges": [
         {
@@ -465,7 +463,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "9.0.90-tuxcare.5"
+              "fixed": "4.1.49.Final-tuxcare.2"
             }
           ]
         }
@@ -474,8 +472,8 @@
     {
       "package": {
         "ecosystem": "TuxCare:Maven",
-        "name": "org.apache.tomcat:tomcat-jasper",
-        "purl": "pkg:maven/org.apache.tomcat/tomcat-jasper@9.0.90-tuxcare.5"
+        "name": "io.netty:netty-resolver-dns",
+        "purl": "pkg:maven/io.netty/netty-resolver-dns@4.1.49.Final-tuxcare.2"
       },
       "ranges": [
         {
@@ -485,7 +483,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "9.0.90-tuxcare.5"
+              "fixed": "4.1.49.Final-tuxcare.2"
             }
           ]
         }
@@ -494,8 +492,8 @@
     {
       "package": {
         "ecosystem": "TuxCare:Maven",
-        "name": "org.apache.tomcat:tomcat-jasper-el",
-        "purl": "pkg:maven/org.apache.tomcat/tomcat-jasper-el@9.0.90-tuxcare.5"
+        "name": "io.netty:netty-resolver-dns-native-macos",
+        "purl": "pkg:maven/io.netty/netty-resolver-dns-native-macos@4.1.49.Final-tuxcare.2"
       },
       "ranges": [
         {
@@ -505,7 +503,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "9.0.90-tuxcare.5"
+              "fixed": "4.1.49.Final-tuxcare.2"
             }
           ]
         }
@@ -514,8 +512,8 @@
     {
       "package": {
         "ecosystem": "TuxCare:Maven",
-        "name": "org.apache.tomcat:tomcat-jaspic-api",
-        "purl": "pkg:maven/org.apache.tomcat/tomcat-jaspic-api@9.0.90-tuxcare.5"
+        "name": "io.netty:netty-tarball",
+        "purl": "pkg:maven/io.netty/netty-tarball@4.1.49.Final-tuxcare.2"
       },
       "ranges": [
         {
@@ -525,7 +523,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "9.0.90-tuxcare.5"
+              "fixed": "4.1.49.Final-tuxcare.2"
             }
           ]
         }
@@ -534,8 +532,8 @@
     {
       "package": {
         "ecosystem": "TuxCare:Maven",
-        "name": "org.apache.tomcat:tomcat-jdbc",
-        "purl": "pkg:maven/org.apache.tomcat/tomcat-jdbc@9.0.90-tuxcare.5"
+        "name": "io.netty:netty-testsuite",
+        "purl": "pkg:maven/io.netty/netty-testsuite@4.1.49.Final-tuxcare.2"
       },
       "ranges": [
         {
@@ -545,7 +543,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "9.0.90-tuxcare.5"
+              "fixed": "4.1.49.Final-tuxcare.2"
             }
           ]
         }
@@ -554,8 +552,8 @@
     {
       "package": {
         "ecosystem": "TuxCare:Maven",
-        "name": "org.apache.tomcat:tomcat-jni",
-        "purl": "pkg:maven/org.apache.tomcat/tomcat-jni@9.0.90-tuxcare.5"
+        "name": "io.netty:netty-testsuite-autobahn",
+        "purl": "pkg:maven/io.netty/netty-testsuite-autobahn@4.1.49.Final-tuxcare.2"
       },
       "ranges": [
         {
@@ -565,7 +563,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "9.0.90-tuxcare.5"
+              "fixed": "4.1.49.Final-tuxcare.2"
             }
           ]
         }
@@ -574,8 +572,8 @@
     {
       "package": {
         "ecosystem": "TuxCare:Maven",
-        "name": "org.apache.tomcat:tomcat-jsp-api",
-        "purl": "pkg:maven/org.apache.tomcat/tomcat-jsp-api@9.0.90-tuxcare.5"
+        "name": "io.netty:netty-testsuite-http2",
+        "purl": "pkg:maven/io.netty/netty-testsuite-http2@4.1.49.Final-tuxcare.2"
       },
       "ranges": [
         {
@@ -585,7 +583,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "9.0.90-tuxcare.5"
+              "fixed": "4.1.49.Final-tuxcare.2"
             }
           ]
         }
@@ -594,8 +592,8 @@
     {
       "package": {
         "ecosystem": "TuxCare:Maven",
-        "name": "org.apache.tomcat:tomcat-juli",
-        "purl": "pkg:maven/org.apache.tomcat/tomcat-juli@9.0.90-tuxcare.5"
+        "name": "io.netty:netty-testsuite-native-image",
+        "purl": "pkg:maven/io.netty/netty-testsuite-native-image@4.1.49.Final-tuxcare.2"
       },
       "ranges": [
         {
@@ -605,7 +603,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "9.0.90-tuxcare.5"
+              "fixed": "4.1.49.Final-tuxcare.2"
             }
           ]
         }
@@ -614,8 +612,8 @@
     {
       "package": {
         "ecosystem": "TuxCare:Maven",
-        "name": "org.apache.tomcat:tomcat-servlet-api",
-        "purl": "pkg:maven/org.apache.tomcat/tomcat-servlet-api@9.0.90-tuxcare.5"
+        "name": "io.netty:netty-testsuite-osgi",
+        "purl": "pkg:maven/io.netty/netty-testsuite-osgi@4.1.49.Final-tuxcare.2"
       },
       "ranges": [
         {
@@ -625,7 +623,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "9.0.90-tuxcare.5"
+              "fixed": "4.1.49.Final-tuxcare.2"
             }
           ]
         }
@@ -634,8 +632,8 @@
     {
       "package": {
         "ecosystem": "TuxCare:Maven",
-        "name": "org.apache.tomcat:tomcat-ssi",
-        "purl": "pkg:maven/org.apache.tomcat/tomcat-ssi@9.0.90-tuxcare.5"
+        "name": "io.netty:netty-transport",
+        "purl": "pkg:maven/io.netty/netty-transport@4.1.49.Final-tuxcare.2"
       },
       "ranges": [
         {
@@ -645,7 +643,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "9.0.90-tuxcare.5"
+              "fixed": "4.1.49.Final-tuxcare.2"
             }
           ]
         }
@@ -654,8 +652,8 @@
     {
       "package": {
         "ecosystem": "TuxCare:Maven",
-        "name": "org.apache.tomcat:tomcat-storeconfig",
-        "purl": "pkg:maven/org.apache.tomcat/tomcat-storeconfig@9.0.90-tuxcare.5"
+        "name": "io.netty:netty-transport-blockhound-tests",
+        "purl": "pkg:maven/io.netty/netty-transport-blockhound-tests@4.1.49.Final-tuxcare.2"
       },
       "ranges": [
         {
@@ -665,7 +663,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "9.0.90-tuxcare.5"
+              "fixed": "4.1.49.Final-tuxcare.2"
             }
           ]
         }
@@ -674,8 +672,8 @@
     {
       "package": {
         "ecosystem": "TuxCare:Maven",
-        "name": "org.apache.tomcat:tomcat-tribes",
-        "purl": "pkg:maven/org.apache.tomcat/tomcat-tribes@9.0.90-tuxcare.5"
+        "name": "io.netty:netty-transport-native-epoll",
+        "purl": "pkg:maven/io.netty/netty-transport-native-epoll@4.1.49.Final-tuxcare.2"
       },
       "ranges": [
         {
@@ -685,7 +683,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "9.0.90-tuxcare.5"
+              "fixed": "4.1.49.Final-tuxcare.2"
             }
           ]
         }
@@ -694,8 +692,8 @@
     {
       "package": {
         "ecosystem": "TuxCare:Maven",
-        "name": "org.apache.tomcat:tomcat-util",
-        "purl": "pkg:maven/org.apache.tomcat/tomcat-util@9.0.90-tuxcare.5"
+        "name": "io.netty:netty-transport-native-kqueue",
+        "purl": "pkg:maven/io.netty/netty-transport-native-kqueue@4.1.49.Final-tuxcare.2"
       },
       "ranges": [
         {
@@ -705,7 +703,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "9.0.90-tuxcare.5"
+              "fixed": "4.1.49.Final-tuxcare.2"
             }
           ]
         }
@@ -714,8 +712,8 @@
     {
       "package": {
         "ecosystem": "TuxCare:Maven",
-        "name": "org.apache.tomcat:tomcat-util-scan",
-        "purl": "pkg:maven/org.apache.tomcat/tomcat-util-scan@9.0.90-tuxcare.5"
+        "name": "io.netty:netty-transport-native-unix-common",
+        "purl": "pkg:maven/io.netty/netty-transport-native-unix-common@4.1.49.Final-tuxcare.2"
       },
       "ranges": [
         {
@@ -725,7 +723,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "9.0.90-tuxcare.5"
+              "fixed": "4.1.49.Final-tuxcare.2"
             }
           ]
         }
@@ -734,8 +732,8 @@
     {
       "package": {
         "ecosystem": "TuxCare:Maven",
-        "name": "org.apache.tomcat:tomcat-websocket",
-        "purl": "pkg:maven/org.apache.tomcat/tomcat-websocket@9.0.90-tuxcare.5"
+        "name": "io.netty:netty-transport-native-unix-common-tests",
+        "purl": "pkg:maven/io.netty/netty-transport-native-unix-common-tests@4.1.49.Final-tuxcare.2"
       },
       "ranges": [
         {
@@ -745,7 +743,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "9.0.90-tuxcare.5"
+              "fixed": "4.1.49.Final-tuxcare.2"
             }
           ]
         }
@@ -754,8 +752,8 @@
     {
       "package": {
         "ecosystem": "TuxCare:Maven",
-        "name": "org.apache.tomcat:tomcat-websocket-api",
-        "purl": "pkg:maven/org.apache.tomcat/tomcat-websocket-api@9.0.90-tuxcare.5"
+        "name": "io.netty:netty-transport-rxtx",
+        "purl": "pkg:maven/io.netty/netty-transport-rxtx@4.1.49.Final-tuxcare.2"
       },
       "ranges": [
         {
@@ -765,7 +763,47 @@
               "introduced": "0"
             },
             {
-              "fixed": "9.0.90-tuxcare.5"
+              "fixed": "4.1.49.Final-tuxcare.2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "io.netty:netty-transport-sctp",
+        "purl": "pkg:maven/io.netty/netty-transport-sctp@4.1.49.Final-tuxcare.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.1.49.Final-tuxcare.2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "io.netty:netty-transport-udt",
+        "purl": "pkg:maven/io.netty/netty-transport-udt@4.1.49.Final-tuxcare.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.1.49.Final-tuxcare.2"
             }
           ]
         }

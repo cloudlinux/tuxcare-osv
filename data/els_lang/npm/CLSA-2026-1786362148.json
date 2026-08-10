@@ -1,0 +1,74 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1786362148",
+  "modified": "2026-08-10T11:42:28Z",
+  "published": "2026-08-10T11:42:28Z",
+  "summary": "TuxCare security update for 3 packages (2 CVEs)",
+  "details": "TuxCare rebuilt 3 packages to address 2 CVEs. Fixed in 4.5.5-tuxcare.9.",
+  "upstream": [
+    "CVE-2025-58751",
+    "CVE-2026-53571"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "@vitejs/plugin-legacy",
+        "purl": "pkg:npm/%40vitejs/plugin-legacy@4.5.5-tuxcare.9"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.5.5-tuxcare.9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "create-vite",
+        "purl": "pkg:npm/create-vite@4.5.5-tuxcare.9"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.5.5-tuxcare.9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "vite",
+        "purl": "pkg:npm/vite@4.5.5-tuxcare.9"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.5.5-tuxcare.9"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

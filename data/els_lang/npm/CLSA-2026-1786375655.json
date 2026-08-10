@@ -1,0 +1,34 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1786375655",
+  "modified": "2026-08-10T15:27:35Z",
+  "published": "2026-08-10T15:27:35Z",
+  "summary": "TuxCare security update for swagger-ui-dist (2 CVEs)",
+  "details": "TuxCare rebuilt swagger-ui-dist to address 2 CVEs. Fixed in 3.52.5-tuxcare.1.",
+  "upstream": [
+    "CVE-2021-46708",
+    "GHSA-qrmm-w75w-3wpx"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "swagger-ui-dist",
+        "purl": "pkg:npm/swagger-ui-dist@3.52.5-tuxcare.1"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.52.5-tuxcare.1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
