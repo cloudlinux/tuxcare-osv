@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1786399295",
+  "modified": "2026-08-10T22:01:35Z",
+  "published": "2026-08-10T22:01:35Z",
+  "summary": "TuxCare security update for symfony/yaml (1 CVE)",
+  "details": "TuxCare rebuilt symfony/yaml to address 1 CVE. Fixed in v2.8.52-p2+tuxcare.",
+  "upstream": [
+    "CVE-2026-45304"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Packagist",
+        "name": "symfony/yaml",
+        "purl": "pkg:composer/symfony/yaml@v2.8.52-p2+tuxcare"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "v2.8.52-p2+tuxcare"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
