@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1786471987",
+  "modified": "2026-08-11T18:13:07Z",
+  "published": "2026-08-11T18:13:07Z",
+  "summary": "TuxCare security update for yarn (3 CVEs)",
+  "details": "TuxCare rebuilt yarn to address 3 CVEs. Fixed in 1.21.0-tuxcare.1.",
+  "upstream": [
+    "CVE-2019-10773",
+    "CVE-2020-8131",
+    "CVE-2021-4435"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "yarn",
+        "purl": "pkg:npm/yarn@1.21.0-tuxcare.1"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.21.0-tuxcare.1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
