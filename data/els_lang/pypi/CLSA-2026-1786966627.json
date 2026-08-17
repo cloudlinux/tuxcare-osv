@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1786966627",
+  "modified": "2026-08-17T11:37:07Z",
+  "published": "2026-08-17T11:37:07Z",
+  "summary": "TuxCare security update for pillow (1 CVE)",
+  "details": "TuxCare rebuilt pillow to address 1 CVE. Fixed in 11.2.1.post5+tuxcare.",
+  "upstream": [
+    "CVE-2026-59197"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:PyPI",
+        "name": "pillow",
+        "purl": "pkg:pypi/pillow@11.2.1.post5+tuxcare"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "11.2.1.post5+tuxcare"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
