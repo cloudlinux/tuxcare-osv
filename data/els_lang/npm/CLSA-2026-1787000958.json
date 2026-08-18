@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1787000958",
+  "modified": "2026-08-17T21:09:18Z",
+  "published": "2026-08-17T21:09:18Z",
+  "summary": "TuxCare security update for undici (1 CVE)",
+  "details": "TuxCare rebuilt undici to address 1 CVE. Fixed in 5.28.5-tuxcare.6.",
+  "upstream": [
+    "CVE-2026-22036"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "undici",
+        "purl": "pkg:npm/undici@5.28.5-tuxcare.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.28.5-tuxcare.6"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
