@@ -1,10 +1,10 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2026-1775781183",
-  "modified": "2026-08-04T14:52:24Z",
+  "modified": "2026-08-10T13:08:18Z",
   "published": "2026-08-04T14:52:24Z",
-  "summary": "TuxCare security update for 134 packages (1 CVE)",
-  "details": "TuxCare rebuilt 134 packages to address 1 CVE. Fixed in 7.14.8-tuxcare.1.",
+  "summary": "TuxCare security update for 135 packages (1 CVE)",
+  "details": "TuxCare rebuilt 135 packages to address 1 CVE. Fixed in 7.14.8-tuxcare.1.",
   "upstream": [
     "CVE-2025-27789"
   ],
@@ -2574,6 +2574,26 @@
         "ecosystem": "TuxCare:npm",
         "name": "@babel/register",
         "purl": "pkg:npm/%40babel/register@7.14.8-tuxcare.1"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7.14.8-tuxcare.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "@babel/runtime",
+        "purl": "pkg:npm/%40babel/runtime@7.14.8-tuxcare.1"
       },
       "ranges": [
         {
