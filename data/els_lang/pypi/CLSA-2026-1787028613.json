@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1787028613",
+  "modified": "2026-08-18T04:50:13Z",
+  "published": "2026-08-18T04:50:13Z",
+  "summary": "TuxCare security update for gitpython (3 CVEs)",
+  "details": "TuxCare rebuilt gitpython to address 3 CVEs. Fixed in 3.1.31.post4+tuxcare.",
+  "upstream": [
+    "CVE-2023-40267",
+    "GHSA-6p8h-3wgx-97gf",
+    "GHSA-wvpp-8hx9-p66j"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:PyPI",
+        "name": "gitpython",
+        "purl": "pkg:pypi/gitpython@3.1.31.post4+tuxcare"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.1.31.post4+tuxcare"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
