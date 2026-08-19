@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1787147253",
+  "modified": "2026-08-19T13:47:33Z",
+  "published": "2026-08-19T13:47:33Z",
+  "summary": "TuxCare security update for devalue (1 CVE)",
+  "details": "TuxCare rebuilt devalue to address 1 CVE. Fixed in 4.3.2-tuxcare.2.",
+  "upstream": [
+    "GHSA-8qm3-746x-r74r-map-keys"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "devalue",
+        "purl": "pkg:npm/devalue@4.3.2-tuxcare.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.3.2-tuxcare.2"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
