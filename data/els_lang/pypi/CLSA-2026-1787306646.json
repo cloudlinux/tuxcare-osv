@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1787306646",
+  "modified": "2026-08-21T10:04:06Z",
+  "published": "2026-08-21T10:04:06Z",
+  "summary": "TuxCare security update for gunicorn (1 CVE)",
+  "details": "TuxCare rebuilt gunicorn to address 1 CVE. Fixed in 20.0.4.post3+tuxcare.",
+  "upstream": [
+    "CVE-2024-1135"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:PyPI",
+        "name": "gunicorn",
+        "purl": "pkg:pypi/gunicorn@20.0.4.post3+tuxcare"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "20.0.4.post3+tuxcare"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

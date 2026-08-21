@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1787300457",
+  "modified": "2026-08-21T08:20:57Z",
+  "published": "2026-08-21T08:20:57Z",
+  "summary": "TuxCare security update for starlette (3 CVEs)",
+  "details": "TuxCare rebuilt starlette to address 3 CVEs. Fixed in 0.13.6.post4+tuxcare.",
+  "upstream": [
+    "CVE-2023-29159",
+    "CVE-2024-24762",
+    "CVE-2024-47874"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:PyPI",
+        "name": "starlette",
+        "purl": "pkg:pypi/starlette@0.13.6.post4+tuxcare"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.13.6.post4+tuxcare"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
