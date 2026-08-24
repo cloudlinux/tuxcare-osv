@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1787562258",
+  "modified": "2026-08-24T09:04:18Z",
+  "published": "2026-08-24T09:04:18Z",
+  "summary": "TuxCare security update for debug (1 CVE)",
+  "details": "TuxCare rebuilt debug to address 1 CVE. Fixed in 2.1.0-tuxcare.2.",
+  "upstream": [
+    "CVE-2017-16137"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "debug",
+        "purl": "pkg:npm/debug@2.1.0-tuxcare.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.1.0-tuxcare.2"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
