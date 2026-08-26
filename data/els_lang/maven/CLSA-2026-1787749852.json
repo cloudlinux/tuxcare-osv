@@ -1,27 +1,19 @@
 {
   "schema_version": "1.8.0",
-  "id": "CLSA-2026-1779065189",
-  "modified": "2026-08-10T13:08:18Z",
-  "published": "2026-08-04T14:52:32Z",
-  "summary": "TuxCare security update for 23 packages (9 CVEs)",
-  "details": "TuxCare rebuilt 23 packages to address 9 CVEs. Fixed in 9.4.41.v20210516-tuxcare.1.",
+  "id": "CLSA-2026-1787749852",
+  "modified": "2026-08-26T13:10:52Z",
+  "published": "2026-08-26T13:10:52Z",
+  "summary": "TuxCare security update for org.springframework (1 CVE)",
+  "details": "TuxCare rebuilt 25 org.springframework packages to address 1 CVE. Fixed in 6.1.19-tuxcare.2.",
   "upstream": [
-    "CVE-2022-2048",
-    "CVE-2023-26049",
-    "CVE-2023-41900",
-    "CVE-2024-22201",
-    "CVE-2024-6762",
-    "CVE-2024-8184",
-    "CVE-2025-11143",
-    "CVE-2025-5115",
-    "GHSA-58qw-p7qm-5rvh"
+    "CVE-2026-41855"
   ],
   "affected": [
     {
       "package": {
         "ecosystem": "TuxCare:Maven",
-        "name": "org.eclipse.jetty.websocket:javax-websocket-client-impl",
-        "purl": "pkg:maven/org.eclipse.jetty.websocket/javax-websocket-client-impl@9.4.41.v20210516-tuxcare.1"
+        "name": "org.springframework:framework-docs",
+        "purl": "pkg:maven/org.springframework/framework-docs@6.1.19-tuxcare.2"
       },
       "ranges": [
         {
@@ -31,7 +23,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "9.4.41.v20210516-tuxcare.1"
+              "fixed": "6.1.19-tuxcare.2"
             }
           ]
         }
@@ -40,8 +32,8 @@
     {
       "package": {
         "ecosystem": "TuxCare:Maven",
-        "name": "org.eclipse.jetty.websocket:javax-websocket-server-impl",
-        "purl": "pkg:maven/org.eclipse.jetty.websocket/javax-websocket-server-impl@9.4.41.v20210516-tuxcare.1"
+        "name": "org.springframework:spring-aop",
+        "purl": "pkg:maven/org.springframework/spring-aop@6.1.19-tuxcare.2"
       },
       "ranges": [
         {
@@ -51,7 +43,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "9.4.41.v20210516-tuxcare.1"
+              "fixed": "6.1.19-tuxcare.2"
             }
           ]
         }
@@ -60,8 +52,8 @@
     {
       "package": {
         "ecosystem": "TuxCare:Maven",
-        "name": "org.eclipse.jetty.websocket:websocket-api",
-        "purl": "pkg:maven/org.eclipse.jetty.websocket/websocket-api@9.4.41.v20210516-tuxcare.1"
+        "name": "org.springframework:spring-aspects",
+        "purl": "pkg:maven/org.springframework/spring-aspects@6.1.19-tuxcare.2"
       },
       "ranges": [
         {
@@ -71,7 +63,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "9.4.41.v20210516-tuxcare.1"
+              "fixed": "6.1.19-tuxcare.2"
             }
           ]
         }
@@ -80,8 +72,8 @@
     {
       "package": {
         "ecosystem": "TuxCare:Maven",
-        "name": "org.eclipse.jetty.websocket:websocket-client",
-        "purl": "pkg:maven/org.eclipse.jetty.websocket/websocket-client@9.4.41.v20210516-tuxcare.1"
+        "name": "org.springframework:spring-beans",
+        "purl": "pkg:maven/org.springframework/spring-beans@6.1.19-tuxcare.2"
       },
       "ranges": [
         {
@@ -91,7 +83,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "9.4.41.v20210516-tuxcare.1"
+              "fixed": "6.1.19-tuxcare.2"
             }
           ]
         }
@@ -100,8 +92,8 @@
     {
       "package": {
         "ecosystem": "TuxCare:Maven",
-        "name": "org.eclipse.jetty.websocket:websocket-common",
-        "purl": "pkg:maven/org.eclipse.jetty.websocket/websocket-common@9.4.41.v20210516-tuxcare.1"
+        "name": "org.springframework:spring-context",
+        "purl": "pkg:maven/org.springframework/spring-context@6.1.19-tuxcare.2"
       },
       "ranges": [
         {
@@ -111,7 +103,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "9.4.41.v20210516-tuxcare.1"
+              "fixed": "6.1.19-tuxcare.2"
             }
           ]
         }
@@ -120,8 +112,8 @@
     {
       "package": {
         "ecosystem": "TuxCare:Maven",
-        "name": "org.eclipse.jetty.websocket:websocket-server",
-        "purl": "pkg:maven/org.eclipse.jetty.websocket/websocket-server@9.4.41.v20210516-tuxcare.1"
+        "name": "org.springframework:spring-context-indexer",
+        "purl": "pkg:maven/org.springframework/spring-context-indexer@6.1.19-tuxcare.2"
       },
       "ranges": [
         {
@@ -131,7 +123,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "9.4.41.v20210516-tuxcare.1"
+              "fixed": "6.1.19-tuxcare.2"
             }
           ]
         }
@@ -140,8 +132,8 @@
     {
       "package": {
         "ecosystem": "TuxCare:Maven",
-        "name": "org.eclipse.jetty.websocket:websocket-servlet",
-        "purl": "pkg:maven/org.eclipse.jetty.websocket/websocket-servlet@9.4.41.v20210516-tuxcare.1"
+        "name": "org.springframework:spring-context-support",
+        "purl": "pkg:maven/org.springframework/spring-context-support@6.1.19-tuxcare.2"
       },
       "ranges": [
         {
@@ -151,7 +143,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "9.4.41.v20210516-tuxcare.1"
+              "fixed": "6.1.19-tuxcare.2"
             }
           ]
         }
@@ -160,8 +152,8 @@
     {
       "package": {
         "ecosystem": "TuxCare:Maven",
-        "name": "org.eclipse.jetty:jetty-annotations",
-        "purl": "pkg:maven/org.eclipse.jetty/jetty-annotations@9.4.41.v20210516-tuxcare.1"
+        "name": "org.springframework:spring-core",
+        "purl": "pkg:maven/org.springframework/spring-core@6.1.19-tuxcare.2"
       },
       "ranges": [
         {
@@ -171,7 +163,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "9.4.41.v20210516-tuxcare.1"
+              "fixed": "6.1.19-tuxcare.2"
             }
           ]
         }
@@ -180,8 +172,8 @@
     {
       "package": {
         "ecosystem": "TuxCare:Maven",
-        "name": "org.eclipse.jetty:jetty-bom",
-        "purl": "pkg:maven/org.eclipse.jetty/jetty-bom@9.4.41.v20210516-tuxcare.1"
+        "name": "org.springframework:spring-core-test",
+        "purl": "pkg:maven/org.springframework/spring-core-test@6.1.19-tuxcare.2"
       },
       "ranges": [
         {
@@ -191,7 +183,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "9.4.41.v20210516-tuxcare.1"
+              "fixed": "6.1.19-tuxcare.2"
             }
           ]
         }
@@ -200,8 +192,8 @@
     {
       "package": {
         "ecosystem": "TuxCare:Maven",
-        "name": "org.eclipse.jetty:jetty-client",
-        "purl": "pkg:maven/org.eclipse.jetty/jetty-client@9.4.41.v20210516-tuxcare.1"
+        "name": "org.springframework:spring-expression",
+        "purl": "pkg:maven/org.springframework/spring-expression@6.1.19-tuxcare.2"
       },
       "ranges": [
         {
@@ -211,7 +203,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "9.4.41.v20210516-tuxcare.1"
+              "fixed": "6.1.19-tuxcare.2"
             }
           ]
         }
@@ -220,8 +212,8 @@
     {
       "package": {
         "ecosystem": "TuxCare:Maven",
-        "name": "org.eclipse.jetty:jetty-continuation",
-        "purl": "pkg:maven/org.eclipse.jetty/jetty-continuation@9.4.41.v20210516-tuxcare.1"
+        "name": "org.springframework:spring-framework-bom",
+        "purl": "pkg:maven/org.springframework/spring-framework-bom@6.1.19-tuxcare.2"
       },
       "ranges": [
         {
@@ -231,7 +223,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "9.4.41.v20210516-tuxcare.1"
+              "fixed": "6.1.19-tuxcare.2"
             }
           ]
         }
@@ -240,8 +232,8 @@
     {
       "package": {
         "ecosystem": "TuxCare:Maven",
-        "name": "org.eclipse.jetty:jetty-http",
-        "purl": "pkg:maven/org.eclipse.jetty/jetty-http@9.4.41.v20210516-tuxcare.1"
+        "name": "org.springframework:spring-instrument",
+        "purl": "pkg:maven/org.springframework/spring-instrument@6.1.19-tuxcare.2"
       },
       "ranges": [
         {
@@ -251,7 +243,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "9.4.41.v20210516-tuxcare.1"
+              "fixed": "6.1.19-tuxcare.2"
             }
           ]
         }
@@ -260,8 +252,8 @@
     {
       "package": {
         "ecosystem": "TuxCare:Maven",
-        "name": "org.eclipse.jetty:jetty-io",
-        "purl": "pkg:maven/org.eclipse.jetty/jetty-io@9.4.41.v20210516-tuxcare.1"
+        "name": "org.springframework:spring-jcl",
+        "purl": "pkg:maven/org.springframework/spring-jcl@6.1.19-tuxcare.2"
       },
       "ranges": [
         {
@@ -271,7 +263,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "9.4.41.v20210516-tuxcare.1"
+              "fixed": "6.1.19-tuxcare.2"
             }
           ]
         }
@@ -280,8 +272,8 @@
     {
       "package": {
         "ecosystem": "TuxCare:Maven",
-        "name": "org.eclipse.jetty:jetty-jmx",
-        "purl": "pkg:maven/org.eclipse.jetty/jetty-jmx@9.4.41.v20210516-tuxcare.1"
+        "name": "org.springframework:spring-jdbc",
+        "purl": "pkg:maven/org.springframework/spring-jdbc@6.1.19-tuxcare.2"
       },
       "ranges": [
         {
@@ -291,7 +283,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "9.4.41.v20210516-tuxcare.1"
+              "fixed": "6.1.19-tuxcare.2"
             }
           ]
         }
@@ -300,8 +292,8 @@
     {
       "package": {
         "ecosystem": "TuxCare:Maven",
-        "name": "org.eclipse.jetty:jetty-plus",
-        "purl": "pkg:maven/org.eclipse.jetty/jetty-plus@9.4.41.v20210516-tuxcare.1"
+        "name": "org.springframework:spring-jms",
+        "purl": "pkg:maven/org.springframework/spring-jms@6.1.19-tuxcare.2"
       },
       "ranges": [
         {
@@ -311,7 +303,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "9.4.41.v20210516-tuxcare.1"
+              "fixed": "6.1.19-tuxcare.2"
             }
           ]
         }
@@ -320,8 +312,8 @@
     {
       "package": {
         "ecosystem": "TuxCare:Maven",
-        "name": "org.eclipse.jetty:jetty-security",
-        "purl": "pkg:maven/org.eclipse.jetty/jetty-security@9.4.41.v20210516-tuxcare.1"
+        "name": "org.springframework:spring-messaging",
+        "purl": "pkg:maven/org.springframework/spring-messaging@6.1.19-tuxcare.2"
       },
       "ranges": [
         {
@@ -331,7 +323,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "9.4.41.v20210516-tuxcare.1"
+              "fixed": "6.1.19-tuxcare.2"
             }
           ]
         }
@@ -340,8 +332,8 @@
     {
       "package": {
         "ecosystem": "TuxCare:Maven",
-        "name": "org.eclipse.jetty:jetty-server",
-        "purl": "pkg:maven/org.eclipse.jetty/jetty-server@9.4.41.v20210516-tuxcare.1"
+        "name": "org.springframework:spring-orm",
+        "purl": "pkg:maven/org.springframework/spring-orm@6.1.19-tuxcare.2"
       },
       "ranges": [
         {
@@ -351,7 +343,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "9.4.41.v20210516-tuxcare.1"
+              "fixed": "6.1.19-tuxcare.2"
             }
           ]
         }
@@ -360,8 +352,8 @@
     {
       "package": {
         "ecosystem": "TuxCare:Maven",
-        "name": "org.eclipse.jetty:jetty-servlet",
-        "purl": "pkg:maven/org.eclipse.jetty/jetty-servlet@9.4.41.v20210516-tuxcare.1"
+        "name": "org.springframework:spring-oxm",
+        "purl": "pkg:maven/org.springframework/spring-oxm@6.1.19-tuxcare.2"
       },
       "ranges": [
         {
@@ -371,7 +363,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "9.4.41.v20210516-tuxcare.1"
+              "fixed": "6.1.19-tuxcare.2"
             }
           ]
         }
@@ -380,8 +372,8 @@
     {
       "package": {
         "ecosystem": "TuxCare:Maven",
-        "name": "org.eclipse.jetty:jetty-servlets",
-        "purl": "pkg:maven/org.eclipse.jetty/jetty-servlets@9.4.41.v20210516-tuxcare.1"
+        "name": "org.springframework:spring-r2dbc",
+        "purl": "pkg:maven/org.springframework/spring-r2dbc@6.1.19-tuxcare.2"
       },
       "ranges": [
         {
@@ -391,7 +383,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "9.4.41.v20210516-tuxcare.1"
+              "fixed": "6.1.19-tuxcare.2"
             }
           ]
         }
@@ -400,8 +392,8 @@
     {
       "package": {
         "ecosystem": "TuxCare:Maven",
-        "name": "org.eclipse.jetty:jetty-util",
-        "purl": "pkg:maven/org.eclipse.jetty/jetty-util@9.4.41.v20210516-tuxcare.1"
+        "name": "org.springframework:spring-test",
+        "purl": "pkg:maven/org.springframework/spring-test@6.1.19-tuxcare.2"
       },
       "ranges": [
         {
@@ -411,7 +403,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "9.4.41.v20210516-tuxcare.1"
+              "fixed": "6.1.19-tuxcare.2"
             }
           ]
         }
@@ -420,8 +412,8 @@
     {
       "package": {
         "ecosystem": "TuxCare:Maven",
-        "name": "org.eclipse.jetty:jetty-util-ajax",
-        "purl": "pkg:maven/org.eclipse.jetty/jetty-util-ajax@9.4.41.v20210516-tuxcare.1"
+        "name": "org.springframework:spring-tx",
+        "purl": "pkg:maven/org.springframework/spring-tx@6.1.19-tuxcare.2"
       },
       "ranges": [
         {
@@ -431,7 +423,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "9.4.41.v20210516-tuxcare.1"
+              "fixed": "6.1.19-tuxcare.2"
             }
           ]
         }
@@ -440,8 +432,8 @@
     {
       "package": {
         "ecosystem": "TuxCare:Maven",
-        "name": "org.eclipse.jetty:jetty-webapp",
-        "purl": "pkg:maven/org.eclipse.jetty/jetty-webapp@9.4.41.v20210516-tuxcare.1"
+        "name": "org.springframework:spring-web",
+        "purl": "pkg:maven/org.springframework/spring-web@6.1.19-tuxcare.2"
       },
       "ranges": [
         {
@@ -451,7 +443,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "9.4.41.v20210516-tuxcare.1"
+              "fixed": "6.1.19-tuxcare.2"
             }
           ]
         }
@@ -460,8 +452,8 @@
     {
       "package": {
         "ecosystem": "TuxCare:Maven",
-        "name": "org.eclipse.jetty:jetty-xml",
-        "purl": "pkg:maven/org.eclipse.jetty/jetty-xml@9.4.41.v20210516-tuxcare.1"
+        "name": "org.springframework:spring-webflux",
+        "purl": "pkg:maven/org.springframework/spring-webflux@6.1.19-tuxcare.2"
       },
       "ranges": [
         {
@@ -471,7 +463,47 @@
               "introduced": "0"
             },
             {
-              "fixed": "9.4.41.v20210516-tuxcare.1"
+              "fixed": "6.1.19-tuxcare.2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.springframework:spring-webmvc",
+        "purl": "pkg:maven/org.springframework/spring-webmvc@6.1.19-tuxcare.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "6.1.19-tuxcare.2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.springframework:spring-websocket",
+        "purl": "pkg:maven/org.springframework/spring-websocket@6.1.19-tuxcare.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "6.1.19-tuxcare.2"
             }
           ]
         }

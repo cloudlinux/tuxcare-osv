@@ -1,14 +1,74 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2026-1778028242",
-  "modified": "2026-08-04T14:52:30Z",
+  "modified": "2026-08-10T13:08:18Z",
   "published": "2026-08-04T14:52:30Z",
   "summary": "TuxCare security update for com.squareup.retrofit2 (1 CVE)",
-  "details": "TuxCare rebuilt 2 com.squareup.retrofit2 packages to address 1 CVE. Fixed in 2.9.0-tuxcare.1.",
+  "details": "TuxCare rebuilt 5 com.squareup.retrofit2 packages to address 1 CVE. Fixed in 2.9.0-tuxcare.1.",
   "upstream": [
     "CVE-2026-24400"
   ],
   "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "com.squareup.retrofit2:converter-gson",
+        "purl": "pkg:maven/com.squareup.retrofit2/converter-gson@2.9.0-tuxcare.1"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.9.0-tuxcare.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "com.squareup.retrofit2:converter-moshi",
+        "purl": "pkg:maven/com.squareup.retrofit2/converter-moshi@2.9.0-tuxcare.1"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.9.0-tuxcare.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "com.squareup.retrofit2:converter-scalars",
+        "purl": "pkg:maven/com.squareup.retrofit2/converter-scalars@2.9.0-tuxcare.1"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.9.0-tuxcare.1"
+            }
+          ]
+        }
+      ]
+    },
     {
       "package": {
         "ecosystem": "TuxCare:Maven",

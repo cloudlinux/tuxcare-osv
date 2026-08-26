@@ -1,10 +1,10 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2026-1785926105",
-  "modified": "2026-08-05T10:35:05Z",
+  "modified": "2026-08-10T13:08:18Z",
   "published": "2026-08-05T10:35:05Z",
-  "summary": "TuxCare security update for 22 packages (1 CVE)",
-  "details": "TuxCare rebuilt 22 packages to address 1 CVE. Fixed in 9.4.41.v20210516-tuxcare.3.",
+  "summary": "TuxCare security update for 23 packages (1 CVE)",
+  "details": "TuxCare rebuilt 23 packages to address 1 CVE. Fixed in 9.4.41.v20210516-tuxcare.3.",
   "upstream": [
     "CVE-2023-36479"
   ],
@@ -254,6 +254,26 @@
         "ecosystem": "TuxCare:Maven",
         "name": "org.eclipse.jetty:jetty-io",
         "purl": "pkg:maven/org.eclipse.jetty/jetty-io@9.4.41.v20210516-tuxcare.3"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "9.4.41.v20210516-tuxcare.3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.eclipse.jetty:jetty-jmx",
+        "purl": "pkg:maven/org.eclipse.jetty/jetty-jmx@9.4.41.v20210516-tuxcare.3"
       },
       "ranges": [
         {
