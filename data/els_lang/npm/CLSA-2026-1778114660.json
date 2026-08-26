@@ -1,10 +1,10 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2026-1778114660",
-  "modified": "2026-08-04T14:52:30Z",
+  "modified": "2026-08-10T13:08:18Z",
   "published": "2026-08-04T14:52:30Z",
   "summary": "TuxCare security update for @react-native-community (1 CVE)",
-  "details": "TuxCare rebuilt 10 @react-native-community packages to address 1 CVE. Fixed in 13.6.9-tuxcare.1.",
+  "details": "TuxCare rebuilt 11 @react-native-community packages to address 1 CVE. Fixed in 13.6.9-tuxcare.1.",
   "upstream": [
     "AIKIDO-2025-10854"
   ],
@@ -14,6 +14,26 @@
         "ecosystem": "TuxCare:npm",
         "name": "@react-native-community/cli",
         "purl": "pkg:npm/%40react-native-community/cli@13.6.9-tuxcare.1"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "13.6.9-tuxcare.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "@react-native-community/cli-clean",
+        "purl": "pkg:npm/%40react-native-community/cli-clean@13.6.9-tuxcare.1"
       },
       "ranges": [
         {
