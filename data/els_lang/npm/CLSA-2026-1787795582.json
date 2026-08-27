@@ -1,0 +1,74 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1787795582",
+  "modified": "2026-08-27T01:53:01Z",
+  "published": "2026-08-27T01:53:01Z",
+  "summary": "TuxCare security update for @nestjs (2 CVEs)",
+  "details": "TuxCare rebuilt 3 @nestjs packages to address 2 CVEs. Fixed in 10.4.22-tuxcare.1.",
+  "upstream": [
+    "CVE-2026-35515",
+    "CVE-2026-40879"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "@nestjs/core",
+        "purl": "pkg:npm/%40nestjs/core@10.4.22-tuxcare.1"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "10.4.22-tuxcare.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "@nestjs/microservices",
+        "purl": "pkg:npm/%40nestjs/microservices@10.4.22-tuxcare.1"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "10.4.22-tuxcare.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "@nestjs/platform-express",
+        "purl": "pkg:npm/%40nestjs/platform-express@10.4.22-tuxcare.1"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "10.4.22-tuxcare.1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
