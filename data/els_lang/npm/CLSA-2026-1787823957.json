@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1787823957",
+  "modified": "2026-08-27T09:45:57Z",
+  "published": "2026-08-27T09:45:57Z",
+  "summary": "TuxCare security update for webpack-dev-server (1 CVE)",
+  "details": "TuxCare rebuilt webpack-dev-server to address 1 CVE. Fixed in 4.11.1-tuxcare.3.",
+  "upstream": [
+    "CVE-2026-14631"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "webpack-dev-server",
+        "purl": "pkg:npm/webpack-dev-server@4.11.1-tuxcare.3"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.11.1-tuxcare.3"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
