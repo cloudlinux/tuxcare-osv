@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1787930548",
+  "modified": "2026-08-28T15:22:28Z",
+  "published": "2026-08-28T15:22:28Z",
+  "summary": "TuxCare security update for django (7 CVEs)",
+  "details": "TuxCare rebuilt django to address 7 CVEs. Fixed in 5.0.2.post5+tuxcare.",
+  "upstream": [
+    "CVE-2024-39614",
+    "CVE-2024-41989",
+    "CVE-2024-41991",
+    "CVE-2024-42005",
+    "CVE-2024-45230",
+    "CVE-2025-64458",
+    "CVE-2025-64460"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:PyPI",
+        "name": "django",
+        "purl": "pkg:pypi/django@5.0.2.post5+tuxcare"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.0.2.post5+tuxcare"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
