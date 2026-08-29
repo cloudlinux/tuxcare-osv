@@ -3,8 +3,8 @@
   "id": "CLSA-2026-1775262603",
   "modified": "2026-08-28T14:28:48Z",
   "published": "2026-08-04T14:52:22Z",
-  "summary": "TuxCare security update for 5 packages (1 CVE)",
-  "details": "TuxCare rebuilt 5 packages to address 1 CVE. Fixed in 4.5.0-tuxcare.1.",
+  "summary": "TuxCare security update for 6 packages (1 CVE)",
+  "details": "TuxCare rebuilt 6 packages to address 1 CVE. Fixed in 4.5.0-tuxcare.1.",
   "upstream": [
     "CVE-2021-23337"
   ],
@@ -34,6 +34,26 @@
         "ecosystem": "TuxCare:npm",
         "name": "lodash.clonedeep",
         "purl": "pkg:npm/lodash.clonedeep@4.5.0-tuxcare.1"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.5.0-tuxcare.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "lodash.clonedeepwith",
+        "purl": "pkg:npm/lodash.clonedeepwith@4.5.0-tuxcare.1"
       },
       "ranges": [
         {
