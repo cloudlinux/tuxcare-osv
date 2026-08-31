@@ -1,0 +1,53 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1788167244",
+  "modified": "2026-08-31T09:07:24Z",
+  "published": "2026-08-31T09:07:24Z",
+  "summary": "TuxCare security update for 2 packages (1 CVE)",
+  "details": "TuxCare rebuilt 2 packages to address 1 CVE. Fixed in 1.25.2-tuxcare.1.",
+  "upstream": [
+    "CVE-2026-25536"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "@modelcontextprotocol/sdk",
+        "purl": "pkg:npm/%40modelcontextprotocol/sdk@1.25.2-tuxcare.1"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.25.2-tuxcare.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "typescript-sdk",
+        "purl": "pkg:npm/typescript-sdk@1.25.2-tuxcare.1"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.25.2-tuxcare.1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
