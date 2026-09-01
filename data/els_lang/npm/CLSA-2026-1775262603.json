@@ -1,10 +1,10 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2026-1775262603",
-  "modified": "2026-08-28T14:28:48Z",
+  "modified": "2026-09-01T17:57:42Z",
   "published": "2026-08-04T14:52:22Z",
-  "summary": "TuxCare security update for 6 packages (1 CVE)",
-  "details": "TuxCare rebuilt 6 packages to address 1 CVE. Fixed in 4.5.0-tuxcare.1.",
+  "summary": "TuxCare security update for 7 packages (1 CVE)",
+  "details": "TuxCare rebuilt 7 packages to address 1 CVE. Fixed in 4.5.0-tuxcare.1.",
   "upstream": [
     "CVE-2021-23337"
   ],
@@ -114,6 +114,26 @@
         "ecosystem": "TuxCare:npm",
         "name": "lodash.uniq",
         "purl": "pkg:npm/lodash.uniq@4.5.0-tuxcare.1"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.5.0-tuxcare.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "lodash.xor",
+        "purl": "pkg:npm/lodash.xor@4.5.0-tuxcare.1"
       },
       "ranges": [
         {
