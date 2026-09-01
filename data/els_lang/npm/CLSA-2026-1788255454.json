@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1788255454",
+  "modified": "2026-09-01T09:37:34Z",
+  "published": "2026-09-01T09:37:34Z",
+  "summary": "TuxCare security update for mysql2 (1 CVE)",
+  "details": "TuxCare rebuilt mysql2 to address 1 CVE. Fixed in 2.3.3-tuxcare.6.",
+  "upstream": [
+    "GHSA-rgwj-5xj2-c3m3"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "mysql2",
+        "purl": "pkg:npm/mysql2@2.3.3-tuxcare.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.3.3-tuxcare.6"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

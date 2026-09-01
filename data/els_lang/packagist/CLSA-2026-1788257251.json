@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1788257251",
+  "modified": "2026-09-01T10:07:31Z",
+  "published": "2026-09-01T10:07:31Z",
+  "summary": "TuxCare security update for league/oauth2-client (3 CVEs)",
+  "details": "TuxCare rebuilt league/oauth2-client to address 3 CVEs. Fixed in 1.4.2-p1+tuxcare.",
+  "upstream": [
+    "CVE-2022-24775",
+    "CVE-2026-49214",
+    "CVE-2026-55766"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Packagist",
+        "name": "league/oauth2-client",
+        "purl": "pkg:composer/league/oauth2-client@1.4.2-p1+tuxcare"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.4.2-p1+tuxcare"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

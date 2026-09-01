@@ -1,0 +1,38 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1788257456",
+  "modified": "2026-09-01T10:10:56Z",
+  "published": "2026-09-01T10:10:56Z",
+  "summary": "TuxCare security update for league/commonmark (6 CVEs)",
+  "details": "TuxCare rebuilt league/commonmark to address 6 CVEs. Fixed in 2.8.2-p2+tuxcare.",
+  "upstream": [
+    "CVE-2026-71478",
+    "CVE-2026-71488",
+    "GHSA-g2gp-3wwq-f4ph",
+    "GHSA-jfm3-95jq-q3rf",
+    "GHSA-mh25-x5hq-wrqp",
+    "GHSA-mj63-m3rc-8ppr"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Packagist",
+        "name": "league/commonmark",
+        "purl": "pkg:composer/league/commonmark@2.8.2-p2+tuxcare"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.8.2-p2+tuxcare"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
