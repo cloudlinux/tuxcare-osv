@@ -1,0 +1,34 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1788347890",
+  "modified": "2026-09-02T11:18:10Z",
+  "published": "2026-09-02T11:18:10Z",
+  "summary": "TuxCare security update for aiohttp (2 CVEs)",
+  "details": "TuxCare rebuilt aiohttp to address 2 CVEs. Fixed in 3.8.5.post11+tuxcare.",
+  "upstream": [
+    "CVE-2026-69243",
+    "CVE-2026-69244"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:PyPI",
+        "name": "aiohttp",
+        "purl": "pkg:pypi/aiohttp@3.8.5.post11+tuxcare"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.8.5.post11+tuxcare"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,10 +1,10 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2025-1763597253",
-  "modified": "2026-08-04T14:52:06Z",
+  "modified": "2026-09-02T08:03:32Z",
   "published": "2026-08-04T14:52:06Z",
-  "summary": "TuxCare security update for 86 packages (1 CVE)",
-  "details": "TuxCare rebuilt 86 packages to address 1 CVE. Fixed in 9.4.53.v20231009-tuxcare.1.",
+  "summary": "TuxCare security update for 89 packages (1 CVE)",
+  "details": "TuxCare rebuilt 89 packages to address 1 CVE. Fixed in 9.4.53.v20231009-tuxcare.1.",
   "upstream": [
     "CVE-2024-22201"
   ],
@@ -394,6 +394,26 @@
         "ecosystem": "TuxCare:Maven",
         "name": "org.eclipse.jetty.osgi:jetty-osgi-project",
         "purl": "pkg:maven/org.eclipse.jetty.osgi/jetty-osgi-project@9.4.53.v20231009-tuxcare.1"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "9.4.53.v20231009-tuxcare.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.eclipse.jetty.osgi:test-jetty-osgi",
+        "purl": "pkg:maven/org.eclipse.jetty.osgi/test-jetty-osgi@9.4.53.v20231009-tuxcare.1"
       },
       "ranges": [
         {
@@ -1714,6 +1734,46 @@
         "ecosystem": "TuxCare:Maven",
         "name": "org.eclipse.jetty:jetty-xml",
         "purl": "pkg:maven/org.eclipse.jetty/jetty-xml@9.4.53.v20231009-tuxcare.1"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "9.4.53.v20231009-tuxcare.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.eclipse.jetty:test-jetty-webapp",
+        "purl": "pkg:maven/org.eclipse.jetty/test-jetty-webapp@9.4.53.v20231009-tuxcare.1"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "9.4.53.v20231009-tuxcare.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.eclipse.jetty:test-proxy-webapp",
+        "purl": "pkg:maven/org.eclipse.jetty/test-proxy-webapp@9.4.53.v20231009-tuxcare.1"
       },
       "ranges": [
         {

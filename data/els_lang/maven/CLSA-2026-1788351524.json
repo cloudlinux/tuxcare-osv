@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1788351524",
+  "modified": "2026-09-02T12:18:44Z",
+  "published": "2026-09-02T12:18:44Z",
+  "summary": "TuxCare security update for com.fasterxml.jackson.core:jackson-core (1 CVE)",
+  "details": "TuxCare rebuilt com.fasterxml.jackson.core:jackson-core to address 1 CVE. Fixed in 2.14.1-tuxcare.1.",
+  "upstream": [
+    "CVE-2025-52999"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "com.fasterxml.jackson.core:jackson-core",
+        "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.14.1-tuxcare.1"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.14.1-tuxcare.1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

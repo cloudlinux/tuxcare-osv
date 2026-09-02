@@ -1,0 +1,54 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1788330944",
+  "modified": "2026-09-02T06:35:44Z",
+  "published": "2026-09-02T06:35:44Z",
+  "summary": "TuxCare security update for org.lz4 (2 CVEs)",
+  "details": "TuxCare rebuilt 2 org.lz4 packages to address 2 CVEs. Fixed in 1.8.0-tuxcare.2.",
+  "upstream": [
+    "CVE-2025-48734",
+    "CVE-2026-59949"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.lz4:lz4-java",
+        "purl": "pkg:maven/org.lz4/lz4-java@1.8.0-tuxcare.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.8.0-tuxcare.2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.lz4:lz4-pure-java",
+        "purl": "pkg:maven/org.lz4/lz4-pure-java@1.8.0-tuxcare.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.8.0-tuxcare.2"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
