@@ -1,7 +1,7 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2025-1764547660",
-  "modified": "2026-09-02T12:44:22Z",
+  "modified": "2026-09-02T20:37:00Z",
   "published": "2026-08-04T14:52:06Z",
   "summary": "TuxCare security update for 88 packages (1 CVE)",
   "details": "TuxCare rebuilt 88 packages to address 1 CVE. Fixed in 9.4.53.v20231009-tuxcare.2.",
@@ -434,6 +434,26 @@
         "ecosystem": "TuxCare:Maven",
         "name": "org.eclipse.jetty.osgi:test-jetty-osgi-webapp-resources",
         "purl": "pkg:maven/org.eclipse.jetty.osgi/test-jetty-osgi-webapp-resources@9.4.53.v20231009-tuxcare.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "9.4.53.v20231009-tuxcare.2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.eclipse.jetty.tests:test-mock-resources",
+        "purl": "pkg:maven/org.eclipse.jetty.tests/test-mock-resources@9.4.53.v20231009-tuxcare.2"
       },
       "ranges": [
         {
@@ -1734,26 +1754,6 @@
         "ecosystem": "TuxCare:Maven",
         "name": "org.eclipse.jetty:jetty-xml",
         "purl": "pkg:maven/org.eclipse.jetty/jetty-xml@9.4.53.v20231009-tuxcare.2"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "9.4.53.v20231009-tuxcare.2"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "TuxCare:Maven",
-        "name": "org.eclipse.jetty:test-proxy-webapp",
-        "purl": "pkg:maven/org.eclipse.jetty/test-proxy-webapp@9.4.53.v20231009-tuxcare.2"
       },
       "ranges": [
         {

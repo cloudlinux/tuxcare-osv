@@ -1,0 +1,73 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1788422135",
+  "modified": "2026-09-03T07:55:35Z",
+  "published": "2026-09-03T07:55:35Z",
+  "summary": "TuxCare security update for org.springframework.data (1 CVE)",
+  "details": "TuxCare rebuilt 3 org.springframework.data packages to address 1 CVE. Fixed in 4.3.13-tuxcare.5.",
+  "upstream": [
+    "CVE-2026-47849"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.springframework.data:spring-data-cassandra",
+        "purl": "pkg:maven/org.springframework.data/spring-data-cassandra@4.3.13-tuxcare.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.3.13-tuxcare.5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.springframework.data:spring-data-cassandra-distribution",
+        "purl": "pkg:maven/org.springframework.data/spring-data-cassandra-distribution@4.3.13-tuxcare.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.3.13-tuxcare.5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.springframework.data:spring-data-cassandra-parent",
+        "purl": "pkg:maven/org.springframework.data/spring-data-cassandra-parent@4.3.13-tuxcare.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.3.13-tuxcare.5"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
