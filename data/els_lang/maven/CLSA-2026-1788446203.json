@@ -1,0 +1,74 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1788446203",
+  "modified": "2026-09-03T14:36:43Z",
+  "published": "2026-09-03T14:36:43Z",
+  "summary": "TuxCare security update for org.springframework.data (2 CVEs)",
+  "details": "TuxCare rebuilt 3 org.springframework.data packages to address 2 CVEs. Fixed in 3.4.18-tuxcare.8.",
+  "upstream": [
+    "CVE-2026-41696",
+    "CVE-2026-41717"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.springframework.data:spring-data-mongodb",
+        "purl": "pkg:maven/org.springframework.data/spring-data-mongodb@3.4.18-tuxcare.8"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.4.18-tuxcare.8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.springframework.data:spring-data-mongodb-distribution",
+        "purl": "pkg:maven/org.springframework.data/spring-data-mongodb-distribution@3.4.18-tuxcare.8"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.4.18-tuxcare.8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.springframework.data:spring-data-mongodb-parent",
+        "purl": "pkg:maven/org.springframework.data/spring-data-mongodb-parent@3.4.18-tuxcare.8"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.4.18-tuxcare.8"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

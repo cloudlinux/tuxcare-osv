@@ -1,0 +1,53 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1788442606",
+  "modified": "2026-09-03T13:36:46Z",
+  "published": "2026-09-03T13:36:46Z",
+  "summary": "TuxCare security update for 2 packages (1 CVE)",
+  "details": "TuxCare rebuilt 2 packages to address 1 CVE. Fixed in 2.22.4.post8+tuxcare.",
+  "upstream": [
+    "CVE-2026-8147"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:PyPI",
+        "name": "mlflow",
+        "purl": "pkg:pypi/mlflow@2.22.4.post8+tuxcare"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.22.4.post8+tuxcare"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:PyPI",
+        "name": "mlflow-skinny",
+        "purl": "pkg:pypi/mlflow-skinny@2.22.4.post8+tuxcare"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.22.4.post8+tuxcare"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
