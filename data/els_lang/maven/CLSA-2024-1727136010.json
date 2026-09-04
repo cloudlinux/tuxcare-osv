@@ -1,10 +1,10 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2024-1727136010",
-  "modified": "2026-08-04T14:52:03Z",
+  "modified": "2026-09-03T16:44:05Z",
   "published": "2026-08-04T14:52:03Z",
   "summary": "TuxCare security update for org.xmlunit (1 CVE)",
-  "details": "TuxCare rebuilt 2 org.xmlunit packages to address 1 CVE. Fixed in 2.9.0.tuxcare.",
+  "details": "TuxCare rebuilt 4 org.xmlunit packages to address 1 CVE. Fixed in 2.9.0.tuxcare.",
   "upstream": [
     "CVE-2024-31573"
   ],
@@ -32,8 +32,48 @@
     {
       "package": {
         "ecosystem": "TuxCare:Maven",
+        "name": "org.xmlunit:xmlunit-legacy",
+        "purl": "pkg:maven/org.xmlunit/xmlunit-legacy@2.9.0.tuxcare"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.9.0.tuxcare"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
         "name": "org.xmlunit:xmlunit-parent",
         "purl": "pkg:maven/org.xmlunit/xmlunit-parent@2.9.0.tuxcare"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.9.0.tuxcare"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.xmlunit:xmlunit-placeholders",
+        "purl": "pkg:maven/org.xmlunit/xmlunit-placeholders@2.9.0.tuxcare"
       },
       "ranges": [
         {
