@@ -1,0 +1,54 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1788767433",
+  "modified": "2026-09-07T07:50:33Z",
+  "published": "2026-09-07T07:50:33Z",
+  "summary": "TuxCare security update for com.jayway.jsonpath (2 CVEs)",
+  "details": "TuxCare rebuilt 2 com.jayway.jsonpath packages to address 2 CVEs. Fixed in 2.6.0-tuxcare.1.",
+  "upstream": [
+    "CVE-2021-23926",
+    "CVE-2023-51074"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "com.jayway.jsonpath:json-path",
+        "purl": "pkg:maven/com.jayway.jsonpath/json-path@2.6.0-tuxcare.1"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.6.0-tuxcare.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "com.jayway.jsonpath:json-path-assert",
+        "purl": "pkg:maven/com.jayway.jsonpath/json-path-assert@2.6.0-tuxcare.1"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.6.0-tuxcare.1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
