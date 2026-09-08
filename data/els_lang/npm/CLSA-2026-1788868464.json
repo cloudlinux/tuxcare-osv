@@ -1,0 +1,53 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1788868464",
+  "modified": "2026-09-08T11:54:24Z",
+  "published": "2026-09-08T11:54:24Z",
+  "summary": "TuxCare security update for 2 packages (1 CVE)",
+  "details": "TuxCare rebuilt 2 packages to address 1 CVE. Fixed in 2.16.105-tuxcare.3.",
+  "upstream": [
+    "CVE-2024-4367"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "pdf.js",
+        "purl": "pkg:npm/pdf.js@2.16.105-tuxcare.3"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.16.105-tuxcare.3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "pdfjs-dist",
+        "purl": "pkg:npm/pdfjs-dist@2.16.105-tuxcare.3"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.16.105-tuxcare.3"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
