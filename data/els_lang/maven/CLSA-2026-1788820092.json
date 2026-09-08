@@ -1,0 +1,797 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1788820092",
+  "modified": "2026-09-07T22:28:12Z",
+  "published": "2026-09-07T22:28:12Z",
+  "summary": "TuxCare security update for org.springframework.integration (5 CVEs)",
+  "details": "TuxCare rebuilt 39 org.springframework.integration packages to address 5 CVEs. Fixed in 5.5.20-tuxcare.6.",
+  "upstream": [
+    "CVE-2026-40987",
+    "CVE-2026-47856",
+    "CVE-2026-47864",
+    "CVE-2026-47880",
+    "CVE-2026-59292"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.springframework.integration:spring-integration",
+        "purl": "pkg:maven/org.springframework.integration/spring-integration@5.5.20-tuxcare.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.5.20-tuxcare.6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.springframework.integration:spring-integration-amqp",
+        "purl": "pkg:maven/org.springframework.integration/spring-integration-amqp@5.5.20-tuxcare.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.5.20-tuxcare.6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.springframework.integration:spring-integration-bom",
+        "purl": "pkg:maven/org.springframework.integration/spring-integration-bom@5.5.20-tuxcare.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.5.20-tuxcare.6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.springframework.integration:spring-integration-core",
+        "purl": "pkg:maven/org.springframework.integration/spring-integration-core@5.5.20-tuxcare.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.5.20-tuxcare.6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.springframework.integration:spring-integration-event",
+        "purl": "pkg:maven/org.springframework.integration/spring-integration-event@5.5.20-tuxcare.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.5.20-tuxcare.6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.springframework.integration:spring-integration-feed",
+        "purl": "pkg:maven/org.springframework.integration/spring-integration-feed@5.5.20-tuxcare.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.5.20-tuxcare.6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.springframework.integration:spring-integration-file",
+        "purl": "pkg:maven/org.springframework.integration/spring-integration-file@5.5.20-tuxcare.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.5.20-tuxcare.6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.springframework.integration:spring-integration-ftp",
+        "purl": "pkg:maven/org.springframework.integration/spring-integration-ftp@5.5.20-tuxcare.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.5.20-tuxcare.6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.springframework.integration:spring-integration-gemfire",
+        "purl": "pkg:maven/org.springframework.integration/spring-integration-gemfire@5.5.20-tuxcare.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.5.20-tuxcare.6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.springframework.integration:spring-integration-groovy",
+        "purl": "pkg:maven/org.springframework.integration/spring-integration-groovy@5.5.20-tuxcare.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.5.20-tuxcare.6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.springframework.integration:spring-integration-http",
+        "purl": "pkg:maven/org.springframework.integration/spring-integration-http@5.5.20-tuxcare.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.5.20-tuxcare.6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.springframework.integration:spring-integration-ip",
+        "purl": "pkg:maven/org.springframework.integration/spring-integration-ip@5.5.20-tuxcare.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.5.20-tuxcare.6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.springframework.integration:spring-integration-jdbc",
+        "purl": "pkg:maven/org.springframework.integration/spring-integration-jdbc@5.5.20-tuxcare.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.5.20-tuxcare.6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.springframework.integration:spring-integration-jms",
+        "purl": "pkg:maven/org.springframework.integration/spring-integration-jms@5.5.20-tuxcare.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.5.20-tuxcare.6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.springframework.integration:spring-integration-jmx",
+        "purl": "pkg:maven/org.springframework.integration/spring-integration-jmx@5.5.20-tuxcare.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.5.20-tuxcare.6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.springframework.integration:spring-integration-jpa",
+        "purl": "pkg:maven/org.springframework.integration/spring-integration-jpa@5.5.20-tuxcare.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.5.20-tuxcare.6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.springframework.integration:spring-integration-kafka",
+        "purl": "pkg:maven/org.springframework.integration/spring-integration-kafka@5.5.20-tuxcare.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.5.20-tuxcare.6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.springframework.integration:spring-integration-mail",
+        "purl": "pkg:maven/org.springframework.integration/spring-integration-mail@5.5.20-tuxcare.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.5.20-tuxcare.6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.springframework.integration:spring-integration-mongodb",
+        "purl": "pkg:maven/org.springframework.integration/spring-integration-mongodb@5.5.20-tuxcare.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.5.20-tuxcare.6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.springframework.integration:spring-integration-mqtt",
+        "purl": "pkg:maven/org.springframework.integration/spring-integration-mqtt@5.5.20-tuxcare.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.5.20-tuxcare.6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.springframework.integration:spring-integration-r2dbc",
+        "purl": "pkg:maven/org.springframework.integration/spring-integration-r2dbc@5.5.20-tuxcare.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.5.20-tuxcare.6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.springframework.integration:spring-integration-redis",
+        "purl": "pkg:maven/org.springframework.integration/spring-integration-redis@5.5.20-tuxcare.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.5.20-tuxcare.6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.springframework.integration:spring-integration-rmi",
+        "purl": "pkg:maven/org.springframework.integration/spring-integration-rmi@5.5.20-tuxcare.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.5.20-tuxcare.6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.springframework.integration:spring-integration-rsocket",
+        "purl": "pkg:maven/org.springframework.integration/spring-integration-rsocket@5.5.20-tuxcare.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.5.20-tuxcare.6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.springframework.integration:spring-integration-scripting",
+        "purl": "pkg:maven/org.springframework.integration/spring-integration-scripting@5.5.20-tuxcare.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.5.20-tuxcare.6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.springframework.integration:spring-integration-security",
+        "purl": "pkg:maven/org.springframework.integration/spring-integration-security@5.5.20-tuxcare.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.5.20-tuxcare.6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.springframework.integration:spring-integration-sftp",
+        "purl": "pkg:maven/org.springframework.integration/spring-integration-sftp@5.5.20-tuxcare.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.5.20-tuxcare.6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.springframework.integration:spring-integration-stomp",
+        "purl": "pkg:maven/org.springframework.integration/spring-integration-stomp@5.5.20-tuxcare.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.5.20-tuxcare.6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.springframework.integration:spring-integration-stream",
+        "purl": "pkg:maven/org.springframework.integration/spring-integration-stream@5.5.20-tuxcare.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.5.20-tuxcare.6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.springframework.integration:spring-integration-syslog",
+        "purl": "pkg:maven/org.springframework.integration/spring-integration-syslog@5.5.20-tuxcare.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.5.20-tuxcare.6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.springframework.integration:spring-integration-test",
+        "purl": "pkg:maven/org.springframework.integration/spring-integration-test@5.5.20-tuxcare.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.5.20-tuxcare.6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.springframework.integration:spring-integration-test-support",
+        "purl": "pkg:maven/org.springframework.integration/spring-integration-test-support@5.5.20-tuxcare.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.5.20-tuxcare.6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.springframework.integration:spring-integration-webflux",
+        "purl": "pkg:maven/org.springframework.integration/spring-integration-webflux@5.5.20-tuxcare.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.5.20-tuxcare.6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.springframework.integration:spring-integration-websocket",
+        "purl": "pkg:maven/org.springframework.integration/spring-integration-websocket@5.5.20-tuxcare.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.5.20-tuxcare.6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.springframework.integration:spring-integration-ws",
+        "purl": "pkg:maven/org.springframework.integration/spring-integration-ws@5.5.20-tuxcare.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.5.20-tuxcare.6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.springframework.integration:spring-integration-xml",
+        "purl": "pkg:maven/org.springframework.integration/spring-integration-xml@5.5.20-tuxcare.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.5.20-tuxcare.6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.springframework.integration:spring-integration-xmpp",
+        "purl": "pkg:maven/org.springframework.integration/spring-integration-xmpp@5.5.20-tuxcare.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.5.20-tuxcare.6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.springframework.integration:spring-integration-zeromq",
+        "purl": "pkg:maven/org.springframework.integration/spring-integration-zeromq@5.5.20-tuxcare.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.5.20-tuxcare.6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.springframework.integration:spring-integration-zookeeper",
+        "purl": "pkg:maven/org.springframework.integration/spring-integration-zookeeper@5.5.20-tuxcare.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.5.20-tuxcare.6"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

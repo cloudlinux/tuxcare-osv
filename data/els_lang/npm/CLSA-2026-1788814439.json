@@ -1,13 +1,11 @@
 {
   "schema_version": "1.8.0",
-  "id": "CLSA-2026-1786362148",
-  "modified": "2026-09-05T10:17:49Z",
-  "published": "2026-08-10T11:42:28Z",
-  "summary": "TuxCare security update for 3 packages (3 CVEs)",
-  "details": "TuxCare rebuilt 3 packages to address 3 CVEs. Fixed in 4.5.5-tuxcare.9.",
+  "id": "CLSA-2026-1788814439",
+  "modified": "2026-09-07T20:53:59Z",
+  "published": "2026-09-07T20:53:59Z",
+  "summary": "TuxCare security update for 4 packages (1 CVE)",
+  "details": "TuxCare rebuilt 4 packages to address 1 CVE. Fixed in 3.2.11-tuxcare.4.",
   "upstream": [
-    "CVE-2024-52011",
-    "CVE-2025-58751",
     "CVE-2026-53571"
   ],
   "affected": [
@@ -15,7 +13,7 @@
       "package": {
         "ecosystem": "TuxCare:npm",
         "name": "@vitejs/plugin-legacy",
-        "purl": "pkg:npm/%40vitejs/plugin-legacy@4.5.5-tuxcare.9"
+        "purl": "pkg:npm/%40vitejs/plugin-legacy@3.2.11-tuxcare.4"
       },
       "ranges": [
         {
@@ -25,7 +23,27 @@
               "introduced": "0"
             },
             {
-              "fixed": "4.5.5-tuxcare.9"
+              "fixed": "3.2.11-tuxcare.4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "@vitejs/plugin-react",
+        "purl": "pkg:npm/%40vitejs/plugin-react@3.2.11-tuxcare.4"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.2.11-tuxcare.4"
             }
           ]
         }
@@ -35,7 +53,7 @@
       "package": {
         "ecosystem": "TuxCare:npm",
         "name": "create-vite",
-        "purl": "pkg:npm/create-vite@4.5.5-tuxcare.9"
+        "purl": "pkg:npm/create-vite@3.2.11-tuxcare.4"
       },
       "ranges": [
         {
@@ -45,7 +63,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "4.5.5-tuxcare.9"
+              "fixed": "3.2.11-tuxcare.4"
             }
           ]
         }
@@ -55,7 +73,7 @@
       "package": {
         "ecosystem": "TuxCare:npm",
         "name": "vite",
-        "purl": "pkg:npm/vite@4.5.5-tuxcare.9"
+        "purl": "pkg:npm/vite@3.2.11-tuxcare.4"
       },
       "ranges": [
         {
@@ -65,7 +83,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "4.5.5-tuxcare.9"
+              "fixed": "3.2.11-tuxcare.4"
             }
           ]
         }
