@@ -1,0 +1,38 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1789052249",
+  "modified": "2026-09-10T14:57:29Z",
+  "published": "2026-09-10T14:57:29Z",
+  "summary": "TuxCare security update for nodemailer (6 CVEs)",
+  "details": "TuxCare rebuilt nodemailer to address 6 CVEs. Fixed in 6.10.1-tuxcare.9.",
+  "upstream": [
+    "CVE-2026-82659",
+    "CVE-2026-82660",
+    "CVE-2026-82661",
+    "CVE-2026-82662",
+    "CVE-2026-82853",
+    "CVE-2026-82854"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "nodemailer",
+        "purl": "pkg:npm/nodemailer@6.10.1-tuxcare.9"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "6.10.1-tuxcare.9"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
