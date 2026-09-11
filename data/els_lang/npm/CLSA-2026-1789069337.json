@@ -1,0 +1,54 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1789069337",
+  "modified": "2026-09-10T19:42:17Z",
+  "published": "2026-09-10T19:42:17Z",
+  "summary": "TuxCare security update for 2 packages (2 CVEs)",
+  "details": "TuxCare rebuilt 2 packages to address 2 CVEs. Fixed in 5.0.2-tuxcare.1.",
+  "upstream": [
+    "CVE-2026-35213",
+    "CVE-2026-44974"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "@hapi/content",
+        "purl": "pkg:npm/%40hapi/content@5.0.2-tuxcare.1"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.0.2-tuxcare.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "hapi-content",
+        "purl": "pkg:npm/hapi-content@5.0.2-tuxcare.1"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.0.2-tuxcare.1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
