@@ -1,0 +1,53 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1789160133",
+  "modified": "2026-09-11T20:55:33Z",
+  "published": "2026-09-11T20:55:33Z",
+  "summary": "TuxCare security update for 2 packages (1 CVE)",
+  "details": "TuxCare rebuilt 2 packages to address 1 CVE. Fixed in 5.24.0-tuxcare.1.",
+  "upstream": [
+    "CVE-2026-85061"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "maplibre-gl",
+        "purl": "pkg:npm/maplibre-gl@5.24.0-tuxcare.1"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.24.0-tuxcare.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "maplibre-gl-js",
+        "purl": "pkg:npm/maplibre-gl-js@5.24.0-tuxcare.1"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.24.0-tuxcare.1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
