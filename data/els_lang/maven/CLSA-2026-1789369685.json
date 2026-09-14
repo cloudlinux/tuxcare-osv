@@ -1,0 +1,53 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1789369685",
+  "modified": "2026-09-14T07:08:05Z",
+  "published": "2026-09-14T07:08:05Z",
+  "summary": "TuxCare security update for org.springframework.graphql (1 CVE)",
+  "details": "TuxCare rebuilt 2 org.springframework.graphql packages to address 1 CVE. Fixed in 1.2.9-tuxcare.6.",
+  "upstream": [
+    "CVE-2026-41856"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.springframework.graphql:spring-graphql",
+        "purl": "pkg:maven/org.springframework.graphql/spring-graphql@1.2.9-tuxcare.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.2.9-tuxcare.6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.springframework.graphql:spring-graphql-test",
+        "purl": "pkg:maven/org.springframework.graphql/spring-graphql-test@1.2.9-tuxcare.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.2.9-tuxcare.6"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
