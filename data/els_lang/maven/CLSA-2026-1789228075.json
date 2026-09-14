@@ -1,14 +1,34 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2026-1789228075",
-  "modified": "2026-09-12T15:47:55Z",
+  "modified": "2026-09-11T13:13:47Z",
   "published": "2026-09-12T15:47:55Z",
   "summary": "TuxCare security update for io.micrometer (1 CVE)",
-  "details": "TuxCare rebuilt 4 io.micrometer packages to address 1 CVE. Fixed in 1.13.15-tuxcare.1.",
+  "details": "TuxCare rebuilt 33 io.micrometer packages to address 1 CVE. Fixed in 1.13.15-tuxcare.1.",
   "upstream": [
     "CVE-2026-40984"
   ],
   "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "io.micrometer:micrometer-bom",
+        "purl": "pkg:maven/io.micrometer/micrometer-bom@1.13.15-tuxcare.1"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.13.15-tuxcare.1"
+            }
+          ]
+        }
+      ]
+    },
     {
       "package": {
         "ecosystem": "TuxCare:Maven",
@@ -72,8 +92,568 @@
     {
       "package": {
         "ecosystem": "TuxCare:Maven",
+        "name": "io.micrometer:micrometer-java11",
+        "purl": "pkg:maven/io.micrometer/micrometer-java11@1.13.15-tuxcare.1"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.13.15-tuxcare.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "io.micrometer:micrometer-jetty11",
+        "purl": "pkg:maven/io.micrometer/micrometer-jetty11@1.13.15-tuxcare.1"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.13.15-tuxcare.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "io.micrometer:micrometer-jetty12",
+        "purl": "pkg:maven/io.micrometer/micrometer-jetty12@1.13.15-tuxcare.1"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.13.15-tuxcare.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
         "name": "io.micrometer:micrometer-observation",
         "purl": "pkg:maven/io.micrometer/micrometer-observation@1.13.15-tuxcare.1"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.13.15-tuxcare.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "io.micrometer:micrometer-observation-test",
+        "purl": "pkg:maven/io.micrometer/micrometer-observation-test@1.13.15-tuxcare.1"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.13.15-tuxcare.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "io.micrometer:micrometer-registry-appoptics",
+        "purl": "pkg:maven/io.micrometer/micrometer-registry-appoptics@1.13.15-tuxcare.1"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.13.15-tuxcare.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "io.micrometer:micrometer-registry-atlas",
+        "purl": "pkg:maven/io.micrometer/micrometer-registry-atlas@1.13.15-tuxcare.1"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.13.15-tuxcare.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "io.micrometer:micrometer-registry-azure-monitor",
+        "purl": "pkg:maven/io.micrometer/micrometer-registry-azure-monitor@1.13.15-tuxcare.1"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.13.15-tuxcare.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "io.micrometer:micrometer-registry-cloudwatch2",
+        "purl": "pkg:maven/io.micrometer/micrometer-registry-cloudwatch2@1.13.15-tuxcare.1"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.13.15-tuxcare.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "io.micrometer:micrometer-registry-datadog",
+        "purl": "pkg:maven/io.micrometer/micrometer-registry-datadog@1.13.15-tuxcare.1"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.13.15-tuxcare.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "io.micrometer:micrometer-registry-dynatrace",
+        "purl": "pkg:maven/io.micrometer/micrometer-registry-dynatrace@1.13.15-tuxcare.1"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.13.15-tuxcare.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "io.micrometer:micrometer-registry-elastic",
+        "purl": "pkg:maven/io.micrometer/micrometer-registry-elastic@1.13.15-tuxcare.1"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.13.15-tuxcare.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "io.micrometer:micrometer-registry-ganglia",
+        "purl": "pkg:maven/io.micrometer/micrometer-registry-ganglia@1.13.15-tuxcare.1"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.13.15-tuxcare.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "io.micrometer:micrometer-registry-graphite",
+        "purl": "pkg:maven/io.micrometer/micrometer-registry-graphite@1.13.15-tuxcare.1"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.13.15-tuxcare.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "io.micrometer:micrometer-registry-health",
+        "purl": "pkg:maven/io.micrometer/micrometer-registry-health@1.13.15-tuxcare.1"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.13.15-tuxcare.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "io.micrometer:micrometer-registry-humio",
+        "purl": "pkg:maven/io.micrometer/micrometer-registry-humio@1.13.15-tuxcare.1"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.13.15-tuxcare.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "io.micrometer:micrometer-registry-influx",
+        "purl": "pkg:maven/io.micrometer/micrometer-registry-influx@1.13.15-tuxcare.1"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.13.15-tuxcare.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "io.micrometer:micrometer-registry-jmx",
+        "purl": "pkg:maven/io.micrometer/micrometer-registry-jmx@1.13.15-tuxcare.1"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.13.15-tuxcare.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "io.micrometer:micrometer-registry-kairos",
+        "purl": "pkg:maven/io.micrometer/micrometer-registry-kairos@1.13.15-tuxcare.1"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.13.15-tuxcare.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "io.micrometer:micrometer-registry-new-relic",
+        "purl": "pkg:maven/io.micrometer/micrometer-registry-new-relic@1.13.15-tuxcare.1"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.13.15-tuxcare.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "io.micrometer:micrometer-registry-opentsdb",
+        "purl": "pkg:maven/io.micrometer/micrometer-registry-opentsdb@1.13.15-tuxcare.1"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.13.15-tuxcare.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "io.micrometer:micrometer-registry-otlp",
+        "purl": "pkg:maven/io.micrometer/micrometer-registry-otlp@1.13.15-tuxcare.1"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.13.15-tuxcare.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "io.micrometer:micrometer-registry-prometheus",
+        "purl": "pkg:maven/io.micrometer/micrometer-registry-prometheus@1.13.15-tuxcare.1"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.13.15-tuxcare.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "io.micrometer:micrometer-registry-prometheus-simpleclient",
+        "purl": "pkg:maven/io.micrometer/micrometer-registry-prometheus-simpleclient@1.13.15-tuxcare.1"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.13.15-tuxcare.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "io.micrometer:micrometer-registry-signalfx",
+        "purl": "pkg:maven/io.micrometer/micrometer-registry-signalfx@1.13.15-tuxcare.1"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.13.15-tuxcare.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "io.micrometer:micrometer-registry-stackdriver",
+        "purl": "pkg:maven/io.micrometer/micrometer-registry-stackdriver@1.13.15-tuxcare.1"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.13.15-tuxcare.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "io.micrometer:micrometer-registry-statsd",
+        "purl": "pkg:maven/io.micrometer/micrometer-registry-statsd@1.13.15-tuxcare.1"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.13.15-tuxcare.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "io.micrometer:micrometer-registry-wavefront",
+        "purl": "pkg:maven/io.micrometer/micrometer-registry-wavefront@1.13.15-tuxcare.1"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.13.15-tuxcare.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "io.micrometer:micrometer-test",
+        "purl": "pkg:maven/io.micrometer/micrometer-test@1.13.15-tuxcare.1"
       },
       "ranges": [
         {
