@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1789448501",
+  "modified": "2026-09-15T05:01:41Z",
+  "published": "2026-09-15T05:01:41Z",
+  "summary": "TuxCare security update for org.apache.commons:commons-lang3 (1 CVE)",
+  "details": "TuxCare rebuilt org.apache.commons:commons-lang3 to address 1 CVE. Fixed in 3.16.0-tuxcare.1.",
+  "upstream": [
+    "CVE-2025-48924"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.apache.commons:commons-lang3",
+        "purl": "pkg:maven/org.apache.commons/commons-lang3@3.16.0-tuxcare.1"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.16.0-tuxcare.1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
