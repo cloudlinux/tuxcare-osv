@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1776213243",
+  "modified": "2026-08-04T14:52:25Z",
+  "published": "2026-08-04T14:52:25Z",
+  "summary": "TuxCare security update for google-cloud-storage (1 CVE)",
+  "details": "TuxCare rebuilt google-cloud-storage to address 1 CVE. Fixed in 2.19.0.post2+tuxcare.",
+  "upstream": [
+    "AIKIDO-2026-10425"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:PyPI",
+        "name": "google-cloud-storage",
+        "purl": "pkg:pypi/google-cloud-storage@2.19.0.post2+tuxcare"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.19.0.post2+tuxcare"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

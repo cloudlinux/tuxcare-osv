@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1789453348",
+  "modified": "2026-09-15T06:22:28Z",
+  "published": "2026-09-15T06:22:28Z",
+  "summary": "TuxCare security update for werkzeug (4 CVEs)",
+  "details": "TuxCare rebuilt werkzeug to address 4 CVEs. Fixed in 2.3.8.post3+tuxcare.",
+  "upstream": [
+    "CVE-2024-49766",
+    "CVE-2024-49767",
+    "CVE-2026-21860",
+    "CVE-2026-27199"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:PyPI",
+        "name": "werkzeug",
+        "purl": "pkg:pypi/werkzeug@2.3.8.post3+tuxcare"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.3.8.post3+tuxcare"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

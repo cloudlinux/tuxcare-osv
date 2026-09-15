@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1789456962",
+  "modified": "2026-09-15T07:22:42Z",
+  "published": "2026-09-15T07:22:42Z",
+  "summary": "TuxCare security update for pydantic (1 CVE)",
+  "details": "TuxCare rebuilt pydantic to address 1 CVE. Fixed in 1.10.0.post1+tuxcare.",
+  "upstream": [
+    "CVE-2024-3772"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:PyPI",
+        "name": "pydantic",
+        "purl": "pkg:pypi/pydantic@1.10.0.post1+tuxcare"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.10.0.post1+tuxcare"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
