@@ -1,22 +1,19 @@
 {
   "schema_version": "1.8.0",
-  "id": "CLSA-2026-1777336766",
-  "modified": "2026-09-11T13:13:47Z",
-  "published": "2026-08-04T14:52:29Z",
-  "summary": "TuxCare security update for org.springframework (4 CVEs)",
-  "details": "TuxCare rebuilt 23 org.springframework packages to address 4 CVEs. Fixed in 5.2.13.RELEASE-tuxcare.4.",
+  "id": "CLSA-2026-1789410116",
+  "modified": "2026-09-14T18:21:56Z",
+  "published": "2026-09-14T18:21:56Z",
+  "summary": "TuxCare security update for org.springframework.security (1 CVE)",
+  "details": "TuxCare rebuilt 21 org.springframework.security packages to address 1 CVE. Fixed in 5.8.16-tuxcare.15.",
   "upstream": [
-    "CVE-2021-22060",
-    "CVE-2021-22096",
-    "CVE-2023-20863",
-    "CVE-2024-38808"
+    "CVE-2026-59270"
   ],
   "affected": [
     {
       "package": {
         "ecosystem": "TuxCare:Maven",
-        "name": "org.springframework:spring",
-        "purl": "pkg:maven/org.springframework/spring@5.2.13.RELEASE-tuxcare.4"
+        "name": "org.springframework.security:spring-security-acl",
+        "purl": "pkg:maven/org.springframework.security/spring-security-acl@5.8.16-tuxcare.15"
       },
       "ranges": [
         {
@@ -26,7 +23,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "5.2.13.RELEASE-tuxcare.4"
+              "fixed": "5.8.16-tuxcare.15"
             }
           ]
         }
@@ -35,8 +32,8 @@
     {
       "package": {
         "ecosystem": "TuxCare:Maven",
-        "name": "org.springframework:spring-aop",
-        "purl": "pkg:maven/org.springframework/spring-aop@5.2.13.RELEASE-tuxcare.4"
+        "name": "org.springframework.security:spring-security-aspects",
+        "purl": "pkg:maven/org.springframework.security/spring-security-aspects@5.8.16-tuxcare.15"
       },
       "ranges": [
         {
@@ -46,7 +43,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "5.2.13.RELEASE-tuxcare.4"
+              "fixed": "5.8.16-tuxcare.15"
             }
           ]
         }
@@ -55,8 +52,8 @@
     {
       "package": {
         "ecosystem": "TuxCare:Maven",
-        "name": "org.springframework:spring-aspects",
-        "purl": "pkg:maven/org.springframework/spring-aspects@5.2.13.RELEASE-tuxcare.4"
+        "name": "org.springframework.security:spring-security-bom",
+        "purl": "pkg:maven/org.springframework.security/spring-security-bom@5.8.16-tuxcare.15"
       },
       "ranges": [
         {
@@ -66,7 +63,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "5.2.13.RELEASE-tuxcare.4"
+              "fixed": "5.8.16-tuxcare.15"
             }
           ]
         }
@@ -75,8 +72,8 @@
     {
       "package": {
         "ecosystem": "TuxCare:Maven",
-        "name": "org.springframework:spring-beans",
-        "purl": "pkg:maven/org.springframework/spring-beans@5.2.13.RELEASE-tuxcare.4"
+        "name": "org.springframework.security:spring-security-cas",
+        "purl": "pkg:maven/org.springframework.security/spring-security-cas@5.8.16-tuxcare.15"
       },
       "ranges": [
         {
@@ -86,7 +83,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "5.2.13.RELEASE-tuxcare.4"
+              "fixed": "5.8.16-tuxcare.15"
             }
           ]
         }
@@ -95,8 +92,8 @@
     {
       "package": {
         "ecosystem": "TuxCare:Maven",
-        "name": "org.springframework:spring-context",
-        "purl": "pkg:maven/org.springframework/spring-context@5.2.13.RELEASE-tuxcare.4"
+        "name": "org.springframework.security:spring-security-config",
+        "purl": "pkg:maven/org.springframework.security/spring-security-config@5.8.16-tuxcare.15"
       },
       "ranges": [
         {
@@ -106,7 +103,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "5.2.13.RELEASE-tuxcare.4"
+              "fixed": "5.8.16-tuxcare.15"
             }
           ]
         }
@@ -115,8 +112,8 @@
     {
       "package": {
         "ecosystem": "TuxCare:Maven",
-        "name": "org.springframework:spring-context-indexer",
-        "purl": "pkg:maven/org.springframework/spring-context-indexer@5.2.13.RELEASE-tuxcare.4"
+        "name": "org.springframework.security:spring-security-core",
+        "purl": "pkg:maven/org.springframework.security/spring-security-core@5.8.16-tuxcare.15"
       },
       "ranges": [
         {
@@ -126,7 +123,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "5.2.13.RELEASE-tuxcare.4"
+              "fixed": "5.8.16-tuxcare.15"
             }
           ]
         }
@@ -135,8 +132,8 @@
     {
       "package": {
         "ecosystem": "TuxCare:Maven",
-        "name": "org.springframework:spring-context-support",
-        "purl": "pkg:maven/org.springframework/spring-context-support@5.2.13.RELEASE-tuxcare.4"
+        "name": "org.springframework.security:spring-security-crypto",
+        "purl": "pkg:maven/org.springframework.security/spring-security-crypto@5.8.16-tuxcare.15"
       },
       "ranges": [
         {
@@ -146,7 +143,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "5.2.13.RELEASE-tuxcare.4"
+              "fixed": "5.8.16-tuxcare.15"
             }
           ]
         }
@@ -155,8 +152,8 @@
     {
       "package": {
         "ecosystem": "TuxCare:Maven",
-        "name": "org.springframework:spring-core",
-        "purl": "pkg:maven/org.springframework/spring-core@5.2.13.RELEASE-tuxcare.4"
+        "name": "org.springframework.security:spring-security-data",
+        "purl": "pkg:maven/org.springframework.security/spring-security-data@5.8.16-tuxcare.15"
       },
       "ranges": [
         {
@@ -166,7 +163,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "5.2.13.RELEASE-tuxcare.4"
+              "fixed": "5.8.16-tuxcare.15"
             }
           ]
         }
@@ -175,8 +172,8 @@
     {
       "package": {
         "ecosystem": "TuxCare:Maven",
-        "name": "org.springframework:spring-expression",
-        "purl": "pkg:maven/org.springframework/spring-expression@5.2.13.RELEASE-tuxcare.4"
+        "name": "org.springframework.security:spring-security-ldap",
+        "purl": "pkg:maven/org.springframework.security/spring-security-ldap@5.8.16-tuxcare.15"
       },
       "ranges": [
         {
@@ -186,7 +183,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "5.2.13.RELEASE-tuxcare.4"
+              "fixed": "5.8.16-tuxcare.15"
             }
           ]
         }
@@ -195,8 +192,8 @@
     {
       "package": {
         "ecosystem": "TuxCare:Maven",
-        "name": "org.springframework:spring-framework-bom",
-        "purl": "pkg:maven/org.springframework/spring-framework-bom@5.2.13.RELEASE-tuxcare.4"
+        "name": "org.springframework.security:spring-security-messaging",
+        "purl": "pkg:maven/org.springframework.security/spring-security-messaging@5.8.16-tuxcare.15"
       },
       "ranges": [
         {
@@ -206,7 +203,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "5.2.13.RELEASE-tuxcare.4"
+              "fixed": "5.8.16-tuxcare.15"
             }
           ]
         }
@@ -215,8 +212,8 @@
     {
       "package": {
         "ecosystem": "TuxCare:Maven",
-        "name": "org.springframework:spring-instrument",
-        "purl": "pkg:maven/org.springframework/spring-instrument@5.2.13.RELEASE-tuxcare.4"
+        "name": "org.springframework.security:spring-security-oauth2-client",
+        "purl": "pkg:maven/org.springframework.security/spring-security-oauth2-client@5.8.16-tuxcare.15"
       },
       "ranges": [
         {
@@ -226,7 +223,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "5.2.13.RELEASE-tuxcare.4"
+              "fixed": "5.8.16-tuxcare.15"
             }
           ]
         }
@@ -235,8 +232,8 @@
     {
       "package": {
         "ecosystem": "TuxCare:Maven",
-        "name": "org.springframework:spring-jcl",
-        "purl": "pkg:maven/org.springframework/spring-jcl@5.2.13.RELEASE-tuxcare.4"
+        "name": "org.springframework.security:spring-security-oauth2-core",
+        "purl": "pkg:maven/org.springframework.security/spring-security-oauth2-core@5.8.16-tuxcare.15"
       },
       "ranges": [
         {
@@ -246,7 +243,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "5.2.13.RELEASE-tuxcare.4"
+              "fixed": "5.8.16-tuxcare.15"
             }
           ]
         }
@@ -255,8 +252,8 @@
     {
       "package": {
         "ecosystem": "TuxCare:Maven",
-        "name": "org.springframework:spring-jdbc",
-        "purl": "pkg:maven/org.springframework/spring-jdbc@5.2.13.RELEASE-tuxcare.4"
+        "name": "org.springframework.security:spring-security-oauth2-jose",
+        "purl": "pkg:maven/org.springframework.security/spring-security-oauth2-jose@5.8.16-tuxcare.15"
       },
       "ranges": [
         {
@@ -266,7 +263,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "5.2.13.RELEASE-tuxcare.4"
+              "fixed": "5.8.16-tuxcare.15"
             }
           ]
         }
@@ -275,8 +272,8 @@
     {
       "package": {
         "ecosystem": "TuxCare:Maven",
-        "name": "org.springframework:spring-jms",
-        "purl": "pkg:maven/org.springframework/spring-jms@5.2.13.RELEASE-tuxcare.4"
+        "name": "org.springframework.security:spring-security-oauth2-resource-server",
+        "purl": "pkg:maven/org.springframework.security/spring-security-oauth2-resource-server@5.8.16-tuxcare.15"
       },
       "ranges": [
         {
@@ -286,7 +283,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "5.2.13.RELEASE-tuxcare.4"
+              "fixed": "5.8.16-tuxcare.15"
             }
           ]
         }
@@ -295,8 +292,8 @@
     {
       "package": {
         "ecosystem": "TuxCare:Maven",
-        "name": "org.springframework:spring-messaging",
-        "purl": "pkg:maven/org.springframework/spring-messaging@5.2.13.RELEASE-tuxcare.4"
+        "name": "org.springframework.security:spring-security-openid",
+        "purl": "pkg:maven/org.springframework.security/spring-security-openid@5.8.16-tuxcare.15"
       },
       "ranges": [
         {
@@ -306,7 +303,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "5.2.13.RELEASE-tuxcare.4"
+              "fixed": "5.8.16-tuxcare.15"
             }
           ]
         }
@@ -315,8 +312,8 @@
     {
       "package": {
         "ecosystem": "TuxCare:Maven",
-        "name": "org.springframework:spring-orm",
-        "purl": "pkg:maven/org.springframework/spring-orm@5.2.13.RELEASE-tuxcare.4"
+        "name": "org.springframework.security:spring-security-remoting",
+        "purl": "pkg:maven/org.springframework.security/spring-security-remoting@5.8.16-tuxcare.15"
       },
       "ranges": [
         {
@@ -326,7 +323,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "5.2.13.RELEASE-tuxcare.4"
+              "fixed": "5.8.16-tuxcare.15"
             }
           ]
         }
@@ -335,8 +332,8 @@
     {
       "package": {
         "ecosystem": "TuxCare:Maven",
-        "name": "org.springframework:spring-oxm",
-        "purl": "pkg:maven/org.springframework/spring-oxm@5.2.13.RELEASE-tuxcare.4"
+        "name": "org.springframework.security:spring-security-rsocket",
+        "purl": "pkg:maven/org.springframework.security/spring-security-rsocket@5.8.16-tuxcare.15"
       },
       "ranges": [
         {
@@ -346,7 +343,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "5.2.13.RELEASE-tuxcare.4"
+              "fixed": "5.8.16-tuxcare.15"
             }
           ]
         }
@@ -355,8 +352,8 @@
     {
       "package": {
         "ecosystem": "TuxCare:Maven",
-        "name": "org.springframework:spring-test",
-        "purl": "pkg:maven/org.springframework/spring-test@5.2.13.RELEASE-tuxcare.4"
+        "name": "org.springframework.security:spring-security-saml2-service-provider",
+        "purl": "pkg:maven/org.springframework.security/spring-security-saml2-service-provider@5.8.16-tuxcare.15"
       },
       "ranges": [
         {
@@ -366,7 +363,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "5.2.13.RELEASE-tuxcare.4"
+              "fixed": "5.8.16-tuxcare.15"
             }
           ]
         }
@@ -375,8 +372,8 @@
     {
       "package": {
         "ecosystem": "TuxCare:Maven",
-        "name": "org.springframework:spring-tx",
-        "purl": "pkg:maven/org.springframework/spring-tx@5.2.13.RELEASE-tuxcare.4"
+        "name": "org.springframework.security:spring-security-taglibs",
+        "purl": "pkg:maven/org.springframework.security/spring-security-taglibs@5.8.16-tuxcare.15"
       },
       "ranges": [
         {
@@ -386,7 +383,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "5.2.13.RELEASE-tuxcare.4"
+              "fixed": "5.8.16-tuxcare.15"
             }
           ]
         }
@@ -395,8 +392,8 @@
     {
       "package": {
         "ecosystem": "TuxCare:Maven",
-        "name": "org.springframework:spring-web",
-        "purl": "pkg:maven/org.springframework/spring-web@5.2.13.RELEASE-tuxcare.4"
+        "name": "org.springframework.security:spring-security-test",
+        "purl": "pkg:maven/org.springframework.security/spring-security-test@5.8.16-tuxcare.15"
       },
       "ranges": [
         {
@@ -406,7 +403,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "5.2.13.RELEASE-tuxcare.4"
+              "fixed": "5.8.16-tuxcare.15"
             }
           ]
         }
@@ -415,8 +412,8 @@
     {
       "package": {
         "ecosystem": "TuxCare:Maven",
-        "name": "org.springframework:spring-webflux",
-        "purl": "pkg:maven/org.springframework/spring-webflux@5.2.13.RELEASE-tuxcare.4"
+        "name": "org.springframework.security:spring-security-web",
+        "purl": "pkg:maven/org.springframework.security/spring-security-web@5.8.16-tuxcare.15"
       },
       "ranges": [
         {
@@ -426,47 +423,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "5.2.13.RELEASE-tuxcare.4"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "TuxCare:Maven",
-        "name": "org.springframework:spring-webmvc",
-        "purl": "pkg:maven/org.springframework/spring-webmvc@5.2.13.RELEASE-tuxcare.4"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "5.2.13.RELEASE-tuxcare.4"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "TuxCare:Maven",
-        "name": "org.springframework:spring-websocket",
-        "purl": "pkg:maven/org.springframework/spring-websocket@5.2.13.RELEASE-tuxcare.4"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "5.2.13.RELEASE-tuxcare.4"
+              "fixed": "5.8.16-tuxcare.15"
             }
           ]
         }
