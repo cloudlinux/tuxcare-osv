@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1789553842",
+  "modified": "2026-09-16T10:17:22Z",
+  "published": "2026-09-16T10:17:22Z",
+  "summary": "TuxCare security update for orjson (1 CVE)",
+  "details": "TuxCare rebuilt orjson to address 1 CVE. Fixed in 3.8.5.post3+tuxcare.",
+  "upstream": [
+    "CVE-2025-67221"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:PyPI",
+        "name": "orjson",
+        "purl": "pkg:pypi/orjson@3.8.5.post3+tuxcare"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.8.5.post3+tuxcare"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
