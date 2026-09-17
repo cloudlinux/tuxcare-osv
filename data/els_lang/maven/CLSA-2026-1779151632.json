@@ -1,10 +1,10 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2026-1779151632",
-  "modified": "2026-08-10T13:08:18Z",
+  "modified": "2026-09-15T20:03:06Z",
   "published": "2026-08-04T14:52:32Z",
-  "summary": "TuxCare security update for 75 packages (5 CVEs)",
-  "details": "TuxCare rebuilt 75 packages to address 5 CVEs. Fixed in 9.4.24.v20191120-tuxcare.2.",
+  "summary": "TuxCare security update for 88 packages (5 CVEs)",
+  "details": "TuxCare rebuilt 88 packages to address 5 CVEs. Fixed in 9.4.24.v20191120-tuxcare.2.",
   "upstream": [
     "CVE-2021-28165",
     "CVE-2023-26049",
@@ -13,6 +13,26 @@
     "CVE-2025-5115"
   ],
   "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.eclipse.jetty.aggregate:jetty-all",
+        "purl": "pkg:maven/org.eclipse.jetty.aggregate/jetty-all@9.4.24.v20191120-tuxcare.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "9.4.24.v20191120-tuxcare.2"
+            }
+          ]
+        }
+      ]
+    },
     {
       "package": {
         "ecosystem": "TuxCare:Maven",
@@ -36,8 +56,48 @@
     {
       "package": {
         "ecosystem": "TuxCare:Maven",
+        "name": "org.eclipse.jetty.fcgi:fcgi-parent",
+        "purl": "pkg:maven/org.eclipse.jetty.fcgi/fcgi-parent@9.4.24.v20191120-tuxcare.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "9.4.24.v20191120-tuxcare.2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
         "name": "org.eclipse.jetty.fcgi:fcgi-server",
         "purl": "pkg:maven/org.eclipse.jetty.fcgi/fcgi-server@9.4.24.v20191120-tuxcare.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "9.4.24.v20191120-tuxcare.2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.eclipse.jetty.gcloud:gcloud-parent",
+        "purl": "pkg:maven/org.eclipse.jetty.gcloud/gcloud-parent@9.4.24.v20191120-tuxcare.2"
       },
       "ranges": [
         {
@@ -216,6 +276,166 @@
     {
       "package": {
         "ecosystem": "TuxCare:Maven",
+        "name": "org.eclipse.jetty.memcached:memcached-parent",
+        "purl": "pkg:maven/org.eclipse.jetty.memcached/memcached-parent@9.4.24.v20191120-tuxcare.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "9.4.24.v20191120-tuxcare.2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.eclipse.jetty.osgi:jetty-httpservice",
+        "purl": "pkg:maven/org.eclipse.jetty.osgi/jetty-httpservice@9.4.24.v20191120-tuxcare.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "9.4.24.v20191120-tuxcare.2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.eclipse.jetty.osgi:jetty-osgi-alpn",
+        "purl": "pkg:maven/org.eclipse.jetty.osgi/jetty-osgi-alpn@9.4.24.v20191120-tuxcare.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "9.4.24.v20191120-tuxcare.2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.eclipse.jetty.osgi:jetty-osgi-boot",
+        "purl": "pkg:maven/org.eclipse.jetty.osgi/jetty-osgi-boot@9.4.24.v20191120-tuxcare.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "9.4.24.v20191120-tuxcare.2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.eclipse.jetty.osgi:jetty-osgi-boot-jsp",
+        "purl": "pkg:maven/org.eclipse.jetty.osgi/jetty-osgi-boot-jsp@9.4.24.v20191120-tuxcare.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "9.4.24.v20191120-tuxcare.2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.eclipse.jetty.osgi:jetty-osgi-boot-warurl",
+        "purl": "pkg:maven/org.eclipse.jetty.osgi/jetty-osgi-boot-warurl@9.4.24.v20191120-tuxcare.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "9.4.24.v20191120-tuxcare.2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.eclipse.jetty.osgi:jetty-osgi-project",
+        "purl": "pkg:maven/org.eclipse.jetty.osgi/jetty-osgi-project@9.4.24.v20191120-tuxcare.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "9.4.24.v20191120-tuxcare.2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.eclipse.jetty.osgi:test-jetty-osgi",
+        "purl": "pkg:maven/org.eclipse.jetty.osgi/test-jetty-osgi@9.4.24.v20191120-tuxcare.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "9.4.24.v20191120-tuxcare.2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
         "name": "org.eclipse.jetty.websocket:javax-websocket-client-impl",
         "purl": "pkg:maven/org.eclipse.jetty.websocket/javax-websocket-client-impl@9.4.24.v20191120-tuxcare.2"
       },
@@ -238,6 +458,26 @@
         "ecosystem": "TuxCare:Maven",
         "name": "org.eclipse.jetty.websocket:javax-websocket-server-impl",
         "purl": "pkg:maven/org.eclipse.jetty.websocket/javax-websocket-server-impl@9.4.24.v20191120-tuxcare.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "9.4.24.v20191120-tuxcare.2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.eclipse.jetty.websocket:jetty-websocket-tests",
+        "purl": "pkg:maven/org.eclipse.jetty.websocket/jetty-websocket-tests@9.4.24.v20191120-tuxcare.2"
       },
       "ranges": [
         {
@@ -298,6 +538,26 @@
         "ecosystem": "TuxCare:Maven",
         "name": "org.eclipse.jetty.websocket:websocket-common",
         "purl": "pkg:maven/org.eclipse.jetty.websocket/websocket-common@9.4.24.v20191120-tuxcare.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "9.4.24.v20191120-tuxcare.2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.eclipse.jetty.websocket:websocket-parent",
+        "purl": "pkg:maven/org.eclipse.jetty.websocket/websocket-parent@9.4.24.v20191120-tuxcare.2"
       },
       "ranges": [
         {
