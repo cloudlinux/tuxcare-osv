@@ -1,0 +1,53 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1789900487",
+  "modified": "2026-09-20T10:34:47Z",
+  "published": "2026-09-20T10:34:47Z",
+  "summary": "TuxCare security update for 2 packages (1 CVE)",
+  "details": "TuxCare rebuilt 2 packages to address 1 CVE. Fixed in 0.4.5-tuxcare.1.",
+  "upstream": [
+    "CVE-2016-10538"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "cli",
+        "purl": "pkg:npm/cli@0.4.5-tuxcare.1"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.4.5-tuxcare.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "node-js-libs_cli",
+        "purl": "pkg:npm/node-js-libs_cli@0.4.5-tuxcare.1"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.4.5-tuxcare.1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

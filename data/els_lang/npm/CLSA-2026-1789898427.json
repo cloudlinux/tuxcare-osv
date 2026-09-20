@@ -1,0 +1,53 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1789898427",
+  "modified": "2026-09-20T10:00:27Z",
+  "published": "2026-09-20T10:00:27Z",
+  "summary": "TuxCare security update for 2 packages (1 CVE)",
+  "details": "TuxCare rebuilt 2 packages to address 1 CVE. Fixed in 2.21.3-tuxcare.1.",
+  "upstream": [
+    "CVE-2025-25288"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "@octokit/plugin-paginate-rest",
+        "purl": "pkg:npm/%40octokit/plugin-paginate-rest@2.21.3-tuxcare.1"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.21.3-tuxcare.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "plugin-paginate-rest.js",
+        "purl": "pkg:npm/plugin-paginate-rest.js@2.21.3-tuxcare.1"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.21.3-tuxcare.1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
