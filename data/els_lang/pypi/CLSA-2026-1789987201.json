@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1789987201",
+  "modified": "2026-09-21T10:40:01Z",
+  "published": "2026-09-21T10:40:01Z",
+  "summary": "TuxCare security update for flask (1 CVE)",
+  "details": "TuxCare rebuilt flask to address 1 CVE. Fixed in 2.2.1.post2+tuxcare.",
+  "upstream": [
+    "CVE-2026-27205"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:PyPI",
+        "name": "flask",
+        "purl": "pkg:pypi/flask@2.2.1.post2+tuxcare"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.2.1.post2+tuxcare"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
