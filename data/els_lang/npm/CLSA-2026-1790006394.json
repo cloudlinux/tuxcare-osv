@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1790006394",
+  "modified": "2026-09-21T15:59:54Z",
+  "published": "2026-09-21T15:59:54Z",
+  "summary": "TuxCare security update for colord (1 CVE)",
+  "details": "TuxCare rebuilt colord to address 1 CVE. Fixed in 2.9.3-tuxcare.1.",
+  "upstream": [
+    "CVE-2026-85062"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "colord",
+        "purl": "pkg:npm/colord@2.9.3-tuxcare.1"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.9.3-tuxcare.1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

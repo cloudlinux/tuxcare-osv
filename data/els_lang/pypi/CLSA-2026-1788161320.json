@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1788161320",
+  "modified": "2026-09-21T14:40:32Z",
+  "published": "2026-09-21T14:40:32Z",
+  "summary": "TuxCare security update for pip (4 CVEs)",
+  "details": "TuxCare rebuilt pip to address 4 CVEs. Fixed in 9.0.0.post2+tuxcare.",
+  "upstream": [
+    "CVE-2021-3572",
+    "CVE-2023-5752",
+    "CVE-2025-8869",
+    "CVE-2026-8643"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:PyPI",
+        "name": "pip",
+        "purl": "pkg:pypi/pip@9.0.0.post2+tuxcare"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "9.0.0.post2+tuxcare"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
