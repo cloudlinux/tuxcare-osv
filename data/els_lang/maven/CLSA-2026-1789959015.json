@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1789959015",
+  "modified": "2026-09-21T02:50:15Z",
+  "published": "2026-09-21T02:50:15Z",
+  "summary": "TuxCare security update for org.springframework.ldap:spring-ldap-core (1 CVE)",
+  "details": "TuxCare rebuilt org.springframework.ldap:spring-ldap-core to address 1 CVE. Fixed in 2.3.1.RELEASE-tuxcare.1.",
+  "upstream": [
+    "CVE-2026-41720"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.springframework.ldap:spring-ldap-core",
+        "purl": "pkg:maven/org.springframework.ldap/spring-ldap-core@2.3.1.RELEASE-tuxcare.1"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.3.1.RELEASE-tuxcare.1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
