@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1790104586",
+  "modified": "2026-09-22T19:16:26Z",
+  "published": "2026-09-22T19:16:26Z",
+  "summary": "TuxCare security update for pac-resolver (1 CVE)",
+  "details": "TuxCare rebuilt pac-resolver to address 1 CVE. Fixed in 4.2.0-tuxcare.1.",
+  "upstream": [
+    "CVE-2021-23406"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "pac-resolver",
+        "purl": "pkg:npm/pac-resolver@4.2.0-tuxcare.1"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.2.0-tuxcare.1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
