@@ -1,10 +1,10 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2026-1787728788",
-  "modified": "2026-08-26T07:19:48Z",
+  "modified": "2026-09-19T11:40:04Z",
   "published": "2026-08-26T07:19:48Z",
   "summary": "TuxCare security update for org.springframework (9 CVEs)",
-  "details": "TuxCare rebuilt 25 org.springframework packages to address 9 CVEs. Fixed in 6.2.13-tuxcare.1.",
+  "details": "TuxCare rebuilt 26 org.springframework packages to address 9 CVEs. Fixed in 6.2.13-tuxcare.1.",
   "upstream": [
     "CVE-2026-22737",
     "CVE-2026-22740",
@@ -17,6 +17,26 @@
     "CVE-2026-41854"
   ],
   "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.springframework:framework-api",
+        "purl": "pkg:maven/org.springframework/framework-api@6.2.13-tuxcare.1"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "6.2.13-tuxcare.1"
+            }
+          ]
+        }
+      ]
+    },
     {
       "package": {
         "ecosystem": "TuxCare:Maven",
