@@ -1,10 +1,10 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2026-1776904646",
-  "modified": "2026-09-02T08:03:32Z",
+  "modified": "2026-09-19T11:40:04Z",
   "published": "2026-08-04T14:52:28Z",
-  "summary": "TuxCare security update for 9 packages (4 CVEs)",
-  "details": "TuxCare rebuilt 9 packages to address 4 CVEs. Fixed in 4.5.0-tuxcare.5.",
+  "summary": "TuxCare security update for 10 packages (4 CVEs)",
+  "details": "TuxCare rebuilt 10 packages to address 4 CVEs. Fixed in 4.5.0-tuxcare.5.",
   "upstream": [
     "CVE-2018-16487",
     "CVE-2019-10744",
@@ -97,6 +97,26 @@
         "ecosystem": "TuxCare:npm",
         "name": "lodash.difference",
         "purl": "pkg:npm/lodash.difference@4.5.0-tuxcare.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.5.0-tuxcare.5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "lodash.flatmap",
+        "purl": "pkg:npm/lodash.flatmap@4.5.0-tuxcare.5"
       },
       "ranges": [
         {
