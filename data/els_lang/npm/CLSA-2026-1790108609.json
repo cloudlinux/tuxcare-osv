@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1790108609",
+  "modified": "2026-09-22T20:23:29Z",
+  "published": "2026-09-22T20:23:29Z",
+  "summary": "TuxCare security update for morgan (1 CVE)",
+  "details": "TuxCare rebuilt morgan to address 1 CVE. Fixed in 1.5.3-tuxcare.3.",
+  "upstream": [
+    "CVE-2026-15603"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "morgan",
+        "purl": "pkg:npm/morgan@1.5.3-tuxcare.3"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.5.3-tuxcare.3"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,10 +1,10 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2026-1789663751",
-  "modified": "2026-09-17T16:49:11Z",
+  "modified": "2026-09-19T11:40:04Z",
   "published": "2026-09-17T16:49:11Z",
   "summary": "TuxCare security update for org.springframework.ws (2 CVEs)",
-  "details": "TuxCare rebuilt 6 org.springframework.ws packages to address 2 CVEs. Fixed in 4.0.14-tuxcare.1.",
+  "details": "TuxCare rebuilt 7 org.springframework.ws packages to address 2 CVEs. Fixed in 4.0.14-tuxcare.1.",
   "upstream": [
     "CVE-2026-40998",
     "CVE-2026-40999"
@@ -35,6 +35,26 @@
         "ecosystem": "TuxCare:Maven",
         "name": "org.springframework.ws:spring-ws-core",
         "purl": "pkg:maven/org.springframework.ws/spring-ws-core@4.0.14-tuxcare.1"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.0.14-tuxcare.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.springframework.ws:spring-ws-docs",
+        "purl": "pkg:maven/org.springframework.ws/spring-ws-docs@4.0.14-tuxcare.1"
       },
       "ranges": [
         {
