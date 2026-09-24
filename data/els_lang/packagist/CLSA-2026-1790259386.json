@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1790259386",
+  "modified": "2026-09-24T14:16:26Z",
+  "published": "2026-09-24T14:16:26Z",
+  "summary": "TuxCare security update for mongodb/mongodb (1 CVE)",
+  "details": "TuxCare rebuilt mongodb/mongodb to address 1 CVE. Fixed in 1.9.0-p1+tuxcare.",
+  "upstream": [
+    "CVE-2026-81525"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Packagist",
+        "name": "mongodb/mongodb",
+        "purl": "pkg:composer/mongodb/mongodb@1.9.0-p1+tuxcare"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.9.0-p1+tuxcare"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
