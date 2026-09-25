@@ -1,10 +1,10 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2026-1789213301",
-  "modified": "2026-09-12T11:41:41Z",
+  "modified": "2026-09-25T09:41:08Z",
   "published": "2026-09-12T11:41:41Z",
   "summary": "TuxCare security update for org.bouncycastle (1 CVE)",
-  "details": "TuxCare rebuilt 38 org.bouncycastle packages to address 1 CVE. Fixed in 1.78.1-tuxcare.6.",
+  "details": "TuxCare rebuilt 39 org.bouncycastle packages to address 1 CVE. Fixed in 1.78.1-tuxcare.6.",
   "upstream": [
     "CVE-2026-3505"
   ],
@@ -394,6 +394,26 @@
         "ecosystem": "TuxCare:Maven",
         "name": "org.bouncycastle:bcpkix-jdk18on",
         "purl": "pkg:maven/org.bouncycastle/bcpkix-jdk18on@1.78.1-tuxcare.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.78.1-tuxcare.6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.bouncycastle:bcprov-debug-jdk14",
+        "purl": "pkg:maven/org.bouncycastle/bcprov-debug-jdk14@1.78.1-tuxcare.6"
       },
       "ranges": [
         {

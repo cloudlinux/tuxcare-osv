@@ -1,10 +1,10 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2026-1789415252",
-  "modified": "2026-09-14T19:47:32Z",
+  "modified": "2026-09-25T09:41:08Z",
   "published": "2026-09-14T19:47:32Z",
   "summary": "TuxCare security update for org.springframework.ldap (1 CVE)",
-  "details": "TuxCare rebuilt 6 org.springframework.ldap packages to address 1 CVE. Fixed in 2.3.2.RELEASE-tuxcare.1.",
+  "details": "TuxCare rebuilt 10 org.springframework.ldap packages to address 1 CVE. Fixed in 2.3.2.RELEASE-tuxcare.1.",
   "upstream": [
     "CVE-2026-41720"
   ],
@@ -34,6 +34,26 @@
         "ecosystem": "TuxCare:Maven",
         "name": "org.springframework.ldap:spring-ldap-core-tiger",
         "purl": "pkg:maven/org.springframework.ldap/spring-ldap-core-tiger@2.3.2.RELEASE-tuxcare.1"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.3.2.RELEASE-tuxcare.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.springframework.ldap:spring-ldap-integration-tests",
+        "purl": "pkg:maven/org.springframework.ldap/spring-ldap-integration-tests@2.3.2.RELEASE-tuxcare.1"
       },
       "ranges": [
         {
@@ -94,6 +114,66 @@
         "ecosystem": "TuxCare:Maven",
         "name": "org.springframework.ldap:spring-ldap-odm",
         "purl": "pkg:maven/org.springframework.ldap/spring-ldap-odm@2.3.2.RELEASE-tuxcare.1"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.3.2.RELEASE-tuxcare.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.springframework.ldap:spring-ldap-odm-sample",
+        "purl": "pkg:maven/org.springframework.ldap/spring-ldap-odm-sample@2.3.2.RELEASE-tuxcare.1"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.3.2.RELEASE-tuxcare.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.springframework.ldap:spring-ldap-plain-sample",
+        "purl": "pkg:maven/org.springframework.ldap/spring-ldap-plain-sample@2.3.2.RELEASE-tuxcare.1"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.3.2.RELEASE-tuxcare.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.springframework.ldap:spring-ldap-sandbox",
+        "purl": "pkg:maven/org.springframework.ldap/spring-ldap-sandbox@2.3.2.RELEASE-tuxcare.1"
       },
       "ranges": [
         {
