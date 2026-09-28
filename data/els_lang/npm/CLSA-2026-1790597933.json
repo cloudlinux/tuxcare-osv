@@ -1,0 +1,34 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1790597933",
+  "modified": "2026-09-28T12:18:53Z",
+  "published": "2026-09-28T12:18:53Z",
+  "summary": "TuxCare security update for fast-xml-parser (2 CVEs)",
+  "details": "TuxCare rebuilt fast-xml-parser to address 2 CVEs. Fixed in 4.5.1-tuxcare.4.",
+  "upstream": [
+    "CVE-2026-26278",
+    "CVE-2026-41650"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "fast-xml-parser",
+        "purl": "pkg:npm/fast-xml-parser@4.5.1-tuxcare.4"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.5.1-tuxcare.4"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
