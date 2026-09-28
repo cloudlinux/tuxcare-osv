@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1790541837",
+  "modified": "2026-09-27T20:43:57Z",
+  "published": "2026-09-27T20:43:57Z",
+  "summary": "TuxCare security update for json-bigint (1 CVE)",
+  "details": "TuxCare rebuilt json-bigint to address 1 CVE. Fixed in 0.3.1-tuxcare.1.",
+  "upstream": [
+    "CVE-2020-8237"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "json-bigint",
+        "purl": "pkg:npm/json-bigint@0.3.1-tuxcare.1"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.3.1-tuxcare.1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
