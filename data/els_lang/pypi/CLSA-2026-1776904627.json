@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1776904627",
+  "modified": "2026-08-04T14:52:27Z",
+  "published": "2026-08-04T14:52:27Z",
+  "summary": "TuxCare security update for lightgbm (1 CVE)",
+  "details": "TuxCare rebuilt lightgbm to address 1 CVE. Fixed in 3.3.5.post1+tuxcare.",
+  "upstream": [
+    "CVE-2024-43598"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:PyPI",
+        "name": "lightgbm",
+        "purl": "pkg:pypi/lightgbm@3.3.5.post1+tuxcare"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.3.5.post1+tuxcare"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
