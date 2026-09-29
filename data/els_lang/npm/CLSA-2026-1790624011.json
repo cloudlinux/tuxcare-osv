@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1790624011",
+  "modified": "2026-09-28T19:33:31Z",
+  "published": "2026-09-28T19:33:31Z",
+  "summary": "TuxCare security update for katex (3 CVEs)",
+  "details": "TuxCare rebuilt katex to address 3 CVEs. Fixed in 0.12.0-tuxcare.1.",
+  "upstream": [
+    "CVE-2024-28245",
+    "CVE-2024-28246",
+    "CVE-2025-23207"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "katex",
+        "purl": "pkg:npm/katex@0.12.0-tuxcare.1"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.12.0-tuxcare.1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
