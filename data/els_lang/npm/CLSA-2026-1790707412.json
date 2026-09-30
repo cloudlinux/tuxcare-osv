@@ -1,0 +1,34 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1790707412",
+  "modified": "2026-09-29T18:43:32Z",
+  "published": "2026-09-29T18:43:32Z",
+  "summary": "TuxCare security update for h3 (2 CVEs)",
+  "details": "TuxCare rebuilt h3 to address 2 CVEs. Fixed in 1.15.3-tuxcare.2.",
+  "upstream": [
+    "GHSA-4hxc-9384-m385",
+    "GHSA-72gr-qfp7-vwhw"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "h3",
+        "purl": "pkg:npm/h3@1.15.3-tuxcare.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.15.3-tuxcare.2"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1790707419",
+  "modified": "2026-09-29T18:43:39Z",
+  "published": "2026-09-29T18:43:39Z",
+  "summary": "TuxCare security update for parse-path (1 CVE)",
+  "details": "TuxCare rebuilt parse-path to address 1 CVE. Fixed in 4.0.1-tuxcare.1.",
+  "upstream": [
+    "CVE-2022-0624"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "parse-path",
+        "purl": "pkg:npm/parse-path@4.0.1-tuxcare.1"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.0.1-tuxcare.1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

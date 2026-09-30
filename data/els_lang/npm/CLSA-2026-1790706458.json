@@ -1,0 +1,53 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1790706458",
+  "modified": "2026-09-29T18:27:38Z",
+  "published": "2026-09-29T18:27:38Z",
+  "summary": "TuxCare security update for @apollo (1 CVE)",
+  "details": "TuxCare rebuilt 2 @apollo packages to address 1 CVE. Fixed in 4.13.0-tuxcare.1.",
+  "upstream": [
+    "GHSA-9q82-xgwf-vj6h"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "@apollo/server",
+        "purl": "pkg:npm/%40apollo/server@4.13.0-tuxcare.1"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.13.0-tuxcare.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "@apollo/server-integration-testsuite",
+        "purl": "pkg:npm/%40apollo/server-integration-testsuite@4.13.0-tuxcare.1"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.13.0-tuxcare.1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
