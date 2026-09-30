@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1790770894",
+  "modified": "2026-09-30T12:21:34Z",
+  "published": "2026-09-30T12:21:34Z",
+  "summary": "TuxCare security update for protobufjs (4 CVEs)",
+  "details": "TuxCare rebuilt protobufjs to address 4 CVEs. Fixed in 6.11.3-tuxcare.1.",
+  "upstream": [
+    "CVE-2026-44290",
+    "CVE-2026-45740",
+    "CVE-2026-48712",
+    "CVE-2026-54269"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "protobufjs",
+        "purl": "pkg:npm/protobufjs@6.11.3-tuxcare.1"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "6.11.3-tuxcare.1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,10 +1,10 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2026-1790247468",
-  "modified": "2026-09-24T10:57:48Z",
+  "modified": "2026-09-28T11:35:33Z",
   "published": "2026-09-24T10:57:48Z",
-  "summary": "TuxCare security update for 30 packages (6 CVEs)",
-  "details": "TuxCare rebuilt 30 packages to address 6 CVEs. Fixed in 7.0.70-tuxcare.5.",
+  "summary": "TuxCare security update for 32 packages (6 CVEs)",
+  "details": "TuxCare rebuilt 32 packages to address 6 CVEs. Fixed in 7.0.70-tuxcare.5.",
   "upstream": [
     "CVE-2017-12617",
     "CVE-2017-5648",
@@ -119,6 +119,46 @@
         "ecosystem": "TuxCare:Maven",
         "name": "org.apache.tomcat.embed:tomcat-embed-websocket",
         "purl": "pkg:maven/org.apache.tomcat.embed/tomcat-embed-websocket@7.0.70-tuxcare.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7.0.70-tuxcare.5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.apache.tomcat.extras:tomcat-extras-juli",
+        "purl": "pkg:maven/org.apache.tomcat.extras/tomcat-extras-juli@7.0.70-tuxcare.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7.0.70-tuxcare.5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.apache.tomcat.extras:tomcat-extras-juli-adapters",
+        "purl": "pkg:maven/org.apache.tomcat.extras/tomcat-extras-juli-adapters@7.0.70-tuxcare.5"
       },
       "ranges": [
         {
