@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1790876846",
+  "modified": "2026-10-01T17:47:26Z",
+  "published": "2026-10-01T17:47:26Z",
+  "summary": "TuxCare security update for got (1 CVE)",
+  "details": "TuxCare rebuilt got to address 1 CVE. Fixed in 7.1.0-tuxcare.1.",
+  "upstream": [
+    "CVE-2022-33987"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "got",
+        "purl": "pkg:npm/got@7.1.0-tuxcare.1"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7.1.0-tuxcare.1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
