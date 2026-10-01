@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1790846524",
+  "modified": "2026-10-01T09:22:04Z",
+  "published": "2026-10-01T09:22:04Z",
+  "summary": "TuxCare security update for tornado (1 CVE)",
+  "details": "TuxCare rebuilt tornado to address 1 CVE. Fixed in 5.1.1.post6+tuxcare.",
+  "upstream": [
+    "GHSA-chx6-46f5-w4vp"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:PyPI",
+        "name": "tornado",
+        "purl": "pkg:pypi/tornado@5.1.1.post6+tuxcare"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.1.1.post6+tuxcare"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
