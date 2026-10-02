@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1790950461",
+  "modified": "2026-10-02T14:14:21Z",
+  "published": "2026-10-02T14:14:21Z",
+  "summary": "TuxCare security update for terser (1 CVE)",
+  "details": "TuxCare rebuilt terser to address 1 CVE. Fixed in 4.8.0-tuxcare.1.",
+  "upstream": [
+    "CVE-2022-25858"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "terser",
+        "purl": "pkg:npm/terser@4.8.0-tuxcare.1"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.8.0-tuxcare.1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
