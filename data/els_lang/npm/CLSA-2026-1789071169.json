@@ -1,10 +1,10 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2026-1789071169",
-  "modified": "2026-09-10T20:12:49Z",
+  "modified": "2026-10-01T18:35:00Z",
   "published": "2026-09-10T20:12:49Z",
   "summary": "TuxCare security update for @babel (1 CVE)",
-  "details": "TuxCare rebuilt 10 @babel packages to address 1 CVE. Fixed in 7.11.5-tuxcare.1.",
+  "details": "TuxCare rebuilt 20 @babel packages to address 1 CVE. Fixed in 7.11.5-tuxcare.1.",
   "upstream": [
     "CVE-2023-45133"
   ],
@@ -12,8 +12,108 @@
     {
       "package": {
         "ecosystem": "TuxCare:npm",
+        "name": "@babel/cli",
+        "purl": "pkg:npm/%40babel/cli@7.11.5-tuxcare.1"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7.11.5-tuxcare.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
         "name": "@babel/core",
         "purl": "pkg:npm/%40babel/core@7.11.5-tuxcare.1"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7.11.5-tuxcare.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "@babel/eslint-parser",
+        "purl": "pkg:npm/%40babel/eslint-parser@7.11.5-tuxcare.1"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7.11.5-tuxcare.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "@babel/eslint-plugin",
+        "purl": "pkg:npm/%40babel/eslint-plugin@7.11.5-tuxcare.1"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7.11.5-tuxcare.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "@babel/generator",
+        "purl": "pkg:npm/%40babel/generator@7.11.5-tuxcare.1"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7.11.5-tuxcare.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "@babel/helper-builder-react-jsx-experimental",
+        "purl": "pkg:npm/%40babel/helper-builder-react-jsx-experimental@7.11.5-tuxcare.1"
       },
       "ranges": [
         {
@@ -72,6 +172,46 @@
     {
       "package": {
         "ecosystem": "TuxCare:npm",
+        "name": "@babel/plugin-proposal-function-bind",
+        "purl": "pkg:npm/%40babel/plugin-proposal-function-bind@7.11.5-tuxcare.1"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7.11.5-tuxcare.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "@babel/plugin-transform-react-jsx-development",
+        "purl": "pkg:npm/%40babel/plugin-transform-react-jsx-development@7.11.5-tuxcare.1"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7.11.5-tuxcare.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
         "name": "@babel/plugin-transform-runtime",
         "purl": "pkg:npm/%40babel/plugin-transform-runtime@7.11.5-tuxcare.1"
       },
@@ -92,8 +232,48 @@
     {
       "package": {
         "ecosystem": "TuxCare:npm",
+        "name": "@babel/polyfill",
+        "purl": "pkg:npm/%40babel/polyfill@7.11.5-tuxcare.1"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7.11.5-tuxcare.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
         "name": "@babel/preset-env",
         "purl": "pkg:npm/%40babel/preset-env@7.11.5-tuxcare.1"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7.11.5-tuxcare.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "@babel/register",
+        "purl": "pkg:npm/%40babel/register@7.11.5-tuxcare.1"
       },
       "ranges": [
         {
@@ -154,6 +334,26 @@
         "ecosystem": "TuxCare:npm",
         "name": "@babel/runtime-corejs3",
         "purl": "pkg:npm/%40babel/runtime-corejs3@7.11.5-tuxcare.1"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7.11.5-tuxcare.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "@babel/standalone",
+        "purl": "pkg:npm/%40babel/standalone@7.11.5-tuxcare.1"
       },
       "ranges": [
         {
