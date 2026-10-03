@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1791028060",
+  "modified": "2026-10-03T11:47:40Z",
+  "published": "2026-10-03T11:47:40Z",
+  "summary": "TuxCare security update for karma (1 CVE)",
+  "details": "TuxCare rebuilt karma to address 1 CVE. Fixed in 5.2.3-tuxcare.1.",
+  "upstream": [
+    "CVE-2021-23495"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "karma",
+        "purl": "pkg:npm/karma@5.2.3-tuxcare.1"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.2.3-tuxcare.1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1791028047",
+  "modified": "2026-10-03T11:47:27Z",
+  "published": "2026-10-03T11:47:27Z",
+  "summary": "TuxCare security update for probe-image-size (1 CVE)",
+  "details": "TuxCare rebuilt probe-image-size to address 1 CVE. Fixed in 7.3.0-tuxcare.1.",
+  "upstream": [
+    "CVE-2026-104861"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "probe-image-size",
+        "purl": "pkg:npm/probe-image-size@7.3.0-tuxcare.1"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7.3.0-tuxcare.1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
