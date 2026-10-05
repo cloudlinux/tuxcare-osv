@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1791199964",
+  "modified": "2026-10-05T11:32:44Z",
+  "published": "2026-10-05T11:32:44Z",
+  "summary": "TuxCare security update for file-type (1 CVE)",
+  "details": "TuxCare rebuilt file-type to address 1 CVE. Fixed in 16.5.4-tuxcare.1.",
+  "upstream": [
+    "CVE-2026-31808"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "file-type",
+        "purl": "pkg:npm/file-type@16.5.4-tuxcare.1"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "16.5.4-tuxcare.1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
