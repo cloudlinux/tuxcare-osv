@@ -1,0 +1,34 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1791225543",
+  "modified": "2026-10-05T18:39:03Z",
+  "published": "2026-10-05T18:39:03Z",
+  "summary": "TuxCare security update for decompress (2 CVEs)",
+  "details": "TuxCare rebuilt decompress to address 2 CVEs. Fixed in 4.2.1-tuxcare.1.",
+  "upstream": [
+    "CVE-2026-10732",
+    "CVE-2026-39243"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "decompress",
+        "purl": "pkg:npm/decompress@4.2.1-tuxcare.1"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.2.1-tuxcare.1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
