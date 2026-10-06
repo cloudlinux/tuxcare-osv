@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1791272933",
+  "modified": "2026-10-06T07:48:53Z",
+  "published": "2026-10-06T07:48:53Z",
+  "summary": "TuxCare security update for pyjwt (3 CVEs)",
+  "details": "TuxCare rebuilt pyjwt to address 3 CVEs. Fixed in 1.7.1.post4+tuxcare.",
+  "upstream": [
+    "CVE-2026-102268",
+    "CVE-2026-102269",
+    "CVE-2026-102270"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:PyPI",
+        "name": "pyjwt",
+        "purl": "pkg:pypi/pyjwt@1.7.1.post4+tuxcare"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.7.1.post4+tuxcare"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

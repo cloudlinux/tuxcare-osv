@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1791282839",
+  "modified": "2026-10-06T10:33:59Z",
+  "published": "2026-10-06T10:33:59Z",
+  "summary": "TuxCare security update for smol-toml (1 CVE)",
+  "details": "TuxCare rebuilt smol-toml to address 1 CVE. Fixed in 1.5.2-tuxcare.2.",
+  "upstream": [
+    "GHSA-r4xh-jqrq-34v2"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "smol-toml",
+        "purl": "pkg:npm/smol-toml@1.5.2-tuxcare.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.5.2-tuxcare.2"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

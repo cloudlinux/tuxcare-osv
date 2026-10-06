@@ -1,0 +1,53 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1791289714",
+  "modified": "2026-10-06T12:28:34Z",
+  "published": "2026-10-06T12:28:34Z",
+  "summary": "TuxCare security update for 2 packages (1 CVE)",
+  "details": "TuxCare rebuilt 2 packages to address 1 CVE. Fixed in 1.5.6-tuxcare.1.",
+  "upstream": [
+    "CVE-2026-104845"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "seroval",
+        "purl": "pkg:npm/seroval@1.5.6-tuxcare.1"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.5.6-tuxcare.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "seroval-plugins",
+        "purl": "pkg:npm/seroval-plugins@1.5.6-tuxcare.1"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.5.6-tuxcare.1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

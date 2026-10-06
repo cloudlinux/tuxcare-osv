@@ -1,0 +1,34 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1791290343",
+  "modified": "2026-10-06T12:39:03Z",
+  "published": "2026-10-06T12:39:03Z",
+  "summary": "TuxCare security update for jsonpath-plus (2 CVEs)",
+  "details": "TuxCare rebuilt jsonpath-plus to address 2 CVEs. Fixed in 4.0.0-tuxcare.1.",
+  "upstream": [
+    "CVE-2024-21534",
+    "CVE-2025-1302"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "jsonpath-plus",
+        "purl": "pkg:npm/jsonpath-plus@4.0.0-tuxcare.1"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.0.0-tuxcare.1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
