@@ -1,10 +1,10 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2026-1776645366",
-  "modified": "2026-09-28T11:35:33Z",
+  "modified": "2026-10-01T18:35:00Z",
   "published": "2026-08-04T14:52:27Z",
-  "summary": "TuxCare security update for 8 packages (1 CVE)",
-  "details": "TuxCare rebuilt 8 packages to address 1 CVE. Fixed in 17.3.17-tuxcare.3.",
+  "summary": "TuxCare security update for 10 packages (1 CVE)",
+  "details": "TuxCare rebuilt 10 packages to address 1 CVE. Fixed in 17.3.17-tuxcare.3.",
   "upstream": [
     "CVE-2026-27739"
   ],
@@ -34,6 +34,46 @@
         "ecosystem": "TuxCare:npm",
         "name": "@angular-devkit/core",
         "purl": "pkg:npm/%40angular-devkit/core@17.3.17-tuxcare.3"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "17.3.17-tuxcare.3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "@angular-devkit/schematics",
+        "purl": "pkg:npm/%40angular-devkit/schematics@17.3.17-tuxcare.3"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "17.3.17-tuxcare.3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "@angular-devkit/schematics-cli",
+        "purl": "pkg:npm/%40angular-devkit/schematics-cli@17.3.17-tuxcare.3"
       },
       "ranges": [
         {
