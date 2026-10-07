@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1791362244",
+  "modified": "2026-10-07T08:37:24Z",
+  "published": "2026-10-07T08:37:24Z",
+  "summary": "TuxCare security update for @hapi/joi (1 CVE)",
+  "details": "TuxCare rebuilt @hapi/joi to address 1 CVE. Fixed in 16.1.8-tuxcare.1.",
+  "upstream": [
+    "CVE-2026-84368"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "@hapi/joi",
+        "purl": "pkg:npm/%40hapi/joi@16.1.8-tuxcare.1"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "16.1.8-tuxcare.1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
