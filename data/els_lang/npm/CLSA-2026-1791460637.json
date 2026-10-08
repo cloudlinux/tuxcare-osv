@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1791460637",
+  "modified": "2026-10-08T11:57:17Z",
+  "published": "2026-10-08T11:57:17Z",
+  "summary": "TuxCare security update for @opentelemetry/propagator-jaeger (1 CVE)",
+  "details": "TuxCare rebuilt @opentelemetry/propagator-jaeger to address 1 CVE. Fixed in 1.30.1-tuxcare.1.",
+  "upstream": [
+    "CVE-2026-59892"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "@opentelemetry/propagator-jaeger",
+        "purl": "pkg:npm/%40opentelemetry/propagator-jaeger@1.30.1-tuxcare.1"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.30.1-tuxcare.1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
