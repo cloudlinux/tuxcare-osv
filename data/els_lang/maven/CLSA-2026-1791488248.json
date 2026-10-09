@@ -1,20 +1,19 @@
 {
   "schema_version": "1.8.0",
-  "id": "CLSA-2026-1791293470",
-  "modified": "2026-10-01T18:35:00Z",
-  "published": "2026-10-06T13:31:10Z",
-  "summary": "TuxCare security update for 40 packages (2 CVEs)",
-  "details": "TuxCare rebuilt 40 packages to address 2 CVEs. Fixed in 6.1.6-tuxcare.1.",
+  "id": "CLSA-2026-1791488248",
+  "modified": "2026-10-08T19:37:28Z",
+  "published": "2026-10-08T19:37:28Z",
+  "summary": "TuxCare security update for org.springframework.integration (1 CVE)",
+  "details": "TuxCare rebuilt 44 org.springframework.integration packages to address 1 CVE. Fixed in 6.2.11-tuxcare.1.",
   "upstream": [
-    "CVE-2026-34197",
-    "CVE-2026-40466"
+    "CVE-2026-40987"
   ],
   "affected": [
     {
       "package": {
         "ecosystem": "TuxCare:Maven",
-        "name": "org.apache.activemq.tooling:activemq-joram-jms-tests",
-        "purl": "pkg:maven/org.apache.activemq.tooling/activemq-joram-jms-tests@6.1.6-tuxcare.1"
+        "name": "org.springframework.integration:spring-integration",
+        "purl": "pkg:maven/org.springframework.integration/spring-integration@6.2.11-tuxcare.1"
       },
       "ranges": [
         {
@@ -24,7 +23,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "6.1.6-tuxcare.1"
+              "fixed": "6.2.11-tuxcare.1"
             }
           ]
         }
@@ -33,8 +32,8 @@
     {
       "package": {
         "ecosystem": "TuxCare:Maven",
-        "name": "org.apache.activemq.tooling:activemq-junit",
-        "purl": "pkg:maven/org.apache.activemq.tooling/activemq-junit@6.1.6-tuxcare.1"
+        "name": "org.springframework.integration:spring-integration-amqp",
+        "purl": "pkg:maven/org.springframework.integration/spring-integration-amqp@6.2.11-tuxcare.1"
       },
       "ranges": [
         {
@@ -44,7 +43,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "6.1.6-tuxcare.1"
+              "fixed": "6.2.11-tuxcare.1"
             }
           ]
         }
@@ -53,8 +52,8 @@
     {
       "package": {
         "ecosystem": "TuxCare:Maven",
-        "name": "org.apache.activemq.tooling:activemq-maven-plugin",
-        "purl": "pkg:maven/org.apache.activemq.tooling/activemq-maven-plugin@6.1.6-tuxcare.1"
+        "name": "org.springframework.integration:spring-integration-bom",
+        "purl": "pkg:maven/org.springframework.integration/spring-integration-bom@6.2.11-tuxcare.1"
       },
       "ranges": [
         {
@@ -64,7 +63,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "6.1.6-tuxcare.1"
+              "fixed": "6.2.11-tuxcare.1"
             }
           ]
         }
@@ -73,8 +72,8 @@
     {
       "package": {
         "ecosystem": "TuxCare:Maven",
-        "name": "org.apache.activemq.tooling:activemq-memtest-maven-plugin",
-        "purl": "pkg:maven/org.apache.activemq.tooling/activemq-memtest-maven-plugin@6.1.6-tuxcare.1"
+        "name": "org.springframework.integration:spring-integration-camel",
+        "purl": "pkg:maven/org.springframework.integration/spring-integration-camel@6.2.11-tuxcare.1"
       },
       "ranges": [
         {
@@ -84,7 +83,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "6.1.6-tuxcare.1"
+              "fixed": "6.2.11-tuxcare.1"
             }
           ]
         }
@@ -93,8 +92,8 @@
     {
       "package": {
         "ecosystem": "TuxCare:Maven",
-        "name": "org.apache.activemq.tooling:activemq-perf-maven-plugin",
-        "purl": "pkg:maven/org.apache.activemq.tooling/activemq-perf-maven-plugin@6.1.6-tuxcare.1"
+        "name": "org.springframework.integration:spring-integration-cassandra",
+        "purl": "pkg:maven/org.springframework.integration/spring-integration-cassandra@6.2.11-tuxcare.1"
       },
       "ranges": [
         {
@@ -104,7 +103,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "6.1.6-tuxcare.1"
+              "fixed": "6.2.11-tuxcare.1"
             }
           ]
         }
@@ -113,8 +112,8 @@
     {
       "package": {
         "ecosystem": "TuxCare:Maven",
-        "name": "org.apache.activemq.tooling:activemq-tooling",
-        "purl": "pkg:maven/org.apache.activemq.tooling/activemq-tooling@6.1.6-tuxcare.1"
+        "name": "org.springframework.integration:spring-integration-core",
+        "purl": "pkg:maven/org.springframework.integration/spring-integration-core@6.2.11-tuxcare.1"
       },
       "ranges": [
         {
@@ -124,7 +123,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "6.1.6-tuxcare.1"
+              "fixed": "6.2.11-tuxcare.1"
             }
           ]
         }
@@ -133,8 +132,8 @@
     {
       "package": {
         "ecosystem": "TuxCare:Maven",
-        "name": "org.apache.activemq:activemq-all",
-        "purl": "pkg:maven/org.apache.activemq/activemq-all@6.1.6-tuxcare.1"
+        "name": "org.springframework.integration:spring-integration-debezium",
+        "purl": "pkg:maven/org.springframework.integration/spring-integration-debezium@6.2.11-tuxcare.1"
       },
       "ranges": [
         {
@@ -144,7 +143,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "6.1.6-tuxcare.1"
+              "fixed": "6.2.11-tuxcare.1"
             }
           ]
         }
@@ -153,8 +152,8 @@
     {
       "package": {
         "ecosystem": "TuxCare:Maven",
-        "name": "org.apache.activemq:activemq-amqp",
-        "purl": "pkg:maven/org.apache.activemq/activemq-amqp@6.1.6-tuxcare.1"
+        "name": "org.springframework.integration:spring-integration-event",
+        "purl": "pkg:maven/org.springframework.integration/spring-integration-event@6.2.11-tuxcare.1"
       },
       "ranges": [
         {
@@ -164,7 +163,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "6.1.6-tuxcare.1"
+              "fixed": "6.2.11-tuxcare.1"
             }
           ]
         }
@@ -173,8 +172,8 @@
     {
       "package": {
         "ecosystem": "TuxCare:Maven",
-        "name": "org.apache.activemq:activemq-blueprint",
-        "purl": "pkg:maven/org.apache.activemq/activemq-blueprint@6.1.6-tuxcare.1"
+        "name": "org.springframework.integration:spring-integration-feed",
+        "purl": "pkg:maven/org.springframework.integration/spring-integration-feed@6.2.11-tuxcare.1"
       },
       "ranges": [
         {
@@ -184,7 +183,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "6.1.6-tuxcare.1"
+              "fixed": "6.2.11-tuxcare.1"
             }
           ]
         }
@@ -193,8 +192,8 @@
     {
       "package": {
         "ecosystem": "TuxCare:Maven",
-        "name": "org.apache.activemq:activemq-bom",
-        "purl": "pkg:maven/org.apache.activemq/activemq-bom@6.1.6-tuxcare.1"
+        "name": "org.springframework.integration:spring-integration-file",
+        "purl": "pkg:maven/org.springframework.integration/spring-integration-file@6.2.11-tuxcare.1"
       },
       "ranges": [
         {
@@ -204,7 +203,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "6.1.6-tuxcare.1"
+              "fixed": "6.2.11-tuxcare.1"
             }
           ]
         }
@@ -213,8 +212,8 @@
     {
       "package": {
         "ecosystem": "TuxCare:Maven",
-        "name": "org.apache.activemq:activemq-broker",
-        "purl": "pkg:maven/org.apache.activemq/activemq-broker@6.1.6-tuxcare.1"
+        "name": "org.springframework.integration:spring-integration-ftp",
+        "purl": "pkg:maven/org.springframework.integration/spring-integration-ftp@6.2.11-tuxcare.1"
       },
       "ranges": [
         {
@@ -224,7 +223,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "6.1.6-tuxcare.1"
+              "fixed": "6.2.11-tuxcare.1"
             }
           ]
         }
@@ -233,8 +232,8 @@
     {
       "package": {
         "ecosystem": "TuxCare:Maven",
-        "name": "org.apache.activemq:activemq-cf",
-        "purl": "pkg:maven/org.apache.activemq/activemq-cf@6.1.6-tuxcare.1"
+        "name": "org.springframework.integration:spring-integration-graphql",
+        "purl": "pkg:maven/org.springframework.integration/spring-integration-graphql@6.2.11-tuxcare.1"
       },
       "ranges": [
         {
@@ -244,7 +243,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "6.1.6-tuxcare.1"
+              "fixed": "6.2.11-tuxcare.1"
             }
           ]
         }
@@ -253,8 +252,8 @@
     {
       "package": {
         "ecosystem": "TuxCare:Maven",
-        "name": "org.apache.activemq:activemq-client",
-        "purl": "pkg:maven/org.apache.activemq/activemq-client@6.1.6-tuxcare.1"
+        "name": "org.springframework.integration:spring-integration-groovy",
+        "purl": "pkg:maven/org.springframework.integration/spring-integration-groovy@6.2.11-tuxcare.1"
       },
       "ranges": [
         {
@@ -264,7 +263,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "6.1.6-tuxcare.1"
+              "fixed": "6.2.11-tuxcare.1"
             }
           ]
         }
@@ -273,8 +272,8 @@
     {
       "package": {
         "ecosystem": "TuxCare:Maven",
-        "name": "org.apache.activemq:activemq-console",
-        "purl": "pkg:maven/org.apache.activemq/activemq-console@6.1.6-tuxcare.1"
+        "name": "org.springframework.integration:spring-integration-hazelcast",
+        "purl": "pkg:maven/org.springframework.integration/spring-integration-hazelcast@6.2.11-tuxcare.1"
       },
       "ranges": [
         {
@@ -284,7 +283,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "6.1.6-tuxcare.1"
+              "fixed": "6.2.11-tuxcare.1"
             }
           ]
         }
@@ -293,8 +292,8 @@
     {
       "package": {
         "ecosystem": "TuxCare:Maven",
-        "name": "org.apache.activemq:activemq-http",
-        "purl": "pkg:maven/org.apache.activemq/activemq-http@6.1.6-tuxcare.1"
+        "name": "org.springframework.integration:spring-integration-http",
+        "purl": "pkg:maven/org.springframework.integration/spring-integration-http@6.2.11-tuxcare.1"
       },
       "ranges": [
         {
@@ -304,7 +303,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "6.1.6-tuxcare.1"
+              "fixed": "6.2.11-tuxcare.1"
             }
           ]
         }
@@ -313,8 +312,8 @@
     {
       "package": {
         "ecosystem": "TuxCare:Maven",
-        "name": "org.apache.activemq:activemq-jaas",
-        "purl": "pkg:maven/org.apache.activemq/activemq-jaas@6.1.6-tuxcare.1"
+        "name": "org.springframework.integration:spring-integration-ip",
+        "purl": "pkg:maven/org.springframework.integration/spring-integration-ip@6.2.11-tuxcare.1"
       },
       "ranges": [
         {
@@ -324,7 +323,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "6.1.6-tuxcare.1"
+              "fixed": "6.2.11-tuxcare.1"
             }
           ]
         }
@@ -333,8 +332,8 @@
     {
       "package": {
         "ecosystem": "TuxCare:Maven",
-        "name": "org.apache.activemq:activemq-jdbc-store",
-        "purl": "pkg:maven/org.apache.activemq/activemq-jdbc-store@6.1.6-tuxcare.1"
+        "name": "org.springframework.integration:spring-integration-jdbc",
+        "purl": "pkg:maven/org.springframework.integration/spring-integration-jdbc@6.2.11-tuxcare.1"
       },
       "ranges": [
         {
@@ -344,7 +343,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "6.1.6-tuxcare.1"
+              "fixed": "6.2.11-tuxcare.1"
             }
           ]
         }
@@ -353,8 +352,8 @@
     {
       "package": {
         "ecosystem": "TuxCare:Maven",
-        "name": "org.apache.activemq:activemq-jms-pool",
-        "purl": "pkg:maven/org.apache.activemq/activemq-jms-pool@6.1.6-tuxcare.1"
+        "name": "org.springframework.integration:spring-integration-jms",
+        "purl": "pkg:maven/org.springframework.integration/spring-integration-jms@6.2.11-tuxcare.1"
       },
       "ranges": [
         {
@@ -364,7 +363,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "6.1.6-tuxcare.1"
+              "fixed": "6.2.11-tuxcare.1"
             }
           ]
         }
@@ -373,8 +372,8 @@
     {
       "package": {
         "ecosystem": "TuxCare:Maven",
-        "name": "org.apache.activemq:activemq-kahadb-store",
-        "purl": "pkg:maven/org.apache.activemq/activemq-kahadb-store@6.1.6-tuxcare.1"
+        "name": "org.springframework.integration:spring-integration-jmx",
+        "purl": "pkg:maven/org.springframework.integration/spring-integration-jmx@6.2.11-tuxcare.1"
       },
       "ranges": [
         {
@@ -384,7 +383,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "6.1.6-tuxcare.1"
+              "fixed": "6.2.11-tuxcare.1"
             }
           ]
         }
@@ -393,8 +392,8 @@
     {
       "package": {
         "ecosystem": "TuxCare:Maven",
-        "name": "org.apache.activemq:activemq-karaf",
-        "purl": "pkg:maven/org.apache.activemq/activemq-karaf@6.1.6-tuxcare.1"
+        "name": "org.springframework.integration:spring-integration-jpa",
+        "purl": "pkg:maven/org.springframework.integration/spring-integration-jpa@6.2.11-tuxcare.1"
       },
       "ranges": [
         {
@@ -404,7 +403,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "6.1.6-tuxcare.1"
+              "fixed": "6.2.11-tuxcare.1"
             }
           ]
         }
@@ -413,8 +412,8 @@
     {
       "package": {
         "ecosystem": "TuxCare:Maven",
-        "name": "org.apache.activemq:activemq-karaf-itest",
-        "purl": "pkg:maven/org.apache.activemq/activemq-karaf-itest@6.1.6-tuxcare.1"
+        "name": "org.springframework.integration:spring-integration-kafka",
+        "purl": "pkg:maven/org.springframework.integration/spring-integration-kafka@6.2.11-tuxcare.1"
       },
       "ranges": [
         {
@@ -424,7 +423,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "6.1.6-tuxcare.1"
+              "fixed": "6.2.11-tuxcare.1"
             }
           ]
         }
@@ -433,8 +432,8 @@
     {
       "package": {
         "ecosystem": "TuxCare:Maven",
-        "name": "org.apache.activemq:activemq-log4j-appender",
-        "purl": "pkg:maven/org.apache.activemq/activemq-log4j-appender@6.1.6-tuxcare.1"
+        "name": "org.springframework.integration:spring-integration-mail",
+        "purl": "pkg:maven/org.springframework.integration/spring-integration-mail@6.2.11-tuxcare.1"
       },
       "ranges": [
         {
@@ -444,7 +443,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "6.1.6-tuxcare.1"
+              "fixed": "6.2.11-tuxcare.1"
             }
           ]
         }
@@ -453,8 +452,8 @@
     {
       "package": {
         "ecosystem": "TuxCare:Maven",
-        "name": "org.apache.activemq:activemq-mqtt",
-        "purl": "pkg:maven/org.apache.activemq/activemq-mqtt@6.1.6-tuxcare.1"
+        "name": "org.springframework.integration:spring-integration-mongodb",
+        "purl": "pkg:maven/org.springframework.integration/spring-integration-mongodb@6.2.11-tuxcare.1"
       },
       "ranges": [
         {
@@ -464,7 +463,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "6.1.6-tuxcare.1"
+              "fixed": "6.2.11-tuxcare.1"
             }
           ]
         }
@@ -473,8 +472,8 @@
     {
       "package": {
         "ecosystem": "TuxCare:Maven",
-        "name": "org.apache.activemq:activemq-openwire-generator",
-        "purl": "pkg:maven/org.apache.activemq/activemq-openwire-generator@6.1.6-tuxcare.1"
+        "name": "org.springframework.integration:spring-integration-mqtt",
+        "purl": "pkg:maven/org.springframework.integration/spring-integration-mqtt@6.2.11-tuxcare.1"
       },
       "ranges": [
         {
@@ -484,7 +483,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "6.1.6-tuxcare.1"
+              "fixed": "6.2.11-tuxcare.1"
             }
           ]
         }
@@ -493,8 +492,8 @@
     {
       "package": {
         "ecosystem": "TuxCare:Maven",
-        "name": "org.apache.activemq:activemq-openwire-legacy",
-        "purl": "pkg:maven/org.apache.activemq/activemq-openwire-legacy@6.1.6-tuxcare.1"
+        "name": "org.springframework.integration:spring-integration-r2dbc",
+        "purl": "pkg:maven/org.springframework.integration/spring-integration-r2dbc@6.2.11-tuxcare.1"
       },
       "ranges": [
         {
@@ -504,7 +503,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "6.1.6-tuxcare.1"
+              "fixed": "6.2.11-tuxcare.1"
             }
           ]
         }
@@ -513,8 +512,8 @@
     {
       "package": {
         "ecosystem": "TuxCare:Maven",
-        "name": "org.apache.activemq:activemq-osgi",
-        "purl": "pkg:maven/org.apache.activemq/activemq-osgi@6.1.6-tuxcare.1"
+        "name": "org.springframework.integration:spring-integration-redis",
+        "purl": "pkg:maven/org.springframework.integration/spring-integration-redis@6.2.11-tuxcare.1"
       },
       "ranges": [
         {
@@ -524,7 +523,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "6.1.6-tuxcare.1"
+              "fixed": "6.2.11-tuxcare.1"
             }
           ]
         }
@@ -533,8 +532,8 @@
     {
       "package": {
         "ecosystem": "TuxCare:Maven",
-        "name": "org.apache.activemq:activemq-parent",
-        "purl": "pkg:maven/org.apache.activemq/activemq-parent@6.1.6-tuxcare.1"
+        "name": "org.springframework.integration:spring-integration-rsocket",
+        "purl": "pkg:maven/org.springframework.integration/spring-integration-rsocket@6.2.11-tuxcare.1"
       },
       "ranges": [
         {
@@ -544,7 +543,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "6.1.6-tuxcare.1"
+              "fixed": "6.2.11-tuxcare.1"
             }
           ]
         }
@@ -553,8 +552,8 @@
     {
       "package": {
         "ecosystem": "TuxCare:Maven",
-        "name": "org.apache.activemq:activemq-pool",
-        "purl": "pkg:maven/org.apache.activemq/activemq-pool@6.1.6-tuxcare.1"
+        "name": "org.springframework.integration:spring-integration-scripting",
+        "purl": "pkg:maven/org.springframework.integration/spring-integration-scripting@6.2.11-tuxcare.1"
       },
       "ranges": [
         {
@@ -564,7 +563,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "6.1.6-tuxcare.1"
+              "fixed": "6.2.11-tuxcare.1"
             }
           ]
         }
@@ -573,8 +572,8 @@
     {
       "package": {
         "ecosystem": "TuxCare:Maven",
-        "name": "org.apache.activemq:activemq-ra",
-        "purl": "pkg:maven/org.apache.activemq/activemq-ra@6.1.6-tuxcare.1"
+        "name": "org.springframework.integration:spring-integration-security",
+        "purl": "pkg:maven/org.springframework.integration/spring-integration-security@6.2.11-tuxcare.1"
       },
       "ranges": [
         {
@@ -584,7 +583,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "6.1.6-tuxcare.1"
+              "fixed": "6.2.11-tuxcare.1"
             }
           ]
         }
@@ -593,8 +592,8 @@
     {
       "package": {
         "ecosystem": "TuxCare:Maven",
-        "name": "org.apache.activemq:activemq-rar",
-        "purl": "pkg:maven/org.apache.activemq/activemq-rar@6.1.6-tuxcare.1"
+        "name": "org.springframework.integration:spring-integration-sftp",
+        "purl": "pkg:maven/org.springframework.integration/spring-integration-sftp@6.2.11-tuxcare.1"
       },
       "ranges": [
         {
@@ -604,7 +603,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "6.1.6-tuxcare.1"
+              "fixed": "6.2.11-tuxcare.1"
             }
           ]
         }
@@ -613,8 +612,8 @@
     {
       "package": {
         "ecosystem": "TuxCare:Maven",
-        "name": "org.apache.activemq:activemq-run",
-        "purl": "pkg:maven/org.apache.activemq/activemq-run@6.1.6-tuxcare.1"
+        "name": "org.springframework.integration:spring-integration-smb",
+        "purl": "pkg:maven/org.springframework.integration/spring-integration-smb@6.2.11-tuxcare.1"
       },
       "ranges": [
         {
@@ -624,7 +623,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "6.1.6-tuxcare.1"
+              "fixed": "6.2.11-tuxcare.1"
             }
           ]
         }
@@ -633,8 +632,8 @@
     {
       "package": {
         "ecosystem": "TuxCare:Maven",
-        "name": "org.apache.activemq:activemq-runtime-config",
-        "purl": "pkg:maven/org.apache.activemq/activemq-runtime-config@6.1.6-tuxcare.1"
+        "name": "org.springframework.integration:spring-integration-stomp",
+        "purl": "pkg:maven/org.springframework.integration/spring-integration-stomp@6.2.11-tuxcare.1"
       },
       "ranges": [
         {
@@ -644,7 +643,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "6.1.6-tuxcare.1"
+              "fixed": "6.2.11-tuxcare.1"
             }
           ]
         }
@@ -653,8 +652,8 @@
     {
       "package": {
         "ecosystem": "TuxCare:Maven",
-        "name": "org.apache.activemq:activemq-shiro",
-        "purl": "pkg:maven/org.apache.activemq/activemq-shiro@6.1.6-tuxcare.1"
+        "name": "org.springframework.integration:spring-integration-stream",
+        "purl": "pkg:maven/org.springframework.integration/spring-integration-stream@6.2.11-tuxcare.1"
       },
       "ranges": [
         {
@@ -664,7 +663,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "6.1.6-tuxcare.1"
+              "fixed": "6.2.11-tuxcare.1"
             }
           ]
         }
@@ -673,8 +672,8 @@
     {
       "package": {
         "ecosystem": "TuxCare:Maven",
-        "name": "org.apache.activemq:activemq-spring",
-        "purl": "pkg:maven/org.apache.activemq/activemq-spring@6.1.6-tuxcare.1"
+        "name": "org.springframework.integration:spring-integration-syslog",
+        "purl": "pkg:maven/org.springframework.integration/spring-integration-syslog@6.2.11-tuxcare.1"
       },
       "ranges": [
         {
@@ -684,7 +683,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "6.1.6-tuxcare.1"
+              "fixed": "6.2.11-tuxcare.1"
             }
           ]
         }
@@ -693,8 +692,8 @@
     {
       "package": {
         "ecosystem": "TuxCare:Maven",
-        "name": "org.apache.activemq:activemq-stomp",
-        "purl": "pkg:maven/org.apache.activemq/activemq-stomp@6.1.6-tuxcare.1"
+        "name": "org.springframework.integration:spring-integration-test",
+        "purl": "pkg:maven/org.springframework.integration/spring-integration-test@6.2.11-tuxcare.1"
       },
       "ranges": [
         {
@@ -704,7 +703,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "6.1.6-tuxcare.1"
+              "fixed": "6.2.11-tuxcare.1"
             }
           ]
         }
@@ -713,8 +712,8 @@
     {
       "package": {
         "ecosystem": "TuxCare:Maven",
-        "name": "org.apache.activemq:activemq-unit-tests",
-        "purl": "pkg:maven/org.apache.activemq/activemq-unit-tests@6.1.6-tuxcare.1"
+        "name": "org.springframework.integration:spring-integration-test-support",
+        "purl": "pkg:maven/org.springframework.integration/spring-integration-test-support@6.2.11-tuxcare.1"
       },
       "ranges": [
         {
@@ -724,7 +723,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "6.1.6-tuxcare.1"
+              "fixed": "6.2.11-tuxcare.1"
             }
           ]
         }
@@ -733,8 +732,8 @@
     {
       "package": {
         "ecosystem": "TuxCare:Maven",
-        "name": "org.apache.activemq:activemq-web",
-        "purl": "pkg:maven/org.apache.activemq/activemq-web@6.1.6-tuxcare.1"
+        "name": "org.springframework.integration:spring-integration-webflux",
+        "purl": "pkg:maven/org.springframework.integration/spring-integration-webflux@6.2.11-tuxcare.1"
       },
       "ranges": [
         {
@@ -744,7 +743,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "6.1.6-tuxcare.1"
+              "fixed": "6.2.11-tuxcare.1"
             }
           ]
         }
@@ -753,8 +752,8 @@
     {
       "package": {
         "ecosystem": "TuxCare:Maven",
-        "name": "org.apache.activemq:activemq-web-console",
-        "purl": "pkg:maven/org.apache.activemq/activemq-web-console@6.1.6-tuxcare.1"
+        "name": "org.springframework.integration:spring-integration-websocket",
+        "purl": "pkg:maven/org.springframework.integration/spring-integration-websocket@6.2.11-tuxcare.1"
       },
       "ranges": [
         {
@@ -764,7 +763,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "6.1.6-tuxcare.1"
+              "fixed": "6.2.11-tuxcare.1"
             }
           ]
         }
@@ -773,8 +772,8 @@
     {
       "package": {
         "ecosystem": "TuxCare:Maven",
-        "name": "org.apache.activemq:activemq-web-demo",
-        "purl": "pkg:maven/org.apache.activemq/activemq-web-demo@6.1.6-tuxcare.1"
+        "name": "org.springframework.integration:spring-integration-ws",
+        "purl": "pkg:maven/org.springframework.integration/spring-integration-ws@6.2.11-tuxcare.1"
       },
       "ranges": [
         {
@@ -784,7 +783,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "6.1.6-tuxcare.1"
+              "fixed": "6.2.11-tuxcare.1"
             }
           ]
         }
@@ -793,8 +792,8 @@
     {
       "package": {
         "ecosystem": "TuxCare:Maven",
-        "name": "org.apache.activemq:apache-activemq",
-        "purl": "pkg:maven/org.apache.activemq/apache-activemq@6.1.6-tuxcare.1"
+        "name": "org.springframework.integration:spring-integration-xml",
+        "purl": "pkg:maven/org.springframework.integration/spring-integration-xml@6.2.11-tuxcare.1"
       },
       "ranges": [
         {
@@ -804,7 +803,87 @@
               "introduced": "0"
             },
             {
-              "fixed": "6.1.6-tuxcare.1"
+              "fixed": "6.2.11-tuxcare.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.springframework.integration:spring-integration-xmpp",
+        "purl": "pkg:maven/org.springframework.integration/spring-integration-xmpp@6.2.11-tuxcare.1"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "6.2.11-tuxcare.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.springframework.integration:spring-integration-zeromq",
+        "purl": "pkg:maven/org.springframework.integration/spring-integration-zeromq@6.2.11-tuxcare.1"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "6.2.11-tuxcare.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.springframework.integration:spring-integration-zip",
+        "purl": "pkg:maven/org.springframework.integration/spring-integration-zip@6.2.11-tuxcare.1"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "6.2.11-tuxcare.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.springframework.integration:spring-integration-zookeeper",
+        "purl": "pkg:maven/org.springframework.integration/spring-integration-zookeeper@6.2.11-tuxcare.1"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "6.2.11-tuxcare.1"
             }
           ]
         }
