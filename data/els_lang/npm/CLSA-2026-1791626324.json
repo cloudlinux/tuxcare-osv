@@ -1,0 +1,34 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1791626324",
+  "modified": "2026-10-10T09:58:44Z",
+  "published": "2026-10-10T09:58:44Z",
+  "summary": "TuxCare security update for nanoid (2 CVEs)",
+  "details": "TuxCare rebuilt nanoid to address 2 CVEs. Fixed in 3.3.6-tuxcare.2.",
+  "upstream": [
+    "CVE-2026-67213",
+    "CVE-2026-67214"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "nanoid",
+        "purl": "pkg:npm/nanoid@3.3.6-tuxcare.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.3.6-tuxcare.2"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

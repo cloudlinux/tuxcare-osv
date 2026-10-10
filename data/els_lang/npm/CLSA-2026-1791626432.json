@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1791626432",
+  "modified": "2026-10-10T10:00:32Z",
+  "published": "2026-10-10T10:00:32Z",
+  "summary": "TuxCare security update for devalue (3 CVEs)",
+  "details": "TuxCare rebuilt devalue to address 3 CVEs. Fixed in 4.3.0-tuxcare.4.",
+  "upstream": [
+    "GHSA-4q55-j62x-fr9h",
+    "GHSA-mcm9-63f2-9j32",
+    "GHSA-wf3x-273g-mvxv"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "devalue",
+        "purl": "pkg:npm/devalue@4.3.0-tuxcare.4"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.3.0-tuxcare.4"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
