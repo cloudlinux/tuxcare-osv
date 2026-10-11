@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1791666638",
+  "modified": "2026-10-10T21:10:38Z",
+  "published": "2026-10-10T21:10:38Z",
+  "summary": "TuxCare security update for webpack-dev-middleware (1 CVE)",
+  "details": "TuxCare rebuilt webpack-dev-middleware to address 1 CVE. Fixed in 3.0.1-tuxcare.2.",
+  "upstream": [
+    "CVE-2026-76844"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "webpack-dev-middleware",
+        "purl": "pkg:npm/webpack-dev-middleware@3.0.1-tuxcare.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.0.1-tuxcare.2"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

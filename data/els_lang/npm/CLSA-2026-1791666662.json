@@ -1,0 +1,34 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1791666662",
+  "modified": "2026-10-10T21:11:02Z",
+  "published": "2026-10-10T21:11:02Z",
+  "summary": "TuxCare security update for vm2 (2 CVEs)",
+  "details": "TuxCare rebuilt vm2 to address 2 CVEs. Fixed in 3.11.5-tuxcare.7.",
+  "upstream": [
+    "CVE-2026-93605",
+    "GHSA-pq68-rvw4-xp4r"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "vm2",
+        "purl": "pkg:npm/vm2@3.11.5-tuxcare.7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.11.5-tuxcare.7"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
