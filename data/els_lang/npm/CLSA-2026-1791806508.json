@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1791806508",
+  "modified": "2026-10-12T12:01:48Z",
+  "published": "2026-10-12T12:01:48Z",
+  "summary": "TuxCare security update for vite (1 CVE)",
+  "details": "TuxCare rebuilt vite to address 1 CVE. Fixed in 5.0.12-tuxcare.5.",
+  "upstream": [
+    "CVE-2025-62522"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "vite",
+        "purl": "pkg:npm/vite@5.0.12-tuxcare.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.0.12-tuxcare.5"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
