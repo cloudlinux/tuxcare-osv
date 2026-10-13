@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1791836630",
+  "modified": "2026-10-12T20:23:50Z",
+  "published": "2026-10-12T20:23:50Z",
+  "summary": "TuxCare security update for handlebars (3 CVEs)",
+  "details": "TuxCare rebuilt handlebars to address 3 CVEs. Fixed in 4.7.7-tuxcare.2.",
+  "upstream": [
+    "CVE-2026-106444",
+    "CVE-2026-106445",
+    "CVE-2026-106446"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "handlebars",
+        "purl": "pkg:npm/handlebars@4.7.7-tuxcare.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.7.7-tuxcare.2"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
