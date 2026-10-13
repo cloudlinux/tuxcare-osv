@@ -1,0 +1,95 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1791901525",
+  "modified": "2026-10-13T14:25:25Z",
+  "published": "2026-10-13T14:25:25Z",
+  "summary": "TuxCare security update for io.micrometer (3 CVEs)",
+  "details": "TuxCare rebuilt 4 io.micrometer packages to address 3 CVEs. Fixed in 1.12.13-tuxcare.1.",
+  "upstream": [
+    "CVE-2026-40984",
+    "CVE-2026-59295",
+    "CVE-2026-59296"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "io.micrometer:micrometer-commons",
+        "purl": "pkg:maven/io.micrometer/micrometer-commons@1.12.13-tuxcare.1"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.12.13-tuxcare.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "io.micrometer:micrometer-core",
+        "purl": "pkg:maven/io.micrometer/micrometer-core@1.12.13-tuxcare.1"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.12.13-tuxcare.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "io.micrometer:micrometer-jakarta9",
+        "purl": "pkg:maven/io.micrometer/micrometer-jakarta9@1.12.13-tuxcare.1"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.12.13-tuxcare.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "io.micrometer:micrometer-observation",
+        "purl": "pkg:maven/io.micrometer/micrometer-observation@1.12.13-tuxcare.1"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.12.13-tuxcare.1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
