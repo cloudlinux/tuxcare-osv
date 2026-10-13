@@ -1,0 +1,53 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1791879047",
+  "modified": "2026-10-13T08:10:47Z",
+  "published": "2026-10-13T08:10:47Z",
+  "summary": "TuxCare security update for net.minidev (1 CVE)",
+  "details": "TuxCare rebuilt 2 net.minidev packages to address 1 CVE. Fixed in 2.4.7-tuxcare.1.",
+  "upstream": [
+    "CVE-2023-1370"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "net.minidev:accessors-smart",
+        "purl": "pkg:maven/net.minidev/accessors-smart@2.4.7-tuxcare.1"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.4.7-tuxcare.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "net.minidev:json-smart",
+        "purl": "pkg:maven/net.minidev/json-smart@2.4.7-tuxcare.1"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.4.7-tuxcare.1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

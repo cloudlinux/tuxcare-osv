@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1791887358",
+  "modified": "2026-10-13T10:29:18Z",
+  "published": "2026-10-13T10:29:18Z",
+  "summary": "TuxCare security update for sharp (1 CVE)",
+  "details": "TuxCare rebuilt sharp to address 1 CVE. Fixed in 0.27.2-tuxcare.3.",
+  "upstream": [
+    "GHSA-wq5f-xc86-pv6w"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "sharp",
+        "purl": "pkg:npm/sharp@0.27.2-tuxcare.3"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.27.2-tuxcare.3"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

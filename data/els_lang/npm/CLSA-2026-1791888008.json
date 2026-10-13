@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1791888008",
+  "modified": "2026-10-13T10:40:08Z",
+  "published": "2026-10-13T10:40:08Z",
+  "summary": "TuxCare security update for vm2 (1 CVE)",
+  "details": "TuxCare rebuilt vm2 to address 1 CVE. Fixed in 3.11.7-tuxcare.3.",
+  "upstream": [
+    "CVE-2026-100721"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "vm2",
+        "purl": "pkg:npm/vm2@3.11.7-tuxcare.3"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.11.7-tuxcare.3"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
