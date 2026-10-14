@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1791957404",
+  "modified": "2026-10-14T05:56:44Z",
+  "published": "2026-10-14T05:56:44Z",
+  "summary": "TuxCare security update for io.netty:netty (4 CVEs)",
+  "details": "TuxCare rebuilt io.netty:netty to address 4 CVEs. Fixed in 3.7.0.Final-tuxcare.1.",
+  "upstream": [
+    "CVE-2021-21290",
+    "CVE-2025-58056",
+    "CVE-2025-58057",
+    "CVE-2025-67735"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "io.netty:netty",
+        "purl": "pkg:maven/io.netty/netty@3.7.0.Final-tuxcare.1"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.7.0.Final-tuxcare.1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
