@@ -1,7 +1,7 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2026-1768352248",
-  "modified": "2026-08-04T14:52:39Z",
+  "modified": "2026-10-15T08:16:08Z",
   "published": "2026-08-04T14:52:39Z",
   "summary": "TuxCare security update for swiftmailer/swiftmailer (1 CVE)",
   "details": "TuxCare rebuilt swiftmailer/swiftmailer to address 1 CVE. Fixed in 5.4.12-p1+tuxcare.",
@@ -13,21 +13,30 @@
       "package": {
         "ecosystem": "TuxCare:Packagist",
         "name": "swiftmailer/swiftmailer",
-        "purl": "pkg:composer/swiftmailer/swiftmailer@5.4.12-p1+tuxcare"
+        "purl": "pkg:composer/swiftmailer/swiftmailer"
       },
       "ranges": [
         {
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "0"
+              "introduced": "v5.4.12"
             },
             {
               "fixed": "5.4.12-p1+tuxcare"
             }
           ]
         }
-      ]
+      ],
+      "versions": [
+        "v5.4.12"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "v5.4.12",
+          "fixed_version": "5.4.12-p1+tuxcare"
+        }
+      }
     }
   ]
 }

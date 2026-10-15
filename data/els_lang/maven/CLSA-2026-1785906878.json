@@ -1,7 +1,7 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2026-1785906878",
-  "modified": "2026-08-05T05:14:38Z",
+  "modified": "2026-10-15T08:16:08Z",
   "published": "2026-08-05T05:14:38Z",
   "summary": "TuxCare security update for org.jsoup:jsoup (2 CVEs)",
   "details": "TuxCare rebuilt org.jsoup:jsoup to address 2 CVEs. Fixed in 1.7.3-tuxcare.1.",
@@ -14,21 +14,30 @@
       "package": {
         "ecosystem": "TuxCare:Maven",
         "name": "org.jsoup:jsoup",
-        "purl": "pkg:maven/org.jsoup/jsoup@1.7.3-tuxcare.1"
+        "purl": "pkg:maven/org.jsoup/jsoup"
       },
       "ranges": [
         {
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "0"
+              "introduced": "1.7.3"
             },
             {
               "fixed": "1.7.3-tuxcare.1"
             }
           ]
         }
-      ]
+      ],
+      "versions": [
+        "1.7.3"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "1.7.3",
+          "fixed_version": "1.7.3-tuxcare.1"
+        }
+      }
     }
   ]
 }

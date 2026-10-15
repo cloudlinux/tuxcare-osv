@@ -1,7 +1,7 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2026-1789456930",
-  "modified": "2026-09-15T07:22:10Z",
+  "modified": "2026-10-15T08:16:08Z",
   "published": "2026-09-15T07:22:10Z",
   "summary": "TuxCare security update for laminas/laminas-diactoros (2 CVEs)",
   "details": "TuxCare rebuilt laminas/laminas-diactoros to address 2 CVEs. Fixed in 1.8.7p2-1+tuxcare.",
@@ -14,21 +14,30 @@
       "package": {
         "ecosystem": "TuxCare:Packagist",
         "name": "laminas/laminas-diactoros",
-        "purl": "pkg:composer/laminas/laminas-diactoros@1.8.7p2-1+tuxcare"
+        "purl": "pkg:composer/laminas/laminas-diactoros"
       },
       "ranges": [
         {
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "0"
+              "introduced": "1.8.7p2"
             },
             {
               "fixed": "1.8.7p2-1+tuxcare"
             }
           ]
         }
-      ]
+      ],
+      "versions": [
+        "1.8.7p2"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "1.8.7p2",
+          "fixed_version": "1.8.7p2-1+tuxcare"
+        }
+      }
     }
   ]
 }

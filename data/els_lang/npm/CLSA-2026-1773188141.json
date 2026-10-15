@@ -1,7 +1,7 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2026-1773188141",
-  "modified": "2026-08-04T14:52:12Z",
+  "modified": "2026-10-15T08:16:08Z",
   "published": "2026-08-04T14:52:12Z",
   "summary": "TuxCare security update for extend (1 CVE)",
   "details": "TuxCare rebuilt extend to address 1 CVE. Fixed in 3.0.0-tuxcare.3.",
@@ -13,21 +13,32 @@
       "package": {
         "ecosystem": "TuxCare:npm",
         "name": "extend",
-        "purl": "pkg:npm/extend@3.0.0-tuxcare.3"
+        "purl": "pkg:npm/extend"
       },
       "ranges": [
         {
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "0"
+              "introduced": "3.0.0-tuxcare.0"
             },
             {
               "fixed": "3.0.0-tuxcare.3"
             }
           ]
         }
-      ]
+      ],
+      "versions": [
+        "3.0.0",
+        "3.0.0-tuxcare.1",
+        "3.0.0-tuxcare.2"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "3.0.0",
+          "fixed_version": "3.0.0-tuxcare.3"
+        }
+      }
     }
   ]
 }

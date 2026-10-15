@@ -1,7 +1,7 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2026-1789456194",
-  "modified": "2026-09-15T07:09:54Z",
+  "modified": "2026-10-15T08:16:08Z",
   "published": "2026-09-15T07:09:54Z",
   "summary": "TuxCare security update for idna (1 CVE)",
   "details": "TuxCare rebuilt idna to address 1 CVE. Fixed in 3.6.post2+tuxcare.",
@@ -13,21 +13,31 @@
       "package": {
         "ecosystem": "TuxCare:PyPI",
         "name": "idna",
-        "purl": "pkg:pypi/idna@3.6.post2+tuxcare"
+        "purl": "pkg:pypi/idna"
       },
       "ranges": [
         {
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "0"
+              "introduced": "3.6"
             },
             {
               "fixed": "3.6.post2+tuxcare"
             }
           ]
         }
-      ]
+      ],
+      "versions": [
+        "3.6",
+        "3.6.post1+tuxcare"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "3.6",
+          "fixed_version": "3.6.post2+tuxcare"
+        }
+      }
     }
   ]
 }

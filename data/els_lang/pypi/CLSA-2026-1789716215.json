@@ -1,7 +1,7 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2026-1789716215",
-  "modified": "2026-09-18T07:23:35Z",
+  "modified": "2026-10-15T08:16:08Z",
   "published": "2026-09-18T07:23:35Z",
   "summary": "TuxCare security update for flask-cors (4 CVEs)",
   "details": "TuxCare rebuilt flask-cors to address 4 CVEs. Fixed in 3.0.10.post1+tuxcare.",
@@ -16,21 +16,30 @@
       "package": {
         "ecosystem": "TuxCare:PyPI",
         "name": "flask-cors",
-        "purl": "pkg:pypi/flask-cors@3.0.10.post1+tuxcare"
+        "purl": "pkg:pypi/flask-cors"
       },
       "ranges": [
         {
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "0"
+              "introduced": "3.0.10"
             },
             {
               "fixed": "3.0.10.post1+tuxcare"
             }
           ]
         }
-      ]
+      ],
+      "versions": [
+        "3.0.10"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "3.0.10",
+          "fixed_version": "3.0.10.post1+tuxcare"
+        }
+      }
     }
   ]
 }

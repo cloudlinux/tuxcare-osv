@@ -1,7 +1,7 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2026-1784596283",
-  "modified": "2026-08-04T14:52:45Z",
+  "modified": "2026-10-15T08:16:08Z",
   "published": "2026-08-04T14:52:45Z",
   "summary": "TuxCare security update for tar (4 CVEs)",
   "details": "TuxCare rebuilt tar to address 4 CVEs. Fixed in 6.2.1-tuxcare.4.",
@@ -16,21 +16,33 @@
       "package": {
         "ecosystem": "TuxCare:npm",
         "name": "tar",
-        "purl": "pkg:npm/tar@6.2.1-tuxcare.4"
+        "purl": "pkg:npm/tar"
       },
       "ranges": [
         {
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "0"
+              "introduced": "6.2.1-tuxcare.0"
             },
             {
               "fixed": "6.2.1-tuxcare.4"
             }
           ]
         }
-      ]
+      ],
+      "versions": [
+        "6.2.1",
+        "6.2.1-tuxcare.1",
+        "6.2.1-tuxcare.2",
+        "6.2.1-tuxcare.3"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "6.2.1",
+          "fixed_version": "6.2.1-tuxcare.4"
+        }
+      }
     }
   ]
 }

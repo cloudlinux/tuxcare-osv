@@ -1,7 +1,7 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2026-1785727930",
-  "modified": "2026-08-04T14:52:51Z",
+  "modified": "2026-10-15T08:16:08Z",
   "published": "2026-08-04T14:52:51Z",
   "summary": "TuxCare security update for org.assertj:assertj-core (1 CVE)",
   "details": "TuxCare rebuilt org.assertj:assertj-core to address 1 CVE. Fixed in 3.11.1-tuxcare.1.",
@@ -13,21 +13,30 @@
       "package": {
         "ecosystem": "TuxCare:Maven",
         "name": "org.assertj:assertj-core",
-        "purl": "pkg:maven/org.assertj/assertj-core@3.11.1-tuxcare.1"
+        "purl": "pkg:maven/org.assertj/assertj-core"
       },
       "ranges": [
         {
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "0"
+              "introduced": "3.11.1"
             },
             {
               "fixed": "3.11.1-tuxcare.1"
             }
           ]
         }
-      ]
+      ],
+      "versions": [
+        "3.11.1"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "3.11.1",
+          "fixed_version": "3.11.1-tuxcare.1"
+        }
+      }
     }
   ]
 }

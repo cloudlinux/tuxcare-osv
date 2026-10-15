@@ -1,7 +1,7 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2026-1784682964",
-  "modified": "2026-09-15T20:03:06Z",
+  "modified": "2026-10-15T08:16:08Z",
   "published": "2026-08-04T14:52:46Z",
   "summary": "TuxCare security update for multiparty (3 CVEs)",
   "details": "TuxCare rebuilt multiparty to address 3 CVEs. Fixed in 3.3.2-tuxcare.1.",
@@ -15,21 +15,30 @@
       "package": {
         "ecosystem": "TuxCare:npm",
         "name": "multiparty",
-        "purl": "pkg:npm/multiparty@3.3.2-tuxcare.1"
+        "purl": "pkg:npm/multiparty"
       },
       "ranges": [
         {
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "0"
+              "introduced": "3.3.2-tuxcare.0"
             },
             {
               "fixed": "3.3.2-tuxcare.1"
             }
           ]
         }
-      ]
+      ],
+      "versions": [
+        "3.3.2"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "3.3.2",
+          "fixed_version": "3.3.2-tuxcare.1"
+        }
+      }
     }
   ]
 }

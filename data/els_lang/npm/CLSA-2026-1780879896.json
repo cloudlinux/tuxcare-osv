@@ -1,7 +1,7 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2026-1780879896",
-  "modified": "2026-08-04T14:52:35Z",
+  "modified": "2026-10-15T08:16:08Z",
   "published": "2026-08-04T14:52:35Z",
   "summary": "TuxCare security update for jsoneditor (2 CVEs)",
   "details": "TuxCare rebuilt jsoneditor to address 2 CVEs. Fixed in 5.19.0-tuxcare.1.",
@@ -14,21 +14,30 @@
       "package": {
         "ecosystem": "TuxCare:npm",
         "name": "jsoneditor",
-        "purl": "pkg:npm/jsoneditor@5.19.0-tuxcare.1"
+        "purl": "pkg:npm/jsoneditor"
       },
       "ranges": [
         {
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "0"
+              "introduced": "5.19.0-tuxcare.0"
             },
             {
               "fixed": "5.19.0-tuxcare.1"
             }
           ]
         }
-      ]
+      ],
+      "versions": [
+        "5.19.0"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "5.19.0",
+          "fixed_version": "5.19.0-tuxcare.1"
+        }
+      }
     }
   ]
 }

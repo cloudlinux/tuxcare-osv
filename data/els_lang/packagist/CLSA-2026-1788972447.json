@@ -1,7 +1,7 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2026-1788972447",
-  "modified": "2026-09-09T16:47:27Z",
+  "modified": "2026-10-15T08:16:08Z",
   "published": "2026-09-09T16:47:27Z",
   "summary": "TuxCare security update for drupal/link (1 CVE)",
   "details": "TuxCare rebuilt drupal/link to address 1 CVE. Fixed in 7.1.13-p1+tuxcare.",
@@ -13,21 +13,30 @@
       "package": {
         "ecosystem": "TuxCare:Packagist",
         "name": "drupal/link",
-        "purl": "pkg:composer/drupal/link@7.1.13-p1+tuxcare"
+        "purl": "pkg:composer/drupal/link"
       },
       "ranges": [
         {
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "0"
+              "introduced": "7.1.13"
             },
             {
               "fixed": "7.1.13-p1+tuxcare"
             }
           ]
         }
-      ]
+      ],
+      "versions": [
+        "7.1.13"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "7.1.13",
+          "fixed_version": "7.1.13-p1+tuxcare"
+        }
+      }
     }
   ]
 }

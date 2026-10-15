@@ -1,7 +1,7 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2026-1785554486",
-  "modified": "2026-08-04T14:52:51Z",
+  "modified": "2026-10-15T08:16:08Z",
   "published": "2026-08-04T14:52:51Z",
   "summary": "TuxCare security update for guzzlehttp/psr7 (2 CVEs)",
   "details": "TuxCare rebuilt guzzlehttp/psr7 to address 2 CVEs. Fixed in 1.4.2-p2+tuxcare.",
@@ -14,21 +14,31 @@
       "package": {
         "ecosystem": "TuxCare:Packagist",
         "name": "guzzlehttp/psr7",
-        "purl": "pkg:composer/guzzlehttp/psr7@1.4.2-p2+tuxcare"
+        "purl": "pkg:composer/guzzlehttp/psr7"
       },
       "ranges": [
         {
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "0"
+              "introduced": "1.4.2"
             },
             {
               "fixed": "1.4.2-p2+tuxcare"
             }
           ]
         }
-      ]
+      ],
+      "versions": [
+        "1.4.2",
+        "1.4.2-p1+tuxcare"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "1.4.2",
+          "fixed_version": "1.4.2-p2+tuxcare"
+        }
+      }
     }
   ]
 }

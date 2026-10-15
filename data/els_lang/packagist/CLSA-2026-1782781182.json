@@ -1,7 +1,7 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2026-1782781182",
-  "modified": "2026-09-15T20:03:06Z",
+  "modified": "2026-10-15T08:16:08Z",
   "published": "2026-08-04T14:52:40Z",
   "summary": "TuxCare security update for symfony/mime (2 CVEs)",
   "details": "TuxCare rebuilt symfony/mime to address 2 CVEs. Fixed in v7.4.9-p1+tuxcare.",
@@ -14,21 +14,30 @@
       "package": {
         "ecosystem": "TuxCare:Packagist",
         "name": "symfony/mime",
-        "purl": "pkg:composer/symfony/mime@v7.4.9-p1+tuxcare"
+        "purl": "pkg:composer/symfony/mime"
       },
       "ranges": [
         {
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "0"
+              "introduced": "v7.4.9"
             },
             {
               "fixed": "v7.4.9-p1+tuxcare"
             }
           ]
         }
-      ]
+      ],
+      "versions": [
+        "v7.4.9"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "v7.4.9",
+          "fixed_version": "v7.4.9-p1+tuxcare"
+        }
+      }
     }
   ]
 }

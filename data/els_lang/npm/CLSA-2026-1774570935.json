@@ -1,7 +1,7 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2026-1774570935",
-  "modified": "2026-09-19T11:40:04Z",
+  "modified": "2026-10-15T08:16:08Z",
   "published": "2026-08-04T14:52:15Z",
   "summary": "TuxCare security update for js-yaml (5 CVEs)",
   "details": "TuxCare rebuilt js-yaml to address 5 CVEs. Fixed in 3.7.0-tuxcare.1.",
@@ -17,21 +17,30 @@
       "package": {
         "ecosystem": "TuxCare:npm",
         "name": "js-yaml",
-        "purl": "pkg:npm/js-yaml@3.7.0-tuxcare.1"
+        "purl": "pkg:npm/js-yaml"
       },
       "ranges": [
         {
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "0"
+              "introduced": "3.7.0-tuxcare.0"
             },
             {
               "fixed": "3.7.0-tuxcare.1"
             }
           ]
         }
-      ]
+      ],
+      "versions": [
+        "3.7.0"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "3.7.0",
+          "fixed_version": "3.7.0-tuxcare.1"
+        }
+      }
     }
   ]
 }

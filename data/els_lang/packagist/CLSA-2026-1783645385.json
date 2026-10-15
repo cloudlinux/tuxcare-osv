@@ -1,7 +1,7 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2026-1783645385",
-  "modified": "2026-08-04T14:52:42Z",
+  "modified": "2026-10-15T08:16:08Z",
   "published": "2026-08-04T14:52:42Z",
   "summary": "TuxCare security update for guzzlehttp/guzzle (1 CVE)",
   "details": "TuxCare rebuilt guzzlehttp/guzzle to address 1 CVE. Fixed in 6.0.2-p2+tuxcare.",
@@ -13,21 +13,31 @@
       "package": {
         "ecosystem": "TuxCare:Packagist",
         "name": "guzzlehttp/guzzle",
-        "purl": "pkg:composer/guzzlehttp/guzzle@6.0.2-p2+tuxcare"
+        "purl": "pkg:composer/guzzlehttp/guzzle"
       },
       "ranges": [
         {
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "0"
+              "introduced": "6.0.2"
             },
             {
               "fixed": "6.0.2-p2+tuxcare"
             }
           ]
         }
-      ]
+      ],
+      "versions": [
+        "6.0.2",
+        "6.0.2-p1+tuxcare"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "6.0.2",
+          "fixed_version": "6.0.2-p2+tuxcare"
+        }
+      }
     }
   ]
 }

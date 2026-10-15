@@ -1,7 +1,7 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2026-1771459792",
-  "modified": "2026-09-19T11:40:04Z",
+  "modified": "2026-10-15T08:16:08Z",
   "published": "2026-08-04T14:52:07Z",
   "summary": "TuxCare security update for qs (3 CVEs)",
   "details": "TuxCare rebuilt qs to address 3 CVEs. Fixed in 1.2.2-tuxcare.1.",
@@ -15,21 +15,30 @@
       "package": {
         "ecosystem": "TuxCare:npm",
         "name": "qs",
-        "purl": "pkg:npm/qs@1.2.2-tuxcare.1"
+        "purl": "pkg:npm/qs"
       },
       "ranges": [
         {
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "0"
+              "introduced": "1.2.2-tuxcare.0"
             },
             {
               "fixed": "1.2.2-tuxcare.1"
             }
           ]
         }
-      ]
+      ],
+      "versions": [
+        "1.2.2"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "1.2.2",
+          "fixed_version": "1.2.2-tuxcare.1"
+        }
+      }
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2026-1769559170",
-  "modified": "2026-08-04T14:52:09Z",
+  "modified": "2026-10-15T08:16:08Z",
   "published": "2026-08-04T14:52:09Z",
   "summary": "TuxCare security update for urllib3 (2 CVEs)",
   "details": "TuxCare rebuilt urllib3 to address 2 CVEs. Fixed in 1.26.4.post4+tuxcare.",
@@ -14,21 +14,33 @@
       "package": {
         "ecosystem": "TuxCare:PyPI",
         "name": "urllib3",
-        "purl": "pkg:pypi/urllib3@1.26.4.post4+tuxcare"
+        "purl": "pkg:pypi/urllib3"
       },
       "ranges": [
         {
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "0"
+              "introduced": "1.26.4"
             },
             {
               "fixed": "1.26.4.post4+tuxcare"
             }
           ]
         }
-      ]
+      ],
+      "versions": [
+        "1.26.4",
+        "1.26.4.post1+tuxcare",
+        "1.26.4.post2+tuxcare",
+        "1.26.4.post3+tuxcare"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "1.26.4",
+          "fixed_version": "1.26.4.post4+tuxcare"
+        }
+      }
     }
   ]
 }

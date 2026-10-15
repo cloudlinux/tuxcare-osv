@@ -1,7 +1,7 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2026-1788348414",
-  "modified": "2026-09-02T11:26:54Z",
+  "modified": "2026-10-15T08:16:08Z",
   "published": "2026-09-02T11:26:54Z",
   "summary": "TuxCare security update for twig/twig (1 CVE)",
   "details": "TuxCare rebuilt twig/twig to address 1 CVE. Fixed in v1.44.8-p2+tuxcare.",
@@ -13,21 +13,31 @@
       "package": {
         "ecosystem": "TuxCare:Packagist",
         "name": "twig/twig",
-        "purl": "pkg:composer/twig/twig@v1.44.8-p2+tuxcare"
+        "purl": "pkg:composer/twig/twig"
       },
       "ranges": [
         {
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "0"
+              "introduced": "v1.44.8"
             },
             {
               "fixed": "v1.44.8-p2+tuxcare"
             }
           ]
         }
-      ]
+      ],
+      "versions": [
+        "v1.44.8",
+        "v1.44.8-p1+tuxcare"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "v1.44.8",
+          "fixed_version": "v1.44.8-p2+tuxcare"
+        }
+      }
     }
   ]
 }

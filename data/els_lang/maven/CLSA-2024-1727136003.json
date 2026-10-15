@@ -1,7 +1,7 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2024-1727136003",
-  "modified": "2026-08-04T14:52:03Z",
+  "modified": "2026-10-15T08:16:08Z",
   "published": "2026-08-04T14:52:03Z",
   "summary": "TuxCare security update for org.apache.santuario:xmlsec (1 CVE)",
   "details": "TuxCare rebuilt org.apache.santuario:xmlsec to address 1 CVE. Fixed in 2.3.1.tuxcare.",
@@ -13,21 +13,30 @@
       "package": {
         "ecosystem": "TuxCare:Maven",
         "name": "org.apache.santuario:xmlsec",
-        "purl": "pkg:maven/org.apache.santuario/xmlsec@2.3.1.tuxcare"
+        "purl": "pkg:maven/org.apache.santuario/xmlsec"
       },
       "ranges": [
         {
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "0"
+              "introduced": "2.3.1"
             },
             {
               "fixed": "2.3.1.tuxcare"
             }
           ]
         }
-      ]
+      ],
+      "versions": [
+        "2.3.1"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "2.3.1",
+          "fixed_version": "2.3.1.tuxcare"
+        }
+      }
     }
   ]
 }

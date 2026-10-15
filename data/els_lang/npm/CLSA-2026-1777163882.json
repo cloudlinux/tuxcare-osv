@@ -1,7 +1,7 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2026-1777163882",
-  "modified": "2026-08-04T14:52:28Z",
+  "modified": "2026-10-15T08:16:08Z",
   "published": "2026-08-04T14:52:28Z",
   "summary": "TuxCare security update for validator (2 CVEs)",
   "details": "TuxCare rebuilt validator to address 2 CVEs. Fixed in 10.11.0-tuxcare.3.",
@@ -14,21 +14,32 @@
       "package": {
         "ecosystem": "TuxCare:npm",
         "name": "validator",
-        "purl": "pkg:npm/validator@10.11.0-tuxcare.3"
+        "purl": "pkg:npm/validator"
       },
       "ranges": [
         {
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "0"
+              "introduced": "10.11.0-tuxcare.0"
             },
             {
               "fixed": "10.11.0-tuxcare.3"
             }
           ]
         }
-      ]
+      ],
+      "versions": [
+        "10.11.0",
+        "10.11.0-tuxcare.1",
+        "10.11.0-tuxcare.2"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "10.11.0",
+          "fixed_version": "10.11.0-tuxcare.3"
+        }
+      }
     }
   ]
 }

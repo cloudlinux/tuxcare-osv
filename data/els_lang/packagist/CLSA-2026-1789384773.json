@@ -1,7 +1,7 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2026-1789384773",
-  "modified": "2026-09-15T20:03:06Z",
+  "modified": "2026-10-15T08:16:08Z",
   "published": "2026-09-14T11:19:33Z",
   "summary": "TuxCare security update for zendframework/zend-view (1 CVE)",
   "details": "TuxCare rebuilt zendframework/zend-view to address 1 CVE. Fixed in 2.1.6-p1+tuxcare.",
@@ -13,21 +13,30 @@
       "package": {
         "ecosystem": "TuxCare:Packagist",
         "name": "zendframework/zend-view",
-        "purl": "pkg:composer/zendframework/zend-view@2.1.6-p1+tuxcare"
+        "purl": "pkg:composer/zendframework/zend-view"
       },
       "ranges": [
         {
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "0"
+              "introduced": "2.1.6"
             },
             {
               "fixed": "2.1.6-p1+tuxcare"
             }
           ]
         }
-      ]
+      ],
+      "versions": [
+        "2.1.6"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "2.1.6",
+          "fixed_version": "2.1.6-p1+tuxcare"
+        }
+      }
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2026-1790176219",
-  "modified": "2026-09-23T15:10:19Z",
+  "modified": "2026-10-15T08:16:08Z",
   "published": "2026-09-23T15:10:19Z",
   "summary": "TuxCare security update for multer (2 CVEs)",
   "details": "TuxCare rebuilt multer to address 2 CVEs. Fixed in 1.4.5-lts.1-tuxcare.9.",
@@ -14,21 +14,38 @@
       "package": {
         "ecosystem": "TuxCare:npm",
         "name": "multer",
-        "purl": "pkg:npm/multer@1.4.5-lts.1-tuxcare.9"
+        "purl": "pkg:npm/multer"
       },
       "ranges": [
         {
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "0"
+              "introduced": "1.4.5-lts.1-tuxcare.0"
             },
             {
               "fixed": "1.4.5-lts.1-tuxcare.9"
             }
           ]
         }
-      ]
+      ],
+      "versions": [
+        "1.4.5-lts.1",
+        "1.4.5-lts.1-tuxcare.1",
+        "1.4.5-lts.1-tuxcare.2",
+        "1.4.5-lts.1-tuxcare.3",
+        "1.4.5-lts.1-tuxcare.4",
+        "1.4.5-lts.1-tuxcare.5",
+        "1.4.5-lts.1-tuxcare.6",
+        "1.4.5-lts.1-tuxcare.7",
+        "1.4.5-lts.1-tuxcare.8"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "1.4.5-lts.1",
+          "fixed_version": "1.4.5-lts.1-tuxcare.9"
+        }
+      }
     }
   ]
 }

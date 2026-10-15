@@ -1,7 +1,7 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2026-1788973862",
-  "modified": "2026-09-09T17:11:02Z",
+  "modified": "2026-10-15T08:16:08Z",
   "published": "2026-09-09T17:11:02Z",
   "summary": "TuxCare security update for league/commonmark (4 CVEs)",
   "details": "TuxCare rebuilt league/commonmark to address 4 CVEs. Fixed in 2.8.2-p3+tuxcare.",
@@ -16,21 +16,31 @@
       "package": {
         "ecosystem": "TuxCare:Packagist",
         "name": "league/commonmark",
-        "purl": "pkg:composer/league/commonmark@2.8.2-p3+tuxcare"
+        "purl": "pkg:composer/league/commonmark"
       },
       "ranges": [
         {
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "0"
+              "introduced": "2.8.2"
             },
             {
               "fixed": "2.8.2-p3+tuxcare"
             }
           ]
         }
-      ]
+      ],
+      "versions": [
+        "2.8.2",
+        "2.8.2-p2+tuxcare"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "2.8.2",
+          "fixed_version": "2.8.2-p3+tuxcare"
+        }
+      }
     }
   ]
 }

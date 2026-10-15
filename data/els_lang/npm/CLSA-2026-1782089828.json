@@ -1,7 +1,7 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2026-1782089828",
-  "modified": "2026-10-01T18:35:00Z",
+  "modified": "2026-10-15T08:16:08Z",
   "published": "2026-08-04T14:52:39Z",
   "summary": "TuxCare security update for 2 packages (1 CVE)",
   "details": "TuxCare rebuilt 2 packages to address 1 CVE. Fixed in 3.25.76-tuxcare.1.",
@@ -13,41 +13,59 @@
       "package": {
         "ecosystem": "TuxCare:npm",
         "name": "zod",
-        "purl": "pkg:npm/zod@3.25.76-tuxcare.1"
+        "purl": "pkg:npm/zod"
       },
       "ranges": [
         {
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "0"
+              "introduced": "3.25.76-tuxcare.0"
             },
             {
               "fixed": "3.25.76-tuxcare.1"
             }
           ]
         }
-      ]
+      ],
+      "versions": [
+        "3.25.76"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "3.25.76",
+          "fixed_version": "3.25.76-tuxcare.1"
+        }
+      }
     },
     {
       "package": {
         "ecosystem": "TuxCare:npm",
         "name": "zod-3",
-        "purl": "pkg:npm/zod-3@3.25.76-tuxcare.1"
+        "purl": "pkg:npm/zod-3"
       },
       "ranges": [
         {
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "0"
+              "introduced": "3.25.76-tuxcare.0"
             },
             {
               "fixed": "3.25.76-tuxcare.1"
             }
           ]
         }
-      ]
+      ],
+      "versions": [
+        "3.25.76"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "3.25.76",
+          "fixed_version": "3.25.76-tuxcare.1"
+        }
+      }
     }
   ]
 }

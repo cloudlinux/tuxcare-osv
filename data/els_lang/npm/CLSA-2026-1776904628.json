@@ -1,7 +1,7 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2026-1776904628",
-  "modified": "2026-09-15T20:03:06Z",
+  "modified": "2026-10-15T08:16:08Z",
   "published": "2026-08-04T14:52:27Z",
   "summary": "TuxCare security update for url-parse (6 CVEs)",
   "details": "TuxCare rebuilt url-parse to address 6 CVEs. Fixed in 1.4.7-tuxcare.1.",
@@ -18,21 +18,30 @@
       "package": {
         "ecosystem": "TuxCare:npm",
         "name": "url-parse",
-        "purl": "pkg:npm/url-parse@1.4.7-tuxcare.1"
+        "purl": "pkg:npm/url-parse"
       },
       "ranges": [
         {
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "0"
+              "introduced": "1.4.7-tuxcare.0"
             },
             {
               "fixed": "1.4.7-tuxcare.1"
             }
           ]
         }
-      ]
+      ],
+      "versions": [
+        "1.4.7"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "1.4.7",
+          "fixed_version": "1.4.7-tuxcare.1"
+        }
+      }
     }
   ]
 }

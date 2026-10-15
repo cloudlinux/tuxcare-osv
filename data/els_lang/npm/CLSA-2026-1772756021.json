@@ -1,7 +1,7 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2026-1772756021",
-  "modified": "2026-09-15T20:03:06Z",
+  "modified": "2026-10-15T08:16:08Z",
   "published": "2026-08-04T14:52:10Z",
   "summary": "TuxCare security update for bl (2 CVEs)",
   "details": "TuxCare rebuilt bl to address 2 CVEs. Fixed in 1.0.0-tuxcare.1.",
@@ -14,21 +14,30 @@
       "package": {
         "ecosystem": "TuxCare:npm",
         "name": "bl",
-        "purl": "pkg:npm/bl@1.0.0-tuxcare.1"
+        "purl": "pkg:npm/bl"
       },
       "ranges": [
         {
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "0"
+              "introduced": "1.0.0-tuxcare.0"
             },
             {
               "fixed": "1.0.0-tuxcare.1"
             }
           ]
         }
-      ]
+      ],
+      "versions": [
+        "1.0.0"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "1.0.0",
+          "fixed_version": "1.0.0-tuxcare.1"
+        }
+      }
     }
   ]
 }

@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1791965654",
+  "modified": "2026-10-14T08:14:14Z",
+  "published": "2026-10-14T08:14:14Z",
+  "summary": "TuxCare security update for com.google.protobuf:protobuf-java (1 CVE)",
+  "details": "TuxCare rebuilt com.google.protobuf:protobuf-java to address 1 CVE. Fixed in 2.5.0-tuxcare.2.",
+  "upstream": [
+    "CVE-2022-3509"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "com.google.protobuf:protobuf-java",
+        "purl": "pkg:maven/com.google.protobuf/protobuf-java"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "2.5.0"
+            },
+            {
+              "fixed": "2.5.0-tuxcare.2"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "2.5.0",
+        "2.5.0-tuxcare.1"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "2.5.0",
+          "fixed_version": "2.5.0-tuxcare.2"
+        }
+      }
+    }
+  ]
+}

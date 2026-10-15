@@ -1,7 +1,7 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2026-1772496681",
-  "modified": "2026-08-04T14:52:08Z",
+  "modified": "2026-10-15T08:16:08Z",
   "published": "2026-08-04T14:52:08Z",
   "summary": "TuxCare security update for webpack (2 CVEs)",
   "details": "TuxCare rebuilt webpack to address 2 CVEs. Fixed in 5.94.0-tuxcare.3.",
@@ -14,21 +14,32 @@
       "package": {
         "ecosystem": "TuxCare:npm",
         "name": "webpack",
-        "purl": "pkg:npm/webpack@5.94.0-tuxcare.3"
+        "purl": "pkg:npm/webpack"
       },
       "ranges": [
         {
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "0"
+              "introduced": "5.94.0-tuxcare.0"
             },
             {
               "fixed": "5.94.0-tuxcare.3"
             }
           ]
         }
-      ]
+      ],
+      "versions": [
+        "5.94.0",
+        "5.94.0-tuxcare.1",
+        "5.94.0-tuxcare.2"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "5.94.0",
+          "fixed_version": "5.94.0-tuxcare.3"
+        }
+      }
     }
   ]
 }

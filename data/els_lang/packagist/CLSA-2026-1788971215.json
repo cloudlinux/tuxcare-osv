@@ -1,7 +1,7 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2026-1788971215",
-  "modified": "2026-09-09T16:26:55Z",
+  "modified": "2026-10-15T08:16:08Z",
   "published": "2026-09-09T16:26:55Z",
   "summary": "TuxCare security update for drupal/spamspan (1 CVE)",
   "details": "TuxCare rebuilt drupal/spamspan to address 1 CVE. Fixed in 7.1.4-p1+tuxcare.",
@@ -13,21 +13,30 @@
       "package": {
         "ecosystem": "TuxCare:Packagist",
         "name": "drupal/spamspan",
-        "purl": "pkg:composer/drupal/spamspan@7.1.4-p1+tuxcare"
+        "purl": "pkg:composer/drupal/spamspan"
       },
       "ranges": [
         {
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "0"
+              "introduced": "7.1.4"
             },
             {
               "fixed": "7.1.4-p1+tuxcare"
             }
           ]
         }
-      ]
+      ],
+      "versions": [
+        "7.1.4"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "7.1.4",
+          "fixed_version": "7.1.4-p1+tuxcare"
+        }
+      }
     }
   ]
 }

@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1791988717",
+  "modified": "2026-10-14T14:38:37Z",
+  "published": "2026-10-14T14:38:37Z",
+  "summary": "TuxCare security update for enshrined/svg-sanitize (3 CVEs)",
+  "details": "TuxCare rebuilt enshrined/svg-sanitize to address 3 CVEs. Fixed in 0.16.0-p2+tuxcare.",
+  "upstream": [
+    "CVE-2026-107379",
+    "CVE-2026-107380",
+    "CVE-2026-107381"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Packagist",
+        "name": "enshrined/svg-sanitize",
+        "purl": "pkg:composer/enshrined/svg-sanitize"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0.16.0"
+            },
+            {
+              "fixed": "0.16.0-p2+tuxcare"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "0.16.0",
+        "0.16.0-p1+tuxcare"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "0.16.0",
+          "fixed_version": "0.16.0-p2+tuxcare"
+        }
+      }
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2026-1788849250",
-  "modified": "2026-09-08T17:08:23Z",
+  "modified": "2026-10-15T08:16:08Z",
   "published": "2026-09-08T17:08:23Z",
   "summary": "TuxCare security update for jinja2 (2 CVEs)",
   "details": "TuxCare rebuilt jinja2 to address 2 CVEs. Fixed in 3.0.3.post2+tuxcare.",
@@ -14,21 +14,31 @@
       "package": {
         "ecosystem": "TuxCare:PyPI",
         "name": "jinja2",
-        "purl": "pkg:pypi/jinja2@3.0.3.post2+tuxcare"
+        "purl": "pkg:pypi/jinja2"
       },
       "ranges": [
         {
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "0"
+              "introduced": "3.0.3"
             },
             {
               "fixed": "3.0.3.post2+tuxcare"
             }
           ]
         }
-      ]
+      ],
+      "versions": [
+        "3.0.3",
+        "3.0.3.post1+tuxcare"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "3.0.3",
+          "fixed_version": "3.0.3.post2+tuxcare"
+        }
+      }
     }
   ]
 }

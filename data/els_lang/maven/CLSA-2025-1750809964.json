@@ -1,7 +1,7 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2025-1750809964",
-  "modified": "2026-08-04T14:52:05Z",
+  "modified": "2026-10-15T08:16:08Z",
   "published": "2026-08-04T14:52:05Z",
   "summary": "TuxCare security update for dom4j:dom4j (2 CVEs)",
   "details": "TuxCare rebuilt dom4j:dom4j to address 2 CVEs. Fixed in 1.6.1.tuxcare.1.",
@@ -14,21 +14,30 @@
       "package": {
         "ecosystem": "TuxCare:Maven",
         "name": "dom4j:dom4j",
-        "purl": "pkg:maven/dom4j/dom4j@1.6.1.tuxcare.1"
+        "purl": "pkg:maven/dom4j/dom4j"
       },
       "ranges": [
         {
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "0"
+              "introduced": "1.6.1"
             },
             {
               "fixed": "1.6.1.tuxcare.1"
             }
           ]
         }
-      ]
+      ],
+      "versions": [
+        "1.6.1"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "1.6.1",
+          "fixed_version": "1.6.1.tuxcare.1"
+        }
+      }
     }
   ]
 }

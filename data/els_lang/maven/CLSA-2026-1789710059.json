@@ -1,7 +1,7 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2026-1789710059",
-  "modified": "2026-09-18T05:40:59Z",
+  "modified": "2026-10-15T08:16:08Z",
   "published": "2026-09-18T05:40:59Z",
   "summary": "TuxCare security update for org.springframework.graphql (2 CVEs)",
   "details": "TuxCare rebuilt 2 org.springframework.graphql packages to address 2 CVEs. Fixed in 1.1.7-tuxcare.1.",
@@ -14,41 +14,59 @@
       "package": {
         "ecosystem": "TuxCare:Maven",
         "name": "org.springframework.graphql:spring-graphql",
-        "purl": "pkg:maven/org.springframework.graphql/spring-graphql@1.1.7-tuxcare.1"
+        "purl": "pkg:maven/org.springframework.graphql/spring-graphql"
       },
       "ranges": [
         {
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "0"
+              "introduced": "1.1.7"
             },
             {
               "fixed": "1.1.7-tuxcare.1"
             }
           ]
         }
-      ]
+      ],
+      "versions": [
+        "1.1.7"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "1.1.7",
+          "fixed_version": "1.1.7-tuxcare.1"
+        }
+      }
     },
     {
       "package": {
         "ecosystem": "TuxCare:Maven",
         "name": "org.springframework.graphql:spring-graphql-test",
-        "purl": "pkg:maven/org.springframework.graphql/spring-graphql-test@1.1.7-tuxcare.1"
+        "purl": "pkg:maven/org.springframework.graphql/spring-graphql-test"
       },
       "ranges": [
         {
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "0"
+              "introduced": "1.1.7"
             },
             {
               "fixed": "1.1.7-tuxcare.1"
             }
           ]
         }
-      ]
+      ],
+      "versions": [
+        "1.1.7"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "1.1.7",
+          "fixed_version": "1.1.7-tuxcare.1"
+        }
+      }
     }
   ]
 }

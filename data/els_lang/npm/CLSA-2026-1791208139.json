@@ -1,7 +1,7 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2026-1791208139",
-  "modified": "2026-10-05T13:48:59Z",
+  "modified": "2026-10-15T08:16:08Z",
   "published": "2026-10-05T13:48:59Z",
   "summary": "TuxCare security update for nanoid (1 CVE)",
   "details": "TuxCare rebuilt nanoid to address 1 CVE. Fixed in 3.3.14-tuxcare.2.",
@@ -13,21 +13,31 @@
       "package": {
         "ecosystem": "TuxCare:npm",
         "name": "nanoid",
-        "purl": "pkg:npm/nanoid@3.3.14-tuxcare.2"
+        "purl": "pkg:npm/nanoid"
       },
       "ranges": [
         {
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "0"
+              "introduced": "3.3.14-tuxcare.0"
             },
             {
               "fixed": "3.3.14-tuxcare.2"
             }
           ]
         }
-      ]
+      ],
+      "versions": [
+        "3.3.14",
+        "3.3.14-tuxcare.1"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "3.3.14",
+          "fixed_version": "3.3.14-tuxcare.2"
+        }
+      }
     }
   ]
 }

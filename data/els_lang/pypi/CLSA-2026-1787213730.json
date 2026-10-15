@@ -1,7 +1,7 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2026-1787213730",
-  "modified": "2026-09-15T20:03:06Z",
+  "modified": "2026-10-15T08:16:08Z",
   "published": "2026-08-20T08:15:30Z",
   "summary": "TuxCare security update for mlflow (4 CVEs)",
   "details": "TuxCare rebuilt mlflow to address 4 CVEs. Fixed in 2.9.1.post5+tuxcare.",
@@ -16,21 +16,34 @@
       "package": {
         "ecosystem": "TuxCare:PyPI",
         "name": "mlflow",
-        "purl": "pkg:pypi/mlflow@2.9.1.post5+tuxcare"
+        "purl": "pkg:pypi/mlflow"
       },
       "ranges": [
         {
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "0"
+              "introduced": "2.9.1"
             },
             {
               "fixed": "2.9.1.post5+tuxcare"
             }
           ]
         }
-      ]
+      ],
+      "versions": [
+        "2.9.1",
+        "2.9.1.post1+tuxcare",
+        "2.9.1.post2+tuxcare",
+        "2.9.1.post3+tuxcare",
+        "2.9.1.post4+tuxcare"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "2.9.1",
+          "fixed_version": "2.9.1.post5+tuxcare"
+        }
+      }
     }
   ]
 }

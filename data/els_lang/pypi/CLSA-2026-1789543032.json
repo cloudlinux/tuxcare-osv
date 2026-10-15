@@ -1,7 +1,7 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2026-1789543032",
-  "modified": "2026-09-16T07:17:12Z",
+  "modified": "2026-10-15T08:16:08Z",
   "published": "2026-09-16T07:17:12Z",
   "summary": "TuxCare security update for paramiko (2 CVEs)",
   "details": "TuxCare rebuilt paramiko to address 2 CVEs. Fixed in 2.12.0.post1+tuxcare.",
@@ -14,21 +14,30 @@
       "package": {
         "ecosystem": "TuxCare:PyPI",
         "name": "paramiko",
-        "purl": "pkg:pypi/paramiko@2.12.0.post1+tuxcare"
+        "purl": "pkg:pypi/paramiko"
       },
       "ranges": [
         {
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "0"
+              "introduced": "2.12.0"
             },
             {
               "fixed": "2.12.0.post1+tuxcare"
             }
           ]
         }
-      ]
+      ],
+      "versions": [
+        "2.12.0"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "2.12.0",
+          "fixed_version": "2.12.0.post1+tuxcare"
+        }
+      }
     }
   ]
 }

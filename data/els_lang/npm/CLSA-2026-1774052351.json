@@ -1,7 +1,7 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2026-1774052351",
-  "modified": "2026-08-04T14:52:13Z",
+  "modified": "2026-10-15T08:16:08Z",
   "published": "2026-08-04T14:52:13Z",
   "summary": "TuxCare security update for angular (1 CVE)",
   "details": "TuxCare rebuilt angular to address 1 CVE. Fixed in 1.6.10-tuxcare.4.",
@@ -13,21 +13,33 @@
       "package": {
         "ecosystem": "TuxCare:npm",
         "name": "angular",
-        "purl": "pkg:npm/angular@1.6.10-tuxcare.4"
+        "purl": "pkg:npm/angular"
       },
       "ranges": [
         {
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "0"
+              "introduced": "1.6.10-tuxcare.0"
             },
             {
               "fixed": "1.6.10-tuxcare.4"
             }
           ]
         }
-      ]
+      ],
+      "versions": [
+        "1.6.10",
+        "1.6.10-tuxcare.1",
+        "1.6.10-tuxcare.2",
+        "1.6.10-tuxcare.3"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "1.6.10",
+          "fixed_version": "1.6.10-tuxcare.4"
+        }
+      }
     }
   ]
 }

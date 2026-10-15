@@ -1,7 +1,7 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2026-1776818223",
-  "modified": "2026-08-04T14:52:27Z",
+  "modified": "2026-10-15T08:16:08Z",
   "published": "2026-08-04T14:52:27Z",
   "summary": "TuxCare security update for phpunit/phpunit (1 CVE)",
   "details": "TuxCare rebuilt phpunit/phpunit to address 1 CVE. Fixed in 7.5.20-p1+tuxcare.",
@@ -13,21 +13,30 @@
       "package": {
         "ecosystem": "TuxCare:Packagist",
         "name": "phpunit/phpunit",
-        "purl": "pkg:composer/phpunit/phpunit@7.5.20-p1+tuxcare"
+        "purl": "pkg:composer/phpunit/phpunit"
       },
       "ranges": [
         {
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "0"
+              "introduced": "7.5.20"
             },
             {
               "fixed": "7.5.20-p1+tuxcare"
             }
           ]
         }
-      ]
+      ],
+      "versions": [
+        "7.5.20"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "7.5.20",
+          "fixed_version": "7.5.20-p1+tuxcare"
+        }
+      }
     }
   ]
 }

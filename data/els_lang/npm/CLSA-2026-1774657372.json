@@ -1,7 +1,7 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2026-1774657372",
-  "modified": "2026-08-04T14:52:15Z",
+  "modified": "2026-10-15T08:16:08Z",
   "published": "2026-08-04T14:52:15Z",
   "summary": "TuxCare security update for jsonwebtoken (3 CVEs)",
   "details": "TuxCare rebuilt jsonwebtoken to address 3 CVEs. Fixed in 8.5.1-tuxcare.1.",
@@ -15,21 +15,30 @@
       "package": {
         "ecosystem": "TuxCare:npm",
         "name": "jsonwebtoken",
-        "purl": "pkg:npm/jsonwebtoken@8.5.1-tuxcare.1"
+        "purl": "pkg:npm/jsonwebtoken"
       },
       "ranges": [
         {
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "0"
+              "introduced": "8.5.1-tuxcare.0"
             },
             {
               "fixed": "8.5.1-tuxcare.1"
             }
           ]
         }
-      ]
+      ],
+      "versions": [
+        "8.5.1"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "8.5.1",
+          "fixed_version": "8.5.1-tuxcare.1"
+        }
+      }
     }
   ]
 }

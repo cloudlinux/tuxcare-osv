@@ -1,7 +1,7 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2026-1784943211",
-  "modified": "2026-08-04T14:52:49Z",
+  "modified": "2026-10-15T08:16:08Z",
   "published": "2026-08-04T14:52:49Z",
   "summary": "TuxCare security update for axios (8 CVEs)",
   "details": "TuxCare rebuilt axios to address 8 CVEs. Fixed in 1.6.8-tuxcare.2.",
@@ -20,21 +20,31 @@
       "package": {
         "ecosystem": "TuxCare:npm",
         "name": "axios",
-        "purl": "pkg:npm/axios@1.6.8-tuxcare.2"
+        "purl": "pkg:npm/axios"
       },
       "ranges": [
         {
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "0"
+              "introduced": "1.6.8-tuxcare.0"
             },
             {
               "fixed": "1.6.8-tuxcare.2"
             }
           ]
         }
-      ]
+      ],
+      "versions": [
+        "1.6.8",
+        "1.6.8-tuxcare.1"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "1.6.8",
+          "fixed_version": "1.6.8-tuxcare.2"
+        }
+      }
     }
   ]
 }

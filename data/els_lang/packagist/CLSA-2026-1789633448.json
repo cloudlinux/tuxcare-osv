@@ -1,7 +1,7 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2026-1789633448",
-  "modified": "2026-09-17T08:24:08Z",
+  "modified": "2026-10-15T08:16:08Z",
   "published": "2026-09-17T08:24:08Z",
   "summary": "TuxCare security update for drupal/coffee (1 CVE)",
   "details": "TuxCare rebuilt drupal/coffee to address 1 CVE. Fixed in 7.2.3-p1+tuxcare.",
@@ -13,21 +13,30 @@
       "package": {
         "ecosystem": "TuxCare:Packagist",
         "name": "drupal/coffee",
-        "purl": "pkg:composer/drupal/coffee@7.2.3-p1+tuxcare"
+        "purl": "pkg:composer/drupal/coffee"
       },
       "ranges": [
         {
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "0"
+              "introduced": "7.2.3"
             },
             {
               "fixed": "7.2.3-p1+tuxcare"
             }
           ]
         }
-      ]
+      ],
+      "versions": [
+        "7.2.3"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "7.2.3",
+          "fixed_version": "7.2.3-p1+tuxcare"
+        }
+      }
     }
   ]
 }

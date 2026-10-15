@@ -1,7 +1,7 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2026-1791526134",
-  "modified": "2026-10-09T06:08:54Z",
+  "modified": "2026-10-15T08:16:08Z",
   "published": "2026-10-09T06:08:54Z",
   "summary": "TuxCare security update for twisted (1 CVE)",
   "details": "TuxCare rebuilt twisted to address 1 CVE. Fixed in 20.3.0.post6+tuxcare.",
@@ -13,21 +13,32 @@
       "package": {
         "ecosystem": "TuxCare:PyPI",
         "name": "twisted",
-        "purl": "pkg:pypi/twisted@20.3.0.post6+tuxcare"
+        "purl": "pkg:pypi/twisted"
       },
       "ranges": [
         {
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "0"
+              "introduced": "20.3.0"
             },
             {
               "fixed": "20.3.0.post6+tuxcare"
             }
           ]
         }
-      ]
+      ],
+      "versions": [
+        "20.3.0",
+        "20.3.0.post4+tuxcare",
+        "20.3.0.post5+tuxcare"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "20.3.0",
+          "fixed_version": "20.3.0.post6+tuxcare"
+        }
+      }
     }
   ]
 }

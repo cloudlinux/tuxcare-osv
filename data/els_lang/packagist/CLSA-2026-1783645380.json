@@ -1,7 +1,7 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2026-1783645380",
-  "modified": "2026-08-10T13:08:18Z",
+  "modified": "2026-10-15T08:16:08Z",
   "published": "2026-08-04T14:52:42Z",
   "summary": "TuxCare security update for spatie/laravel-medialibrary (2 CVEs)",
   "details": "TuxCare rebuilt spatie/laravel-medialibrary to address 2 CVEs. Fixed in 9.12.4-p2+tuxcare.",
@@ -14,21 +14,31 @@
       "package": {
         "ecosystem": "TuxCare:Packagist",
         "name": "spatie/laravel-medialibrary",
-        "purl": "pkg:composer/spatie/laravel-medialibrary@9.12.4-p2+tuxcare"
+        "purl": "pkg:composer/spatie/laravel-medialibrary"
       },
       "ranges": [
         {
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "0"
+              "introduced": "9.12.4"
             },
             {
               "fixed": "9.12.4-p2+tuxcare"
             }
           ]
         }
-      ]
+      ],
+      "versions": [
+        "9.12.4",
+        "9.12.4-p1+tuxcare"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "9.12.4",
+          "fixed_version": "9.12.4-p2+tuxcare"
+        }
+      }
     }
   ]
 }

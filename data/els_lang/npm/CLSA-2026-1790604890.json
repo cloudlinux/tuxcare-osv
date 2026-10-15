@@ -1,7 +1,7 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2026-1790604890",
-  "modified": "2026-09-28T14:14:50Z",
+  "modified": "2026-10-15T08:16:08Z",
   "published": "2026-09-28T14:14:50Z",
   "summary": "TuxCare security update for 2 packages (2 CVEs)",
   "details": "TuxCare rebuilt 2 packages to address 2 CVEs. Fixed in 3.0.0-tuxcare.1.",
@@ -14,41 +14,59 @@
       "package": {
         "ecosystem": "TuxCare:npm",
         "name": "toml",
-        "purl": "pkg:npm/toml@3.0.0-tuxcare.1"
+        "purl": "pkg:npm/toml"
       },
       "ranges": [
         {
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "0"
+              "introduced": "3.0.0-tuxcare.0"
             },
             {
               "fixed": "3.0.0-tuxcare.1"
             }
           ]
         }
-      ]
+      ],
+      "versions": [
+        "3.0.0"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "3.0.0",
+          "fixed_version": "3.0.0-tuxcare.1"
+        }
+      }
     },
     {
       "package": {
         "ecosystem": "TuxCare:npm",
         "name": "toml-node",
-        "purl": "pkg:npm/toml-node@3.0.0-tuxcare.1"
+        "purl": "pkg:npm/toml-node"
       },
       "ranges": [
         {
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "0"
+              "introduced": "3.0.0-tuxcare.0"
             },
             {
               "fixed": "3.0.0-tuxcare.1"
             }
           ]
         }
-      ]
+      ],
+      "versions": [
+        "3.0.0"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "3.0.0",
+          "fixed_version": "3.0.0-tuxcare.1"
+        }
+      }
     }
   ]
 }

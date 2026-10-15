@@ -1,7 +1,7 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2026-1791208774",
-  "modified": "2026-10-05T13:59:34Z",
+  "modified": "2026-10-15T08:16:08Z",
   "published": "2026-10-05T13:59:34Z",
   "summary": "TuxCare security update for image-size (2 CVEs)",
   "details": "TuxCare rebuilt image-size to address 2 CVEs. Fixed in 2.0.2-tuxcare.1.",
@@ -14,21 +14,30 @@
       "package": {
         "ecosystem": "TuxCare:npm",
         "name": "image-size",
-        "purl": "pkg:npm/image-size@2.0.2-tuxcare.1"
+        "purl": "pkg:npm/image-size"
       },
       "ranges": [
         {
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "0"
+              "introduced": "2.0.2-tuxcare.0"
             },
             {
               "fixed": "2.0.2-tuxcare.1"
             }
           ]
         }
-      ]
+      ],
+      "versions": [
+        "2.0.2"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "2.0.2",
+          "fixed_version": "2.0.2-tuxcare.1"
+        }
+      }
     }
   ]
 }

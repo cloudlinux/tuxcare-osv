@@ -1,7 +1,7 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2026-1771546205",
-  "modified": "2026-09-15T20:03:06Z",
+  "modified": "2026-10-15T08:16:08Z",
   "published": "2026-08-04T14:52:07Z",
   "summary": "TuxCare security update for flat (1 CVE)",
   "details": "TuxCare rebuilt flat to address 1 CVE. Fixed in 2.0.1-tuxcare.1.",
@@ -13,21 +13,30 @@
       "package": {
         "ecosystem": "TuxCare:npm",
         "name": "flat",
-        "purl": "pkg:npm/flat@2.0.1-tuxcare.1"
+        "purl": "pkg:npm/flat"
       },
       "ranges": [
         {
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "0"
+              "introduced": "2.0.1-tuxcare.0"
             },
             {
               "fixed": "2.0.1-tuxcare.1"
             }
           ]
         }
-      ]
+      ],
+      "versions": [
+        "2.0.1"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "2.0.1",
+          "fixed_version": "2.0.1-tuxcare.1"
+        }
+      }
     }
   ]
 }

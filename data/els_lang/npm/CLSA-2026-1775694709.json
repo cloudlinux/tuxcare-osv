@@ -1,7 +1,7 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2026-1775694709",
-  "modified": "2026-08-04T14:52:23Z",
+  "modified": "2026-10-15T08:16:08Z",
   "published": "2026-08-04T14:52:23Z",
   "summary": "TuxCare security update for isomorphic-dompurify (1 CVE)",
   "details": "TuxCare rebuilt isomorphic-dompurify to address 1 CVE. Fixed in 2.36.0-tuxcare.1.",
@@ -13,21 +13,30 @@
       "package": {
         "ecosystem": "TuxCare:npm",
         "name": "isomorphic-dompurify",
-        "purl": "pkg:npm/isomorphic-dompurify@2.36.0-tuxcare.1"
+        "purl": "pkg:npm/isomorphic-dompurify"
       },
       "ranges": [
         {
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "0"
+              "introduced": "2.36.0-tuxcare.0"
             },
             {
               "fixed": "2.36.0-tuxcare.1"
             }
           ]
         }
-      ]
+      ],
+      "versions": [
+        "2.36.0"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "2.36.0",
+          "fixed_version": "2.36.0-tuxcare.1"
+        }
+      }
     }
   ]
 }

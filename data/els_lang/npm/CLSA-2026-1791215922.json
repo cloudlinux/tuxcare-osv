@@ -1,7 +1,7 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2026-1791215922",
-  "modified": "2026-10-05T15:58:42Z",
+  "modified": "2026-10-15T08:16:08Z",
   "published": "2026-10-05T15:58:42Z",
   "summary": "TuxCare security update for brace-expansion (1 CVE)",
   "details": "TuxCare rebuilt brace-expansion to address 1 CVE. Fixed in 2.1.4-tuxcare.1.",
@@ -13,21 +13,30 @@
       "package": {
         "ecosystem": "TuxCare:npm",
         "name": "brace-expansion",
-        "purl": "pkg:npm/brace-expansion@2.1.4-tuxcare.1"
+        "purl": "pkg:npm/brace-expansion"
       },
       "ranges": [
         {
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "0"
+              "introduced": "2.1.4-tuxcare.0"
             },
             {
               "fixed": "2.1.4-tuxcare.1"
             }
           ]
         }
-      ]
+      ],
+      "versions": [
+        "2.1.4"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "2.1.4",
+          "fixed_version": "2.1.4-tuxcare.1"
+        }
+      }
     }
   ]
 }

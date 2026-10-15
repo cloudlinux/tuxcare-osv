@@ -1,7 +1,7 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2026-1788757894",
-  "modified": "2026-09-07T05:11:34Z",
+  "modified": "2026-10-15T08:16:08Z",
   "published": "2026-09-07T05:11:34Z",
   "summary": "TuxCare security update for io.airlift:aircompressor (1 CVE)",
   "details": "TuxCare rebuilt io.airlift:aircompressor to address 1 CVE. Fixed in 0.21-tuxcare.1.",
@@ -13,21 +13,30 @@
       "package": {
         "ecosystem": "TuxCare:Maven",
         "name": "io.airlift:aircompressor",
-        "purl": "pkg:maven/io.airlift/aircompressor@0.21-tuxcare.1"
+        "purl": "pkg:maven/io.airlift/aircompressor"
       },
       "ranges": [
         {
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "0"
+              "introduced": "0.21"
             },
             {
               "fixed": "0.21-tuxcare.1"
             }
           ]
         }
-      ]
+      ],
+      "versions": [
+        "0.21"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "0.21",
+          "fixed_version": "0.21-tuxcare.1"
+        }
+      }
     }
   ]
 }

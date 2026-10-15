@@ -1,7 +1,7 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2026-1775781167",
-  "modified": "2026-08-04T14:52:23Z",
+  "modified": "2026-10-15T08:16:08Z",
   "published": "2026-08-04T14:52:23Z",
   "summary": "TuxCare security update for react-pdf (1 CVE)",
   "details": "TuxCare rebuilt react-pdf to address 1 CVE. Fixed in 7.7.1-tuxcare.1.",
@@ -13,21 +13,30 @@
       "package": {
         "ecosystem": "TuxCare:npm",
         "name": "react-pdf",
-        "purl": "pkg:npm/react-pdf@7.7.1-tuxcare.1"
+        "purl": "pkg:npm/react-pdf"
       },
       "ranges": [
         {
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "0"
+              "introduced": "7.7.1-tuxcare.0"
             },
             {
               "fixed": "7.7.1-tuxcare.1"
             }
           ]
         }
-      ]
+      ],
+      "versions": [
+        "7.7.1"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "7.7.1",
+          "fixed_version": "7.7.1-tuxcare.1"
+        }
+      }
     }
   ]
 }

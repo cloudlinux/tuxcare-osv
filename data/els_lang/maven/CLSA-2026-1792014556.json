@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1792014556",
+  "modified": "2026-10-14T21:49:16Z",
+  "published": "2026-10-14T21:49:16Z",
+  "summary": "TuxCare security update for commons-configuration:commons-configuration (1 CVE)",
+  "details": "TuxCare rebuilt commons-configuration:commons-configuration to address 1 CVE. Fixed in 1.8-tuxcare.2.",
+  "upstream": [
+    "CVE-2025-46392"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "commons-configuration:commons-configuration",
+        "purl": "pkg:maven/commons-configuration/commons-configuration"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "1.8"
+            },
+            {
+              "fixed": "1.8-tuxcare.2"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "1.8",
+        "1.8-tuxcare.1"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "1.8",
+          "fixed_version": "1.8-tuxcare.2"
+        }
+      }
+    }
+  ]
+}

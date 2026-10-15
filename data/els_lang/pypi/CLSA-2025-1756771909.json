@@ -1,7 +1,7 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2025-1756771909",
-  "modified": "2026-08-04T14:52:08Z",
+  "modified": "2026-10-15T08:16:08Z",
   "published": "2026-08-04T14:52:08Z",
   "summary": "TuxCare security update for celery (1 CVE)",
   "details": "TuxCare rebuilt celery to address 1 CVE. Fixed in v5.1.2.post1+tuxcare.",
@@ -13,21 +13,30 @@
       "package": {
         "ecosystem": "TuxCare:PyPI",
         "name": "celery",
-        "purl": "pkg:pypi/celery@v5.1.2.post1+tuxcare"
+        "purl": "pkg:pypi/celery"
       },
       "ranges": [
         {
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "0"
+              "introduced": "5.1.2"
             },
             {
               "fixed": "v5.1.2.post1+tuxcare"
             }
           ]
         }
-      ]
+      ],
+      "versions": [
+        "5.1.2"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "5.1.2",
+          "fixed_version": "v5.1.2.post1+tuxcare"
+        }
+      }
     }
   ]
 }

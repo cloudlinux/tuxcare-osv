@@ -1,7 +1,7 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2026-1786378841",
-  "modified": "2026-09-15T20:03:06Z",
+  "modified": "2026-10-15T08:16:08Z",
   "published": "2026-08-10T16:20:41Z",
   "summary": "TuxCare security update for yarn (5 CVEs)",
   "details": "TuxCare rebuilt yarn to address 5 CVEs. Fixed in 1.15.2-tuxcare.1.",
@@ -17,21 +17,30 @@
       "package": {
         "ecosystem": "TuxCare:npm",
         "name": "yarn",
-        "purl": "pkg:npm/yarn@1.15.2-tuxcare.1"
+        "purl": "pkg:npm/yarn"
       },
       "ranges": [
         {
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "0"
+              "introduced": "1.15.2-tuxcare.0"
             },
             {
               "fixed": "1.15.2-tuxcare.1"
             }
           ]
         }
-      ]
+      ],
+      "versions": [
+        "1.15.2"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "1.15.2",
+          "fixed_version": "1.15.2-tuxcare.1"
+        }
+      }
     }
   ]
 }

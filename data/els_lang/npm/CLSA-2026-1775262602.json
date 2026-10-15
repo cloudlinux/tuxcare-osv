@@ -1,7 +1,7 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2026-1775262602",
-  "modified": "2026-09-15T20:03:06Z",
+  "modified": "2026-10-15T08:16:08Z",
   "published": "2026-08-04T14:52:22Z",
   "summary": "TuxCare security update for lodash (4 CVEs)",
   "details": "TuxCare rebuilt lodash to address 4 CVEs. Fixed in 2.4.2-tuxcare.1.",
@@ -16,21 +16,30 @@
       "package": {
         "ecosystem": "TuxCare:npm",
         "name": "lodash",
-        "purl": "pkg:npm/lodash@2.4.2-tuxcare.1"
+        "purl": "pkg:npm/lodash"
       },
       "ranges": [
         {
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "0"
+              "introduced": "2.4.2-tuxcare.0"
             },
             {
               "fixed": "2.4.2-tuxcare.1"
             }
           ]
         }
-      ]
+      ],
+      "versions": [
+        "2.4.2"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "2.4.2",
+          "fixed_version": "2.4.2-tuxcare.1"
+        }
+      }
     }
   ]
 }

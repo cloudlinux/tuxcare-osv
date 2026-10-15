@@ -1,7 +1,7 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2026-1777509609",
-  "modified": "2026-08-04T14:52:29Z",
+  "modified": "2026-10-15T08:16:08Z",
   "published": "2026-08-04T14:52:29Z",
   "summary": "TuxCare security update for spatie/browsershot (5 CVEs)",
   "details": "TuxCare rebuilt spatie/browsershot to address 5 CVEs. Fixed in 4.4.0-p2+tuxcare.",
@@ -17,21 +17,31 @@
       "package": {
         "ecosystem": "TuxCare:Packagist",
         "name": "spatie/browsershot",
-        "purl": "pkg:composer/spatie/browsershot@4.4.0-p2+tuxcare"
+        "purl": "pkg:composer/spatie/browsershot"
       },
       "ranges": [
         {
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "0"
+              "introduced": "4.4.0"
             },
             {
               "fixed": "4.4.0-p2+tuxcare"
             }
           ]
         }
-      ]
+      ],
+      "versions": [
+        "4.4.0",
+        "4.4.0-p1+tuxcare"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "4.4.0",
+          "fixed_version": "4.4.0-p2+tuxcare"
+        }
+      }
     }
   ]
 }

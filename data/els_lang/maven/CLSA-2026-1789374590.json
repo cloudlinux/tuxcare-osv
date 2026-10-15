@@ -1,7 +1,7 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2026-1789374590",
-  "modified": "2026-09-15T20:03:06Z",
+  "modified": "2026-10-15T08:16:08Z",
   "published": "2026-09-14T08:29:50Z",
   "summary": "TuxCare security update for commons-io:commons-io (2 CVEs)",
   "details": "TuxCare rebuilt commons-io:commons-io to address 2 CVEs. Fixed in 2.1-tuxcare.1.",
@@ -14,21 +14,30 @@
       "package": {
         "ecosystem": "TuxCare:Maven",
         "name": "commons-io:commons-io",
-        "purl": "pkg:maven/commons-io/commons-io@2.1-tuxcare.1"
+        "purl": "pkg:maven/commons-io/commons-io"
       },
       "ranges": [
         {
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "0"
+              "introduced": "2.1"
             },
             {
               "fixed": "2.1-tuxcare.1"
             }
           ]
         }
-      ]
+      ],
+      "versions": [
+        "2.1"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "2.1",
+          "fixed_version": "2.1-tuxcare.1"
+        }
+      }
     }
   ]
 }

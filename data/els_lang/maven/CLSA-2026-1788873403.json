@@ -1,7 +1,7 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2026-1788873403",
-  "modified": "2026-09-08T13:16:43Z",
+  "modified": "2026-10-15T08:16:08Z",
   "published": "2026-09-08T13:16:43Z",
   "summary": "TuxCare security update for org.springframework.graphql (5 CVEs)",
   "details": "TuxCare rebuilt 2 org.springframework.graphql packages to address 5 CVEs. Fixed in 1.2.9-tuxcare.5.",
@@ -17,41 +17,67 @@
       "package": {
         "ecosystem": "TuxCare:Maven",
         "name": "org.springframework.graphql:spring-graphql",
-        "purl": "pkg:maven/org.springframework.graphql/spring-graphql@1.2.9-tuxcare.5"
+        "purl": "pkg:maven/org.springframework.graphql/spring-graphql"
       },
       "ranges": [
         {
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "0"
+              "introduced": "1.2.9"
             },
             {
               "fixed": "1.2.9-tuxcare.5"
             }
           ]
         }
-      ]
+      ],
+      "versions": [
+        "1.2.9",
+        "1.2.9-tuxcare.1",
+        "1.2.9-tuxcare.2",
+        "1.2.9-tuxcare.3",
+        "1.2.9-tuxcare.4"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "1.2.9",
+          "fixed_version": "1.2.9-tuxcare.5"
+        }
+      }
     },
     {
       "package": {
         "ecosystem": "TuxCare:Maven",
         "name": "org.springframework.graphql:spring-graphql-test",
-        "purl": "pkg:maven/org.springframework.graphql/spring-graphql-test@1.2.9-tuxcare.5"
+        "purl": "pkg:maven/org.springframework.graphql/spring-graphql-test"
       },
       "ranges": [
         {
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "0"
+              "introduced": "1.2.9"
             },
             {
               "fixed": "1.2.9-tuxcare.5"
             }
           ]
         }
-      ]
+      ],
+      "versions": [
+        "1.2.9",
+        "1.2.9-tuxcare.1",
+        "1.2.9-tuxcare.2",
+        "1.2.9-tuxcare.3",
+        "1.2.9-tuxcare.4"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "1.2.9",
+          "fixed_version": "1.2.9-tuxcare.5"
+        }
+      }
     }
   ]
 }

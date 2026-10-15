@@ -1,7 +1,7 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2026-1776299659",
-  "modified": "2026-09-15T20:03:06Z",
+  "modified": "2026-10-15T08:16:08Z",
   "published": "2026-08-04T14:52:26Z",
   "summary": "TuxCare security update for flatted (2 CVEs)",
   "details": "TuxCare rebuilt flatted to address 2 CVEs. Fixed in 2.0.2-tuxcare.1.",
@@ -14,21 +14,30 @@
       "package": {
         "ecosystem": "TuxCare:npm",
         "name": "flatted",
-        "purl": "pkg:npm/flatted@2.0.2-tuxcare.1"
+        "purl": "pkg:npm/flatted"
       },
       "ranges": [
         {
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "0"
+              "introduced": "2.0.2-tuxcare.0"
             },
             {
               "fixed": "2.0.2-tuxcare.1"
             }
           ]
         }
-      ]
+      ],
+      "versions": [
+        "2.0.2"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "2.0.2",
+          "fixed_version": "2.0.2-tuxcare.1"
+        }
+      }
     }
   ]
 }

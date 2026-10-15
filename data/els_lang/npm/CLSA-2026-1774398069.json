@@ -1,7 +1,7 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2026-1774398069",
-  "modified": "2026-08-04T14:52:14Z",
+  "modified": "2026-10-15T08:16:08Z",
   "published": "2026-08-04T14:52:14Z",
   "summary": "TuxCare security update for serialize-javascript (3 CVEs)",
   "details": "TuxCare rebuilt serialize-javascript to address 3 CVEs. Fixed in 1.9.1-tuxcare.1.",
@@ -15,21 +15,30 @@
       "package": {
         "ecosystem": "TuxCare:npm",
         "name": "serialize-javascript",
-        "purl": "pkg:npm/serialize-javascript@1.9.1-tuxcare.1"
+        "purl": "pkg:npm/serialize-javascript"
       },
       "ranges": [
         {
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "0"
+              "introduced": "1.9.1-tuxcare.0"
             },
             {
               "fixed": "1.9.1-tuxcare.1"
             }
           ]
         }
-      ]
+      ],
+      "versions": [
+        "1.9.1"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "1.9.1",
+          "fixed_version": "1.9.1-tuxcare.1"
+        }
+      }
     }
   ]
 }

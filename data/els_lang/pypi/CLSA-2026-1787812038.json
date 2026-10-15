@@ -1,7 +1,7 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2026-1787812038",
-  "modified": "2026-08-27T06:27:18Z",
+  "modified": "2026-10-15T08:16:08Z",
   "published": "2026-08-27T06:27:18Z",
   "summary": "TuxCare security update for setuptools (1 CVE)",
   "details": "TuxCare rebuilt setuptools to address 1 CVE. Fixed in 60.0.0.post1+tuxcare.",
@@ -13,21 +13,30 @@
       "package": {
         "ecosystem": "TuxCare:PyPI",
         "name": "setuptools",
-        "purl": "pkg:pypi/setuptools@60.0.0.post1+tuxcare"
+        "purl": "pkg:pypi/setuptools"
       },
       "ranges": [
         {
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "0"
+              "introduced": "60.0.0"
             },
             {
               "fixed": "60.0.0.post1+tuxcare"
             }
           ]
         }
-      ]
+      ],
+      "versions": [
+        "60.0.0"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "60.0.0",
+          "fixed_version": "60.0.0.post1+tuxcare"
+        }
+      }
     }
   ]
 }

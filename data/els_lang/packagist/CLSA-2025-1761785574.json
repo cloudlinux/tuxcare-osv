@@ -1,7 +1,7 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2025-1761785574",
-  "modified": "2026-08-04T14:52:36Z",
+  "modified": "2026-10-15T08:16:08Z",
   "published": "2026-08-04T14:52:36Z",
   "summary": "TuxCare security update for symfony/process (1 CVE)",
   "details": "TuxCare rebuilt symfony/process to address 1 CVE. Fixed in 6.4.13-p1+tuxcare.",
@@ -13,21 +13,30 @@
       "package": {
         "ecosystem": "TuxCare:Packagist",
         "name": "symfony/process",
-        "purl": "pkg:composer/symfony/process@6.4.13-p1+tuxcare"
+        "purl": "pkg:composer/symfony/process"
       },
       "ranges": [
         {
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "0"
+              "introduced": "v6.4.13"
             },
             {
               "fixed": "6.4.13-p1+tuxcare"
             }
           ]
         }
-      ]
+      ],
+      "versions": [
+        "v6.4.13"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "v6.4.13",
+          "fixed_version": "6.4.13-p1+tuxcare"
+        }
+      }
     }
   ]
 }

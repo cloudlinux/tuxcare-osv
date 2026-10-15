@@ -1,7 +1,7 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2024-1732492826",
-  "modified": "2026-08-04T14:52:03Z",
+  "modified": "2026-10-15T08:16:08Z",
   "published": "2026-08-04T14:52:03Z",
   "summary": "TuxCare security update for org.xerial.snappy:snappy-java (4 CVEs)",
   "details": "TuxCare rebuilt org.xerial.snappy:snappy-java to address 4 CVEs. Fixed in 1.1.8.4.tuxcare.",
@@ -16,21 +16,30 @@
       "package": {
         "ecosystem": "TuxCare:Maven",
         "name": "org.xerial.snappy:snappy-java",
-        "purl": "pkg:maven/org.xerial.snappy/snappy-java@1.1.8.4.tuxcare"
+        "purl": "pkg:maven/org.xerial.snappy/snappy-java"
       },
       "ranges": [
         {
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "0"
+              "introduced": "1.1.8.4"
             },
             {
               "fixed": "1.1.8.4.tuxcare"
             }
           ]
         }
-      ]
+      ],
+      "versions": [
+        "1.1.8.4"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "1.1.8.4",
+          "fixed_version": "1.1.8.4.tuxcare"
+        }
+      }
     }
   ]
 }

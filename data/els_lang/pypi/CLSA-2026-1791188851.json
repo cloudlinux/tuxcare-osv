@@ -1,7 +1,7 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2026-1791188851",
-  "modified": "2026-10-05T08:27:31Z",
+  "modified": "2026-10-15T08:16:08Z",
   "published": "2026-10-05T08:27:31Z",
   "summary": "TuxCare security update for protobuf (1 CVE)",
   "details": "TuxCare rebuilt protobuf to address 1 CVE. Fixed in 4.25.9.post1+tuxcare.",
@@ -13,21 +13,30 @@
       "package": {
         "ecosystem": "TuxCare:PyPI",
         "name": "protobuf",
-        "purl": "pkg:pypi/protobuf@4.25.9.post1+tuxcare"
+        "purl": "pkg:pypi/protobuf"
       },
       "ranges": [
         {
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "0"
+              "introduced": "4.25.9"
             },
             {
               "fixed": "4.25.9.post1+tuxcare"
             }
           ]
         }
-      ]
+      ],
+      "versions": [
+        "4.25.9"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "4.25.9",
+          "fixed_version": "4.25.9.post1+tuxcare"
+        }
+      }
     }
   ]
 }

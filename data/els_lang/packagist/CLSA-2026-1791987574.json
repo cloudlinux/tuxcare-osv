@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1791987574",
+  "modified": "2026-10-14T14:19:34Z",
+  "published": "2026-10-14T14:19:34Z",
+  "summary": "TuxCare security update for cakephp/cakephp (3 CVEs)",
+  "details": "TuxCare rebuilt cakephp/cakephp to address 3 CVEs. Fixed in 5.0.11-p1+tuxcare.",
+  "upstream": [
+    "CVE-2026-48820",
+    "CVE-2026-77634",
+    "CVE-2026-79752"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Packagist",
+        "name": "cakephp/cakephp",
+        "purl": "pkg:composer/cakephp/cakephp"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "5.0.11"
+            },
+            {
+              "fixed": "5.0.11-p1+tuxcare"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "5.0.11"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "5.0.11",
+          "fixed_version": "5.0.11-p1+tuxcare"
+        }
+      }
+    }
+  ]
+}

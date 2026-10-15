@@ -1,7 +1,7 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2026-1790718594",
-  "modified": "2026-09-29T21:49:54Z",
+  "modified": "2026-10-15T08:16:08Z",
   "published": "2026-09-29T21:49:54Z",
   "summary": "TuxCare security update for adm-zip (1 CVE)",
   "details": "TuxCare rebuilt adm-zip to address 1 CVE. Fixed in 0.5.18-tuxcare.4.",
@@ -13,21 +13,33 @@
       "package": {
         "ecosystem": "TuxCare:npm",
         "name": "adm-zip",
-        "purl": "pkg:npm/adm-zip@0.5.18-tuxcare.4"
+        "purl": "pkg:npm/adm-zip"
       },
       "ranges": [
         {
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "0"
+              "introduced": "0.5.18-tuxcare.0"
             },
             {
               "fixed": "0.5.18-tuxcare.4"
             }
           ]
         }
-      ]
+      ],
+      "versions": [
+        "0.5.18",
+        "0.5.18-tuxcare.1",
+        "0.5.18-tuxcare.2",
+        "0.5.18-tuxcare.3"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "0.5.18",
+          "fixed_version": "0.5.18-tuxcare.4"
+        }
+      }
     }
   ]
 }

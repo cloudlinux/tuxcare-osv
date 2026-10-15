@@ -1,7 +1,7 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2026-1790002143",
-  "modified": "2026-09-21T14:49:03Z",
+  "modified": "2026-10-15T08:16:08Z",
   "published": "2026-09-21T14:49:03Z",
   "summary": "TuxCare security update for org.springframework.data (2 CVEs)",
   "details": "TuxCare rebuilt 3 org.springframework.data packages to address 2 CVEs. Fixed in 4.4.13-tuxcare.3.",
@@ -14,61 +14,94 @@
       "package": {
         "ecosystem": "TuxCare:Maven",
         "name": "org.springframework.data:spring-data-mongodb",
-        "purl": "pkg:maven/org.springframework.data/spring-data-mongodb@4.4.13-tuxcare.3"
+        "purl": "pkg:maven/org.springframework.data/spring-data-mongodb"
       },
       "ranges": [
         {
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "0"
+              "introduced": "4.4.13"
             },
             {
               "fixed": "4.4.13-tuxcare.3"
             }
           ]
         }
-      ]
+      ],
+      "versions": [
+        "4.4.13",
+        "4.4.13-tuxcare.1",
+        "4.4.13-tuxcare.2"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "4.4.13",
+          "fixed_version": "4.4.13-tuxcare.3"
+        }
+      }
     },
     {
       "package": {
         "ecosystem": "TuxCare:Maven",
         "name": "org.springframework.data:spring-data-mongodb-distribution",
-        "purl": "pkg:maven/org.springframework.data/spring-data-mongodb-distribution@4.4.13-tuxcare.3"
+        "purl": "pkg:maven/org.springframework.data/spring-data-mongodb-distribution"
       },
       "ranges": [
         {
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "0"
+              "introduced": "4.4.13"
             },
             {
               "fixed": "4.4.13-tuxcare.3"
             }
           ]
         }
-      ]
+      ],
+      "versions": [
+        "4.4.13",
+        "4.4.13-tuxcare.1",
+        "4.4.13-tuxcare.2"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "4.4.13",
+          "fixed_version": "4.4.13-tuxcare.3"
+        }
+      }
     },
     {
       "package": {
         "ecosystem": "TuxCare:Maven",
         "name": "org.springframework.data:spring-data-mongodb-parent",
-        "purl": "pkg:maven/org.springframework.data/spring-data-mongodb-parent@4.4.13-tuxcare.3"
+        "purl": "pkg:maven/org.springframework.data/spring-data-mongodb-parent"
       },
       "ranges": [
         {
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "0"
+              "introduced": "4.4.13"
             },
             {
               "fixed": "4.4.13-tuxcare.3"
             }
           ]
         }
-      ]
+      ],
+      "versions": [
+        "4.4.13",
+        "4.4.13-tuxcare.1",
+        "4.4.13-tuxcare.2"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "4.4.13",
+          "fixed_version": "4.4.13-tuxcare.3"
+        }
+      }
     }
   ]
 }

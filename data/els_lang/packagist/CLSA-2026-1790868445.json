@@ -1,7 +1,7 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2026-1790868445",
-  "modified": "2026-10-01T18:35:00Z",
+  "modified": "2026-10-15T08:16:08Z",
   "published": "2026-10-01T15:27:25Z",
   "summary": "TuxCare security update for livewire/livewire (1 CVE)",
   "details": "TuxCare rebuilt livewire/livewire to address 1 CVE. Fixed in v3.6.3-p2+tuxcare.",
@@ -13,21 +13,31 @@
       "package": {
         "ecosystem": "TuxCare:Packagist",
         "name": "livewire/livewire",
-        "purl": "pkg:composer/livewire/livewire@v3.6.3-p2+tuxcare"
+        "purl": "pkg:composer/livewire/livewire"
       },
       "ranges": [
         {
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "0"
+              "introduced": "v3.6.3"
             },
             {
               "fixed": "v3.6.3-p2+tuxcare"
             }
           ]
         }
-      ]
+      ],
+      "versions": [
+        "v3.6.3",
+        "v3.6.3-p1+tuxcare"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "v3.6.3",
+          "fixed_version": "v3.6.3-p2+tuxcare"
+        }
+      }
     }
   ]
 }

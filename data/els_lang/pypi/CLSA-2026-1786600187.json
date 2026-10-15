@@ -1,7 +1,7 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2026-1786600187",
-  "modified": "2026-08-13T05:49:47Z",
+  "modified": "2026-10-15T08:16:08Z",
   "published": "2026-08-13T05:49:47Z",
   "summary": "TuxCare security update for django (1 CVE)",
   "details": "TuxCare rebuilt django to address 1 CVE. Fixed in 5.0.2.post2+tuxcare.",
@@ -13,21 +13,31 @@
       "package": {
         "ecosystem": "TuxCare:PyPI",
         "name": "django",
-        "purl": "pkg:pypi/django@5.0.2.post2+tuxcare"
+        "purl": "pkg:pypi/django"
       },
       "ranges": [
         {
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "0"
+              "introduced": "5.0.2"
             },
             {
               "fixed": "5.0.2.post2+tuxcare"
             }
           ]
         }
-      ]
+      ],
+      "versions": [
+        "5.0.2",
+        "5.0.2.post1+tuxcare"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "5.0.2",
+          "fixed_version": "5.0.2.post2+tuxcare"
+        }
+      }
     }
   ]
 }

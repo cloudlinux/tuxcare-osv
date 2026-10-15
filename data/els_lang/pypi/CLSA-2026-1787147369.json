@@ -1,7 +1,7 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2026-1787147369",
-  "modified": "2026-09-15T20:03:06Z",
+  "modified": "2026-10-15T08:16:08Z",
   "published": "2026-08-19T13:49:29Z",
   "summary": "TuxCare security update for dnspython (1 CVE)",
   "details": "TuxCare rebuilt dnspython to address 1 CVE. Fixed in 2.3.0.post2+tuxcare.",
@@ -13,21 +13,31 @@
       "package": {
         "ecosystem": "TuxCare:PyPI",
         "name": "dnspython",
-        "purl": "pkg:pypi/dnspython@2.3.0.post2+tuxcare"
+        "purl": "pkg:pypi/dnspython"
       },
       "ranges": [
         {
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "0"
+              "introduced": "2.3.0"
             },
             {
               "fixed": "2.3.0.post2+tuxcare"
             }
           ]
         }
-      ]
+      ],
+      "versions": [
+        "2.3.0",
+        "2.3.0.post1+tuxcare"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "2.3.0",
+          "fixed_version": "2.3.0.post2+tuxcare"
+        }
+      }
     }
   ]
 }

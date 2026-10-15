@@ -1,7 +1,7 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2026-1776386119",
-  "modified": "2026-09-15T20:03:06Z",
+  "modified": "2026-10-15T08:16:08Z",
   "published": "2026-08-04T14:52:26Z",
   "summary": "TuxCare security update for loader-utils (3 CVEs)",
   "details": "TuxCare rebuilt loader-utils to address 3 CVEs. Fixed in 1.1.0-tuxcare.1.",
@@ -15,21 +15,30 @@
       "package": {
         "ecosystem": "TuxCare:npm",
         "name": "loader-utils",
-        "purl": "pkg:npm/loader-utils@1.1.0-tuxcare.1"
+        "purl": "pkg:npm/loader-utils"
       },
       "ranges": [
         {
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "0"
+              "introduced": "1.1.0-tuxcare.0"
             },
             {
               "fixed": "1.1.0-tuxcare.1"
             }
           ]
         }
-      ]
+      ],
+      "versions": [
+        "1.1.0"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "1.1.0",
+          "fixed_version": "1.1.0-tuxcare.1"
+        }
+      }
     }
   ]
 }

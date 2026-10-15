@@ -1,7 +1,7 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2026-1789985400",
-  "modified": "2026-09-24T17:38:00Z",
+  "modified": "2026-10-15T08:16:08Z",
   "published": "2026-09-21T10:10:00Z",
   "summary": "TuxCare security update for requests (3 CVEs)",
   "details": "TuxCare rebuilt requests to address 3 CVEs. Fixed in 2.25.1.post3+tuxcare.",
@@ -15,21 +15,32 @@
       "package": {
         "ecosystem": "TuxCare:PyPI",
         "name": "requests",
-        "purl": "pkg:pypi/requests@2.25.1.post3+tuxcare"
+        "purl": "pkg:pypi/requests"
       },
       "ranges": [
         {
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "0"
+              "introduced": "2.25.1"
             },
             {
               "fixed": "2.25.1.post3+tuxcare"
             }
           ]
         }
-      ]
+      ],
+      "versions": [
+        "2.25.1",
+        "2.25.1.post1+tuxcare",
+        "2.25.1.post2+tuxcare"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "2.25.1",
+          "fixed_version": "2.25.1.post3+tuxcare"
+        }
+      }
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2026-1777336744",
-  "modified": "2026-08-04T14:52:29Z",
+  "modified": "2026-10-15T08:16:08Z",
   "published": "2026-08-04T14:52:29Z",
   "summary": "TuxCare security update for jquery (1 CVE)",
   "details": "TuxCare rebuilt jquery to address 1 CVE. Fixed in 1.8.2-tuxcare.2.",
@@ -13,21 +13,31 @@
       "package": {
         "ecosystem": "TuxCare:npm",
         "name": "jquery",
-        "purl": "pkg:npm/jquery@1.8.2-tuxcare.2"
+        "purl": "pkg:npm/jquery"
       },
       "ranges": [
         {
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "0"
+              "introduced": "1.8.2-tuxcare.0"
             },
             {
               "fixed": "1.8.2-tuxcare.2"
             }
           ]
         }
-      ]
+      ],
+      "versions": [
+        "1.8.2",
+        "1.8.2-tuxcare.1"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "1.8.2",
+          "fixed_version": "1.8.2-tuxcare.2"
+        }
+      }
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2026-1788450984",
-  "modified": "2026-10-13T17:54:20Z",
+  "modified": "2026-10-15T08:16:08Z",
   "published": "2026-09-03T15:56:24Z",
   "summary": "TuxCare security update for nuxt (11 CVEs)",
   "details": "TuxCare rebuilt nuxt to address 11 CVEs. Fixed in 3.12.4-tuxcare.12.",
@@ -23,21 +23,40 @@
       "package": {
         "ecosystem": "TuxCare:npm",
         "name": "nuxt",
-        "purl": "pkg:npm/nuxt@3.12.4-tuxcare.12"
+        "purl": "pkg:npm/nuxt"
       },
       "ranges": [
         {
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "0"
+              "introduced": "3.12.4-tuxcare.0"
             },
             {
               "fixed": "3.12.4-tuxcare.12"
             }
           ]
         }
-      ]
+      ],
+      "versions": [
+        "3.12.4",
+        "3.12.4-tuxcare.10",
+        "3.12.4-tuxcare.11",
+        "3.12.4-tuxcare.2",
+        "3.12.4-tuxcare.3",
+        "3.12.4-tuxcare.4",
+        "3.12.4-tuxcare.5",
+        "3.12.4-tuxcare.6",
+        "3.12.4-tuxcare.7",
+        "3.12.4-tuxcare.8",
+        "3.12.4-tuxcare.9"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "3.12.4",
+          "fixed_version": "3.12.4-tuxcare.12"
+        }
+      }
     }
   ]
 }

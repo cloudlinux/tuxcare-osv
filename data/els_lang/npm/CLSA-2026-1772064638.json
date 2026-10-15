@@ -1,7 +1,7 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2026-1772064638",
-  "modified": "2026-09-15T20:03:06Z",
+  "modified": "2026-10-15T08:16:08Z",
   "published": "2026-08-04T14:52:07Z",
   "summary": "TuxCare security update for xmlhttprequest-ssl (2 CVEs)",
   "details": "TuxCare rebuilt xmlhttprequest-ssl to address 2 CVEs. Fixed in 1.5.5-tuxcare.1.",
@@ -14,21 +14,30 @@
       "package": {
         "ecosystem": "TuxCare:npm",
         "name": "xmlhttprequest-ssl",
-        "purl": "pkg:npm/xmlhttprequest-ssl@1.5.5-tuxcare.1"
+        "purl": "pkg:npm/xmlhttprequest-ssl"
       },
       "ranges": [
         {
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "0"
+              "introduced": "1.5.5-tuxcare.0"
             },
             {
               "fixed": "1.5.5-tuxcare.1"
             }
           ]
         }
-      ]
+      ],
+      "versions": [
+        "1.5.5"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "1.5.5",
+          "fixed_version": "1.5.5-tuxcare.1"
+        }
+      }
     }
   ]
 }

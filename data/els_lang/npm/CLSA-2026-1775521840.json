@@ -1,7 +1,7 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2026-1775521840",
-  "modified": "2026-08-04T14:52:22Z",
+  "modified": "2026-10-15T08:16:08Z",
   "published": "2026-08-04T14:52:22Z",
   "summary": "TuxCare security update for rollup (1 CVE)",
   "details": "TuxCare rebuilt rollup to address 1 CVE. Fixed in 2.38.4-tuxcare.5.",
@@ -13,21 +13,34 @@
       "package": {
         "ecosystem": "TuxCare:npm",
         "name": "rollup",
-        "purl": "pkg:npm/rollup@2.38.4-tuxcare.5"
+        "purl": "pkg:npm/rollup"
       },
       "ranges": [
         {
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "0"
+              "introduced": "2.38.4-tuxcare.0"
             },
             {
               "fixed": "2.38.4-tuxcare.5"
             }
           ]
         }
-      ]
+      ],
+      "versions": [
+        "2.38.4",
+        "2.38.4-tuxcare.1",
+        "2.38.4-tuxcare.2",
+        "2.38.4-tuxcare.3",
+        "2.38.4-tuxcare.4"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "2.38.4",
+          "fixed_version": "2.38.4-tuxcare.5"
+        }
+      }
     }
   ]
 }

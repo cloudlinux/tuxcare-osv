@@ -1,7 +1,7 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2026-1783645408",
-  "modified": "2026-08-04T14:52:43Z",
+  "modified": "2026-10-15T08:16:08Z",
   "published": "2026-08-04T14:52:43Z",
   "summary": "TuxCare security update for symfony/mailer (1 CVE)",
   "details": "TuxCare rebuilt symfony/mailer to address 1 CVE. Fixed in v6.4.34-p1+tuxcare.",
@@ -13,21 +13,30 @@
       "package": {
         "ecosystem": "TuxCare:Packagist",
         "name": "symfony/mailer",
-        "purl": "pkg:composer/symfony/mailer@v6.4.34-p1+tuxcare"
+        "purl": "pkg:composer/symfony/mailer"
       },
       "ranges": [
         {
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "0"
+              "introduced": "v6.4.34"
             },
             {
               "fixed": "v6.4.34-p1+tuxcare"
             }
           ]
         }
-      ]
+      ],
+      "versions": [
+        "v6.4.34"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "v6.4.34",
+          "fixed_version": "v6.4.34-p1+tuxcare"
+        }
+      }
     }
   ]
 }

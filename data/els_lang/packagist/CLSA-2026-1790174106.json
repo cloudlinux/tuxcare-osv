@@ -1,7 +1,7 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2026-1790174106",
-  "modified": "2026-09-23T14:35:06Z",
+  "modified": "2026-10-15T08:16:08Z",
   "published": "2026-09-23T14:35:06Z",
   "summary": "TuxCare security update for craftcms/cms (1 CVE)",
   "details": "TuxCare rebuilt craftcms/cms to address 1 CVE. Fixed in 3.9.15-p10+tuxcare.",
@@ -13,21 +13,39 @@
       "package": {
         "ecosystem": "TuxCare:Packagist",
         "name": "craftcms/cms",
-        "purl": "pkg:composer/craftcms/cms@3.9.15-p10+tuxcare"
+        "purl": "pkg:composer/craftcms/cms"
       },
       "ranges": [
         {
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "0"
+              "introduced": "3.9.15"
             },
             {
               "fixed": "3.9.15-p10+tuxcare"
             }
           ]
         }
-      ]
+      ],
+      "versions": [
+        "3.9.15",
+        "3.9.15-p1+tuxcare",
+        "3.9.15-p2+tuxcare",
+        "3.9.15-p3+tuxcare",
+        "3.9.15-p4+tuxcare",
+        "3.9.15-p5+tuxcare",
+        "3.9.15-p6+tuxcare",
+        "3.9.15-p7+tuxcare",
+        "3.9.15-p8+tuxcare",
+        "3.9.15-p9+tuxcare"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "3.9.15",
+          "fixed_version": "3.9.15-p10+tuxcare"
+        }
+      }
     }
   ]
 }

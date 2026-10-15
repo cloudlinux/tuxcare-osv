@@ -1,7 +1,7 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2026-1781139163",
-  "modified": "2026-08-04T14:52:36Z",
+  "modified": "2026-10-15T08:16:08Z",
   "published": "2026-08-04T14:52:36Z",
   "summary": "TuxCare security update for deepdiff (1 CVE)",
   "details": "TuxCare rebuilt deepdiff to address 1 CVE. Fixed in 6.2.3.post2+tuxcare.",
@@ -13,21 +13,31 @@
       "package": {
         "ecosystem": "TuxCare:PyPI",
         "name": "deepdiff",
-        "purl": "pkg:pypi/deepdiff@6.2.3.post2+tuxcare"
+        "purl": "pkg:pypi/deepdiff"
       },
       "ranges": [
         {
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "0"
+              "introduced": "6.2.3"
             },
             {
               "fixed": "6.2.3.post2+tuxcare"
             }
           ]
         }
-      ]
+      ],
+      "versions": [
+        "6.2.3",
+        "6.2.3.post1+tuxcare"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "6.2.3",
+          "fixed_version": "6.2.3.post2+tuxcare"
+        }
+      }
     }
   ]
 }

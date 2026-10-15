@@ -1,7 +1,7 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2026-1776818200",
-  "modified": "2026-08-04T14:52:27Z",
+  "modified": "2026-10-15T08:16:08Z",
   "published": "2026-08-04T14:52:27Z",
   "summary": "TuxCare security update for eventsource (1 CVE)",
   "details": "TuxCare rebuilt eventsource to address 1 CVE. Fixed in 0.1.6-tuxcare.1.",
@@ -13,21 +13,30 @@
       "package": {
         "ecosystem": "TuxCare:npm",
         "name": "eventsource",
-        "purl": "pkg:npm/eventsource@0.1.6-tuxcare.1"
+        "purl": "pkg:npm/eventsource"
       },
       "ranges": [
         {
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "0"
+              "introduced": "0.1.6-tuxcare.0"
             },
             {
               "fixed": "0.1.6-tuxcare.1"
             }
           ]
         }
-      ]
+      ],
+      "versions": [
+        "0.1.6"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "0.1.6",
+          "fixed_version": "0.1.6-tuxcare.1"
+        }
+      }
     }
   ]
 }

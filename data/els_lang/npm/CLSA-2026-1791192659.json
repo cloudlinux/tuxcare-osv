@@ -1,7 +1,7 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2026-1791192659",
-  "modified": "2026-10-05T09:30:59Z",
+  "modified": "2026-10-15T08:16:08Z",
   "published": "2026-10-05T09:30:59Z",
   "summary": "TuxCare security update for @xmldom/xmldom (10 CVEs)",
   "details": "TuxCare rebuilt @xmldom/xmldom to address 10 CVEs. Fixed in 0.9.8-tuxcare.2.",
@@ -22,21 +22,31 @@
       "package": {
         "ecosystem": "TuxCare:npm",
         "name": "@xmldom/xmldom",
-        "purl": "pkg:npm/%40xmldom/xmldom@0.9.8-tuxcare.2"
+        "purl": "pkg:npm/%40xmldom/xmldom"
       },
       "ranges": [
         {
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "0"
+              "introduced": "0.9.8-tuxcare.0"
             },
             {
               "fixed": "0.9.8-tuxcare.2"
             }
           ]
         }
-      ]
+      ],
+      "versions": [
+        "0.9.8",
+        "0.9.8-tuxcare.1"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "0.9.8",
+          "fixed_version": "0.9.8-tuxcare.2"
+        }
+      }
     }
   ]
 }

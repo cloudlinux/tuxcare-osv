@@ -1,7 +1,7 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2026-1789031855",
-  "modified": "2026-09-10T09:17:35Z",
+  "modified": "2026-10-15T08:16:08Z",
   "published": "2026-09-10T09:17:35Z",
   "summary": "TuxCare security update for vite (16 CVEs)",
   "details": "TuxCare rebuilt vite to address 16 CVEs. Fixed in 4.1.5-tuxcare.1.",
@@ -28,21 +28,30 @@
       "package": {
         "ecosystem": "TuxCare:npm",
         "name": "vite",
-        "purl": "pkg:npm/vite@4.1.5-tuxcare.1"
+        "purl": "pkg:npm/vite"
       },
       "ranges": [
         {
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "0"
+              "introduced": "4.1.5-tuxcare.0"
             },
             {
               "fixed": "4.1.5-tuxcare.1"
             }
           ]
         }
-      ]
+      ],
+      "versions": [
+        "4.1.5"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "4.1.5",
+          "fixed_version": "4.1.5-tuxcare.1"
+        }
+      }
     }
   ]
 }

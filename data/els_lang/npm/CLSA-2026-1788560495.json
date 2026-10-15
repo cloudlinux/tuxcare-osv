@@ -1,7 +1,7 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2026-1788560495",
-  "modified": "2026-09-15T20:03:06Z",
+  "modified": "2026-10-15T08:16:08Z",
   "published": "2026-09-04T22:21:35Z",
   "summary": "TuxCare security update for undici (14 CVEs)",
   "details": "TuxCare rebuilt undici to address 14 CVEs. Fixed in 5.5.1-tuxcare.1.",
@@ -26,21 +26,30 @@
       "package": {
         "ecosystem": "TuxCare:npm",
         "name": "undici",
-        "purl": "pkg:npm/undici@5.5.1-tuxcare.1"
+        "purl": "pkg:npm/undici"
       },
       "ranges": [
         {
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "0"
+              "introduced": "5.5.1-tuxcare.0"
             },
             {
               "fixed": "5.5.1-tuxcare.1"
             }
           ]
         }
-      ]
+      ],
+      "versions": [
+        "5.5.1"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "5.5.1",
+          "fixed_version": "5.5.1-tuxcare.1"
+        }
+      }
     }
   ]
 }

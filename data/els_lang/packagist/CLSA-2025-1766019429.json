@@ -1,7 +1,7 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2025-1766019429",
-  "modified": "2026-08-04T14:52:39Z",
+  "modified": "2026-10-15T08:16:08Z",
   "published": "2026-08-04T14:52:39Z",
   "summary": "TuxCare security update for dompdf/dompdf (7 CVEs)",
   "details": "TuxCare rebuilt dompdf/dompdf to address 7 CVEs. Fixed in 1.2.2-p1+tuxcare.",
@@ -19,21 +19,30 @@
       "package": {
         "ecosystem": "TuxCare:Packagist",
         "name": "dompdf/dompdf",
-        "purl": "pkg:composer/dompdf/dompdf@1.2.2-p1+tuxcare"
+        "purl": "pkg:composer/dompdf/dompdf"
       },
       "ranges": [
         {
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "0"
+              "introduced": "v1.2.2"
             },
             {
               "fixed": "1.2.2-p1+tuxcare"
             }
           ]
         }
-      ]
+      ],
+      "versions": [
+        "v1.2.2"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "v1.2.2",
+          "fixed_version": "1.2.2-p1+tuxcare"
+        }
+      }
     }
   ]
 }

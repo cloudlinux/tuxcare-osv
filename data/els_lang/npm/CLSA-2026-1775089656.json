@@ -1,7 +1,7 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2026-1775089656",
-  "modified": "2026-08-04T14:52:19Z",
+  "modified": "2026-10-15T08:16:08Z",
   "published": "2026-08-04T14:52:19Z",
   "summary": "TuxCare security update for pdfjs-dist (1 CVE)",
   "details": "TuxCare rebuilt pdfjs-dist to address 1 CVE. Fixed in 3.11.174-tuxcare.1.",
@@ -13,21 +13,30 @@
       "package": {
         "ecosystem": "TuxCare:npm",
         "name": "pdfjs-dist",
-        "purl": "pkg:npm/pdfjs-dist@3.11.174-tuxcare.1"
+        "purl": "pkg:npm/pdfjs-dist"
       },
       "ranges": [
         {
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "0"
+              "introduced": "3.11.174-tuxcare.0"
             },
             {
               "fixed": "3.11.174-tuxcare.1"
             }
           ]
         }
-      ]
+      ],
+      "versions": [
+        "3.11.174"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "3.11.174",
+          "fixed_version": "3.11.174-tuxcare.1"
+        }
+      }
     }
   ]
 }

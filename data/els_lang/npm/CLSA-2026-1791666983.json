@@ -1,7 +1,7 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2026-1791666983",
-  "modified": "2026-10-10T21:16:23Z",
+  "modified": "2026-10-15T08:16:08Z",
   "published": "2026-10-10T21:16:23Z",
   "summary": "TuxCare security update for 2 packages (1 CVE)",
   "details": "TuxCare rebuilt 2 packages to address 1 CVE. Fixed in 6.20.0-tuxcare.2.",
@@ -13,41 +13,61 @@
       "package": {
         "ecosystem": "TuxCare:npm",
         "name": "undici",
-        "purl": "pkg:npm/undici@6.20.0-tuxcare.2"
+        "purl": "pkg:npm/undici"
       },
       "ranges": [
         {
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "0"
+              "introduced": "6.20.0-tuxcare.0"
             },
             {
               "fixed": "6.20.0-tuxcare.2"
             }
           ]
         }
-      ]
+      ],
+      "versions": [
+        "6.20.0",
+        "6.20.0-tuxcare.1"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "6.20.0",
+          "fixed_version": "6.20.0-tuxcare.2"
+        }
+      }
     },
     {
       "package": {
         "ecosystem": "TuxCare:npm",
         "name": "undici-types",
-        "purl": "pkg:npm/undici-types@6.20.0-tuxcare.2"
+        "purl": "pkg:npm/undici-types"
       },
       "ranges": [
         {
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "0"
+              "introduced": "6.20.0-tuxcare.0"
             },
             {
               "fixed": "6.20.0-tuxcare.2"
             }
           ]
         }
-      ]
+      ],
+      "versions": [
+        "6.20.0",
+        "6.20.0-tuxcare.1"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "6.20.0",
+          "fixed_version": "6.20.0-tuxcare.2"
+        }
+      }
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2026-1789455724",
-  "modified": "2026-09-15T07:02:04Z",
+  "modified": "2026-10-15T08:16:08Z",
   "published": "2026-09-15T07:02:04Z",
   "summary": "TuxCare security update for org.springframework.hateoas:spring-hateoas (2 CVEs)",
   "details": "TuxCare rebuilt org.springframework.hateoas:spring-hateoas to address 2 CVEs. Fixed in 2.2.5-tuxcare.1.",
@@ -14,21 +14,30 @@
       "package": {
         "ecosystem": "TuxCare:Maven",
         "name": "org.springframework.hateoas:spring-hateoas",
-        "purl": "pkg:maven/org.springframework.hateoas/spring-hateoas@2.2.5-tuxcare.1"
+        "purl": "pkg:maven/org.springframework.hateoas/spring-hateoas"
       },
       "ranges": [
         {
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "0"
+              "introduced": "2.2.5"
             },
             {
               "fixed": "2.2.5-tuxcare.1"
             }
           ]
         }
-      ]
+      ],
+      "versions": [
+        "2.2.5"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "2.2.5",
+          "fixed_version": "2.2.5-tuxcare.1"
+        }
+      }
     }
   ]
 }

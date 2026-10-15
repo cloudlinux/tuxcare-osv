@@ -1,7 +1,7 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2026-1791452380",
-  "modified": "2026-10-08T09:39:40Z",
+  "modified": "2026-10-15T08:16:08Z",
   "published": "2026-10-08T09:39:40Z",
   "summary": "TuxCare security update for virtualenv (4 CVEs)",
   "details": "TuxCare rebuilt virtualenv to address 4 CVEs. Fixed in 20.39.1.post2+tuxcare.",
@@ -16,21 +16,31 @@
       "package": {
         "ecosystem": "TuxCare:PyPI",
         "name": "virtualenv",
-        "purl": "pkg:pypi/virtualenv@20.39.1.post2+tuxcare"
+        "purl": "pkg:pypi/virtualenv"
       },
       "ranges": [
         {
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "0"
+              "introduced": "20.39.1"
             },
             {
               "fixed": "20.39.1.post2+tuxcare"
             }
           ]
         }
-      ]
+      ],
+      "versions": [
+        "20.39.1",
+        "20.39.1.post1+tuxcare"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "20.39.1",
+          "fixed_version": "20.39.1.post2+tuxcare"
+        }
+      }
     }
   ]
 }

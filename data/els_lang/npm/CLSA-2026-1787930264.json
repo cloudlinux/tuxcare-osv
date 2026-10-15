@@ -1,7 +1,7 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2026-1787930264",
-  "modified": "2026-09-15T20:03:06Z",
+  "modified": "2026-10-15T08:16:08Z",
   "published": "2026-08-28T15:17:44Z",
   "summary": "TuxCare security update for 2 packages (1 CVE)",
   "details": "TuxCare rebuilt 2 packages to address 1 CVE. Fixed in 6.10.2-tuxcare.4.",
@@ -13,41 +13,65 @@
       "package": {
         "ecosystem": "TuxCare:npm",
         "name": "dcodeio_dcodeio_protobuf.js",
-        "purl": "pkg:npm/dcodeio_dcodeio_protobuf.js@6.10.2-tuxcare.4"
+        "purl": "pkg:npm/dcodeio_dcodeio_protobuf.js"
       },
       "ranges": [
         {
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "0"
+              "introduced": "6.10.2-tuxcare.0"
             },
             {
               "fixed": "6.10.2-tuxcare.4"
             }
           ]
         }
-      ]
+      ],
+      "versions": [
+        "6.10.2",
+        "6.10.2-tuxcare.1",
+        "6.10.2-tuxcare.2",
+        "6.10.2-tuxcare.3"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "6.10.2",
+          "fixed_version": "6.10.2-tuxcare.4"
+        }
+      }
     },
     {
       "package": {
         "ecosystem": "TuxCare:npm",
         "name": "protobufjs",
-        "purl": "pkg:npm/protobufjs@6.10.2-tuxcare.4"
+        "purl": "pkg:npm/protobufjs"
       },
       "ranges": [
         {
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "0"
+              "introduced": "6.10.2-tuxcare.0"
             },
             {
               "fixed": "6.10.2-tuxcare.4"
             }
           ]
         }
-      ]
+      ],
+      "versions": [
+        "6.10.2",
+        "6.10.2-tuxcare.1",
+        "6.10.2-tuxcare.2",
+        "6.10.2-tuxcare.3"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "6.10.2",
+          "fixed_version": "6.10.2-tuxcare.4"
+        }
+      }
     }
   ]
 }

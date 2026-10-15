@@ -1,7 +1,7 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2026-1789069337",
-  "modified": "2026-09-10T19:42:17Z",
+  "modified": "2026-10-15T08:16:08Z",
   "published": "2026-09-10T19:42:17Z",
   "summary": "TuxCare security update for 2 packages (2 CVEs)",
   "details": "TuxCare rebuilt 2 packages to address 2 CVEs. Fixed in 5.0.2-tuxcare.1.",
@@ -14,41 +14,59 @@
       "package": {
         "ecosystem": "TuxCare:npm",
         "name": "@hapi/content",
-        "purl": "pkg:npm/%40hapi/content@5.0.2-tuxcare.1"
+        "purl": "pkg:npm/%40hapi/content"
       },
       "ranges": [
         {
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "0"
+              "introduced": "5.0.2-tuxcare.0"
             },
             {
               "fixed": "5.0.2-tuxcare.1"
             }
           ]
         }
-      ]
+      ],
+      "versions": [
+        "5.0.2"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "5.0.2",
+          "fixed_version": "5.0.2-tuxcare.1"
+        }
+      }
     },
     {
       "package": {
         "ecosystem": "TuxCare:npm",
         "name": "hapi-content",
-        "purl": "pkg:npm/hapi-content@5.0.2-tuxcare.1"
+        "purl": "pkg:npm/hapi-content"
       },
       "ranges": [
         {
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "0"
+              "introduced": "5.0.2-tuxcare.0"
             },
             {
               "fixed": "5.0.2-tuxcare.1"
             }
           ]
         }
-      ]
+      ],
+      "versions": [
+        "5.0.2"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "5.0.2",
+          "fixed_version": "5.0.2-tuxcare.1"
+        }
+      }
     }
   ]
 }

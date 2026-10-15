@@ -1,7 +1,7 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2026-1770598645",
-  "modified": "2026-09-15T20:03:06Z",
+  "modified": "2026-10-15T08:16:08Z",
   "published": "2026-08-04T14:52:39Z",
   "summary": "TuxCare security update for illuminate/view (1 CVE)",
   "details": "TuxCare rebuilt illuminate/view to address 1 CVE. Fixed in 5.4.36-p1+tuxcare.",
@@ -13,21 +13,30 @@
       "package": {
         "ecosystem": "TuxCare:Packagist",
         "name": "illuminate/view",
-        "purl": "pkg:composer/illuminate/view@5.4.36-p1+tuxcare"
+        "purl": "pkg:composer/illuminate/view"
       },
       "ranges": [
         {
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "0"
+              "introduced": "v5.4.36"
             },
             {
               "fixed": "5.4.36-p1+tuxcare"
             }
           ]
         }
-      ]
+      ],
+      "versions": [
+        "v5.4.36"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "v5.4.36",
+          "fixed_version": "5.4.36-p1+tuxcare"
+        }
+      }
     }
   ]
 }

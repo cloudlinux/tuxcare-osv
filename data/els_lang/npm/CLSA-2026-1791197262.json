@@ -1,7 +1,7 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2026-1791197262",
-  "modified": "2026-10-05T10:47:42Z",
+  "modified": "2026-10-15T08:16:08Z",
   "published": "2026-10-05T10:47:42Z",
   "summary": "TuxCare security update for base-x (1 CVE)",
   "details": "TuxCare rebuilt base-x to address 1 CVE. Fixed in 2.0.6-tuxcare.1.",
@@ -13,21 +13,30 @@
       "package": {
         "ecosystem": "TuxCare:npm",
         "name": "base-x",
-        "purl": "pkg:npm/base-x@2.0.6-tuxcare.1"
+        "purl": "pkg:npm/base-x"
       },
       "ranges": [
         {
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "0"
+              "introduced": "2.0.6-tuxcare.0"
             },
             {
               "fixed": "2.0.6-tuxcare.1"
             }
           ]
         }
-      ]
+      ],
+      "versions": [
+        "2.0.6"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "2.0.6",
+          "fixed_version": "2.0.6-tuxcare.1"
+        }
+      }
     }
   ]
 }

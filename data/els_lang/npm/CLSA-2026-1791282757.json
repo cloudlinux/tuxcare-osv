@@ -1,7 +1,7 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2026-1791282757",
-  "modified": "2026-10-06T10:32:37Z",
+  "modified": "2026-10-15T08:16:08Z",
   "published": "2026-10-06T10:32:37Z",
   "summary": "TuxCare security update for baseline-browser-mapping (1 CVE)",
   "details": "TuxCare rebuilt baseline-browser-mapping to address 1 CVE. Fixed in 2.10.38-tuxcare.1.",
@@ -13,21 +13,30 @@
       "package": {
         "ecosystem": "TuxCare:npm",
         "name": "baseline-browser-mapping",
-        "purl": "pkg:npm/baseline-browser-mapping@2.10.38-tuxcare.1"
+        "purl": "pkg:npm/baseline-browser-mapping"
       },
       "ranges": [
         {
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "0"
+              "introduced": "2.10.38-tuxcare.0"
             },
             {
               "fixed": "2.10.38-tuxcare.1"
             }
           ]
         }
-      ]
+      ],
+      "versions": [
+        "2.10.38"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "2.10.38",
+          "fixed_version": "2.10.38-tuxcare.1"
+        }
+      }
     }
   ]
 }

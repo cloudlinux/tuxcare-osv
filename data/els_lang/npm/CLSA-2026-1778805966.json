@@ -1,7 +1,7 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2026-1778805966",
-  "modified": "2026-09-19T11:40:04Z",
+  "modified": "2026-10-15T08:16:08Z",
   "published": "2026-08-04T14:52:31Z",
   "summary": "TuxCare security update for uuid (2 CVEs)",
   "details": "TuxCare rebuilt uuid to address 2 CVEs. Fixed in 11.0.5-tuxcare.1.",
@@ -14,21 +14,30 @@
       "package": {
         "ecosystem": "TuxCare:npm",
         "name": "uuid",
-        "purl": "pkg:npm/uuid@11.0.5-tuxcare.1"
+        "purl": "pkg:npm/uuid"
       },
       "ranges": [
         {
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "0"
+              "introduced": "11.0.5-tuxcare.0"
             },
             {
               "fixed": "11.0.5-tuxcare.1"
             }
           ]
         }
-      ]
+      ],
+      "versions": [
+        "11.0.5"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "11.0.5",
+          "fixed_version": "11.0.5-tuxcare.1"
+        }
+      }
     }
   ]
 }

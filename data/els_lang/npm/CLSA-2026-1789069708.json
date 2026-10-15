@@ -1,7 +1,7 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2026-1789069708",
-  "modified": "2026-09-10T19:48:28Z",
+  "modified": "2026-10-15T08:16:08Z",
   "published": "2026-09-10T19:48:28Z",
   "summary": "TuxCare security update for 2 packages (1 CVE)",
   "details": "TuxCare rebuilt 2 packages to address 1 CVE. Fixed in 3.19.3-tuxcare.1.",
@@ -13,41 +13,59 @@
       "package": {
         "ecosystem": "TuxCare:npm",
         "name": "yeoman-environment",
-        "purl": "pkg:npm/yeoman-environment@3.19.3-tuxcare.1"
+        "purl": "pkg:npm/yeoman-environment"
       },
       "ranges": [
         {
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "0"
+              "introduced": "3.19.3-tuxcare.0"
             },
             {
               "fixed": "3.19.3-tuxcare.1"
             }
           ]
         }
-      ]
+      ],
+      "versions": [
+        "3.19.3"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "3.19.3",
+          "fixed_version": "3.19.3-tuxcare.1"
+        }
+      }
     },
     {
       "package": {
         "ecosystem": "TuxCare:npm",
         "name": "yeoman_environment",
-        "purl": "pkg:npm/yeoman_environment@3.19.3-tuxcare.1"
+        "purl": "pkg:npm/yeoman_environment"
       },
       "ranges": [
         {
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "0"
+              "introduced": "3.19.3-tuxcare.0"
             },
             {
               "fixed": "3.19.3-tuxcare.1"
             }
           ]
         }
-      ]
+      ],
+      "versions": [
+        "3.19.3"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "3.19.3",
+          "fixed_version": "3.19.3-tuxcare.1"
+        }
+      }
     }
   ]
 }

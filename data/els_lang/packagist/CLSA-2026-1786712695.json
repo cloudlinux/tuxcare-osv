@@ -1,7 +1,7 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2026-1786712695",
-  "modified": "2026-09-15T20:03:06Z",
+  "modified": "2026-10-15T08:16:08Z",
   "published": "2026-08-14T13:04:55Z",
   "summary": "TuxCare security update for zendframework/zendframework1 (12 CVEs)",
   "details": "TuxCare rebuilt zendframework/zendframework1 to address 12 CVEs. Fixed in 1.11.0-p1+tuxcare.",
@@ -24,21 +24,30 @@
       "package": {
         "ecosystem": "TuxCare:Packagist",
         "name": "zendframework/zendframework1",
-        "purl": "pkg:composer/zendframework/zendframework1@1.11.0-p1+tuxcare"
+        "purl": "pkg:composer/zendframework/zendframework1"
       },
       "ranges": [
         {
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "0"
+              "introduced": "1.11.0"
             },
             {
               "fixed": "1.11.0-p1+tuxcare"
             }
           ]
         }
-      ]
+      ],
+      "versions": [
+        "1.11.0"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "1.11.0",
+          "fixed_version": "1.11.0-p1+tuxcare"
+        }
+      }
     }
   ]
 }

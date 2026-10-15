@@ -1,7 +1,7 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2026-1781571264",
-  "modified": "2026-08-04T14:52:37Z",
+  "modified": "2026-10-15T08:16:08Z",
   "published": "2026-08-04T14:52:37Z",
   "summary": "TuxCare security update for paramiko (1 CVE)",
   "details": "TuxCare rebuilt paramiko to address 1 CVE. Fixed in 3.0.0.post2+tuxcare.",
@@ -13,21 +13,31 @@
       "package": {
         "ecosystem": "TuxCare:PyPI",
         "name": "paramiko",
-        "purl": "pkg:pypi/paramiko@3.0.0.post2+tuxcare"
+        "purl": "pkg:pypi/paramiko"
       },
       "ranges": [
         {
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "0"
+              "introduced": "3.0.0"
             },
             {
               "fixed": "3.0.0.post2+tuxcare"
             }
           ]
         }
-      ]
+      ],
+      "versions": [
+        "3.0.0",
+        "3.0.0.post1+tuxcare"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "3.0.0",
+          "fixed_version": "3.0.0.post2+tuxcare"
+        }
+      }
     }
   ]
 }

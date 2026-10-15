@@ -1,7 +1,7 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2026-1775781164",
-  "modified": "2026-08-04T14:52:23Z",
+  "modified": "2026-10-15T08:16:08Z",
   "published": "2026-08-04T14:52:23Z",
   "summary": "TuxCare security update for pyopenssl (2 CVEs)",
   "details": "TuxCare rebuilt pyopenssl to address 2 CVEs. Fixed in 25.3.0.post1+tuxcare.",
@@ -14,21 +14,30 @@
       "package": {
         "ecosystem": "TuxCare:PyPI",
         "name": "pyopenssl",
-        "purl": "pkg:pypi/pyopenssl@25.3.0.post1+tuxcare"
+        "purl": "pkg:pypi/pyopenssl"
       },
       "ranges": [
         {
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "0"
+              "introduced": "25.3.0"
             },
             {
               "fixed": "25.3.0.post1+tuxcare"
             }
           ]
         }
-      ]
+      ],
+      "versions": [
+        "25.3.0"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "25.3.0",
+          "fixed_version": "25.3.0.post1+tuxcare"
+        }
+      }
     }
   ]
 }

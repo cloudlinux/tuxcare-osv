@@ -1,7 +1,7 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2026-1778028241",
-  "modified": "2026-08-04T14:52:30Z",
+  "modified": "2026-10-15T08:16:08Z",
   "published": "2026-08-04T14:52:30Z",
   "summary": "TuxCare security update for xalan (1 CVE)",
   "details": "TuxCare rebuilt 2 xalan packages to address 1 CVE. Fixed in 2.7.1-tuxcare.1.",
@@ -13,41 +13,59 @@
       "package": {
         "ecosystem": "TuxCare:Maven",
         "name": "xalan:serializer",
-        "purl": "pkg:maven/xalan/serializer@2.7.1-tuxcare.1"
+        "purl": "pkg:maven/xalan/serializer"
       },
       "ranges": [
         {
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "0"
+              "introduced": "2.7.1"
             },
             {
               "fixed": "2.7.1-tuxcare.1"
             }
           ]
         }
-      ]
+      ],
+      "versions": [
+        "2.7.1"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "2.7.1",
+          "fixed_version": "2.7.1-tuxcare.1"
+        }
+      }
     },
     {
       "package": {
         "ecosystem": "TuxCare:Maven",
         "name": "xalan:xalan",
-        "purl": "pkg:maven/xalan/xalan@2.7.1-tuxcare.1"
+        "purl": "pkg:maven/xalan/xalan"
       },
       "ranges": [
         {
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "0"
+              "introduced": "2.7.1"
             },
             {
               "fixed": "2.7.1-tuxcare.1"
             }
           ]
         }
-      ]
+      ],
+      "versions": [
+        "2.7.1"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "2.7.1",
+          "fixed_version": "2.7.1-tuxcare.1"
+        }
+      }
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2024-1733961633",
-  "modified": "2026-08-04T14:52:03Z",
+  "modified": "2026-10-15T08:16:08Z",
   "published": "2026-08-04T14:52:03Z",
   "summary": "TuxCare security update for org.codehaus.plexus:plexus-utils (3 CVEs)",
   "details": "TuxCare rebuilt org.codehaus.plexus:plexus-utils to address 3 CVEs. Fixed in 1.5.8.tuxcare.",
@@ -15,21 +15,30 @@
       "package": {
         "ecosystem": "TuxCare:Maven",
         "name": "org.codehaus.plexus:plexus-utils",
-        "purl": "pkg:maven/org.codehaus.plexus/plexus-utils@1.5.8.tuxcare"
+        "purl": "pkg:maven/org.codehaus.plexus/plexus-utils"
       },
       "ranges": [
         {
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "0"
+              "introduced": "1.5.8"
             },
             {
               "fixed": "1.5.8.tuxcare"
             }
           ]
         }
-      ]
+      ],
+      "versions": [
+        "1.5.8"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "1.5.8",
+          "fixed_version": "1.5.8.tuxcare"
+        }
+      }
     }
   ]
 }

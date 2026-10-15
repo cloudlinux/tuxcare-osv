@@ -1,7 +1,7 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2026-1784943103",
-  "modified": "2026-08-04T14:52:49Z",
+  "modified": "2026-10-15T08:16:08Z",
   "published": "2026-08-04T14:52:49Z",
   "summary": "TuxCare security update for piscina (1 CVE)",
   "details": "TuxCare rebuilt piscina to address 1 CVE. Fixed in 4.6.1-tuxcare.1.",
@@ -13,21 +13,30 @@
       "package": {
         "ecosystem": "TuxCare:npm",
         "name": "piscina",
-        "purl": "pkg:npm/piscina@4.6.1-tuxcare.1"
+        "purl": "pkg:npm/piscina"
       },
       "ranges": [
         {
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "0"
+              "introduced": "4.6.1-tuxcare.0"
             },
             {
               "fixed": "4.6.1-tuxcare.1"
             }
           ]
         }
-      ]
+      ],
+      "versions": [
+        "4.6.1"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "4.6.1",
+          "fixed_version": "4.6.1-tuxcare.1"
+        }
+      }
     }
   ]
 }

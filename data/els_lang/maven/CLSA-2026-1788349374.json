@@ -1,7 +1,7 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2026-1788349374",
-  "modified": "2026-09-02T11:42:54Z",
+  "modified": "2026-10-15T08:16:08Z",
   "published": "2026-09-02T11:42:54Z",
   "summary": "TuxCare security update for dnsjava:dnsjava (1 CVE)",
   "details": "TuxCare rebuilt dnsjava:dnsjava to address 1 CVE. Fixed in 3.5.2-tuxcare.1.",
@@ -13,21 +13,30 @@
       "package": {
         "ecosystem": "TuxCare:Maven",
         "name": "dnsjava:dnsjava",
-        "purl": "pkg:maven/dnsjava/dnsjava@3.5.2-tuxcare.1"
+        "purl": "pkg:maven/dnsjava/dnsjava"
       },
       "ranges": [
         {
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "0"
+              "introduced": "3.5.2"
             },
             {
               "fixed": "3.5.2-tuxcare.1"
             }
           ]
         }
-      ]
+      ],
+      "versions": [
+        "3.5.2"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "3.5.2",
+          "fixed_version": "3.5.2-tuxcare.1"
+        }
+      }
     }
   ]
 }

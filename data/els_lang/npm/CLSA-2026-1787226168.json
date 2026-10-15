@@ -1,7 +1,7 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2026-1787226168",
-  "modified": "2026-08-20T11:42:48Z",
+  "modified": "2026-10-15T08:16:08Z",
   "published": "2026-08-20T11:42:48Z",
   "summary": "TuxCare security update for bootstrap (7 CVEs)",
   "details": "TuxCare rebuilt bootstrap to address 7 CVEs. Fixed in 3.3.5-tuxcare.1.",
@@ -19,21 +19,30 @@
       "package": {
         "ecosystem": "TuxCare:npm",
         "name": "bootstrap",
-        "purl": "pkg:npm/bootstrap@3.3.5-tuxcare.1"
+        "purl": "pkg:npm/bootstrap"
       },
       "ranges": [
         {
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "0"
+              "introduced": "3.3.5-tuxcare.0"
             },
             {
               "fixed": "3.3.5-tuxcare.1"
             }
           ]
         }
-      ]
+      ],
+      "versions": [
+        "3.3.5"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "3.3.5",
+          "fixed_version": "3.3.5-tuxcare.1"
+        }
+      }
     }
   ]
 }

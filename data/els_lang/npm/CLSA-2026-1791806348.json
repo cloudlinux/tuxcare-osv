@@ -1,7 +1,7 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2026-1791806348",
-  "modified": "2026-10-12T11:59:08Z",
+  "modified": "2026-10-15T08:16:08Z",
   "published": "2026-10-12T11:59:08Z",
   "summary": "TuxCare security update for msgpack5 (7 CVEs)",
   "details": "TuxCare rebuilt msgpack5 to address 7 CVEs. Fixed in 4.5.1-tuxcare.1.",
@@ -19,21 +19,30 @@
       "package": {
         "ecosystem": "TuxCare:npm",
         "name": "msgpack5",
-        "purl": "pkg:npm/msgpack5@4.5.1-tuxcare.1"
+        "purl": "pkg:npm/msgpack5"
       },
       "ranges": [
         {
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "0"
+              "introduced": "4.5.1-tuxcare.0"
             },
             {
               "fixed": "4.5.1-tuxcare.1"
             }
           ]
         }
-      ]
+      ],
+      "versions": [
+        "4.5.1"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "4.5.1",
+          "fixed_version": "4.5.1-tuxcare.1"
+        }
+      }
     }
   ]
 }

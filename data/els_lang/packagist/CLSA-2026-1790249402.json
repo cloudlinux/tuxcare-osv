@@ -1,7 +1,7 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2026-1790249402",
-  "modified": "2026-09-24T11:30:02Z",
+  "modified": "2026-10-15T08:16:08Z",
   "published": "2026-09-24T11:30:02Z",
   "summary": "TuxCare security update for drupal/gdpr (1 CVE)",
   "details": "TuxCare rebuilt drupal/gdpr to address 1 CVE. Fixed in 3.0.0-p1+tuxcare.",
@@ -13,21 +13,30 @@
       "package": {
         "ecosystem": "TuxCare:Packagist",
         "name": "drupal/gdpr",
-        "purl": "pkg:composer/drupal/gdpr@3.0.0-p1+tuxcare"
+        "purl": "pkg:composer/drupal/gdpr"
       },
       "ranges": [
         {
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "0"
+              "introduced": "3.0.0"
             },
             {
               "fixed": "3.0.0-p1+tuxcare"
             }
           ]
         }
-      ]
+      ],
+      "versions": [
+        "3.0.0"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "3.0.0",
+          "fixed_version": "3.0.0-p1+tuxcare"
+        }
+      }
     }
   ]
 }

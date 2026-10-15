@@ -1,7 +1,7 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2026-1789561134",
-  "modified": "2026-09-16T12:18:54Z",
+  "modified": "2026-10-15T08:16:08Z",
   "published": "2026-09-16T12:18:54Z",
   "summary": "TuxCare security update for org.thymeleaf:thymeleaf (1 CVE)",
   "details": "TuxCare rebuilt org.thymeleaf:thymeleaf to address 1 CVE. Fixed in 3.1.2.RELEASE-tuxcare.2.",
@@ -13,21 +13,31 @@
       "package": {
         "ecosystem": "TuxCare:Maven",
         "name": "org.thymeleaf:thymeleaf",
-        "purl": "pkg:maven/org.thymeleaf/thymeleaf@3.1.2.RELEASE-tuxcare.2"
+        "purl": "pkg:maven/org.thymeleaf/thymeleaf"
       },
       "ranges": [
         {
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "0"
+              "introduced": "3.1.2.RELEASE"
             },
             {
               "fixed": "3.1.2.RELEASE-tuxcare.2"
             }
           ]
         }
-      ]
+      ],
+      "versions": [
+        "3.1.2.RELEASE",
+        "3.1.2.RELEASE-tuxcare.1"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "3.1.2.RELEASE",
+          "fixed_version": "3.1.2.RELEASE-tuxcare.2"
+        }
+      }
     }
   ]
 }

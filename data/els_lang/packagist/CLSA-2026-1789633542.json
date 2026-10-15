@@ -1,7 +1,7 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2026-1789633542",
-  "modified": "2026-09-17T08:25:42Z",
+  "modified": "2026-10-15T08:16:08Z",
   "published": "2026-09-17T08:25:42Z",
   "summary": "TuxCare security update for drupal/commerce_paybox (1 CVE)",
   "details": "TuxCare rebuilt drupal/commerce_paybox to address 1 CVE. Fixed in 7.1.5-p1+tuxcare.",
@@ -13,21 +13,30 @@
       "package": {
         "ecosystem": "TuxCare:Packagist",
         "name": "drupal/commerce_paybox",
-        "purl": "pkg:composer/drupal/commerce_paybox@7.1.5-p1+tuxcare"
+        "purl": "pkg:composer/drupal/commerce_paybox"
       },
       "ranges": [
         {
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "0"
+              "introduced": "7.1.5"
             },
             {
               "fixed": "7.1.5-p1+tuxcare"
             }
           ]
         }
-      ]
+      ],
+      "versions": [
+        "7.1.5"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "7.1.5",
+          "fixed_version": "7.1.5-p1+tuxcare"
+        }
+      }
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2026-1788560439",
-  "modified": "2026-09-04T22:20:39Z",
+  "modified": "2026-10-15T08:16:08Z",
   "published": "2026-09-04T22:20:39Z",
   "summary": "TuxCare security update for ws (3 CVEs)",
   "details": "TuxCare rebuilt ws to address 3 CVEs. Fixed in 6.0.0-tuxcare.1.",
@@ -15,21 +15,30 @@
       "package": {
         "ecosystem": "TuxCare:npm",
         "name": "ws",
-        "purl": "pkg:npm/ws@6.0.0-tuxcare.1"
+        "purl": "pkg:npm/ws"
       },
       "ranges": [
         {
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "0"
+              "introduced": "6.0.0-tuxcare.0"
             },
             {
               "fixed": "6.0.0-tuxcare.1"
             }
           ]
         }
-      ]
+      ],
+      "versions": [
+        "6.0.0"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "6.0.0",
+          "fixed_version": "6.0.0-tuxcare.1"
+        }
+      }
     }
   ]
 }

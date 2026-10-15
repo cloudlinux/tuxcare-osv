@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1791959812",
+  "modified": "2026-10-14T06:36:52Z",
+  "published": "2026-10-14T06:36:52Z",
+  "summary": "TuxCare security update for org.springframework.hateoas:spring-hateoas (1 CVE)",
+  "details": "TuxCare rebuilt org.springframework.hateoas:spring-hateoas to address 1 CVE. Fixed in 1.1.2.RELEASE-tuxcare.1.",
+  "upstream": [
+    "CVE-2026-41007"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.springframework.hateoas:spring-hateoas",
+        "purl": "pkg:maven/org.springframework.hateoas/spring-hateoas"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "1.1.2.RELEASE"
+            },
+            {
+              "fixed": "1.1.2.RELEASE-tuxcare.1"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "1.1.2.RELEASE"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "1.1.2.RELEASE",
+          "fixed_version": "1.1.2.RELEASE-tuxcare.1"
+        }
+      }
+    }
+  ]
+}

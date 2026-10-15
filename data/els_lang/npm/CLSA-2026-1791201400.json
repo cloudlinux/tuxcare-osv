@@ -1,7 +1,7 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2026-1791201400",
-  "modified": "2026-10-05T11:56:40Z",
+  "modified": "2026-10-15T08:16:08Z",
   "published": "2026-10-05T11:56:40Z",
   "summary": "TuxCare security update for h3 (1 CVE)",
   "details": "TuxCare rebuilt h3 to address 1 CVE. Fixed in 1.15.11-tuxcare.1.",
@@ -13,21 +13,30 @@
       "package": {
         "ecosystem": "TuxCare:npm",
         "name": "h3",
-        "purl": "pkg:npm/h3@1.15.11-tuxcare.1"
+        "purl": "pkg:npm/h3"
       },
       "ranges": [
         {
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "0"
+              "introduced": "1.15.11-tuxcare.0"
             },
             {
               "fixed": "1.15.11-tuxcare.1"
             }
           ]
         }
-      ]
+      ],
+      "versions": [
+        "1.15.11"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "1.15.11",
+          "fixed_version": "1.15.11-tuxcare.1"
+        }
+      }
     }
   ]
 }

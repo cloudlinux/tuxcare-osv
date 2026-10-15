@@ -1,7 +1,7 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2026-1774570931",
-  "modified": "2026-08-04T14:52:15Z",
+  "modified": "2026-10-15T08:16:08Z",
   "published": "2026-08-04T14:52:15Z",
   "summary": "TuxCare security update for ejs (2 CVEs)",
   "details": "TuxCare rebuilt ejs to address 2 CVEs. Fixed in 2.7.4-tuxcare.1.",
@@ -14,21 +14,30 @@
       "package": {
         "ecosystem": "TuxCare:npm",
         "name": "ejs",
-        "purl": "pkg:npm/ejs@2.7.4-tuxcare.1"
+        "purl": "pkg:npm/ejs"
       },
       "ranges": [
         {
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "0"
+              "introduced": "2.7.4-tuxcare.0"
             },
             {
               "fixed": "2.7.4-tuxcare.1"
             }
           ]
         }
-      ]
+      ],
+      "versions": [
+        "2.7.4"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "2.7.4",
+          "fixed_version": "2.7.4-tuxcare.1"
+        }
+      }
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2026-1787229037",
-  "modified": "2026-08-20T12:30:37Z",
+  "modified": "2026-10-15T08:16:08Z",
   "published": "2026-08-20T12:30:37Z",
   "summary": "TuxCare security update for laravel/framework (1 CVE)",
   "details": "TuxCare rebuilt laravel/framework to address 1 CVE. Fixed in 5.8.38-p5+tuxcare.",
@@ -13,21 +13,34 @@
       "package": {
         "ecosystem": "TuxCare:Packagist",
         "name": "laravel/framework",
-        "purl": "pkg:composer/laravel/framework@5.8.38-p5+tuxcare"
+        "purl": "pkg:composer/laravel/framework"
       },
       "ranges": [
         {
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "0"
+              "introduced": "5.8.38"
             },
             {
               "fixed": "5.8.38-p5+tuxcare"
             }
           ]
         }
-      ]
+      ],
+      "versions": [
+        "5.8.38",
+        "5.8.38-p1+tuxcare",
+        "5.8.38-p2+tuxcare",
+        "5.8.38-p3+tuxcare",
+        "5.8.38-p4+tuxcare"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "5.8.38",
+          "fixed_version": "5.8.38-p5+tuxcare"
+        }
+      }
     }
   ]
 }

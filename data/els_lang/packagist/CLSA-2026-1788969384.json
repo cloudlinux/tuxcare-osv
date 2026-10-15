@@ -1,7 +1,7 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2026-1788969384",
-  "modified": "2026-09-09T15:56:24Z",
+  "modified": "2026-10-15T08:16:08Z",
   "published": "2026-09-09T15:56:24Z",
   "summary": "TuxCare security update for drupal/colorbox (1 CVE)",
   "details": "TuxCare rebuilt drupal/colorbox to address 1 CVE. Fixed in 2.1.2-p1+tuxcare.",
@@ -13,21 +13,30 @@
       "package": {
         "ecosystem": "TuxCare:Packagist",
         "name": "drupal/colorbox",
-        "purl": "pkg:composer/drupal/colorbox@2.1.2-p1+tuxcare"
+        "purl": "pkg:composer/drupal/colorbox"
       },
       "ranges": [
         {
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "0"
+              "introduced": "2.1.2"
             },
             {
               "fixed": "2.1.2-p1+tuxcare"
             }
           ]
         }
-      ]
+      ],
+      "versions": [
+        "2.1.2"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "2.1.2",
+          "fixed_version": "2.1.2-p1+tuxcare"
+        }
+      }
     }
   ]
 }

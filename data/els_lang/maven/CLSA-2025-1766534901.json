@@ -1,7 +1,7 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2025-1766534901",
-  "modified": "2026-08-04T14:52:06Z",
+  "modified": "2026-10-15T08:16:08Z",
   "published": "2026-08-04T14:52:06Z",
   "summary": "TuxCare security update for net.sourceforge.htmlunit:htmlunit (1 CVE)",
   "details": "TuxCare rebuilt net.sourceforge.htmlunit:htmlunit to address 1 CVE. Fixed in 2.70.0-tuxcare.1.",
@@ -13,21 +13,30 @@
       "package": {
         "ecosystem": "TuxCare:Maven",
         "name": "net.sourceforge.htmlunit:htmlunit",
-        "purl": "pkg:maven/net.sourceforge.htmlunit/htmlunit@2.70.0-tuxcare.1"
+        "purl": "pkg:maven/net.sourceforge.htmlunit/htmlunit"
       },
       "ranges": [
         {
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "0"
+              "introduced": "2.70.0"
             },
             {
               "fixed": "2.70.0-tuxcare.1"
             }
           ]
         }
-      ]
+      ],
+      "versions": [
+        "2.70.0"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "2.70.0",
+          "fixed_version": "2.70.0-tuxcare.1"
+        }
+      }
     }
   ]
 }

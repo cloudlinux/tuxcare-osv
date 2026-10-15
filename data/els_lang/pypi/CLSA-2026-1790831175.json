@@ -1,7 +1,7 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2026-1790831175",
-  "modified": "2026-10-01T05:06:15Z",
+  "modified": "2026-10-15T08:16:08Z",
   "published": "2026-10-01T05:06:15Z",
   "summary": "TuxCare security update for transformers (1 CVE)",
   "details": "TuxCare rebuilt transformers to address 1 CVE. Fixed in 4.57.6.post5+tuxcare.",
@@ -13,21 +13,34 @@
       "package": {
         "ecosystem": "TuxCare:PyPI",
         "name": "transformers",
-        "purl": "pkg:pypi/transformers@4.57.6.post5+tuxcare"
+        "purl": "pkg:pypi/transformers"
       },
       "ranges": [
         {
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "0"
+              "introduced": "4.57.6"
             },
             {
               "fixed": "4.57.6.post5+tuxcare"
             }
           ]
         }
-      ]
+      ],
+      "versions": [
+        "4.57.6",
+        "4.57.6.post1+tuxcare",
+        "4.57.6.post2+tuxcare",
+        "4.57.6.post3+tuxcare",
+        "4.57.6.post4+tuxcare"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "4.57.6",
+          "fixed_version": "4.57.6.post5+tuxcare"
+        }
+      }
     }
   ]
 }

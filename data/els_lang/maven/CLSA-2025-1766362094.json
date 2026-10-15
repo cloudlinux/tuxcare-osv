@@ -1,7 +1,7 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2025-1766362094",
-  "modified": "2026-09-15T20:03:06Z",
+  "modified": "2026-10-15T08:16:08Z",
   "published": "2026-08-04T14:52:06Z",
   "summary": "TuxCare security update for org.apache.maven.shared:maven-shared-utils (1 CVE)",
   "details": "TuxCare rebuilt org.apache.maven.shared:maven-shared-utils to address 1 CVE. Fixed in 3.2.1-tuxcare.1.",
@@ -13,21 +13,30 @@
       "package": {
         "ecosystem": "TuxCare:Maven",
         "name": "org.apache.maven.shared:maven-shared-utils",
-        "purl": "pkg:maven/org.apache.maven.shared/maven-shared-utils@3.2.1-tuxcare.1"
+        "purl": "pkg:maven/org.apache.maven.shared/maven-shared-utils"
       },
       "ranges": [
         {
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "0"
+              "introduced": "3.2.1"
             },
             {
               "fixed": "3.2.1-tuxcare.1"
             }
           ]
         }
-      ]
+      ],
+      "versions": [
+        "3.2.1"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "3.2.1",
+          "fixed_version": "3.2.1-tuxcare.1"
+        }
+      }
     }
   ]
 }

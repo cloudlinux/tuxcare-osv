@@ -1,7 +1,7 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2026-1780447839",
-  "modified": "2026-09-15T20:03:06Z",
+  "modified": "2026-10-15T08:16:08Z",
   "published": "2026-08-04T14:52:35Z",
   "summary": "TuxCare security update for dns-packet (1 CVE)",
   "details": "TuxCare rebuilt dns-packet to address 1 CVE. Fixed in 1.3.1-tuxcare.1.",
@@ -13,21 +13,30 @@
       "package": {
         "ecosystem": "TuxCare:npm",
         "name": "dns-packet",
-        "purl": "pkg:npm/dns-packet@1.3.1-tuxcare.1"
+        "purl": "pkg:npm/dns-packet"
       },
       "ranges": [
         {
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "0"
+              "introduced": "1.3.1-tuxcare.0"
             },
             {
               "fixed": "1.3.1-tuxcare.1"
             }
           ]
         }
-      ]
+      ],
+      "versions": [
+        "1.3.1"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "1.3.1",
+          "fixed_version": "1.3.1-tuxcare.1"
+        }
+      }
     }
   ]
 }

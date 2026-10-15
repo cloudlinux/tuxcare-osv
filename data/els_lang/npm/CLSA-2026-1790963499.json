@@ -1,7 +1,7 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2026-1790963499",
-  "modified": "2026-10-02T17:51:39Z",
+  "modified": "2026-10-15T08:16:08Z",
   "published": "2026-10-02T17:51:39Z",
   "summary": "TuxCare security update for tar-fs (3 CVEs)",
   "details": "TuxCare rebuilt tar-fs to address 3 CVEs. Fixed in 2.1.1-tuxcare.1.",
@@ -15,21 +15,30 @@
       "package": {
         "ecosystem": "TuxCare:npm",
         "name": "tar-fs",
-        "purl": "pkg:npm/tar-fs@2.1.1-tuxcare.1"
+        "purl": "pkg:npm/tar-fs"
       },
       "ranges": [
         {
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "0"
+              "introduced": "2.1.1-tuxcare.0"
             },
             {
               "fixed": "2.1.1-tuxcare.1"
             }
           ]
         }
-      ]
+      ],
+      "versions": [
+        "2.1.1"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "2.1.1",
+          "fixed_version": "2.1.1-tuxcare.1"
+        }
+      }
     }
   ]
 }

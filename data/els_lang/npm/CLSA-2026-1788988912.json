@@ -1,7 +1,7 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2026-1788988912",
-  "modified": "2026-10-13T17:54:20Z",
+  "modified": "2026-10-15T08:16:08Z",
   "published": "2026-09-09T21:21:52Z",
   "summary": "TuxCare security update for unhead (2 CVEs)",
   "details": "TuxCare rebuilt unhead to address 2 CVEs. Fixed in 1.11.20-tuxcare.1.",
@@ -14,21 +14,30 @@
       "package": {
         "ecosystem": "TuxCare:npm",
         "name": "unhead",
-        "purl": "pkg:npm/unhead@1.11.20-tuxcare.1"
+        "purl": "pkg:npm/unhead"
       },
       "ranges": [
         {
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "0"
+              "introduced": "1.11.20-tuxcare.0"
             },
             {
               "fixed": "1.11.20-tuxcare.1"
             }
           ]
         }
-      ]
+      ],
+      "versions": [
+        "1.11.20"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "1.11.20",
+          "fixed_version": "1.11.20-tuxcare.1"
+        }
+      }
     }
   ]
 }

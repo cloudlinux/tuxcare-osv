@@ -1,7 +1,7 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2026-1773188132",
-  "modified": "2026-08-04T14:52:12Z",
+  "modified": "2026-10-15T08:16:08Z",
   "published": "2026-08-04T14:52:12Z",
   "summary": "TuxCare security update for lodash.merge (2 CVEs)",
   "details": "TuxCare rebuilt lodash.merge to address 2 CVEs. Fixed in 3.3.2-tuxcare.2.",
@@ -14,21 +14,31 @@
       "package": {
         "ecosystem": "TuxCare:npm",
         "name": "lodash.merge",
-        "purl": "pkg:npm/lodash.merge@3.3.2-tuxcare.2"
+        "purl": "pkg:npm/lodash.merge"
       },
       "ranges": [
         {
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "0"
+              "introduced": "3.3.2-tuxcare.0"
             },
             {
               "fixed": "3.3.2-tuxcare.2"
             }
           ]
         }
-      ]
+      ],
+      "versions": [
+        "3.3.2",
+        "3.3.2-tuxcare.1"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "3.3.2",
+          "fixed_version": "3.3.2-tuxcare.2"
+        }
+      }
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2026-1790851862",
-  "modified": "2026-10-01T10:51:02Z",
+  "modified": "2026-10-15T08:16:08Z",
   "published": "2026-10-01T10:51:02Z",
   "summary": "TuxCare security update for sentence-transformers (1 CVE)",
   "details": "TuxCare rebuilt sentence-transformers to address 1 CVE. Fixed in 2.7.0.post3+tuxcare.",
@@ -13,21 +13,32 @@
       "package": {
         "ecosystem": "TuxCare:PyPI",
         "name": "sentence-transformers",
-        "purl": "pkg:pypi/sentence-transformers@2.7.0.post3+tuxcare"
+        "purl": "pkg:pypi/sentence-transformers"
       },
       "ranges": [
         {
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "0"
+              "introduced": "2.7.0"
             },
             {
               "fixed": "2.7.0.post3+tuxcare"
             }
           ]
         }
-      ]
+      ],
+      "versions": [
+        "2.7.0",
+        "2.7.0.post1+tuxcare",
+        "2.7.0.post2+tuxcare"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "2.7.0",
+          "fixed_version": "2.7.0.post3+tuxcare"
+        }
+      }
     }
   ]
 }

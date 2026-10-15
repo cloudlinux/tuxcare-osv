@@ -1,7 +1,7 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2026-1783645389",
-  "modified": "2026-08-04T14:52:42Z",
+  "modified": "2026-10-15T08:16:08Z",
   "published": "2026-08-04T14:52:42Z",
   "summary": "TuxCare security update for laminas/laminas-http (1 CVE)",
   "details": "TuxCare rebuilt laminas/laminas-http to address 1 CVE. Fixed in 2.5.6-p1+tuxcare.",
@@ -13,21 +13,30 @@
       "package": {
         "ecosystem": "TuxCare:Packagist",
         "name": "laminas/laminas-http",
-        "purl": "pkg:composer/laminas/laminas-http@2.5.6-p1+tuxcare"
+        "purl": "pkg:composer/laminas/laminas-http"
       },
       "ranges": [
         {
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "0"
+              "introduced": "2.5.6"
             },
             {
               "fixed": "2.5.6-p1+tuxcare"
             }
           ]
         }
-      ]
+      ],
+      "versions": [
+        "2.5.6"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "2.5.6",
+          "fixed_version": "2.5.6-p1+tuxcare"
+        }
+      }
     }
   ]
 }

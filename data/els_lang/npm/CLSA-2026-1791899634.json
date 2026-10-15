@@ -1,7 +1,7 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2026-1791899634",
-  "modified": "2026-10-13T13:53:54Z",
+  "modified": "2026-10-15T08:16:08Z",
   "published": "2026-10-13T13:53:54Z",
   "summary": "TuxCare security update for socket.io-parser (5 CVEs)",
   "details": "TuxCare rebuilt socket.io-parser to address 5 CVEs. Fixed in 2.3.1-tuxcare.1.",
@@ -17,21 +17,30 @@
       "package": {
         "ecosystem": "TuxCare:npm",
         "name": "socket.io-parser",
-        "purl": "pkg:npm/socket.io-parser@2.3.1-tuxcare.1"
+        "purl": "pkg:npm/socket.io-parser"
       },
       "ranges": [
         {
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "0"
+              "introduced": "2.3.1-tuxcare.0"
             },
             {
               "fixed": "2.3.1-tuxcare.1"
             }
           ]
         }
-      ]
+      ],
+      "versions": [
+        "2.3.1"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "2.3.1",
+          "fixed_version": "2.3.1-tuxcare.1"
+        }
+      }
     }
   ]
 }

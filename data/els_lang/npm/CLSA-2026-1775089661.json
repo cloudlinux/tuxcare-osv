@@ -1,7 +1,7 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2026-1775089661",
-  "modified": "2026-08-04T14:52:20Z",
+  "modified": "2026-10-15T08:16:08Z",
   "published": "2026-08-04T14:52:20Z",
   "summary": "TuxCare security update for 2 packages (5 CVEs)",
   "details": "TuxCare rebuilt 2 packages to address 5 CVEs. Fixed in 5.4.14-tuxcare.1.",
@@ -17,41 +17,59 @@
       "package": {
         "ecosystem": "TuxCare:npm",
         "name": "@vitejs/plugin-legacy",
-        "purl": "pkg:npm/%40vitejs/plugin-legacy@5.4.14-tuxcare.1"
+        "purl": "pkg:npm/%40vitejs/plugin-legacy"
       },
       "ranges": [
         {
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "0"
+              "introduced": "5.4.14-tuxcare.0"
             },
             {
               "fixed": "5.4.14-tuxcare.1"
             }
           ]
         }
-      ]
+      ],
+      "versions": [
+        "5.4.14"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "5.4.14",
+          "fixed_version": "5.4.14-tuxcare.1"
+        }
+      }
     },
     {
       "package": {
         "ecosystem": "TuxCare:npm",
         "name": "vite",
-        "purl": "pkg:npm/vite@5.4.14-tuxcare.1"
+        "purl": "pkg:npm/vite"
       },
       "ranges": [
         {
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "0"
+              "introduced": "5.4.14-tuxcare.0"
             },
             {
               "fixed": "5.4.14-tuxcare.1"
             }
           ]
         }
-      ]
+      ],
+      "versions": [
+        "5.4.14"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "5.4.14",
+          "fixed_version": "5.4.14-tuxcare.1"
+        }
+      }
     }
   ]
 }

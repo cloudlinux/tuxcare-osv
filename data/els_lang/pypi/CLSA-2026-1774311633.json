@@ -1,7 +1,7 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2026-1774311633",
-  "modified": "2026-08-04T14:52:14Z",
+  "modified": "2026-10-15T08:16:08Z",
   "published": "2026-08-04T14:52:14Z",
   "summary": "TuxCare security update for cryptography (1 CVE)",
   "details": "TuxCare rebuilt cryptography to address 1 CVE. Fixed in 43.0.3.post2+tuxcare.",
@@ -13,21 +13,31 @@
       "package": {
         "ecosystem": "TuxCare:PyPI",
         "name": "cryptography",
-        "purl": "pkg:pypi/cryptography@43.0.3.post2+tuxcare"
+        "purl": "pkg:pypi/cryptography"
       },
       "ranges": [
         {
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "0"
+              "introduced": "43.0.3"
             },
             {
               "fixed": "43.0.3.post2+tuxcare"
             }
           ]
         }
-      ]
+      ],
+      "versions": [
+        "43.0.3",
+        "43.0.3.post1+tuxcare"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "43.0.3",
+          "fixed_version": "43.0.3.post2+tuxcare"
+        }
+      }
     }
   ]
 }

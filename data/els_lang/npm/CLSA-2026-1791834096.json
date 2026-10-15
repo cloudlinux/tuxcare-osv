@@ -1,7 +1,7 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2026-1791834096",
-  "modified": "2026-10-12T19:41:36Z",
+  "modified": "2026-10-15T08:16:08Z",
   "published": "2026-10-12T19:41:36Z",
   "summary": "TuxCare security update for private-ip (1 CVE)",
   "details": "TuxCare rebuilt private-ip to address 1 CVE. Fixed in 2.3.4-tuxcare.1.",
@@ -13,21 +13,30 @@
       "package": {
         "ecosystem": "TuxCare:npm",
         "name": "private-ip",
-        "purl": "pkg:npm/private-ip@2.3.4-tuxcare.1"
+        "purl": "pkg:npm/private-ip"
       },
       "ranges": [
         {
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "0"
+              "introduced": "2.3.4-tuxcare.0"
             },
             {
               "fixed": "2.3.4-tuxcare.1"
             }
           ]
         }
-      ]
+      ],
+      "versions": [
+        "2.3.4"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "2.3.4",
+          "fixed_version": "2.3.4-tuxcare.1"
+        }
+      }
     }
   ]
 }

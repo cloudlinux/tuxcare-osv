@@ -1,7 +1,7 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2026-1768265578",
-  "modified": "2026-08-04T14:52:36Z",
+  "modified": "2026-10-15T08:16:08Z",
   "published": "2026-08-04T14:52:36Z",
   "summary": "TuxCare security update for yajra/laravel-datatables-oracle (1 CVE)",
   "details": "TuxCare rebuilt yajra/laravel-datatables-oracle to address 1 CVE. Fixed in 9.21.2-p1+tuxcare.",
@@ -13,21 +13,30 @@
       "package": {
         "ecosystem": "TuxCare:Packagist",
         "name": "yajra/laravel-datatables-oracle",
-        "purl": "pkg:composer/yajra/laravel-datatables-oracle@9.21.2-p1+tuxcare"
+        "purl": "pkg:composer/yajra/laravel-datatables-oracle"
       },
       "ranges": [
         {
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "0"
+              "introduced": "9.21.2"
             },
             {
               "fixed": "9.21.2-p1+tuxcare"
             }
           ]
         }
-      ]
+      ],
+      "versions": [
+        "9.21.2"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "9.21.2",
+          "fixed_version": "9.21.2-p1+tuxcare"
+        }
+      }
     }
   ]
 }

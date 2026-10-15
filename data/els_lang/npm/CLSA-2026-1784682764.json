@@ -1,7 +1,7 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2026-1784682764",
-  "modified": "2026-09-15T20:03:06Z",
+  "modified": "2026-10-15T08:16:08Z",
   "published": "2026-08-04T14:52:46Z",
   "summary": "TuxCare security update for npm-user-validate (1 CVE)",
   "details": "TuxCare rebuilt npm-user-validate to address 1 CVE. Fixed in 0.1.5-tuxcare.1.",
@@ -13,21 +13,30 @@
       "package": {
         "ecosystem": "TuxCare:npm",
         "name": "npm-user-validate",
-        "purl": "pkg:npm/npm-user-validate@0.1.5-tuxcare.1"
+        "purl": "pkg:npm/npm-user-validate"
       },
       "ranges": [
         {
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "0"
+              "introduced": "0.1.5-tuxcare.0"
             },
             {
               "fixed": "0.1.5-tuxcare.1"
             }
           ]
         }
-      ]
+      ],
+      "versions": [
+        "0.1.5"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "0.1.5",
+          "fixed_version": "0.1.5-tuxcare.1"
+        }
+      }
     }
   ]
 }

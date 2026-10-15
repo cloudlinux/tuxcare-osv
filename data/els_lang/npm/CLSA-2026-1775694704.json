@@ -1,7 +1,7 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2026-1775694704",
-  "modified": "2026-08-04T14:52:23Z",
+  "modified": "2026-10-15T08:16:08Z",
   "published": "2026-08-04T14:52:23Z",
   "summary": "TuxCare security update for angular-translate (1 CVE)",
   "details": "TuxCare rebuilt angular-translate to address 1 CVE. Fixed in 2.19.0-tuxcare.1.",
@@ -13,21 +13,30 @@
       "package": {
         "ecosystem": "TuxCare:npm",
         "name": "angular-translate",
-        "purl": "pkg:npm/angular-translate@2.19.0-tuxcare.1"
+        "purl": "pkg:npm/angular-translate"
       },
       "ranges": [
         {
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "0"
+              "introduced": "2.19.0-tuxcare.0"
             },
             {
               "fixed": "2.19.0-tuxcare.1"
             }
           ]
         }
-      ]
+      ],
+      "versions": [
+        "2.19.0"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "2.19.0",
+          "fixed_version": "2.19.0-tuxcare.1"
+        }
+      }
     }
   ]
 }

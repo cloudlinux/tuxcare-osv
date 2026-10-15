@@ -1,7 +1,7 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2026-1789465375",
-  "modified": "2026-09-15T09:42:55Z",
+  "modified": "2026-10-15T08:16:08Z",
   "published": "2026-09-15T09:42:55Z",
   "summary": "TuxCare security update for launch-editor (2 CVEs)",
   "details": "TuxCare rebuilt launch-editor to address 2 CVEs. Fixed in 2.2.1-tuxcare.1.",
@@ -14,21 +14,30 @@
       "package": {
         "ecosystem": "TuxCare:npm",
         "name": "launch-editor",
-        "purl": "pkg:npm/launch-editor@2.2.1-tuxcare.1"
+        "purl": "pkg:npm/launch-editor"
       },
       "ranges": [
         {
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "0"
+              "introduced": "2.2.1-tuxcare.0"
             },
             {
               "fixed": "2.2.1-tuxcare.1"
             }
           ]
         }
-      ]
+      ],
+      "versions": [
+        "2.2.1"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "2.2.1",
+          "fixed_version": "2.2.1-tuxcare.1"
+        }
+      }
     }
   ]
 }

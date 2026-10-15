@@ -1,7 +1,7 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2026-1773015273",
-  "modified": "2026-08-04T14:52:11Z",
+  "modified": "2026-10-15T08:16:08Z",
   "published": "2026-08-04T14:52:11Z",
   "summary": "TuxCare security update for karma (2 CVEs)",
   "details": "TuxCare rebuilt karma to address 2 CVEs. Fixed in 4.4.1-tuxcare.1.",
@@ -14,21 +14,30 @@
       "package": {
         "ecosystem": "TuxCare:npm",
         "name": "karma",
-        "purl": "pkg:npm/karma@4.4.1-tuxcare.1"
+        "purl": "pkg:npm/karma"
       },
       "ranges": [
         {
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "0"
+              "introduced": "4.4.1-tuxcare.0"
             },
             {
               "fixed": "4.4.1-tuxcare.1"
             }
           ]
         }
-      ]
+      ],
+      "versions": [
+        "4.4.1"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "4.4.1",
+          "fixed_version": "4.4.1-tuxcare.1"
+        }
+      }
     }
   ]
 }

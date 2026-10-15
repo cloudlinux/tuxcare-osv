@@ -1,7 +1,7 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2026-1783731814",
-  "modified": "2026-08-04T14:52:43Z",
+  "modified": "2026-10-15T08:16:08Z",
   "published": "2026-08-04T14:52:43Z",
   "summary": "TuxCare security update for swiper (1 CVE)",
   "details": "TuxCare rebuilt swiper to address 1 CVE. Fixed in 8.4.7-tuxcare.1.",
@@ -13,21 +13,30 @@
       "package": {
         "ecosystem": "TuxCare:npm",
         "name": "swiper",
-        "purl": "pkg:npm/swiper@8.4.7-tuxcare.1"
+        "purl": "pkg:npm/swiper"
       },
       "ranges": [
         {
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "0"
+              "introduced": "8.4.7-tuxcare.0"
             },
             {
               "fixed": "8.4.7-tuxcare.1"
             }
           ]
         }
-      ]
+      ],
+      "versions": [
+        "8.4.7"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "8.4.7",
+          "fixed_version": "8.4.7-tuxcare.1"
+        }
+      }
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2026-1788373352",
-  "modified": "2026-09-02T18:22:32Z",
+  "modified": "2026-10-15T08:16:08Z",
   "published": "2026-09-02T18:22:32Z",
   "summary": "TuxCare security update for postcss (2 CVEs)",
   "details": "TuxCare rebuilt postcss to address 2 CVEs. Fixed in 8.4.5-tuxcare.3.",
@@ -14,21 +14,32 @@
       "package": {
         "ecosystem": "TuxCare:npm",
         "name": "postcss",
-        "purl": "pkg:npm/postcss@8.4.5-tuxcare.3"
+        "purl": "pkg:npm/postcss"
       },
       "ranges": [
         {
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "0"
+              "introduced": "8.4.5-tuxcare.0"
             },
             {
               "fixed": "8.4.5-tuxcare.3"
             }
           ]
         }
-      ]
+      ],
+      "versions": [
+        "8.4.5",
+        "8.4.5-tuxcare.1",
+        "8.4.5-tuxcare.2"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "8.4.5",
+          "fixed_version": "8.4.5-tuxcare.3"
+        }
+      }
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2026-1790673423",
-  "modified": "2026-09-29T09:17:03Z",
+  "modified": "2026-10-15T08:16:08Z",
   "published": "2026-09-29T09:17:03Z",
   "summary": "TuxCare security update for fast-uri (2 CVEs)",
   "details": "TuxCare rebuilt fast-uri to address 2 CVEs. Fixed in 3.1.4-tuxcare.2.",
@@ -14,21 +14,31 @@
       "package": {
         "ecosystem": "TuxCare:npm",
         "name": "fast-uri",
-        "purl": "pkg:npm/fast-uri@3.1.4-tuxcare.2"
+        "purl": "pkg:npm/fast-uri"
       },
       "ranges": [
         {
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "0"
+              "introduced": "3.1.4-tuxcare.0"
             },
             {
               "fixed": "3.1.4-tuxcare.2"
             }
           ]
         }
-      ]
+      ],
+      "versions": [
+        "3.1.4",
+        "3.1.4-tuxcare.1"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "3.1.4",
+          "fixed_version": "3.1.4-tuxcare.2"
+        }
+      }
     }
   ]
 }

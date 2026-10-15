@@ -1,7 +1,7 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2026-1787201491",
-  "modified": "2026-09-08T17:08:23Z",
+  "modified": "2026-10-15T08:16:08Z",
   "published": "2026-09-08T17:08:23Z",
   "summary": "TuxCare security update for scikit-learn (1 CVE)",
   "details": "TuxCare rebuilt scikit-learn to address 1 CVE. Fixed in 1.0.2.post2+tuxcare.",
@@ -13,21 +13,31 @@
       "package": {
         "ecosystem": "TuxCare:PyPI",
         "name": "scikit-learn",
-        "purl": "pkg:pypi/scikit-learn@1.0.2.post2+tuxcare"
+        "purl": "pkg:pypi/scikit-learn"
       },
       "ranges": [
         {
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "0"
+              "introduced": "1.0.2"
             },
             {
               "fixed": "1.0.2.post2+tuxcare"
             }
           ]
         }
-      ]
+      ],
+      "versions": [
+        "1.0.2",
+        "1.0.2.post1+tuxcare"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "1.0.2",
+          "fixed_version": "1.0.2.post2+tuxcare"
+        }
+      }
     }
   ]
 }
