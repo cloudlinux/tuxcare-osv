@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1792163363",
+  "modified": "2026-10-16T15:09:23Z",
+  "published": "2026-10-16T15:09:23Z",
+  "summary": "TuxCare security update for concat-stream (1 CVE)",
+  "details": "TuxCare rebuilt concat-stream to address 1 CVE. Fixed in 1.5.1-tuxcare.1.",
+  "upstream": [
+    "GHSA-g74r-ffvr-5q9f"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "concat-stream",
+        "purl": "pkg:npm/concat-stream"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "1.5.1-tuxcare.0"
+            },
+            {
+              "fixed": "1.5.1-tuxcare.1"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "1.5.1"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "1.5.1",
+          "fixed_version": "1.5.1-tuxcare.1"
+        }
+      }
+    }
+  ]
+}

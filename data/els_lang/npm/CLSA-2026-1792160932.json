@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1792160932",
+  "modified": "2026-10-16T14:28:48Z",
+  "published": "2026-10-16T14:28:48Z",
+  "summary": "TuxCare security update for @angular/animations (1 CVE)",
+  "details": "TuxCare rebuilt @angular/animations to address 1 CVE. Fixed in 7.2.0-tuxcare.5.",
+  "upstream": [
+    "CVE-2026-101895"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "@angular/animations",
+        "purl": "pkg:npm/%40angular/animations"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "7.2.0-tuxcare.0"
+            },
+            {
+              "fixed": "7.2.0-tuxcare.5"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "7.2.0",
+        "7.2.0-tuxcare.1",
+        "7.2.0-tuxcare.2",
+        "7.2.0-tuxcare.3",
+        "7.2.0-tuxcare.4"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "7.2.0",
+          "fixed_version": "7.2.0-tuxcare.5"
+        }
+      }
+    }
+  ]
+}

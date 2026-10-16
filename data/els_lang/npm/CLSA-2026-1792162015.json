@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1792162015",
+  "modified": "2026-10-16T14:46:55Z",
+  "published": "2026-10-16T14:46:55Z",
+  "summary": "TuxCare security update for @unhead/schema (1 CVE)",
+  "details": "TuxCare rebuilt @unhead/schema to address 1 CVE. Fixed in 1.11.20-tuxcare.2.",
+  "upstream": [
+    "CVE-2026-39315"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "@unhead/schema",
+        "purl": "pkg:npm/%40unhead/schema"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "1.11.20-tuxcare.0"
+            },
+            {
+              "fixed": "1.11.20-tuxcare.2"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "1.11.20",
+        "1.11.20-tuxcare.1"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "1.11.20",
+          "fixed_version": "1.11.20-tuxcare.2"
+        }
+      }
+    }
+  ]
+}

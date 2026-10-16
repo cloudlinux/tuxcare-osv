@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1792161787",
+  "modified": "2026-10-16T14:43:07Z",
+  "published": "2026-10-16T14:43:07Z",
+  "summary": "TuxCare security update for @astrojs/underscore-redirects (2 CVEs)",
+  "details": "TuxCare rebuilt @astrojs/underscore-redirects to address 2 CVEs. Fixed in 2.10.15-tuxcare.3.",
+  "upstream": [
+    "CVE-2026-54298",
+    "CVE-2026-54299"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "@astrojs/underscore-redirects",
+        "purl": "pkg:npm/%40astrojs/underscore-redirects"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "2.10.15-tuxcare.0"
+            },
+            {
+              "fixed": "2.10.15-tuxcare.3"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "2.10.15",
+        "2.10.15-tuxcare.1",
+        "2.10.15-tuxcare.2"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "2.10.15",
+          "fixed_version": "2.10.15-tuxcare.3"
+        }
+      }
+    }
+  ]
+}

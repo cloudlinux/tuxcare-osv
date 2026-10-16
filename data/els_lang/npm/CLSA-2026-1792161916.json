@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1792161916",
+  "modified": "2026-10-16T14:45:16Z",
+  "published": "2026-10-16T14:45:16Z",
+  "summary": "TuxCare security update for @esbuild/linux-riscv64 (1 CVE)",
+  "details": "TuxCare rebuilt @esbuild/linux-riscv64 to address 1 CVE. Fixed in 0.18.20-tuxcare.1.",
+  "upstream": [
+    "GHSA-67mh-4wv8-2f99"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "@esbuild/linux-riscv64",
+        "purl": "pkg:npm/%40esbuild/linux-riscv64"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0.18.20-tuxcare.0"
+            },
+            {
+              "fixed": "0.18.20-tuxcare.1"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "0.18.20"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "0.18.20",
+          "fixed_version": "0.18.20-tuxcare.1"
+        }
+      }
+    }
+  ]
+}

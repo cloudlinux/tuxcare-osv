@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1792161859",
+  "modified": "2026-10-16T14:44:19Z",
+  "published": "2026-10-16T14:44:19Z",
+  "summary": "TuxCare security update for @astrojs/upgrade (1 CVE)",
+  "details": "TuxCare rebuilt @astrojs/upgrade to address 1 CVE. Fixed in 5.18.1-tuxcare.6.",
+  "upstream": [
+    "CVE-2026-45028"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "@astrojs/upgrade",
+        "purl": "pkg:npm/%40astrojs/upgrade"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "5.18.1-tuxcare.0"
+            },
+            {
+              "fixed": "5.18.1-tuxcare.6"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "5.18.1",
+        "5.18.1-tuxcare.2",
+        "5.18.1-tuxcare.3",
+        "5.18.1-tuxcare.4",
+        "5.18.1-tuxcare.5"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "5.18.1",
+          "fixed_version": "5.18.1-tuxcare.6"
+        }
+      }
+    }
+  ]
+}

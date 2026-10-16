@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1792163465",
+  "modified": "2026-10-16T15:11:03Z",
+  "published": "2026-10-16T15:11:03Z",
+  "summary": "TuxCare security update for @angular/pwa (1 CVE)",
+  "details": "TuxCare rebuilt @angular/pwa to address 1 CVE. Fixed in 19.2.27-tuxcare.2.",
+  "upstream": [
+    "CVE-2026-104871"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "@angular/pwa",
+        "purl": "pkg:npm/%40angular/pwa"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "19.2.27-tuxcare.0"
+            },
+            {
+              "fixed": "19.2.27-tuxcare.2"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "19.2.27",
+        "19.2.27-tuxcare.1"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "19.2.27",
+          "fixed_version": "19.2.27-tuxcare.2"
+        }
+      }
+    }
+  ]
+}

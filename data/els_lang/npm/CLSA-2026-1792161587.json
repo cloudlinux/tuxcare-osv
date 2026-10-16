@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1792161587",
+  "modified": "2026-10-16T14:39:47Z",
+  "published": "2026-10-16T14:39:47Z",
+  "summary": "TuxCare security update for @nuxt/schema (1 CVE)",
+  "details": "TuxCare rebuilt @nuxt/schema to address 1 CVE. Fixed in 3.12.4-tuxcare.6.",
+  "upstream": [
+    "CVE-2025-62522"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "@nuxt/schema",
+        "purl": "pkg:npm/%40nuxt/schema"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "3.12.4-tuxcare.0"
+            },
+            {
+              "fixed": "3.12.4-tuxcare.6"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "3.12.4",
+        "3.12.4-tuxcare.2",
+        "3.12.4-tuxcare.3"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "3.12.4",
+          "fixed_version": "3.12.4-tuxcare.6"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1792161568",
+  "modified": "2026-10-16T14:39:28Z",
+  "published": "2026-10-16T14:39:28Z",
+  "summary": "TuxCare security update for @astrojs/internal-helpers (3 CVEs)",
+  "details": "TuxCare rebuilt @astrojs/internal-helpers to address 3 CVEs. Fixed in 2.10.15-tuxcare.8.",
+  "upstream": [
+    "CVE-2026-59729",
+    "CVE-2026-73422",
+    "GHSA-4g3v-8h47-v7g6"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "@astrojs/internal-helpers",
+        "purl": "pkg:npm/%40astrojs/internal-helpers"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "2.10.15-tuxcare.0"
+            },
+            {
+              "fixed": "2.10.15-tuxcare.8"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "2.10.15",
+        "2.10.15-tuxcare.1",
+        "2.10.15-tuxcare.2",
+        "2.10.15-tuxcare.3",
+        "2.10.15-tuxcare.4",
+        "2.10.15-tuxcare.5",
+        "2.10.15-tuxcare.6"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "2.10.15",
+          "fixed_version": "2.10.15-tuxcare.8"
+        }
+      }
+    }
+  ]
+}

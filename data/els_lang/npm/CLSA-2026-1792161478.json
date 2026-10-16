@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1792161478",
+  "modified": "2026-10-16T14:37:58Z",
+  "published": "2026-10-16T14:37:58Z",
+  "summary": "TuxCare security update for @storybook/angular (1 CVE)",
+  "details": "TuxCare rebuilt @storybook/angular to address 1 CVE. Fixed in 7.0.7-tuxcare.1.",
+  "upstream": [
+    "CVE-2025-68429"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "@storybook/angular",
+        "purl": "pkg:npm/%40storybook/angular"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "7.0.7-tuxcare.0"
+            },
+            {
+              "fixed": "7.0.7-tuxcare.1"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "7.0.7"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "7.0.7",
+          "fixed_version": "7.0.7-tuxcare.1"
+        }
+      }
+    }
+  ]
+}

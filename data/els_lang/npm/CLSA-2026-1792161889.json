@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1792161889",
+  "modified": "2026-10-16T14:44:49Z",
+  "published": "2026-10-16T14:44:49Z",
+  "summary": "TuxCare security update for @babel/parser (1 CVE)",
+  "details": "TuxCare rebuilt @babel/parser to address 1 CVE. Fixed in 7.29.0-tuxcare.2.",
+  "upstream": [
+    "CVE-2026-49356"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "@babel/parser",
+        "purl": "pkg:npm/%40babel/parser"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "7.29.0-tuxcare.0"
+            },
+            {
+              "fixed": "7.29.0-tuxcare.2"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "7.29.0",
+        "7.29.0-tuxcare.1"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "7.29.0",
+          "fixed_version": "7.29.0-tuxcare.2"
+        }
+      }
+    }
+  ]
+}

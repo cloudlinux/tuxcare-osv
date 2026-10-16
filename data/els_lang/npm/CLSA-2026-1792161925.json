@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1792161925",
+  "modified": "2026-10-16T14:45:25Z",
+  "published": "2026-10-16T14:45:25Z",
+  "summary": "TuxCare security update for @nuxt/webpack-builder (2 CVEs)",
+  "details": "TuxCare rebuilt @nuxt/webpack-builder to address 2 CVEs. Fixed in 3.12.3-tuxcare.3.",
+  "upstream": [
+    "CVE-2025-24361",
+    "GHSA-c9cv-mq2m-ppp3"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "@nuxt/webpack-builder",
+        "purl": "pkg:npm/%40nuxt/webpack-builder"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "3.12.3-tuxcare.0"
+            },
+            {
+              "fixed": "3.12.3-tuxcare.3"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "3.12.3",
+        "3.12.3-tuxcare.1"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "3.12.3",
+          "fixed_version": "3.12.3-tuxcare.3"
+        }
+      }
+    }
+  ]
+}

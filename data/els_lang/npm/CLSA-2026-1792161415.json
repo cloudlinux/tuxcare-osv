@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1792161415",
+  "modified": "2026-10-16T14:36:55Z",
+  "published": "2026-10-16T14:36:55Z",
+  "summary": "TuxCare security update for @babel/code-frame (1 CVE)",
+  "details": "TuxCare rebuilt @babel/code-frame to address 1 CVE. Fixed in 7.14.8-tuxcare.1.",
+  "upstream": [
+    "CVE-2025-27789"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "@babel/code-frame",
+        "purl": "pkg:npm/%40babel/code-frame"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "7.14.8-tuxcare.0"
+            },
+            {
+              "fixed": "7.14.8-tuxcare.1"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "7.14.8"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "7.14.8",
+          "fixed_version": "7.14.8-tuxcare.1"
+        }
+      }
+    }
+  ]
+}

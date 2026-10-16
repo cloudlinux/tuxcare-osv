@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1792161711",
+  "modified": "2026-10-16T14:41:51Z",
+  "published": "2026-10-16T14:41:51Z",
+  "summary": "TuxCare security update for @astrojs/prism (1 CVE)",
+  "details": "TuxCare rebuilt @astrojs/prism to address 1 CVE. Fixed in 4.16.19-tuxcare.5.",
+  "upstream": [
+    "CVE-2026-73422"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "@astrojs/prism",
+        "purl": "pkg:npm/%40astrojs/prism"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "4.16.19-tuxcare.0"
+            },
+            {
+              "fixed": "4.16.19-tuxcare.5"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "4.16.19",
+        "4.16.19-tuxcare.1",
+        "4.16.19-tuxcare.2",
+        "4.16.19-tuxcare.3"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "4.16.19",
+          "fixed_version": "4.16.19-tuxcare.5"
+        }
+      }
+    }
+  ]
+}

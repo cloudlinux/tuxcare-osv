@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1792161984",
+  "modified": "2026-10-16T14:46:24Z",
+  "published": "2026-10-16T14:46:24Z",
+  "summary": "TuxCare security update for @babel/plugin-proposal-decorators (1 CVE)",
+  "details": "TuxCare rebuilt @babel/plugin-proposal-decorators to address 1 CVE. Fixed in 7.29.0-tuxcare.1.",
+  "upstream": [
+    "CVE-2026-44728"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "@babel/plugin-proposal-decorators",
+        "purl": "pkg:npm/%40babel/plugin-proposal-decorators"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "7.29.0-tuxcare.0"
+            },
+            {
+              "fixed": "7.29.0-tuxcare.1"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "7.29.0"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "7.29.0",
+          "fixed_version": "7.29.0-tuxcare.1"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1792161483",
+  "modified": "2026-10-16T14:38:03Z",
+  "published": "2026-10-16T14:38:03Z",
+  "summary": "TuxCare security update for @nuxt/rspack-builder (10 CVEs)",
+  "details": "TuxCare rebuilt @nuxt/rspack-builder to address 10 CVEs. Fixed in 4.0.3-tuxcare.4.",
+  "upstream": [
+    "CVE-2026-25128",
+    "CVE-2026-41305",
+    "CVE-2026-44372",
+    "CVE-2026-45670",
+    "CVE-2026-49993",
+    "CVE-2026-53721",
+    "CVE-2026-56326",
+    "GHSA-534h-c3cw-v3h9",
+    "GHSA-c9cv-mq2m-ppp3",
+    "GHSA-rq7w-g337-39qq"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "@nuxt/rspack-builder",
+        "purl": "pkg:npm/%40nuxt/rspack-builder"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "4.0.3-tuxcare.0"
+            },
+            {
+              "fixed": "4.0.3-tuxcare.4"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "4.0.3",
+        "4.0.3-tuxcare.1",
+        "4.0.3-tuxcare.3"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "4.0.3",
+          "fixed_version": "4.0.3-tuxcare.4"
+        }
+      }
+    }
+  ]
+}

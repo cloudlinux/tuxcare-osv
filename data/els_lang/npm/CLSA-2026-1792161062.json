@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1792161062",
+  "modified": "2026-10-16T14:31:02Z",
+  "published": "2026-10-16T14:31:02Z",
+  "summary": "TuxCare security update for @rollup/rollup-android-arm-eabi (1 CVE)",
+  "details": "TuxCare rebuilt @rollup/rollup-android-arm-eabi to address 1 CVE. Fixed in 4.22.4-tuxcare.1.",
+  "upstream": [
+    "CVE-2026-27606"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "@rollup/rollup-android-arm-eabi",
+        "purl": "pkg:npm/%40rollup/rollup-android-arm-eabi"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "4.22.4-tuxcare.0"
+            },
+            {
+              "fixed": "4.22.4-tuxcare.1"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "4.22.4"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "4.22.4",
+          "fixed_version": "4.22.4-tuxcare.1"
+        }
+      }
+    }
+  ]
+}

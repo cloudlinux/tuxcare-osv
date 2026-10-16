@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1792162060",
+  "modified": "2026-10-16T14:47:40Z",
+  "published": "2026-10-16T14:47:40Z",
+  "summary": "TuxCare security update for @vitest/ws-client (2 CVEs)",
+  "details": "TuxCare rebuilt @vitest/ws-client to address 2 CVEs. Fixed in 3.2.4-tuxcare.2.",
+  "upstream": [
+    "CVE-2026-47429",
+    "CVE-2026-84373"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "@vitest/ws-client",
+        "purl": "pkg:npm/%40vitest/ws-client"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "3.2.4-tuxcare.0"
+            },
+            {
+              "fixed": "3.2.4-tuxcare.2"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "3.2.4",
+        "3.2.4-tuxcare.1"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "3.2.4",
+          "fixed_version": "3.2.4-tuxcare.2"
+        }
+      }
+    }
+  ]
+}

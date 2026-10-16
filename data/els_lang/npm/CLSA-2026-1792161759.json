@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1792161759",
+  "modified": "2026-10-16T14:42:39Z",
+  "published": "2026-10-16T14:42:39Z",
+  "summary": "TuxCare security update for @astrojs/studio (10 CVEs)",
+  "details": "TuxCare rebuilt @astrojs/studio to address 10 CVEs. Fixed in 4.16.19-tuxcare.1.",
+  "upstream": [
+    "AIKIDO-2025-10879",
+    "CVE-2025-61925",
+    "CVE-2025-64525",
+    "CVE-2025-64757",
+    "CVE-2025-64764",
+    "CVE-2025-64765",
+    "CVE-2025-65019",
+    "CVE-2025-66202",
+    "CVE-2026-33769",
+    "CVE-2026-41067"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "@astrojs/studio",
+        "purl": "pkg:npm/%40astrojs/studio"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "4.16.19-tuxcare.0"
+            },
+            {
+              "fixed": "4.16.19-tuxcare.1"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "4.16.19"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "4.16.19",
+          "fixed_version": "4.16.19-tuxcare.1"
+        }
+      }
+    }
+  ]
+}

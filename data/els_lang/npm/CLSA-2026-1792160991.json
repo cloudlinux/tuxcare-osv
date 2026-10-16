@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1792160991",
+  "modified": "2026-10-16T14:29:47Z",
+  "published": "2026-10-16T14:29:47Z",
+  "summary": "TuxCare security update for @angular/router (3 CVEs)",
+  "details": "TuxCare rebuilt @angular/router to address 3 CVEs. Fixed in 14.2.12-tuxcare.5.",
+  "upstream": [
+    "CVE-2026-88057",
+    "CVE-2026-88058",
+    "CVE-2026-88060"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "@angular/router",
+        "purl": "pkg:npm/%40angular/router"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "14.2.12-tuxcare.0"
+            },
+            {
+              "fixed": "14.2.12-tuxcare.5"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "14.2.12",
+        "14.2.12-tuxcare.1",
+        "14.2.12-tuxcare.2",
+        "14.2.12-tuxcare.3",
+        "14.2.12-tuxcare.4"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "14.2.12",
+          "fixed_version": "14.2.12-tuxcare.5"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1792162076",
+  "modified": "2026-10-16T14:47:56Z",
+  "published": "2026-10-16T14:47:56Z",
+  "summary": "TuxCare security update for @babel/plugin-proposal-optional-chaining (1 CVE)",
+  "details": "TuxCare rebuilt @babel/plugin-proposal-optional-chaining to address 1 CVE. Fixed in 7.16.7-tuxcare.2.",
+  "upstream": [
+    "CVE-2023-45133"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "@babel/plugin-proposal-optional-chaining",
+        "purl": "pkg:npm/%40babel/plugin-proposal-optional-chaining"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "7.16.7-tuxcare.0"
+            },
+            {
+              "fixed": "7.16.7-tuxcare.2"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "7.16.7",
+        "7.16.7-tuxcare.1"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "7.16.7",
+          "fixed_version": "7.16.7-tuxcare.2"
+        }
+      }
+    }
+  ]
+}

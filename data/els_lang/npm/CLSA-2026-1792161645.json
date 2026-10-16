@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1792161645",
+  "modified": "2026-10-16T14:40:45Z",
+  "published": "2026-10-16T14:40:45Z",
+  "summary": "TuxCare security update for @unhead/vue (1 CVE)",
+  "details": "TuxCare rebuilt @unhead/vue to address 1 CVE. Fixed in 1.11.20-tuxcare.2.",
+  "upstream": [
+    "CVE-2026-39315"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "@unhead/vue",
+        "purl": "pkg:npm/%40unhead/vue"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "1.11.20-tuxcare.0"
+            },
+            {
+              "fixed": "1.11.20-tuxcare.2"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "1.11.20",
+        "1.11.20-tuxcare.1"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "1.11.20",
+          "fixed_version": "1.11.20-tuxcare.2"
+        }
+      }
+    }
+  ]
+}

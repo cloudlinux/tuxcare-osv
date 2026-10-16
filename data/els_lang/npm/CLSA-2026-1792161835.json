@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1792161835",
+  "modified": "2026-10-16T14:43:55Z",
+  "published": "2026-10-16T14:43:55Z",
+  "summary": "TuxCare security update for @babel/helper-builder-react-jsx-experimental (1 CVE)",
+  "details": "TuxCare rebuilt @babel/helper-builder-react-jsx-experimental to address 1 CVE. Fixed in 7.12.5-tuxcare.1.",
+  "upstream": [
+    "CVE-2025-27789"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "@babel/helper-builder-react-jsx-experimental",
+        "purl": "pkg:npm/%40babel/helper-builder-react-jsx-experimental"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "7.12.5-tuxcare.0"
+            },
+            {
+              "fixed": "7.12.5-tuxcare.1"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "7.12.5"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "7.12.5",
+          "fixed_version": "7.12.5-tuxcare.1"
+        }
+      }
+    }
+  ]
+}

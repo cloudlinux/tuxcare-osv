@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1792161579",
+  "modified": "2026-10-16T14:39:39Z",
+  "published": "2026-10-16T14:39:39Z",
+  "summary": "TuxCare security update for @unhead/ssr (2 CVEs)",
+  "details": "TuxCare rebuilt @unhead/ssr to address 2 CVEs. Fixed in 1.11.20-tuxcare.1.",
+  "upstream": [
+    "CVE-2026-31860",
+    "CVE-2026-31873"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "@unhead/ssr",
+        "purl": "pkg:npm/%40unhead/ssr"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "1.11.20-tuxcare.0"
+            },
+            {
+              "fixed": "1.11.20-tuxcare.1"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "1.11.20"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "1.11.20",
+          "fixed_version": "1.11.20-tuxcare.1"
+        }
+      }
+    }
+  ]
+}
