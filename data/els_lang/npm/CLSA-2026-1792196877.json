@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1792196877",
+  "modified": "2026-10-17T00:27:56Z",
+  "published": "2026-10-17T00:27:56Z",
+  "summary": "TuxCare security update for @next/eslint-plugin-next (3 CVEs)",
+  "details": "TuxCare rebuilt @next/eslint-plugin-next to address 3 CVEs. Fixed in 14.2.35-tuxcare.6.",
+  "upstream": [
+    "CVE-2026-64646",
+    "CVE-2026-64647",
+    "CVE-2026-64648"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "@next/eslint-plugin-next",
+        "purl": "pkg:npm/%40next/eslint-plugin-next"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "14.2.35-tuxcare.0"
+            },
+            {
+              "fixed": "14.2.35-tuxcare.6"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "14.2.35",
+        "14.2.35-tuxcare.4",
+        "14.2.35-tuxcare.5"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "14.2.35",
+          "fixed_version": "14.2.35-tuxcare.6"
+        }
+      }
+    }
+  ]
+}
