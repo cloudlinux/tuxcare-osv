@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1792231377",
+  "modified": "2026-10-17T10:02:57Z",
+  "published": "2026-10-17T10:02:57Z",
+  "summary": "TuxCare security update for braces (1 CVE)",
+  "details": "TuxCare rebuilt braces to address 1 CVE. Fixed in 0.1.5-tuxcare.2.",
+  "upstream": [
+    "CVE-2026-93687"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "braces",
+        "purl": "pkg:npm/braces"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0.1.5-tuxcare.0"
+            },
+            {
+              "fixed": "0.1.5-tuxcare.2"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "0.1.5",
+        "0.1.5-tuxcare.1"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "0.1.5",
+          "fixed_version": "0.1.5-tuxcare.2"
+        }
+      }
+    }
+  ]
+}

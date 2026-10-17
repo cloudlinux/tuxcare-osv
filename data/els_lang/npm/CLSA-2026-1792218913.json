@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1792218913",
+  "modified": "2026-10-17T06:35:13Z",
+  "published": "2026-10-17T06:35:13Z",
+  "summary": "TuxCare security update for @storybook/manager (1 CVE)",
+  "details": "TuxCare rebuilt @storybook/manager to address 1 CVE. Fixed in 7.0.7-tuxcare.1.",
+  "upstream": [
+    "CVE-2025-68429"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "@storybook/manager",
+        "purl": "pkg:npm/%40storybook/manager"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "7.0.7-tuxcare.0"
+            },
+            {
+              "fixed": "7.0.7-tuxcare.1"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "7.0.7"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "7.0.7",
+          "fixed_version": "7.0.7-tuxcare.1"
+        }
+      }
+    }
+  ]
+}
