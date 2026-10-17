@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1792253401",
+  "modified": "2026-10-17T16:09:57Z",
+  "published": "2026-10-17T16:09:57Z",
+  "summary": "TuxCare security update for react-router-dom (1 CVE)",
+  "details": "TuxCare rebuilt react-router-dom to address 1 CVE. Fixed in 6.30.3-tuxcare.3.",
+  "upstream": [
+    "CVE-2026-53669"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "react-router-dom",
+        "purl": "pkg:npm/react-router-dom"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "6.30.3-tuxcare.0"
+            },
+            {
+              "fixed": "6.30.3-tuxcare.3"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "6.30.3",
+        "6.30.3-tuxcare.1",
+        "6.30.3-tuxcare.2"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "6.30.3",
+          "fixed_version": "6.30.3-tuxcare.3"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1792255996",
+  "modified": "2026-10-17T16:53:15Z",
+  "published": "2026-10-17T16:53:15Z",
+  "summary": "TuxCare security update for @react-native-community/cli-server-api (1 CVE)",
+  "details": "TuxCare rebuilt @react-native-community/cli-server-api to address 1 CVE. Fixed in 13.6.9-tuxcare.1.",
+  "upstream": [
+    "AIKIDO-2025-10854"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "@react-native-community/cli-server-api",
+        "purl": "pkg:npm/%40react-native-community/cli-server-api"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "13.6.9-tuxcare.0"
+            },
+            {
+              "fixed": "13.6.9-tuxcare.1"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "13.6.9"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "13.6.9",
+          "fixed_version": "13.6.9-tuxcare.1"
+        }
+      }
+    }
+  ]
+}

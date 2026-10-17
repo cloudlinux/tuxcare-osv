@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1792250215",
+  "modified": "2026-10-17T15:16:51Z",
+  "published": "2026-10-17T15:16:51Z",
+  "summary": "TuxCare security update for @angular/compiler (1 CVE)",
+  "details": "TuxCare rebuilt @angular/compiler to address 1 CVE. Fixed in 6.0.1-tuxcare.3.",
+  "upstream": [
+    "CVE-2025-66412"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "@angular/compiler",
+        "purl": "pkg:npm/%40angular/compiler"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "6.0.1-tuxcare.0"
+            },
+            {
+              "fixed": "6.0.1-tuxcare.3"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "6.0.1",
+        "6.0.1-tuxcare.1",
+        "6.0.1-tuxcare.2"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "6.0.1",
+          "fixed_version": "6.0.1-tuxcare.3"
+        }
+      }
+    }
+  ]
+}

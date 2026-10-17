@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1792254618",
+  "modified": "2026-10-17T16:30:18Z",
+  "published": "2026-10-17T16:30:18Z",
+  "summary": "TuxCare security update for @happy-dom/global-registrator (2 CVEs)",
+  "details": "TuxCare rebuilt @happy-dom/global-registrator to address 2 CVEs. Fixed in 15.11.7-tuxcare.1.",
+  "upstream": [
+    "CVE-2025-61927",
+    "CVE-2026-34226"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "@happy-dom/global-registrator",
+        "purl": "pkg:npm/%40happy-dom/global-registrator"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "15.11.7-tuxcare.0"
+            },
+            {
+              "fixed": "15.11.7-tuxcare.1"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "15.11.7"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "15.11.7",
+          "fixed_version": "15.11.7-tuxcare.1"
+        }
+      }
+    }
+  ]
+}
