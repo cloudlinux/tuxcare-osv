@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1792208151",
+  "modified": "2026-10-17T03:35:47Z",
+  "published": "2026-10-17T03:35:47Z",
+  "summary": "TuxCare security update for @angular/upgrade (2 CVEs)",
+  "details": "TuxCare rebuilt @angular/upgrade to address 2 CVEs. Fixed in 6.0.1-tuxcare.5.",
+  "upstream": [
+    "CVE-2026-69149",
+    "CVE-2026-69151"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "@angular/upgrade",
+        "purl": "pkg:npm/%40angular/upgrade"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "6.0.1-tuxcare.0"
+            },
+            {
+              "fixed": "6.0.1-tuxcare.5"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "6.0.1",
+        "6.0.1-tuxcare.1",
+        "6.0.1-tuxcare.2",
+        "6.0.1-tuxcare.3",
+        "6.0.1-tuxcare.4"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "6.0.1",
+          "fixed_version": "6.0.1-tuxcare.5"
+        }
+      }
+    }
+  ]
+}
