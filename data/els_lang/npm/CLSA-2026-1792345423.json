@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1792345423",
+  "modified": "2026-10-18T17:43:43Z",
+  "published": "2026-10-18T17:43:43Z",
+  "summary": "TuxCare security update for @angular/core (5 CVEs)",
+  "details": "TuxCare rebuilt @angular/core to address 5 CVEs. Fixed in 19.2.23-tuxcare.5.",
+  "upstream": [
+    "CVE-2026-88056",
+    "CVE-2026-88057",
+    "CVE-2026-88058",
+    "CVE-2026-88059",
+    "CVE-2026-88060"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "@angular/core",
+        "purl": "pkg:npm/%40angular/core"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "19.2.23-tuxcare.0"
+            },
+            {
+              "fixed": "19.2.23-tuxcare.5"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "19.2.23",
+        "19.2.23-tuxcare.1",
+        "19.2.23-tuxcare.2",
+        "19.2.23-tuxcare.3",
+        "19.2.23-tuxcare.4"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "19.2.23",
+          "fixed_version": "19.2.23-tuxcare.5"
+        }
+      }
+    }
+  ]
+}

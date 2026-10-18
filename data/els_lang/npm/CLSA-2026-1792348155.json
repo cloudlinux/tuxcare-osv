@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1792348155",
+  "modified": "2026-10-18T18:29:15Z",
+  "published": "2026-10-18T18:29:15Z",
+  "summary": "TuxCare security update for @angular/ssr (1 CVE)",
+  "details": "TuxCare rebuilt @angular/ssr to address 1 CVE. Fixed in 22.1.6-tuxcare.1.",
+  "upstream": [
+    "CVE-2026-104871"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "@angular/ssr",
+        "purl": "pkg:npm/%40angular/ssr"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "22.1.6-tuxcare.0"
+            },
+            {
+              "fixed": "22.1.6-tuxcare.1"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "22.1.6"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "22.1.6",
+          "fixed_version": "22.1.6-tuxcare.1"
+        }
+      }
+    }
+  ]
+}

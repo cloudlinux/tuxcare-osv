@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1792329954",
+  "modified": "2026-10-18T13:25:53Z",
+  "published": "2026-10-18T13:25:53Z",
+  "summary": "TuxCare security update for @storybook/csf-plugin (1 CVE)",
+  "details": "TuxCare rebuilt @storybook/csf-plugin to address 1 CVE. Fixed in 8.5.8-tuxcare.3.",
+  "upstream": [
+    "CVE-2025-68429"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "@storybook/csf-plugin",
+        "purl": "pkg:npm/%40storybook/csf-plugin"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "8.5.8-tuxcare.0"
+            },
+            {
+              "fixed": "8.5.8-tuxcare.3"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "8.5.8",
+        "8.5.8-tuxcare.1",
+        "8.5.8-tuxcare.2"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "8.5.8",
+          "fixed_version": "8.5.8-tuxcare.3"
+        }
+      }
+    }
+  ]
+}

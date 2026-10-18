@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1792338228",
+  "modified": "2026-10-18T15:43:44Z",
+  "published": "2026-10-18T15:43:44Z",
+  "summary": "TuxCare security update for @next/third-parties (2 CVEs)",
+  "details": "TuxCare rebuilt @next/third-parties to address 2 CVEs. Fixed in 15.5.23-tuxcare.2.",
+  "upstream": [
+    "CVE-2026-94484",
+    "CVE-2026-94543"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "@next/third-parties",
+        "purl": "pkg:npm/%40next/third-parties"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "15.5.23-tuxcare.0"
+            },
+            {
+              "fixed": "15.5.23-tuxcare.2"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "15.5.23",
+        "15.5.23-tuxcare.1"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "15.5.23",
+          "fixed_version": "15.5.23-tuxcare.2"
+        }
+      }
+    }
+  ]
+}
