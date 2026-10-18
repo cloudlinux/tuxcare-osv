@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1792279963",
+  "modified": "2026-10-17T23:32:43Z",
+  "published": "2026-10-17T23:32:43Z",
+  "summary": "TuxCare security update for @remix-run/react (4 CVEs)",
+  "details": "TuxCare rebuilt @remix-run/react to address 4 CVEs. Fixed in 2.17.0-tuxcare.1.",
+  "upstream": [
+    "CVE-2025-59057",
+    "CVE-2025-61686",
+    "CVE-2026-21884",
+    "CVE-2026-22030"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "@remix-run/react",
+        "purl": "pkg:npm/%40remix-run/react"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "2.17.0-tuxcare.0"
+            },
+            {
+              "fixed": "2.17.0-tuxcare.1"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "2.17.0"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "2.17.0",
+          "fixed_version": "2.17.0-tuxcare.1"
+        }
+      }
+    }
+  ]
+}

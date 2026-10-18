@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1792269434",
+  "modified": "2026-10-17T20:37:13Z",
+  "published": "2026-10-17T20:37:13Z",
+  "summary": "TuxCare security update for react-router-native (1 CVE)",
+  "details": "TuxCare rebuilt react-router-native to address 1 CVE. Fixed in 6.30.3-tuxcare.2.",
+  "upstream": [
+    "CVE-2026-53666"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "react-router-native",
+        "purl": "pkg:npm/react-router-native"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "6.30.3-tuxcare.0"
+            },
+            {
+              "fixed": "6.30.3-tuxcare.2"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "6.30.3",
+        "6.30.3-tuxcare.1"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "6.30.3",
+          "fixed_version": "6.30.3-tuxcare.2"
+        }
+      }
+    }
+  ]
+}

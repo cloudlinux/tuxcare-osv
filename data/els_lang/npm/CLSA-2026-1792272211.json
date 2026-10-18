@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1792272211",
+  "modified": "2026-10-17T21:23:31Z",
+  "published": "2026-10-17T21:23:31Z",
+  "summary": "TuxCare security update for @next/plugin-storybook (1 CVE)",
+  "details": "TuxCare rebuilt @next/plugin-storybook to address 1 CVE. Fixed in 15.5.23-tuxcare.1.",
+  "upstream": [
+    "CVE-2025-55182"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "@next/plugin-storybook",
+        "purl": "pkg:npm/%40next/plugin-storybook"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "15.5.23-tuxcare.0"
+            },
+            {
+              "fixed": "15.5.23-tuxcare.1"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "15.5.23"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "15.5.23",
+          "fixed_version": "15.5.23-tuxcare.1"
+        }
+      }
+    }
+  ]
+}

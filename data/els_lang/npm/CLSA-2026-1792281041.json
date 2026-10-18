@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1792281041",
+  "modified": "2026-10-17T23:50:37Z",
+  "published": "2026-10-17T23:50:37Z",
+  "summary": "TuxCare security update for @angular/common (1 CVE)",
+  "details": "TuxCare rebuilt @angular/common to address 1 CVE. Fixed in 18.2.14-tuxcare.3.",
+  "upstream": [
+    "CVE-2025-66412"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "@angular/common",
+        "purl": "pkg:npm/%40angular/common"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "18.2.14-tuxcare.0"
+            },
+            {
+              "fixed": "18.2.14-tuxcare.3"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "18.2.14",
+        "18.2.14-tuxcare.1"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "18.2.14",
+          "fixed_version": "18.2.14-tuxcare.3"
+        }
+      }
+    }
+  ]
+}
