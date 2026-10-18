@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1792293017",
+  "modified": "2026-10-18T03:10:14Z",
+  "published": "2026-10-18T03:10:14Z",
+  "summary": "TuxCare security update for @next/polyfill-module (1 CVE)",
+  "details": "TuxCare rebuilt @next/polyfill-module to address 1 CVE. Fixed in 14.2.35-tuxcare.7.",
+  "upstream": [
+    "CVE-2025-59471"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "@next/polyfill-module",
+        "purl": "pkg:npm/%40next/polyfill-module"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "14.2.35-tuxcare.0"
+            },
+            {
+              "fixed": "14.2.35-tuxcare.7"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "14.2.35",
+        "14.2.35-tuxcare.4",
+        "14.2.35-tuxcare.5",
+        "14.2.35-tuxcare.6"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "14.2.35",
+          "fixed_version": "14.2.35-tuxcare.7"
+        }
+      }
+    }
+  ]
+}

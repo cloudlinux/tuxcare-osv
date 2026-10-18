@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1792287258",
+  "modified": "2026-10-18T01:34:18Z",
+  "published": "2026-10-18T01:34:18Z",
+  "summary": "TuxCare security update for react-test-renderer (1 CVE)",
+  "details": "TuxCare rebuilt react-test-renderer to address 1 CVE. Fixed in 19.2.0-tuxcare.6.",
+  "upstream": [
+    "CVE-2026-44907"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "react-test-renderer",
+        "purl": "pkg:npm/react-test-renderer"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "19.2.0-tuxcare.0"
+            },
+            {
+              "fixed": "19.2.0-tuxcare.6"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "19.2.0",
+        "19.2.0-tuxcare.5"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "19.2.0",
+          "fixed_version": "19.2.0-tuxcare.6"
+        }
+      }
+    }
+  ]
+}
