@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1792326318",
+  "modified": "2026-10-18T12:25:17Z",
+  "published": "2026-10-18T12:25:17Z",
+  "summary": "TuxCare security update for @next/react-refresh-utils (2 CVEs)",
+  "details": "TuxCare rebuilt @next/react-refresh-utils to address 2 CVEs. Fixed in 15.5.23-tuxcare.4.",
+  "upstream": [
+    "CVE-2026-75604",
+    "GHSA-2xp9-vwfh-vxw4"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "@next/react-refresh-utils",
+        "purl": "pkg:npm/%40next/react-refresh-utils"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "15.5.23-tuxcare.0"
+            },
+            {
+              "fixed": "15.5.23-tuxcare.4"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "15.5.23",
+        "15.5.23-tuxcare.1",
+        "15.5.23-tuxcare.2",
+        "15.5.23-tuxcare.3"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "15.5.23",
+          "fixed_version": "15.5.23-tuxcare.4"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1792309337",
+  "modified": "2026-10-18T07:42:14Z",
+  "published": "2026-10-18T07:42:14Z",
+  "summary": "TuxCare security update for @babel/helper-explode-assignable-expression (2 CVEs)",
+  "details": "TuxCare rebuilt @babel/helper-explode-assignable-expression to address 2 CVEs. Fixed in 7.16.7-tuxcare.2.",
+  "upstream": [
+    "CVE-2023-45133",
+    "CVE-2025-27789"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "@babel/helper-explode-assignable-expression",
+        "purl": "pkg:npm/%40babel/helper-explode-assignable-expression"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "7.16.7-tuxcare.0"
+            },
+            {
+              "fixed": "7.16.7-tuxcare.2"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "7.16.7"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "7.16.7",
+          "fixed_version": "7.16.7-tuxcare.2"
+        }
+      }
+    }
+  ]
+}

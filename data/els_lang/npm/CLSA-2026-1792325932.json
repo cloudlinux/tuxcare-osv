@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1792325932",
+  "modified": "2026-10-18T12:18:48Z",
+  "published": "2026-10-18T12:18:48Z",
+  "summary": "TuxCare security update for @angular/compiler-cli (1 CVE)",
+  "details": "TuxCare rebuilt @angular/compiler-cli to address 1 CVE. Fixed in 5.2.11-tuxcare.6.",
+  "upstream": [
+    "CVE-2026-27970"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "@angular/compiler-cli",
+        "purl": "pkg:npm/%40angular/compiler-cli"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "5.2.11-tuxcare.0"
+            },
+            {
+              "fixed": "5.2.11-tuxcare.6"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "5.2.11",
+        "5.2.11-tuxcare.1",
+        "5.2.11-tuxcare.3",
+        "5.2.11-tuxcare.4"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "5.2.11",
+          "fixed_version": "5.2.11-tuxcare.6"
+        }
+      }
+    }
+  ]
+}

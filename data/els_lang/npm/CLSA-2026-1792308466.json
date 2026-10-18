@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1792308466",
+  "modified": "2026-10-18T07:27:46Z",
+  "published": "2026-10-18T07:27:46Z",
+  "summary": "TuxCare security update for @babel/helper-get-function-arity (1 CVE)",
+  "details": "TuxCare rebuilt @babel/helper-get-function-arity to address 1 CVE. Fixed in 7.12.18-tuxcare.2.",
+  "upstream": [
+    "CVE-2026-44728"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "@babel/helper-get-function-arity",
+        "purl": "pkg:npm/%40babel/helper-get-function-arity"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "7.12.18-tuxcare.0"
+            },
+            {
+              "fixed": "7.12.18-tuxcare.2"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "7.12.18"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "7.12.18",
+          "fixed_version": "7.12.18-tuxcare.2"
+        }
+      }
+    }
+  ]
+}
