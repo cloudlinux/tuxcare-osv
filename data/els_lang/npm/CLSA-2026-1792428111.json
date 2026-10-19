@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1792428111",
+  "modified": "2026-10-19T16:41:47Z",
+  "published": "2026-10-19T16:41:47Z",
+  "summary": "TuxCare security update for @react-router/serve (1 CVE)",
+  "details": "TuxCare rebuilt @react-router/serve to address 1 CVE. Fixed in 7.5.1-tuxcare.9.",
+  "upstream": [
+    "CVE-2026-40181"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "@react-router/serve",
+        "purl": "pkg:npm/%40react-router/serve"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "7.5.1-tuxcare.0"
+            },
+            {
+              "fixed": "7.5.1-tuxcare.9"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "7.5.1",
+        "7.5.1-tuxcare.1",
+        "7.5.1-tuxcare.4",
+        "7.5.1-tuxcare.5",
+        "7.5.1-tuxcare.6",
+        "7.5.1-tuxcare.7",
+        "7.5.1-tuxcare.8"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "7.5.1",
+          "fixed_version": "7.5.1-tuxcare.9"
+        }
+      }
+    }
+  ]
+}

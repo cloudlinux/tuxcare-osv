@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1792419112",
+  "modified": "2026-10-19T14:11:50Z",
+  "published": "2026-10-19T14:11:50Z",
+  "summary": "TuxCare security update for @react-router/architect (1 CVE)",
+  "details": "TuxCare rebuilt @react-router/architect to address 1 CVE. Fixed in 7.5.1-tuxcare.6.",
+  "upstream": [
+    "CVE-2026-42211"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "@react-router/architect",
+        "purl": "pkg:npm/%40react-router/architect"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "7.5.1-tuxcare.0"
+            },
+            {
+              "fixed": "7.5.1-tuxcare.6"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "7.5.1",
+        "7.5.1-tuxcare.1",
+        "7.5.1-tuxcare.4",
+        "7.5.1-tuxcare.5"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "7.5.1",
+          "fixed_version": "7.5.1-tuxcare.6"
+        }
+      }
+    }
+  ]
+}

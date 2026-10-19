@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1792423764",
+  "modified": "2026-10-19T15:29:24Z",
+  "published": "2026-10-19T15:29:24Z",
+  "summary": "TuxCare security update for @babel/runtime-corejs2 (1 CVE)",
+  "details": "TuxCare rebuilt @babel/runtime-corejs2 to address 1 CVE. Fixed in 7.23.9-tuxcare.3.",
+  "upstream": [
+    "CVE-2025-27789"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "@babel/runtime-corejs2",
+        "purl": "pkg:npm/%40babel/runtime-corejs2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "7.23.9-tuxcare.0"
+            },
+            {
+              "fixed": "7.23.9-tuxcare.3"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "7.23.9",
+        "7.23.9-tuxcare.1"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "7.23.9",
+          "fixed_version": "7.23.9-tuxcare.3"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1792424782",
+  "modified": "2026-10-19T15:46:22Z",
+  "published": "2026-10-19T15:46:22Z",
+  "summary": "TuxCare security update for dot (2 CVEs)",
+  "details": "TuxCare rebuilt dot to address 2 CVEs. Fixed in 1.1.1-tuxcare.1.",
+  "upstream": [
+    "CVE-2020-8141",
+    "GHSA-4859-gpc7-4j66"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "dot",
+        "purl": "pkg:npm/dot"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "1.1.1-tuxcare.0"
+            },
+            {
+              "fixed": "1.1.1-tuxcare.1"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "1.1.1"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "1.1.1",
+          "fixed_version": "1.1.1-tuxcare.1"
+        }
+      }
+    }
+  ]
+}
