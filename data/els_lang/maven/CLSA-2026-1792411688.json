@@ -1,0 +1,104 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1792411688",
+  "modified": "2026-10-19T12:08:08Z",
+  "published": "2026-10-19T12:08:08Z",
+  "summary": "TuxCare security update for org.springframework.kafka (2 CVEs)",
+  "details": "TuxCare rebuilt 3 org.springframework.kafka packages to address 2 CVEs. Fixed in 2.9.13-tuxcare.2.",
+  "upstream": [
+    "CVE-2026-59278",
+    "CVE-2026-59317"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.springframework.kafka:spring-kafka",
+        "purl": "pkg:maven/org.springframework.kafka/spring-kafka"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "2.9.13"
+            },
+            {
+              "fixed": "2.9.13-tuxcare.2"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "2.9.13",
+        "2.9.13-tuxcare.1"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "2.9.13",
+          "fixed_version": "2.9.13-tuxcare.2"
+        }
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.springframework.kafka:spring-kafka-dist",
+        "purl": "pkg:maven/org.springframework.kafka/spring-kafka-dist"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "2.9.13"
+            },
+            {
+              "fixed": "2.9.13-tuxcare.2"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "2.9.13",
+        "2.9.13-tuxcare.1"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "2.9.13",
+          "fixed_version": "2.9.13-tuxcare.2"
+        }
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.springframework.kafka:spring-kafka-test",
+        "purl": "pkg:maven/org.springframework.kafka/spring-kafka-test"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "2.9.13"
+            },
+            {
+              "fixed": "2.9.13-tuxcare.2"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "2.9.13",
+        "2.9.13-tuxcare.1"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "2.9.13",
+          "fixed_version": "2.9.13-tuxcare.2"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1792393048",
+  "modified": "2026-10-19T06:57:28Z",
+  "published": "2026-10-19T06:57:28Z",
+  "summary": "TuxCare security update for django (20 CVEs)",
+  "details": "TuxCare rebuilt django to address 20 CVEs. Fixed in 4.2.post17+tuxcare.",
+  "upstream": [
+    "CVE-2023-31047",
+    "CVE-2023-36053",
+    "CVE-2023-41164",
+    "CVE-2023-43665",
+    "CVE-2023-46695",
+    "CVE-2024-24680",
+    "CVE-2024-27351",
+    "CVE-2024-38875",
+    "CVE-2024-39329",
+    "CVE-2024-39330",
+    "CVE-2024-39614",
+    "CVE-2024-41989",
+    "CVE-2024-41991",
+    "CVE-2024-42005",
+    "CVE-2024-45231",
+    "CVE-2024-53907",
+    "CVE-2024-53908",
+    "CVE-2024-56374",
+    "CVE-2025-26699",
+    "CVE-2025-32873"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:PyPI",
+        "name": "django",
+        "purl": "pkg:pypi/django"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "4.2"
+            },
+            {
+              "fixed": "4.2.post17+tuxcare"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "4.2",
+        "4.2.post1+tuxcare",
+        "4.2.post10+tuxcare",
+        "4.2.post11+tuxcare",
+        "4.2.post12+tuxcare",
+        "4.2.post13+tuxcare",
+        "4.2.post14+tuxcare",
+        "4.2.post15+tuxcare",
+        "4.2.post16+tuxcare",
+        "4.2.post2+tuxcare",
+        "4.2.post3+tuxcare",
+        "4.2.post4+tuxcare",
+        "4.2.post5+tuxcare",
+        "4.2.post6+tuxcare",
+        "4.2.post7+tuxcare",
+        "4.2.post8+tuxcare",
+        "4.2.post9+tuxcare"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "4.2",
+          "fixed_version": "4.2.post17+tuxcare"
+        }
+      }
+    }
+  ]
+}

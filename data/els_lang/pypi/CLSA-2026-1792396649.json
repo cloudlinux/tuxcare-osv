@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1792396649",
+  "modified": "2026-10-19T07:57:29Z",
+  "published": "2026-10-19T07:57:29Z",
+  "summary": "TuxCare security update for pymongo (2 CVEs)",
+  "details": "TuxCare rebuilt pymongo to address 2 CVEs. Fixed in 3.13.0.post2+tuxcare.",
+  "upstream": [
+    "CVE-2026-96748",
+    "CVE-2026-96749"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:PyPI",
+        "name": "pymongo",
+        "purl": "pkg:pypi/pymongo"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "3.13.0"
+            },
+            {
+              "fixed": "3.13.0.post2+tuxcare"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "3.13.0",
+        "3.13.0.post1+tuxcare"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "3.13.0",
+          "fixed_version": "3.13.0.post2+tuxcare"
+        }
+      }
+    }
+  ]
+}
