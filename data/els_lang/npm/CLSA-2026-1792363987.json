@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1792363987",
+  "modified": "2026-10-18T22:53:03Z",
+  "published": "2026-10-18T22:53:03Z",
+  "summary": "TuxCare security update for @next/mdx (1 CVE)",
+  "details": "TuxCare rebuilt @next/mdx to address 1 CVE. Fixed in 16.0.6-tuxcare.3.",
+  "upstream": [
+    "GHSA-9qr9-h5gf-34mp"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "@next/mdx",
+        "purl": "pkg:npm/%40next/mdx"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "16.0.6-tuxcare.0"
+            },
+            {
+              "fixed": "16.0.6-tuxcare.3"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "16.0.6"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "16.0.6",
+          "fixed_version": "16.0.6-tuxcare.3"
+        }
+      }
+    }
+  ]
+}

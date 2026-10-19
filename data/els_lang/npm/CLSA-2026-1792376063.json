@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1792376063",
+  "modified": "2026-10-19T02:14:19Z",
+  "published": "2026-10-19T02:14:19Z",
+  "summary": "TuxCare security update for @angular/platform-browser (1 CVE)",
+  "details": "TuxCare rebuilt @angular/platform-browser to address 1 CVE. Fixed in 18.1.2-tuxcare.3.",
+  "upstream": [
+    "CVE-2025-66412"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "@angular/platform-browser",
+        "purl": "pkg:npm/%40angular/platform-browser"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "18.1.2-tuxcare.0"
+            },
+            {
+              "fixed": "18.1.2-tuxcare.3"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "18.1.2",
+        "18.1.2-tuxcare.1",
+        "18.1.2-tuxcare.2"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "18.1.2",
+          "fixed_version": "18.1.2-tuxcare.3"
+        }
+      }
+    }
+  ]
+}

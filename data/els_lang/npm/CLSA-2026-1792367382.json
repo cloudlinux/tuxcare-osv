@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1792367382",
+  "modified": "2026-10-18T23:49:42Z",
+  "published": "2026-10-18T23:49:42Z",
+  "summary": "TuxCare security update for @next/swc-linux-arm64-gnu (1 CVE)",
+  "details": "TuxCare rebuilt @next/swc-linux-arm64-gnu to address 1 CVE. Fixed in 15.5.25-tuxcare.2.",
+  "upstream": [
+    "CVE-2026-94543"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "@next/swc-linux-arm64-gnu",
+        "purl": "pkg:npm/%40next/swc-linux-arm64-gnu"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "15.5.25-tuxcare.0"
+            },
+            {
+              "fixed": "15.5.25-tuxcare.2"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "15.5.25",
+        "15.5.25-tuxcare.1"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "15.5.25",
+          "fixed_version": "15.5.25-tuxcare.2"
+        }
+      }
+    }
+  ]
+}

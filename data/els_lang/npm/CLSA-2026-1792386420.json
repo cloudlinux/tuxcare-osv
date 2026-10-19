@@ -1,0 +1,49 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1792386420",
+  "modified": "2026-10-19T05:06:56Z",
+  "published": "2026-10-19T05:06:56Z",
+  "summary": "TuxCare security update for @angular/service-worker (1 CVE)",
+  "details": "TuxCare rebuilt @angular/service-worker to address 1 CVE. Fixed in 16.2.12-tuxcare.10.",
+  "upstream": [
+    "CVE-2026-46417"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "@angular/service-worker",
+        "purl": "pkg:npm/%40angular/service-worker"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "16.2.12-tuxcare.0"
+            },
+            {
+              "fixed": "16.2.12-tuxcare.10"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "16.2.12",
+        "16.2.12-tuxcare.1",
+        "16.2.12-tuxcare.2",
+        "16.2.12-tuxcare.5",
+        "16.2.12-tuxcare.6",
+        "16.2.12-tuxcare.7",
+        "16.2.12-tuxcare.8",
+        "16.2.12-tuxcare.9"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "16.2.12",
+          "fixed_version": "16.2.12-tuxcare.10"
+        }
+      }
+    }
+  ]
+}

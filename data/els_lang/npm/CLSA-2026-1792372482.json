@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1792372482",
+  "modified": "2026-10-19T01:14:41Z",
+  "published": "2026-10-19T01:14:41Z",
+  "summary": "TuxCare security update for @storybook/addon-actions (1 CVE)",
+  "details": "TuxCare rebuilt @storybook/addon-actions to address 1 CVE. Fixed in 8.5.8-tuxcare.1.",
+  "upstream": [
+    "CVE-2026-27148"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "@storybook/addon-actions",
+        "purl": "pkg:npm/%40storybook/addon-actions"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "8.5.8-tuxcare.0"
+            },
+            {
+              "fixed": "8.5.8-tuxcare.1"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "8.5.8"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "8.5.8",
+          "fixed_version": "8.5.8-tuxcare.1"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1792357501",
+  "modified": "2026-10-18T21:05:01Z",
+  "published": "2026-10-18T21:05:01Z",
+  "summary": "TuxCare security update for @angular/elements (1 CVE)",
+  "details": "TuxCare rebuilt @angular/elements to address 1 CVE. Fixed in 19.2.25-tuxcare.3.",
+  "upstream": [
+    "CVE-2026-88057"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "@angular/elements",
+        "purl": "pkg:npm/%40angular/elements"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "19.2.25-tuxcare.0"
+            },
+            {
+              "fixed": "19.2.25-tuxcare.3"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "19.2.25",
+        "19.2.25-tuxcare.1"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "19.2.25",
+          "fixed_version": "19.2.25-tuxcare.3"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1792371608",
+  "modified": "2026-10-19T01:00:04Z",
+  "published": "2026-10-19T01:00:04Z",
+  "summary": "TuxCare security update for @angular/localize (1 CVE)",
+  "details": "TuxCare rebuilt @angular/localize to address 1 CVE. Fixed in 10.1.0-tuxcare.2.",
+  "upstream": [
+    "CVE-2025-66412"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "@angular/localize",
+        "purl": "pkg:npm/%40angular/localize"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "10.1.0-tuxcare.0"
+            },
+            {
+              "fixed": "10.1.0-tuxcare.2"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "10.1.0",
+        "10.1.0-tuxcare.1"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "10.1.0",
+          "fixed_version": "10.1.0-tuxcare.2"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1792379944",
+  "modified": "2026-10-19T03:19:00Z",
+  "published": "2026-10-19T03:19:00Z",
+  "summary": "TuxCare security update for @angular/platform-server (1 CVE)",
+  "details": "TuxCare rebuilt @angular/platform-server to address 1 CVE. Fixed in 18.2.14-tuxcare.3.",
+  "upstream": [
+    "CVE-2025-66412"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "@angular/platform-server",
+        "purl": "pkg:npm/%40angular/platform-server"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "18.2.14-tuxcare.0"
+            },
+            {
+              "fixed": "18.2.14-tuxcare.3"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "18.2.14",
+        "18.2.14-tuxcare.1"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "18.2.14",
+          "fixed_version": "18.2.14-tuxcare.3"
+        }
+      }
+    }
+  ]
+}

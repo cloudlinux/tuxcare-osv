@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1792358574",
+  "modified": "2026-10-18T21:22:53Z",
+  "published": "2026-10-18T21:22:53Z",
+  "summary": "TuxCare security update for @next/codemod (1 CVE)",
+  "details": "TuxCare rebuilt @next/codemod to address 1 CVE. Fixed in 15.5.25-tuxcare.1.",
+  "upstream": [
+    "CVE-2025-55182"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "@next/codemod",
+        "purl": "pkg:npm/%40next/codemod"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "15.5.25-tuxcare.0"
+            },
+            {
+              "fixed": "15.5.25-tuxcare.1"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "15.5.25"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "15.5.25",
+          "fixed_version": "15.5.25-tuxcare.1"
+        }
+      }
+    }
+  ]
+}

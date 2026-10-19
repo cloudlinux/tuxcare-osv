@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1792364769",
+  "modified": "2026-10-18T23:06:09Z",
+  "published": "2026-10-18T23:06:09Z",
+  "summary": "TuxCare security update for @schematics/angular (1 CVE)",
+  "details": "TuxCare rebuilt @schematics/angular to address 1 CVE. Fixed in 18.2.21-tuxcare.3.",
+  "upstream": [
+    "CVE-2026-104871"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "@schematics/angular",
+        "purl": "pkg:npm/%40schematics/angular"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "18.2.21-tuxcare.0"
+            },
+            {
+              "fixed": "18.2.21-tuxcare.3"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "18.2.21",
+        "18.2.21-tuxcare.2"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "18.2.21",
+          "fixed_version": "18.2.21-tuxcare.3"
+        }
+      }
+    }
+  ]
+}

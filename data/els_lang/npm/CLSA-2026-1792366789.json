@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1792366789",
+  "modified": "2026-10-18T23:39:47Z",
+  "published": "2026-10-18T23:39:47Z",
+  "summary": "TuxCare security update for @angular/forms (1 CVE)",
+  "details": "TuxCare rebuilt @angular/forms to address 1 CVE. Fixed in 11.2.0-tuxcare.7.",
+  "upstream": [
+    "CVE-2026-101895"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "@angular/forms",
+        "purl": "pkg:npm/%40angular/forms"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "11.2.0-tuxcare.0"
+            },
+            {
+              "fixed": "11.2.0-tuxcare.7"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "11.2.0",
+        "11.2.0-tuxcare.1",
+        "11.2.0-tuxcare.2",
+        "11.2.0-tuxcare.3",
+        "11.2.0-tuxcare.4",
+        "11.2.0-tuxcare.5",
+        "11.2.0-tuxcare.6"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "11.2.0",
+          "fixed_version": "11.2.0-tuxcare.7"
+        }
+      }
+    }
+  ]
+}

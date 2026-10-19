@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1792358888",
+  "modified": "2026-10-18T21:28:06Z",
+  "published": "2026-10-18T21:28:06Z",
+  "summary": "TuxCare security update for @ngtools/webpack (1 CVE)",
+  "details": "TuxCare rebuilt @ngtools/webpack to address 1 CVE. Fixed in 17.3.17-tuxcare.5.",
+  "upstream": [
+    "CVE-2026-104871"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "@ngtools/webpack",
+        "purl": "pkg:npm/%40ngtools/webpack"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "17.3.17-tuxcare.0"
+            },
+            {
+              "fixed": "17.3.17-tuxcare.5"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "17.3.17",
+        "17.3.17-tuxcare.3"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "17.3.17",
+          "fixed_version": "17.3.17-tuxcare.5"
+        }
+      }
+    }
+  ]
+}
