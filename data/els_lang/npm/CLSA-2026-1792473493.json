@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1792473493",
+  "modified": "2026-10-20T05:18:13Z",
+  "published": "2026-10-20T05:18:13Z",
+  "summary": "TuxCare security update for compression (1 CVE)",
+  "details": "TuxCare rebuilt compression to address 1 CVE. Fixed in 1.7.3-tuxcare.1.",
+  "upstream": [
+    "CVE-2026-87776"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "compression",
+        "purl": "pkg:npm/compression"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "1.7.3-tuxcare.0"
+            },
+            {
+              "fixed": "1.7.3-tuxcare.1"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "1.7.3"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "1.7.3",
+          "fixed_version": "1.7.3-tuxcare.1"
+        }
+      }
+    }
+  ]
+}

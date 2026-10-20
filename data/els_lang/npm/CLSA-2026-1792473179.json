@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1792473179",
+  "modified": "2026-10-20T05:12:59Z",
+  "published": "2026-10-20T05:12:59Z",
+  "summary": "TuxCare security update for semver (1 CVE)",
+  "details": "TuxCare rebuilt semver to address 1 CVE. Fixed in 5.5.0-tuxcare.1.",
+  "upstream": [
+    "CVE-2022-25883"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "semver",
+        "purl": "pkg:npm/semver"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "5.5.0-tuxcare.0"
+            },
+            {
+              "fixed": "5.5.0-tuxcare.1"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "5.5.0"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "5.5.0",
+          "fixed_version": "5.5.0-tuxcare.1"
+        }
+      }
+    }
+  ]
+}

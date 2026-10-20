@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1792476227",
+  "modified": "2026-10-20T06:03:47Z",
+  "published": "2026-10-20T06:03:47Z",
+  "summary": "TuxCare security update for ip-address (7 CVEs)",
+  "details": "TuxCare rebuilt ip-address to address 7 CVEs. Fixed in 10.1.0-tuxcare.1.",
+  "upstream": [
+    "CVE-2026-101911",
+    "CVE-2026-101912",
+    "CVE-2026-101913",
+    "CVE-2026-54272",
+    "CVE-2026-69192",
+    "GHSA-22jq-vg5j-6vgg",
+    "GHSA-mwp4-54f8-5fhr"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "ip-address",
+        "purl": "pkg:npm/ip-address"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "10.1.0-tuxcare.0"
+            },
+            {
+              "fixed": "10.1.0-tuxcare.1"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "10.1.0"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "10.1.0",
+          "fixed_version": "10.1.0-tuxcare.1"
+        }
+      }
+    }
+  ]
+}

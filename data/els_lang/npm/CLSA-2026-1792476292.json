@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1792476292",
+  "modified": "2026-10-20T06:04:52Z",
+  "published": "2026-10-20T06:04:52Z",
+  "summary": "TuxCare security update for is-my-json-valid (1 CVE)",
+  "details": "TuxCare rebuilt is-my-json-valid to address 1 CVE. Fixed in 2.12.4-tuxcare.2.",
+  "upstream": [
+    "CVE-2018-1107"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "is-my-json-valid",
+        "purl": "pkg:npm/is-my-json-valid"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "2.12.4-tuxcare.0"
+            },
+            {
+              "fixed": "2.12.4-tuxcare.2"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "2.12.4",
+        "2.12.4-tuxcare.1"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "2.12.4",
+          "fixed_version": "2.12.4-tuxcare.2"
+        }
+      }
+    }
+  ]
+}

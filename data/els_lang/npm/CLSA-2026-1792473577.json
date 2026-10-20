@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1792473577",
+  "modified": "2026-10-20T05:19:37Z",
+  "published": "2026-10-20T05:19:37Z",
+  "summary": "TuxCare security update for express (2 CVEs)",
+  "details": "TuxCare rebuilt express to address 2 CVEs. Fixed in 3.1.2-tuxcare.1.",
+  "upstream": [
+    "CVE-2014-6393",
+    "CVE-2024-43796"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "express",
+        "purl": "pkg:npm/express"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "3.1.2-tuxcare.0"
+            },
+            {
+              "fixed": "3.1.2-tuxcare.1"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "3.1.2"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "3.1.2",
+          "fixed_version": "3.1.2-tuxcare.1"
+        }
+      }
+    }
+  ]
+}

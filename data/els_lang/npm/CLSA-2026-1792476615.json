@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1792476615",
+  "modified": "2026-10-20T06:10:15Z",
+  "published": "2026-10-20T06:10:15Z",
+  "summary": "TuxCare security update for sequelize (1 CVE)",
+  "details": "TuxCare rebuilt sequelize to address 1 CVE. Fixed in 6.37.7-tuxcare.1.",
+  "upstream": [
+    "CVE-2026-30951"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "sequelize",
+        "purl": "pkg:npm/sequelize"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "6.37.7-tuxcare.0"
+            },
+            {
+              "fixed": "6.37.7-tuxcare.1"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "6.37.7"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "6.37.7",
+          "fixed_version": "6.37.7-tuxcare.1"
+        }
+      }
+    }
+  ]
+}
