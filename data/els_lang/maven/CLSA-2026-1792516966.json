@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1792516966",
+  "modified": "2026-10-20T17:22:46Z",
+  "published": "2026-10-20T17:22:46Z",
+  "summary": "TuxCare security update for com.fasterxml.jackson.core:jackson-databind (2 CVEs)",
+  "details": "TuxCare rebuilt com.fasterxml.jackson.core:jackson-databind to address 2 CVEs. Fixed in 2.18.4-tuxcare.1.",
+  "upstream": [
+    "CVE-2026-54514",
+    "CVE-2026-59888"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "com.fasterxml.jackson.core:jackson-databind",
+        "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-databind"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "2.18.4"
+            },
+            {
+              "fixed": "2.18.4-tuxcare.1"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "2.18.4"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "2.18.4",
+          "fixed_version": "2.18.4-tuxcare.1"
+        }
+      }
+    }
+  ]
+}

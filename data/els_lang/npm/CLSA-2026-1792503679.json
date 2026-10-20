@@ -1,0 +1,49 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1792503679",
+  "modified": "2026-10-20T13:41:19Z",
+  "published": "2026-10-20T13:41:19Z",
+  "summary": "TuxCare security update for @angular/language-service (3 CVEs)",
+  "details": "TuxCare rebuilt @angular/language-service to address 3 CVEs. Fixed in 19.2.14-tuxcare.6.",
+  "upstream": [
+    "CVE-2025-66035",
+    "CVE-2025-66412",
+    "CVE-2026-22610"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "@angular/language-service",
+        "purl": "pkg:npm/%40angular/language-service"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "19.2.14-tuxcare.0"
+            },
+            {
+              "fixed": "19.2.14-tuxcare.6"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "19.2.14",
+        "19.2.14-tuxcare.1",
+        "19.2.14-tuxcare.2",
+        "19.2.14-tuxcare.3",
+        "19.2.14-tuxcare.4",
+        "19.2.14-tuxcare.5"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "19.2.14",
+          "fixed_version": "19.2.14-tuxcare.6"
+        }
+      }
+    }
+  ]
+}
