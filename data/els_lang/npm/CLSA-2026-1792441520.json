@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1792441520",
+  "modified": "2026-10-19T20:25:20Z",
+  "published": "2026-10-19T20:25:20Z",
+  "summary": "TuxCare security update for @storybook/core-events (1 CVE)",
+  "details": "TuxCare rebuilt @storybook/core-events to address 1 CVE. Fixed in 7.0.7-tuxcare.1.",
+  "upstream": [
+    "CVE-2025-68429"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "@storybook/core-events",
+        "purl": "pkg:npm/%40storybook/core-events"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "7.0.7-tuxcare.0"
+            },
+            {
+              "fixed": "7.0.7-tuxcare.1"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "7.0.7"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "7.0.7",
+          "fixed_version": "7.0.7-tuxcare.1"
+        }
+      }
+    }
+  ]
+}

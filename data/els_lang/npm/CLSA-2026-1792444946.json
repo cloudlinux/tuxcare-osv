@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1792444946",
+  "modified": "2026-10-19T21:22:24Z",
+  "published": "2026-10-19T21:22:24Z",
+  "summary": "TuxCare security update for @babel/plugin-transform-react-jsx-source (1 CVE)",
+  "details": "TuxCare rebuilt @babel/plugin-transform-react-jsx-source to address 1 CVE. Fixed in 7.21.0-tuxcare.4.",
+  "upstream": [
+    "CVE-2023-45133"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "@babel/plugin-transform-react-jsx-source",
+        "purl": "pkg:npm/%40babel/plugin-transform-react-jsx-source"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "7.21.0-tuxcare.0"
+            },
+            {
+              "fixed": "7.21.0-tuxcare.4"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "7.21.0",
+        "7.21.0-tuxcare.1"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "7.21.0",
+          "fixed_version": "7.21.0-tuxcare.4"
+        }
+      }
+    }
+  ]
+}
