@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1792482295",
+  "modified": "2026-10-20T07:44:55Z",
+  "published": "2026-10-20T07:44:55Z",
+  "summary": "TuxCare security update for astro (1 CVE)",
+  "details": "TuxCare rebuilt astro to address 1 CVE. Fixed in 5.18.2-tuxcare.2.",
+  "upstream": [
+    "GHSA-26w7-cxv4-gfx2"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "astro",
+        "purl": "pkg:npm/astro"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "5.18.2-tuxcare.0"
+            },
+            {
+              "fixed": "5.18.2-tuxcare.2"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "5.18.2",
+        "5.18.2-tuxcare.1"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "5.18.2",
+          "fixed_version": "5.18.2-tuxcare.2"
+        }
+      }
+    }
+  ]
+}

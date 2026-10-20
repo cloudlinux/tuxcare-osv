@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2025-1766621635",
+  "modified": "2026-08-04T14:52:11Z",
+  "published": "2026-08-04T14:52:11Z",
+  "summary": "TuxCare security update for numpy (1 CVE)",
+  "details": "TuxCare rebuilt numpy to address 1 CVE. Fixed in 1.16.0.post2+tuxcare.",
+  "upstream": [
+    "CVE-2021-41496"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:PyPI",
+        "name": "numpy",
+        "purl": "pkg:pypi/numpy"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "1.16.0"
+            },
+            {
+              "fixed": "1.16.0.post2+tuxcare"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "1.16.0",
+        "1.16.0.post1+tuxcare"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "1.16.0",
+          "fixed_version": "1.16.0.post2+tuxcare"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1792496007",
+  "modified": "2026-10-20T11:33:23Z",
+  "published": "2026-10-20T11:33:23Z",
+  "summary": "TuxCare security update for @babel/helper-create-class-features-plugin (2 CVEs)",
+  "details": "TuxCare rebuilt @babel/helper-create-class-features-plugin to address 2 CVEs. Fixed in 7.24.5-tuxcare.1.",
+  "upstream": [
+    "CVE-2025-27789",
+    "CVE-2025-27789-helpers-generated"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "@babel/helper-create-class-features-plugin",
+        "purl": "pkg:npm/%40babel/helper-create-class-features-plugin"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "7.24.5-tuxcare.0"
+            },
+            {
+              "fixed": "7.24.5-tuxcare.1"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "7.24.5"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "7.24.5",
+          "fixed_version": "7.24.5-tuxcare.1"
+        }
+      }
+    }
+  ]
+}

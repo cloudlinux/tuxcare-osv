@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1780534255",
+  "modified": "2026-08-04T14:52:35Z",
+  "published": "2026-08-04T14:52:35Z",
+  "summary": "TuxCare security update for ag-grid-community (2 CVEs)",
+  "details": "TuxCare rebuilt ag-grid-community to address 2 CVEs. Fixed in 29.1.0-tuxcare.1.",
+  "upstream": [
+    "CVE-2024-38996",
+    "CVE-2024-39001"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "ag-grid-community",
+        "purl": "pkg:npm/ag-grid-community"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "29.1.0-tuxcare.0"
+            },
+            {
+              "fixed": "29.1.0-tuxcare.1"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "29.1.0"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "29.1.0",
+          "fixed_version": "29.1.0-tuxcare.1"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1792482729",
+  "modified": "2026-10-20T07:52:09Z",
+  "published": "2026-10-20T07:52:09Z",
+  "summary": "TuxCare security update for org.yaml:snakeyaml (3 CVEs)",
+  "details": "TuxCare rebuilt org.yaml:snakeyaml to address 3 CVEs. Fixed in 1.7-tuxcare.2.",
+  "upstream": [
+    "CVE-2022-1471",
+    "CVE-2022-38751",
+    "CVE-2022-38752"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.yaml:snakeyaml",
+        "purl": "pkg:maven/org.yaml/snakeyaml"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "1.7"
+            },
+            {
+              "fixed": "1.7-tuxcare.2"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "1.7",
+        "1.7-tuxcare.1"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "1.7",
+          "fixed_version": "1.7-tuxcare.2"
+        }
+      }
+    }
+  ]
+}

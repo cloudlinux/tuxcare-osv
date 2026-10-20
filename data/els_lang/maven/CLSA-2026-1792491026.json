@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1792491026",
+  "modified": "2026-10-20T10:10:26Z",
+  "published": "2026-10-20T10:10:26Z",
+  "summary": "TuxCare security update for org.springframework.data:spring-data-keyvalue (1 CVE)",
+  "details": "TuxCare rebuilt org.springframework.data:spring-data-keyvalue to address 1 CVE. Fixed in 2.6.10-tuxcare.3.",
+  "upstream": [
+    "CVE-2026-41719"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.springframework.data:spring-data-keyvalue",
+        "purl": "pkg:maven/org.springframework.data/spring-data-keyvalue"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "2.6.10"
+            },
+            {
+              "fixed": "2.6.10-tuxcare.3"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "2.6.10",
+        "2.6.10-tuxcare.1",
+        "2.6.10-tuxcare.2"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "2.6.10",
+          "fixed_version": "2.6.10-tuxcare.3"
+        }
+      }
+    }
+  ]
+}

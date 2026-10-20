@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2025-1766103244",
+  "modified": "2026-08-04T14:52:11Z",
+  "published": "2026-08-04T14:52:11Z",
+  "summary": "TuxCare security update for pyyaml (2 CVEs)",
+  "details": "TuxCare rebuilt pyyaml to address 2 CVEs. Fixed in 3.13.post1+tuxcare.",
+  "upstream": [
+    "CVE-2017-18342",
+    "CVE-2020-14343"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:PyPI",
+        "name": "pyyaml",
+        "purl": "pkg:pypi/pyyaml"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "3.13"
+            },
+            {
+              "fixed": "3.13.post1+tuxcare"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "3.13"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "3.13",
+          "fixed_version": "3.13.post1+tuxcare"
+        }
+      }
+    }
+  ]
+}
