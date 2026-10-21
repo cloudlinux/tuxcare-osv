@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1792595226",
+  "modified": "2026-10-21T15:07:02Z",
+  "published": "2026-10-21T15:07:02Z",
+  "summary": "TuxCare security update for @react-native-community/cli-platform-android (1 CVE)",
+  "details": "TuxCare rebuilt @react-native-community/cli-platform-android to address 1 CVE. Fixed in 5.0.1-tuxcare.1.",
+  "upstream": [
+    "CVE-2025-11953"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "@react-native-community/cli-platform-android",
+        "purl": "pkg:npm/%40react-native-community/cli-platform-android"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "5.0.1-tuxcare.0"
+            },
+            {
+              "fixed": "5.0.1-tuxcare.1"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "5.0.1"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "5.0.1",
+          "fixed_version": "5.0.1-tuxcare.1"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1792596296",
+  "modified": "2026-10-21T15:24:56Z",
+  "published": "2026-10-21T15:24:56Z",
+  "summary": "TuxCare security update for org.springframework.retry:spring-retry (1 CVE)",
+  "details": "TuxCare rebuilt org.springframework.retry:spring-retry to address 1 CVE. Fixed in 2.0.6-tuxcare.1.",
+  "upstream": [
+    "CVE-2026-41710"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.springframework.retry:spring-retry",
+        "purl": "pkg:maven/org.springframework.retry/spring-retry"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "2.0.6"
+            },
+            {
+              "fixed": "2.0.6-tuxcare.1"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "2.0.6"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "2.0.6",
+          "fixed_version": "2.0.6-tuxcare.1"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1792586687",
+  "modified": "2026-10-21T12:44:47Z",
+  "published": "2026-10-21T12:44:47Z",
+  "summary": "TuxCare security update for body-parser (1 CVE)",
+  "details": "TuxCare rebuilt body-parser to address 1 CVE. Fixed in 1.18.2-tuxcare.2.",
+  "upstream": [
+    "CVE-2024-45590"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "body-parser",
+        "purl": "pkg:npm/body-parser"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "1.18.2-tuxcare.0"
+            },
+            {
+              "fixed": "1.18.2-tuxcare.2"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "1.18.2",
+        "1.18.2-tuxcare.1"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "1.18.2",
+          "fixed_version": "1.18.2-tuxcare.2"
+        }
+      }
+    }
+  ]
+}

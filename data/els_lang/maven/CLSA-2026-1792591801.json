@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1792591801",
+  "modified": "2026-10-21T14:10:01Z",
+  "published": "2026-10-21T14:10:01Z",
+  "summary": "TuxCare security update for com.rabbitmq:amqp-client (4 CVEs)",
+  "details": "TuxCare rebuilt com.rabbitmq:amqp-client to address 4 CVEs. Fixed in 5.16.1-tuxcare.1.",
+  "upstream": [
+    "CVE-2026-63335",
+    "CVE-2026-63336",
+    "CVE-2026-63337",
+    "CVE-2026-69219"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "com.rabbitmq:amqp-client",
+        "purl": "pkg:maven/com.rabbitmq/amqp-client"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "5.16.1"
+            },
+            {
+              "fixed": "5.16.1-tuxcare.1"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "5.16.1"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "5.16.1",
+          "fixed_version": "5.16.1-tuxcare.1"
+        }
+      }
+    }
+  ]
+}
