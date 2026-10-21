@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1792545147",
+  "modified": "2026-10-21T01:12:24Z",
+  "published": "2026-10-21T01:12:24Z",
+  "summary": "TuxCare security update for @babel/helper-string-parser (2 CVEs)",
+  "details": "TuxCare rebuilt @babel/helper-string-parser to address 2 CVEs. Fixed in 7.21.5-tuxcare.2.",
+  "upstream": [
+    "CVE-2025-27789",
+    "CVE-2026-49356"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "@babel/helper-string-parser",
+        "purl": "pkg:npm/%40babel/helper-string-parser"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "7.21.5-tuxcare.0"
+            },
+            {
+              "fixed": "7.21.5-tuxcare.2"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "7.21.5",
+        "7.21.5-tuxcare.1"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "7.21.5",
+          "fixed_version": "7.21.5-tuxcare.2"
+        }
+      }
+    }
+  ]
+}
