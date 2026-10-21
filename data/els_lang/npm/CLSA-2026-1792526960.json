@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1792526960",
+  "modified": "2026-10-20T20:09:18Z",
+  "published": "2026-10-20T20:09:18Z",
+  "summary": "TuxCare security update for @babel/helper-remap-async-to-generator (1 CVE)",
+  "details": "TuxCare rebuilt @babel/helper-remap-async-to-generator to address 1 CVE. Fixed in 7.29.0-tuxcare.1.",
+  "upstream": [
+    "CVE-2026-44728"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "@babel/helper-remap-async-to-generator",
+        "purl": "pkg:npm/%40babel/helper-remap-async-to-generator"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "7.29.0-tuxcare.0"
+            },
+            {
+              "fixed": "7.29.0-tuxcare.1"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "7.29.0"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "7.29.0",
+          "fixed_version": "7.29.0-tuxcare.1"
+        }
+      }
+    }
+  ]
+}

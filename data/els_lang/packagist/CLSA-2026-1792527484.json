@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1792527484",
+  "modified": "2026-10-20T20:18:04Z",
+  "published": "2026-10-20T20:18:04Z",
+  "summary": "TuxCare security update for drupal/core (3 CVEs)",
+  "details": "TuxCare rebuilt drupal/core to address 3 CVEs. Fixed in 10.6.17-p1+tuxcare.",
+  "upstream": [
+    "CVE-2026-108097",
+    "CVE-2026-108514",
+    "CVE-2026-108515"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Packagist",
+        "name": "drupal/core",
+        "purl": "pkg:composer/drupal/core"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "10.6.17"
+            },
+            {
+              "fixed": "10.6.17-p1+tuxcare"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "10.6.17"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "10.6.17",
+          "fixed_version": "10.6.17-p1+tuxcare"
+        }
+      }
+    }
+  ]
+}

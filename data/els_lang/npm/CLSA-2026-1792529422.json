@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1792529422",
+  "modified": "2026-10-20T20:50:20Z",
+  "published": "2026-10-20T20:50:20Z",
+  "summary": "TuxCare security update for @babel/helper-module-imports (1 CVE)",
+  "details": "TuxCare rebuilt @babel/helper-module-imports to address 1 CVE. Fixed in 7.29.0-tuxcare.2.",
+  "upstream": [
+    "CVE-2026-49356"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "@babel/helper-module-imports",
+        "purl": "pkg:npm/%40babel/helper-module-imports"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "7.29.0-tuxcare.0"
+            },
+            {
+              "fixed": "7.29.0-tuxcare.2"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "7.29.0",
+        "7.29.0-tuxcare.1"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "7.29.0",
+          "fixed_version": "7.29.0-tuxcare.2"
+        }
+      }
+    }
+  ]
+}

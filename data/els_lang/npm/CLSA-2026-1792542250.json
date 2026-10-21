@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1792542250",
+  "modified": "2026-10-21T00:24:07Z",
+  "published": "2026-10-21T00:24:07Z",
+  "summary": "TuxCare security update for @babel/helper-validator-identifier (2 CVEs)",
+  "details": "TuxCare rebuilt @babel/helper-validator-identifier to address 2 CVEs. Fixed in 7.16.7-tuxcare.2.",
+  "upstream": [
+    "CVE-2023-45133",
+    "CVE-2025-27789"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "@babel/helper-validator-identifier",
+        "purl": "pkg:npm/%40babel/helper-validator-identifier"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "7.16.7-tuxcare.0"
+            },
+            {
+              "fixed": "7.16.7-tuxcare.2"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "7.16.7"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "7.16.7",
+          "fixed_version": "7.16.7-tuxcare.2"
+        }
+      }
+    }
+  ]
+}

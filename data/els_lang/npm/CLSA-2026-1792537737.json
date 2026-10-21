@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1792537737",
+  "modified": "2026-10-20T23:08:53Z",
+  "published": "2026-10-20T23:08:53Z",
+  "summary": "TuxCare security update for @babel/plugin-syntax-jsx (2 CVEs)",
+  "details": "TuxCare rebuilt @babel/plugin-syntax-jsx to address 2 CVEs. Fixed in 7.16.7-tuxcare.2.",
+  "upstream": [
+    "CVE-2023-45133",
+    "CVE-2025-27789"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "@babel/plugin-syntax-jsx",
+        "purl": "pkg:npm/%40babel/plugin-syntax-jsx"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "7.16.7-tuxcare.0"
+            },
+            {
+              "fixed": "7.16.7-tuxcare.2"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "7.16.7"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "7.16.7",
+          "fixed_version": "7.16.7-tuxcare.2"
+        }
+      }
+    }
+  ]
+}

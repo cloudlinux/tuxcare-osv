@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1792522729",
+  "modified": "2026-10-20T18:58:47Z",
+  "published": "2026-10-20T18:58:47Z",
+  "summary": "TuxCare security update for @babel/helper-simple-access (1 CVE)",
+  "details": "TuxCare rebuilt @babel/helper-simple-access to address 1 CVE. Fixed in 7.12.18-tuxcare.2.",
+  "upstream": [
+    "CVE-2026-44728"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "@babel/helper-simple-access",
+        "purl": "pkg:npm/%40babel/helper-simple-access"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "7.12.18-tuxcare.0"
+            },
+            {
+              "fixed": "7.12.18-tuxcare.2"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "7.12.18"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "7.12.18",
+          "fixed_version": "7.12.18-tuxcare.2"
+        }
+      }
+    }
+  ]
+}

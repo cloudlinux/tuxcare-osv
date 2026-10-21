@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1792539100",
+  "modified": "2026-10-20T23:31:38Z",
+  "published": "2026-10-20T23:31:38Z",
+  "summary": "TuxCare security update for @babel/plugin-transform-class-properties (1 CVE)",
+  "details": "TuxCare rebuilt @babel/plugin-transform-class-properties to address 1 CVE. Fixed in 7.25.7-tuxcare.4.",
+  "upstream": [
+    "CVE-2026-49356"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "@babel/plugin-transform-class-properties",
+        "purl": "pkg:npm/%40babel/plugin-transform-class-properties"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "7.25.7-tuxcare.0"
+            },
+            {
+              "fixed": "7.25.7-tuxcare.4"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "7.25.7",
+        "7.25.7-tuxcare.2",
+        "7.25.7-tuxcare.3"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "7.25.7",
+          "fixed_version": "7.25.7-tuxcare.4"
+        }
+      }
+    }
+  ]
+}
