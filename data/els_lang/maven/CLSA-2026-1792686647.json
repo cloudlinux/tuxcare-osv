@@ -1,0 +1,134 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1792686647",
+  "modified": "2026-10-22T16:30:47Z",
+  "published": "2026-10-22T16:30:47Z",
+  "summary": "TuxCare security update for org.springframework.kafka (2 CVEs)",
+  "details": "TuxCare rebuilt 4 org.springframework.kafka packages to address 2 CVEs. Fixed in 3.3.11-tuxcare.2.",
+  "upstream": [
+    "CVE-2026-59278",
+    "CVE-2026-59317"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.springframework.kafka:spring-kafka",
+        "purl": "pkg:maven/org.springframework.kafka/spring-kafka"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "3.3.11"
+            },
+            {
+              "fixed": "3.3.11-tuxcare.2"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "3.3.11",
+        "3.3.11-tuxcare.1"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "3.3.11",
+          "fixed_version": "3.3.11-tuxcare.2"
+        }
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.springframework.kafka:spring-kafka-bom",
+        "purl": "pkg:maven/org.springframework.kafka/spring-kafka-bom"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "3.3.11"
+            },
+            {
+              "fixed": "3.3.11-tuxcare.2"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "3.3.11",
+        "3.3.11-tuxcare.1"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "3.3.11",
+          "fixed_version": "3.3.11-tuxcare.2"
+        }
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.springframework.kafka:spring-kafka-dist",
+        "purl": "pkg:maven/org.springframework.kafka/spring-kafka-dist"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "3.3.11"
+            },
+            {
+              "fixed": "3.3.11-tuxcare.2"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "3.3.11",
+        "3.3.11-tuxcare.1"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "3.3.11",
+          "fixed_version": "3.3.11-tuxcare.2"
+        }
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.springframework.kafka:spring-kafka-test",
+        "purl": "pkg:maven/org.springframework.kafka/spring-kafka-test"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "3.3.11"
+            },
+            {
+              "fixed": "3.3.11-tuxcare.2"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "3.3.11",
+        "3.3.11-tuxcare.1"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "3.3.11",
+          "fixed_version": "3.3.11-tuxcare.2"
+        }
+      }
+    }
+  ]
+}

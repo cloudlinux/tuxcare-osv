@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1792688648",
+  "modified": "2026-10-22T17:04:08Z",
+  "published": "2026-10-22T17:04:08Z",
+  "summary": "TuxCare security update for org.jboss.netty:netty (1 CVE)",
+  "details": "TuxCare rebuilt org.jboss.netty:netty to address 1 CVE. Fixed in 3.2.4.Final-tuxcare.1.",
+  "upstream": [
+    "CVE-2025-67735"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.jboss.netty:netty",
+        "purl": "pkg:maven/org.jboss.netty/netty"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "3.2.4.Final"
+            },
+            {
+              "fixed": "3.2.4.Final-tuxcare.1"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "3.2.4.Final"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "3.2.4.Final",
+          "fixed_version": "3.2.4.Final-tuxcare.1"
+        }
+      }
+    }
+  ]
+}
