@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1792655995",
+  "modified": "2026-10-22T07:59:55Z",
+  "published": "2026-10-22T07:59:55Z",
+  "summary": "TuxCare security update for junit:junit (1 CVE)",
+  "details": "TuxCare rebuilt junit:junit to address 1 CVE. Fixed in 4.12-tuxcare.1.",
+  "upstream": [
+    "CVE-2020-15250"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "junit:junit",
+        "purl": "pkg:maven/junit/junit"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "4.12"
+            },
+            {
+              "fixed": "4.12-tuxcare.1"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "4.12"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "4.12",
+          "fixed_version": "4.12-tuxcare.1"
+        }
+      }
+    }
+  ]
+}
