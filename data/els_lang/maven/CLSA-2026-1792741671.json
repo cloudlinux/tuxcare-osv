@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1792741671",
+  "modified": "2026-10-23T07:47:51Z",
+  "published": "2026-10-23T07:47:51Z",
+  "summary": "TuxCare security update for org.apache.commons:commons-compress (2 CVEs)",
+  "details": "TuxCare rebuilt org.apache.commons:commons-compress to address 2 CVEs. Fixed in 1.12-tuxcare.2.",
+  "upstream": [
+    "CVE-2021-35515",
+    "CVE-2024-25710"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.apache.commons:commons-compress",
+        "purl": "pkg:maven/org.apache.commons/commons-compress"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "1.12"
+            },
+            {
+              "fixed": "1.12-tuxcare.2"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "1.12",
+        "1.12-tuxcare.1"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "1.12",
+          "fixed_version": "1.12-tuxcare.2"
+        }
+      }
+    }
+  ]
+}

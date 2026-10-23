@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1792757149",
+  "modified": "2026-10-23T12:05:49Z",
+  "published": "2026-10-23T12:05:49Z",
+  "summary": "TuxCare security update for traverse (1 CVE)",
+  "details": "TuxCare rebuilt traverse to address 1 CVE. Fixed in 0.5.2-tuxcare.1.",
+  "upstream": [
+    "CVE-2026-107353"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "traverse",
+        "purl": "pkg:npm/traverse"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0.5.2-tuxcare.0"
+            },
+            {
+              "fixed": "0.5.2-tuxcare.1"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "0.5.2"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "0.5.2",
+          "fixed_version": "0.5.2-tuxcare.1"
+        }
+      }
+    }
+  ]
+}

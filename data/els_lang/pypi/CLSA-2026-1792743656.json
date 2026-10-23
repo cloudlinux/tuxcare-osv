@@ -1,0 +1,55 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1792743656",
+  "modified": "2026-10-23T08:20:56Z",
+  "published": "2026-10-23T08:20:56Z",
+  "summary": "TuxCare security update for pillow (6 CVEs)",
+  "details": "TuxCare rebuilt pillow to address 6 CVEs. Fixed in 11.3.0.post9+tuxcare.",
+  "upstream": [
+    "CVE-2026-96637",
+    "CVE-2026-96639",
+    "CVE-2026-96642",
+    "CVE-2026-96643",
+    "CVE-2026-96644",
+    "CVE-2026-96778"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:PyPI",
+        "name": "pillow",
+        "purl": "pkg:pypi/pillow"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "11.3.0"
+            },
+            {
+              "fixed": "11.3.0.post9+tuxcare"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "11.3.0",
+        "11.3.0.post1+tuxcare",
+        "11.3.0.post2+tuxcare",
+        "11.3.0.post3+tuxcare",
+        "11.3.0.post4+tuxcare",
+        "11.3.0.post5+tuxcare",
+        "11.3.0.post6+tuxcare",
+        "11.3.0.post7+tuxcare",
+        "11.3.0.post8+tuxcare"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "11.3.0",
+          "fixed_version": "11.3.0.post9+tuxcare"
+        }
+      }
+    }
+  ]
+}

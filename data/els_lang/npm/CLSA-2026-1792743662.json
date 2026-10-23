@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1792743662",
+  "modified": "2026-10-23T08:21:02Z",
+  "published": "2026-10-23T08:21:02Z",
+  "summary": "TuxCare security update for http-cache-semantics (1 CVE)",
+  "details": "TuxCare rebuilt http-cache-semantics to address 1 CVE. Fixed in 4.2.0-tuxcare.1.",
+  "upstream": [
+    "CVE-2026-93748"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "http-cache-semantics",
+        "purl": "pkg:npm/http-cache-semantics"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "4.2.0-tuxcare.0"
+            },
+            {
+              "fixed": "4.2.0-tuxcare.1"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "4.2.0"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "4.2.0",
+          "fixed_version": "4.2.0-tuxcare.1"
+        }
+      }
+    }
+  ]
+}

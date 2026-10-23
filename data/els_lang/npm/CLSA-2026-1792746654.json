@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1792746654",
+  "modified": "2026-10-23T09:10:54Z",
+  "published": "2026-10-23T09:10:54Z",
+  "summary": "TuxCare security update for @fastify/busboy (2 CVEs)",
+  "details": "TuxCare rebuilt @fastify/busboy to address 2 CVEs. Fixed in 2.1.1-tuxcare.1.",
+  "upstream": [
+    "CVE-2026-19481",
+    "CVE-2026-74866"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "@fastify/busboy",
+        "purl": "pkg:npm/%40fastify/busboy"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "2.1.1-tuxcare.0"
+            },
+            {
+              "fixed": "2.1.1-tuxcare.1"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "2.1.1"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "2.1.1",
+          "fixed_version": "2.1.1-tuxcare.1"
+        }
+      }
+    }
+  ]
+}

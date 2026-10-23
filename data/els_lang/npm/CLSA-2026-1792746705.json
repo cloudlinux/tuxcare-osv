@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1792746705",
+  "modified": "2026-10-23T09:11:45Z",
+  "published": "2026-10-23T09:11:45Z",
+  "summary": "TuxCare security update for @stablelib/ed25519 (1 CVE)",
+  "details": "TuxCare rebuilt @stablelib/ed25519 to address 1 CVE. Fixed in 1.0.3-tuxcare.1.",
+  "upstream": [
+    "GHSA-x3ff-w252-2g7j"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "@stablelib/ed25519",
+        "purl": "pkg:npm/%40stablelib/ed25519"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "1.0.3-tuxcare.0"
+            },
+            {
+              "fixed": "1.0.3-tuxcare.1"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "1.0.3"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "1.0.3",
+          "fixed_version": "1.0.3-tuxcare.1"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1792758025",
+  "modified": "2026-10-23T12:20:25Z",
+  "published": "2026-10-23T12:20:25Z",
+  "summary": "TuxCare security update for domino (6 CVEs)",
+  "details": "TuxCare rebuilt domino to address 6 CVEs. Fixed in 2.1.7-tuxcare.1.",
+  "upstream": [
+    "CVE-2026-101895",
+    "CVE-2026-50555",
+    "CVE-2026-50556",
+    "CVE-2026-69149",
+    "CVE-2026-88058",
+    "CVE-2026-88060"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "domino",
+        "purl": "pkg:npm/domino"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "2.1.7-tuxcare.0"
+            },
+            {
+              "fixed": "2.1.7-tuxcare.1"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "2.1.7"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "2.1.7",
+          "fixed_version": "2.1.7-tuxcare.1"
+        }
+      }
+    }
+  ]
+}

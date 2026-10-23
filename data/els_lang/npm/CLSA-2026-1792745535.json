@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1792745535",
+  "modified": "2026-10-23T08:52:15Z",
+  "published": "2026-10-23T08:52:15Z",
+  "summary": "TuxCare security update for @grpc/grpc-js (2 CVEs)",
+  "details": "TuxCare rebuilt @grpc/grpc-js to address 2 CVEs. Fixed in 1.9.16-tuxcare.1.",
+  "upstream": [
+    "CVE-2026-101915",
+    "CVE-2026-101916"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "@grpc/grpc-js",
+        "purl": "pkg:npm/%40grpc/grpc-js"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "1.9.16-tuxcare.0"
+            },
+            {
+              "fixed": "1.9.16-tuxcare.1"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "1.9.16"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "1.9.16",
+          "fixed_version": "1.9.16-tuxcare.1"
+        }
+      }
+    }
+  ]
+}
