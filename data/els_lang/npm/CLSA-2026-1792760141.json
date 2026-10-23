@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1792760141",
+  "modified": "2026-10-23T12:55:37Z",
+  "published": "2026-10-23T12:55:37Z",
+  "summary": "TuxCare security update for @babel/compat-data (2 CVEs)",
+  "details": "TuxCare rebuilt @babel/compat-data to address 2 CVEs. Fixed in 7.16.7-tuxcare.2.",
+  "upstream": [
+    "CVE-2023-45133",
+    "CVE-2025-27789"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "@babel/compat-data",
+        "purl": "pkg:npm/%40babel/compat-data"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "7.16.7-tuxcare.0"
+            },
+            {
+              "fixed": "7.16.7-tuxcare.2"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "7.16.7"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "7.16.7",
+          "fixed_version": "7.16.7-tuxcare.2"
+        }
+      }
+    }
+  ]
+}

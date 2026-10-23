@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1792760067",
+  "modified": "2026-10-23T12:54:27Z",
+  "published": "2026-10-23T12:54:27Z",
+  "summary": "TuxCare security update for yaml (1 CVE)",
+  "details": "TuxCare rebuilt yaml to address 1 CVE. Fixed in 1.10.2-tuxcare.2.",
+  "upstream": [
+    "CVE-2026-33532"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "yaml",
+        "purl": "pkg:npm/yaml"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "1.10.2-tuxcare.0"
+            },
+            {
+              "fixed": "1.10.2-tuxcare.2"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "1.10.2",
+        "1.10.2-tuxcare.1"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "1.10.2",
+          "fixed_version": "1.10.2-tuxcare.2"
+        }
+      }
+    }
+  ]
+}

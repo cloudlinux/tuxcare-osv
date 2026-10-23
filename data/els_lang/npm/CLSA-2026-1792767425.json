@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1792767425",
+  "modified": "2026-10-23T14:57:05Z",
+  "published": "2026-10-23T14:57:05Z",
+  "summary": "TuxCare security update for underscore (2 CVEs)",
+  "details": "TuxCare rebuilt underscore to address 2 CVEs. Fixed in 1.9.1-tuxcare.1.",
+  "upstream": [
+    "CVE-2021-23358",
+    "CVE-2026-27601"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "underscore",
+        "purl": "pkg:npm/underscore"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "1.9.1-tuxcare.0"
+            },
+            {
+              "fixed": "1.9.1-tuxcare.1"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "1.9.1"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "1.9.1",
+          "fixed_version": "1.9.1-tuxcare.1"
+        }
+      }
+    }
+  ]
+}
