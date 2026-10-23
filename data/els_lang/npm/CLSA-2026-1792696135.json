@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1792696135",
+  "modified": "2026-10-22T19:08:55Z",
+  "published": "2026-10-22T19:08:55Z",
+  "summary": "TuxCare security update for extract-zip (2 CVEs)",
+  "details": "TuxCare rebuilt extract-zip to address 2 CVEs. Fixed in 1.7.0-tuxcare.2.",
+  "upstream": [
+    "CVE-2026-19693",
+    "CVE-2026-56876"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "extract-zip",
+        "purl": "pkg:npm/extract-zip"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "1.7.0-tuxcare.0"
+            },
+            {
+              "fixed": "1.7.0-tuxcare.2"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "1.7.0",
+        "1.7.0-tuxcare.1"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "1.7.0",
+          "fixed_version": "1.7.0-tuxcare.2"
+        }
+      }
+    }
+  ]
+}

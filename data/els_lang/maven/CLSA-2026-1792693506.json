@@ -1,0 +1,71 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1792693506",
+  "modified": "2026-10-22T18:25:06Z",
+  "published": "2026-10-22T18:25:06Z",
+  "summary": "TuxCare security update for ch.qos.logback (1 CVE)",
+  "details": "TuxCare rebuilt 2 ch.qos.logback packages to address 1 CVE. Fixed in 1.5.22-tuxcare.1.",
+  "upstream": [
+    "CVE-2026-10532"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "ch.qos.logback:logback-classic",
+        "purl": "pkg:maven/ch.qos.logback/logback-classic"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "1.5.22"
+            },
+            {
+              "fixed": "1.5.22-tuxcare.1"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "1.5.22"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "1.5.22",
+          "fixed_version": "1.5.22-tuxcare.1"
+        }
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "ch.qos.logback:logback-core",
+        "purl": "pkg:maven/ch.qos.logback/logback-core"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "1.5.22"
+            },
+            {
+              "fixed": "1.5.22-tuxcare.1"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "1.5.22"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "1.5.22",
+          "fixed_version": "1.5.22-tuxcare.1"
+        }
+      }
+    }
+  ]
+}

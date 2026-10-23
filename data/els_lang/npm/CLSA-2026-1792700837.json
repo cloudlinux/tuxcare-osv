@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1792700837",
+  "modified": "2026-10-22T20:27:17Z",
+  "published": "2026-10-22T20:27:17Z",
+  "summary": "TuxCare security update for sprintf-js (1 CVE)",
+  "details": "TuxCare rebuilt sprintf-js to address 1 CVE. Fixed in 1.0.3-tuxcare.2.",
+  "upstream": [
+    "CVE-2026-97058"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "sprintf-js",
+        "purl": "pkg:npm/sprintf-js"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "1.0.3-tuxcare.0"
+            },
+            {
+              "fixed": "1.0.3-tuxcare.2"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "1.0.3"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "1.0.3",
+          "fixed_version": "1.0.3-tuxcare.2"
+        }
+      }
+    }
+  ]
+}
