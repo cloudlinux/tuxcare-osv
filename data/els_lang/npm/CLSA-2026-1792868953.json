@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1792868953",
+  "modified": "2026-10-24T19:09:09Z",
+  "published": "2026-10-24T19:09:09Z",
+  "summary": "TuxCare security update for @babel/template (1 CVE)",
+  "details": "TuxCare rebuilt @babel/template to address 1 CVE. Fixed in 7.23.9-tuxcare.3.",
+  "upstream": [
+    "CVE-2025-27789"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "@babel/template",
+        "purl": "pkg:npm/%40babel/template"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "7.23.9-tuxcare.0"
+            },
+            {
+              "fixed": "7.23.9-tuxcare.3"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "7.23.9",
+        "7.23.9-tuxcare.1"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "7.23.9",
+          "fixed_version": "7.23.9-tuxcare.3"
+        }
+      }
+    }
+  ]
+}

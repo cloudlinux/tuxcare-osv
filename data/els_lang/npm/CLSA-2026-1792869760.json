@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1792869760",
+  "modified": "2026-10-24T19:22:40Z",
+  "published": "2026-10-24T19:22:40Z",
+  "summary": "TuxCare security update for lodash.isequal (7 CVEs)",
+  "details": "TuxCare rebuilt lodash.isequal to address 7 CVEs. Fixed in 4.5.0-tuxcare.9.",
+  "upstream": [
+    "CVE-2018-16487",
+    "CVE-2019-10744",
+    "CVE-2020-28500",
+    "CVE-2020-8203",
+    "CVE-2021-23337",
+    "CVE-2025-13465",
+    "CVE-2026-4800"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "lodash.isequal",
+        "purl": "pkg:npm/lodash.isequal"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "4.5.0-tuxcare.0"
+            },
+            {
+              "fixed": "4.5.0-tuxcare.9"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "4.5.0",
+        "4.5.0-tuxcare.7",
+        "4.5.0-tuxcare.8"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "4.5.0",
+          "fixed_version": "4.5.0-tuxcare.9"
+        }
+      }
+    }
+  ]
+}

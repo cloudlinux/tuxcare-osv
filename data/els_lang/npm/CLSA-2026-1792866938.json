@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1792866938",
+  "modified": "2026-10-24T18:35:38Z",
+  "published": "2026-10-24T18:35:38Z",
+  "summary": "TuxCare security update for @happy-dom/jest-environment (2 CVEs)",
+  "details": "TuxCare rebuilt @happy-dom/jest-environment to address 2 CVEs. Fixed in 15.11.7-tuxcare.1.",
+  "upstream": [
+    "CVE-2025-61927",
+    "CVE-2026-34226"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "@happy-dom/jest-environment",
+        "purl": "pkg:npm/%40happy-dom/jest-environment"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "15.11.7-tuxcare.0"
+            },
+            {
+              "fixed": "15.11.7-tuxcare.1"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "15.11.7"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "15.11.7",
+          "fixed_version": "15.11.7-tuxcare.1"
+        }
+      }
+    }
+  ]
+}
