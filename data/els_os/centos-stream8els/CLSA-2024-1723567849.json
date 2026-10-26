@@ -466,12 +466,92 @@
     "CVE-2024-0775",
     "CVE-2023-6040"
   ],
-  "published": "2024-08-13T17:01:50Z",
-  "modified": "2024-08-13T17:01:50Z",
+  "published": "2026-10-18T04:15:02Z",
+  "modified": "2026-10-18T04:15:02Z",
   "details": "- net: fix __dst_negative_advice() race {CVE-2024-36971}\n- spec: update shim Conflicts, Provides keys\n- ipv6: fib6_rules: avoid possible NULL dereference in fib6_rule_action() {CVE-2024-36902}\n- ipv6: prevent NULL dereference in ip6_output() {CVE-2024-36901}\n- drm/amd/display: Atom Integrated System Info v2_2 for DCN35 {CVE-2024-36897}\n- i2c: smbus: fix NULL function pointer dereference {CVE-2024-35984}\n- Bluetooth: Fix memory leak in hci_req_sync_complete() {CVE-2024-35978}\n- net/mlx5: Properly link new fs rules into the tree {CVE-2024-35960}\n- net: ena: Fix incorrect descriptor free behavior {CVE-2024-35958}\n- tun: limit printing rate when illegal packet received by tun dev {CVE-2024-27013}\n- Bluetooth: rfcomm: Fix null-ptr-deref in rfcomm_check_security {CVE-2024-26903}\n- bpf: Fix re-attachment branch in bpf_tracing_prog_attach {CVE-2024-26591}\n- ubi: Check for too small LEB size in VTBL code {CVE-2024-25739}\n- Bluetooth: Fix atomicity violation in {min,max}_key_size_set {CVE-2024-24860}\n- dm: limit the number of targets and parameter size area {CVE-2024-23851}\n- netfilter: nf_tables: Fix potential data-race in __nft_expr_type_get() {CVE-2024-27020}\n- netfilter: nf_tables: __nft_expr_type_get() selects specific family type\n- scsi: qla2xxx: Fix double free of the ha->vp_map pointer {CVE-2024-26930}\n- scsi: qla2xxx: Fix double free of fcport {CVE-2024-26929}\n- net: ip_tunnel: make sure to pull inner header in ip_tunnel_rcv() {CVE-2024-26882}\n- ext4: improve error recovery code paths in __ext4_remount() {CVE-2024-0775}\n- netfilter: nf_tables: Reject tables of unsupported family {CVE-2023-6040}",
   "references": [
     {
-      "url": "https://errata.tuxcare.com/centos8stream-els/CLSA-2024-1723567849.html",
+      "url": "https://errata.tuxcare.com/els_os/centos-stream8els/CLSA-2024-1723567849.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-52429",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-6040",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-0775",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-23851",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-24860",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-25739",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-26591",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-26882",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-26903",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-26930",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-27013",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-27020",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-35958",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-35960",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-35978",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-35984",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-36897",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-36901",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-36902",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-36971",
       "type": "ADVISORY"
     }
   ]

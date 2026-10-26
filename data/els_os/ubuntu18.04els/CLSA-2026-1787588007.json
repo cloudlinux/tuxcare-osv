@@ -1,0 +1,203 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1787588007",
+  "summary": "Fix CVE(s): CVE-2021-3575",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "libopenjp2-7",
+        "purl": "pkg:deb/tuxcare/libopenjp2-7?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.3.0-2+deb10u2build0.18.04.1+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "libopenjp2-7-dev",
+        "purl": "pkg:deb/tuxcare/libopenjp2-7-dev?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.3.0-2+deb10u2build0.18.04.1+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "libopenjp2-tools",
+        "purl": "pkg:deb/tuxcare/libopenjp2-tools?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.3.0-2+deb10u2build0.18.04.1+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "libopenjp3d-tools",
+        "purl": "pkg:deb/tuxcare/libopenjp3d-tools?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.3.0-2+deb10u2build0.18.04.1+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "libopenjp3d7",
+        "purl": "pkg:deb/tuxcare/libopenjp3d7?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.3.0-2+deb10u2build0.18.04.1+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "libopenjpip-dec-server",
+        "purl": "pkg:deb/tuxcare/libopenjpip-dec-server?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.3.0-2+deb10u2build0.18.04.1+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "libopenjpip-server",
+        "purl": "pkg:deb/tuxcare/libopenjpip-server?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.3.0-2+deb10u2build0.18.04.1+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "libopenjpip-viewer",
+        "purl": "pkg:deb/tuxcare/libopenjpip-viewer?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.3.0-2+deb10u2build0.18.04.1+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "libopenjpip7",
+        "purl": "pkg:deb/tuxcare/libopenjpip7?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.3.0-2+deb10u2build0.18.04.1+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2021-3575"
+  ],
+  "published": "2026-08-24T16:13:38Z",
+  "modified": "2026-08-24T16:13:38Z",
+  "details": "   * SECURITY UPDATE: off-by-one heap buffer overflow in the YCbCr 4:2:0 to RGB\n     converter\n     - debian/patches/CVE-2021-3575.patch: in src/bin/common/color.c, bound the\n       trailing odd-row loop of sycc420_to_rgb() by loopmaxw instead of maxw and\n       consume the first column with Cb/Cr = 0 when x0 is odd, so the chroma\n       planes are no longer read one sample past their end.\n     - CVE-2021-3575",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/ubuntu18.04els/CLSA-2026-1787588007.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-3575",
+      "type": "ADVISORY"
+    }
+  ]
+}

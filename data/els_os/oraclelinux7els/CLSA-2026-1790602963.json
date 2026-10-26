@@ -1,0 +1,180 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1790602963",
+  "summary": "mariadb: Fix of 2 CVEs",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:7",
+        "name": "mariadb",
+        "purl": "pkg:rpm/tuxcare/mariadb?distro=oraclelinux-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:5.5.68-1.0.1.el7.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:7",
+        "name": "mariadb-bench",
+        "purl": "pkg:rpm/tuxcare/mariadb-bench?distro=oraclelinux-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:5.5.68-1.0.1.el7.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:7",
+        "name": "mariadb-devel",
+        "purl": "pkg:rpm/tuxcare/mariadb-devel?distro=oraclelinux-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:5.5.68-1.0.1.el7.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:7",
+        "name": "mariadb-embedded",
+        "purl": "pkg:rpm/tuxcare/mariadb-embedded?distro=oraclelinux-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:5.5.68-1.0.1.el7.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:7",
+        "name": "mariadb-embedded-devel",
+        "purl": "pkg:rpm/tuxcare/mariadb-embedded-devel?distro=oraclelinux-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:5.5.68-1.0.1.el7.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:7",
+        "name": "mariadb-libs",
+        "purl": "pkg:rpm/tuxcare/mariadb-libs?distro=oraclelinux-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:5.5.68-1.0.1.el7.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:7",
+        "name": "mariadb-server",
+        "purl": "pkg:rpm/tuxcare/mariadb-server?distro=oraclelinux-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:5.5.68-1.0.1.el7.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:7",
+        "name": "mariadb-test",
+        "purl": "pkg:rpm/tuxcare/mariadb-test?distro=oraclelinux-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:5.5.68-1.0.1.el7.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2021-46657",
+    "CVE-2025-13699"
+  ],
+  "published": "2026-09-28T13:42:52Z",
+  "modified": "2026-09-28T13:42:52Z",
+  "details": "- Rebase onto the vendor's 5.5.68-1.0.1 sources\n- CVE-2021-46657: fix crash in get_sort_by_table() on subquery with ORDER BY referencing an outer-query alias (MDEV-25629)\n- CVE-2025-13699: take the vendor's fix, keep our regression test, fix the\n  mysqlimport crash with the default charset\n- Take the vendor's SSL certificate and timezone test fixes, keep the parts\n  they lack: verify-fail certificates, host time zone mapping in\n  timezone.test",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/oraclelinux7els/CLSA-2026-1790602963.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

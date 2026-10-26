@@ -1,0 +1,143 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1786355721",
+  "summary": "ImageMagick: Fix of CVE-2026-32259",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:7",
+        "name": "ImageMagick",
+        "purl": "pkg:rpm/tuxcare/ImageMagick?distro=centos-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "6.9.10.68-7.0.3.el7_9.tuxcare.els24"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:7",
+        "name": "ImageMagick-c++",
+        "purl": "pkg:rpm/tuxcare/ImageMagick-c++?distro=centos-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "6.9.10.68-7.0.3.el7_9.tuxcare.els24"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:7",
+        "name": "ImageMagick-c++-devel",
+        "purl": "pkg:rpm/tuxcare/ImageMagick-c++-devel?distro=centos-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "6.9.10.68-7.0.3.el7_9.tuxcare.els24"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:7",
+        "name": "ImageMagick-devel",
+        "purl": "pkg:rpm/tuxcare/ImageMagick-devel?distro=centos-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "6.9.10.68-7.0.3.el7_9.tuxcare.els24"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:7",
+        "name": "ImageMagick-doc",
+        "purl": "pkg:rpm/tuxcare/ImageMagick-doc?distro=centos-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "6.9.10.68-7.0.3.el7_9.tuxcare.els24"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:7",
+        "name": "ImageMagick-perl",
+        "purl": "pkg:rpm/tuxcare/ImageMagick-perl?distro=centos-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "6.9.10.68-7.0.3.el7_9.tuxcare.els24"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-32259"
+  ],
+  "published": "2026-08-13T12:43:22Z",
+  "modified": "2026-08-13T12:43:22Z",
+  "details": "- CVE-2026-32259: bound image->colors to SIXEL_PALETTE_MAX in\n  WriteSIXELImage() (coders/sixel.c) to fix a stack-based buffer overflow\n  (CWE-121) when color reduction fails",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/centos7els/CLSA-2026-1786355721.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-32259",
+      "type": "ADVISORY"
+    }
+  ]
+}

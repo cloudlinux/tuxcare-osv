@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1791533950",
+  "summary": "cloud-init: Fix of 4 CVEs",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "cloud-init",
+        "purl": "pkg:rpm/tuxcare/cloud-init?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "22.1-10.el9_2.alma.tuxcare.els5"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2024-6174",
+    "CVE-2024-11584",
+    "CVE-2023-1786",
+    "CVE-2022-2084"
+  ],
+  "published": "2026-10-09T08:19:17Z",
+  "modified": "2026-10-09T08:19:17Z",
+  "details": "- CVE-2024-6174: fix platform enumeration by changing default policy of\n  ds-identify to disallow discovery of datasources without strict identifiable\n- CVE-2024-11584: fix systemd socket unit permission vulnerability to prevent\n  unprivileged user from triggering hotplug-hook commands\n- CVE-2023-1786: fix leak of sensitive user/vendor data and enforce 640 perms on\n  cloud-init.log\n- CVE-2022-2084: remove schema errors from log to avoid leaking sensitive\n  user-data values into world-readable /var/log/cloud-init.log\n- rebuild with the vendor .el9_2 dist so the update outranks AlmaLinux\n  22.1-10.el9_2.alma",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/almalinux9.2esu/CLSA-2026-1791533950.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

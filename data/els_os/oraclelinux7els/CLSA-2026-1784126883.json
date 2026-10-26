@@ -1,0 +1,208 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1784126883",
+  "summary": "xorg-x11-server: Fix of 2 CVEs",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:7",
+        "name": "xorg-x11-server-Xdmx",
+        "purl": "pkg:rpm/tuxcare/xorg-x11-server-Xdmx?distro=oraclelinux-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.20.4-99.el7_9.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:7",
+        "name": "xorg-x11-server-Xephyr",
+        "purl": "pkg:rpm/tuxcare/xorg-x11-server-Xephyr?distro=oraclelinux-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.20.4-99.el7_9.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:7",
+        "name": "xorg-x11-server-Xnest",
+        "purl": "pkg:rpm/tuxcare/xorg-x11-server-Xnest?distro=oraclelinux-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.20.4-99.el7_9.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:7",
+        "name": "xorg-x11-server-Xorg",
+        "purl": "pkg:rpm/tuxcare/xorg-x11-server-Xorg?distro=oraclelinux-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.20.4-99.el7_9.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:7",
+        "name": "xorg-x11-server-Xvfb",
+        "purl": "pkg:rpm/tuxcare/xorg-x11-server-Xvfb?distro=oraclelinux-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.20.4-99.el7_9.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:7",
+        "name": "xorg-x11-server-Xwayland",
+        "purl": "pkg:rpm/tuxcare/xorg-x11-server-Xwayland?distro=oraclelinux-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.20.4-99.el7_9.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:7",
+        "name": "xorg-x11-server-common",
+        "purl": "pkg:rpm/tuxcare/xorg-x11-server-common?distro=oraclelinux-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.20.4-99.el7_9.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:7",
+        "name": "xorg-x11-server-devel",
+        "purl": "pkg:rpm/tuxcare/xorg-x11-server-devel?distro=oraclelinux-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.20.4-99.el7_9.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:7",
+        "name": "xorg-x11-server-source",
+        "purl": "pkg:rpm/tuxcare/xorg-x11-server-source?distro=oraclelinux-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.20.4-99.el7_9.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-34000",
+    "CVE-2026-34002"
+  ],
+  "published": "2026-07-15T14:48:19Z",
+  "modified": "2026-07-15T14:48:19Z",
+  "details": "- CVE-2026-34000: fix out-of-bounds read in XKB geometry key alias bounds\n  check in _CheckSetGeom()\n- CVE-2026-34002: fix out-of-bounds read in XKB modifier map handling in\n  CheckModifierMap() and add further request-bounds validation",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/oraclelinux7els/CLSA-2026-1784126883.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-34000",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-34002",
+      "type": "ADVISORY"
+    }
+  ]
+}

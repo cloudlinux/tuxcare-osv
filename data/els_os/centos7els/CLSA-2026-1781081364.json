@@ -1,0 +1,173 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1781081364",
+  "summary": "tigervnc: Fix of 3 CVEs",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:7",
+        "name": "tigervnc",
+        "purl": "pkg:rpm/tuxcare/tigervnc?distro=centos-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.8.0-33.0.7.el7_9.tuxcare.els5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:7",
+        "name": "tigervnc-icons",
+        "purl": "pkg:rpm/tuxcare/tigervnc-icons?distro=centos-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.8.0-33.0.7.el7_9.tuxcare.els5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:7",
+        "name": "tigervnc-license",
+        "purl": "pkg:rpm/tuxcare/tigervnc-license?distro=centos-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.8.0-33.0.7.el7_9.tuxcare.els5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:7",
+        "name": "tigervnc-server",
+        "purl": "pkg:rpm/tuxcare/tigervnc-server?distro=centos-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.8.0-33.0.7.el7_9.tuxcare.els5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:7",
+        "name": "tigervnc-server-applet",
+        "purl": "pkg:rpm/tuxcare/tigervnc-server-applet?distro=centos-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.8.0-33.0.7.el7_9.tuxcare.els5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:7",
+        "name": "tigervnc-server-minimal",
+        "purl": "pkg:rpm/tuxcare/tigervnc-server-minimal?distro=centos-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.8.0-33.0.7.el7_9.tuxcare.els5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:7",
+        "name": "tigervnc-server-module",
+        "purl": "pkg:rpm/tuxcare/tigervnc-server-module?distro=centos-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.8.0-33.0.7.el7_9.tuxcare.els5"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-33999",
+    "CVE-2026-34001",
+    "CVE-2026-34003"
+  ],
+  "published": "2026-06-11T20:05:43Z",
+  "modified": "2026-06-11T20:05:43Z",
+  "details": "- CVE-2026-33999: fix buffer re-use in _XkbSetCompatMap() in the bundled\n  xorg-x11-server source to prevent a buffer read overrun\n- CVE-2026-34001: fix use-after-free in miSyncTriggerFence() in the bundled\n  xorg-x11-server source\n- CVE-2026-34003: add additional bound checking in CheckKeyTypes() in the\n  bundled xorg-x11-server source to prevent an out-of-bounds read",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/centos7els/CLSA-2026-1781081364.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-33999",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-34001",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-34003",
+      "type": "ADVISORY"
+    }
+  ]
+}

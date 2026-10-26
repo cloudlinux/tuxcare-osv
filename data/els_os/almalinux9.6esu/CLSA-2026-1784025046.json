@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1784025046",
+  "summary": "grafana-pcp: Fix of CVE-2026-39821",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "grafana-pcp",
+        "purl": "pkg:rpm/tuxcare/grafana-pcp?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.1.1-11.el9_6.tuxcare.els5"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-39821"
+  ],
+  "published": "2026-07-14T10:31:01Z",
+  "modified": "2026-07-14T10:31:01Z",
+  "details": "- CVE-2026-39821: update bundled golang.org/x/net to 0.55.0 so that IDNA\n  ToASCII/ToUnicode reject Punycode-encoded labels that decode to an all-ASCII\n  name, preventing hostname authorization bypass and privilege escalation",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/tuxcare9.6esu/CLSA-2026-1784025046.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-39821",
+      "type": "ADVISORY"
+    }
+  ]
+}

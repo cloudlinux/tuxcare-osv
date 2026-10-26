@@ -1,0 +1,53 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1784038140",
+  "summary": "Fix CVE(s): CVE-2026-58470, CVE-2026-58471, CVE-2026-58472",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Debian:10",
+        "name": "wget",
+        "purl": "pkg:deb/tuxcare/wget?distro=debian-10"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.20.1-1.1+tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-58470",
+    "CVE-2026-58471",
+    "CVE-2026-58472"
+  ],
+  "published": "2026-07-14T14:09:19Z",
+  "modified": "2026-07-14T14:09:19Z",
+  "details": "   * SECURITY UPDATE: fix integer overflow in Content-Range header parsing in src/http.c\n     - debian/patches/CVE-2026-58470.patch: fix integer overflow in Content-Range header parsing in src/http.c\n     - CVE-2026-58470\n   * SECURITY UPDATE: fix heap buffer overflow in filename charset conversion (convert_fname) in src/url.c\n     - debian/patches/CVE-2026-58471.patch: fix heap buffer overflow in filename charset conversion (convert_fname) in src/url.c\n     - CVE-2026-58471\n   * SECURITY UPDATE: fix integer/heap buffer overflow in HTML attribute entity encoding (html_quote_string) in src/convert.c\n     - debian/patches/CVE-2026-58472.patch: fix integer/heap buffer overflow in HTML attribute entity encoding (html_quote_string) in src/convert.c\n     - CVE-2026-58472",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/debian10els/CLSA-2026-1784038140.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-58470",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-58471",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-58472",
+      "type": "ADVISORY"
+    }
+  ]
+}

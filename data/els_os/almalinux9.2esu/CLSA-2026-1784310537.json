@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1784310537",
+  "summary": "wget: Fix of CVE-2026-58470",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "wget",
+        "purl": "pkg:rpm/tuxcare/wget?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.21.1-7.el9_2.tuxcare.els4"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-58470"
+  ],
+  "published": "2026-07-17T17:49:19Z",
+  "modified": "2026-07-17T17:49:19Z",
+  "details": "- CVE-2026-58470: fix integer overflow in parse_content_range",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/almalinux9.2esu/CLSA-2026-1784310537.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-58470",
+      "type": "ADVISORY"
+    }
+  ]
+}

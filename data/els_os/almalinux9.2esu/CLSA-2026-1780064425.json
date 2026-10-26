@@ -1,0 +1,59 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1780064425",
+  "summary": "rsync: Fix of CVE-2026-41035",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "rsync",
+        "purl": "pkg:rpm/tuxcare/rsync?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.2.3-19.el9_2.tuxcare.els7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "rsync-daemon",
+        "purl": "pkg:rpm/tuxcare/rsync-daemon?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.2.3-19.el9_2.tuxcare.els7"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-41035"
+  ],
+  "published": "2026-05-29T14:20:29Z",
+  "modified": "2026-05-29T14:20:29Z",
+  "details": "- CVE-2026-41035: fix use of wrong element count in qsort call in\n  receive_xattr() leading to SIGSEGV",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/almalinux9.2esu/CLSA-2026-1780064425.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

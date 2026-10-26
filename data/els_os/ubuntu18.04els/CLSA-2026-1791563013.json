@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1791563013",
+  "summary": "Fix CVE(s): CVE-2022-4055",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "xdg-utils",
+        "purl": "pkg:deb/tuxcare/xdg-utils?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.1.2-1ubuntu2.5+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2022-4055"
+  ],
+  "published": "2026-10-09T16:23:45Z",
+  "modified": "2026-10-09T16:23:45Z",
+  "details": "   * SECURITY UPDATE: -compose argument injection in run_thunderbird()\n     - debian/patches/CVE-2022-4055.patch: strip ' from to=/cc=/bcc=/attach=\n       and escape , ' and \" in subject=/body= in scripts/xdg-email.in\n     - CVE-2022-4055",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/ubuntu18.04els/CLSA-2026-1791563013.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2022-4055",
+      "type": "ADVISORY"
+    }
+  ]
+}

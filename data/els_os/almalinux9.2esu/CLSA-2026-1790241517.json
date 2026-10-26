@@ -1,0 +1,63 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1790241517",
+  "summary": "skopeo: Fix of CVE-2026-25679",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "skopeo",
+        "purl": "pkg:rpm/tuxcare/skopeo?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:1.11.2-0.1.el9_2.tuxcare.els8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "skopeo-tests",
+        "purl": "pkg:rpm/tuxcare/skopeo-tests?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:1.11.2-0.1.el9_2.tuxcare.els8"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-25679"
+  ],
+  "published": "2026-09-24T09:18:49Z",
+  "modified": "2026-09-24T09:18:49Z",
+  "details": "- CVE-2026-25679: rebuild with newer golang 1.22.9-1.el9_2.tuxcare.els25\n  (net/url: reject IPv6 literal not at start of host)",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/almalinux9.2esu/CLSA-2026-1790241517.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-25679",
+      "type": "ADVISORY"
+    }
+  ]
+}

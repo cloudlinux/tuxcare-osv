@@ -1,0 +1,64 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1781608329",
+  "summary": "postgresql-jdbc: Fix of CVE-2026-42198",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "postgresql-jdbc",
+        "purl": "pkg:rpm/tuxcare/postgresql-jdbc?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "42.2.28-1.el9_3.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "postgresql-jdbc-javadoc",
+        "purl": "pkg:rpm/tuxcare/postgresql-jdbc-javadoc?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "42.2.28-1.el9_3.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-42198",
+    "CVE-2024-1597"
+  ],
+  "published": "2026-06-16T11:12:24Z",
+  "modified": "2026-06-16T11:12:24Z",
+  "details": "- update to 42.2.28\n- CVE-2024-1597: fix SQL injection in PostgreSQL JDBC simple query mode",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/tuxcare9.6esu/CLSA-2026-1781608329.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-42198",
+      "type": "ADVISORY"
+    }
+  ]
+}

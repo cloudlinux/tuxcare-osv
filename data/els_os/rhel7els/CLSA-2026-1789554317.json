@@ -1,0 +1,108 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1789554317",
+  "summary": "libxml2: Fix of 2 CVEs",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:RHEL:7",
+        "name": "libxml2",
+        "purl": "pkg:rpm/tuxcare/libxml2?distro=rhel-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.9.1-6.0.11.el7_9.6.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:RHEL:7",
+        "name": "libxml2-devel",
+        "purl": "pkg:rpm/tuxcare/libxml2-devel?distro=rhel-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.9.1-6.0.11.el7_9.6.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:RHEL:7",
+        "name": "libxml2-python",
+        "purl": "pkg:rpm/tuxcare/libxml2-python?distro=rhel-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.9.1-6.0.11.el7_9.6.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:RHEL:7",
+        "name": "libxml2-static",
+        "purl": "pkg:rpm/tuxcare/libxml2-static?distro=rhel-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.9.1-6.0.11.el7_9.6.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-86143",
+    "CVE-2026-86144"
+  ],
+  "published": "2026-09-16T10:25:27Z",
+  "modified": "2026-09-16T10:25:27Z",
+  "details": "- CVE-2026-86143: guard the size_t buffer length against INT_MAX before it is\n  narrowed to the int passed to writecallback in xmlOutputBufferWrite(),\n  xmlOutputBufferWriteEscape() and xmlOutputBufferFlush() (xmlIO.c), so a\n  negative length can no longer reach an output callback\n- CVE-2026-86144: propagate the document's parseFlags in xmlXIncludeProcess()\n  and xmlXIncludeProcessTree() and apply them to the parse=\"text\" sub-context\n  in xmlXIncludeLoadTxt() (xinclude.c), so XML_PARSE_NONET is honoured during\n  XInclude resolution",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/rhel7els/CLSA-2026-1789554317.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-86143",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-86144",
+      "type": "ADVISORY"
+    }
+  ]
+}

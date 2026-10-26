@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1784808838",
+  "summary": "python-pip: Fix of CVE-2021-3572",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:7",
+        "name": "python3-pip",
+        "purl": "pkg:rpm/tuxcare/python3-pip?distro=oraclelinux-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "9.0.3-8.0.3.el7.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2021-3572",
+    "CVE-2019-20916"
+  ],
+  "published": "2026-07-23T12:14:24Z",
+  "modified": "2026-07-23T12:14:24Z",
+  "details": "- Merge Oracle Linux 7 changes\n- CVE-2019-20916: sanitize Content-Disposition filename to prevent\n  directory traversal",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/oraclelinux7els/CLSA-2026-1784808838.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-3572",
+      "type": "ADVISORY"
+    }
+  ]
+}

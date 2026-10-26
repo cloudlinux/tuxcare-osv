@@ -1,0 +1,113 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1792795609",
+  "summary": "Fix CVE(s): CVE-2026-110264, CVE-2026-93577, CVE-2026-97229",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "libruby2.5",
+        "purl": "pkg:deb/tuxcare/libruby2.5?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.5.1-1ubuntu1.16+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "ruby2.5",
+        "purl": "pkg:deb/tuxcare/ruby2.5?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.5.1-1ubuntu1.16+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "ruby2.5-dev",
+        "purl": "pkg:deb/tuxcare/ruby2.5-dev?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.5.1-1ubuntu1.16+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "ruby2.5-doc",
+        "purl": "pkg:deb/tuxcare/ruby2.5-doc?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.5.1-1ubuntu1.16+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-110264",
+    "CVE-2026-93577",
+    "CVE-2026-97229"
+  ],
+  "published": "2026-10-23T22:47:00Z",
+  "modified": "2026-10-23T22:47:00Z",
+  "details": "   * SECURITY UPDATE: out-of-bounds repeat stack access in regexps\n     - debian/patches/CVE-2026-110264.patch: reject patterns whose range-repeat\n       or null-check count overflows the ID type in regcomp.c\n     - CVE-2026-110264\n   * SECURITY UPDATE: wrapped jump offsets in compiled regexps\n     - debian/patches/CVE-2026-93577-CVE-2026-97229.patch: check quantifier\n       expansion without int overflow and cap program size in regcomp.c\n     - CVE-2026-93577\n     - CVE-2026-97229\n   * Fix build-time test failures:\n     - debian/tests/excludes: skip the DTrace probe and two permission tests,\n       which fail when the test suite runs as root, the TLS tests whose\n       test certificates expired and the EADDRINUSE local bind tests",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/ubuntu18.04els/CLSA-2026-1792795609.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-110264",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-93577",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-97229",
+      "type": "ADVISORY"
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1790802906",
+  "summary": "expat: Fix of 3 CVEs",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "expat",
+        "purl": "pkg:rpm/tuxcare/expat?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.5.0-1.el9_2.tuxcare.els17"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "expat-devel",
+        "purl": "pkg:rpm/tuxcare/expat-devel?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.5.0-1.el9_2.tuxcare.els17"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "expat-static",
+        "purl": "pkg:rpm/tuxcare/expat-static?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.5.0-1.el9_2.tuxcare.els17"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-66046",
+    "CVE-2026-93990"
+  ],
+  "published": "2026-10-04T19:51:19Z",
+  "modified": "2026-10-04T19:51:19Z",
+  "details": "- CVE-2026-66046: replace the linear scan of elementType->defaultAtts in\n  storeAtts() with a hash table lookup, and carry the attribute index\n  over in dtdCopy() so the lookup stays in bounds\n- CVE-2026-93990: reject a UTF-16 high surrogate that is not followed by\n  a low surrogate, so a lone high surrogate can no longer consume the\n  next code unit as a fake low and hide markup such as '<' from the\n  tokenizer",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/almalinux9.2esu/CLSA-2026-1790802906.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-66046",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76641",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-93990",
+      "type": "ADVISORY"
+    }
+  ]
+}

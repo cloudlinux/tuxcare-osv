@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1792771054",
+  "summary": "flatpak-builder: Fix of CVE-2026-86320",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "flatpak-builder",
+        "purl": "pkg:rpm/tuxcare/flatpak-builder?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.2.3-1.el9_6.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-86320"
+  ],
+  "published": "2026-10-23T15:57:45Z",
+  "modified": "2026-10-23T15:57:45Z",
+  "details": "- CVE-2026-86320: disable git hooks when applying patch sources",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/tuxcare9.6esu/CLSA-2026-1792771054.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-86320",
+      "type": "ADVISORY"
+    }
+  ]
+}

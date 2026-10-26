@@ -1,0 +1,103 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1791506807",
+  "summary": "Fix CVE(s): CVE-2026-76844",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Debian:10",
+        "name": "lib32z1",
+        "purl": "pkg:deb/tuxcare/lib32z1?distro=debian-10"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:1.2.11.dfsg-1+deb10u2+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Debian:10",
+        "name": "lib32z1-dev",
+        "purl": "pkg:deb/tuxcare/lib32z1-dev?distro=debian-10"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:1.2.11.dfsg-1+deb10u2+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Debian:10",
+        "name": "zlib1g",
+        "purl": "pkg:deb/tuxcare/zlib1g?distro=debian-10"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:1.2.11.dfsg-1+deb10u2+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Debian:10",
+        "name": "zlib1g-dev",
+        "purl": "pkg:deb/tuxcare/zlib1g-dev?distro=debian-10"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:1.2.11.dfsg-1+deb10u2+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-76844"
+  ],
+  "published": "2026-10-09T00:47:00Z",
+  "modified": "2026-10-09T00:47:00Z",
+  "details": "   * SECURITY UPDATE: heap buffer overflow after a failed write\n     - debian/patches/CVE-2026-76844.patch: in gzwrite.c reset\n       strm.next_in/avail_in when gz_comp() fails in gz_write().\n     - CVE-2026-76844",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/debian10els/CLSA-2026-1791506807.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76844",
+      "type": "ADVISORY"
+    }
+  ]
+}

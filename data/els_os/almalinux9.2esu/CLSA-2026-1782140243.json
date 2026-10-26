@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1782140243",
+  "summary": "socat: Fix of CVE-2024-54661",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "socat",
+        "purl": "pkg:rpm/tuxcare/socat?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.7.4.1-5.el9.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2024-54661"
+  ],
+  "published": "2026-06-22T14:57:37Z",
+  "modified": "2026-06-22T14:57:37Z",
+  "details": "- CVE-2024-54661: fix arbitrary file overwrite in readline.sh",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/almalinux9.2esu/CLSA-2026-1782140243.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-54661",
+      "type": "ADVISORY"
+    }
+  ]
+}

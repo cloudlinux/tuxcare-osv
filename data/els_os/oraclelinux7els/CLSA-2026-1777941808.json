@@ -1,7 +1,7 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2026-1777941808",
-  "summary": "libcap: Fix of CVE-2026-4878",
+  "summary": "libcap: Fix of 2 CVEs",
   "affected": [
     {
       "package": {
@@ -47,12 +47,20 @@
   "upstream": [
     "CVE-2026-4878"
   ],
-  "published": "2026-05-05T00:43:42Z",
-  "modified": "2026-05-05T00:43:42Z",
+  "published": "2026-06-25T09:21:12Z",
+  "modified": "2026-06-25T09:21:12Z",
   "details": "- CVE-2026-4878: fix TOCTOU race in cap_set_file() by performing xattr writes via an O_NOFOLLOW file descriptor instead of the user-supplied path",
   "references": [
     {
       "url": "https://errata.tuxcare.com/els_os/oraclelinux7els/CLSA-2026-1777941808.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-2603",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-4878",
       "type": "ADVISORY"
     }
   ]

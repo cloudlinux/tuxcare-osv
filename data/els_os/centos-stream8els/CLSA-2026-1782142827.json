@@ -1,0 +1,168 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1782142827",
+  "summary": "sqlite: Fix of 2 CVEs",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS-Stream:8",
+        "name": "lemon",
+        "purl": "pkg:rpm/tuxcare/lemon?distro=centos-stream-8"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.26.0-19.el8.tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS-Stream:8",
+        "name": "sqlite",
+        "purl": "pkg:rpm/tuxcare/sqlite?distro=centos-stream-8"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.26.0-19.el8.tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS-Stream:8",
+        "name": "sqlite-analyzer",
+        "purl": "pkg:rpm/tuxcare/sqlite-analyzer?distro=centos-stream-8"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.26.0-19.el8.tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS-Stream:8",
+        "name": "sqlite-devel",
+        "purl": "pkg:rpm/tuxcare/sqlite-devel?distro=centos-stream-8"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.26.0-19.el8.tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS-Stream:8",
+        "name": "sqlite-doc",
+        "purl": "pkg:rpm/tuxcare/sqlite-doc?distro=centos-stream-8"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.26.0-19.el8.tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS-Stream:8",
+        "name": "sqlite-libs",
+        "purl": "pkg:rpm/tuxcare/sqlite-libs?distro=centos-stream-8"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.26.0-19.el8.tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS-Stream:8",
+        "name": "sqlite-tcl",
+        "purl": "pkg:rpm/tuxcare/sqlite-tcl?distro=centos-stream-8"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.26.0-19.el8.tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-11822",
+    "CVE-2026-11824"
+  ],
+  "published": "2026-06-22T15:40:43Z",
+  "modified": "2026-06-22T15:40:43Z",
+  "details": "- CVE-2026-11822: fix memory corruption in FTS5 fts5LeafRead() by rejecting\n  leaf pages with szLeaf < 4, blocking the OOB read in fts5LeafSeek()\n- CVE-2026-11824: fix heap-based buffer overflow via integer underflow in\n  fts5ChunkIterate() when szLeaf < 4 (same root cause; closed by the same\n  fts5LeafRead validation tightening)",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/centos-stream8els/CLSA-2026-1782142827.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-11822",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-11824",
+      "type": "ADVISORY"
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1785316580",
+  "summary": "libpq: Fix of 2 CVEs",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "libpq",
+        "purl": "pkg:rpm/tuxcare/libpq?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "13.5-1.el9.tuxcare.els4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "libpq-devel",
+        "purl": "pkg:rpm/tuxcare/libpq-devel?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "13.5-1.el9.tuxcare.els4"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2022-41862"
+  ],
+  "published": "2026-07-29T09:16:32Z",
+  "modified": "2026-07-29T09:16:32Z",
+  "details": "- CVE-2022-41862: NULL-terminate the GSSAPI receive buffer on error packets so\n  a modified server cannot make libpq over-read into its error message",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/almalinux9.2esu/CLSA-2026-1785316580.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2022-41862",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-6477",
+      "type": "ADVISORY"
+    }
+  ]
+}

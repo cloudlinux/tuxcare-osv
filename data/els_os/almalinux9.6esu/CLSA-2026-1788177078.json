@@ -1,0 +1,83 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1788177078",
+  "summary": "coreutils: Fix of CVE-2026-56392",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "coreutils",
+        "purl": "pkg:rpm/tuxcare/coreutils?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8.32-39.el9.tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "coreutils-common",
+        "purl": "pkg:rpm/tuxcare/coreutils-common?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8.32-39.el9.tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "coreutils-single",
+        "purl": "pkg:rpm/tuxcare/coreutils-single?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8.32-39.el9.tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-56392"
+  ],
+  "published": "2026-08-31T11:51:29Z",
+  "modified": "2026-08-31T11:51:29Z",
+  "details": "- CVE-2026-56392: fix heap buffer overflow in unexpand caused by an integer\n  overflow when allocating the pending-blank buffer for large -t values\n  (backport of upstream b60a159f and follow-up 4ade9cf7)",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/tuxcare9.6esu/CLSA-2026-1788177078.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-56392",
+      "type": "ADVISORY"
+    }
+  ]
+}

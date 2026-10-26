@@ -1,0 +1,103 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1789657645",
+  "summary": "osbuild-composer: Fix of CVE-2026-42502",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "osbuild-composer",
+        "purl": "pkg:rpm/tuxcare/osbuild-composer?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "132.2-3.el9_6.alma.1.tuxcare.els9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "osbuild-composer-core",
+        "purl": "pkg:rpm/tuxcare/osbuild-composer-core?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "132.2-3.el9_6.alma.1.tuxcare.els9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "osbuild-composer-tests",
+        "purl": "pkg:rpm/tuxcare/osbuild-composer-tests?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "132.2-3.el9_6.alma.1.tuxcare.els9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "osbuild-composer-worker",
+        "purl": "pkg:rpm/tuxcare/osbuild-composer-worker?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "132.2-3.el9_6.alma.1.tuxcare.els9"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-42502"
+  ],
+  "published": "2026-09-17T15:07:38Z",
+  "modified": "2026-09-17T15:07:38Z",
+  "details": "- CVE-2026-42502: treat foster-parented raw-text elements in foreign content as\n  escaped rather than literal in childTextNodesAreLiteral of the vendored\n  golang.org/x/net/html, preventing a cross-site scripting bypass when a parsed\n  tree is re-rendered",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/tuxcare9.6esu/CLSA-2026-1789657645.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-42502",
+      "type": "ADVISORY"
+    }
+  ]
+}

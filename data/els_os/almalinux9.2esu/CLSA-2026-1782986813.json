@@ -1,0 +1,163 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1782986813",
+  "summary": "tigervnc: Fix of CVE-2026-50262",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "tigervnc",
+        "purl": "pkg:rpm/tuxcare/tigervnc?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.12.0-13.el9_2.tuxcare.els26"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "tigervnc-icons",
+        "purl": "pkg:rpm/tuxcare/tigervnc-icons?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.12.0-13.el9_2.tuxcare.els26"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "tigervnc-license",
+        "purl": "pkg:rpm/tuxcare/tigervnc-license?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.12.0-13.el9_2.tuxcare.els26"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "tigervnc-selinux",
+        "purl": "pkg:rpm/tuxcare/tigervnc-selinux?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.12.0-13.el9_2.tuxcare.els26"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "tigervnc-server",
+        "purl": "pkg:rpm/tuxcare/tigervnc-server?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.12.0-13.el9_2.tuxcare.els26"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "tigervnc-server-minimal",
+        "purl": "pkg:rpm/tuxcare/tigervnc-server-minimal?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.12.0-13.el9_2.tuxcare.els26"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "tigervnc-server-module",
+        "purl": "pkg:rpm/tuxcare/tigervnc-server-module?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.12.0-13.el9_2.tuxcare.els26"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-50262"
+  ],
+  "published": "2026-07-02T10:07:10Z",
+  "modified": "2026-07-02T10:07:10Z",
+  "details": "- CVE-2026-50262: fix reversed request-length check in GLX\n  __glXDisp_ChangeDrawableAttributes (and swapped variant) by reverting the\n  mesa size-check workaround and restoring REQUEST_FIXED_SIZE /\n  REQUEST_SIZE_MATCH in the bundled xserver GLX handlers (out-of-bounds read)",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/almalinux9.2esu/CLSA-2026-1782986813.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-50262",
+      "type": "ADVISORY"
+    }
+  ]
+}

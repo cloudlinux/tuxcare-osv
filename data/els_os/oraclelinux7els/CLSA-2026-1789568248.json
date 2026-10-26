@@ -1,0 +1,164 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1789568248",
+  "summary": "python3: Fix of CVE-2026-11972",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:7",
+        "name": "python3",
+        "purl": "pkg:rpm/tuxcare/python3?distro=oraclelinux-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.6.8-21.0.5.el7_9.tuxcare.els14"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:7",
+        "name": "python3-debug",
+        "purl": "pkg:rpm/tuxcare/python3-debug?distro=oraclelinux-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.6.8-21.0.5.el7_9.tuxcare.els14"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:7",
+        "name": "python3-devel",
+        "purl": "pkg:rpm/tuxcare/python3-devel?distro=oraclelinux-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.6.8-21.0.5.el7_9.tuxcare.els14"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:7",
+        "name": "python3-idle",
+        "purl": "pkg:rpm/tuxcare/python3-idle?distro=oraclelinux-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.6.8-21.0.5.el7_9.tuxcare.els14"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:7",
+        "name": "python3-libs",
+        "purl": "pkg:rpm/tuxcare/python3-libs?distro=oraclelinux-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.6.8-21.0.5.el7_9.tuxcare.els14"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:7",
+        "name": "python3-test",
+        "purl": "pkg:rpm/tuxcare/python3-test?distro=oraclelinux-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.6.8-21.0.5.el7_9.tuxcare.els14"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:7",
+        "name": "python3-tkinter",
+        "purl": "pkg:rpm/tuxcare/python3-tkinter?distro=oraclelinux-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.6.8-21.0.5.el7_9.tuxcare.els14"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-11972",
+    "CVE-2026-6100"
+  ],
+  "published": "2026-09-16T14:17:38Z",
+  "modified": "2026-09-16T14:17:38Z",
+  "details": "- CVE-2026-6100: clear dangling next_in pointer after MemoryError in bz2/lzma decompress to avoid use-after-free on decompressor reuse\n- CVE-2026-11972: break tarfile._Stream.seek block-skip loop at EOF to avoid a hang on crafted streaming archives",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/oraclelinux7els/CLSA-2026-1789568248.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-11972",
+      "type": "ADVISORY"
+    }
+  ]
+}

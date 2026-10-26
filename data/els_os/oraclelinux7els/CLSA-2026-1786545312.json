@@ -1,0 +1,108 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1786545312",
+  "summary": "openssl11: Fix of 2 CVEs",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:7",
+        "name": "openssl11",
+        "purl": "pkg:rpm/tuxcare/openssl11?distro=oraclelinux-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:1.1.1k-7.el7.tuxcare.els4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:7",
+        "name": "openssl11-devel",
+        "purl": "pkg:rpm/tuxcare/openssl11-devel?distro=oraclelinux-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:1.1.1k-7.el7.tuxcare.els4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:7",
+        "name": "openssl11-libs",
+        "purl": "pkg:rpm/tuxcare/openssl11-libs?distro=oraclelinux-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:1.1.1k-7.el7.tuxcare.els4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:7",
+        "name": "openssl11-static",
+        "purl": "pkg:rpm/tuxcare/openssl11-static?distro=oraclelinux-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:1.1.1k-7.el7.tuxcare.els4"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-34180",
+    "CVE-2026-42766"
+  ],
+  "published": "2026-08-12T14:35:33Z",
+  "modified": "2026-08-12T14:35:33Z",
+  "details": "- CVE-2026-34180: avoid truncating a long ASN.1 content length to int in\n  asn1_ex_c2i(), which caused a heap buffer over-read for primitive\n  elements larger than 2GB\n- CVE-2026-42766: reject a CMS PasswordRecipientInfo whose\n  keyDerivationAlgorithm is absent instead of dereferencing NULL",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/oraclelinux7els/CLSA-2026-1786545312.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-34180",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-42766",
+      "type": "ADVISORY"
+    }
+  ]
+}

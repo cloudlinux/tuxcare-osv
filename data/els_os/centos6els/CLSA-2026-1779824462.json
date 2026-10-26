@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1779824462",
+  "summary": "rsync: Fix of 2 CVEs",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:6",
+        "name": "rsync",
+        "purl": "pkg:rpm/tuxcare/rsync?distro=centos-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.0.6-12.el6.tuxcare.els8"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-43618",
+    "CVE-2026-29518"
+  ],
+  "published": "2026-05-26T19:41:06Z",
+  "modified": "2026-05-26T19:41:06Z",
+  "details": "- CVE-2026-43618: fix integer overflow in compressed-token decoding that\n  could leak rsync process memory contents over the wire\n- CVE-2026-29518: fix TOCTOU race on parent path components in non-chroot\n  daemon by routing receiver/sender opens, chmod, and chdir through per-\n  component O_NOFOLLOW secure variants gated on use_secure_symlinks",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/centos6els/CLSA-2026-1779824462.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

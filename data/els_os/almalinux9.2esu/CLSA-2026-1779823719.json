@@ -1,0 +1,79 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1779823719",
+  "summary": "gd: Fix of CVE-2021-40812",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "gd",
+        "purl": "pkg:rpm/tuxcare/gd?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.3.2-3.el9_2.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "gd-devel",
+        "purl": "pkg:rpm/tuxcare/gd-devel?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.3.2-3.el9_2.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "gd-progs",
+        "purl": "pkg:rpm/tuxcare/gd-progs?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.3.2-3.el9_2.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2021-40812"
+  ],
+  "published": "2026-05-26T19:28:43Z",
+  "modified": "2026-05-26T19:28:43Z",
+  "details": "- CVE-2021-40812: out-of-bounds read in BMP/WebP output due to unchecked gdPutBuf return values",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/almalinux9.2esu/CLSA-2026-1779823719.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

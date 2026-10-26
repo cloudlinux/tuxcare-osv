@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1785516280",
+  "summary": "Update of sos",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:7",
+        "name": "sos",
+        "purl": "pkg:rpm/tuxcare/sos?distro=centos-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.9-6.el7.centos.12.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [],
+  "published": "2026-08-01T05:24:25Z",
+  "modified": "2026-08-01T05:24:25Z",
+  "details": "- Fix CentOS 7 dist tag (.el7.centos) and add CloudLinux .cloudlinux release infix\n- Bump leading release 5 -> 6 so the corrected package outranks the previously\n  released 3.9-5.el7.12.tuxcare.els1 / 3.9-5.el7_9.12.tuxcare.els1 builds",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/centos7els/CLSA-2026-1785516280.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1792441621",
+  "summary": "radvd: Fix of CVE-2026-48715",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:7",
+        "name": "radvd",
+        "purl": "pkg:rpm/tuxcare/radvd?distro=oraclelinux-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.17-3.el7.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-48715"
+  ],
+  "published": "2026-10-19T20:27:11Z",
+  "modified": "2026-10-19T20:27:11Z",
+  "details": "- CVE-2026-48715: radvdump stack buffer overflow in print_ff() Route\n  Information option parser via crafted ICMPv6 Router Advertisement",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/oraclelinux7els/CLSA-2026-1792441621.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-48715",
+      "type": "ADVISORY"
+    }
+  ]
+}

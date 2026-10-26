@@ -1,0 +1,190 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1780993349",
+  "summary": "Fix CVE(s): CVE-2026-34282",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:20.04",
+        "name": "openjdk-11-demo",
+        "purl": "pkg:deb/tuxcare/openjdk-11-demo?distro=ubuntu-20.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "11.0.31+11-0ubuntu1~20.04+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:20.04",
+        "name": "openjdk-11-doc",
+        "purl": "pkg:deb/tuxcare/openjdk-11-doc?distro=ubuntu-20.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "11.0.31+11-0ubuntu1~20.04+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:20.04",
+        "name": "openjdk-11-jdk",
+        "purl": "pkg:deb/tuxcare/openjdk-11-jdk?distro=ubuntu-20.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "11.0.31+11-0ubuntu1~20.04+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:20.04",
+        "name": "openjdk-11-jdk-headless",
+        "purl": "pkg:deb/tuxcare/openjdk-11-jdk-headless?distro=ubuntu-20.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "11.0.31+11-0ubuntu1~20.04+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:20.04",
+        "name": "openjdk-11-jre",
+        "purl": "pkg:deb/tuxcare/openjdk-11-jre?distro=ubuntu-20.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "11.0.31+11-0ubuntu1~20.04+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:20.04",
+        "name": "openjdk-11-jre-headless",
+        "purl": "pkg:deb/tuxcare/openjdk-11-jre-headless?distro=ubuntu-20.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "11.0.31+11-0ubuntu1~20.04+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:20.04",
+        "name": "openjdk-11-jre-zero",
+        "purl": "pkg:deb/tuxcare/openjdk-11-jre-zero?distro=ubuntu-20.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "11.0.31+11-0ubuntu1~20.04+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:20.04",
+        "name": "openjdk-11-source",
+        "purl": "pkg:deb/tuxcare/openjdk-11-source?distro=ubuntu-20.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "11.0.31+11-0ubuntu1~20.04+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-34282",
+    "CVE-2026-22007",
+    "CVE-2026-22013",
+    "CVE-2026-22016",
+    "CVE-2026-22018",
+    "CVE-2026-22021",
+    "CVE-2026-23865",
+    "CVE-2026-34268"
+  ],
+  "published": "2026-06-09T08:25:24Z",
+  "modified": "2026-06-09T08:25:24Z",
+  "details": "   * OpenJDK 11.0.31 release, build 11.\n     - CVE-2026-22007: Security component, improve API authentication\n     - CVE-2026-22013: JGSS component, improve API authentication\n     - CVE-2026-22016: JAXP component, improve API authentication\n     - CVE-2026-22018: Libraries component, improve API authentication\n     - CVE-2026-22021: JSSE component, improve API authentication\n     - CVE-2026-23865: 2D component, fix integer arithmetic\n     - CVE-2026-34268: Security component, improve API authentication\n     - CVE-2026-34282: Networking component, improve API authentication\n     - OpenJDK vulnerability advisory:\n       https://openjdk.org/groups/vulnerability/advisories/2026-04-21",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/ubuntu20.04els/CLSA-2026-1780993349.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-34282",
+      "type": "ADVISORY"
+    }
+  ]
+}

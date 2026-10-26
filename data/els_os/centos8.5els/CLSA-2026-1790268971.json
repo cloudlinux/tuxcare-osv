@@ -1,0 +1,57 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1790268971",
+  "summary": "Update of openvpn",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "openvpn",
+        "purl": "pkg:rpm/tuxcare/openvpn?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.4.12-2.el8.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "openvpn-devel",
+        "purl": "pkg:rpm/tuxcare/openvpn-devel?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.4.12-2.el8.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [],
+  "published": "2026-09-24T16:56:20Z",
+  "modified": "2026-09-24T16:56:20Z",
+  "details": "- re-import the vendor's 2.4.12-2.el8\n- ExcludeArch: i686 -- EPEL 8 publishes no i386 tree, so the buildroot for that\n  architecture cannot be assembled; we have never shipped an i686 build here\n- skip the loopback TLS test while the tarball's sample certificates are\n  expired (they lapsed on 2024-10-19); the handshake cannot complete and the\n  test hung every build to the 12 h rpmbuild limit",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/centos8.5els/CLSA-2026-1790268971.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

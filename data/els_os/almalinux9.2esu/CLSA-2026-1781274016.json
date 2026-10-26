@@ -1,0 +1,63 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1781274016",
+  "summary": "hostapd: Fix of CVE-2022-37660",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "hostapd",
+        "purl": "pkg:rpm/tuxcare/hostapd?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.10-1.el9.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "hostapd-logwatch",
+        "purl": "pkg:rpm/tuxcare/hostapd-logwatch?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.10-1.el9.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2022-37660"
+  ],
+  "published": "2026-06-12T14:20:38Z",
+  "modified": "2026-06-12T14:20:38Z",
+  "details": "- CVE-2022-37660: delete PKEX code and identifier on successful PKEX\n  completion to prevent passive recovery of ephemeral key X",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/almalinux9.2esu/CLSA-2026-1781274016.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2022-37660",
+      "type": "ADVISORY"
+    }
+  ]
+}

@@ -1,0 +1,183 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1786352989",
+  "summary": "Fix CVE(s): CVE-2026-59083",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Debian:10",
+        "name": "libtomcat9-embed-java",
+        "purl": "pkg:deb/tuxcare/libtomcat9-embed-java?distro=debian-10"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "9.0.31-1~deb10u12+tuxcare.els7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Debian:10",
+        "name": "libtomcat9-java",
+        "purl": "pkg:deb/tuxcare/libtomcat9-java?distro=debian-10"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "9.0.31-1~deb10u12+tuxcare.els7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Debian:10",
+        "name": "tomcat9",
+        "purl": "pkg:deb/tuxcare/tomcat9?distro=debian-10"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "9.0.31-1~deb10u12+tuxcare.els7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Debian:10",
+        "name": "tomcat9-admin",
+        "purl": "pkg:deb/tuxcare/tomcat9-admin?distro=debian-10"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "9.0.31-1~deb10u12+tuxcare.els7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Debian:10",
+        "name": "tomcat9-common",
+        "purl": "pkg:deb/tuxcare/tomcat9-common?distro=debian-10"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "9.0.31-1~deb10u12+tuxcare.els7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Debian:10",
+        "name": "tomcat9-docs",
+        "purl": "pkg:deb/tuxcare/tomcat9-docs?distro=debian-10"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "9.0.31-1~deb10u12+tuxcare.els7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Debian:10",
+        "name": "tomcat9-examples",
+        "purl": "pkg:deb/tuxcare/tomcat9-examples?distro=debian-10"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "9.0.31-1~deb10u12+tuxcare.els7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Debian:10",
+        "name": "tomcat9-user",
+        "purl": "pkg:deb/tuxcare/tomcat9-user?distro=debian-10"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "9.0.31-1~deb10u12+tuxcare.els7"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-59083"
+  ],
+  "published": "2026-08-10T09:09:59Z",
+  "modified": "2026-08-10T09:09:59Z",
+  "details": "   * SECURITY UPDATE: Security constraint bypass in the RewriteValve - the\n     decoded and normalized request URI used for subsequent security\n     constraint matching was produced with java.net.URLDecoder.decode(),\n     which applies form-encoding rules and converts '+' to a space instead\n     of performing proper URI percent-decoding\n     - debian/patches/CVE-2026-59083.patch: use Tomcat's UDecoder.URLDecode()\n       (already imported and used elsewhere in the class) instead of\n       java.net.URLDecoder.decode() to build the decoded request URI\n     - CVE-2026-59083",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/debian10els/CLSA-2026-1786352989.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59083",
+      "type": "ADVISORY"
+    }
+  ]
+}

@@ -1,0 +1,163 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1791558283",
+  "summary": "Fix CVE(s): CVE-2026-16118",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "libglib2.0-0",
+        "purl": "pkg:deb/tuxcare/libglib2.0-0?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.48.2-0ubuntu4.8+tuxcare.els8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "libglib2.0-0-refdbg",
+        "purl": "pkg:deb/tuxcare/libglib2.0-0-refdbg?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.48.2-0ubuntu4.8+tuxcare.els8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "libglib2.0-bin",
+        "purl": "pkg:deb/tuxcare/libglib2.0-bin?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.48.2-0ubuntu4.8+tuxcare.els8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "libglib2.0-data",
+        "purl": "pkg:deb/tuxcare/libglib2.0-data?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.48.2-0ubuntu4.8+tuxcare.els8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "libglib2.0-dev",
+        "purl": "pkg:deb/tuxcare/libglib2.0-dev?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.48.2-0ubuntu4.8+tuxcare.els8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "libglib2.0-doc",
+        "purl": "pkg:deb/tuxcare/libglib2.0-doc?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.48.2-0ubuntu4.8+tuxcare.els8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "libglib2.0-tests",
+        "purl": "pkg:deb/tuxcare/libglib2.0-tests?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.48.2-0ubuntu4.8+tuxcare.els8"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-16118"
+  ],
+  "published": "2026-10-09T15:04:53Z",
+  "modified": "2026-10-09T15:04:53Z",
+  "details": "   * SECURITY UPDATE: heap buffer overflow when byte-swapping MIME magic\n     values on little-endian systems\n     - debian/patches/CVE-2026-16118.patch: fix pointer arithmetic on the\n       write side of the byte swap in _xdg_mime_magic_parse_magic_line()\n     - CVE-2026-16118",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/ubuntu16.04els/CLSA-2026-1791558283.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-16118",
+      "type": "ADVISORY"
+    }
+  ]
+}

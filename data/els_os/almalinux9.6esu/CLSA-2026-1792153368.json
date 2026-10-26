@@ -1,0 +1,143 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1792153368",
+  "summary": "flatpak: Fix of CVE-2026-96280",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "flatpak",
+        "purl": "pkg:rpm/tuxcare/flatpak?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.12.9-4.el9_6.tuxcare.els6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "flatpak-devel",
+        "purl": "pkg:rpm/tuxcare/flatpak-devel?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.12.9-4.el9_6.tuxcare.els6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "flatpak-libs",
+        "purl": "pkg:rpm/tuxcare/flatpak-libs?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.12.9-4.el9_6.tuxcare.els6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "flatpak-selinux",
+        "purl": "pkg:rpm/tuxcare/flatpak-selinux?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.12.9-4.el9_6.tuxcare.els6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "flatpak-session-helper",
+        "purl": "pkg:rpm/tuxcare/flatpak-session-helper?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.12.9-4.el9_6.tuxcare.els6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "flatpak-tests",
+        "purl": "pkg:rpm/tuxcare/flatpak-tests?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.12.9-4.el9_6.tuxcare.els6"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-96280"
+  ],
+  "published": "2026-10-16T12:22:57Z",
+  "modified": "2026-10-16T12:22:57Z",
+  "details": "- CVE-2026-96280: the OCI delta parser read sizes as guint64 and passed them\n  to gsize APIs, and delta_read_data() allocated size + 1 bytes, which wraps\n  to zero for size G_MAXSIZE; sizes are now gsize and clamped to G_MAXSIZE,\n  delta_read_data() rejects size G_MAXSIZE and delta paths longer than\n  PATH_MAX are rejected",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/tuxcare9.6esu/CLSA-2026-1792153368.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-96280",
+      "type": "ADVISORY"
+    }
+  ]
+}

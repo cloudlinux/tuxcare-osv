@@ -1,0 +1,167 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1792513900",
+  "summary": "openssh: Fix of CVE-2026-106587",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "openssh",
+        "purl": "pkg:rpm/tuxcare/openssh?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8.7p1-30.el9_2.tuxcare.els25"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "openssh-askpass",
+        "purl": "pkg:rpm/tuxcare/openssh-askpass?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8.7p1-30.el9_2.tuxcare.els25"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "openssh-clients",
+        "purl": "pkg:rpm/tuxcare/openssh-clients?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8.7p1-30.el9_2.tuxcare.els25"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "openssh-keycat",
+        "purl": "pkg:rpm/tuxcare/openssh-keycat?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8.7p1-30.el9_2.tuxcare.els25"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "openssh-server",
+        "purl": "pkg:rpm/tuxcare/openssh-server?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8.7p1-30.el9_2.tuxcare.els25"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "openssh-sk-dummy",
+        "purl": "pkg:rpm/tuxcare/openssh-sk-dummy?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8.7p1-30.el9_2.tuxcare.els25"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "pam_ssh_agent_auth",
+        "purl": "pkg:rpm/tuxcare/pam_ssh_agent_auth?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.10.4-5.30.el9_2.tuxcare.els25"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-106587",
+    "CVE-2026-106586",
+    "CVE-2026-106552",
+    "CVE-2026-106584",
+    "CVE-2026-106582"
+  ],
+  "published": "2026-10-20T16:31:49Z",
+  "modified": "2026-10-20T16:31:49Z",
+  "details": "- CVE-2026-106587: sshd did not clear AuthorizedPrincipalsFile,\n  TrustedUserCAKeys and Banner when a Match block set them to \"none\", so\n  the global value stayed in effect before authentication; clear them in\n  the pre-auth part of copy_set_server_options(). Backport upstream\n  commit 526fd277.\n- CVE-2026-106586: sshd dropped the authorized_keys \"restrict\" flag when\n  merging key and certificate options, which could re-enable features such\n  as tunnel forwarding; OR the restricted flag in sshauthopt_merge().\n  Backport upstream commit 991f1f31.\n- CVE-2026-106552: sftp(1) accepted an empty file name from a server\n  directory listing and could pick \"..\" or the local root as an implicit\n  download destination; reject empty names and map \"..\" and remote roots\n  to \".\". Backport upstream commit c07ea218.\n- CVE-2026-106584: ssh-keygen(1) converted certificate validity dates\n  without letting mktime() decide DST, giving expiry times off by an hour;\n  set tm_isdst to -1 in parse_absolute_time(). Backport upstream commit\n  aef20dfe.\n- CVE-2026-106582: compressed SSH sessions used the zlib LZ77 dictionary\n  coder, exposing a compression side channel; use Huffman-only\n  compression for outgoing packets. Backport upstream commit 1d5340fc.",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/almalinux9.2esu/CLSA-2026-1792513900.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-106587",
+      "type": "ADVISORY"
+    }
+  ]
+}

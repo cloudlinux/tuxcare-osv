@@ -1,0 +1,163 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1792426319",
+  "summary": "Fix CVE(s): CVE-2026-15176",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "nginx",
+        "purl": "pkg:deb/tuxcare/nginx?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.10.3-0ubuntu0.16.04.8+tuxcare.els12"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "nginx-common",
+        "purl": "pkg:deb/tuxcare/nginx-common?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.10.3-0ubuntu0.16.04.8+tuxcare.els12"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "nginx-core",
+        "purl": "pkg:deb/tuxcare/nginx-core?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.10.3-0ubuntu0.16.04.8+tuxcare.els12"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "nginx-doc",
+        "purl": "pkg:deb/tuxcare/nginx-doc?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.10.3-0ubuntu0.16.04.8+tuxcare.els12"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "nginx-extras",
+        "purl": "pkg:deb/tuxcare/nginx-extras?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.10.3-0ubuntu0.16.04.8+tuxcare.els12"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "nginx-full",
+        "purl": "pkg:deb/tuxcare/nginx-full?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.10.3-0ubuntu0.16.04.8+tuxcare.els12"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "nginx-light",
+        "purl": "pkg:deb/tuxcare/nginx-light?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.10.3-0ubuntu0.16.04.8+tuxcare.els12"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-15176"
+  ],
+  "published": "2026-10-19T16:12:09Z",
+  "modified": "2026-10-19T16:12:09Z",
+  "details": "   * SECURITY UPDATE: heap buffer overflow via alias with rewrite and $request_filename\n     - debian/patches/CVE-2026-15176-pre.patch: clear r->valid_location on\n       a standalone \"break\" after the URI was rewritten\n     - debian/patches/CVE-2026-15176.patch: reject URI to path mapping in\n       ngx_http_map_uri_to_path() for an \"alias\" location once rewrite has\n       changed the URI\n     - CVE-2026-15176",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/ubuntu16.04els/CLSA-2026-1792426319.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-15176",
+      "type": "ADVISORY"
+    }
+  ]
+}

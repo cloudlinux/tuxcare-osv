@@ -1,7 +1,7 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2026-1779179106",
-  "summary": "php: Fix of 2 CVEs",
+  "summary": "php: Fix of 3 CVEs",
   "affected": [
     {
       "package": {
@@ -508,12 +508,24 @@
     "CVE-2026-7261",
     "CVE-2026-7262"
   ],
-  "published": "2026-05-19T08:25:10Z",
-  "modified": "2026-05-19T08:25:10Z",
+  "published": "2026-06-09T00:18:52Z",
+  "modified": "2026-06-09T00:18:52Z",
   "details": "- CVE-2026-7261: SOAP UAF on SoapServer::handle header-handler failure\n- CVE-2026-7262: SOAP to_zval_map NULL pointer dereference",
   "references": [
     {
       "url": "https://errata.tuxcare.com/els_os/rhel7els/CLSA-2026-1779179106.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-6735",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-7261",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-7262",
       "type": "ADVISORY"
     }
   ]

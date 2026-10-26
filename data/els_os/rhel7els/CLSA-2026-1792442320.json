@@ -1,0 +1,64 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1792442320",
+  "summary": "cifs-utils: Fix of CVE-2022-27239",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:RHEL:7",
+        "name": "cifs-utils",
+        "purl": "pkg:rpm/tuxcare/cifs-utils?distro=rhel-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "6.2-10.el7.0.5.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:RHEL:7",
+        "name": "cifs-utils-devel",
+        "purl": "pkg:rpm/tuxcare/cifs-utils-devel?distro=rhel-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "6.2-10.el7.0.5.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2022-27239",
+    "CVE-2020-14342"
+  ],
+  "published": "2026-10-19T20:38:51Z",
+  "modified": "2026-10-19T20:38:51Z",
+  "details": "- CVE-2020-14342: mount.cifs shell command injection via username mount\n  option when built with systemd-ask-password support",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/rhel7els/CLSA-2026-1792442320.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2022-27239",
+      "type": "ADVISORY"
+    }
+  ]
+}

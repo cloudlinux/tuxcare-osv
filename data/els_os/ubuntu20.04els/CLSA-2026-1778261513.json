@@ -1,7 +1,7 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2026-1778261513",
-  "summary": "Update of alt-php",
+  "summary": "Fix CVE(s): CVE-2026-43284",
   "affected": [
     {
       "package": {
@@ -444,13 +444,19 @@
       ]
     }
   ],
-  "upstream": [],
-  "published": "2026-05-08T19:50:40Z",
-  "modified": "2026-05-08T19:50:40Z",
+  "upstream": [
+    "CVE-2026-43284"
+  ],
+  "published": "2026-10-21T09:18:15Z",
+  "modified": "2026-10-21T09:18:15Z",
   "details": "   * Miscellaneous Ubuntu changes\n     - [Packaging]: add tuxcare suffix\n   * Miscellaneous upstream changes\n     - xfrm: esp: avoid in-place decrypt on shared skb frags\n     - rxrpc: Also unshare DATA/RESPONSE packets when paged frags are present",
   "references": [
     {
       "url": "https://errata.tuxcare.com/els_os/ubuntu20.04els/CLSA-2026-1778261513.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-43284",
       "type": "ADVISORY"
     }
   ]

@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1784553427",
+  "summary": "perl-XML-LibXML: Fix of CVE-2026-8177",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "perl-XML-LibXML",
+        "purl": "pkg:rpm/tuxcare/perl-XML-LibXML?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:2.0206-5.el9.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-8177"
+  ],
+  "published": "2026-07-20T13:17:30Z",
+  "modified": "2026-07-20T13:17:30Z",
+  "details": "- CVE-2026-8177: fix out-of-bounds read on truncated multi-byte UTF-8 node names\n  (replace hand-rolled domParseChar with libxml2 xmlValidateName)",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/almalinux9.2esu/CLSA-2026-1784553427.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-8177",
+      "type": "ADVISORY"
+    }
+  ]
+}

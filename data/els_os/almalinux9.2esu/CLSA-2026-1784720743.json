@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1784720743",
+  "summary": "patch: Fix of 2 CVEs",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "patch",
+        "purl": "pkg:rpm/tuxcare/patch?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.7.6-16.el9_2.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-56288",
+    "CVE-2026-56289"
+  ],
+  "published": "2026-07-22T11:46:11Z",
+  "modified": "2026-07-22T11:46:11Z",
+  "details": "- CVE-2026-56288: NULL pointer dereference via crafted unified-diff hunk (another_hunk)\n- CVE-2026-56289: Denial of service via infinite loop on null-range hunk offsets (locate_hunk)",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/almalinux9.2esu/CLSA-2026-1784720743.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-56288",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-56289",
+      "type": "ADVISORY"
+    }
+  ]
+}

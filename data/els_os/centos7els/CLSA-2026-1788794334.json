@@ -1,0 +1,208 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1788794334",
+  "summary": "xorg-x11-server: Fix of 2 CVEs",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:7",
+        "name": "xorg-x11-server-Xdmx",
+        "purl": "pkg:rpm/tuxcare/xorg-x11-server-Xdmx?distro=centos-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.20.4-99.el7_9.tuxcare.els12"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:7",
+        "name": "xorg-x11-server-Xephyr",
+        "purl": "pkg:rpm/tuxcare/xorg-x11-server-Xephyr?distro=centos-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.20.4-99.el7_9.tuxcare.els12"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:7",
+        "name": "xorg-x11-server-Xnest",
+        "purl": "pkg:rpm/tuxcare/xorg-x11-server-Xnest?distro=centos-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.20.4-99.el7_9.tuxcare.els12"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:7",
+        "name": "xorg-x11-server-Xorg",
+        "purl": "pkg:rpm/tuxcare/xorg-x11-server-Xorg?distro=centos-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.20.4-99.el7_9.tuxcare.els12"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:7",
+        "name": "xorg-x11-server-Xvfb",
+        "purl": "pkg:rpm/tuxcare/xorg-x11-server-Xvfb?distro=centos-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.20.4-99.el7_9.tuxcare.els12"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:7",
+        "name": "xorg-x11-server-Xwayland",
+        "purl": "pkg:rpm/tuxcare/xorg-x11-server-Xwayland?distro=centos-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.20.4-99.el7_9.tuxcare.els12"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:7",
+        "name": "xorg-x11-server-common",
+        "purl": "pkg:rpm/tuxcare/xorg-x11-server-common?distro=centos-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.20.4-99.el7_9.tuxcare.els12"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:7",
+        "name": "xorg-x11-server-devel",
+        "purl": "pkg:rpm/tuxcare/xorg-x11-server-devel?distro=centos-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.20.4-99.el7_9.tuxcare.els12"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:7",
+        "name": "xorg-x11-server-source",
+        "purl": "pkg:rpm/tuxcare/xorg-x11-server-source?distro=centos-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.20.4-99.el7_9.tuxcare.els12"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-50256",
+    "CVE-2026-50264"
+  ],
+  "published": "2026-09-09T11:30:55Z",
+  "modified": "2026-09-09T11:30:55Z",
+  "details": "- CVE-2026-50256: fix stack buffer overflow in font alias resolution by raising XLFDMAXFONTNAMELEN to libXfont2's MAXFONTNAMELEN and bounds-checking resolved names\n- CVE-2026-50264: fix out-of-bounds heap write in DRI2 DRIGetBuffers/DRIGetBuffersWithFormat by deduplicating attachments and tracking front buffers as booleans",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/centos7els/CLSA-2026-1788794334.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-50256",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-50264",
+      "type": "ADVISORY"
+    }
+  ]
+}

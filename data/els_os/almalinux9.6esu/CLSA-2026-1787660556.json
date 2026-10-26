@@ -1,0 +1,88 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1787660556",
+  "summary": "gstreamer1-plugins-good: Fix of 2 CVEs",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "gstreamer1-plugins-good",
+        "purl": "pkg:rpm/tuxcare/gstreamer1-plugins-good?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.22.12-4.el9.tuxcare.els4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "gstreamer1-plugins-good-gtk",
+        "purl": "pkg:rpm/tuxcare/gstreamer1-plugins-good-gtk?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.22.12-4.el9.tuxcare.els4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "gstreamer1-plugins-good-qt",
+        "purl": "pkg:rpm/tuxcare/gstreamer1-plugins-good-qt?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.22.12-4.el9.tuxcare.els4"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-73433",
+    "CVE-2026-73434"
+  ],
+  "published": "2026-08-25T15:19:28Z",
+  "modified": "2026-08-25T15:19:28Z",
+  "details": "- CVE-2026-73433: avidemux: make sure enough data is available when parsing\n  FUJIFILM strd and stop modifying read-only mapped buffer data\n- CVE-2026-73434: avidemux: use the correct divisor when calculating the\n  available number of vprp field infos",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/tuxcare9.6esu/CLSA-2026-1787660556.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-73433",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-73434",
+      "type": "ADVISORY"
+    }
+  ]
+}

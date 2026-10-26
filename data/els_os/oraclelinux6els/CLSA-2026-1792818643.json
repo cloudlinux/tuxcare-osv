@@ -1,0 +1,69 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1792818643",
+  "summary": "libarchive: Fix of 2 CVEs",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:6",
+        "name": "libarchive",
+        "purl": "pkg:rpm/tuxcare/libarchive?distro=oraclelinux-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.8.3-7.el6_8.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:6",
+        "name": "libarchive-devel",
+        "purl": "pkg:rpm/tuxcare/libarchive-devel?distro=oraclelinux-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.8.3-7.el6_8.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2021-23177",
+    "CVE-2021-31566",
+    "CVE-2026-5121"
+  ],
+  "published": "2026-10-24T05:10:55Z",
+  "modified": "2026-10-24T05:10:55Z",
+  "details": "- CVE-2021-23177: fix extraction of ACLs to the symlink target instead of the link\n- CVE-2021-31566: do not follow symlinks when fixing up permissions and file flags\n- CVE-2026-5121: validate pz_log2_bs in the iso9660 zisofs reader",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/oraclelinux6els/CLSA-2026-1792818643.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-23177",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-31566",
+      "type": "ADVISORY"
+    }
+  ]
+}

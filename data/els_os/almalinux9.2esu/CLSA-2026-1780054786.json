@@ -1,0 +1,99 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1780054786",
+  "summary": "log4j: Fix of CVE-2026-34479",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "log4j",
+        "purl": "pkg:rpm/tuxcare/log4j?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.17.2-1.el9_2.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "log4j-jcl",
+        "purl": "pkg:rpm/tuxcare/log4j-jcl?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.17.2-1.el9_2.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "log4j-slf4j",
+        "purl": "pkg:rpm/tuxcare/log4j-slf4j?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.17.2-1.el9_2.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "log4j-web",
+        "purl": "pkg:rpm/tuxcare/log4j-web?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.17.2-1.el9_2.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-34479"
+  ],
+  "published": "2026-05-29T14:40:54Z",
+  "modified": "2026-05-29T14:40:54Z",
+  "details": "- CVE-2026-34479: fix Log4j1XmlLayout invalid XML 1.0 character escape",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/almalinux9.2esu/CLSA-2026-1780054786.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

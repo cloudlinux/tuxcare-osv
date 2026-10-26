@@ -1,7 +1,7 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2024-1722003515",
-  "summary": "openldap: Fix of CVE-2023-2953",
+  "summary": "openldap: Fix of 2 CVEs",
   "affected": [
     {
       "package": {
@@ -87,12 +87,20 @@
   "upstream": [
     "CVE-2023-2953"
   ],
-  "published": "2024-07-26T14:18:39Z",
-  "modified": "2024-07-26T14:18:39Z",
+  "published": "2026-10-19T14:14:40Z",
+  "modified": "2026-10-19T14:14:40Z",
   "details": "- CVE-2023-2953: added check for strdup failure, to avoid null pointer dereference",
   "references": [
     {
-      "url": "https://errata.tuxcare.com/centos8stream-els/CLSA-2024-1722003515.html",
+      "url": "https://errata.tuxcare.com/els_os/centos-stream8els/CLSA-2024-1722003515.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-27212",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-2953",
       "type": "ADVISORY"
     }
   ]

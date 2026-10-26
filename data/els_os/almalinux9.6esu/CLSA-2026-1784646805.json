@@ -1,0 +1,63 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1784646805",
+  "summary": "oci-seccomp-bpf-hook: Fix of CVE-2026-33811",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "oci-seccomp-bpf-hook",
+        "purl": "pkg:rpm/tuxcare/oci-seccomp-bpf-hook?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.2.11-1.el9_6.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "oci-seccomp-bpf-hook-tests",
+        "purl": "pkg:rpm/tuxcare/oci-seccomp-bpf-hook-tests?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.2.11-1.el9_6.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-33811"
+  ],
+  "published": "2026-07-21T15:13:51Z",
+  "modified": "2026-07-21T15:13:51Z",
+  "details": "- CVE-2026-33811: require golang >= 1.25.7-1.el9_6.tuxcare.els8 (which carries\n  the fix for the net LookupCNAME cgo double-free) and rebuild against it",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/tuxcare9.6esu/CLSA-2026-1784646805.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-33811",
+      "type": "ADVISORY"
+    }
+  ]
+}

@@ -1,0 +1,188 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1791831421",
+  "summary": "Fix CVE(s): CVE-2026-80186, CVE-2026-85218",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "bluetooth",
+        "purl": "pkg:deb/tuxcare/bluetooth?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.48-0ubuntu3.9+tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "bluez",
+        "purl": "pkg:deb/tuxcare/bluez?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.48-0ubuntu3.9+tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "bluez-cups",
+        "purl": "pkg:deb/tuxcare/bluez-cups?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.48-0ubuntu3.9+tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "bluez-hcidump",
+        "purl": "pkg:deb/tuxcare/bluez-hcidump?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.48-0ubuntu3.9+tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "bluez-obexd",
+        "purl": "pkg:deb/tuxcare/bluez-obexd?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.48-0ubuntu3.9+tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "bluez-tests",
+        "purl": "pkg:deb/tuxcare/bluez-tests?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.48-0ubuntu3.9+tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "libbluetooth-dev",
+        "purl": "pkg:deb/tuxcare/libbluetooth-dev?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.48-0ubuntu3.9+tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "libbluetooth3",
+        "purl": "pkg:deb/tuxcare/libbluetooth3?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.48-0ubuntu3.9+tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-80186",
+    "CVE-2026-85218"
+  ],
+  "published": "2026-10-12T18:57:13Z",
+  "modified": "2026-10-12T18:57:13Z",
+  "details": "   * SECURITY UPDATE: stack buffer overflow parsing a remote EIR name\n     - debian/patches/CVE-2026-80186.patch: clamp the name length to\n       HCI_MAX_NAME_LENGTH in name2utf8() in src/eir.c before copying it\n       into the fixed-size stack buffer.\n     - CVE-2026-80186\n   * SECURITY UPDATE: stack buffer overflow in AVRCP ListPlayerAttributes\n     response handling\n     - debian/patches/CVE-2026-85218.patch: validate the AVRCP header and\n       params_len against the received bytes and clamp the attribute count\n       to AVRCP_ATTRIBUTE_LAST in avrcp_list_player_attributes_rsp() in\n       profiles/audio/avrcp.c.\n     - CVE-2026-85218",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/ubuntu18.04els/CLSA-2026-1791831421.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-80186",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-85218",
+      "type": "ADVISORY"
+    }
+  ]
+}

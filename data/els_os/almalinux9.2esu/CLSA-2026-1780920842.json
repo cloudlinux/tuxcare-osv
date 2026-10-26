@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1780920842",
+  "summary": "nano: Fix of CVE-2026-6843",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "nano",
+        "purl": "pkg:rpm/tuxcare/nano?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.6.1-5.el9_2.tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-6843"
+  ],
+  "published": "2026-06-08T12:15:46Z",
+  "modified": "2026-06-08T12:15:46Z",
+  "details": "- CVE-2026-6843: harden statusline() callers against format-string flaw",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/almalinux9.2esu/CLSA-2026-1780920842.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-6843",
+      "type": "ADVISORY"
+    }
+  ]
+}

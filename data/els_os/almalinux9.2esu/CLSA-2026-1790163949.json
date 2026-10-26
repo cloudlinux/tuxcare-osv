@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1790163949",
+  "summary": "grafana-pcp: Fix of CVE-2026-42504",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "grafana-pcp",
+        "purl": "pkg:rpm/tuxcare/grafana-pcp?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.1.1-1.el9_2.tuxcare.els6"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-42504"
+  ],
+  "published": "2026-09-23T11:46:00Z",
+  "modified": "2026-09-23T11:46:00Z",
+  "details": "- rebuild with newer golang version 1.22.9-1.el9_2.tuxcare.els28 to fix\n  the following Go standard-library CVE tracked for this package\n  - CVE-2026-42504: fix mime quadratic complexity in DecodeHeader, which\n    skipped only the leading \"=?\" of an undecodable encoded-word and so\n    burned CPU on a header carrying many invalid ones",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/almalinux9.2esu/CLSA-2026-1790163949.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-42504",
+      "type": "ADVISORY"
+    }
+  ]
+}

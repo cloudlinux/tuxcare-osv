@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1780054955",
+  "summary": "rsync: Fix of CVE-2026-41035",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:6",
+        "name": "rsync",
+        "purl": "pkg:rpm/tuxcare/rsync?distro=oraclelinux-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.0.6-12.el6.tuxcare.els9"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-41035"
+  ],
+  "published": "2026-05-29T11:42:40Z",
+  "modified": "2026-05-29T11:42:40Z",
+  "details": "- CVE-2026-41035: fix use-after-free in receive_xattr by using temp_xattr.count instead of the stale count in qsort",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/oraclelinux6els/CLSA-2026-1780054955.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

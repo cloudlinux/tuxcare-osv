@@ -1,0 +1,83 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1787146803",
+  "summary": "attr: Fix of CVE-2026-54371",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "attr",
+        "purl": "pkg:rpm/tuxcare/attr?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.6.0-1.el9_2.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "libattr",
+        "purl": "pkg:rpm/tuxcare/libattr?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.6.0-1.el9_2.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "libattr-devel",
+        "purl": "pkg:rpm/tuxcare/libattr-devel?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.6.0-1.el9_2.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-54371"
+  ],
+  "published": "2026-08-19T13:40:14Z",
+  "modified": "2026-08-19T13:40:14Z",
+  "details": "- Rebase to attr-2.6.0; CVE-2026-54371 fixed upstream\n- setfattr: new -P/--physical option; --restore is symlink-safe only with -P\n- setfattr --restore now warns on stderr when -P/-h are absent\n- getfattr -Rh now recurses through a symlink argument (previously no output)",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/almalinux9.2esu/CLSA-2026-1787146803.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-54371",
+      "type": "ADVISORY"
+    }
+  ]
+}

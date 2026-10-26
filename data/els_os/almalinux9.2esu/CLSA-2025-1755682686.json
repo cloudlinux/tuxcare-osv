@@ -736,12 +736,52 @@
     "CVE-2022-49316",
     "CVE-2023-52935"
   ],
-  "published": "2025-08-20T12:02:45Z",
-  "modified": "2025-08-20T12:02:45Z",
+  "published": "2026-07-25T14:44:13Z",
+  "modified": "2026-07-25T14:44:13Z",
   "details": "- net_sched: hfsc: Fix a UAF vulnerability in class handling {CVE-2025-37797}\n- sunrpc: handle SVC_GARBAGE during svc auth processing as auth error {CVE-2025-38089}\n- net: ch9200: fix uninitialised access during mii_nway_restart {CVE-2025-38086}\n- ext4: fix out-of-bound read in ext4_xattr_inode_dec_ref_all() {CVE-2025-22121}\n- locking/csd_lock: Change csdlock_debug from early_param to __setup {CVE-2022-50091}\n- x86/microcode/AMD: Fix out-of-bounds on systems with CPU-less NUMA nodes {CVE-2025-21991}\n- ftrace: Fix NULL pointer dereference in is_ftrace_trampoline when ftrace is dead {CVE-2022-49977}\n- NFSv4/pnfs: Fix a use-after-free bug in open {CVE-2022-50072}\n- NFSv4: Don't hold the layoutget locks across multiple RPC calls {CVE-2022-49316}\n- mm/khugepaged: fix ->anon_vma race {CVE-2023-52935}",
   "references": [
     {
       "url": "https://errata.tuxcare.com/els_os/almalinux9.2esu/CLSA-2025-1755682686.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2022-49316",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2022-49977",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2022-50072",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2022-50091",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-52935",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-21991",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-22121",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-37797",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-38086",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-38089",
       "type": "ADVISORY"
     }
   ]

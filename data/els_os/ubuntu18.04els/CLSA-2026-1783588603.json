@@ -1,0 +1,63 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1783588603",
+  "summary": "Fix CVE(s): CVE-2026-41992",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "gzip",
+        "purl": "pkg:deb/tuxcare/gzip?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.6-5ubuntu1.2+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "gzip-win32",
+        "purl": "pkg:deb/tuxcare/gzip-win32?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.6-5ubuntu1.2+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-41992"
+  ],
+  "published": "2026-07-09T09:16:59Z",
+  "modified": "2026-07-09T09:16:59Z",
+  "details": "   * SECURITY UPDATE: global buffer overflow in LZH decompression\n     - debian/patches/CVE-2026-41992.patch: clear shared decode tables in\n       read_c_len() in unlzh.c.\n     - CVE-2026-41992",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/ubuntu18.04els/CLSA-2026-1783588603.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-41992",
+      "type": "ADVISORY"
+    }
+  ]
+}

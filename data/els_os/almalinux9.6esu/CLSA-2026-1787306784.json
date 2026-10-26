@@ -1,0 +1,133 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1787306784",
+  "summary": "389-ds-base: Fix of 3 CVEs",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "389-ds-base",
+        "purl": "pkg:rpm/tuxcare/389-ds-base?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.6.1-12.el9_6.tuxcare.els4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "389-ds-base-devel",
+        "purl": "pkg:rpm/tuxcare/389-ds-base-devel?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.6.1-12.el9_6.tuxcare.els4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "389-ds-base-libs",
+        "purl": "pkg:rpm/tuxcare/389-ds-base-libs?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.6.1-12.el9_6.tuxcare.els4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "389-ds-base-snmp",
+        "purl": "pkg:rpm/tuxcare/389-ds-base-snmp?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.6.1-12.el9_6.tuxcare.els4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "python3-lib389",
+        "purl": "pkg:rpm/tuxcare/python3-lib389?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.6.1-12.el9_6.tuxcare.els4"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-11770",
+    "CVE-2026-11788",
+    "CVE-2026-15722"
+  ],
+  "published": "2026-08-21T10:06:36Z",
+  "modified": "2026-08-21T10:06:36Z",
+  "details": "- CVE-2026-11770: require an authorised replication bind DN for the CleanAllRUV\n  extended operations and reject unexpected filters in the check-status payload\n- CVE-2026-11788: check the result of ber_init() before use in the deref control\n  plugin to avoid a NULL pointer dereference\n- CVE-2026-15722: bound the replica id copy in get_ruvelement_from_berval to\n  prevent a stack buffer overflow",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/tuxcare9.6esu/CLSA-2026-1787306784.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-11770",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-11788",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-15722",
+      "type": "ADVISORY"
+    }
+  ]
+}

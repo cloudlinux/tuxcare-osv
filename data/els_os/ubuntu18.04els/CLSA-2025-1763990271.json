@@ -1,7 +1,7 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2025-1763990271",
-  "summary": "Fix of 12 CVEs",
+  "summary": "Fix of 11 CVEs",
   "affected": [
     {
       "package": {
@@ -458,12 +458,56 @@
     "CVE-2023-52804",
     "CVE-2024-36880"
   ],
-  "published": "2025-11-24T13:17:54Z",
-  "modified": "2025-11-24T13:17:54Z",
+  "published": "2026-10-21T18:13:23Z",
+  "modified": "2026-10-21T18:13:23Z",
   "details": "   * Focal update: v5.4.291 upstream stable release (LP: #2106002) //\n     CVE-2024-58072\n     - wifi: rtlwifi: remove unused check_buddy_priv\n   * Focal update: v5.4.291 upstream stable release (LP: #2106002)\n     - wifi: rtlwifi: remove unused timer and related code\n     - wifi: rtlwifi: remove unused dualmac control leftovers\n   * Focal update: v5.4.237 upstream stable release (LP: #2023420)\n     - ext4: move where set the MAY_INLINE_DATA flag is set\n   * CVE-url: https://ubuntu.com/security/CVE-2024-58014\n     - wifi: brcmsmac: add gain range check to wlc_phy_iqcal_gainparams_nphy()\n   * CVE-url: https://ubuntu.com/security/CVE-2025-38352\n     - posix-cpu-timers: fix race between handle_posix_cpu_timers() and\n       posix_cpu_timer_del()\n   * CVE-url: https://ubuntu.com/security/CVE-2022-25265\n     - x86/elf: Add table to document READ_IMPLIES_EXEC\n     - x86/elf: Split READ_IMPLIES_EXEC from executable PT_GNU_STACK\n     - x86/elf: Disable automatic READ_IMPLIES_EXEC on 64-bit\n   * Focal update: v5.4.279 upstream stable release (LP: #2073621) // CVE-url:\n     https://ubuntu.com/security/CVE-2024-37078\n     - nilfs2: fix potential kernel bug due to lack of writeback flag waiting\n   * CVE-url: https://ubuntu.com/security/CVE-2022-49170\n     - f2fs: fix to do sanity check on curseg->alloc_type\n   * CVE-url: https://ubuntu.com/security/CVE-2021-47479\n     - staging: rtl8712: fix use-after-free in rtl8712_dl_fw\n   * Focal update: v5.4.279 upstream stable release (LP: #2073621) // CVE-url:\n     https://ubuntu.com/security/CVE-2024-39469\n     - nilfs2: fix nilfs_empty_dir() misjudgment and long loop on I/O errors\n   * CVE-url: https://ubuntu.com/security/CVE-2022-49519\n     - ath10k: skip ath10k_halt during suspend for driver state RESTARTING\n   * CVE-url: https://ubuntu.com/security/CVE-2024-46713\n     - perf/aux: Fix AUX buffer serialization\n   * Focal update: v5.4.262 upstream stable release (LP: #2049069) // CVE-url:\n     https://ubuntu.com/security/CVE-2023-52804\n     - fs/jfs: Add check for negative db_l2nbperpage\n     - fs/jfs: Add validity check for db_maxag and db_agpref\n   * Focal update: v5.4.251 upstream stable release (LP: #2034918) // CVE-url:\n     https://ubuntu.com/security/CVE-2023-52804\n     - jfs: jfs_dmap: Validate db_l2nbperpage while mounting\n   * CVE-url: https://ubuntu.com/security/CVE-2024-36880\n     - Bluetooth: qca: add missing firmware sanity checks\n   * Miscellaneous upstream changes\n     - net: openvswitch: fix nested key length validation in the set() action\n     - isofs: Prevent the use of too small fid\n     - ext4: ignore xattrs past end\n     - net: ppp: Add bound checking for skb data on ppp_sync_txmung\n     - media: venus: hfi: add check to handle incorrect queue size\n     - sctp: detect and prevent references to a freed transport in sendmsg\n     - ext4: improve xattr consistency checking and error reporting\n     - ext4: introduce ITAIL helper\n     - ext4: fix out-of-bound read in ext4_xattr_inode_dec_ref_all()\n     - ibmvnic: Do not attempt to login if RX or TX queues are not allocated\n     - ibmvnic: Enable GRO\n     - ibmvnic: Fix netdev feature clobbering during a reset\n     - ibmvnic: create send_control_ip_offload\n     - ibmvnic: Define vnic_login_client_data name field as unsized array\n     - ibmvnic: Use strscpy() instead of strncpy()\n     - ibmvnic: Use kernel helpers for hex dumps\n     - wifi: at76c50x: fix use after free access in at76_disconnect",
   "references": [
     {
       "url": "https://errata.tuxcare.com/els_os/ubuntu18.04els/CLSA-2025-1763990271.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-47479",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2022-25265",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2022-49170",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2022-49519",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-52804",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-36880",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-37078",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-46713",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-58014",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-58072",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-38352",
       "type": "ADVISORY"
     }
   ]

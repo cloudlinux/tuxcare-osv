@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1786620962",
+  "summary": "cpio: Fix of CVE-2023-7207",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "cpio",
+        "purl": "pkg:rpm/tuxcare/cpio?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.13-16.el9_2.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2023-7207",
+    "CVE-2015-1197"
+  ],
+  "published": "2026-08-13T11:36:12Z",
+  "modified": "2026-08-13T11:36:12Z",
+  "details": "- CVE-2023-7207: path traversal via absolute symlink targets under\n  --no-absolute-filenames; drop cpio-2.13-revert-CVE-2015-1197-fix.patch and\n  apply the upstream symlink-placeholder fix instead",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/almalinux9.2esu/CLSA-2026-1786620962.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-7207",
+      "type": "ADVISORY"
+    }
+  ]
+}

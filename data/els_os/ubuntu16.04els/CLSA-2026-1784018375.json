@@ -1,0 +1,188 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1784018375",
+  "summary": "Fix CVE(s): CVE-2026-33846, CVE-2026-42009",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "gnutls-bin",
+        "purl": "pkg:deb/tuxcare/gnutls-bin?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.4.10-4ubuntu1.9+tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "gnutls-doc",
+        "purl": "pkg:deb/tuxcare/gnutls-doc?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.4.10-4ubuntu1.9+tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "guile-gnutls",
+        "purl": "pkg:deb/tuxcare/guile-gnutls?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.4.10-4ubuntu1.9+tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "libgnutls-dev",
+        "purl": "pkg:deb/tuxcare/libgnutls-dev?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.4.10-4ubuntu1.9+tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "libgnutls-openssl27",
+        "purl": "pkg:deb/tuxcare/libgnutls-openssl27?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.4.10-4ubuntu1.9+tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "libgnutls28-dev",
+        "purl": "pkg:deb/tuxcare/libgnutls28-dev?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.4.10-4ubuntu1.9+tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "libgnutls30",
+        "purl": "pkg:deb/tuxcare/libgnutls30?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.4.10-4ubuntu1.9+tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "libgnutlsxx28",
+        "purl": "pkg:deb/tuxcare/libgnutlsxx28?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.4.10-4ubuntu1.9+tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-33846",
+    "CVE-2026-42009"
+  ],
+  "published": "2026-08-11T22:07:33Z",
+  "modified": "2026-08-11T22:07:33Z",
+  "details": "   * SECURITY UPDATE: heap buffer overflow in DTLS handshake reassembly\n     - debian/patches/CVE-2026-33846.patch: add length-consistency and array\n       bounds checks in merge_handshake_packet in lib/gnutls_buffers.c to reject\n       DTLS fragments with mismatching or oversized claimed length\n     - CVE-2026-33846\n   * SECURITY UPDATE: denial of service via non-conforming qsort comparator\n     - debian/patches/CVE-2026-42009.patch: return 0 for equal sequence numbers\n       in handshake_compare in lib/gnutls_buffers.c so DTLS packet ordering\n       follows the qsort strict-weak-ordering contract\n     - CVE-2026-42009",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/ubuntu16.04els/CLSA-2026-1784018375.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-33846",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-42009",
+      "type": "ADVISORY"
+    }
+  ]
+}

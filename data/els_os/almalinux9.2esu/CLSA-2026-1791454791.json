@@ -1,0 +1,59 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1791454791",
+  "summary": "yajl: Fix of CVE-2023-33460",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "yajl",
+        "purl": "pkg:rpm/tuxcare/yajl?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.1.0-21.el9_0.tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "yajl-devel",
+        "purl": "pkg:rpm/tuxcare/yajl-devel?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.1.0-21.el9_0.tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2023-33460"
+  ],
+  "published": "2026-10-08T10:20:02Z",
+  "modified": "2026-10-08T10:20:02Z",
+  "details": "- CVE-2023-33460: fix memory leak in yajl_tree_parse function\n- rebuild with the vendor .el9_0 dist so the update outranks AlmaLinux\n  2.1.0-21.el9_0",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/almalinux9.2esu/CLSA-2026-1791454791.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

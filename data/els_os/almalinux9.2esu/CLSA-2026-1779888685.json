@@ -1,0 +1,81 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1779888685",
+  "summary": "libssh: Fix of 3 CVEs",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "libssh",
+        "purl": "pkg:rpm/tuxcare/libssh?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.10.4-8.el9_2.tuxcare.els12"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "libssh-config",
+        "purl": "pkg:rpm/tuxcare/libssh-config?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.10.4-8.el9_2.tuxcare.els12"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "libssh-devel",
+        "purl": "pkg:rpm/tuxcare/libssh-devel?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.10.4-8.el9_2.tuxcare.els12"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2025-4877",
+    "CVE-2025-8277",
+    "CVE-2026-0965"
+  ],
+  "published": "2026-05-27T13:31:45Z",
+  "modified": "2026-05-27T13:31:45Z",
+  "details": "- CVE-2025-4877: prevent integer overflow and potential out-of-bounds\n  write in base64 decoder by capping input length to 256MB\n- CVE-2025-8277: adjust packet filter to work correctly when DH-GEX is\n  guessed wrongly\n- CVE-2026-0965: refuse non-regular and over-sized configuration files\n  in libssh config and known_hosts readers",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/almalinux9.2esu/CLSA-2026-1779888685.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

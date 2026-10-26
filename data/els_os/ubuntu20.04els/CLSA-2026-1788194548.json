@@ -1,0 +1,163 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1788194548",
+  "summary": "Fix CVE(s): CVE-2026-57433",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:20.04",
+        "name": "libperl-dev",
+        "purl": "pkg:deb/tuxcare/libperl-dev?distro=ubuntu-20.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.30.0-9ubuntu0.5+tuxcare.els4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:20.04",
+        "name": "libperl5.30",
+        "purl": "pkg:deb/tuxcare/libperl5.30?distro=ubuntu-20.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.30.0-9ubuntu0.5+tuxcare.els4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:20.04",
+        "name": "perl",
+        "purl": "pkg:deb/tuxcare/perl?distro=ubuntu-20.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.30.0-9ubuntu0.5+tuxcare.els4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:20.04",
+        "name": "perl-base",
+        "purl": "pkg:deb/tuxcare/perl-base?distro=ubuntu-20.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.30.0-9ubuntu0.5+tuxcare.els4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:20.04",
+        "name": "perl-debug",
+        "purl": "pkg:deb/tuxcare/perl-debug?distro=ubuntu-20.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.30.0-9ubuntu0.5+tuxcare.els4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:20.04",
+        "name": "perl-doc",
+        "purl": "pkg:deb/tuxcare/perl-doc?distro=ubuntu-20.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.30.0-9ubuntu0.5+tuxcare.els4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:20.04",
+        "name": "perl-modules-5.30",
+        "purl": "pkg:deb/tuxcare/perl-modules-5.30?distro=ubuntu-20.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.30.0-9ubuntu0.5+tuxcare.els4"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-57433"
+  ],
+  "published": "2026-08-31T16:42:40Z",
+  "modified": "2026-08-31T16:42:40Z",
+  "details": "   * SECURITY UPDATE: denial of service via signed integer overflow when\n     deserializing a crafted Storable blob\n     - debian/patches/CVE-2026-57433.patch: reject a hook data item count of\n       I32_MAX in retrieve_hook_common() in dist/Storable/Storable.xs before\n       it is incremented and passed to av_extend(); backported from upstream\n       commit e4f681784bcdeaa91ff02a2fa4cdcae5c46779d7.\n     - CVE-2026-57433",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/ubuntu20.04els/CLSA-2026-1788194548.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-57433",
+      "type": "ADVISORY"
+    }
+  ]
+}

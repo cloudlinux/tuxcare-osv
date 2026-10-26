@@ -1,7 +1,7 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2026-1779465893",
-  "summary": "postgresql: Fix of CVE-2026-6473",
+  "summary": "postgresql: Fix of 6 CVEs",
   "affected": [
     {
       "package": {
@@ -247,12 +247,36 @@
   "upstream": [
     "CVE-2026-6473"
   ],
-  "published": "2026-05-22T16:04:57Z",
-  "modified": "2026-05-22T16:04:57Z",
+  "published": "2026-08-25T15:31:45Z",
+  "modified": "2026-08-25T15:31:45Z",
   "details": "- CVE-2026-6473: tsearch: bound StartSel/StopSel/FragmentDelimiter length to PG_INT16_MAX in ts_headline()\n- CVE-2026-6473: contrib/ltree: guard lquery parsing against numvar and totallen wraparound\n- CVE-2026-6473: regex: add overflow-checked MALLOC_ARRAY/REALLOC_ARRAY and bound NFA state/color products in newdfa() and compact()",
   "references": [
     {
       "url": "https://errata.tuxcare.com/els_os/oraclelinux7els/CLSA-2026-1779465893.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-23214",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-6473",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-6474",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-6477",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-6478",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-6637",
       "type": "ADVISORY"
     }
   ]

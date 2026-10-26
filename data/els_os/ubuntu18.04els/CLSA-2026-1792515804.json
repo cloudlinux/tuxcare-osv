@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1792515804",
+  "summary": "Update of tzdata",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "tzdata",
+        "purl": "pkg:deb/tuxcare/tzdata?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2026e-0ubuntu0.18.04+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [],
+  "published": "2026-10-20T17:03:31Z",
+  "modified": "2026-10-20T17:03:31Z",
+  "details": "   * New upstream 2026e version:\n     - Manitoba moves to permanent -05 on 2026-10-31.\n     - Canada\u2019s Northwest Territories moved to permanent -06 on 2026-08-21.\n     - Obsolescent settings like TZ=\"EST5EDT\" now conform better to POSIX.\n     - Fix security, performance and porting bugs in zic and localtime.\n     - Alberta moved to permanent -06 on 2026-06-18.\n     - Morocco moves to permanent +00 on 2026-09-20.\n     - More integer overflow bugs have been fixed in zic.\n     - British Columbia moved to permanent -07 on 2026-03-09.\n     - zic no longer mishandles a last transition to a new time type.\n     - Some more overflow bugs have been fixed in zic.\n     - Moldova has used EU transition times since 2022.\n     - The \u201cright\u201d TZif files are no longer installed by default.\n     - -DTZ_RUNTIME_LEAPS=0 disables runtime support for leap seconds.\n     - TZif files are no longer limited to 50 bytes of abbreviations.\n     - zic is no longer limited to 50 leap seconds.\n     - Several integer overflow bugs have been fixed.\n     - Several code changes for compatibility with FreeBSD.\n   * Revert POSIX conformance of old SysV names EST5EDT, CST6CDT, MST7MDT and\n     PST8PDT, keeping them as links (patch from Ubuntu 2026e-0ubuntu0.22.04.1)",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/ubuntu18.04els/CLSA-2026-1792515804.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

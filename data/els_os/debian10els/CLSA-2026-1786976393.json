@@ -1,0 +1,83 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1786976393",
+  "summary": "Fix CVE(s): CVE-2026-72522",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Debian:10",
+        "name": "expat",
+        "purl": "pkg:deb/tuxcare/expat?distro=debian-10"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.2.6-2+deb10u7+tuxcare.els8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Debian:10",
+        "name": "libexpat1",
+        "purl": "pkg:deb/tuxcare/libexpat1?distro=debian-10"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.2.6-2+deb10u7+tuxcare.els8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Debian:10",
+        "name": "libexpat1-dev",
+        "purl": "pkg:deb/tuxcare/libexpat1-dev?distro=debian-10"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.2.6-2+deb10u7+tuxcare.els8"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-72522"
+  ],
+  "published": "2026-08-17T14:20:05Z",
+  "modified": "2026-08-17T14:20:05Z",
+  "details": "   * SECURITY UPDATE: Out-of-bounds read and resultant infinite loop\n     because low surrogates are treated the same as high surrogates in\n     the *_toUtf16 functions (libexpat before 2.8.3)\n     - debian/patches/CVE-2026-72522.patch: mask the high byte with 0xFC\n       instead of 0xF8 so the split-surrogate guard in\n       DEFINE_UTF16_TO_UTF16 matches only genuine high surrogates\n       (0xD800-0xDBFF) and no longer accepts low ones (0xDC00-0xDFFF);\n       also carries upstream's regression test into tests/runtests.c\n       (2.2.6 has no tests/misc_tests.c), which exercises the wide\n       -DXML_UNICODE build only\n     - CVE-2026-72522",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/debian10els/CLSA-2026-1786976393.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-72522",
+      "type": "ADVISORY"
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2024-1711026811",
-  "summary": "kernel: Fix of 7 CVEs",
+  "summary": "kernel: Fix of 11 CVEs",
   "affected": [
     {
       "package": {
@@ -453,12 +453,56 @@
     "CVE-2023-6546",
     "CVE-2023-6536"
   ],
-  "published": "2024-03-21T13:13:33Z",
-  "modified": "2024-03-21T13:13:33Z",
+  "published": "2026-10-18T09:50:13Z",
+  "modified": "2026-10-18T09:50:13Z",
   "details": "- netfilter: conntrack: dccp: copy entire header to stack buffer, not just basic one {CVE-2023-39197}\n- mtd: Fix gluebi NULL pointer dereference caused by ftl notifier {CVE-2023-52449}\n- media: pvrusb2: fix use after free on context disconnection {CVE-2023-52445}\n- net: prevent mss overflow in skb_segment() {CVE-2023-52435}\n- RDMA/core: Update CMA destination address on rdma_resolve_addr {CVE-2023-2176}\n- tty: n_gsm: fix the UAF caused by race condition in gsm_cleanup_mux {CVE-2023-6546}\n- tty: n_gsm: fix restart handling via CLD command {CVE-2023-6546}\n- tty: n_gsm: fix deadlock in gsmtty_open() {CVE-2023-6546}\n- nvmet-tcp: Fix the H2C expected PDU len calculation {CVE-2023-6536}\n- nvmet-tcp: remove boilerplate code {CVE-2023-6536}\n- nvmet-tcp: add bounds check on Transfer Tag {CVE-2023-6536}\n- nvmet-tcp: fix a crash in nvmet_req_complete() {CVE-2023-6536}\n- nvmet-tcp: Fix a kernel panic when host sends an invalid H2C PDU length {CVE-2023-6536}",
   "references": [
     {
-      "url": "https://errata.cloudlinux.com/centos8.5-els/CLSA-2024-1711026811.html",
+      "url": "https://errata.tuxcare.com/els_os/centos8.5els/CLSA-2024-1711026811.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-47391",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2022-49995",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-39197",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-52435",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-52445",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-52449",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-53333",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-6356",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-6535",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-6536",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-6546",
       "type": "ADVISORY"
     }
   ]

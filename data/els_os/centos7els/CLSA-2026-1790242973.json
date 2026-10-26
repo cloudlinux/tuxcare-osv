@@ -1,0 +1,59 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1790242973",
+  "summary": "libsoup: Fix of CVE-2026-5119",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:7",
+        "name": "libsoup",
+        "purl": "pkg:rpm/tuxcare/libsoup?distro=centos-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.62.2-2.0.13.el7.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:7",
+        "name": "libsoup-devel",
+        "purl": "pkg:rpm/tuxcare/libsoup-devel?distro=centos-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.62.2-2.0.13.el7.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-5119"
+  ],
+  "published": "2026-09-28T08:47:37Z",
+  "modified": "2026-09-28T08:47:37Z",
+  "details": "- rebase to 2.62.2-2.0.13.el7\n- replace the TuxCare CVE-2026-5119 backport (Patch10018) with the vendor's\n  Patch1013, which carries the same soup-cookie-jar.c change and adds a\n  tests/proxy-test.c regression test ours did not have\n- all other TuxCare CVE patches are unchanged: the 21 remaining, Patch10000 to\n  Patch10021 less the dropped Patch10018, stay declared and applied",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/centos7els/CLSA-2026-1790242973.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

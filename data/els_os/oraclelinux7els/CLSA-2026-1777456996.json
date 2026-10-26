@@ -1,7 +1,7 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2026-1777456996",
-  "summary": "jasper: Fix of 3 CVEs",
+  "summary": "jasper: Fix of 2 CVEs",
   "affected": [
     {
       "package": {
@@ -89,12 +89,20 @@
     "CVE-2021-26927",
     "CVE-2021-3272"
   ],
-  "published": "2026-04-29T10:03:21Z",
-  "modified": "2026-04-29T10:03:21Z",
+  "published": "2026-07-07T09:20:20Z",
+  "modified": "2026-07-07T09:20:20Z",
   "details": "- CVE-2021-26926: prevent out-of-bounds read in jp2_decode by hard-erroring on inconsistent IHDR/BPCC component metadata\n- CVE-2021-26927: prevent out-of-bounds read in jp2_decode by hard-erroring on inconsistent IHDR/BPCC component metadata\n- CVE-2021-3272: prevent heap-based buffer over-read in jp2_decode by hard-erroring when the decoder channel count exceeds the image component count",
   "references": [
     {
       "url": "https://errata.tuxcare.com/els_os/oraclelinux7els/CLSA-2026-1777456996.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-26926",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-51257",
       "type": "ADVISORY"
     }
   ]

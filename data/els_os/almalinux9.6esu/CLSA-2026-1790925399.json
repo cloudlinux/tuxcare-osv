@@ -1,0 +1,103 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1790925399",
+  "summary": "rsync: Fix of 5 CVEs",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "rsync",
+        "purl": "pkg:rpm/tuxcare/rsync?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.2.5-3.el9_6.tuxcare.els19"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "rsync-daemon",
+        "purl": "pkg:rpm/tuxcare/rsync-daemon?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.2.5-3.el9_6.tuxcare.els19"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "rsync-rrsync",
+        "purl": "pkg:rpm/tuxcare/rsync-rrsync?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.2.5-3.el9_6.tuxcare.els19"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-53793",
+    "CVE-2026-53796",
+    "CVE-2026-70452",
+    "CVE-2026-53783",
+    "CVE-2026-70460"
+  ],
+  "published": "2026-10-02T07:16:53Z",
+  "modified": "2026-10-02T07:16:53Z",
+  "details": "- CVE-2026-53793: widen the daemon path-confinement gate to cover a chrooted\n  module whose path carries a \"/./\" inner boundary marker, and route the\n  resolver trust root and do_mkdir_at through the same predicate\n- CVE-2026-53796: confine the non-daemon receiver's destination chdir,\n  refusing a destination symlink owned by another uid while still following\n  the operator's own\n- CVE-2026-70452: fail closed when a hosts-deny token cannot be resolved, so a\n  transient DNS failure no longer admits a host the deny list names\n- CVE-2026-53783: inode-pin the rrsync-validated path and root the argument\n  handed to rsync at that pinned fd, refuse dangerous options in a restricted\n  directory, add the --drop-D option the restricted receiver needs, and keep\n  restricted-root paths working\n- CVE-2026-70460: pin the receiver option directories a peer can pivot through\n  rrsync",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/tuxcare9.6esu/CLSA-2026-1790925399.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-53783",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-53793",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-53796",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-70452",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-70460",
+      "type": "ADVISORY"
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1787310855",
+  "summary": "Fix CVE(s): CVE-2025-27363",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "freetype2-demos",
+        "purl": "pkg:deb/tuxcare/freetype2-demos?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.8.1-2ubuntu2.2+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "libfreetype6",
+        "purl": "pkg:deb/tuxcare/libfreetype6?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.8.1-2ubuntu2.2+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "libfreetype6-dev",
+        "purl": "pkg:deb/tuxcare/libfreetype6-dev?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.8.1-2ubuntu2.2+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2025-27363"
+  ],
+  "published": "2026-08-21T11:14:26Z",
+  "modified": "2026-08-21T11:14:26Z",
+  "details": "   * SECURITY UPDATE: out-of-bounds write when parsing composite subglyphs\n     of TrueType GX / variable fonts (ELSCVE-171535)\n     - debian/patches-freetype/CVE-2025-27363.patch: reject a subglyph count\n       that truncates to a negative short in load_truetype_glyph before it\n       is used to size the outline arrays in src/truetype/ttgload.c.\n     - CVE-2025-27363",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/ubuntu18.04els/CLSA-2026-1787310855.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-27363",
+      "type": "ADVISORY"
+    }
+  ]
+}

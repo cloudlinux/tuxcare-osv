@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1784710213",
+  "summary": "thunderbird: Fix of CVE-2026-2791",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "thunderbird",
+        "purl": "pkg:rpm/tuxcare/thunderbird?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "115.4.1-1.el9_2.alma.tuxcare.els25"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-2791"
+  ],
+  "published": "2026-07-22T08:50:37Z",
+  "modified": "2026-07-22T08:50:37Z",
+  "details": "- CVE-2026-2791: fix cache service instantiation outside the parent process\n  (Mozilla bug 2015220)",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/almalinux9.2esu/CLSA-2026-1784710213.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-2791",
+      "type": "ADVISORY"
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2026-1772646645",
-  "summary": "butane: Fix of CVE-2025-61729",
+  "summary": "butane: Fix of 2 CVEs",
   "affected": [
     {
       "package": {
@@ -47,12 +47,20 @@
   "upstream": [
     "CVE-2025-61729"
   ],
-  "published": "2026-03-04T17:50:50Z",
-  "modified": "2026-03-04T17:50:50Z",
+  "published": "2026-10-20T20:46:42Z",
+  "modified": "2026-10-20T20:46:42Z",
   "details": "- rebuild with newer golang version 1.22.9-1.el9_2.tuxcare.els6 to fix the following CVE\n- CVE-2025-61729: limit parsed URL query parameters to mitigate excessive memory\n  consumption during form parsing",
   "references": [
     {
       "url": "https://errata.tuxcare.com/els_os/almalinux9.2esu/CLSA-2026-1772646645.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-24790",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-61729",
       "type": "ADVISORY"
     }
   ]

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2025-1748365696",
-  "summary": "sudo: Fix of CVE-2023-42465",
+  "summary": "sudo: Fix of CVE-2021-3156",
   "affected": [
     {
       "package": {
@@ -45,14 +45,19 @@
     }
   ],
   "upstream": [
+    "CVE-2021-3156",
     "CVE-2023-42465"
   ],
-  "published": "2025-05-27T17:08:21Z",
-  "modified": "2025-05-27T17:08:21Z",
+  "published": "2026-06-24T16:17:32Z",
+  "modified": "2026-06-24T16:17:32Z",
   "details": "- CVE-2023-42465: Make sudo less vulnerable to ROWHAMMER attacks",
   "references": [
     {
-      "url": "https://errata.tuxcare.com/rhel7-els/CLSA-2025-1748365696.html",
+      "url": "https://errata.tuxcare.com/els_os/rhel7els/CLSA-2025-1748365696.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-3156",
       "type": "ADVISORY"
     }
   ]

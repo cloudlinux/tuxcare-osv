@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1784306624",
+  "summary": "libreswan: Fix of CVE-2026-50721",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "libreswan",
+        "purl": "pkg:rpm/tuxcare/libreswan?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.12-2.el9_2.tuxcare.els4"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-50721"
+  ],
+  "published": "2026-07-17T16:44:06Z",
+  "modified": "2026-07-17T16:44:06Z",
+  "details": "- CVE-2026-50721: fix improper RSA signature hash-length verification in IKEv1\n  by delegating to PK11_Verify()",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/almalinux9.2esu/CLSA-2026-1784306624.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-50721",
+      "type": "ADVISORY"
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1788370561",
+  "summary": "assertj-core: Fix of CVE-2026-24400",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "assertj-core",
+        "purl": "pkg:rpm/tuxcare/assertj-core?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.19.0-9.el9_6.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "assertj-core-javadoc",
+        "purl": "pkg:rpm/tuxcare/assertj-core-javadoc?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.19.0-9.el9_6.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-24400"
+  ],
+  "published": "2026-09-02T17:36:12Z",
+  "modified": "2026-09-02T17:36:12Z",
+  "details": "- CVE-2026-24400: enable secure processing and disable DTDs and external entities\n  in XmlStringPrettyFormatter's DocumentBuilderFactory, preventing XXE through\n  isXmlEqualTo() and xmlPrettyFormat()",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/tuxcare9.6esu/CLSA-2026-1788370561.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-24400",
+      "type": "ADVISORY"
+    }
+  ]
+}

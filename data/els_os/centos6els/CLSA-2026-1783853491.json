@@ -1,0 +1,137 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1783853491",
+  "summary": "Update of python",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:6",
+        "name": "python",
+        "purl": "pkg:rpm/tuxcare/python?distro=centos-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.6.6-70.el6.tuxcare.els25"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:6",
+        "name": "python-devel",
+        "purl": "pkg:rpm/tuxcare/python-devel?distro=centos-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.6.6-70.el6.tuxcare.els25"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:6",
+        "name": "python-libs",
+        "purl": "pkg:rpm/tuxcare/python-libs?distro=centos-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.6.6-70.el6.tuxcare.els25"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:6",
+        "name": "python-test",
+        "purl": "pkg:rpm/tuxcare/python-test?distro=centos-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.6.6-70.el6.tuxcare.els25"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:6",
+        "name": "python-tools",
+        "purl": "pkg:rpm/tuxcare/python-tools?distro=centos-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.6.6-70.el6.tuxcare.els25"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:6",
+        "name": "tkinter",
+        "purl": "pkg:rpm/tuxcare/tkinter?distro=centos-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.6.6-70.el6.tuxcare.els25"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [],
+  "published": "2026-07-12T19:17:08Z",
+  "modified": "2026-07-12T19:17:08Z",
+  "details": "- make the weak XML_SetHashSalt16Bytes reference in pyexpat\n  unversioned (.symver): linked against the tuxcare libexpat it was stamped\n  with the EXPAT_2_0_1_RH version node, and on el6 glibc 2.12 a versioned\n  reference whose provider lacks the symbol is a fatal relocation error even\n  for a weak symbol, so pyexpat.so failed to load (breaking yum with\n  \"ImportError: No module named cElementTree\") on hosts whose\n  /lib64/libexpat.so.1 predates the els10 backport, e.g. a third-party\n  expat package\n- drop the runtime Requires on expat >= 2.0.1-13.el6_8.tuxcare.els10:\n  a third-party package providing a higher expat NEVRA satisfies it without\n  providing the ABI, and with the truly-weak unversioned reference pyexpat\n  degrades gracefully to XML_SetHashSalt when the symbol is absent",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/centos6els/CLSA-2026-1783853491.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

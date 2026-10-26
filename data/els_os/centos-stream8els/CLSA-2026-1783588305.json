@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1783588305",
+  "summary": "gzip: Fix of CVE-2026-41992",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS-Stream:8",
+        "name": "gzip",
+        "purl": "pkg:rpm/tuxcare/gzip?distro=centos-stream-8"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.9-13.el8.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-41992"
+  ],
+  "published": "2026-07-09T09:12:01Z",
+  "modified": "2026-07-09T09:12:01Z",
+  "details": "- CVE-2026-41992: Fix global buffer overflow in LZH decompression caused by reuse of shared decode tables",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/centos-stream8els/CLSA-2026-1783588305.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-41992",
+      "type": "ADVISORY"
+    }
+  ]
+}
