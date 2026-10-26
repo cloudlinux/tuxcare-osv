@@ -1,0 +1,217 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1779957268",
+  "summary": "tomcat: Fix of 8 CVEs",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "tomcat",
+        "purl": "pkg:rpm/tuxcare/tomcat?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:9.0.87-3.el9_6.3.tuxcare.els7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "tomcat-admin-webapps",
+        "purl": "pkg:rpm/tuxcare/tomcat-admin-webapps?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:9.0.87-3.el9_6.3.tuxcare.els7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "tomcat-docs-webapp",
+        "purl": "pkg:rpm/tuxcare/tomcat-docs-webapp?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:9.0.87-3.el9_6.3.tuxcare.els7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "tomcat-el-3.0-api",
+        "purl": "pkg:rpm/tuxcare/tomcat-el-3.0-api?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:9.0.87-3.el9_6.3.tuxcare.els7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "tomcat-jsp-2.3-api",
+        "purl": "pkg:rpm/tuxcare/tomcat-jsp-2.3-api?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:9.0.87-3.el9_6.3.tuxcare.els7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "tomcat-lib",
+        "purl": "pkg:rpm/tuxcare/tomcat-lib?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:9.0.87-3.el9_6.3.tuxcare.els7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "tomcat-servlet-4.0-api",
+        "purl": "pkg:rpm/tuxcare/tomcat-servlet-4.0-api?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:9.0.87-3.el9_6.3.tuxcare.els7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "tomcat-webapps",
+        "purl": "pkg:rpm/tuxcare/tomcat-webapps?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:9.0.87-3.el9_6.3.tuxcare.els7"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-43512",
+    "CVE-2026-43513",
+    "CVE-2026-43514",
+    "CVE-2026-43515",
+    "CVE-2026-41284",
+    "CVE-2026-42498",
+    "CVE-2026-41293"
+  ],
+  "published": "2026-06-01T10:19:02Z",
+  "modified": "2026-06-01T10:19:02Z",
+  "details": "- CVE-2026-43512: fix the handling of invalid users with DIGEST authentication\n- CVE-2026-43513: add case sensitive attribute to LockOutRealm\n- CVE-2026-43514: switch AJP secret comparison to a constant time algorithm\n- CVE-2026-43515: ensure RealmBase finds all matching extension based constraints\n- CVE-2026-41284: add a configurable limit for WebDAV XML request bodies\n- CVE-2026-42498: fix WebSocket + proxy + DIGEST auth on proxy\n- CVE-2026-41293: HTTP/2 header filtering \u2014 validate decoded HPACK names/values\n  against RFC 7230 token/field-vchar/field-content rules",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/tuxcare9.6esu/CLSA-2026-1779957268.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-55668",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-41284",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-41293",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-42498",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-43512",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-43513",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-43514",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-43515",
+      "type": "ADVISORY"
+    }
+  ]
+}

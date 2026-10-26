@@ -1,0 +1,154 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1789202279",
+  "summary": "Fix CVE(s): CVE-2026-6653, CVE-2026-86143, CVE-2026-86144",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Debian:10",
+        "name": "libxml2",
+        "purl": "pkg:deb/tuxcare/libxml2?distro=debian-10"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.9.10+dfsg-5ubuntu0.20.04.10+tuxcare.els12"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Debian:10",
+        "name": "libxml2-dev",
+        "purl": "pkg:deb/tuxcare/libxml2-dev?distro=debian-10"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.9.10+dfsg-5ubuntu0.20.04.10+tuxcare.els12"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Debian:10",
+        "name": "libxml2-doc",
+        "purl": "pkg:deb/tuxcare/libxml2-doc?distro=debian-10"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.9.10+dfsg-5ubuntu0.20.04.10+tuxcare.els12"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Debian:10",
+        "name": "libxml2-utils",
+        "purl": "pkg:deb/tuxcare/libxml2-utils?distro=debian-10"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.9.10+dfsg-5ubuntu0.20.04.10+tuxcare.els12"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Debian:10",
+        "name": "python-libxml2",
+        "purl": "pkg:deb/tuxcare/python-libxml2?distro=debian-10"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.9.10+dfsg-5ubuntu0.20.04.10+tuxcare.els12"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Debian:10",
+        "name": "python3-libxml2",
+        "purl": "pkg:deb/tuxcare/python3-libxml2?distro=debian-10"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.9.10+dfsg-5ubuntu0.20.04.10+tuxcare.els12"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-6653",
+    "CVE-2026-86143",
+    "CVE-2026-86144",
+    "CVE-2021-3541"
+  ],
+  "published": "2026-09-24T07:01:14Z",
+  "modified": "2026-09-24T07:01:14Z",
+  "details": "   * SECURITY UPDATE: use-after-free in the DTD parser reachable through\n     parameter-entity references\n     - debian/patches/CVE-2026-6653.patch: drop the post-inputPush\n       XML_PARSER_EOF early return from xmlPushInput() in parser.c.  It\n       reported an already-halted parser as a push failure after ownership\n       of the input had been transferred, so xmlParsePEReference() freed the\n       input still installed as ctxt->input and xmlParseInternalSubset()\n       read through the dangling pointer.  The flaw is introduced by the\n       CVE-2021-3541 backport, not by the shipped version.\n     - CVE-2026-6653",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/debian10els/CLSA-2026-1789202279.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-6653",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-86143",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-86144",
+      "type": "ADVISORY"
+    }
+  ]
+}

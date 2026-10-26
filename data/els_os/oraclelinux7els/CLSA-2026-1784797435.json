@@ -1,0 +1,71 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1784797435",
+  "summary": "libXfont2: Fix of 3 CVEs",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:7",
+        "name": "libXfont2",
+        "purl": "pkg:rpm/tuxcare/libXfont2?distro=oraclelinux-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.0.3-1.el7.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:7",
+        "name": "libXfont2-devel",
+        "purl": "pkg:rpm/tuxcare/libXfont2-devel?distro=oraclelinux-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.0.3-1.el7.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-56003"
+  ],
+  "published": "2026-07-23T09:04:26Z",
+  "modified": "2026-07-23T09:04:26Z",
+  "details": "- Fix CVE-2026-56003: property buffer overflow in computeProps() /\n  ComputeScaledProperties() in src/bitmap/bitscale.c; add bounds check\n  for the fixed-size property buffer\n  (upstream commit dff957a5158da038a282a59a31fe736702732939)",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/oraclelinux7els/CLSA-2026-1784797435.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-56001",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-56002",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-56003",
+      "type": "ADVISORY"
+    }
+  ]
+}

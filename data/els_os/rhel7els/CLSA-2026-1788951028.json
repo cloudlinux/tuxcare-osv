@@ -1,0 +1,85 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1788951028",
+  "summary": "expat: Fix of CVE-2026-56131",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:RHEL:7",
+        "name": "expat",
+        "purl": "pkg:rpm/tuxcare/expat?distro=rhel-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.1.0-15.0.7.el7_9.tuxcare.els6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:RHEL:7",
+        "name": "expat-devel",
+        "purl": "pkg:rpm/tuxcare/expat-devel?distro=rhel-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.1.0-15.0.7.el7_9.tuxcare.els6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:RHEL:7",
+        "name": "expat-static",
+        "purl": "pkg:rpm/tuxcare/expat-static?distro=rhel-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.1.0-15.0.7.el7_9.tuxcare.els6"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-56131",
+    "CVE-2026-50219",
+    "CVE-2026-56412"
+  ],
+  "published": "2026-09-09T10:50:39Z",
+  "modified": "2026-09-09T10:50:39Z",
+  "details": "- CVE-2026-56131: fix a use-after-free by refusing re-entrant XML_ResumeParser\n  calls issued from inside handler callbacks; carries the prerequisite handler\n  call-depth tracking, which also covers CVE-2026-50219 and CVE-2026-56412",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/rhel7els/CLSA-2026-1788951028.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-56131",
+      "type": "ADVISORY"
+    }
+  ]
+}

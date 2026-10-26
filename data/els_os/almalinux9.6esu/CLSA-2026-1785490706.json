@@ -1,0 +1,133 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1785490706",
+  "summary": "unbound: Fix of 3 CVEs",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "python3-unbound",
+        "purl": "pkg:rpm/tuxcare/python3-unbound?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.16.2-19.el9_6.1.tuxcare.els11"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "unbound",
+        "purl": "pkg:rpm/tuxcare/unbound?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.16.2-19.el9_6.1.tuxcare.els11"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "unbound-devel",
+        "purl": "pkg:rpm/tuxcare/unbound-devel?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.16.2-19.el9_6.1.tuxcare.els11"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "unbound-dracut",
+        "purl": "pkg:rpm/tuxcare/unbound-dracut?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.16.2-19.el9_6.1.tuxcare.els11"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "unbound-libs",
+        "purl": "pkg:rpm/tuxcare/unbound-libs?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.16.2-19.el9_6.1.tuxcare.els11"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2024-43167",
+    "CVE-2026-44690",
+    "CVE-2026-56416"
+  ],
+  "published": "2026-07-31T09:38:38Z",
+  "modified": "2026-07-31T09:38:38Z",
+  "details": "- CVE-2024-43167: guard against a NULL forward-zone name in ub_ctx_set_fwd\n  to prevent a NULL pointer dereference\n- CVE-2026-44690: reject RRSIG label counts below the signer label count and\n  restrict wildcard rrset cache updates to the signer authority, deferring\n  the cache write until the proof succeeds\n- CVE-2026-56416: bound the second domain name in canonicalized RDATA and\n  reject multi-dname RRs whose rdata ends early, preventing a heap buffer\n  overflow",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/tuxcare9.6esu/CLSA-2026-1785490706.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-43167",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-44690",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-56416",
+      "type": "ADVISORY"
+    }
+  ]
+}

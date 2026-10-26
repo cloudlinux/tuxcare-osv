@@ -1,0 +1,79 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1779822401",
+  "summary": "rsync: Fix of CVE-2026-29518",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "rsync",
+        "purl": "pkg:rpm/tuxcare/rsync?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.2.5-3.el9_6.tuxcare.els5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "rsync-daemon",
+        "purl": "pkg:rpm/tuxcare/rsync-daemon?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.2.5-3.el9_6.tuxcare.els5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "rsync-rrsync",
+        "purl": "pkg:rpm/tuxcare/rsync-rrsync?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.2.5-3.el9_6.tuxcare.els5"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-29518"
+  ],
+  "published": "2026-05-26T19:06:50Z",
+  "modified": "2026-05-26T19:06:50Z",
+  "details": "- CVE-2026-29518: fix sender read-path TOCTOU by routing the daemon open\n  through secure_relative_open() from the trusted module_dir root",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/tuxcare9.6esu/CLSA-2026-1779822401.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

@@ -1,0 +1,148 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1784725535",
+  "summary": "Fix CVE(s): CVE-2026-59999, CVE-2026-60000",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:20.04",
+        "name": "openssh-client",
+        "purl": "pkg:deb/tuxcare/openssh-client?distro=ubuntu-20.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:8.2p1-4ubuntu0.13+tuxcare.els4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:20.04",
+        "name": "openssh-server",
+        "purl": "pkg:deb/tuxcare/openssh-server?distro=ubuntu-20.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:8.2p1-4ubuntu0.13+tuxcare.els4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:20.04",
+        "name": "openssh-sftp-server",
+        "purl": "pkg:deb/tuxcare/openssh-sftp-server?distro=ubuntu-20.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:8.2p1-4ubuntu0.13+tuxcare.els4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:20.04",
+        "name": "openssh-tests",
+        "purl": "pkg:deb/tuxcare/openssh-tests?distro=ubuntu-20.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:8.2p1-4ubuntu0.13+tuxcare.els4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:20.04",
+        "name": "ssh",
+        "purl": "pkg:deb/tuxcare/ssh?distro=ubuntu-20.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:8.2p1-4ubuntu0.13+tuxcare.els4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:20.04",
+        "name": "ssh-askpass-gnome",
+        "purl": "pkg:deb/tuxcare/ssh-askpass-gnome?distro=ubuntu-20.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:8.2p1-4ubuntu0.13+tuxcare.els4"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-59999",
+    "CVE-2026-60000"
+  ],
+  "published": "2026-07-22T13:06:03Z",
+  "modified": "2026-07-22T13:06:03Z",
+  "details": "   * SECURITY UPDATE: DisableForwarding did not override PermitTunnel\n     - debian/patches/CVE-2026-59999.patch: add options.disable_forwarding to\n       the PermitTunnel gate in server_request_tun() in serverloop.c so that\n       DisableForwarding=yes rejects tunnel-device forwarding as documented.\n     - CVE-2026-59999\n   * SECURITY UPDATE: GSSAPI userauth pre-auth resource DoS / MaxAuthTries bypass\n     - debian/patches/CVE-2026-60000.patch: discard the client error token in\n       input_gssapi_errtok() instead of feeding it to ssh_gssapi_accept_ctx(),\n       and record the failed attempt via userauth_finish() so GSSAPI auth is\n       subject to MaxAuthTries, in auth2-gss.c.\n     - CVE-2026-60000",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/ubuntu20.04els/CLSA-2026-1784725535.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59999",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-60000",
+      "type": "ADVISORY"
+    }
+  ]
+}

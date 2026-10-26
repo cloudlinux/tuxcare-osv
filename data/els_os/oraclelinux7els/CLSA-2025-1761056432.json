@@ -1,7 +1,7 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2025-1761056432",
-  "summary": "Update of libxslt",
+  "summary": "libxslt: Fix of CVE-2021-30560",
   "affected": [
     {
       "package": {
@@ -64,13 +64,19 @@
       ]
     }
   ],
-  "upstream": [],
-  "published": "2025-10-21T14:20:36Z",
-  "modified": "2025-10-21T14:20:36Z",
+  "upstream": [
+    "CVE-2021-30560"
+  ],
+  "published": "2026-06-29T10:55:06Z",
+  "modified": "2026-06-29T10:55:06Z",
   "details": "- Bump version to 1.1.28-6.0.3.tuxcare.els1",
   "references": [
     {
       "url": "https://errata.tuxcare.com/els_os/oraclelinux7els/CLSA-2025-1761056432.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-30560",
       "type": "ADVISORY"
     }
   ]

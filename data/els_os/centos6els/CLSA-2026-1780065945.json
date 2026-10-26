@@ -1,0 +1,139 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1780065945",
+  "summary": "bind: Fix of CVE-2026-1519",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:6",
+        "name": "bind",
+        "purl": "pkg:rpm/tuxcare/bind?distro=centos-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "33:9.8.2-0.68.rc1.el6.11.tuxcare.els11"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:6",
+        "name": "bind-chroot",
+        "purl": "pkg:rpm/tuxcare/bind-chroot?distro=centos-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "33:9.8.2-0.68.rc1.el6.11.tuxcare.els11"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:6",
+        "name": "bind-devel",
+        "purl": "pkg:rpm/tuxcare/bind-devel?distro=centos-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "33:9.8.2-0.68.rc1.el6.11.tuxcare.els11"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:6",
+        "name": "bind-libs",
+        "purl": "pkg:rpm/tuxcare/bind-libs?distro=centos-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "33:9.8.2-0.68.rc1.el6.11.tuxcare.els11"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:6",
+        "name": "bind-sdb",
+        "purl": "pkg:rpm/tuxcare/bind-sdb?distro=centos-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "33:9.8.2-0.68.rc1.el6.11.tuxcare.els11"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:6",
+        "name": "bind-utils",
+        "purl": "pkg:rpm/tuxcare/bind-utils?distro=centos-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "33:9.8.2-0.68.rc1.el6.11.tuxcare.els11"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-1519"
+  ],
+  "published": "2026-05-30T10:23:53Z",
+  "modified": "2026-05-30T10:23:53Z",
+  "details": "- CVE-2026-1519: Limit NSEC3 iterations when validating referrals to unsigned\n  delegations to avoid excessive CPU consumption",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/centos6els/CLSA-2026-1780065945.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

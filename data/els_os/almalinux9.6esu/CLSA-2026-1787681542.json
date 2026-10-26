@@ -1,0 +1,183 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1787681542",
+  "summary": "python3.9: Fix of CVE-2026-0864",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "python-unversioned-command",
+        "purl": "pkg:rpm/tuxcare/python-unversioned-command?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.9.21-2.el9_6.2.tuxcare.els18"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "python3",
+        "purl": "pkg:rpm/tuxcare/python3?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.9.21-2.el9_6.2.tuxcare.els18"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "python3-debug",
+        "purl": "pkg:rpm/tuxcare/python3-debug?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.9.21-2.el9_6.2.tuxcare.els18"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "python3-devel",
+        "purl": "pkg:rpm/tuxcare/python3-devel?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.9.21-2.el9_6.2.tuxcare.els18"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "python3-idle",
+        "purl": "pkg:rpm/tuxcare/python3-idle?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.9.21-2.el9_6.2.tuxcare.els18"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "python3-libs",
+        "purl": "pkg:rpm/tuxcare/python3-libs?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.9.21-2.el9_6.2.tuxcare.els18"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "python3-test",
+        "purl": "pkg:rpm/tuxcare/python3-test?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.9.21-2.el9_6.2.tuxcare.els18"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "python3-tkinter",
+        "purl": "pkg:rpm/tuxcare/python3-tkinter?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.9.21-2.el9_6.2.tuxcare.els18"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-0864"
+  ],
+  "published": "2026-08-25T18:12:32Z",
+  "modified": "2026-08-25T18:12:32Z",
+  "details": "- CVE-2026-0864: normalize CR and CRLF line endings to LF before the\n  newline-to-continuation escape in configparser._write_section(), so an\n  attacker-controlled value containing a bare CR can no longer inject\n  extra keys when the written file is re-read (upstream gh-143927,\n  3.10-branch commit 12dcbd74d3)",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/tuxcare9.6esu/CLSA-2026-1787681542.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-0864",
+      "type": "ADVISORY"
+    }
+  ]
+}

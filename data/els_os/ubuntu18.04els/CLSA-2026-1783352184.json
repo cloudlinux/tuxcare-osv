@@ -1,0 +1,188 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1783352184",
+  "summary": "Fix CVE(s): CVE-2026-55956, CVE-2026-55957",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "libtomcat8-embed-java",
+        "purl": "pkg:deb/tuxcare/libtomcat8-embed-java?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8.5.100-1ubuntu1~18.04.1+tuxcare.els4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "libtomcat8-java",
+        "purl": "pkg:deb/tuxcare/libtomcat8-java?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8.5.100-1ubuntu1~18.04.1+tuxcare.els4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "tomcat8",
+        "purl": "pkg:deb/tuxcare/tomcat8?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8.5.100-1ubuntu1~18.04.1+tuxcare.els4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "tomcat8-admin",
+        "purl": "pkg:deb/tuxcare/tomcat8-admin?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8.5.100-1ubuntu1~18.04.1+tuxcare.els4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "tomcat8-common",
+        "purl": "pkg:deb/tuxcare/tomcat8-common?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8.5.100-1ubuntu1~18.04.1+tuxcare.els4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "tomcat8-docs",
+        "purl": "pkg:deb/tuxcare/tomcat8-docs?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8.5.100-1ubuntu1~18.04.1+tuxcare.els4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "tomcat8-examples",
+        "purl": "pkg:deb/tuxcare/tomcat8-examples?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8.5.100-1ubuntu1~18.04.1+tuxcare.els4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "tomcat8-user",
+        "purl": "pkg:deb/tuxcare/tomcat8-user?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8.5.100-1ubuntu1~18.04.1+tuxcare.els4"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-55956",
+    "CVE-2026-55957"
+  ],
+  "published": "2026-07-06T15:36:49Z",
+  "modified": "2026-07-06T15:36:49Z",
+  "details": "   * SECURITY UPDATE: authentication bypass in JNDIRealm with GSSAPI\n     - debian/patches/CVE-2026-55957.patch: don't reuse GSSAPI SASL auth when\n       validating user credentials in java/org/apache/catalina/realm/JNDIRealm.java\n     - CVE-2026-55957\n   * SECURITY UPDATE: default servlet security constraint method bypass\n     - debian/patches/CVE-2026-55956.patch: honour per-method constraints mapped\n       to \"/\" in java/org/apache/catalina/realm/RealmBase.java\n     - CVE-2026-55956",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/ubuntu18.04els/CLSA-2026-1783352184.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-55956",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-55957",
+      "type": "ADVISORY"
+    }
+  ]
+}

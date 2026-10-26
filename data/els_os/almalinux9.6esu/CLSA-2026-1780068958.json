@@ -1,0 +1,121 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1780068958",
+  "summary": "unbound: Fix of 3 CVEs",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "python3-unbound",
+        "purl": "pkg:rpm/tuxcare/python3-unbound?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.16.2-19.el9_6.1.tuxcare.els5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "unbound",
+        "purl": "pkg:rpm/tuxcare/unbound?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.16.2-19.el9_6.1.tuxcare.els5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "unbound-devel",
+        "purl": "pkg:rpm/tuxcare/unbound-devel?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.16.2-19.el9_6.1.tuxcare.els5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "unbound-dracut",
+        "purl": "pkg:rpm/tuxcare/unbound-dracut?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.16.2-19.el9_6.1.tuxcare.els5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "unbound-libs",
+        "purl": "pkg:rpm/tuxcare/unbound-libs?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.16.2-19.el9_6.1.tuxcare.els5"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-41292",
+    "CVE-2026-42944",
+    "CVE-2026-44608"
+  ],
+  "published": "2026-05-29T15:36:02Z",
+  "modified": "2026-05-29T15:36:02Z",
+  "details": "- CVE-2026-41292: cap parsed incoming EDNS options at 100 to prevent\n  per-thread parse stalls under crafted long-option-list queries\n- CVE-2026-42944: de-duplicate NSID/Padding EDNS options at parse time\n  to prevent heap overflow during EDNS encoding in attach_edns_record\n- CVE-2026-44608: hold the auth-zone read lock across nsip/nsdname\n  trigger application in rpz_callback_from_iterator_module to avoid\n  use-after-free under concurrent RPZ XFR reload",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/tuxcare9.6esu/CLSA-2026-1780068958.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

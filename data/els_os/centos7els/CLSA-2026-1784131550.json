@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1784131550",
+  "summary": "gawk: Fix of CVE-2026-40468",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:7",
+        "name": "gawk",
+        "purl": "pkg:rpm/tuxcare/gawk?distro=centos-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.0.2-4.el7_3.1.tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-40468"
+  ],
+  "published": "2026-07-17T09:33:51Z",
+  "modified": "2026-07-17T09:33:51Z",
+  "details": "- CVE-2026-40468: builtin.c (do_sub): make sofar be size_t to avoid an integer overflow that could corrupt the heap during sub/gsub/gensub on very large buffers.",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/centos7els/CLSA-2026-1784131550.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-40468",
+      "type": "ADVISORY"
+    }
+  ]
+}

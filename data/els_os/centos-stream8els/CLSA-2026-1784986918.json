@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1784986918",
+  "summary": "squid: Fix of 2 CVEs",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS-Stream:8",
+        "name": "squid",
+        "purl": "pkg:rpm/tuxcare/squid?distro=centos-stream-8"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7:4.15-10.module_el8+2444+7329aae0.tuxcare.els6"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-47729",
+    "CVE-2026-50012"
+  ],
+  "published": "2026-07-25T13:42:10Z",
+  "modified": "2026-07-25T13:42:10Z",
+  "details": "- CVE-2026-47729: fix out-of-bounds read in the FTP gateway directory\n  listing parser that could disclose memory from unrelated transactions\n- CVE-2026-50012: fix heap buffer overflow in cache digest reply handling\n  when the on-the-wire payload exceeds the advertised mask size",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/centos-stream8els/CLSA-2026-1784986918.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-47729",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-50012",
+      "type": "ADVISORY"
+    }
+  ]
+}

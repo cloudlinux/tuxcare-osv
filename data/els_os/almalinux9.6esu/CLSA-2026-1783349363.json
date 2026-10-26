@@ -1,0 +1,188 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1783349363",
+  "summary": "ImageMagick: Fix of 2 CVEs",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "ImageMagick",
+        "purl": "pkg:rpm/tuxcare/ImageMagick?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "6.9.13.25-1.el9_6.tuxcare.els13"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "ImageMagick-c++",
+        "purl": "pkg:rpm/tuxcare/ImageMagick-c++?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "6.9.13.25-1.el9_6.tuxcare.els13"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "ImageMagick-c++-devel",
+        "purl": "pkg:rpm/tuxcare/ImageMagick-c++-devel?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "6.9.13.25-1.el9_6.tuxcare.els13"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "ImageMagick-devel",
+        "purl": "pkg:rpm/tuxcare/ImageMagick-devel?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "6.9.13.25-1.el9_6.tuxcare.els13"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "ImageMagick-djvu",
+        "purl": "pkg:rpm/tuxcare/ImageMagick-djvu?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "6.9.13.25-1.el9_6.tuxcare.els13"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "ImageMagick-doc",
+        "purl": "pkg:rpm/tuxcare/ImageMagick-doc?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "6.9.13.25-1.el9_6.tuxcare.els13"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "ImageMagick-libs",
+        "purl": "pkg:rpm/tuxcare/ImageMagick-libs?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "6.9.13.25-1.el9_6.tuxcare.els13"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "ImageMagick-perl",
+        "purl": "pkg:rpm/tuxcare/ImageMagick-perl?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "6.9.13.25-1.el9_6.tuxcare.els13"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-46522",
+    "CVE-2026-46523"
+  ],
+  "published": "2026-07-08T15:51:26Z",
+  "modified": "2026-07-08T15:51:26Z",
+  "details": "- CVE-2026-46522: add the missing length==0 checks to the MIFF\n  decoder BZ2/LZMA/zlib decompression paths to reject empty\n  compressed chunks and prevent an infinite loop (CPU exhaustion)\n  on crafted files\n- CVE-2026-46523: mark the MSL coder as not supporting direct blob\n  I/O (entry->blob_support=MagickFalse in RegisterMSLImage) to\n  prevent a heap-use-after-free triggered by a crafted MSL image",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/tuxcare9.6esu/CLSA-2026-1783349363.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-33901",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-33908",
+      "type": "ADVISORY"
+    }
+  ]
+}

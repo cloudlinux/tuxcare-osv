@@ -1,0 +1,153 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1792154919",
+  "summary": "Fix CVE(s): CVE-2026-106553, CVE-2026-106555, CVE-2026-106583",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Debian:10",
+        "name": "openssh-client",
+        "purl": "pkg:deb/tuxcare/openssh-client?distro=debian-10"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:7.9p1-10+deb10u4+tuxcare.els9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Debian:10",
+        "name": "openssh-server",
+        "purl": "pkg:deb/tuxcare/openssh-server?distro=debian-10"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:7.9p1-10+deb10u4+tuxcare.els9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Debian:10",
+        "name": "openssh-sftp-server",
+        "purl": "pkg:deb/tuxcare/openssh-sftp-server?distro=debian-10"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:7.9p1-10+deb10u4+tuxcare.els9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Debian:10",
+        "name": "openssh-tests",
+        "purl": "pkg:deb/tuxcare/openssh-tests?distro=debian-10"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:7.9p1-10+deb10u4+tuxcare.els9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Debian:10",
+        "name": "ssh",
+        "purl": "pkg:deb/tuxcare/ssh?distro=debian-10"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:7.9p1-10+deb10u4+tuxcare.els9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Debian:10",
+        "name": "ssh-askpass-gnome",
+        "purl": "pkg:deb/tuxcare/ssh-askpass-gnome?distro=debian-10"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:7.9p1-10+deb10u4+tuxcare.els9"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-106553",
+    "CVE-2026-106555",
+    "CVE-2026-106583"
+  ],
+  "published": "2026-10-16T12:48:51Z",
+  "modified": "2026-10-16T12:48:51Z",
+  "details": "   * SECURITY UPDATE: GSSAPI client state persisting across authentication\n     attempts\n     - debian/patches/CVE-2026-106555.patch: reset the GSSAPI client state\n       at the start of each userauth request and of each pre-authentication\n       GSSAPI context setup in the monitor.\n     - CVE-2026-106555\n   * SECURITY UPDATE: GSSAPI delegated credentials stored after failed\n     authentication\n     - debian/patches/CVE-2026-106553.patch: only store delegated GSSAPI\n       credentials when the GSSAPI client was authorized.\n     - CVE-2026-106553\n   * SECURITY UPDATE: command injection via command-line user name\n     - debian/patches/CVE-2026-106583.patch: disallow '$' and '\\' in a\n       user name supplied on the ssh command line.\n     - CVE-2026-106583",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/debian10els/CLSA-2026-1792154919.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-106553",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-106555",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-106583",
+      "type": "ADVISORY"
+    }
+  ]
+}

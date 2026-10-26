@@ -1,0 +1,179 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1780067463",
+  "summary": "cups: Fix of CVE-2026-27447",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "cups",
+        "purl": "pkg:rpm/tuxcare/cups?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:2.3.3op2-16.el9_2.1.tuxcare.els12"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "cups-client",
+        "purl": "pkg:rpm/tuxcare/cups-client?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:2.3.3op2-16.el9_2.1.tuxcare.els12"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "cups-devel",
+        "purl": "pkg:rpm/tuxcare/cups-devel?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:2.3.3op2-16.el9_2.1.tuxcare.els12"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "cups-filesystem",
+        "purl": "pkg:rpm/tuxcare/cups-filesystem?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:2.3.3op2-16.el9_2.1.tuxcare.els12"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "cups-ipptool",
+        "purl": "pkg:rpm/tuxcare/cups-ipptool?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:2.3.3op2-16.el9_2.1.tuxcare.els12"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "cups-libs",
+        "purl": "pkg:rpm/tuxcare/cups-libs?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:2.3.3op2-16.el9_2.1.tuxcare.els12"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "cups-lpd",
+        "purl": "pkg:rpm/tuxcare/cups-lpd?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:2.3.3op2-16.el9_2.1.tuxcare.els12"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "cups-printerapp",
+        "purl": "pkg:rpm/tuxcare/cups-printerapp?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:2.3.3op2-16.el9_2.1.tuxcare.els12"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-27447"
+  ],
+  "published": "2026-05-29T15:11:08Z",
+  "modified": "2026-05-29T15:11:08Z",
+  "details": "- CVE-2026-27447: fix authorization bypass in cupsd caused by\n  case-insensitive comparison of local user and group names; include\n  upstream Issue #1557 follow-up to avoid breaking AuthType None\n  policies for non-local accounts",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/almalinux9.2esu/CLSA-2026-1780067463.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

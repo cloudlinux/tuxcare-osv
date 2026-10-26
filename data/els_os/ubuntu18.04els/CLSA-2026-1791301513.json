@@ -1,0 +1,83 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1791301513",
+  "summary": "Fix CVE(s): CVE-2024-5564",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "libndp-dev",
+        "purl": "pkg:deb/tuxcare/libndp-dev?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.6-1+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "libndp-tools",
+        "purl": "pkg:deb/tuxcare/libndp-tools?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.6-1+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "libndp0",
+        "purl": "pkg:deb/tuxcare/libndp0?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.6-1+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2024-5564"
+  ],
+  "published": "2026-10-06T15:45:23Z",
+  "modified": "2026-10-06T15:45:23Z",
+  "details": "   * SECURITY UPDATE: buffer overflow via Route Information option length\n     - debian/patches/CVE-2024-5564.patch: validate the option length in\n       ndp_msg_opt_route_check_valid() (libndp/libndp.c)\n     - CVE-2024-5564",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/ubuntu18.04els/CLSA-2026-1791301513.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-5564",
+      "type": "ADVISORY"
+    }
+  ]
+}

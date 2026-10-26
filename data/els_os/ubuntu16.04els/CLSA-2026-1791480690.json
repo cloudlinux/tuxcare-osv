@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1791480690",
+  "summary": "Fix CVE(s): CVE-2026-53783",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "rsync",
+        "purl": "pkg:deb/tuxcare/rsync?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.1.1-3ubuntu1.3+tuxcare.els20"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-53783"
+  ],
+  "published": "2026-10-08T23:17:12Z",
+  "modified": "2026-10-08T23:17:12Z",
+  "details": "   * SECURITY UPDATE: rrsync restricted-directory escape\n     - debian/patches/CVE-2026-53783.patch: replace the Perl rrsync with\n       upstream's hardened Python one and add the --drop-D option it passes\n     - debian/control: add python3 to Build-Depends for the new test\n     - CVE-2026-53783",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/ubuntu16.04els/CLSA-2026-1791480690.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-53783",
+      "type": "ADVISORY"
+    }
+  ]
+}

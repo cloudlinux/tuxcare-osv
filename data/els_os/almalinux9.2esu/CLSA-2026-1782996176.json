@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1782996176",
+  "summary": "runc: Fix of CVE-2026-32280",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "runc",
+        "purl": "pkg:rpm/tuxcare/runc?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4:1.2.8-1.el9_1.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-32280"
+  ],
+  "published": "2026-07-02T12:43:13Z",
+  "modified": "2026-07-02T12:43:13Z",
+  "details": "- CVE-2026-32280: rebuild against golang containing GO-2026-4947 backport (crypto/x509 chain-building DoS fix)",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/almalinux9.2esu/CLSA-2026-1782996176.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-32280",
+      "type": "ADVISORY"
+    }
+  ]
+}

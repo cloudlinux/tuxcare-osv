@@ -1,0 +1,123 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1789376654",
+  "summary": "Fix CVE(s): CVE-2026-73282",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "openssh-client",
+        "purl": "pkg:deb/tuxcare/openssh-client?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:7.6p1-4ubuntu0.7+tuxcare.els12"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "openssh-server",
+        "purl": "pkg:deb/tuxcare/openssh-server?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:7.6p1-4ubuntu0.7+tuxcare.els12"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "openssh-sftp-server",
+        "purl": "pkg:deb/tuxcare/openssh-sftp-server?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:7.6p1-4ubuntu0.7+tuxcare.els12"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "ssh",
+        "purl": "pkg:deb/tuxcare/ssh?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:7.6p1-4ubuntu0.7+tuxcare.els12"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "ssh-askpass-gnome",
+        "purl": "pkg:deb/tuxcare/ssh-askpass-gnome?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:7.6p1-4ubuntu0.7+tuxcare.els12"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-73282"
+  ],
+  "published": "2026-09-14T09:04:24Z",
+  "modified": "2026-09-14T09:04:24Z",
+  "details": "   * SECURITY UPDATE: remote forwarding use-after-free\n     - debian/patches/CVE-2026-73282.patch: store remote forwarding\n       confirmation state by index so reallocations of the remote forwarding\n       list cannot invalidate callback state\n     - CVE-2026-73282",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/ubuntu18.04els/CLSA-2026-1789376654.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-73282",
+      "type": "ADVISORY"
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1789389842",
+  "summary": "gpsd-minimal: Fix of CVE-2026-60122",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "gpsd-minimal",
+        "purl": "pkg:rpm/tuxcare/gpsd-minimal?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:3.25-1.el9.3.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "gpsd-minimal-clients",
+        "purl": "pkg:rpm/tuxcare/gpsd-minimal-clients?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:3.25-1.el9.3.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-60122"
+  ],
+  "published": "2026-09-14T12:44:15Z",
+  "modified": "2026-09-14T12:44:15Z",
+  "details": "- CVE-2026-60122: fix command injection via non-boolean satellite used flag",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/almalinux9.2esu/CLSA-2026-1789389842.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-60122",
+      "type": "ADVISORY"
+    }
+  ]
+}

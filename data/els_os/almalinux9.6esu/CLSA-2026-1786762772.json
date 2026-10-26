@@ -1,0 +1,63 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1786762772",
+  "summary": "jq: Fix of CVE-2026-39956",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "jq",
+        "purl": "pkg:rpm/tuxcare/jq?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.6-17.el9_6.2.tuxcare.els7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "jq-devel",
+        "purl": "pkg:rpm/tuxcare/jq-devel?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.6-17.el9_6.2.tuxcare.els7"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-39956"
+  ],
+  "published": "2026-08-15T02:59:42Z",
+  "modified": "2026-08-15T02:59:42Z",
+  "details": "- CVE-2026-39956: add runtime type checks to _strindices to prevent abort\n  and pointer dereference on non-string arguments",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/tuxcare9.6esu/CLSA-2026-1786762772.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-39956",
+      "type": "ADVISORY"
+    }
+  ]
+}

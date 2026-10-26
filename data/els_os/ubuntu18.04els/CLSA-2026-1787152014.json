@@ -1,0 +1,123 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1787152014",
+  "summary": "Fix CVE(s): CVE-2025-5222",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "icu-devtools",
+        "purl": "pkg:deb/tuxcare/icu-devtools?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "60.2-3ubuntu3.2+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "icu-doc",
+        "purl": "pkg:deb/tuxcare/icu-doc?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "60.2-3ubuntu3.2+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "libicu-dev",
+        "purl": "pkg:deb/tuxcare/libicu-dev?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "60.2-3ubuntu3.2+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "libicu60",
+        "purl": "pkg:deb/tuxcare/libicu60?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "60.2-3ubuntu3.2+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "libiculx60",
+        "purl": "pkg:deb/tuxcare/libiculx60?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "60.2-3ubuntu3.2+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2025-5222"
+  ],
+  "published": "2026-08-19T15:07:05Z",
+  "modified": "2026-08-19T15:07:05Z",
+  "details": "   * SECURITY UPDATE: stack buffer overflow in the genrb resource-bundle\n     compiler\n     - debian/patches/CVE-2025-5222.patch: replace the fixed-size 1024-byte\n       subtag/typeKeyword stack buffers in addCollation(),\n       parseCollationElements() and realParseTable() with CharString in\n       source/tools/genrb/parse.cpp, and add the CharString UChar* overload\n       it needs to source/common/charstr.{cpp,h}.\n     - CVE-2025-5222",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/ubuntu18.04els/CLSA-2026-1787152014.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-5222",
+      "type": "ADVISORY"
+    }
+  ]
+}

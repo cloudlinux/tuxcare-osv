@@ -1,0 +1,103 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1792993665",
+  "summary": "libtiff: Fix of CVE-2026-52490",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:RHEL:7",
+        "name": "libtiff",
+        "purl": "pkg:rpm/tuxcare/libtiff?distro=rhel-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.0.3-35.0.1.el7_9.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:RHEL:7",
+        "name": "libtiff-devel",
+        "purl": "pkg:rpm/tuxcare/libtiff-devel?distro=rhel-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.0.3-35.0.1.el7_9.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:RHEL:7",
+        "name": "libtiff-static",
+        "purl": "pkg:rpm/tuxcare/libtiff-static?distro=rhel-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.0.3-35.0.1.el7_9.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:RHEL:7",
+        "name": "libtiff-tools",
+        "purl": "pkg:rpm/tuxcare/libtiff-tools?distro=rhel-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.0.3-35.0.1.el7_9.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-52490"
+  ],
+  "published": "2026-10-26T05:47:56Z",
+  "modified": "2026-10-26T05:47:56Z",
+  "details": "- CVE-2026-52490: fix stack buffer overflow in tiffcrop -S section handling",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/rhel7els/CLSA-2026-1792993665.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-52490",
+      "type": "ADVISORY"
+    }
+  ]
+}

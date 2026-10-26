@@ -1,0 +1,103 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1784020479",
+  "summary": "libinput: Fix of CVE-2026-50292",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "libinput",
+        "purl": "pkg:rpm/tuxcare/libinput?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.19.3-7.el9_6.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "libinput-devel",
+        "purl": "pkg:rpm/tuxcare/libinput-devel?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.19.3-7.el9_6.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "libinput-test",
+        "purl": "pkg:rpm/tuxcare/libinput-test?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.19.3-7.el9_6.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "libinput-utils",
+        "purl": "pkg:rpm/tuxcare/libinput-utils?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.19.3-7.el9_6.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-50292"
+  ],
+  "published": "2026-07-14T09:14:54Z",
+  "modified": "2026-07-14T09:14:54Z",
+  "details": "- CVE-2026-50292: sanitize phys sysattr to prevent udev property injection",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/tuxcare9.6esu/CLSA-2026-1784020479.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-50292",
+      "type": "ADVISORY"
+    }
+  ]
+}

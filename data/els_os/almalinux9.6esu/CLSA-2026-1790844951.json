@@ -1,0 +1,143 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1790844951",
+  "summary": "flatpak: Fix of CVE-2026-96808",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "flatpak",
+        "purl": "pkg:rpm/tuxcare/flatpak?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.12.9-4.el9_6.tuxcare.els4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "flatpak-devel",
+        "purl": "pkg:rpm/tuxcare/flatpak-devel?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.12.9-4.el9_6.tuxcare.els4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "flatpak-libs",
+        "purl": "pkg:rpm/tuxcare/flatpak-libs?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.12.9-4.el9_6.tuxcare.els4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "flatpak-selinux",
+        "purl": "pkg:rpm/tuxcare/flatpak-selinux?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.12.9-4.el9_6.tuxcare.els4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "flatpak-session-helper",
+        "purl": "pkg:rpm/tuxcare/flatpak-session-helper?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.12.9-4.el9_6.tuxcare.els4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "flatpak-tests",
+        "purl": "pkg:rpm/tuxcare/flatpak-tests?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.12.9-4.el9_6.tuxcare.els4"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-96808"
+  ],
+  "published": "2026-10-01T08:56:03Z",
+  "modified": "2026-10-01T08:56:03Z",
+  "details": "- CVE-2026-96808: the revokefs writer validated the paths its unprivileged\n  client sends with validate_path()/get_valid_path(), which rejected literal\n  \"..\" components but followed symlinks, so a local user holding two revokefs\n  sessions could make one session write through a symlink into the other and\n  tamper with ostree objects after flatpak-system-helper had verified them;\n  the request handlers now resolve the parent directory with\n  glnx_chaseat(GLNX_CHASE_RESOLVE_BENEATH) through the new chase_parent(),\n  chase_request_path(), chase_request_2path() and chase_request_any_and_path()\n  helpers and act on the final component with *at() syscalls confined beneath\n  basefd",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/tuxcare9.6esu/CLSA-2026-1790844951.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-96808",
+      "type": "ADVISORY"
+    }
+  ]
+}

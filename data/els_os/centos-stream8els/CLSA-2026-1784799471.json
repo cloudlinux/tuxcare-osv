@@ -1,0 +1,123 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1784799471",
+  "summary": "vim: Fix of CVE-2026-59858",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS-Stream:8",
+        "name": "vim-X11",
+        "purl": "pkg:rpm/tuxcare/vim-X11?distro=centos-stream-8"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:8.0.1763-19.el8.4.tuxcare.els22"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS-Stream:8",
+        "name": "vim-common",
+        "purl": "pkg:rpm/tuxcare/vim-common?distro=centos-stream-8"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:8.0.1763-19.el8.4.tuxcare.els22"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS-Stream:8",
+        "name": "vim-enhanced",
+        "purl": "pkg:rpm/tuxcare/vim-enhanced?distro=centos-stream-8"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:8.0.1763-19.el8.4.tuxcare.els22"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS-Stream:8",
+        "name": "vim-filesystem",
+        "purl": "pkg:rpm/tuxcare/vim-filesystem?distro=centos-stream-8"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:8.0.1763-19.el8.4.tuxcare.els22"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS-Stream:8",
+        "name": "vim-minimal",
+        "purl": "pkg:rpm/tuxcare/vim-minimal?distro=centos-stream-8"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:8.0.1763-19.el8.4.tuxcare.els22"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-59858"
+  ],
+  "published": "2026-07-23T09:38:17Z",
+  "modified": "2026-07-23T09:38:17Z",
+  "details": "- CVE-2026-59858: fix arbitrary Ex command execution during C omni-completion; the typeref/typename tag field was interpolated unescaped into a :vimgrep pattern run via :execute, letting a crafted tags file close the pattern and append an Ex command; escape the type field with escape(typename, '/\\') (runtime/autoload/ccomplete.vim, upstream patch 9.2.0735)",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/centos-stream8els/CLSA-2026-1784799471.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59858",
+      "type": "ADVISORY"
+    }
+  ]
+}

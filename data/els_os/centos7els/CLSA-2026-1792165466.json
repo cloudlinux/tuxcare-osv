@@ -1,0 +1,163 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1792165466",
+  "summary": "tigervnc: Fix of CVE-2026-50264",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:7",
+        "name": "tigervnc",
+        "purl": "pkg:rpm/tuxcare/tigervnc?distro=centos-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.8.0-33.0.11.el7_9.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:7",
+        "name": "tigervnc-icons",
+        "purl": "pkg:rpm/tuxcare/tigervnc-icons?distro=centos-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.8.0-33.0.11.el7_9.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:7",
+        "name": "tigervnc-license",
+        "purl": "pkg:rpm/tuxcare/tigervnc-license?distro=centos-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.8.0-33.0.11.el7_9.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:7",
+        "name": "tigervnc-server",
+        "purl": "pkg:rpm/tuxcare/tigervnc-server?distro=centos-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.8.0-33.0.11.el7_9.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:7",
+        "name": "tigervnc-server-applet",
+        "purl": "pkg:rpm/tuxcare/tigervnc-server-applet?distro=centos-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.8.0-33.0.11.el7_9.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:7",
+        "name": "tigervnc-server-minimal",
+        "purl": "pkg:rpm/tuxcare/tigervnc-server-minimal?distro=centos-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.8.0-33.0.11.el7_9.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:7",
+        "name": "tigervnc-server-module",
+        "purl": "pkg:rpm/tuxcare/tigervnc-server-module?distro=centos-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.8.0-33.0.11.el7_9.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-50264"
+  ],
+  "published": "2026-10-17T12:59:46Z",
+  "modified": "2026-10-17T12:59:46Z",
+  "details": "- CVE-2026-50264: fix out-of-bounds heap write in DRI2 DRIGetBuffers; carried\n  by xorg-x11-server-source >= 1.20.4-99.el7_9.tuxcare.els14, no local patch",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/centos7els/CLSA-2026-1792165466.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-50264",
+      "type": "ADVISORY"
+    }
+  ]
+}

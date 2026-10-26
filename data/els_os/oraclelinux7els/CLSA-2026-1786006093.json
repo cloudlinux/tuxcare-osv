@@ -1,0 +1,103 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1786006093",
+  "summary": "openssl11: Fix of CVE-2026-45447",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:7",
+        "name": "openssl11",
+        "purl": "pkg:rpm/tuxcare/openssl11?distro=oraclelinux-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:1.1.1k-7.el7.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:7",
+        "name": "openssl11-devel",
+        "purl": "pkg:rpm/tuxcare/openssl11-devel?distro=oraclelinux-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:1.1.1k-7.el7.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:7",
+        "name": "openssl11-libs",
+        "purl": "pkg:rpm/tuxcare/openssl11-libs?distro=oraclelinux-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:1.1.1k-7.el7.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:7",
+        "name": "openssl11-static",
+        "purl": "pkg:rpm/tuxcare/openssl11-static?distro=oraclelinux-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:1.1.1k-7.el7.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-45447"
+  ],
+  "published": "2026-08-06T08:48:23Z",
+  "modified": "2026-08-06T08:48:23Z",
+  "details": "- CVE-2026-45447: fix use-after-free of a caller-owned BIO in PKCS7_verify()\n  when the SignedData digestAlgorithms field is an empty ASN.1 SET",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/oraclelinux7els/CLSA-2026-1786006093.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-45447",
+      "type": "ADVISORY"
+    }
+  ]
+}

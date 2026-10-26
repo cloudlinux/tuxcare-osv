@@ -1,0 +1,63 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1784640629",
+  "summary": "dnsmasq: Fix of CVE-2026-12725",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "dnsmasq",
+        "purl": "pkg:rpm/tuxcare/dnsmasq?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.85-17.el9_6.tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "dnsmasq-utils",
+        "purl": "pkg:rpm/tuxcare/dnsmasq-utils?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.85-17.el9_6.tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-12725"
+  ],
+  "published": "2026-07-21T13:30:54Z",
+  "modified": "2026-07-21T13:30:54Z",
+  "details": "- CVE-2026-12725: Fix buffer overflow in log_query()",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/tuxcare9.6esu/CLSA-2026-1784640629.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-12725",
+      "type": "ADVISORY"
+    }
+  ]
+}

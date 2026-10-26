@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1781619768",
+  "summary": "thunderbird: Fix of CVE-2026-7321",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "thunderbird",
+        "purl": "pkg:rpm/tuxcare/thunderbird?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "115.4.1-1.el9_2.alma.tuxcare.els11"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-7321"
+  ],
+  "published": "2026-06-16T14:23:03Z",
+  "modified": "2026-06-16T14:23:03Z",
+  "details": "- CVE-2026-7321: remove the custom memory allocator from the WebRTC nICEr/nrappkit\n  transport (r_strdup/RMALLOC/RFREE) that had incorrect size boundary conditions and\n  replace all uses with standard strdup/malloc/free to prevent a buffer overflow",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/almalinux9.2esu/CLSA-2026-1781619768.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-7321",
+      "type": "ADVISORY"
+    }
+  ]
+}

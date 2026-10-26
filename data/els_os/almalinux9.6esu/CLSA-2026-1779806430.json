@@ -1,0 +1,119 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1779806430",
+  "summary": "vim: Fix of CVE-2026-44656",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "vim-X11",
+        "purl": "pkg:rpm/tuxcare/vim-X11?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:8.2.2637-22.el9_6.1.tuxcare.els32"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "vim-common",
+        "purl": "pkg:rpm/tuxcare/vim-common?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:8.2.2637-22.el9_6.1.tuxcare.els32"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "vim-enhanced",
+        "purl": "pkg:rpm/tuxcare/vim-enhanced?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:8.2.2637-22.el9_6.1.tuxcare.els32"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "vim-filesystem",
+        "purl": "pkg:rpm/tuxcare/vim-filesystem?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:8.2.2637-22.el9_6.1.tuxcare.els32"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "vim-minimal",
+        "purl": "pkg:rpm/tuxcare/vim-minimal?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:8.2.2637-22.el9_6.1.tuxcare.els32"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-44656"
+  ],
+  "published": "2026-05-26T14:42:07Z",
+  "modified": "2026-05-26T14:42:07Z",
+  "details": "- CVE-2026-44656: fix shell command execution via backticks in 'path' option\n  during file completion by skipping backtick entries in expand_path_option()\n  (findfile.c, upstream patches 9.2.0435 and 9.2.0444; the P_SECURE-on-'path'\n  portion of 9.2.0435 was reverted by 9.2.0444 and is intentionally not\n  backported)",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/tuxcare9.6esu/CLSA-2026-1779806430.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

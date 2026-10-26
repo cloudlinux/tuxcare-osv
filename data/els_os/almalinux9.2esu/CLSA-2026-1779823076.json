@@ -1,0 +1,80 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1779823076",
+  "summary": "motif: Fix of 2 CVEs",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "motif",
+        "purl": "pkg:rpm/tuxcare/motif?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.3.4-27.el9_2.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "motif-devel",
+        "purl": "pkg:rpm/tuxcare/motif-devel?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.3.4-27.el9_2.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "motif-static",
+        "purl": "pkg:rpm/tuxcare/motif-static?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.3.4-27.el9_2.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2023-43788",
+    "CVE-2023-43789"
+  ],
+  "published": "2026-05-26T19:18:00Z",
+  "modified": "2026-05-26T19:18:00Z",
+  "details": "- CVE-2023-43788: fix out of bounds read in XpmCreateXpmImageFromBuffer\n- CVE-2023-43789: fix out of bounds read on XPM with corrupted colormap",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/almalinux9.2esu/CLSA-2026-1779823076.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1784808357",
+  "summary": "perl-DBI: Fix of 2 CVEs",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "perl-DBI",
+        "purl": "pkg:rpm/tuxcare/perl-DBI?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.643-9.el9_2.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-9698"
+  ],
+  "published": "2026-07-31T12:03:11Z",
+  "modified": "2026-07-31T12:03:11Z",
+  "details": "- CVE-2026-9698: fix stack overflow and buffer overflow in DBI.xs error handling and preparse()",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/almalinux9.2esu/CLSA-2026-1784808357.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-10879",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-9698",
+      "type": "ADVISORY"
+    }
+  ]
+}

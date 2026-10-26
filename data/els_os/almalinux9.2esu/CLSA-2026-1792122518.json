@@ -1,0 +1,157 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1792122518",
+  "summary": "Update of cyrus-imapd",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "cyrus-imapd",
+        "purl": "pkg:rpm/tuxcare/cyrus-imapd?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.4.1-7.el9_2.tuxcare.els4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "cyrus-imapd-devel",
+        "purl": "pkg:rpm/tuxcare/cyrus-imapd-devel?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.4.1-7.el9_2.tuxcare.els4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "cyrus-imapd-doc-extra",
+        "purl": "pkg:rpm/tuxcare/cyrus-imapd-doc-extra?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.4.1-7.el9_2.tuxcare.els4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "cyrus-imapd-libs",
+        "purl": "pkg:rpm/tuxcare/cyrus-imapd-libs?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.4.1-7.el9_2.tuxcare.els4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "cyrus-imapd-utils",
+        "purl": "pkg:rpm/tuxcare/cyrus-imapd-utils?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.4.1-7.el9_2.tuxcare.els4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "cyrus-imapd-virusscan",
+        "purl": "pkg:rpm/tuxcare/cyrus-imapd-virusscan?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.4.1-7.el9_2.tuxcare.els4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "perl-Cyrus",
+        "purl": "pkg:rpm/tuxcare/perl-Cyrus?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.4.1-7.el9_2.tuxcare.els4"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [],
+  "published": "2026-10-16T03:48:47Z",
+  "modified": "2026-10-16T03:48:47Z",
+  "details": "- fix NULL dereference in CalDAV VPATCH PATCHACTION string matching that\n  crashed the httpd worker on a property with an empty value",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/almalinux9.2esu/CLSA-2026-1792122518.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

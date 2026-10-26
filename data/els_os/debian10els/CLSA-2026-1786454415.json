@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1786454415",
+  "summary": "Fix CVE(s): CVE-2024-12085",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Debian:10",
+        "name": "rsync",
+        "purl": "pkg:deb/tuxcare/rsync?distro=debian-10"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.1.3-6+tuxcare.els4"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2024-12085"
+  ],
+  "published": "2026-08-11T13:20:26Z",
+  "modified": "2026-08-11T13:20:26Z",
+  "details": "   * SECURITY UPDATE: information leak of uninitialized stack memory via an\n     attacker-controlled checksum length (s2length) in hash_search():\n     - debian/patches/els/0008-CVE-2024-12085.patch: zero the local sum2\n       buffer on entry to hash_search().\n     - CVE-2024-12085.",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/debian10els/CLSA-2026-1786454415.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-12085",
+      "type": "ADVISORY"
+    }
+  ]
+}

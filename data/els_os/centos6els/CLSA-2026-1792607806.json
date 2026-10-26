@@ -1,0 +1,88 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1792607806",
+  "summary": "freetype: Fix of 2 CVEs",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:6",
+        "name": "freetype",
+        "purl": "pkg:rpm/tuxcare/freetype?distro=centos-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.3.11-19.el6_10.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:6",
+        "name": "freetype-demos",
+        "purl": "pkg:rpm/tuxcare/freetype-demos?distro=centos-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.3.11-19.el6_10.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:6",
+        "name": "freetype-devel",
+        "purl": "pkg:rpm/tuxcare/freetype-devel?distro=centos-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.3.11-19.el6_10.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2022-27405",
+    "CVE-2022-27406"
+  ],
+  "published": "2026-10-21T20:50:09Z",
+  "modified": "2026-10-21T20:50:09Z",
+  "details": "- CVE-2022-27405: Fix segmentation violation via FNT_Size_Request\n- CVE-2022-27406: Fix segmentation violation via FT_Request_Size",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/centos6els/CLSA-2026-1792607806.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2022-27405",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2022-27406",
+      "type": "ADVISORY"
+    }
+  ]
+}

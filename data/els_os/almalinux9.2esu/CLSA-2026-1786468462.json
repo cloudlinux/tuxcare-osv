@@ -1,0 +1,63 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1786468462",
+  "summary": "python-setuptools: Fix of CVE-2026-59890",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "python3-setuptools",
+        "purl": "pkg:rpm/tuxcare/python3-setuptools?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "53.0.0-12.el9.tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "python3-setuptools-wheel",
+        "purl": "pkg:rpm/tuxcare/python3-setuptools-wheel?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "53.0.0-12.el9.tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-59890"
+  ],
+  "published": "2026-08-11T17:14:40Z",
+  "modified": "2026-08-11T17:14:40Z",
+  "details": "- CVE-2026-59890: normalize Unicode form (NFC) on both the MANIFEST.in\n  pattern and the candidate path before matching, so an exclude directive\n  cannot be bypassed by a decomposed (NFD) file name",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/almalinux9.2esu/CLSA-2026-1786468462.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59890",
+      "type": "ADVISORY"
+    }
+  ]
+}

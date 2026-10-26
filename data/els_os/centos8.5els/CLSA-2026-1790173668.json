@@ -1,0 +1,88 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1790173668",
+  "summary": "rsync: Fix of 6 CVEs",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "rsync",
+        "purl": "pkg:rpm/tuxcare/rsync?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.1.3-12.el8.tuxcare.els15"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "rsync-daemon",
+        "purl": "pkg:rpm/tuxcare/rsync-daemon?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.1.3-12.el8.tuxcare.els15"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-53790",
+    "CVE-2026-70453",
+    "CVE-2026-70456",
+    "CVE-2026-70458",
+    "CVE-2026-70462",
+    "CVE-2026-70464"
+  ],
+  "published": "2026-09-23T14:28:08Z",
+  "modified": "2026-09-23T14:28:08Z",
+  "details": "- CVE-2026-53790: command injection in the daemon pre-/post-xfer exec hooks and RSYNC_CONNECT_PROG\n- CVE-2026-70453: denial of service in hash_search() -- unbounded chain walk\n- CVE-2026-70456: out-of-bounds write in read_args() -- no slot reserved for the trailing NULL\n- CVE-2026-70458: out-of-bounds read of the F_SUM slot in hard_link_check()\n- CVE-2026-70462: denial of service via a peer-supplied MSG_IO_TIMEOUT in set_io_timeout()\n- CVE-2026-70464: denial of service -- unbounded daemon pre-transfer handshake",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/centos8.5els/CLSA-2026-1790173668.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-53790",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-70453",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-70456",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-70458",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-70462",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-70464",
+      "type": "ADVISORY"
+    }
+  ]
+}

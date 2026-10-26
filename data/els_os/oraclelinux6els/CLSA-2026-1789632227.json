@@ -1,0 +1,123 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1789632227",
+  "summary": "libxml2: Fix of 5 CVEs",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:6",
+        "name": "libxml2",
+        "purl": "pkg:rpm/tuxcare/libxml2?distro=oraclelinux-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.7.6-21.0.1.el6_8.1.tuxcare.ol.els18"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:6",
+        "name": "libxml2-devel",
+        "purl": "pkg:rpm/tuxcare/libxml2-devel?distro=oraclelinux-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.7.6-21.0.1.el6_8.1.tuxcare.ol.els18"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:6",
+        "name": "libxml2-python",
+        "purl": "pkg:rpm/tuxcare/libxml2-python?distro=oraclelinux-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.7.6-21.0.1.el6_8.1.tuxcare.ol.els18"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:6",
+        "name": "libxml2-static",
+        "purl": "pkg:rpm/tuxcare/libxml2-static?distro=oraclelinux-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.7.6-21.0.1.el6_8.1.tuxcare.ol.els18"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-86138",
+    "CVE-2026-86140",
+    "CVE-2026-86142",
+    "CVE-2026-86143",
+    "CVE-2026-86144"
+  ],
+  "published": "2026-09-21T23:44:28Z",
+  "modified": "2026-09-21T23:44:28Z",
+  "details": "- CVE-2026-86138: add overflow checks to xmlDictAddQString to prevent an integer overflow and heap buffer overflow\n- CVE-2026-86140: bound the writes in xmlSnprintfElements to prevent a stack buffer overflow\n- CVE-2026-86142: make xmlStrlen saturate above INT_MAX and reject the saturated\n  length in xmlXPtrEvalXPtrPart to prevent a heap buffer overflow\n- CVE-2026-86143: reject buffer lengths at or above INT_MAX before calling the output write callback to prevent an integer overflow\n- CVE-2026-86144: propagate parseFlags in xmlXIncludeProcess and xmlXIncludeProcessTree so parser flags such as XML_PARSE_NONET are honoured",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/oraclelinux6els/CLSA-2026-1789632227.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-86138",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-86140",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-86142",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-86143",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-86144",
+      "type": "ADVISORY"
+    }
+  ]
+}

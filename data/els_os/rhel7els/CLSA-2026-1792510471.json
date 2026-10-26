@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1792510471",
+  "summary": "python-virtualenv: Fix of 2 CVEs",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:RHEL:7",
+        "name": "python-virtualenv",
+        "purl": "pkg:rpm/tuxcare/python-virtualenv?distro=rhel-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "15.1.0-7.0.1.el7_9.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2024-53899"
+  ],
+  "published": "2026-10-20T15:34:42Z",
+  "modified": "2026-10-20T15:34:42Z",
+  "details": "- Additional fix for CVE-2024-53899: quote the activate.csh values for csh,\n  so a backslash before a quote cannot end the literal under tcsh's\n  backslash_quote and a ! cannot trigger history expansion",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/rhel7els/CLSA-2026-1792510471.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2019-20916",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-53899",
+      "type": "ADVISORY"
+    }
+  ]
+}

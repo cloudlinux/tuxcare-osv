@@ -1,0 +1,108 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1791490295",
+  "summary": "Fix CVE(s): CVE-2026-35189, CVE-2026-84782",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:20.04",
+        "name": "libssl-dev",
+        "purl": "pkg:deb/tuxcare/libssl-dev?distro=ubuntu-20.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.1.1f-1ubuntu2.24+tuxcare.els9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:20.04",
+        "name": "libssl-doc",
+        "purl": "pkg:deb/tuxcare/libssl-doc?distro=ubuntu-20.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.1.1f-1ubuntu2.24+tuxcare.els9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:20.04",
+        "name": "libssl1.1",
+        "purl": "pkg:deb/tuxcare/libssl1.1?distro=ubuntu-20.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.1.1f-1ubuntu2.24+tuxcare.els9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:20.04",
+        "name": "openssl",
+        "purl": "pkg:deb/tuxcare/openssl?distro=ubuntu-20.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.1.1f-1ubuntu2.24+tuxcare.els9"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-35189",
+    "CVE-2026-84782"
+  ],
+  "published": "2026-10-08T20:11:47Z",
+  "modified": "2026-10-08T20:11:47Z",
+  "details": "   * SECURITY UPDATE: excessive memory use with relative CRL distribution\n     point names\n     - debian/patches/CVE-2026-35189.patch: build the full name of a\n       nameRelativeToCRLIssuer distribution point only while matching a\n       CRL instead of for every parsed certificate in\n       crypto/x509v3/v3_crld.c, crypto/x509v3/v3_purp.c and\n       crypto/x509/x509_vfy.c\n     - CVE-2026-35189\n   * SECURITY UPDATE: DTLS retransmission corrupts a suspended write\n     - debian/patches/CVE-2026-84782.patch: reset init_off before\n       retransmitting a message in ssl/statem/statem_dtls.c and skip the\n       retransmission while a write is still parked in ssl/d1_lib.c\n     - CVE-2026-84782",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/ubuntu20.04els/CLSA-2026-1791490295.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-35189",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-84782",
+      "type": "ADVISORY"
+    }
+  ]
+}

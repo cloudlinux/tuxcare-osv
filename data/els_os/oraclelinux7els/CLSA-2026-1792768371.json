@@ -1,0 +1,203 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1792768371",
+  "summary": "nginx: Fix of CVE-2026-56434",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:7",
+        "name": "nginx",
+        "purl": "pkg:rpm/tuxcare/nginx?distro=oraclelinux-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:1.20.1-10.el7.tuxcare.els14"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:7",
+        "name": "nginx-all-modules",
+        "purl": "pkg:rpm/tuxcare/nginx-all-modules?distro=oraclelinux-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:1.20.1-10.el7.tuxcare.els14"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:7",
+        "name": "nginx-filesystem",
+        "purl": "pkg:rpm/tuxcare/nginx-filesystem?distro=oraclelinux-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:1.20.1-10.el7.tuxcare.els14"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:7",
+        "name": "nginx-mod-devel",
+        "purl": "pkg:rpm/tuxcare/nginx-mod-devel?distro=oraclelinux-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:1.20.1-10.el7.tuxcare.els14"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:7",
+        "name": "nginx-mod-http-image-filter",
+        "purl": "pkg:rpm/tuxcare/nginx-mod-http-image-filter?distro=oraclelinux-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:1.20.1-10.el7.tuxcare.els14"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:7",
+        "name": "nginx-mod-http-perl",
+        "purl": "pkg:rpm/tuxcare/nginx-mod-http-perl?distro=oraclelinux-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:1.20.1-10.el7.tuxcare.els14"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:7",
+        "name": "nginx-mod-http-xslt-filter",
+        "purl": "pkg:rpm/tuxcare/nginx-mod-http-xslt-filter?distro=oraclelinux-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:1.20.1-10.el7.tuxcare.els14"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:7",
+        "name": "nginx-mod-mail",
+        "purl": "pkg:rpm/tuxcare/nginx-mod-mail?distro=oraclelinux-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:1.20.1-10.el7.tuxcare.els14"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:7",
+        "name": "nginx-mod-stream",
+        "purl": "pkg:rpm/tuxcare/nginx-mod-stream?distro=oraclelinux-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:1.20.1-10.el7.tuxcare.els14"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-56434"
+  ],
+  "published": "2026-10-23T15:13:02Z",
+  "modified": "2026-10-23T15:13:02Z",
+  "details": "- CVE-2026-56434: fix use-after-free in ngx_http_ssi_module by skipping a\n  subrequest post when the request is already posted and resetting\n  r->write_event_handler during subrequest finalization",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/oraclelinux7els/CLSA-2026-1792768371.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-56434",
+      "type": "ADVISORY"
+    }
+  ]
+}

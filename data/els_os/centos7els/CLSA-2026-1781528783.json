@@ -1,0 +1,170 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1781528783",
+  "summary": "python3: Fix of 2 CVEs",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:7",
+        "name": "python3",
+        "purl": "pkg:rpm/tuxcare/python3?distro=centos-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.6.8-21.0.5.el7_9.tuxcare.els12"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:7",
+        "name": "python3-debug",
+        "purl": "pkg:rpm/tuxcare/python3-debug?distro=centos-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.6.8-21.0.5.el7_9.tuxcare.els12"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:7",
+        "name": "python3-devel",
+        "purl": "pkg:rpm/tuxcare/python3-devel?distro=centos-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.6.8-21.0.5.el7_9.tuxcare.els12"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:7",
+        "name": "python3-idle",
+        "purl": "pkg:rpm/tuxcare/python3-idle?distro=centos-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.6.8-21.0.5.el7_9.tuxcare.els12"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:7",
+        "name": "python3-libs",
+        "purl": "pkg:rpm/tuxcare/python3-libs?distro=centos-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.6.8-21.0.5.el7_9.tuxcare.els12"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:7",
+        "name": "python3-test",
+        "purl": "pkg:rpm/tuxcare/python3-test?distro=centos-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.6.8-21.0.5.el7_9.tuxcare.els12"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:7",
+        "name": "python3-tkinter",
+        "purl": "pkg:rpm/tuxcare/python3-tkinter?distro=centos-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.6.8-21.0.5.el7_9.tuxcare.els12"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-0672",
+    "CVE-2026-3644",
+    "CVE-2026-4224",
+    "CVE-2025-13462"
+  ],
+  "published": "2026-06-15T20:44:57Z",
+  "modified": "2026-06-15T20:44:57Z",
+  "details": "- CVE-2026-0672: reject control characters in http.cookies.Morsel fields and values\n- CVE-2026-3644: complete CVE-2026-0672 fix: reject control chars in Morsel.update(), |=, unpickling and js_output()\n- CVE-2026-4224: avoid unbound C recursion in pyexpat conv_content_model to prevent C stack overflow\n- CVE-2025-13462: skip TarInfo AREGTYPE->DIRTYPE normalization on GNU longname/longlink follow-up headers in tarfile",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/centos7els/CLSA-2026-1781528783.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-13462",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-4224",
+      "type": "ADVISORY"
+    }
+  ]
+}

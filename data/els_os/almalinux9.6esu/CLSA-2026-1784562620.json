@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1784562620",
+  "summary": "jackson-databind: Fix of 2 CVEs",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "pki-jackson-databind",
+        "purl": "pkg:rpm/tuxcare/pki-jackson-databind?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.19.1-1.el9_6.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-54512"
+  ],
+  "published": "2026-07-20T15:50:48Z",
+  "modified": "2026-07-20T15:50:48Z",
+  "details": "- CVE-2026-54512: fix PolymorphicTypeValidator bypass via unvalidated generic type parameters",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/tuxcare9.6esu/CLSA-2026-1784562620.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-54512",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-54515",
+      "type": "ADVISORY"
+    }
+  ]
+}

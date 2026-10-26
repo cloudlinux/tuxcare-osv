@@ -1,0 +1,119 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1779869625",
+  "summary": "gnutls: Fix of CVE-2026-42010",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.4",
+        "name": "gnutls",
+        "purl": "pkg:rpm/tuxcare/gnutls?distro=centos-8.4"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.6.16-4.el8.tuxcare.els11"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.4",
+        "name": "gnutls-c++",
+        "purl": "pkg:rpm/tuxcare/gnutls-c++?distro=centos-8.4"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.6.16-4.el8.tuxcare.els11"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.4",
+        "name": "gnutls-dane",
+        "purl": "pkg:rpm/tuxcare/gnutls-dane?distro=centos-8.4"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.6.16-4.el8.tuxcare.els11"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.4",
+        "name": "gnutls-devel",
+        "purl": "pkg:rpm/tuxcare/gnutls-devel?distro=centos-8.4"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.6.16-4.el8.tuxcare.els11"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.4",
+        "name": "gnutls-utils",
+        "purl": "pkg:rpm/tuxcare/gnutls-utils?distro=centos-8.4"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.6.16-4.el8.tuxcare.els11"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-42010"
+  ],
+  "published": "2026-05-27T08:13:59Z",
+  "modified": "2026-05-27T08:13:59Z",
+  "details": "- CVE-2026-42010: RSA-PSK server truncated PSK identity at an embedded NUL\n  byte during _gnutls_psk_pwd_find_entry lookup, allowing authentication\n  bypass; use info->username_len instead of strlen(info->username)",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/centos8.4els/CLSA-2026-1779869625.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

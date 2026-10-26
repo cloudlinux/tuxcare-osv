@@ -1,0 +1,208 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1782987076",
+  "summary": "Fix CVE(s): CVE-2026-44186, CVE-2026-44631",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "apache2",
+        "purl": "pkg:deb/tuxcare/apache2?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.4.29-1ubuntu4.27+tuxcare.els13"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "apache2-bin",
+        "purl": "pkg:deb/tuxcare/apache2-bin?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.4.29-1ubuntu4.27+tuxcare.els13"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "apache2-data",
+        "purl": "pkg:deb/tuxcare/apache2-data?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.4.29-1ubuntu4.27+tuxcare.els13"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "apache2-dev",
+        "purl": "pkg:deb/tuxcare/apache2-dev?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.4.29-1ubuntu4.27+tuxcare.els13"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "apache2-doc",
+        "purl": "pkg:deb/tuxcare/apache2-doc?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.4.29-1ubuntu4.27+tuxcare.els13"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "apache2-ssl-dev",
+        "purl": "pkg:deb/tuxcare/apache2-ssl-dev?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.4.29-1ubuntu4.27+tuxcare.els13"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "apache2-suexec-custom",
+        "purl": "pkg:deb/tuxcare/apache2-suexec-custom?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.4.29-1ubuntu4.27+tuxcare.els13"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "apache2-suexec-pristine",
+        "purl": "pkg:deb/tuxcare/apache2-suexec-pristine?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.4.29-1ubuntu4.27+tuxcare.els13"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "apache2-utils",
+        "purl": "pkg:deb/tuxcare/apache2-utils?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.4.29-1ubuntu4.27+tuxcare.els13"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-44186",
+    "CVE-2026-44631"
+  ],
+  "published": "2026-07-02T10:11:35Z",
+  "modified": "2026-07-02T10:11:35Z",
+  "details": "   * SECURITY UPDATE: Buffer underwrite in ap_regname() on crafted regular\n     expressions in the configuration\n     - debian/patches/CVE-2026-44631.patch: cast the capture-index bytes to\n       unsigned char and reject capture group numbers greater than 1024 in\n       ap_regname() in server/util_pcre.c, so a crafted regex in a\n       <Directory~>, <Location~>, <Files~> or <Proxy~> section can no longer\n       produce a negative capture index and underwrite the names array; also\n       check the ap_regname() return value in dirsection(), urlsection() and\n       filesection() in server/core.c and proxysection() in\n       modules/proxy/mod_proxy.c. Upstream fix\n       7d9f3cfb10b0fe70df7358d26d7b1f374ea1a0cb (SVN r1935015).\n     - CVE-2026-44631",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/ubuntu18.04els/CLSA-2026-1782987076.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-44186",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-44631",
+      "type": "ADVISORY"
+    }
+  ]
+}

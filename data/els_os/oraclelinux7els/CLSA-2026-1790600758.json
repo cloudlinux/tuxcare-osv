@@ -1,0 +1,61 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1790600758",
+  "summary": "pam: Fix of 3 CVEs",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:7",
+        "name": "pam",
+        "purl": "pkg:rpm/tuxcare/pam?distro=oraclelinux-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.1.8-23.0.3.el7.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:7",
+        "name": "pam-devel",
+        "purl": "pkg:rpm/tuxcare/pam-devel?distro=oraclelinux-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.1.8-23.0.3.el7.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2024-10041",
+    "CVE-2025-6020",
+    "CVE-2024-22365"
+  ],
+  "published": "2026-09-28T13:06:06Z",
+  "modified": "2026-09-28T13:06:06Z",
+  "details": "- Rebase onto the vendor's 1.1.8-23.0.3 sources\n- CVE-2024-10041: fix possibility of leakage of secret information\n  stored in memory\n- CVE-2025-6020: take the vendor's fix and carry the parts of ours it\n  omits: upstream 976c2007, namespace.init path-safety flags, helper fd\n  sanitizing\n- CVE-2024-22365 is now fixed by the vendor's pam_namespace rewrite, which\n  replaces protect_dir() with secure_opendir(); the TuxCare duplicate is dropped",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/oraclelinux7els/CLSA-2026-1790600758.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

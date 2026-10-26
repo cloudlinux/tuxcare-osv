@@ -1,0 +1,119 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1779827686",
+  "summary": "gnutls: Fix of CVE-2026-3833",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "gnutls",
+        "purl": "pkg:rpm/tuxcare/gnutls?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.8.3-9.el9_6.tuxcare.1.els5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "gnutls-c++",
+        "purl": "pkg:rpm/tuxcare/gnutls-c++?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.8.3-9.el9_6.tuxcare.1.els5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "gnutls-dane",
+        "purl": "pkg:rpm/tuxcare/gnutls-dane?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.8.3-9.el9_6.tuxcare.1.els5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "gnutls-devel",
+        "purl": "pkg:rpm/tuxcare/gnutls-devel?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.8.3-9.el9_6.tuxcare.1.els5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "gnutls-utils",
+        "purl": "pkg:rpm/tuxcare/gnutls-utils?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.8.3-9.el9_6.tuxcare.1.els5"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-3833"
+  ],
+  "published": "2026-05-26T20:35:17Z",
+  "modified": "2026-05-26T20:35:17Z",
+  "details": "- CVE-2026-3833: fix case-sensitive DNS name comparison in x509 name\n  constraints processing that allowed case-variant domain names to bypass\n  excluded constraints, by using c_strncasecmp for case-insensitive match",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/tuxcare9.6esu/CLSA-2026-1779827686.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

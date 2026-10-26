@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1783436433",
+  "summary": "mutt: Fix of CVE-2024-49394",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "mutt",
+        "purl": "pkg:rpm/tuxcare/mutt?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5:2.2.6-2.el9_6.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2024-49394"
+  ],
+  "published": "2026-07-07T15:09:05Z",
+  "modified": "2026-07-07T15:09:05Z",
+  "details": "- CVE-2024-49394: protect In-Reply-To and References under the cryptographic signature (add to protected headers)",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/tuxcare9.6esu/CLSA-2026-1783436433.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-49394",
+      "type": "ADVISORY"
+    }
+  ]
+}

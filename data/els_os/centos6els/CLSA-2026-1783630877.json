@@ -1,0 +1,148 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1783630877",
+  "summary": "ImageMagick: Fix of 2 CVEs",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:6",
+        "name": "ImageMagick",
+        "purl": "pkg:rpm/tuxcare/ImageMagick?distro=centos-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "6.7.2.7-7.el6.tuxcare.els4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:6",
+        "name": "ImageMagick-c++",
+        "purl": "pkg:rpm/tuxcare/ImageMagick-c++?distro=centos-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "6.7.2.7-7.el6.tuxcare.els4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:6",
+        "name": "ImageMagick-c++-devel",
+        "purl": "pkg:rpm/tuxcare/ImageMagick-c++-devel?distro=centos-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "6.7.2.7-7.el6.tuxcare.els4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:6",
+        "name": "ImageMagick-devel",
+        "purl": "pkg:rpm/tuxcare/ImageMagick-devel?distro=centos-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "6.7.2.7-7.el6.tuxcare.els4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:6",
+        "name": "ImageMagick-doc",
+        "purl": "pkg:rpm/tuxcare/ImageMagick-doc?distro=centos-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "6.7.2.7-7.el6.tuxcare.els4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:6",
+        "name": "ImageMagick-perl",
+        "purl": "pkg:rpm/tuxcare/ImageMagick-perl?distro=centos-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "6.7.2.7-7.el6.tuxcare.els4"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-33901",
+    "CVE-2026-33908"
+  ],
+  "published": "2026-07-11T17:11:23Z",
+  "modified": "2026-07-11T17:11:23Z",
+  "details": "- CVE-2026-33901: add MVG push clip-path/gradient/pattern bounds check in\n  DrawImage() to prevent out-of-bounds read\n- CVE-2026-33908: bound DestroyXMLTree() recursion depth to prevent stack\n  exhaustion on deeply nested XML",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/centos6els/CLSA-2026-1783630877.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-33901",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-33908",
+      "type": "ADVISORY"
+    }
+  ]
+}

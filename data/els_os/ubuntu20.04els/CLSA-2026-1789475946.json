@@ -1,0 +1,183 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1789475946",
+  "summary": "Fix CVE(s): CVE-2026-18924",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:20.04",
+        "name": "curl",
+        "purl": "pkg:deb/tuxcare/curl?distro=ubuntu-20.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7.68.0-1ubuntu2.25+tuxcare.els5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:20.04",
+        "name": "libcurl3-gnutls",
+        "purl": "pkg:deb/tuxcare/libcurl3-gnutls?distro=ubuntu-20.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7.68.0-1ubuntu2.25+tuxcare.els5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:20.04",
+        "name": "libcurl3-nss",
+        "purl": "pkg:deb/tuxcare/libcurl3-nss?distro=ubuntu-20.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7.68.0-1ubuntu2.25+tuxcare.els5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:20.04",
+        "name": "libcurl4",
+        "purl": "pkg:deb/tuxcare/libcurl4?distro=ubuntu-20.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7.68.0-1ubuntu2.25+tuxcare.els5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:20.04",
+        "name": "libcurl4-doc",
+        "purl": "pkg:deb/tuxcare/libcurl4-doc?distro=ubuntu-20.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7.68.0-1ubuntu2.25+tuxcare.els5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:20.04",
+        "name": "libcurl4-gnutls-dev",
+        "purl": "pkg:deb/tuxcare/libcurl4-gnutls-dev?distro=ubuntu-20.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7.68.0-1ubuntu2.25+tuxcare.els5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:20.04",
+        "name": "libcurl4-nss-dev",
+        "purl": "pkg:deb/tuxcare/libcurl4-nss-dev?distro=ubuntu-20.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7.68.0-1ubuntu2.25+tuxcare.els5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:20.04",
+        "name": "libcurl4-openssl-dev",
+        "purl": "pkg:deb/tuxcare/libcurl4-openssl-dev?distro=ubuntu-20.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7.68.0-1ubuntu2.25+tuxcare.els5"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-18924"
+  ],
+  "published": "2026-09-15T12:39:17Z",
+  "modified": "2026-09-15T12:39:17Z",
+  "details": "   * SECURITY UPDATE: use-after-free in HTTP/2 server push transfers on shared\n     handles\n     - debian/patches/CVE-2026-18924.patch: make the duplicated handle created\n       for a server push stream inherit the share of its parent handle in\n       lib/http2.c\n     - CVE-2026-18924",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/ubuntu20.04els/CLSA-2026-1789475946.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-18924",
+      "type": "ADVISORY"
+    }
+  ]
+}

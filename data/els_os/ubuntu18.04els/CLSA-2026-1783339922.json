@@ -1,0 +1,173 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1783339922",
+  "summary": "Fix CVE(s): CVE-2026-58014, CVE-2026-58015, CVE-2026-58016",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "libglib2.0-0",
+        "purl": "pkg:deb/tuxcare/libglib2.0-0?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.56.4-0ubuntu0.18.04.9+tuxcare.els5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "libglib2.0-bin",
+        "purl": "pkg:deb/tuxcare/libglib2.0-bin?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.56.4-0ubuntu0.18.04.9+tuxcare.els5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "libglib2.0-data",
+        "purl": "pkg:deb/tuxcare/libglib2.0-data?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.56.4-0ubuntu0.18.04.9+tuxcare.els5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "libglib2.0-dev",
+        "purl": "pkg:deb/tuxcare/libglib2.0-dev?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.56.4-0ubuntu0.18.04.9+tuxcare.els5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "libglib2.0-dev-bin",
+        "purl": "pkg:deb/tuxcare/libglib2.0-dev-bin?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.56.4-0ubuntu0.18.04.9+tuxcare.els5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "libglib2.0-doc",
+        "purl": "pkg:deb/tuxcare/libglib2.0-doc?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.56.4-0ubuntu0.18.04.9+tuxcare.els5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "libglib2.0-tests",
+        "purl": "pkg:deb/tuxcare/libglib2.0-tests?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.56.4-0ubuntu0.18.04.9+tuxcare.els5"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-58014",
+    "CVE-2026-58015",
+    "CVE-2026-58016"
+  ],
+  "published": "2026-07-06T12:12:22Z",
+  "modified": "2026-07-06T12:12:22Z",
+  "details": "   * SECURITY UPDATE: state confusion in the D-Bus introspection XML parser\n     - debian/patches/CVE-2026-58016.patch: reject a <node> element nested\n       inside a non-<node> parent in g_dbus_node_info_new_for_xml()\n     - CVE-2026-58016\n   * SECURITY UPDATE: one-byte heap under-read on an empty key-file value\n     - debian/patches/CVE-2026-58014.patch: skip the trailing-separator check\n       when the value length is 0 in g_key_file_get_locale_string_list()\n     - CVE-2026-58014\n   * SECURITY UPDATE: DBUS_COOKIE_SHA1 client-side path traversal\n     - debian/patches/CVE-2026-58015.patch: validate the server-supplied\n       cookie_context before building the keyring path\n     - CVE-2026-58015",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/ubuntu18.04els/CLSA-2026-1783339922.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-58014",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-58015",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-58016",
+      "type": "ADVISORY"
+    }
+  ]
+}

@@ -1,0 +1,128 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1790784899",
+  "summary": "unbound: Fix of 2 CVEs",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "python3-unbound",
+        "purl": "pkg:rpm/tuxcare/python3-unbound?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.16.2-19.el9_6.1.tuxcare.els14"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "unbound",
+        "purl": "pkg:rpm/tuxcare/unbound?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.16.2-19.el9_6.1.tuxcare.els14"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "unbound-devel",
+        "purl": "pkg:rpm/tuxcare/unbound-devel?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.16.2-19.el9_6.1.tuxcare.els14"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "unbound-dracut",
+        "purl": "pkg:rpm/tuxcare/unbound-dracut?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.16.2-19.el9_6.1.tuxcare.els14"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "unbound-libs",
+        "purl": "pkg:rpm/tuxcare/unbound-libs?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.16.2-19.el9_6.1.tuxcare.els14"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-81634",
+    "CVE-2026-80225"
+  ],
+  "published": "2026-09-30T16:15:13Z",
+  "modified": "2026-09-30T16:15:13Z",
+  "details": "- CVE-2026-81634: bounds-check the scratch buffer in rrset_canonical() and\n  rrset_canonicalize_to_buffer() before writing the RRSIG rdata, the first\n  canonical owner name and each RR's rdata, so a large rrset can no longer\n  be written past the end of the buffer\n- CVE-2026-80225: cap the number of pipelined TCP/DoT queries drained per\n  event-loop visit in tcp_req_info_read_again() and tcp_more_read_again()\n  and defer the remainder via a zero-delay timer, so one connection can no\n  longer starve the other file descriptors",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/tuxcare9.6esu/CLSA-2026-1790784899.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-80225",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-81634",
+      "type": "ADVISORY"
+    }
+  ]
+}

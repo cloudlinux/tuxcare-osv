@@ -1,0 +1,203 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1792159914",
+  "summary": "pacemaker: Fix of CVE-2026-10649",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:7",
+        "name": "pacemaker",
+        "purl": "pkg:rpm/tuxcare/pacemaker?distro=centos-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.1.23-1.0.3.el7_9.1.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:7",
+        "name": "pacemaker-cli",
+        "purl": "pkg:rpm/tuxcare/pacemaker-cli?distro=centos-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.1.23-1.0.3.el7_9.1.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:7",
+        "name": "pacemaker-cluster-libs",
+        "purl": "pkg:rpm/tuxcare/pacemaker-cluster-libs?distro=centos-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.1.23-1.0.3.el7_9.1.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:7",
+        "name": "pacemaker-cts",
+        "purl": "pkg:rpm/tuxcare/pacemaker-cts?distro=centos-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.1.23-1.0.3.el7_9.1.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:7",
+        "name": "pacemaker-doc",
+        "purl": "pkg:rpm/tuxcare/pacemaker-doc?distro=centos-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.1.23-1.0.3.el7_9.1.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:7",
+        "name": "pacemaker-libs",
+        "purl": "pkg:rpm/tuxcare/pacemaker-libs?distro=centos-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.1.23-1.0.3.el7_9.1.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:7",
+        "name": "pacemaker-libs-devel",
+        "purl": "pkg:rpm/tuxcare/pacemaker-libs-devel?distro=centos-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.1.23-1.0.3.el7_9.1.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:7",
+        "name": "pacemaker-nagios-plugins-metadata",
+        "purl": "pkg:rpm/tuxcare/pacemaker-nagios-plugins-metadata?distro=centos-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.1.23-1.0.3.el7_9.1.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:7",
+        "name": "pacemaker-remote",
+        "purl": "pkg:rpm/tuxcare/pacemaker-remote?distro=centos-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.1.23-1.0.3.el7_9.1.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-10649"
+  ],
+  "published": "2026-10-17T12:57:40Z",
+  "modified": "2026-10-17T12:57:40Z",
+  "details": "- CVE-2026-10649: fix integer overflow and unbounded allocation in remote\n  message handling",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/centos7els/CLSA-2026-1792159914.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-10649",
+      "type": "ADVISORY"
+    }
+  ]
+}

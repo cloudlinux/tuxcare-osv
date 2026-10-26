@@ -1,0 +1,189 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1783969255",
+  "summary": "Fix CVE(s): CVE-2026-22016, CVE-2026-34282",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:20.04",
+        "name": "openjdk-8-demo",
+        "purl": "pkg:deb/tuxcare/openjdk-8-demo?distro=ubuntu-20.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8u492-ga~us2-0ubuntu1~20.04+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:20.04",
+        "name": "openjdk-8-doc",
+        "purl": "pkg:deb/tuxcare/openjdk-8-doc?distro=ubuntu-20.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8u492-ga~us2-0ubuntu1~20.04+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:20.04",
+        "name": "openjdk-8-jdk",
+        "purl": "pkg:deb/tuxcare/openjdk-8-jdk?distro=ubuntu-20.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8u492-ga~us2-0ubuntu1~20.04+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:20.04",
+        "name": "openjdk-8-jdk-headless",
+        "purl": "pkg:deb/tuxcare/openjdk-8-jdk-headless?distro=ubuntu-20.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8u492-ga~us2-0ubuntu1~20.04+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:20.04",
+        "name": "openjdk-8-jre",
+        "purl": "pkg:deb/tuxcare/openjdk-8-jre?distro=ubuntu-20.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8u492-ga~us2-0ubuntu1~20.04+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:20.04",
+        "name": "openjdk-8-jre-headless",
+        "purl": "pkg:deb/tuxcare/openjdk-8-jre-headless?distro=ubuntu-20.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8u492-ga~us2-0ubuntu1~20.04+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:20.04",
+        "name": "openjdk-8-jre-zero",
+        "purl": "pkg:deb/tuxcare/openjdk-8-jre-zero?distro=ubuntu-20.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8u492-ga~us2-0ubuntu1~20.04+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:20.04",
+        "name": "openjdk-8-source",
+        "purl": "pkg:deb/tuxcare/openjdk-8-source?distro=ubuntu-20.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8u492-ga~us2-0ubuntu1~20.04+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-22016",
+    "CVE-2026-34282",
+    "CVE-2026-25646"
+  ],
+  "published": "2026-07-13T19:01:15Z",
+  "modified": "2026-07-13T19:01:15Z",
+  "details": "   * OpenJDK 8u492 release, build 9 (Oracle April 2026 CPU).\n     Release notes:\n     https://openjdk.org/groups/vulnerability/advisories/2026-04-21\n     - Security fixes (8u492):\n       + CVE-2026-22016: JAXP unauthorized data access via network\n       + CVE-2026-34282: Networking denial of service (hang or repeatable crash)\n     (CVE-2026-25646 libpng is not applicable to this package: openjdk-8\n      is built with --with-libpng=system and system-libpng.diff strips the\n      bundled AWT libpng; the fix lives in the libpng1.6 package.)\n   * debian/rules: bump gh_tag to jdk8u492-ga, version_dash_buildnr to\n     492-b09, gh_tag_aarch32 to jdk8u492-b09-aarch32-20260428.\n   * Refresh orig tarball from Ubuntu archive\n     (openjdk-8_8u492-ga~us2.orig.tar.gz,\n      sha1 6f80ef059e27dfc14c99f3c21990a1bc69b4d249,\n      size 67951797 bytes; source: archive.ubuntu.com openjdk-8 8u492-ga~us2;\n      content byte-identical to upstream jdk8u492-ga after DFSG scrub).\n   * Refresh Ubuntu quilt patches for u492 context:\n     - pass-extra-flags.diff (upstream removed hotspot vm.make; jsig.make\n       hunk retained)\n     - jdk-target-arch-define.diff (context drift only)\n     - gcc14.diff (upstream removed splashscreen_stubs.c; remaining two\n       hunks retained)\n     All 48 quilt patches apply cleanly (0 rejects).\n   * Ref: ELSCVE-134714, ELSCVE-134717",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/ubuntu20.04els/CLSA-2026-1783969255.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-22016",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-34282",
+      "type": "ADVISORY"
+    }
+  ]
+}

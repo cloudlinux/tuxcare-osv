@@ -1,0 +1,63 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1782983956",
+  "summary": "jq: Fix of CVE-2026-54679",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "jq",
+        "purl": "pkg:rpm/tuxcare/jq?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.6-17.el9_6.2.tuxcare.els5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "jq-devel",
+        "purl": "pkg:rpm/tuxcare/jq-devel?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.6-17.el9_6.2.tuxcare.els5"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-54679"
+  ],
+  "published": "2026-07-02T09:19:32Z",
+  "modified": "2026-07-02T09:19:32Z",
+  "details": "- CVE-2026-54679: tighten string length bound to prevent size_t overflow on\n  32-bit and propagate invalid jv in implode",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/tuxcare9.6esu/CLSA-2026-1782983956.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-54679",
+      "type": "ADVISORY"
+    }
+  ]
+}

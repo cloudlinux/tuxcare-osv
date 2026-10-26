@@ -1,0 +1,63 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1792809858",
+  "summary": "python-lxml: Fix of CVE-2026-49825",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:RHEL:7",
+        "name": "python-lxml",
+        "purl": "pkg:rpm/tuxcare/python-lxml?distro=rhel-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.2.1-4.el7.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:RHEL:7",
+        "name": "python-lxml-docs",
+        "purl": "pkg:rpm/tuxcare/python-lxml-docs?distro=rhel-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.2.1-4.el7.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-49825"
+  ],
+  "published": "2026-10-24T02:44:29Z",
+  "modified": "2026-10-24T02:44:29Z",
+  "details": "- CVE-2026-49825: add missing xlink:href to HTML link attributes so the Cleaner sanitizes it",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/rhel7els/CLSA-2026-1792809858.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-49825",
+      "type": "ADVISORY"
+    }
+  ]
+}

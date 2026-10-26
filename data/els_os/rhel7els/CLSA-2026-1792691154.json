@@ -1,0 +1,163 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1792691154",
+  "summary": "gtk3: Fix of CVE-2024-6655",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:RHEL:7",
+        "name": "gtk-update-icon-cache",
+        "purl": "pkg:rpm/tuxcare/gtk-update-icon-cache?distro=rhel-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.22.30-8.el7_9.tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:RHEL:7",
+        "name": "gtk3",
+        "purl": "pkg:rpm/tuxcare/gtk3?distro=rhel-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.22.30-8.el7_9.tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:RHEL:7",
+        "name": "gtk3-devel",
+        "purl": "pkg:rpm/tuxcare/gtk3-devel?distro=rhel-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.22.30-8.el7_9.tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:RHEL:7",
+        "name": "gtk3-devel-docs",
+        "purl": "pkg:rpm/tuxcare/gtk3-devel-docs?distro=rhel-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.22.30-8.el7_9.tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:RHEL:7",
+        "name": "gtk3-immodule-xim",
+        "purl": "pkg:rpm/tuxcare/gtk3-immodule-xim?distro=rhel-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.22.30-8.el7_9.tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:RHEL:7",
+        "name": "gtk3-immodules",
+        "purl": "pkg:rpm/tuxcare/gtk3-immodules?distro=rhel-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.22.30-8.el7_9.tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:RHEL:7",
+        "name": "gtk3-tests",
+        "purl": "pkg:rpm/tuxcare/gtk3-tests?distro=rhel-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.22.30-8.el7_9.tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2024-6655"
+  ],
+  "published": "2026-10-22T17:46:05Z",
+  "modified": "2026-10-22T17:46:05Z",
+  "details": "- Pin _changelog_trimtime to a fixed date: the rolling \"1 year ago\" cut-off\n  dropped every record and shipped RPMs with an empty changelog",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/rhel7els/CLSA-2026-1792691154.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-6655",
+      "type": "ADVISORY"
+    }
+  ]
+}

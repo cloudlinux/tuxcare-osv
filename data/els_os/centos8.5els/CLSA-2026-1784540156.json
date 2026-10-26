@@ -1,0 +1,53 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1784540156",
+  "summary": "wget: Fix of 3 CVEs",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "wget",
+        "purl": "pkg:rpm/tuxcare/wget?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.19.5-11.el8.tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-58469",
+    "CVE-2026-58471",
+    "CVE-2026-58472"
+  ],
+  "published": "2026-07-20T09:36:22Z",
+  "modified": "2026-07-20T09:36:22Z",
+  "details": "- CVE-2026-58469: fix heap buffer underread in clean_metalink_string()\n- CVE-2026-58471: fix heap buffer overflow in convert_fname()\n- CVE-2026-58472: fix integer/heap overflow in html_quote_string()",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/centos8.5els/CLSA-2026-1784540156.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-58469",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-58471",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-58472",
+      "type": "ADVISORY"
+    }
+  ]
+}

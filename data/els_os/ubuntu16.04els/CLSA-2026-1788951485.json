@@ -1,0 +1,103 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1788951485",
+  "summary": "Fix CVE(s): CVE-2026-54874",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "libssl-dev",
+        "purl": "pkg:deb/tuxcare/libssl-dev?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.0.2g-1ubuntu4.21+tuxcare.els17"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "libssl-doc",
+        "purl": "pkg:deb/tuxcare/libssl-doc?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.0.2g-1ubuntu4.21+tuxcare.els17"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "libssl1.0.0",
+        "purl": "pkg:deb/tuxcare/libssl1.0.0?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.0.2g-1ubuntu4.21+tuxcare.els17"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "openssl",
+        "purl": "pkg:deb/tuxcare/openssl?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.0.2g-1ubuntu4.21+tuxcare.els17"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-54874"
+  ],
+  "published": "2026-09-09T10:58:16Z",
+  "modified": "2026-09-09T10:58:16Z",
+  "details": "   * SECURITY UPDATE: Unbounded memory retention in the DTLS record layer.\n     dtls1_buffer_record() adopted the entire live read buffer for every queued\n     record and allocated a fresh one, so a peer could pin roughly 17.7 KB of\n     heap per queued record regardless of how small the record actually was,\n     up to the 100-entry queue limit, exhausting memory on the endpoint.\n     - debian/patches/CVE-2026-54874.patch: copy only the received record into\n       a right-sized allocation and restore it on retrieval, leaving the live\n       read buffer in place, in ssl/d1_pkt.c, ssl/d1_lib.c and ssl/dtls1.h.\n     - CVE-2026-54874",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/ubuntu16.04els/CLSA-2026-1788951485.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-54874",
+      "type": "ADVISORY"
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1791399419",
+  "summary": "espeak-ng: Fix of CVE-2023-49994",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "espeak-ng",
+        "purl": "pkg:rpm/tuxcare/espeak-ng?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.50-7.el9.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "espeak-ng-devel",
+        "purl": "pkg:rpm/tuxcare/espeak-ng-devel?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.50-7.el9.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "espeak-ng-doc",
+        "purl": "pkg:rpm/tuxcare/espeak-ng-doc?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.50-7.el9.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "espeak-ng-vim",
+        "purl": "pkg:rpm/tuxcare/espeak-ng-vim?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.50-7.el9.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2023-49994"
+  ],
+  "published": "2026-10-07T18:57:10Z",
+  "modified": "2026-10-07T18:57:10Z",
+  "details": "- CVE-2023-49994: fix floating point exception in wavegen\n- Guard pcaudiolib-devel BuildRequires with %ifnarch i686 (not available for\n  i686 in the almalinux9.2esu devel repo)\n- Add ruby-default-gems BuildRequires so ronn can activate rubygem-rexml\n  3.3.3, whose gemspec depends on the strscan default gem",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/almalinux9.2esu/CLSA-2026-1791399419.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-49994",
+      "type": "ADVISORY"
+    }
+  ]
+}

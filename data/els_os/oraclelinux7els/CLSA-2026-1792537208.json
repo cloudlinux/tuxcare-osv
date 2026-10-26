@@ -1,0 +1,103 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1792537208",
+  "summary": "libevent: Fix of 5 CVEs",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:7",
+        "name": "libevent",
+        "purl": "pkg:rpm/tuxcare/libevent?distro=oraclelinux-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.0.21-4.el7.tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:7",
+        "name": "libevent-devel",
+        "purl": "pkg:rpm/tuxcare/libevent-devel?distro=oraclelinux-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.0.21-4.el7.tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:7",
+        "name": "libevent-doc",
+        "purl": "pkg:rpm/tuxcare/libevent-doc?distro=oraclelinux-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.0.21-4.el7.tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-63383",
+    "CVE-2026-63384",
+    "CVE-2026-63387",
+    "CVE-2026-63385",
+    "CVE-2026-63382"
+  ],
+  "published": "2026-10-20T23:00:22Z",
+  "modified": "2026-10-20T23:00:22Z",
+  "details": "- CVE-2026-63383: fix out-of-bounds read in decode_tag_internal\n- CVE-2026-63384: reject payload lengths above INT_MAX in evtag_unmarshal_header\n- CVE-2026-63387: fix off-by-one stack buffer overflow in dnsname_to_labels\n- CVE-2026-63385: reject HTTP header values containing CR or LF\n- CVE-2026-63382: reject ambiguous Transfer-Encoding/Content-Length headers and require CRLF in chunked framing",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/oraclelinux7els/CLSA-2026-1792537208.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-63382",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-63383",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-63384",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-63385",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-63387",
+      "type": "ADVISORY"
+    }
+  ]
+}

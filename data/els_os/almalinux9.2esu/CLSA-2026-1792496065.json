@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1792496065",
+  "summary": "compat-openssl11: Fix of CVE-2026-63072",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "compat-openssl11",
+        "purl": "pkg:rpm/tuxcare/compat-openssl11?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:1.1.1k-4.el9_0.tuxcare.els5"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-63072"
+  ],
+  "published": "2026-10-20T11:34:35Z",
+  "modified": "2026-10-20T11:34:35Z",
+  "details": "- CVE-2026-63072: fix heap buffer overflow in AES-WRAP-PAD unwrap",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/almalinux9.2esu/CLSA-2026-1792496065.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-63072",
+      "type": "ADVISORY"
+    }
+  ]
+}

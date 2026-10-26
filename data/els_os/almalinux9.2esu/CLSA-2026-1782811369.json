@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1782811369",
+  "summary": "thunderbird: Fix of 2 CVEs",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "thunderbird",
+        "purl": "pkg:rpm/tuxcare/thunderbird?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "115.4.1-1.el9_2.alma.tuxcare.els15"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-8970",
+    "CVE-2026-8961"
+  ],
+  "published": "2026-06-30T09:23:08Z",
+  "modified": "2026-06-30T09:23:08Z",
+  "details": "- CVE-2026-8970: constrain AsyncPrefs by remoteType so a compromised content\n  process cannot set security-relevant prefs via AsyncPrefs; split the\n  allowlist into privileged-about and unprivileged-exposed sets (Bug 2032174)\n- CVE-2026-8961: add locationspecific=\"true\" to Thunderbird's PopupAutoComplete\n  panel so the form-autocomplete dropdown is dismissed on navigation, closing a\n  spoofing window (Bug 1962625)",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/almalinux9.2esu/CLSA-2026-1782811369.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-8961",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-8970",
+      "type": "ADVISORY"
+    }
+  ]
+}

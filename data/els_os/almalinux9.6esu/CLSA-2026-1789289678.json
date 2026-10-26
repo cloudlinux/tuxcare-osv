@@ -1,0 +1,71 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1789289678",
+  "summary": "grafana: Fix of 3 CVEs",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "grafana",
+        "purl": "pkg:rpm/tuxcare/grafana?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "10.2.6-15.el9_6.tuxcare.els17"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "grafana-selinux",
+        "purl": "pkg:rpm/tuxcare/grafana-selinux?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "10.2.6-15.el9_6.tuxcare.els17"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-21727"
+  ],
+  "published": "2026-09-22T12:36:15Z",
+  "modified": "2026-09-22T12:36:15Z",
+  "details": "- CVE-2026-21727: drop the org_id = 0 backward-compatibility condition from the\n  correlations read and delete paths so legacy correlation records created before\n  Grafana 10.2 can no longer be read or deleted across organizations",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/tuxcare9.6esu/CLSA-2026-1789289678.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-21727",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-32280",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-42502",
+      "type": "ADVISORY"
+    }
+  ]
+}

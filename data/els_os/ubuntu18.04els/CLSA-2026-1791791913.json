@@ -1,0 +1,143 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1791791913",
+  "summary": "Fix CVE(s): CVE-2026-5119",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "gir1.2-soup-2.4",
+        "purl": "pkg:deb/tuxcare/gir1.2-soup-2.4?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.62.1-1ubuntu0.4+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "libsoup-gnome2.4-1",
+        "purl": "pkg:deb/tuxcare/libsoup-gnome2.4-1?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.62.1-1ubuntu0.4+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "libsoup-gnome2.4-dev",
+        "purl": "pkg:deb/tuxcare/libsoup-gnome2.4-dev?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.62.1-1ubuntu0.4+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "libsoup2.4-1",
+        "purl": "pkg:deb/tuxcare/libsoup2.4-1?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.62.1-1ubuntu0.4+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "libsoup2.4-dev",
+        "purl": "pkg:deb/tuxcare/libsoup2.4-dev?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.62.1-1ubuntu0.4+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "libsoup2.4-doc",
+        "purl": "pkg:deb/tuxcare/libsoup2.4-doc?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.62.1-1ubuntu0.4+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-5119"
+  ],
+  "published": "2026-10-12T07:58:43Z",
+  "modified": "2026-10-12T07:58:43Z",
+  "details": "   * SECURITY UPDATE: secure cookies sent in cleartext to HTTP proxy in CONNECT\n     requests\n     - debian/patches/CVE-2026-5119.patch: don't add cookies to a CONNECT\n       request for a tunnelled HTTPS connection in msg_starting_cb() in\n       libsoup/soup-cookie-jar.c\n     - CVE-2026-5119\n   * debian/patches/fix-tests-AuthDigestQop-none.patch: remove\n     \"AuthDigestQop none\" from the /Digest/realm3 location and use a\n     file-based accept mutex in tests/httpd.conf.in, so the test server\n     starts with the updated apache2 (which accepts only qop=auth) and\n     when the build runs as root",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/ubuntu18.04els/CLSA-2026-1791791913.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-5119",
+      "type": "ADVISORY"
+    }
+  ]
+}

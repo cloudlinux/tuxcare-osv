@@ -1,0 +1,79 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1779959867",
+  "summary": "rsync: Fix of CVE-2026-43619",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "rsync",
+        "purl": "pkg:rpm/tuxcare/rsync?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.2.5-3.el9_6.tuxcare.els6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "rsync-daemon",
+        "purl": "pkg:rpm/tuxcare/rsync-daemon?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.2.5-3.el9_6.tuxcare.els6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "rsync-rrsync",
+        "purl": "pkg:rpm/tuxcare/rsync-rrsync?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.2.5-3.el9_6.tuxcare.els6"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-43619"
+  ],
+  "published": "2026-05-28T09:17:51Z",
+  "modified": "2026-05-28T09:17:51Z",
+  "details": "- CVE-2026-43619: fix symlink-race TOCTOU on receiver-side path-based\n  syscalls by routing chmod/chown/rename/mkdir/symlink/mknod/link/\n  unlink/rmdir/utimensat/stat/lstat/open through symlink-race-safe\n  do_*_at() wrappers, securing change_dir() chdir-escape and\n  copy_file source/dest opens; harden secure_relative_open() to\n  confine basedir resolution and reject all \"../\" components",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/tuxcare9.6esu/CLSA-2026-1779959867.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

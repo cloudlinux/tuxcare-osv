@@ -1,0 +1,63 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1792444141",
+  "summary": "fribidi: Fix of CVE-2022-25308",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:RHEL:7",
+        "name": "fribidi",
+        "purl": "pkg:rpm/tuxcare/fribidi?distro=rhel-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.0.2-1.el7_7.1.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:RHEL:7",
+        "name": "fribidi-devel",
+        "purl": "pkg:rpm/tuxcare/fribidi-devel?distro=rhel-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.0.2-1.el7_7.1.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2022-25308"
+  ],
+  "published": "2026-10-19T21:09:11Z",
+  "modified": "2026-10-19T21:09:11Z",
+  "details": "- CVE-2022-25308: fix stack-based buffer overflow",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/rhel7els/CLSA-2026-1792444141.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2022-25308",
+      "type": "ADVISORY"
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1791570106",
+  "summary": "Fix CVE(s): CVE-2026-96512",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Debian:10",
+        "name": "sudo",
+        "purl": "pkg:deb/tuxcare/sudo?distro=debian-10"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.8.27-1+deb10u6+tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Debian:10",
+        "name": "sudo-ldap",
+        "purl": "pkg:deb/tuxcare/sudo-ldap?distro=debian-10"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.8.27-1+deb10u6+tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-96512"
+  ],
+  "published": "2026-10-09T18:21:58Z",
+  "modified": "2026-10-09T18:21:58Z",
+  "details": "   * SECURITY UPDATE: time-based sudoers restrictions bypass via user-controlled TZ\n     - debian/patches/CVE-2026-96512.patch: remove the user-specified TZ from sudo's environment so NOTBEFORE/NOTAFTER use the system time zone\n     - CVE-2026-96512",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/debian10els/CLSA-2026-1791570106.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-96512",
+      "type": "ADVISORY"
+    }
+  ]
+}

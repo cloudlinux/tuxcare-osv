@@ -1,7 +1,7 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2026-1778867412",
-  "summary": "kernel: Fix of CVE-2026-46300",
+  "summary": "kernel: Fix of 2 CVEs",
   "affected": [
     {
       "package": {
@@ -727,12 +727,20 @@
   "upstream": [
     "CVE-2026-46300"
   ],
-  "published": "2026-05-15T17:55:38Z",
-  "modified": "2026-05-15T17:55:38Z",
+  "published": "2026-07-25T10:25:28Z",
+  "modified": "2026-07-25T10:25:28Z",
   "details": "- net: skbuff: propagate shared-frag marker through skb_gro_receive + skb_shift {CVE-2026-46300}\n- Revert \"net: gro: propagate SKBFL_SHARED_FRAG through skb_gro_receive\"",
   "references": [
     {
       "url": "https://errata.tuxcare.com/els_os/almalinux9.2esu/CLSA-2026-1778867412.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-43503",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-46300",
       "type": "ADVISORY"
     }
   ]

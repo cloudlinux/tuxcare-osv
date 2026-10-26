@@ -1,0 +1,67 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1784302739",
+  "summary": "skopeo: Fix of 2 CVEs",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "skopeo",
+        "purl": "pkg:rpm/tuxcare/skopeo?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:1.11.2-0.1.el9_2.tuxcare.els7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "skopeo-tests",
+        "purl": "pkg:rpm/tuxcare/skopeo-tests?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:1.11.2-0.1.el9_2.tuxcare.els7"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-27145"
+  ],
+  "published": "2026-09-22T13:02:39Z",
+  "modified": "2026-09-22T13:02:39Z",
+  "details": "- CVE-2026-27145: rebuild with newer golang 1.22.9-1.el9_2.tuxcare.els18\n  (crypto/x509: split candidate hostname only once)",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/almalinux9.2esu/CLSA-2026-1784302739.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-27145",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-32280",
+      "type": "ADVISORY"
+    }
+  ]
+}

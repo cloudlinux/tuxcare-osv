@@ -1,7 +1,7 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2025-1761312327",
-  "summary": "Fix CVE(s): CVE-2025-9714",
+  "summary": "Fix of 6 CVEs",
   "affected": [
     {
       "package": {
@@ -127,12 +127,36 @@
   "upstream": [
     "CVE-2025-9714"
   ],
-  "published": "2025-10-24T13:25:40Z",
-  "modified": "2025-10-24T13:25:40Z",
+  "published": "2026-08-07T08:51:58Z",
+  "modified": "2026-08-07T08:51:58Z",
   "details": "   * SECURITY UPDATE: uncontrolled recursion leading to stack overflow via\n     crafted XPath expressions\n     - debian/patches/CVE-2025-9714.patch: Make XPath depth check work with\n       recursive invocations to prevent stack overflows\n     - CVE-2025-9714",
   "references": [
     {
       "url": "https://errata.tuxcare.com/els_os/debian10els/CLSA-2025-1761312327.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2022-49043",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-25062",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-27113",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-32414",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-32415",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-6021",
       "type": "ADVISORY"
     }
   ]

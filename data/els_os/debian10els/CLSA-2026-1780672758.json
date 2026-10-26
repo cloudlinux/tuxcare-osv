@@ -1,0 +1,83 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1780672758",
+  "summary": "Fix CVE(s): CVE-2026-41080",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Debian:10",
+        "name": "expat",
+        "purl": "pkg:deb/tuxcare/expat?distro=debian-10"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.2.6-2+deb10u7+tuxcare.els6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Debian:10",
+        "name": "libexpat1",
+        "purl": "pkg:deb/tuxcare/libexpat1?distro=debian-10"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.2.6-2+deb10u7+tuxcare.els6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Debian:10",
+        "name": "libexpat1-dev",
+        "purl": "pkg:deb/tuxcare/libexpat1-dev?distro=debian-10"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.2.6-2+deb10u7+tuxcare.els6"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-41080"
+  ],
+  "published": "2026-06-05T15:19:40Z",
+  "modified": "2026-06-05T15:19:40Z",
+  "details": "   * SECURITY UPDATE: Insufficient entropy used for hash flooding protection allowing hash flooding via a crafted XML document (libexpat before 2.8.0)\n     - debian/patches/CVE-2026-41080.patch: extract 16 bytes of entropy\n       into a 128-bit SipHash key for hash flooding protection, and add the\n       new XML_SetHashSalt16Bytes() API (backport of upstream PR #1183)\n     - debian/libexpat1.symbols: add XML_SetHashSalt16Bytes\n     - CVE-2026-41080",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/debian10els/CLSA-2026-1780672758.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-41080",
+      "type": "ADVISORY"
+    }
+  ]
+}

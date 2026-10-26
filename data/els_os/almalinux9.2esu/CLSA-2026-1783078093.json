@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1783078093",
+  "summary": "perl-Archive-Tar: Fix of CVE-2026-42496",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "perl-Archive-Tar",
+        "purl": "pkg:rpm/tuxcare/perl-Archive-Tar?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.38-6.el9.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-42496"
+  ],
+  "published": "2026-07-03T11:28:29Z",
+  "modified": "2026-07-03T11:28:29Z",
+  "details": "- CVE-2026-42496: fix path traversal via crafted symlinks/hardlinks during tar\n  extraction (validate link targets in secure-extract mode)",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/almalinux9.2esu/CLSA-2026-1783078093.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-42496",
+      "type": "ADVISORY"
+    }
+  ]
+}

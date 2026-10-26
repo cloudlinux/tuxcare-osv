@@ -1,0 +1,53 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1783973180",
+  "summary": "wget: Fix of 3 CVEs",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:RHEL:7",
+        "name": "wget",
+        "purl": "pkg:rpm/tuxcare/wget?distro=rhel-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.14-18.el7_6.1.tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-58470",
+    "CVE-2026-58471",
+    "CVE-2026-58472"
+  ],
+  "published": "2026-07-13T20:06:39Z",
+  "modified": "2026-07-13T20:06:39Z",
+  "details": "- CVE-2026-58470: fix integer overflow in parse_content_range()\n- CVE-2026-58471: fix heap buffer overflow in convert_fname() during filename charset conversion\n- CVE-2026-58472: fix integer/heap buffer overflow in html_quote_string()",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/rhel7els/CLSA-2026-1783973180.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-58470",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-58471",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-58472",
+      "type": "ADVISORY"
+    }
+  ]
+}

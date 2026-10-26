@@ -1,7 +1,7 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2026-1778772686",
-  "summary": "libsoup: Fix of CVE-2026-2369",
+  "summary": "libsoup: Fix of 4 CVEs",
   "affected": [
     {
       "package": {
@@ -47,12 +47,28 @@
   "upstream": [
     "CVE-2026-2369"
   ],
-  "published": "2026-05-14T19:56:13Z",
-  "modified": "2026-05-14T19:56:13Z",
+  "published": "2026-06-25T08:41:56Z",
+  "modified": "2026-06-25T08:41:56Z",
   "details": "- CVE-2026-2369: fix integer underflow in sniff_unknown() on zero-length\n  buffer that caused an out-of-bounds read in the content sniffer",
   "references": [
     {
       "url": "https://errata.tuxcare.com/els_os/oraclelinux7els/CLSA-2026-1778772686.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-32049",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-32914",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-4948",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-2369",
       "type": "ADVISORY"
     }
   ]

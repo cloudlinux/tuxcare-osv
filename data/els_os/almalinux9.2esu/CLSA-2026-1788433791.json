@@ -1,0 +1,73 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1788433791",
+  "summary": "rsync: Fix of 3 CVEs",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "rsync",
+        "purl": "pkg:rpm/tuxcare/rsync?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.2.3-19.el9_2.tuxcare.els12"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "rsync-daemon",
+        "purl": "pkg:rpm/tuxcare/rsync-daemon?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.2.3-19.el9_2.tuxcare.els12"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-53789",
+    "CVE-2026-70459",
+    "CVE-2026-70457"
+  ],
+  "published": "2026-09-03T11:10:03Z",
+  "modified": "2026-09-03T11:10:03Z",
+  "details": "- CVE-2026-53789: force implied-parent directories to non-content on the\n  receiver so a malicious sender cannot widen --delete scope\n- CVE-2026-70459: reject a non-directory transfer-root entry so a forged\n  \".\" cannot drive a --force recursive delete of the destination\n- CVE-2026-70457: clamp the snprintf() length before the err_buf[len]\n  writes in parse_size_arg() to stop an out-of-bounds .bss write",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/almalinux9.2esu/CLSA-2026-1788433791.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-53789",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-70457",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-70459",
+      "type": "ADVISORY"
+    }
+  ]
+}

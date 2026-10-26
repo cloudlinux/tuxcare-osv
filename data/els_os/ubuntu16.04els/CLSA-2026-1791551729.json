@@ -1,0 +1,123 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1791551729",
+  "summary": "Fix CVE(s): CVE-2026-74860",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "libxml2",
+        "purl": "pkg:deb/tuxcare/libxml2?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.9.3+dfsg1-1ubuntu0.7+tuxcare.els17"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "libxml2-dev",
+        "purl": "pkg:deb/tuxcare/libxml2-dev?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.9.3+dfsg1-1ubuntu0.7+tuxcare.els17"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "libxml2-doc",
+        "purl": "pkg:deb/tuxcare/libxml2-doc?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.9.3+dfsg1-1ubuntu0.7+tuxcare.els17"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "libxml2-utils",
+        "purl": "pkg:deb/tuxcare/libxml2-utils?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.9.3+dfsg1-1ubuntu0.7+tuxcare.els17"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "python-libxml2",
+        "purl": "pkg:deb/tuxcare/python-libxml2?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.9.3+dfsg1-1ubuntu0.7+tuxcare.els17"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-74860"
+  ],
+  "published": "2026-10-09T13:15:39Z",
+  "modified": "2026-10-09T13:15:39Z",
+  "details": "   * SECURITY UPDATE: double free in the Python SAX attributeDecl callback\n     - debian/patches/CVE-2026-74860.patch: do not drop the reference to\n       each enumeration name after PyList_SetItem() in pythonAttributeDecl()\n       in python/libxml.c\n     - CVE-2026-74860",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/ubuntu16.04els/CLSA-2026-1791551729.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-74860",
+      "type": "ADVISORY"
+    }
+  ]
+}

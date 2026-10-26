@@ -1,7 +1,7 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2025-1738663660",
-  "summary": "kernel: Fix of 11 CVEs",
+  "summary": "kernel: Fix of 12 CVEs",
   "affected": [
     {
       "package": {
@@ -457,12 +457,60 @@
     "CVE-2024-26928",
     "CVE-2023-52752"
   ],
-  "published": "2025-02-04T10:07:46Z",
-  "modified": "2025-02-04T10:07:46Z",
+  "published": "2026-10-18T09:14:19Z",
+  "modified": "2026-10-18T09:14:19Z",
   "details": "- ELF: fix kernel.randomize_va_space double read {CVE-2024-46826}\n- smb: client: fix UAF in async decryption {CVE-2024-50047}\n- net: do not delay dst_entries_add() in dst_release() {CVE-2024-50036}\n- net: atlantic: eliminate double free in error handling logic {CVE-2023-52664}\n- smb: client: fix potential UAF in smb2_is_valid_oplock_break() {CVE-2024-35863}\n- smb: client: fix potential UAF in smb2_is_valid_lease_break() {CVE-2024-35864}\n- smb: client: fix potential UAF in cifs_stats_proc_show() {CVE-2024-35867}\n- smb: client: fix potential UAF in cifs_stats_proc_write() {CVE-2024-35868}\n- smb: client: fix potential UAF in cifs_signal_cifsd_for_reconnect() {CVE-2024-35861}\n- smb: client: fix potential UAF in cifs_debug_files_proc_show() {CVE-2024-26928}\n- smb: client: fix use-after-free bug in cifs_debug_data_proc_show() {CVE-2023-52752}\n- smb: client: fix use-after-free bug in cifs_debug_data_proc_show()\"",
   "references": [
     {
-      "url": "https://errata.cloudlinux.com/centos8.5-els/CLSA-2025-1738663660.html",
+      "url": "https://errata.tuxcare.com/els_os/centos8.5els/CLSA-2025-1738663660.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-52664",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-52752",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-26928",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-35861",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-35863",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-35864",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-35865",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-35867",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-35868",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-46826",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-50036",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-50047",
       "type": "ADVISORY"
     }
   ]

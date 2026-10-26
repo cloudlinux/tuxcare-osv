@@ -1,0 +1,57 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1786125022",
+  "summary": "Update of libsoup",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:RHEL:7",
+        "name": "libsoup",
+        "purl": "pkg:rpm/tuxcare/libsoup?distro=rhel-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.62.2-2.0.11.el7.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:RHEL:7",
+        "name": "libsoup-devel",
+        "purl": "pkg:rpm/tuxcare/libsoup-devel?distro=rhel-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.62.2-2.0.11.el7.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [],
+  "published": "2026-08-07T17:50:30Z",
+  "modified": "2026-08-07T17:50:30Z",
+  "details": "- Re-tag base release to 2.0.11 to align NVR with Oracle Linux errata;\n  no code or security content changes \u2014 this build already contains all\n  fixes shipped in Oracle's 2.62.2-2.0.11.el7",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/rhel7els/CLSA-2026-1786125022.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

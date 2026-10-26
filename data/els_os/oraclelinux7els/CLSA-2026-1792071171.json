@@ -1,0 +1,57 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1792071171",
+  "summary": "Update of tzdata",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:7",
+        "name": "tzdata",
+        "purl": "pkg:rpm/tuxcare/tzdata?distro=oraclelinux-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2026e-1.el7.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:7",
+        "name": "tzdata-java",
+        "purl": "pkg:rpm/tuxcare/tzdata-java?distro=oraclelinux-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2026e-1.el7.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [],
+  "published": "2026-10-15T13:32:58Z",
+  "modified": "2026-10-15T13:32:58Z",
+  "details": "- rebase to 2026e-1.el7\n- no TuxCare CVE patches remain",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/oraclelinux7els/CLSA-2026-1792071171.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

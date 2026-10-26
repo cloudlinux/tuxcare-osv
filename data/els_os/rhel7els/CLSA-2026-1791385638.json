@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1791385638",
+  "summary": "rsync: Fix of 2 CVEs",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:RHEL:7",
+        "name": "rsync",
+        "purl": "pkg:rpm/tuxcare/rsync?distro=rhel-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.1.2-12.0.1.el7_9.tuxcare.els17"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-53802"
+  ],
+  "published": "2026-10-08T23:04:19Z",
+  "modified": "2026-10-08T23:04:19Z",
+  "details": "- CVE-2026-53802: open the daemon secrets file, the client --password-file,\n  --files-from and the --filter merge / per-directory merge files refusing\n  attacker-planted symlinks -- confined beneath the module root on a daemon,\n  owner-trust walk otherwise; getpassf() fstat()s the opened fd, not the path",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/rhel7els/CLSA-2026-1791385638.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-53795",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-53802",
+      "type": "ADVISORY"
+    }
+  ]
+}

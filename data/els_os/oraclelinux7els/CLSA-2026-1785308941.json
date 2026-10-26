@@ -1,0 +1,103 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1785308941",
+  "summary": "gstreamer1-plugins-base: Fix of CVE-2026-2921",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:7",
+        "name": "gstreamer1-plugins-base",
+        "purl": "pkg:rpm/tuxcare/gstreamer1-plugins-base?distro=oraclelinux-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.10.4-2.el7.tuxcare.els4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:7",
+        "name": "gstreamer1-plugins-base-devel",
+        "purl": "pkg:rpm/tuxcare/gstreamer1-plugins-base-devel?distro=oraclelinux-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.10.4-2.el7.tuxcare.els4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:7",
+        "name": "gstreamer1-plugins-base-devel-docs",
+        "purl": "pkg:rpm/tuxcare/gstreamer1-plugins-base-devel-docs?distro=oraclelinux-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.10.4-2.el7.tuxcare.els4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:7",
+        "name": "gstreamer1-plugins-base-tools",
+        "purl": "pkg:rpm/tuxcare/gstreamer1-plugins-base-tools?distro=oraclelinux-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.10.4-2.el7.tuxcare.els4"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-2921"
+  ],
+  "published": "2026-07-29T07:09:13Z",
+  "modified": "2026-07-29T07:09:13Z",
+  "details": "- CVE-2026-2921: fix integer overflow in RIFF palette handling by\n  validating RGB palette size with g_size_checked_mul before comparison",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/oraclelinux7els/CLSA-2026-1785308941.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-2921",
+      "type": "ADVISORY"
+    }
+  ]
+}

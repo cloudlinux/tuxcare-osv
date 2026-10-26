@@ -1,0 +1,179 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1779892931",
+  "summary": "nginx: Fix of CVE-2026-42945",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS-Stream:8",
+        "name": "nginx",
+        "purl": "pkg:rpm/tuxcare/nginx?distro=centos-stream-8"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:1.14.1-9.module_el8+2413+5da981b3.tuxcare.els8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS-Stream:8",
+        "name": "nginx-all-modules",
+        "purl": "pkg:rpm/tuxcare/nginx-all-modules?distro=centos-stream-8"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:1.14.1-9.module_el8+2413+5da981b3.tuxcare.els8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS-Stream:8",
+        "name": "nginx-filesystem",
+        "purl": "pkg:rpm/tuxcare/nginx-filesystem?distro=centos-stream-8"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:1.14.1-9.module_el8+2413+5da981b3.tuxcare.els8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS-Stream:8",
+        "name": "nginx-mod-http-image-filter",
+        "purl": "pkg:rpm/tuxcare/nginx-mod-http-image-filter?distro=centos-stream-8"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:1.14.1-9.module_el8+2413+5da981b3.tuxcare.els8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS-Stream:8",
+        "name": "nginx-mod-http-perl",
+        "purl": "pkg:rpm/tuxcare/nginx-mod-http-perl?distro=centos-stream-8"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:1.14.1-9.module_el8+2413+5da981b3.tuxcare.els8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS-Stream:8",
+        "name": "nginx-mod-http-xslt-filter",
+        "purl": "pkg:rpm/tuxcare/nginx-mod-http-xslt-filter?distro=centos-stream-8"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:1.14.1-9.module_el8+2413+5da981b3.tuxcare.els8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS-Stream:8",
+        "name": "nginx-mod-mail",
+        "purl": "pkg:rpm/tuxcare/nginx-mod-mail?distro=centos-stream-8"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:1.14.1-9.module_el8+2413+5da981b3.tuxcare.els8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS-Stream:8",
+        "name": "nginx-mod-stream",
+        "purl": "pkg:rpm/tuxcare/nginx-mod-stream?distro=centos-stream-8"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:1.14.1-9.module_el8+2413+5da981b3.tuxcare.els8"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-42945"
+  ],
+  "published": "2026-05-27T14:42:16Z",
+  "modified": "2026-05-27T14:42:16Z",
+  "details": "- CVE-2026-42945: fix heap buffer overrun in ngx_http_rewrite_module when rewrite is followed by set/if/rewrite with unnamed PCRE captures",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/centos-stream8els/CLSA-2026-1779892931.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

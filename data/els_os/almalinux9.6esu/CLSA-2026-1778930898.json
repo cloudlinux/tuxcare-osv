@@ -1,13 +1,373 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2026-1778930898",
-  "summary": "kernel: Fix of CVE-2026-46300",
+  "summary": "kernel: Fix of 2 CVEs",
   "affected": [
     {
       "package": {
         "ecosystem": "TuxCare:AlmaLinux:9.6",
         "name": "kernel",
         "purl": "pkg:rpm/tuxcare/kernel?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.14.0-570.62.1.el9_6.tuxcare.1.els8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "kernel-64k",
+        "purl": "pkg:rpm/tuxcare/kernel-64k?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.14.0-570.62.1.el9_6.tuxcare.1.els8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "kernel-64k-core",
+        "purl": "pkg:rpm/tuxcare/kernel-64k-core?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.14.0-570.62.1.el9_6.tuxcare.1.els8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "kernel-64k-debug",
+        "purl": "pkg:rpm/tuxcare/kernel-64k-debug?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.14.0-570.62.1.el9_6.tuxcare.1.els8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "kernel-64k-debug-core",
+        "purl": "pkg:rpm/tuxcare/kernel-64k-debug-core?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.14.0-570.62.1.el9_6.tuxcare.1.els8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "kernel-64k-debug-devel",
+        "purl": "pkg:rpm/tuxcare/kernel-64k-debug-devel?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.14.0-570.62.1.el9_6.tuxcare.1.els8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "kernel-64k-debug-devel-matched",
+        "purl": "pkg:rpm/tuxcare/kernel-64k-debug-devel-matched?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.14.0-570.62.1.el9_6.tuxcare.1.els8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "kernel-64k-debug-modules",
+        "purl": "pkg:rpm/tuxcare/kernel-64k-debug-modules?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.14.0-570.62.1.el9_6.tuxcare.1.els8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "kernel-64k-debug-modules-core",
+        "purl": "pkg:rpm/tuxcare/kernel-64k-debug-modules-core?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.14.0-570.62.1.el9_6.tuxcare.1.els8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "kernel-64k-debug-modules-extra",
+        "purl": "pkg:rpm/tuxcare/kernel-64k-debug-modules-extra?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.14.0-570.62.1.el9_6.tuxcare.1.els8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "kernel-64k-debug-modules-internal",
+        "purl": "pkg:rpm/tuxcare/kernel-64k-debug-modules-internal?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.14.0-570.62.1.el9_6.tuxcare.1.els8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "kernel-64k-debug-modules-partner",
+        "purl": "pkg:rpm/tuxcare/kernel-64k-debug-modules-partner?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.14.0-570.62.1.el9_6.tuxcare.1.els8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "kernel-64k-devel",
+        "purl": "pkg:rpm/tuxcare/kernel-64k-devel?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.14.0-570.62.1.el9_6.tuxcare.1.els8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "kernel-64k-devel-matched",
+        "purl": "pkg:rpm/tuxcare/kernel-64k-devel-matched?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.14.0-570.62.1.el9_6.tuxcare.1.els8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "kernel-64k-modules",
+        "purl": "pkg:rpm/tuxcare/kernel-64k-modules?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.14.0-570.62.1.el9_6.tuxcare.1.els8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "kernel-64k-modules-core",
+        "purl": "pkg:rpm/tuxcare/kernel-64k-modules-core?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.14.0-570.62.1.el9_6.tuxcare.1.els8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "kernel-64k-modules-extra",
+        "purl": "pkg:rpm/tuxcare/kernel-64k-modules-extra?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.14.0-570.62.1.el9_6.tuxcare.1.els8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "kernel-64k-modules-internal",
+        "purl": "pkg:rpm/tuxcare/kernel-64k-modules-internal?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.14.0-570.62.1.el9_6.tuxcare.1.els8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "kernel-64k-modules-partner",
+        "purl": "pkg:rpm/tuxcare/kernel-64k-modules-partner?distro=almalinux-9.6"
       },
       "ranges": [
         {
@@ -508,6 +868,406 @@
         "ecosystem": "TuxCare:AlmaLinux:9.6",
         "name": "kernel-rt",
         "purl": "pkg:rpm/tuxcare/kernel-rt?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.14.0-570.62.1.el9_6.tuxcare.1.els8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "kernel-rt-64k",
+        "purl": "pkg:rpm/tuxcare/kernel-rt-64k?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.14.0-570.62.1.el9_6.tuxcare.1.els8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "kernel-rt-64k-core",
+        "purl": "pkg:rpm/tuxcare/kernel-rt-64k-core?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.14.0-570.62.1.el9_6.tuxcare.1.els8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "kernel-rt-64k-debug",
+        "purl": "pkg:rpm/tuxcare/kernel-rt-64k-debug?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.14.0-570.62.1.el9_6.tuxcare.1.els8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "kernel-rt-64k-debug-core",
+        "purl": "pkg:rpm/tuxcare/kernel-rt-64k-debug-core?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.14.0-570.62.1.el9_6.tuxcare.1.els8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "kernel-rt-64k-debug-devel",
+        "purl": "pkg:rpm/tuxcare/kernel-rt-64k-debug-devel?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.14.0-570.62.1.el9_6.tuxcare.1.els8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "kernel-rt-64k-debug-devel-matched",
+        "purl": "pkg:rpm/tuxcare/kernel-rt-64k-debug-devel-matched?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.14.0-570.62.1.el9_6.tuxcare.1.els8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "kernel-rt-64k-debug-kvm",
+        "purl": "pkg:rpm/tuxcare/kernel-rt-64k-debug-kvm?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.14.0-570.62.1.el9_6.tuxcare.1.els8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "kernel-rt-64k-debug-modules",
+        "purl": "pkg:rpm/tuxcare/kernel-rt-64k-debug-modules?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.14.0-570.62.1.el9_6.tuxcare.1.els8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "kernel-rt-64k-debug-modules-core",
+        "purl": "pkg:rpm/tuxcare/kernel-rt-64k-debug-modules-core?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.14.0-570.62.1.el9_6.tuxcare.1.els8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "kernel-rt-64k-debug-modules-extra",
+        "purl": "pkg:rpm/tuxcare/kernel-rt-64k-debug-modules-extra?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.14.0-570.62.1.el9_6.tuxcare.1.els8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "kernel-rt-64k-debug-modules-internal",
+        "purl": "pkg:rpm/tuxcare/kernel-rt-64k-debug-modules-internal?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.14.0-570.62.1.el9_6.tuxcare.1.els8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "kernel-rt-64k-debug-modules-partner",
+        "purl": "pkg:rpm/tuxcare/kernel-rt-64k-debug-modules-partner?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.14.0-570.62.1.el9_6.tuxcare.1.els8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "kernel-rt-64k-devel",
+        "purl": "pkg:rpm/tuxcare/kernel-rt-64k-devel?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.14.0-570.62.1.el9_6.tuxcare.1.els8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "kernel-rt-64k-devel-matched",
+        "purl": "pkg:rpm/tuxcare/kernel-rt-64k-devel-matched?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.14.0-570.62.1.el9_6.tuxcare.1.els8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "kernel-rt-64k-kvm",
+        "purl": "pkg:rpm/tuxcare/kernel-rt-64k-kvm?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.14.0-570.62.1.el9_6.tuxcare.1.els8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "kernel-rt-64k-modules",
+        "purl": "pkg:rpm/tuxcare/kernel-rt-64k-modules?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.14.0-570.62.1.el9_6.tuxcare.1.els8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "kernel-rt-64k-modules-core",
+        "purl": "pkg:rpm/tuxcare/kernel-rt-64k-modules-core?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.14.0-570.62.1.el9_6.tuxcare.1.els8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "kernel-rt-64k-modules-extra",
+        "purl": "pkg:rpm/tuxcare/kernel-rt-64k-modules-extra?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.14.0-570.62.1.el9_6.tuxcare.1.els8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "kernel-rt-64k-modules-internal",
+        "purl": "pkg:rpm/tuxcare/kernel-rt-64k-modules-internal?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.14.0-570.62.1.el9_6.tuxcare.1.els8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "kernel-rt-64k-modules-partner",
+        "purl": "pkg:rpm/tuxcare/kernel-rt-64k-modules-partner?distro=almalinux-9.6"
       },
       "ranges": [
         {
@@ -1147,12 +1907,20 @@
   "upstream": [
     "CVE-2026-46300"
   ],
-  "published": "2026-05-16T12:20:23Z",
-  "modified": "2026-05-16T12:20:23Z",
+  "published": "2026-10-21T01:38:43Z",
+  "modified": "2026-10-21T01:38:43Z",
   "details": "- ptrace: require CAP_SYS_PTRACE when task has no mm\n- net: udp_offload: propagate SKBFL_SHARED_FRAG in skb_gro_receive_list {CVE-2026-46300}",
   "references": [
     {
       "url": "https://errata.tuxcare.com/els_os/tuxcare9.6esu/CLSA-2026-1778930898.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-43503",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-46333",
       "type": "ADVISORY"
     }
   ]
