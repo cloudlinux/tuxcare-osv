@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1793098701",
+  "modified": "2026-10-27T13:25:35Z",
+  "published": "2026-10-27T10:58:21Z",
+  "summary": "TuxCare security update for send (1 CVE)",
+  "details": "TuxCare rebuilt send to address 1 CVE. Fixed in 0.17.1-tuxcare.1.",
+  "upstream": [
+    "CVE-2024-43799"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "send",
+        "purl": "pkg:npm/send"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0.17.1-tuxcare.0"
+            },
+            {
+              "fixed": "0.17.1-tuxcare.1"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "0.17.1"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "0.17.1",
+          "fixed_version": "0.17.1-tuxcare.1"
+        }
+      }
+    }
+  ]
+}

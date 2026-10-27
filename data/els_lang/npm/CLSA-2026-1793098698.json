@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1793098698",
+  "modified": "2026-10-27T13:25:35Z",
+  "published": "2026-10-27T10:58:18Z",
+  "summary": "TuxCare security update for @graphql-tools/utils (1 CVE)",
+  "details": "TuxCare rebuilt @graphql-tools/utils to address 1 CVE. Fixed in 11.2.2-tuxcare.2.",
+  "upstream": [
+    "CVE-2026-114604"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "@graphql-tools/utils",
+        "purl": "pkg:npm/%40graphql-tools/utils"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "11.2.2-tuxcare.0"
+            },
+            {
+              "fixed": "11.2.2-tuxcare.2"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "11.2.2",
+        "11.2.2-tuxcare.1"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "11.2.2",
+          "fixed_version": "11.2.2-tuxcare.2"
+        }
+      }
+    }
+  ]
+}

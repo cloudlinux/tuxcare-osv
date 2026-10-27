@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1793097555",
+  "modified": "2026-10-27T13:25:35Z",
+  "published": "2026-10-27T10:39:15Z",
+  "summary": "TuxCare security update for ajv (1 CVE)",
+  "details": "TuxCare rebuilt ajv to address 1 CVE. Fixed in 6.5.2-tuxcare.2.",
+  "upstream": [
+    "CVE-2025-69873"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "ajv",
+        "purl": "pkg:npm/ajv"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "6.5.2-tuxcare.0"
+            },
+            {
+              "fixed": "6.5.2-tuxcare.2"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "6.5.2",
+        "6.5.2-tuxcare.1"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "6.5.2",
+          "fixed_version": "6.5.2-tuxcare.2"
+        }
+      }
+    }
+  ]
+}

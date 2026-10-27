@@ -1,0 +1,85 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1793093788",
+  "modified": "2026-10-27T13:25:35Z",
+  "published": "2026-10-27T09:36:28Z",
+  "summary": "TuxCare security update for @angular (3 CVEs)",
+  "details": "TuxCare rebuilt 2 @angular packages to address 3 CVEs. Fixed in 19.2.25-tuxcare.7.",
+  "upstream": [
+    "CVE-2026-111752",
+    "CVE-2026-111753",
+    "CVE-2026-111754"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "@angular/bazel",
+        "purl": "pkg:npm/%40angular/bazel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "19.2.25-tuxcare.0"
+            },
+            {
+              "fixed": "19.2.25-tuxcare.7"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "19.2.25",
+        "19.2.25-tuxcare.1",
+        "19.2.25-tuxcare.2",
+        "19.2.25-tuxcare.3",
+        "19.2.25-tuxcare.4",
+        "19.2.25-tuxcare.5",
+        "19.2.25-tuxcare.6"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "19.2.25",
+          "fixed_version": "19.2.25-tuxcare.7"
+        }
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "@angular/language-service",
+        "purl": "pkg:npm/%40angular/language-service"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "19.2.25-tuxcare.0"
+            },
+            {
+              "fixed": "19.2.25-tuxcare.7"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "19.2.25",
+        "19.2.25-tuxcare.1",
+        "19.2.25-tuxcare.2",
+        "19.2.25-tuxcare.3",
+        "19.2.25-tuxcare.4",
+        "19.2.25-tuxcare.5",
+        "19.2.25-tuxcare.6"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "19.2.25",
+          "fixed_version": "19.2.25-tuxcare.7"
+        }
+      }
+    }
+  ]
+}
