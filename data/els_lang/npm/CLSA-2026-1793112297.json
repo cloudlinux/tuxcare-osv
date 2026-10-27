@@ -1,0 +1,49 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1793112297",
+  "modified": "2026-10-27T19:16:56Z",
+  "published": "2026-10-27T14:44:57Z",
+  "summary": "TuxCare security update for dompurify (2 CVEs)",
+  "details": "TuxCare rebuilt dompurify to address 2 CVEs. Fixed in 2.0.8-tuxcare.7.",
+  "upstream": [
+    "CVE-2026-116803",
+    "GHSA-mrv2-3pqr-j5jr"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "dompurify",
+        "purl": "pkg:npm/dompurify"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "2.0.8-tuxcare.0"
+            },
+            {
+              "fixed": "2.0.8-tuxcare.7"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "2.0.8",
+        "2.0.8-tuxcare.1",
+        "2.0.8-tuxcare.2",
+        "2.0.8-tuxcare.3",
+        "2.0.8-tuxcare.4",
+        "2.0.8-tuxcare.5",
+        "2.0.8-tuxcare.6"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "2.0.8",
+          "fixed_version": "2.0.8-tuxcare.7"
+        }
+      }
+    }
+  ]
+}
