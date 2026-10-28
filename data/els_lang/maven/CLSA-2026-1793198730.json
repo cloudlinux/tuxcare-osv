@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1793198730",
+  "modified": "2026-10-28T19:30:18Z",
+  "published": "2026-10-28T14:45:30Z",
+  "summary": "TuxCare security update for org.apache.neethi:neethi (2 CVEs)",
+  "details": "TuxCare rebuilt org.apache.neethi:neethi to address 2 CVEs. Fixed in 3.2.0-tuxcare.1.",
+  "upstream": [
+    "CVE-2026-42403",
+    "CVE-2026-42404"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.apache.neethi:neethi",
+        "purl": "pkg:maven/org.apache.neethi/neethi"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "3.2.0"
+            },
+            {
+              "fixed": "3.2.0-tuxcare.1"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "3.2.0"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "3.2.0",
+          "fixed_version": "3.2.0-tuxcare.1"
+        }
+      }
+    }
+  ]
+}

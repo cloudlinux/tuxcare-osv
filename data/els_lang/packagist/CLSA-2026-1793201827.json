@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1793201827",
+  "modified": "2026-10-28T19:30:18Z",
+  "published": "2026-10-28T15:37:07Z",
+  "summary": "TuxCare security update for mtdowling/jmespath.php (1 CVE)",
+  "details": "TuxCare rebuilt mtdowling/jmespath.php to address 1 CVE. Fixed in 2.6.1-p1+tuxcare.",
+  "upstream": [
+    "CVE-2026-54133"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Packagist",
+        "name": "mtdowling/jmespath.php",
+        "purl": "pkg:composer/mtdowling/jmespath.php"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "2.6.1"
+            },
+            {
+              "fixed": "2.6.1-p1+tuxcare"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "2.6.1"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "2.6.1",
+          "fixed_version": "2.6.1-p1+tuxcare"
+        }
+      }
+    }
+  ]
+}

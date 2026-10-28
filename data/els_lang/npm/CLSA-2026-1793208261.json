@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1793208261",
+  "modified": "2026-10-28T19:30:18Z",
+  "published": "2026-10-28T17:24:21Z",
+  "summary": "TuxCare security update for @octokit/request (1 CVE)",
+  "details": "TuxCare rebuilt @octokit/request to address 1 CVE. Fixed in 5.6.3-tuxcare.1.",
+  "upstream": [
+    "CVE-2025-25290"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "@octokit/request",
+        "purl": "pkg:npm/%40octokit/request"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "5.6.3-tuxcare.0"
+            },
+            {
+              "fixed": "5.6.3-tuxcare.1"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "5.6.3"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "5.6.3",
+          "fixed_version": "5.6.3-tuxcare.1"
+        }
+      }
+    }
+  ]
+}
