@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1793137942",
+  "modified": "2026-10-28T01:43:13Z",
+  "published": "2026-10-27T21:52:22Z",
+  "summary": "TuxCare security update for log4j:log4j (1 CVE)",
+  "details": "TuxCare rebuilt log4j:log4j to address 1 CVE. Fixed in 1.2.15-tuxcare.3.",
+  "upstream": [
+    "CVE-2022-23305"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "log4j:log4j",
+        "purl": "pkg:maven/log4j/log4j"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "1.2.15"
+            },
+            {
+              "fixed": "1.2.15-tuxcare.3"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "1.2.15",
+        "1.2.15-tuxcare.1",
+        "1.2.15-tuxcare.2"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "1.2.15",
+          "fixed_version": "1.2.15-tuxcare.3"
+        }
+      }
+    }
+  ]
+}

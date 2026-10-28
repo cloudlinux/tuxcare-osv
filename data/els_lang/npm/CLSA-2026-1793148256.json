@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1793148256",
+  "modified": "2026-10-28T01:43:13Z",
+  "published": "2026-10-28T00:44:16Z",
+  "summary": "TuxCare security update for vue (2 CVEs)",
+  "details": "TuxCare rebuilt vue to address 2 CVEs. Fixed in 2.6.11-tuxcare.2.",
+  "upstream": [
+    "CVE-2024-6783",
+    "CVE-2024-9506"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "vue",
+        "purl": "pkg:npm/vue"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "2.6.11-tuxcare.0"
+            },
+            {
+              "fixed": "2.6.11-tuxcare.2"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "2.6.11"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "2.6.11",
+          "fixed_version": "2.6.11-tuxcare.2"
+        }
+      }
+    }
+  ]
+}

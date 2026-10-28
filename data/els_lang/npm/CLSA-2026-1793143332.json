@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1793143332",
+  "modified": "2026-10-28T01:43:13Z",
+  "published": "2026-10-27T23:22:12Z",
+  "summary": "TuxCare security update for @sigstore/sign (1 CVE)",
+  "details": "TuxCare rebuilt @sigstore/sign to address 1 CVE. Fixed in 2.0.0-tuxcare.3.",
+  "upstream": [
+    "CVE-2026-48758"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "@sigstore/sign",
+        "purl": "pkg:npm/%40sigstore/sign"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "2.0.0-tuxcare.0"
+            },
+            {
+              "fixed": "2.0.0-tuxcare.3"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "2.0.0"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "2.0.0",
+          "fixed_version": "2.0.0-tuxcare.3"
+        }
+      }
+    }
+  ]
+}

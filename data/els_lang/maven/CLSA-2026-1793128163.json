@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1793128163",
+  "modified": "2026-10-28T01:43:13Z",
+  "published": "2026-10-27T19:09:23Z",
+  "summary": "TuxCare security update for commons-beanutils:commons-beanutils (1 CVE)",
+  "details": "TuxCare rebuilt commons-beanutils:commons-beanutils to address 1 CVE. Fixed in 1.8.2-tuxcare.1.",
+  "upstream": [
+    "CVE-2014-0114"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "commons-beanutils:commons-beanutils",
+        "purl": "pkg:maven/commons-beanutils/commons-beanutils"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "1.8.2"
+            },
+            {
+              "fixed": "1.8.2-tuxcare.1"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "1.8.2"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "1.8.2",
+          "fixed_version": "1.8.2-tuxcare.1"
+        }
+      }
+    }
+  ]
+}

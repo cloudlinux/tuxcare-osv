@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1793141403",
+  "modified": "2026-10-28T01:43:13Z",
+  "published": "2026-10-27T22:50:03Z",
+  "summary": "TuxCare security update for @babel/cli (1 CVE)",
+  "details": "TuxCare rebuilt @babel/cli to address 1 CVE. Fixed in 7.24.1-tuxcare.5.",
+  "upstream": [
+    "CVE-2025-27789"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "@babel/cli",
+        "purl": "pkg:npm/%40babel/cli"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "7.24.1-tuxcare.0"
+            },
+            {
+              "fixed": "7.24.1-tuxcare.5"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "7.24.1",
+        "7.24.1-tuxcare.3",
+        "7.24.1-tuxcare.4"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "7.24.1",
+          "fixed_version": "7.24.1-tuxcare.5"
+        }
+      }
+    }
+  ]
+}

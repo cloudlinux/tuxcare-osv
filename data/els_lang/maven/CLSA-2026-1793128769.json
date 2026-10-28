@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1793128769",
+  "modified": "2026-10-28T01:43:13Z",
+  "published": "2026-10-27T19:19:29Z",
+  "summary": "TuxCare security update for org.hdrhistogram:HdrHistogram (1 CVE)",
+  "details": "TuxCare rebuilt org.hdrhistogram:HdrHistogram to address 1 CVE. Fixed in 2.1.11-tuxcare.1.",
+  "upstream": [
+    "CVE-2026-14683"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.hdrhistogram:HdrHistogram",
+        "purl": "pkg:maven/org.hdrhistogram/HdrHistogram"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "2.1.11"
+            },
+            {
+              "fixed": "2.1.11-tuxcare.1"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "2.1.11"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "2.1.11",
+          "fixed_version": "2.1.11-tuxcare.1"
+        }
+      }
+    }
+  ]
+}
