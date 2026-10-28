@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1793154863",
+  "modified": "2026-10-28T13:40:41Z",
+  "published": "2026-10-28T02:34:21Z",
+  "summary": "TuxCare security update for @babel/plugin-proposal-partial-application (1 CVE)",
+  "details": "TuxCare rebuilt @babel/plugin-proposal-partial-application to address 1 CVE. Fixed in 7.12.18-tuxcare.2.",
+  "upstream": [
+    "CVE-2026-44728"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "@babel/plugin-proposal-partial-application",
+        "purl": "pkg:npm/%40babel/plugin-proposal-partial-application"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "7.12.18-tuxcare.0"
+            },
+            {
+              "fixed": "7.12.18-tuxcare.2"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "7.12.18"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "7.12.18",
+          "fixed_version": "7.12.18-tuxcare.2"
+        }
+      }
+    }
+  ]
+}

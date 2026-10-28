@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1793173445",
+  "modified": "2026-10-28T13:40:41Z",
+  "published": "2026-10-28T07:44:01Z",
+  "summary": "TuxCare security update for @babel/helpers (1 CVE)",
+  "details": "TuxCare rebuilt @babel/helpers to address 1 CVE. Fixed in 7.12.13-tuxcare.1.",
+  "upstream": [
+    "CVE-2023-45133"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "@babel/helpers",
+        "purl": "pkg:npm/%40babel/helpers"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "7.12.13-tuxcare.0"
+            },
+            {
+              "fixed": "7.12.13-tuxcare.1"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "7.12.13"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "7.12.13",
+          "fixed_version": "7.12.13-tuxcare.1"
+        }
+      }
+    }
+  ]
+}

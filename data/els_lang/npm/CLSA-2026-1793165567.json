@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1793165567",
+  "modified": "2026-10-28T13:40:41Z",
+  "published": "2026-10-28T05:32:44Z",
+  "summary": "TuxCare security update for @babel/helper-check-duplicate-nodes (1 CVE)",
+  "details": "TuxCare rebuilt @babel/helper-check-duplicate-nodes to address 1 CVE. Fixed in 7.25.7-tuxcare.4.",
+  "upstream": [
+    "CVE-2026-49356"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "@babel/helper-check-duplicate-nodes",
+        "purl": "pkg:npm/%40babel/helper-check-duplicate-nodes"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "7.25.7-tuxcare.0"
+            },
+            {
+              "fixed": "7.25.7-tuxcare.4"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "7.25.7",
+        "7.25.7-tuxcare.2",
+        "7.25.7-tuxcare.3"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "7.25.7",
+          "fixed_version": "7.25.7-tuxcare.4"
+        }
+      }
+    }
+  ]
+}
