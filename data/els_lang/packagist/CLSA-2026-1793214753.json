@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1793214753",
+  "modified": "2026-10-29T02:06:19Z",
+  "published": "2026-10-28T19:12:33Z",
+  "summary": "TuxCare security update for symfony/http-client (1 CVE)",
+  "details": "TuxCare rebuilt symfony/http-client to address 1 CVE. Fixed in v6.0.20-p1+tuxcare.",
+  "upstream": [
+    "CVE-2024-50342"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Packagist",
+        "name": "symfony/http-client",
+        "purl": "pkg:composer/symfony/http-client"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "v6.0.20"
+            },
+            {
+              "fixed": "v6.0.20-p1+tuxcare"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "v6.0.20"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "v6.0.20",
+          "fixed_version": "v6.0.20-p1+tuxcare"
+        }
+      }
+    }
+  ]
+}

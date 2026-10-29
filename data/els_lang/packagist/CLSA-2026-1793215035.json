@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1793215035",
+  "modified": "2026-10-29T02:06:19Z",
+  "published": "2026-10-28T19:17:15Z",
+  "summary": "TuxCare security update for spatie/image-optimizer (1 CVE)",
+  "details": "TuxCare rebuilt spatie/image-optimizer to address 1 CVE. Fixed in 1.5.0-p1+tuxcare.",
+  "upstream": [
+    "CVE-2024-34515"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Packagist",
+        "name": "spatie/image-optimizer",
+        "purl": "pkg:composer/spatie/image-optimizer"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "1.5.0"
+            },
+            {
+              "fixed": "1.5.0-p1+tuxcare"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "1.5.0"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "1.5.0",
+          "fixed_version": "1.5.0-p1+tuxcare"
+        }
+      }
+    }
+  ]
+}
