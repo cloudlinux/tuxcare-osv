@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1793241442",
+  "modified": "2026-10-29T07:47:49Z",
+  "published": "2026-10-29T02:37:22Z",
+  "summary": "TuxCare security update for zod (1 CVE)",
+  "details": "TuxCare rebuilt zod to address 1 CVE. Fixed in 3.25.48-tuxcare.1.",
+  "upstream": [
+    "CVE-2023-54404"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "zod",
+        "purl": "pkg:npm/zod"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "3.25.48-tuxcare.0"
+            },
+            {
+              "fixed": "3.25.48-tuxcare.1"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "3.25.48"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "3.25.48",
+          "fixed_version": "3.25.48-tuxcare.1"
+        }
+      }
+    }
+  ]
+}
