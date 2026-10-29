@@ -1,10 +1,10 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2026-1789459160",
-  "modified": "2026-10-15T08:16:08Z",
+  "modified": "2026-10-29T19:43:08Z",
   "published": "2026-09-15T07:59:20Z",
   "summary": "TuxCare security update for io.projectreactor.netty (1 CVE)",
-  "details": "TuxCare rebuilt 4 io.projectreactor.netty packages to address 1 CVE. Fixed in 1.2.13-tuxcare.1.",
+  "details": "TuxCare rebuilt 3 io.projectreactor.netty packages to address 1 CVE. Fixed in 1.2.13-tuxcare.1.",
   "upstream": [
     "CVE-2026-41715"
   ],
@@ -14,35 +14,6 @@
         "ecosystem": "TuxCare:Maven",
         "name": "io.projectreactor.netty:reactor-netty",
         "purl": "pkg:maven/io.projectreactor.netty/reactor-netty"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "1.2.13"
-            },
-            {
-              "fixed": "1.2.13-tuxcare.1"
-            }
-          ]
-        }
-      ],
-      "versions": [
-        "1.2.13"
-      ],
-      "database_specific": {
-        "tuxcare": {
-          "base_version": "1.2.13",
-          "fixed_version": "1.2.13-tuxcare.1"
-        }
-      }
-    },
-    {
-      "package": {
-        "ecosystem": "TuxCare:Maven",
-        "name": "io.projectreactor.netty:reactor-netty-core",
-        "purl": "pkg:maven/io.projectreactor.netty/reactor-netty-core"
       },
       "ranges": [
         {

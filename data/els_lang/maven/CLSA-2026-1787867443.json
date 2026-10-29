@@ -1,10 +1,10 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2026-1787867443",
-  "modified": "2026-10-15T08:16:08Z",
+  "modified": "2026-10-29T19:43:08Z",
   "published": "2026-08-27T21:50:43Z",
-  "summary": "TuxCare security update for 206 packages (4 CVEs)",
-  "details": "TuxCare rebuilt 206 packages to address 4 CVEs. Fixed in 3.5.9-tuxcare.7.",
+  "summary": "TuxCare security update for 157 packages (4 CVEs)",
+  "details": "TuxCare rebuilt 157 packages to address 4 CVEs. Fixed in 3.5.9-tuxcare.7.",
   "upstream": [
     "CVE-2026-49875",
     "CVE-2026-50623",
@@ -12,111 +12,6 @@
     "CVE-2026-50634"
   ],
   "affected": [
-    {
-      "package": {
-        "ecosystem": "TuxCare:Maven",
-        "name": "org.apache.cxf.archetype:cxf-jaxrs-service",
-        "purl": "pkg:maven/org.apache.cxf.archetype/cxf-jaxrs-service"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "3.5.9"
-            },
-            {
-              "fixed": "3.5.9-tuxcare.7"
-            }
-          ]
-        }
-      ],
-      "versions": [
-        "3.5.9",
-        "3.5.9-tuxcare.2",
-        "3.5.9-tuxcare.3",
-        "3.5.9-tuxcare.4",
-        "3.5.9-tuxcare.5",
-        "3.5.9-tuxcare.6",
-        "3.5.9.tuxcare.1"
-      ],
-      "database_specific": {
-        "tuxcare": {
-          "base_version": "3.5.9",
-          "fixed_version": "3.5.9-tuxcare.7"
-        }
-      }
-    },
-    {
-      "package": {
-        "ecosystem": "TuxCare:Maven",
-        "name": "org.apache.cxf.archetype:cxf-jaxws-javafirst",
-        "purl": "pkg:maven/org.apache.cxf.archetype/cxf-jaxws-javafirst"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "3.5.9"
-            },
-            {
-              "fixed": "3.5.9-tuxcare.7"
-            }
-          ]
-        }
-      ],
-      "versions": [
-        "3.5.9",
-        "3.5.9-tuxcare.2",
-        "3.5.9-tuxcare.3",
-        "3.5.9-tuxcare.4",
-        "3.5.9-tuxcare.5",
-        "3.5.9-tuxcare.6",
-        "3.5.9.tuxcare.1"
-      ],
-      "database_specific": {
-        "tuxcare": {
-          "base_version": "3.5.9",
-          "fixed_version": "3.5.9-tuxcare.7"
-        }
-      }
-    },
-    {
-      "package": {
-        "ecosystem": "TuxCare:Maven",
-        "name": "org.apache.cxf.archetype:cxf-jaxws-wsdlfirst",
-        "purl": "pkg:maven/org.apache.cxf.archetype/cxf-jaxws-wsdlfirst"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "3.5.9"
-            },
-            {
-              "fixed": "3.5.9-tuxcare.7"
-            }
-          ]
-        }
-      ],
-      "versions": [
-        "3.5.9",
-        "3.5.9-tuxcare.2",
-        "3.5.9-tuxcare.3",
-        "3.5.9-tuxcare.4",
-        "3.5.9-tuxcare.5",
-        "3.5.9-tuxcare.6",
-        "3.5.9.tuxcare.1"
-      ],
-      "database_specific": {
-        "tuxcare": {
-          "base_version": "3.5.9",
-          "fixed_version": "3.5.9-tuxcare.7"
-        }
-      }
-    },
     {
       "package": {
         "ecosystem": "TuxCare:Maven",
@@ -157,41 +52,6 @@
         "ecosystem": "TuxCare:Maven",
         "name": "org.apache.cxf.karaf:cxf-karaf-commands",
         "purl": "pkg:maven/org.apache.cxf.karaf/cxf-karaf-commands"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "3.5.9"
-            },
-            {
-              "fixed": "3.5.9-tuxcare.7"
-            }
-          ]
-        }
-      ],
-      "versions": [
-        "3.5.9",
-        "3.5.9-tuxcare.2",
-        "3.5.9-tuxcare.3",
-        "3.5.9-tuxcare.4",
-        "3.5.9-tuxcare.5",
-        "3.5.9-tuxcare.6",
-        "3.5.9.tuxcare.1"
-      ],
-      "database_specific": {
-        "tuxcare": {
-          "base_version": "3.5.9",
-          "fixed_version": "3.5.9-tuxcare.7"
-        }
-      }
-    },
-    {
-      "package": {
-        "ecosystem": "TuxCare:Maven",
-        "name": "org.apache.cxf.karaf:karaf-parent",
-        "purl": "pkg:maven/org.apache.cxf.karaf/karaf-parent"
       },
       "ranges": [
         {
@@ -435,113 +295,8 @@
     {
       "package": {
         "ecosystem": "TuxCare:Maven",
-        "name": "org.apache.cxf.services.sts:cxf-services-sts",
-        "purl": "pkg:maven/org.apache.cxf.services.sts/cxf-services-sts"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "3.5.9"
-            },
-            {
-              "fixed": "3.5.9-tuxcare.7"
-            }
-          ]
-        }
-      ],
-      "versions": [
-        "3.5.9",
-        "3.5.9-tuxcare.2",
-        "3.5.9-tuxcare.3",
-        "3.5.9-tuxcare.4",
-        "3.5.9-tuxcare.5",
-        "3.5.9-tuxcare.6",
-        "3.5.9.tuxcare.1"
-      ],
-      "database_specific": {
-        "tuxcare": {
-          "base_version": "3.5.9",
-          "fixed_version": "3.5.9-tuxcare.7"
-        }
-      }
-    },
-    {
-      "package": {
-        "ecosystem": "TuxCare:Maven",
         "name": "org.apache.cxf.services.sts:cxf-services-sts-core",
         "purl": "pkg:maven/org.apache.cxf.services.sts/cxf-services-sts-core"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "3.5.9"
-            },
-            {
-              "fixed": "3.5.9-tuxcare.7"
-            }
-          ]
-        }
-      ],
-      "versions": [
-        "3.5.9",
-        "3.5.9-tuxcare.2",
-        "3.5.9-tuxcare.3",
-        "3.5.9-tuxcare.4",
-        "3.5.9-tuxcare.5",
-        "3.5.9-tuxcare.6",
-        "3.5.9.tuxcare.1"
-      ],
-      "database_specific": {
-        "tuxcare": {
-          "base_version": "3.5.9",
-          "fixed_version": "3.5.9-tuxcare.7"
-        }
-      }
-    },
-    {
-      "package": {
-        "ecosystem": "TuxCare:Maven",
-        "name": "org.apache.cxf.services.sts:cxf-services-sts-systests",
-        "purl": "pkg:maven/org.apache.cxf.services.sts/cxf-services-sts-systests"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "3.5.9"
-            },
-            {
-              "fixed": "3.5.9-tuxcare.7"
-            }
-          ]
-        }
-      ],
-      "versions": [
-        "3.5.9",
-        "3.5.9-tuxcare.2",
-        "3.5.9-tuxcare.3",
-        "3.5.9-tuxcare.4",
-        "3.5.9-tuxcare.5",
-        "3.5.9-tuxcare.6",
-        "3.5.9.tuxcare.1"
-      ],
-      "database_specific": {
-        "tuxcare": {
-          "base_version": "3.5.9",
-          "fixed_version": "3.5.9-tuxcare.7"
-        }
-      }
-    },
-    {
-      "package": {
-        "ecosystem": "TuxCare:Maven",
-        "name": "org.apache.cxf.services.ws-discovery:cxf-services-ws-discovery",
-        "purl": "pkg:maven/org.apache.cxf.services.ws-discovery/cxf-services-ws-discovery"
       },
       "ranges": [
         {
@@ -645,41 +400,6 @@
     {
       "package": {
         "ecosystem": "TuxCare:Maven",
-        "name": "org.apache.cxf.services.wsn:cxf-services-wsn",
-        "purl": "pkg:maven/org.apache.cxf.services.wsn/cxf-services-wsn"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "3.5.9"
-            },
-            {
-              "fixed": "3.5.9-tuxcare.7"
-            }
-          ]
-        }
-      ],
-      "versions": [
-        "3.5.9",
-        "3.5.9-tuxcare.2",
-        "3.5.9-tuxcare.3",
-        "3.5.9-tuxcare.4",
-        "3.5.9-tuxcare.5",
-        "3.5.9-tuxcare.6",
-        "3.5.9.tuxcare.1"
-      ],
-      "database_specific": {
-        "tuxcare": {
-          "base_version": "3.5.9",
-          "fixed_version": "3.5.9-tuxcare.7"
-        }
-      }
-    },
-    {
-      "package": {
-        "ecosystem": "TuxCare:Maven",
         "name": "org.apache.cxf.services.wsn:cxf-services-wsn-api",
         "purl": "pkg:maven/org.apache.cxf.services.wsn/cxf-services-wsn-api"
       },
@@ -750,76 +470,6 @@
     {
       "package": {
         "ecosystem": "TuxCare:Maven",
-        "name": "org.apache.cxf.services.wsn:cxf-services-wsn-osgi",
-        "purl": "pkg:maven/org.apache.cxf.services.wsn/cxf-services-wsn-osgi"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "3.5.9"
-            },
-            {
-              "fixed": "3.5.9-tuxcare.7"
-            }
-          ]
-        }
-      ],
-      "versions": [
-        "3.5.9",
-        "3.5.9-tuxcare.2",
-        "3.5.9-tuxcare.3",
-        "3.5.9-tuxcare.4",
-        "3.5.9-tuxcare.5",
-        "3.5.9-tuxcare.6",
-        "3.5.9.tuxcare.1"
-      ],
-      "database_specific": {
-        "tuxcare": {
-          "base_version": "3.5.9",
-          "fixed_version": "3.5.9-tuxcare.7"
-        }
-      }
-    },
-    {
-      "package": {
-        "ecosystem": "TuxCare:Maven",
-        "name": "org.apache.cxf.services.xkms:cxf-services-xkms",
-        "purl": "pkg:maven/org.apache.cxf.services.xkms/cxf-services-xkms"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "3.5.9"
-            },
-            {
-              "fixed": "3.5.9-tuxcare.7"
-            }
-          ]
-        }
-      ],
-      "versions": [
-        "3.5.9",
-        "3.5.9-tuxcare.2",
-        "3.5.9-tuxcare.3",
-        "3.5.9-tuxcare.4",
-        "3.5.9-tuxcare.5",
-        "3.5.9-tuxcare.6",
-        "3.5.9.tuxcare.1"
-      ],
-      "database_specific": {
-        "tuxcare": {
-          "base_version": "3.5.9",
-          "fixed_version": "3.5.9-tuxcare.7"
-        }
-      }
-    },
-    {
-      "package": {
-        "ecosystem": "TuxCare:Maven",
         "name": "org.apache.cxf.services.xkms:cxf-services-xkms-client",
         "purl": "pkg:maven/org.apache.cxf.services.xkms/cxf-services-xkms-client"
       },
@@ -857,41 +507,6 @@
         "ecosystem": "TuxCare:Maven",
         "name": "org.apache.cxf.services.xkms:cxf-services-xkms-common",
         "purl": "pkg:maven/org.apache.cxf.services.xkms/cxf-services-xkms-common"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "3.5.9"
-            },
-            {
-              "fixed": "3.5.9-tuxcare.7"
-            }
-          ]
-        }
-      ],
-      "versions": [
-        "3.5.9",
-        "3.5.9-tuxcare.2",
-        "3.5.9-tuxcare.3",
-        "3.5.9-tuxcare.4",
-        "3.5.9-tuxcare.5",
-        "3.5.9-tuxcare.6",
-        "3.5.9.tuxcare.1"
-      ],
-      "database_specific": {
-        "tuxcare": {
-          "base_version": "3.5.9",
-          "fixed_version": "3.5.9-tuxcare.7"
-        }
-      }
-    },
-    {
-      "package": {
-        "ecosystem": "TuxCare:Maven",
-        "name": "org.apache.cxf.services.xkms:cxf-services-xkms-features",
-        "purl": "pkg:maven/org.apache.cxf.services.xkms/cxf-services-xkms-features"
       },
       "ranges": [
         {
@@ -1135,41 +750,6 @@
     {
       "package": {
         "ecosystem": "TuxCare:Maven",
-        "name": "org.apache.cxf.services:cxf-services",
-        "purl": "pkg:maven/org.apache.cxf.services/cxf-services"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "3.5.9"
-            },
-            {
-              "fixed": "3.5.9-tuxcare.7"
-            }
-          ]
-        }
-      ],
-      "versions": [
-        "3.5.9",
-        "3.5.9-tuxcare.2",
-        "3.5.9-tuxcare.3",
-        "3.5.9-tuxcare.4",
-        "3.5.9-tuxcare.5",
-        "3.5.9-tuxcare.6",
-        "3.5.9.tuxcare.1"
-      ],
-      "database_specific": {
-        "tuxcare": {
-          "base_version": "3.5.9",
-          "fixed_version": "3.5.9-tuxcare.7"
-        }
-      }
-    },
-    {
-      "package": {
-        "ecosystem": "TuxCare:Maven",
         "name": "org.apache.cxf.systests.wsdl_maven:cxf-systests-codegen",
         "purl": "pkg:maven/org.apache.cxf.systests.wsdl_maven/cxf-systests-codegen"
       },
@@ -1207,111 +787,6 @@
         "ecosystem": "TuxCare:Maven",
         "name": "org.apache.cxf.systests.wsdl_maven:cxf-systests-java2ws",
         "purl": "pkg:maven/org.apache.cxf.systests.wsdl_maven/cxf-systests-java2ws"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "3.5.9"
-            },
-            {
-              "fixed": "3.5.9-tuxcare.7"
-            }
-          ]
-        }
-      ],
-      "versions": [
-        "3.5.9",
-        "3.5.9-tuxcare.2",
-        "3.5.9-tuxcare.3",
-        "3.5.9-tuxcare.4",
-        "3.5.9-tuxcare.5",
-        "3.5.9-tuxcare.6",
-        "3.5.9.tuxcare.1"
-      ],
-      "database_specific": {
-        "tuxcare": {
-          "base_version": "3.5.9",
-          "fixed_version": "3.5.9-tuxcare.7"
-        }
-      }
-    },
-    {
-      "package": {
-        "ecosystem": "TuxCare:Maven",
-        "name": "org.apache.cxf.systests:cxf-microprofile-tck",
-        "purl": "pkg:maven/org.apache.cxf.systests/cxf-microprofile-tck"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "3.5.9"
-            },
-            {
-              "fixed": "3.5.9-tuxcare.7"
-            }
-          ]
-        }
-      ],
-      "versions": [
-        "3.5.9",
-        "3.5.9-tuxcare.2",
-        "3.5.9-tuxcare.3",
-        "3.5.9-tuxcare.4",
-        "3.5.9-tuxcare.5",
-        "3.5.9-tuxcare.6",
-        "3.5.9.tuxcare.1"
-      ],
-      "database_specific": {
-        "tuxcare": {
-          "base_version": "3.5.9",
-          "fixed_version": "3.5.9-tuxcare.7"
-        }
-      }
-    },
-    {
-      "package": {
-        "ecosystem": "TuxCare:Maven",
-        "name": "org.apache.cxf.systests:cxf-systests",
-        "purl": "pkg:maven/org.apache.cxf.systests/cxf-systests"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "3.5.9"
-            },
-            {
-              "fixed": "3.5.9-tuxcare.7"
-            }
-          ]
-        }
-      ],
-      "versions": [
-        "3.5.9",
-        "3.5.9-tuxcare.2",
-        "3.5.9-tuxcare.3",
-        "3.5.9-tuxcare.4",
-        "3.5.9-tuxcare.5",
-        "3.5.9-tuxcare.6",
-        "3.5.9.tuxcare.1"
-      ],
-      "database_specific": {
-        "tuxcare": {
-          "base_version": "3.5.9",
-          "fixed_version": "3.5.9-tuxcare.7"
-        }
-      }
-    },
-    {
-      "package": {
-        "ecosystem": "TuxCare:Maven",
-        "name": "org.apache.cxf.systests:cxf-systests-cdi",
-        "purl": "pkg:maven/org.apache.cxf.systests/cxf-systests-cdi"
       },
       "ranges": [
         {
@@ -1660,78 +1135,8 @@
     {
       "package": {
         "ecosystem": "TuxCare:Maven",
-        "name": "org.apache.cxf.systests:cxf-systests-ci-grizzly",
-        "purl": "pkg:maven/org.apache.cxf.systests/cxf-systests-ci-grizzly"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "3.5.9"
-            },
-            {
-              "fixed": "3.5.9-tuxcare.7"
-            }
-          ]
-        }
-      ],
-      "versions": [
-        "3.5.9",
-        "3.5.9-tuxcare.2",
-        "3.5.9-tuxcare.3",
-        "3.5.9-tuxcare.4",
-        "3.5.9-tuxcare.5",
-        "3.5.9-tuxcare.6",
-        "3.5.9.tuxcare.1"
-      ],
-      "database_specific": {
-        "tuxcare": {
-          "base_version": "3.5.9",
-          "fixed_version": "3.5.9-tuxcare.7"
-        }
-      }
-    },
-    {
-      "package": {
-        "ecosystem": "TuxCare:Maven",
         "name": "org.apache.cxf.systests:cxf-systests-ci-webapp",
         "purl": "pkg:maven/org.apache.cxf.systests/cxf-systests-ci-webapp"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "3.5.9"
-            },
-            {
-              "fixed": "3.5.9-tuxcare.7"
-            }
-          ]
-        }
-      ],
-      "versions": [
-        "3.5.9",
-        "3.5.9-tuxcare.2",
-        "3.5.9-tuxcare.3",
-        "3.5.9-tuxcare.4",
-        "3.5.9-tuxcare.5",
-        "3.5.9-tuxcare.6",
-        "3.5.9.tuxcare.1"
-      ],
-      "database_specific": {
-        "tuxcare": {
-          "base_version": "3.5.9",
-          "fixed_version": "3.5.9-tuxcare.7"
-        }
-      }
-    },
-    {
-      "package": {
-        "ecosystem": "TuxCare:Maven",
-        "name": "org.apache.cxf.systests:cxf-systests-container-integration",
-        "purl": "pkg:maven/org.apache.cxf.systests/cxf-systests-container-integration"
       },
       "ranges": [
         {
@@ -2010,41 +1415,6 @@
     {
       "package": {
         "ecosystem": "TuxCare:Maven",
-        "name": "org.apache.cxf.systests:cxf-systests-microprofile-async",
-        "purl": "pkg:maven/org.apache.cxf.systests/cxf-systests-microprofile-async"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "3.5.9"
-            },
-            {
-              "fixed": "3.5.9-tuxcare.7"
-            }
-          ]
-        }
-      ],
-      "versions": [
-        "3.5.9",
-        "3.5.9-tuxcare.2",
-        "3.5.9-tuxcare.3",
-        "3.5.9-tuxcare.4",
-        "3.5.9-tuxcare.5",
-        "3.5.9-tuxcare.6",
-        "3.5.9.tuxcare.1"
-      ],
-      "database_specific": {
-        "tuxcare": {
-          "base_version": "3.5.9",
-          "fixed_version": "3.5.9-tuxcare.7"
-        }
-      }
-    },
-    {
-      "package": {
-        "ecosystem": "TuxCare:Maven",
         "name": "org.apache.cxf.systests:cxf-systests-microprofile-jaxrs",
         "purl": "pkg:maven/org.apache.cxf.systests/cxf-systests-microprofile-jaxrs"
       },
@@ -2080,78 +1450,8 @@
     {
       "package": {
         "ecosystem": "TuxCare:Maven",
-        "name": "org.apache.cxf.systests:cxf-systests-microprofile-nocdi",
-        "purl": "pkg:maven/org.apache.cxf.systests/cxf-systests-microprofile-nocdi"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "3.5.9"
-            },
-            {
-              "fixed": "3.5.9-tuxcare.7"
-            }
-          ]
-        }
-      ],
-      "versions": [
-        "3.5.9",
-        "3.5.9-tuxcare.2",
-        "3.5.9-tuxcare.3",
-        "3.5.9-tuxcare.4",
-        "3.5.9-tuxcare.5",
-        "3.5.9-tuxcare.6",
-        "3.5.9.tuxcare.1"
-      ],
-      "database_specific": {
-        "tuxcare": {
-          "base_version": "3.5.9",
-          "fixed_version": "3.5.9-tuxcare.7"
-        }
-      }
-    },
-    {
-      "package": {
-        "ecosystem": "TuxCare:Maven",
         "name": "org.apache.cxf.systests:cxf-systests-microprofile-tracing",
         "purl": "pkg:maven/org.apache.cxf.systests/cxf-systests-microprofile-tracing"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "3.5.9"
-            },
-            {
-              "fixed": "3.5.9-tuxcare.7"
-            }
-          ]
-        }
-      ],
-      "versions": [
-        "3.5.9",
-        "3.5.9-tuxcare.2",
-        "3.5.9-tuxcare.3",
-        "3.5.9-tuxcare.4",
-        "3.5.9-tuxcare.5",
-        "3.5.9-tuxcare.6",
-        "3.5.9.tuxcare.1"
-      ],
-      "database_specific": {
-        "tuxcare": {
-          "base_version": "3.5.9",
-          "fixed_version": "3.5.9-tuxcare.7"
-        }
-      }
-    },
-    {
-      "package": {
-        "ecosystem": "TuxCare:Maven",
-        "name": "org.apache.cxf.systests:cxf-systests-microprofile-weld",
-        "purl": "pkg:maven/org.apache.cxf.systests/cxf-systests-microprofile-weld"
       },
       "ranges": [
         {
@@ -2815,41 +2115,6 @@
     {
       "package": {
         "ecosystem": "TuxCare:Maven",
-        "name": "org.apache.cxf.systests:cxf-wsdl-maven",
-        "purl": "pkg:maven/org.apache.cxf.systests/cxf-wsdl-maven"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "3.5.9"
-            },
-            {
-              "fixed": "3.5.9-tuxcare.7"
-            }
-          ]
-        }
-      ],
-      "versions": [
-        "3.5.9",
-        "3.5.9-tuxcare.2",
-        "3.5.9-tuxcare.3",
-        "3.5.9-tuxcare.4",
-        "3.5.9-tuxcare.5",
-        "3.5.9-tuxcare.6",
-        "3.5.9.tuxcare.1"
-      ],
-      "database_specific": {
-        "tuxcare": {
-          "base_version": "3.5.9",
-          "fixed_version": "3.5.9-tuxcare.7"
-        }
-      }
-    },
-    {
-      "package": {
-        "ecosystem": "TuxCare:Maven",
         "name": "org.apache.cxf:apache-cxf",
         "purl": "pkg:maven/org.apache.cxf/apache-cxf"
       },
@@ -2885,148 +2150,8 @@
     {
       "package": {
         "ecosystem": "TuxCare:Maven",
-        "name": "org.apache.cxf:cxf",
-        "purl": "pkg:maven/org.apache.cxf/cxf"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "3.5.9"
-            },
-            {
-              "fixed": "3.5.9-tuxcare.7"
-            }
-          ]
-        }
-      ],
-      "versions": [
-        "3.5.9",
-        "3.5.9-tuxcare.2",
-        "3.5.9-tuxcare.3",
-        "3.5.9-tuxcare.4",
-        "3.5.9-tuxcare.5",
-        "3.5.9-tuxcare.6",
-        "3.5.9.tuxcare.1"
-      ],
-      "database_specific": {
-        "tuxcare": {
-          "base_version": "3.5.9",
-          "fixed_version": "3.5.9-tuxcare.7"
-        }
-      }
-    },
-    {
-      "package": {
-        "ecosystem": "TuxCare:Maven",
-        "name": "org.apache.cxf:cxf-archetypes",
-        "purl": "pkg:maven/org.apache.cxf/cxf-archetypes"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "3.5.9"
-            },
-            {
-              "fixed": "3.5.9-tuxcare.7"
-            }
-          ]
-        }
-      ],
-      "versions": [
-        "3.5.9",
-        "3.5.9-tuxcare.2",
-        "3.5.9-tuxcare.3",
-        "3.5.9-tuxcare.4",
-        "3.5.9-tuxcare.5",
-        "3.5.9-tuxcare.6",
-        "3.5.9.tuxcare.1"
-      ],
-      "database_specific": {
-        "tuxcare": {
-          "base_version": "3.5.9",
-          "fixed_version": "3.5.9-tuxcare.7"
-        }
-      }
-    },
-    {
-      "package": {
-        "ecosystem": "TuxCare:Maven",
-        "name": "org.apache.cxf:cxf-bom",
-        "purl": "pkg:maven/org.apache.cxf/cxf-bom"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "3.5.9"
-            },
-            {
-              "fixed": "3.5.9-tuxcare.7"
-            }
-          ]
-        }
-      ],
-      "versions": [
-        "3.5.9",
-        "3.5.9-tuxcare.2",
-        "3.5.9-tuxcare.3",
-        "3.5.9-tuxcare.4",
-        "3.5.9-tuxcare.5",
-        "3.5.9-tuxcare.6",
-        "3.5.9.tuxcare.1"
-      ],
-      "database_specific": {
-        "tuxcare": {
-          "base_version": "3.5.9",
-          "fixed_version": "3.5.9-tuxcare.7"
-        }
-      }
-    },
-    {
-      "package": {
-        "ecosystem": "TuxCare:Maven",
         "name": "org.apache.cxf:cxf-bundle-compatible",
         "purl": "pkg:maven/org.apache.cxf/cxf-bundle-compatible"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "3.5.9"
-            },
-            {
-              "fixed": "3.5.9-tuxcare.7"
-            }
-          ]
-        }
-      ],
-      "versions": [
-        "3.5.9",
-        "3.5.9-tuxcare.2",
-        "3.5.9-tuxcare.3",
-        "3.5.9-tuxcare.4",
-        "3.5.9-tuxcare.5",
-        "3.5.9-tuxcare.6",
-        "3.5.9.tuxcare.1"
-      ],
-      "database_specific": {
-        "tuxcare": {
-          "base_version": "3.5.9",
-          "fixed_version": "3.5.9-tuxcare.7"
-        }
-      }
-    },
-    {
-      "package": {
-        "ecosystem": "TuxCare:Maven",
-        "name": "org.apache.cxf:cxf-bundle-parent",
-        "purl": "pkg:maven/org.apache.cxf/cxf-bundle-parent"
       },
       "ranges": [
         {
@@ -3235,41 +2360,6 @@
     {
       "package": {
         "ecosystem": "TuxCare:Maven",
-        "name": "org.apache.cxf:cxf-integration",
-        "purl": "pkg:maven/org.apache.cxf/cxf-integration"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "3.5.9"
-            },
-            {
-              "fixed": "3.5.9-tuxcare.7"
-            }
-          ]
-        }
-      ],
-      "versions": [
-        "3.5.9",
-        "3.5.9-tuxcare.2",
-        "3.5.9-tuxcare.3",
-        "3.5.9-tuxcare.4",
-        "3.5.9-tuxcare.5",
-        "3.5.9-tuxcare.6",
-        "3.5.9.tuxcare.1"
-      ],
-      "database_specific": {
-        "tuxcare": {
-          "base_version": "3.5.9",
-          "fixed_version": "3.5.9-tuxcare.7"
-        }
-      }
-    },
-    {
-      "package": {
-        "ecosystem": "TuxCare:Maven",
         "name": "org.apache.cxf:cxf-integration-cdi",
         "purl": "pkg:maven/org.apache.cxf/cxf-integration-cdi"
       },
@@ -3307,41 +2397,6 @@
         "ecosystem": "TuxCare:Maven",
         "name": "org.apache.cxf:cxf-integration-jca",
         "purl": "pkg:maven/org.apache.cxf/cxf-integration-jca"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "3.5.9"
-            },
-            {
-              "fixed": "3.5.9-tuxcare.7"
-            }
-          ]
-        }
-      ],
-      "versions": [
-        "3.5.9",
-        "3.5.9-tuxcare.2",
-        "3.5.9-tuxcare.3",
-        "3.5.9-tuxcare.4",
-        "3.5.9-tuxcare.5",
-        "3.5.9-tuxcare.6",
-        "3.5.9.tuxcare.1"
-      ],
-      "database_specific": {
-        "tuxcare": {
-          "base_version": "3.5.9",
-          "fixed_version": "3.5.9-tuxcare.7"
-        }
-      }
-    },
-    {
-      "package": {
-        "ecosystem": "TuxCare:Maven",
-        "name": "org.apache.cxf:cxf-integration-spring-boot",
-        "purl": "pkg:maven/org.apache.cxf/cxf-integration-spring-boot"
       },
       "ranges": [
         {
@@ -3585,183 +2640,8 @@
     {
       "package": {
         "ecosystem": "TuxCare:Maven",
-        "name": "org.apache.cxf:cxf-maven-plugins",
-        "purl": "pkg:maven/org.apache.cxf/cxf-maven-plugins"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "3.5.9"
-            },
-            {
-              "fixed": "3.5.9-tuxcare.7"
-            }
-          ]
-        }
-      ],
-      "versions": [
-        "3.5.9",
-        "3.5.9-tuxcare.2",
-        "3.5.9-tuxcare.3",
-        "3.5.9-tuxcare.4",
-        "3.5.9-tuxcare.5",
-        "3.5.9-tuxcare.6",
-        "3.5.9.tuxcare.1"
-      ],
-      "database_specific": {
-        "tuxcare": {
-          "base_version": "3.5.9",
-          "fixed_version": "3.5.9-tuxcare.7"
-        }
-      }
-    },
-    {
-      "package": {
-        "ecosystem": "TuxCare:Maven",
-        "name": "org.apache.cxf:cxf-osgi",
-        "purl": "pkg:maven/org.apache.cxf/cxf-osgi"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "3.5.9"
-            },
-            {
-              "fixed": "3.5.9-tuxcare.7"
-            }
-          ]
-        }
-      ],
-      "versions": [
-        "3.5.9",
-        "3.5.9-tuxcare.2",
-        "3.5.9-tuxcare.3",
-        "3.5.9-tuxcare.4",
-        "3.5.9-tuxcare.5",
-        "3.5.9-tuxcare.6",
-        "3.5.9.tuxcare.1"
-      ],
-      "database_specific": {
-        "tuxcare": {
-          "base_version": "3.5.9",
-          "fixed_version": "3.5.9-tuxcare.7"
-        }
-      }
-    },
-    {
-      "package": {
-        "ecosystem": "TuxCare:Maven",
-        "name": "org.apache.cxf:cxf-parent",
-        "purl": "pkg:maven/org.apache.cxf/cxf-parent"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "3.5.9"
-            },
-            {
-              "fixed": "3.5.9-tuxcare.7"
-            }
-          ]
-        }
-      ],
-      "versions": [
-        "3.5.9",
-        "3.5.9-tuxcare.2",
-        "3.5.9-tuxcare.3",
-        "3.5.9-tuxcare.4",
-        "3.5.9-tuxcare.5",
-        "3.5.9-tuxcare.6",
-        "3.5.9.tuxcare.1"
-      ],
-      "database_specific": {
-        "tuxcare": {
-          "base_version": "3.5.9",
-          "fixed_version": "3.5.9-tuxcare.7"
-        }
-      }
-    },
-    {
-      "package": {
-        "ecosystem": "TuxCare:Maven",
         "name": "org.apache.cxf:cxf-repository",
         "purl": "pkg:maven/org.apache.cxf/cxf-repository"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "3.5.9"
-            },
-            {
-              "fixed": "3.5.9-tuxcare.7"
-            }
-          ]
-        }
-      ],
-      "versions": [
-        "3.5.9",
-        "3.5.9-tuxcare.2",
-        "3.5.9-tuxcare.3",
-        "3.5.9-tuxcare.4",
-        "3.5.9-tuxcare.5",
-        "3.5.9-tuxcare.6",
-        "3.5.9.tuxcare.1"
-      ],
-      "database_specific": {
-        "tuxcare": {
-          "base_version": "3.5.9",
-          "fixed_version": "3.5.9-tuxcare.7"
-        }
-      }
-    },
-    {
-      "package": {
-        "ecosystem": "TuxCare:Maven",
-        "name": "org.apache.cxf:cxf-rt",
-        "purl": "pkg:maven/org.apache.cxf/cxf-rt"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "3.5.9"
-            },
-            {
-              "fixed": "3.5.9-tuxcare.7"
-            }
-          ]
-        }
-      ],
-      "versions": [
-        "3.5.9",
-        "3.5.9-tuxcare.2",
-        "3.5.9-tuxcare.3",
-        "3.5.9-tuxcare.4",
-        "3.5.9-tuxcare.5",
-        "3.5.9-tuxcare.6",
-        "3.5.9.tuxcare.1"
-      ],
-      "database_specific": {
-        "tuxcare": {
-          "base_version": "3.5.9",
-          "fixed_version": "3.5.9-tuxcare.7"
-        }
-      }
-    },
-    {
-      "package": {
-        "ecosystem": "TuxCare:Maven",
-        "name": "org.apache.cxf:cxf-rt-bindings",
-        "purl": "pkg:maven/org.apache.cxf/cxf-rt-bindings"
       },
       "ranges": [
         {
@@ -3935,41 +2815,6 @@
     {
       "package": {
         "ecosystem": "TuxCare:Maven",
-        "name": "org.apache.cxf:cxf-rt-databinding",
-        "purl": "pkg:maven/org.apache.cxf/cxf-rt-databinding"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "3.5.9"
-            },
-            {
-              "fixed": "3.5.9-tuxcare.7"
-            }
-          ]
-        }
-      ],
-      "versions": [
-        "3.5.9",
-        "3.5.9-tuxcare.2",
-        "3.5.9-tuxcare.3",
-        "3.5.9-tuxcare.4",
-        "3.5.9-tuxcare.5",
-        "3.5.9-tuxcare.6",
-        "3.5.9.tuxcare.1"
-      ],
-      "database_specific": {
-        "tuxcare": {
-          "base_version": "3.5.9",
-          "fixed_version": "3.5.9-tuxcare.7"
-        }
-      }
-    },
-    {
-      "package": {
-        "ecosystem": "TuxCare:Maven",
         "name": "org.apache.cxf:cxf-rt-databinding-aegis",
         "purl": "pkg:maven/org.apache.cxf/cxf-rt-databinding-aegis"
       },
@@ -4007,41 +2852,6 @@
         "ecosystem": "TuxCare:Maven",
         "name": "org.apache.cxf:cxf-rt-databinding-jaxb",
         "purl": "pkg:maven/org.apache.cxf/cxf-rt-databinding-jaxb"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "3.5.9"
-            },
-            {
-              "fixed": "3.5.9-tuxcare.7"
-            }
-          ]
-        }
-      ],
-      "versions": [
-        "3.5.9",
-        "3.5.9-tuxcare.2",
-        "3.5.9-tuxcare.3",
-        "3.5.9-tuxcare.4",
-        "3.5.9-tuxcare.5",
-        "3.5.9-tuxcare.6",
-        "3.5.9.tuxcare.1"
-      ],
-      "database_specific": {
-        "tuxcare": {
-          "base_version": "3.5.9",
-          "fixed_version": "3.5.9-tuxcare.7"
-        }
-      }
-    },
-    {
-      "package": {
-        "ecosystem": "TuxCare:Maven",
-        "name": "org.apache.cxf:cxf-rt-features",
-        "purl": "pkg:maven/org.apache.cxf/cxf-rt-features"
       },
       "ranges": [
         {
@@ -4182,41 +2992,6 @@
         "ecosystem": "TuxCare:Maven",
         "name": "org.apache.cxf:cxf-rt-features-throttling",
         "purl": "pkg:maven/org.apache.cxf/cxf-rt-features-throttling"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "3.5.9"
-            },
-            {
-              "fixed": "3.5.9-tuxcare.7"
-            }
-          ]
-        }
-      ],
-      "versions": [
-        "3.5.9",
-        "3.5.9-tuxcare.2",
-        "3.5.9-tuxcare.3",
-        "3.5.9-tuxcare.4",
-        "3.5.9-tuxcare.5",
-        "3.5.9-tuxcare.6",
-        "3.5.9.tuxcare.1"
-      ],
-      "database_specific": {
-        "tuxcare": {
-          "base_version": "3.5.9",
-          "fixed_version": "3.5.9-tuxcare.7"
-        }
-      }
-    },
-    {
-      "package": {
-        "ecosystem": "TuxCare:Maven",
-        "name": "org.apache.cxf:cxf-rt-frontend",
-        "purl": "pkg:maven/org.apache.cxf/cxf-rt-frontend"
       },
       "ranges": [
         {
@@ -4462,41 +3237,6 @@
         "ecosystem": "TuxCare:Maven",
         "name": "org.apache.cxf:cxf-rt-management",
         "purl": "pkg:maven/org.apache.cxf/cxf-rt-management"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "3.5.9"
-            },
-            {
-              "fixed": "3.5.9-tuxcare.7"
-            }
-          ]
-        }
-      ],
-      "versions": [
-        "3.5.9",
-        "3.5.9-tuxcare.2",
-        "3.5.9-tuxcare.3",
-        "3.5.9-tuxcare.4",
-        "3.5.9-tuxcare.5",
-        "3.5.9-tuxcare.6",
-        "3.5.9.tuxcare.1"
-      ],
-      "database_specific": {
-        "tuxcare": {
-          "base_version": "3.5.9",
-          "fixed_version": "3.5.9-tuxcare.7"
-        }
-      }
-    },
-    {
-      "package": {
-        "ecosystem": "TuxCare:Maven",
-        "name": "org.apache.cxf:cxf-rt-rs",
-        "purl": "pkg:maven/org.apache.cxf/cxf-rt-rs"
       },
       "ranges": [
         {
@@ -4915,41 +3655,6 @@
     {
       "package": {
         "ecosystem": "TuxCare:Maven",
-        "name": "org.apache.cxf:cxf-rt-rs-security",
-        "purl": "pkg:maven/org.apache.cxf/cxf-rt-rs-security"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "3.5.9"
-            },
-            {
-              "fixed": "3.5.9-tuxcare.7"
-            }
-          ]
-        }
-      ],
-      "versions": [
-        "3.5.9",
-        "3.5.9-tuxcare.2",
-        "3.5.9-tuxcare.3",
-        "3.5.9-tuxcare.4",
-        "3.5.9-tuxcare.5",
-        "3.5.9-tuxcare.6",
-        "3.5.9.tuxcare.1"
-      ],
-      "database_specific": {
-        "tuxcare": {
-          "base_version": "3.5.9",
-          "fixed_version": "3.5.9-tuxcare.7"
-        }
-      }
-    },
-    {
-      "package": {
-        "ecosystem": "TuxCare:Maven",
         "name": "org.apache.cxf:cxf-rt-rs-security-cors",
         "purl": "pkg:maven/org.apache.cxf/cxf-rt-rs-security-cors"
       },
@@ -5057,76 +3762,6 @@
         "ecosystem": "TuxCare:Maven",
         "name": "org.apache.cxf:cxf-rt-rs-security-jose-jaxrs",
         "purl": "pkg:maven/org.apache.cxf/cxf-rt-rs-security-jose-jaxrs"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "3.5.9"
-            },
-            {
-              "fixed": "3.5.9-tuxcare.7"
-            }
-          ]
-        }
-      ],
-      "versions": [
-        "3.5.9",
-        "3.5.9-tuxcare.2",
-        "3.5.9-tuxcare.3",
-        "3.5.9-tuxcare.4",
-        "3.5.9-tuxcare.5",
-        "3.5.9-tuxcare.6",
-        "3.5.9.tuxcare.1"
-      ],
-      "database_specific": {
-        "tuxcare": {
-          "base_version": "3.5.9",
-          "fixed_version": "3.5.9-tuxcare.7"
-        }
-      }
-    },
-    {
-      "package": {
-        "ecosystem": "TuxCare:Maven",
-        "name": "org.apache.cxf:cxf-rt-rs-security-jose-parent",
-        "purl": "pkg:maven/org.apache.cxf/cxf-rt-rs-security-jose-parent"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "3.5.9"
-            },
-            {
-              "fixed": "3.5.9-tuxcare.7"
-            }
-          ]
-        }
-      ],
-      "versions": [
-        "3.5.9",
-        "3.5.9-tuxcare.2",
-        "3.5.9-tuxcare.3",
-        "3.5.9-tuxcare.4",
-        "3.5.9-tuxcare.5",
-        "3.5.9-tuxcare.6",
-        "3.5.9.tuxcare.1"
-      ],
-      "database_specific": {
-        "tuxcare": {
-          "base_version": "3.5.9",
-          "fixed_version": "3.5.9-tuxcare.7"
-        }
-      }
-    },
-    {
-      "package": {
-        "ecosystem": "TuxCare:Maven",
-        "name": "org.apache.cxf:cxf-rt-rs-security-oauth-parent",
-        "purl": "pkg:maven/org.apache.cxf/cxf-rt-rs-security-oauth-parent"
       },
       "ranges": [
         {
@@ -5650,41 +4285,6 @@
     {
       "package": {
         "ecosystem": "TuxCare:Maven",
-        "name": "org.apache.cxf:cxf-rt-transports",
-        "purl": "pkg:maven/org.apache.cxf/cxf-rt-transports"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "3.5.9"
-            },
-            {
-              "fixed": "3.5.9-tuxcare.7"
-            }
-          ]
-        }
-      ],
-      "versions": [
-        "3.5.9",
-        "3.5.9-tuxcare.2",
-        "3.5.9-tuxcare.3",
-        "3.5.9-tuxcare.4",
-        "3.5.9-tuxcare.5",
-        "3.5.9-tuxcare.6",
-        "3.5.9.tuxcare.1"
-      ],
-      "database_specific": {
-        "tuxcare": {
-          "base_version": "3.5.9",
-          "fixed_version": "3.5.9-tuxcare.7"
-        }
-      }
-    },
-    {
-      "package": {
-        "ecosystem": "TuxCare:Maven",
         "name": "org.apache.cxf:cxf-rt-transports-http",
         "purl": "pkg:maven/org.apache.cxf/cxf-rt-transports-http"
       },
@@ -6070,41 +4670,6 @@
     {
       "package": {
         "ecosystem": "TuxCare:Maven",
-        "name": "org.apache.cxf:cxf-rt-ws",
-        "purl": "pkg:maven/org.apache.cxf/cxf-rt-ws"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "3.5.9"
-            },
-            {
-              "fixed": "3.5.9-tuxcare.7"
-            }
-          ]
-        }
-      ],
-      "versions": [
-        "3.5.9",
-        "3.5.9-tuxcare.2",
-        "3.5.9-tuxcare.3",
-        "3.5.9-tuxcare.4",
-        "3.5.9-tuxcare.5",
-        "3.5.9-tuxcare.6",
-        "3.5.9.tuxcare.1"
-      ],
-      "database_specific": {
-        "tuxcare": {
-          "base_version": "3.5.9",
-          "fixed_version": "3.5.9-tuxcare.7"
-        }
-      }
-    },
-    {
-      "package": {
-        "ecosystem": "TuxCare:Maven",
         "name": "org.apache.cxf:cxf-rt-ws-addr",
         "purl": "pkg:maven/org.apache.cxf/cxf-rt-ws-addr"
       },
@@ -6385,111 +4950,6 @@
     {
       "package": {
         "ecosystem": "TuxCare:Maven",
-        "name": "org.apache.cxf:cxf-runtime-javascript",
-        "purl": "pkg:maven/org.apache.cxf/cxf-runtime-javascript"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "3.5.9"
-            },
-            {
-              "fixed": "3.5.9-tuxcare.7"
-            }
-          ]
-        }
-      ],
-      "versions": [
-        "3.5.9",
-        "3.5.9-tuxcare.2",
-        "3.5.9-tuxcare.3",
-        "3.5.9-tuxcare.4",
-        "3.5.9-tuxcare.5",
-        "3.5.9-tuxcare.6",
-        "3.5.9.tuxcare.1"
-      ],
-      "database_specific": {
-        "tuxcare": {
-          "base_version": "3.5.9",
-          "fixed_version": "3.5.9-tuxcare.7"
-        }
-      }
-    },
-    {
-      "package": {
-        "ecosystem": "TuxCare:Maven",
-        "name": "org.apache.cxf:cxf-servlet-compatible",
-        "purl": "pkg:maven/org.apache.cxf/cxf-servlet-compatible"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "3.5.9"
-            },
-            {
-              "fixed": "3.5.9-tuxcare.7"
-            }
-          ]
-        }
-      ],
-      "versions": [
-        "3.5.9",
-        "3.5.9-tuxcare.2",
-        "3.5.9-tuxcare.3",
-        "3.5.9-tuxcare.4",
-        "3.5.9-tuxcare.5",
-        "3.5.9-tuxcare.6",
-        "3.5.9.tuxcare.1"
-      ],
-      "database_specific": {
-        "tuxcare": {
-          "base_version": "3.5.9",
-          "fixed_version": "3.5.9-tuxcare.7"
-        }
-      }
-    },
-    {
-      "package": {
-        "ecosystem": "TuxCare:Maven",
-        "name": "org.apache.cxf:cxf-spring-boot-autoconfigure",
-        "purl": "pkg:maven/org.apache.cxf/cxf-spring-boot-autoconfigure"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "3.5.9"
-            },
-            {
-              "fixed": "3.5.9-tuxcare.7"
-            }
-          ]
-        }
-      ],
-      "versions": [
-        "3.5.9",
-        "3.5.9-tuxcare.2",
-        "3.5.9-tuxcare.3",
-        "3.5.9-tuxcare.4",
-        "3.5.9-tuxcare.5",
-        "3.5.9-tuxcare.6",
-        "3.5.9.tuxcare.1"
-      ],
-      "database_specific": {
-        "tuxcare": {
-          "base_version": "3.5.9",
-          "fixed_version": "3.5.9-tuxcare.7"
-        }
-      }
-    },
-    {
-      "package": {
-        "ecosystem": "TuxCare:Maven",
         "name": "org.apache.cxf:cxf-spring-boot-starter-jaxrs",
         "purl": "pkg:maven/org.apache.cxf/cxf-spring-boot-starter-jaxrs"
       },
@@ -6560,78 +5020,8 @@
     {
       "package": {
         "ecosystem": "TuxCare:Maven",
-        "name": "org.apache.cxf:cxf-systests-ws-transfer",
-        "purl": "pkg:maven/org.apache.cxf/cxf-systests-ws-transfer"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "3.5.9"
-            },
-            {
-              "fixed": "3.5.9-tuxcare.7"
-            }
-          ]
-        }
-      ],
-      "versions": [
-        "3.5.9",
-        "3.5.9-tuxcare.2",
-        "3.5.9-tuxcare.3",
-        "3.5.9-tuxcare.4",
-        "3.5.9-tuxcare.5",
-        "3.5.9-tuxcare.6",
-        "3.5.9.tuxcare.1"
-      ],
-      "database_specific": {
-        "tuxcare": {
-          "base_version": "3.5.9",
-          "fixed_version": "3.5.9-tuxcare.7"
-        }
-      }
-    },
-    {
-      "package": {
-        "ecosystem": "TuxCare:Maven",
         "name": "org.apache.cxf:cxf-testutils",
         "purl": "pkg:maven/org.apache.cxf/cxf-testutils"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "3.5.9"
-            },
-            {
-              "fixed": "3.5.9-tuxcare.7"
-            }
-          ]
-        }
-      ],
-      "versions": [
-        "3.5.9",
-        "3.5.9-tuxcare.2",
-        "3.5.9-tuxcare.3",
-        "3.5.9-tuxcare.4",
-        "3.5.9-tuxcare.5",
-        "3.5.9-tuxcare.6",
-        "3.5.9.tuxcare.1"
-      ],
-      "database_specific": {
-        "tuxcare": {
-          "base_version": "3.5.9",
-          "fixed_version": "3.5.9-tuxcare.7"
-        }
-      }
-    },
-    {
-      "package": {
-        "ecosystem": "TuxCare:Maven",
-        "name": "org.apache.cxf:cxf-tools",
-        "purl": "pkg:maven/org.apache.cxf/cxf-tools"
       },
       "ranges": [
         {
@@ -6770,41 +5160,6 @@
     {
       "package": {
         "ecosystem": "TuxCare:Maven",
-        "name": "org.apache.cxf:cxf-tools-javato",
-        "purl": "pkg:maven/org.apache.cxf/cxf-tools-javato"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "3.5.9"
-            },
-            {
-              "fixed": "3.5.9-tuxcare.7"
-            }
-          ]
-        }
-      ],
-      "versions": [
-        "3.5.9",
-        "3.5.9-tuxcare.2",
-        "3.5.9-tuxcare.3",
-        "3.5.9-tuxcare.4",
-        "3.5.9-tuxcare.5",
-        "3.5.9-tuxcare.6",
-        "3.5.9.tuxcare.1"
-      ],
-      "database_specific": {
-        "tuxcare": {
-          "base_version": "3.5.9",
-          "fixed_version": "3.5.9-tuxcare.7"
-        }
-      }
-    },
-    {
-      "package": {
-        "ecosystem": "TuxCare:Maven",
         "name": "org.apache.cxf:cxf-tools-misctools",
         "purl": "pkg:maven/org.apache.cxf/cxf-tools-misctools"
       },
@@ -6875,78 +5230,8 @@
     {
       "package": {
         "ecosystem": "TuxCare:Maven",
-        "name": "org.apache.cxf:cxf-tools-wadlto",
-        "purl": "pkg:maven/org.apache.cxf/cxf-tools-wadlto"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "3.5.9"
-            },
-            {
-              "fixed": "3.5.9-tuxcare.7"
-            }
-          ]
-        }
-      ],
-      "versions": [
-        "3.5.9",
-        "3.5.9-tuxcare.2",
-        "3.5.9-tuxcare.3",
-        "3.5.9-tuxcare.4",
-        "3.5.9-tuxcare.5",
-        "3.5.9-tuxcare.6",
-        "3.5.9.tuxcare.1"
-      ],
-      "database_specific": {
-        "tuxcare": {
-          "base_version": "3.5.9",
-          "fixed_version": "3.5.9-tuxcare.7"
-        }
-      }
-    },
-    {
-      "package": {
-        "ecosystem": "TuxCare:Maven",
         "name": "org.apache.cxf:cxf-tools-wadlto-jaxrs",
         "purl": "pkg:maven/org.apache.cxf/cxf-tools-wadlto-jaxrs"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "3.5.9"
-            },
-            {
-              "fixed": "3.5.9-tuxcare.7"
-            }
-          ]
-        }
-      ],
-      "versions": [
-        "3.5.9",
-        "3.5.9-tuxcare.2",
-        "3.5.9-tuxcare.3",
-        "3.5.9-tuxcare.4",
-        "3.5.9-tuxcare.5",
-        "3.5.9-tuxcare.6",
-        "3.5.9.tuxcare.1"
-      ],
-      "database_specific": {
-        "tuxcare": {
-          "base_version": "3.5.9",
-          "fixed_version": "3.5.9-tuxcare.7"
-        }
-      }
-    },
-    {
-      "package": {
-        "ecosystem": "TuxCare:Maven",
-        "name": "org.apache.cxf:cxf-tools-wsdlto",
-        "purl": "pkg:maven/org.apache.cxf/cxf-tools-wsdlto"
       },
       "ranges": [
         {

@@ -1,10 +1,10 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2026-1791398579",
-  "modified": "2026-10-15T08:16:08Z",
+  "modified": "2026-10-29T19:43:08Z",
   "published": "2026-10-07T18:42:59Z",
   "summary": "TuxCare security update for org.springframework.integration (11 CVEs)",
-  "details": "TuxCare rebuilt 43 org.springframework.integration packages to address 11 CVEs. Fixed in 6.4.9-tuxcare.2.",
+  "details": "TuxCare rebuilt 40 org.springframework.integration packages to address 11 CVEs. Fixed in 6.4.9-tuxcare.2.",
   "upstream": [
     "CVE-2026-40987",
     "CVE-2026-47859",
@@ -22,68 +22,8 @@
     {
       "package": {
         "ecosystem": "TuxCare:Maven",
-        "name": "org.springframework.integration:spring-integration",
-        "purl": "pkg:maven/org.springframework.integration/spring-integration"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "6.4.9"
-            },
-            {
-              "fixed": "6.4.9-tuxcare.2"
-            }
-          ]
-        }
-      ],
-      "versions": [
-        "6.4.9",
-        "6.4.9-tuxcare.1"
-      ],
-      "database_specific": {
-        "tuxcare": {
-          "base_version": "6.4.9",
-          "fixed_version": "6.4.9-tuxcare.2"
-        }
-      }
-    },
-    {
-      "package": {
-        "ecosystem": "TuxCare:Maven",
         "name": "org.springframework.integration:spring-integration-amqp",
         "purl": "pkg:maven/org.springframework.integration/spring-integration-amqp"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "6.4.9"
-            },
-            {
-              "fixed": "6.4.9-tuxcare.2"
-            }
-          ]
-        }
-      ],
-      "versions": [
-        "6.4.9",
-        "6.4.9-tuxcare.1"
-      ],
-      "database_specific": {
-        "tuxcare": {
-          "base_version": "6.4.9",
-          "fixed_version": "6.4.9-tuxcare.2"
-        }
-      }
-    },
-    {
-      "package": {
-        "ecosystem": "TuxCare:Maven",
-        "name": "org.springframework.integration:spring-integration-bom",
-        "purl": "pkg:maven/org.springframework.integration/spring-integration-bom"
       },
       "ranges": [
         {
@@ -1014,36 +954,6 @@
         "ecosystem": "TuxCare:Maven",
         "name": "org.springframework.integration:spring-integration-test",
         "purl": "pkg:maven/org.springframework.integration/spring-integration-test"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "6.4.9"
-            },
-            {
-              "fixed": "6.4.9-tuxcare.2"
-            }
-          ]
-        }
-      ],
-      "versions": [
-        "6.4.9",
-        "6.4.9-tuxcare.1"
-      ],
-      "database_specific": {
-        "tuxcare": {
-          "base_version": "6.4.9",
-          "fixed_version": "6.4.9-tuxcare.2"
-        }
-      }
-    },
-    {
-      "package": {
-        "ecosystem": "TuxCare:Maven",
-        "name": "org.springframework.integration:spring-integration-test-support",
-        "purl": "pkg:maven/org.springframework.integration/spring-integration-test-support"
       },
       "ranges": [
         {

@@ -1,10 +1,10 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2026-1793186461",
-  "modified": "2026-10-28T13:40:41Z",
+  "modified": "2026-10-29T19:43:08Z",
   "published": "2026-10-28T11:21:01Z",
   "summary": "TuxCare security update for org.springframework.amqp (4 CVEs)",
-  "details": "TuxCare rebuilt 4 org.springframework.amqp packages to address 4 CVEs. Fixed in 2.1.17.RELEASE-tuxcare.1.",
+  "details": "TuxCare rebuilt 3 org.springframework.amqp packages to address 4 CVEs. Fixed in 2.1.17.RELEASE-tuxcare.1.",
   "upstream": [
     "CVE-2021-22095",
     "CVE-2026-47860",
@@ -46,35 +46,6 @@
         "ecosystem": "TuxCare:Maven",
         "name": "org.springframework.amqp:spring-rabbit",
         "purl": "pkg:maven/org.springframework.amqp/spring-rabbit"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "2.1.17.RELEASE"
-            },
-            {
-              "fixed": "2.1.17.RELEASE-tuxcare.1"
-            }
-          ]
-        }
-      ],
-      "versions": [
-        "2.1.17.RELEASE"
-      ],
-      "database_specific": {
-        "tuxcare": {
-          "base_version": "2.1.17.RELEASE",
-          "fixed_version": "2.1.17.RELEASE-tuxcare.1"
-        }
-      }
-    },
-    {
-      "package": {
-        "ecosystem": "TuxCare:Maven",
-        "name": "org.springframework.amqp:spring-rabbit-junit",
-        "purl": "pkg:maven/org.springframework.amqp/spring-rabbit-junit"
       },
       "ranges": [
         {

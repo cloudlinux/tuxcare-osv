@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1793283095",
+  "modified": "2026-10-29T19:43:08Z",
+  "published": "2026-10-29T15:11:36Z",
+  "summary": "TuxCare security update for phpoffice/phpspreadsheet (1 CVE)",
+  "details": "TuxCare rebuilt phpoffice/phpspreadsheet to address 1 CVE. Fixed in 4.5.0-p4+tuxcare.",
+  "upstream": [
+    "CVE-2026-108358"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Packagist",
+        "name": "phpoffice/phpspreadsheet",
+        "purl": "pkg:composer/phpoffice/phpspreadsheet"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "4.5.0"
+            },
+            {
+              "fixed": "4.5.0-p4+tuxcare"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "4.5.0",
+        "4.5.0-p1+tuxcare",
+        "4.5.0-p2+tuxcare",
+        "4.5.0-p3+tuxcare"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "4.5.0",
+          "fixed_version": "4.5.0-p4+tuxcare"
+        }
+      }
+    }
+  ]
+}

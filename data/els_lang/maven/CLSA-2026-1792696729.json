@@ -1,10 +1,10 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2026-1792696729",
-  "modified": "2026-10-22T19:18:49Z",
+  "modified": "2026-10-29T19:43:08Z",
   "published": "2026-10-22T19:18:49Z",
   "summary": "TuxCare security update for org.apache.logging.log4j (5 CVEs)",
-  "details": "TuxCare rebuilt 36 org.apache.logging.log4j packages to address 5 CVEs. Fixed in 2.20.0-tuxcare.2.",
+  "details": "TuxCare rebuilt 32 org.apache.logging.log4j packages to address 5 CVEs. Fixed in 2.20.0-tuxcare.2.",
   "upstream": [
     "CVE-2025-68161",
     "CVE-2026-34477",
@@ -13,36 +13,6 @@
     "CVE-2026-49844"
   ],
   "affected": [
-    {
-      "package": {
-        "ecosystem": "TuxCare:Maven",
-        "name": "org.apache.logging.log4j:log4j",
-        "purl": "pkg:maven/org.apache.logging.log4j/log4j"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "2.20.0"
-            },
-            {
-              "fixed": "2.20.0-tuxcare.2"
-            }
-          ]
-        }
-      ],
-      "versions": [
-        "2.20.0",
-        "2.20.0-tuxcare.1"
-      ],
-      "database_specific": {
-        "tuxcare": {
-          "base_version": "2.20.0",
-          "fixed_version": "2.20.0-tuxcare.2"
-        }
-      }
-    },
     {
       "package": {
         "ecosystem": "TuxCare:Maven",
@@ -138,36 +108,6 @@
         "ecosystem": "TuxCare:Maven",
         "name": "org.apache.logging.log4j:log4j-appserver",
         "purl": "pkg:maven/org.apache.logging.log4j/log4j-appserver"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "2.20.0"
-            },
-            {
-              "fixed": "2.20.0-tuxcare.2"
-            }
-          ]
-        }
-      ],
-      "versions": [
-        "2.20.0",
-        "2.20.0-tuxcare.1"
-      ],
-      "database_specific": {
-        "tuxcare": {
-          "base_version": "2.20.0",
-          "fixed_version": "2.20.0-tuxcare.2"
-        }
-      }
-    },
-    {
-      "package": {
-        "ecosystem": "TuxCare:Maven",
-        "name": "org.apache.logging.log4j:log4j-bom",
-        "purl": "pkg:maven/org.apache.logging.log4j/log4j-bom"
       },
       "ranges": [
         {
@@ -796,36 +736,6 @@
     {
       "package": {
         "ecosystem": "TuxCare:Maven",
-        "name": "org.apache.logging.log4j:log4j-osgi",
-        "purl": "pkg:maven/org.apache.logging.log4j/log4j-osgi"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "2.20.0"
-            },
-            {
-              "fixed": "2.20.0-tuxcare.2"
-            }
-          ]
-        }
-      ],
-      "versions": [
-        "2.20.0",
-        "2.20.0-tuxcare.1"
-      ],
-      "database_specific": {
-        "tuxcare": {
-          "base_version": "2.20.0",
-          "fixed_version": "2.20.0-tuxcare.2"
-        }
-      }
-    },
-    {
-      "package": {
-        "ecosystem": "TuxCare:Maven",
         "name": "org.apache.logging.log4j:log4j-slf4j-impl",
         "purl": "pkg:maven/org.apache.logging.log4j/log4j-slf4j-impl"
       },
@@ -888,36 +798,6 @@
         "ecosystem": "TuxCare:Maven",
         "name": "org.apache.logging.log4j:log4j-spring-boot",
         "purl": "pkg:maven/org.apache.logging.log4j/log4j-spring-boot"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "2.20.0"
-            },
-            {
-              "fixed": "2.20.0-tuxcare.2"
-            }
-          ]
-        }
-      ],
-      "versions": [
-        "2.20.0",
-        "2.20.0-tuxcare.1"
-      ],
-      "database_specific": {
-        "tuxcare": {
-          "base_version": "2.20.0",
-          "fixed_version": "2.20.0-tuxcare.2"
-        }
-      }
-    },
-    {
-      "package": {
-        "ecosystem": "TuxCare:Maven",
-        "name": "org.apache.logging.log4j:log4j-spring-cloud-config",
-        "purl": "pkg:maven/org.apache.logging.log4j/log4j-spring-cloud-config"
       },
       "ranges": [
         {
