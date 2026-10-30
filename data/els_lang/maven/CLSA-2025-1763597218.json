@@ -1,10 +1,10 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2025-1763597218",
-  "modified": "2026-10-15T08:16:08Z",
+  "modified": "2026-10-30T19:34:22Z",
   "published": "2026-08-04T14:52:06Z",
-  "summary": "TuxCare security update for com.h2database (4 CVEs)",
-  "details": "TuxCare rebuilt 2 com.h2database packages to address 4 CVEs. Fixed in 1.4.200-tuxcare.1.",
+  "summary": "TuxCare security update for com.h2database:h2 (4 CVEs)",
+  "details": "TuxCare rebuilt com.h2database:h2 to address 4 CVEs. Fixed in 1.4.200-tuxcare.1.",
   "upstream": [
     "CVE-2021-23463",
     "CVE-2021-42392",
@@ -17,35 +17,6 @@
         "ecosystem": "TuxCare:Maven",
         "name": "com.h2database:h2",
         "purl": "pkg:maven/com.h2database/h2"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "1.4.200"
-            },
-            {
-              "fixed": "1.4.200-tuxcare.1"
-            }
-          ]
-        }
-      ],
-      "versions": [
-        "1.4.200"
-      ],
-      "database_specific": {
-        "tuxcare": {
-          "base_version": "1.4.200",
-          "fixed_version": "1.4.200-tuxcare.1"
-        }
-      }
-    },
-    {
-      "package": {
-        "ecosystem": "TuxCare:Maven",
-        "name": "com.h2database:h2-mvstore",
-        "purl": "pkg:maven/com.h2database/h2-mvstore"
       },
       "ranges": [
         {

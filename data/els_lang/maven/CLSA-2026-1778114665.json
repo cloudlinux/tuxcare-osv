@@ -1,10 +1,10 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2026-1778114665",
-  "modified": "2026-10-15T08:16:08Z",
+  "modified": "2026-10-30T19:34:22Z",
   "published": "2026-08-04T14:52:30Z",
-  "summary": "TuxCare security update for commons-collections (1 CVE)",
-  "details": "TuxCare rebuilt 2 commons-collections packages to address 1 CVE. Fixed in 3.2-tuxcare.1.",
+  "summary": "TuxCare security update for commons-collections:commons-collections (1 CVE)",
+  "details": "TuxCare rebuilt commons-collections:commons-collections to address 1 CVE. Fixed in 3.2-tuxcare.1.",
   "upstream": [
     "CVE-2015-6420"
   ],
@@ -14,35 +14,6 @@
         "ecosystem": "TuxCare:Maven",
         "name": "commons-collections:commons-collections",
         "purl": "pkg:maven/commons-collections/commons-collections"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "3.2"
-            },
-            {
-              "fixed": "3.2-tuxcare.1"
-            }
-          ]
-        }
-      ],
-      "versions": [
-        "3.2"
-      ],
-      "database_specific": {
-        "tuxcare": {
-          "base_version": "3.2",
-          "fixed_version": "3.2-tuxcare.1"
-        }
-      }
-    },
-    {
-      "package": {
-        "ecosystem": "TuxCare:Maven",
-        "name": "commons-collections:commons-collections-testframework",
-        "purl": "pkg:maven/commons-collections/commons-collections-testframework"
       },
       "ranges": [
         {

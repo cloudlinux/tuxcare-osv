@@ -1,10 +1,10 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2026-1773188139",
-  "modified": "2026-10-15T08:16:08Z",
+  "modified": "2026-10-30T19:34:22Z",
   "published": "2026-08-04T14:52:12Z",
   "summary": "TuxCare security update for com.google.guava (2 CVEs)",
-  "details": "TuxCare rebuilt 5 com.google.guava packages to address 2 CVEs. Fixed in 27.1-jre-tuxcare.1.",
+  "details": "TuxCare rebuilt 3 com.google.guava packages to address 2 CVEs. Fixed in 27.1-jre-tuxcare.1.",
   "upstream": [
     "CVE-2020-8908",
     "CVE-2023-2976"
@@ -42,66 +42,8 @@
     {
       "package": {
         "ecosystem": "TuxCare:Maven",
-        "name": "com.google.guava:guava-bom",
-        "purl": "pkg:maven/com.google.guava/guava-bom"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "27.1-jre"
-            },
-            {
-              "fixed": "27.1-jre-tuxcare.1"
-            }
-          ]
-        }
-      ],
-      "versions": [
-        "27.1-jre"
-      ],
-      "database_specific": {
-        "tuxcare": {
-          "base_version": "27.1-jre",
-          "fixed_version": "27.1-jre-tuxcare.1"
-        }
-      }
-    },
-    {
-      "package": {
-        "ecosystem": "TuxCare:Maven",
         "name": "com.google.guava:guava-gwt",
         "purl": "pkg:maven/com.google.guava/guava-gwt"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "27.1-jre"
-            },
-            {
-              "fixed": "27.1-jre-tuxcare.1"
-            }
-          ]
-        }
-      ],
-      "versions": [
-        "27.1-jre"
-      ],
-      "database_specific": {
-        "tuxcare": {
-          "base_version": "27.1-jre",
-          "fixed_version": "27.1-jre-tuxcare.1"
-        }
-      }
-    },
-    {
-      "package": {
-        "ecosystem": "TuxCare:Maven",
-        "name": "com.google.guava:guava-parent",
-        "purl": "pkg:maven/com.google.guava/guava-parent"
       },
       "ranges": [
         {

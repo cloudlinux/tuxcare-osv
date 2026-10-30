@@ -1,44 +1,14 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2026-1784769583",
-  "modified": "2026-10-15T08:16:08Z",
+  "modified": "2026-10-30T19:34:22Z",
   "published": "2026-08-04T14:52:48Z",
-  "summary": "TuxCare security update for 55 packages (1 CVE)",
-  "details": "TuxCare rebuilt 55 packages to address 1 CVE. Fixed in 7.6.0.v20120127-tuxcare.2.",
+  "summary": "TuxCare security update for 33 packages (1 CVE)",
+  "details": "TuxCare rebuilt 33 packages to address 1 CVE. Fixed in 7.6.0.v20120127-tuxcare.2.",
   "upstream": [
     "CVE-2017-7658"
   ],
   "affected": [
-    {
-      "package": {
-        "ecosystem": "TuxCare:Maven",
-        "name": "org.eclipse.jetty.aggregate:jetty-aggregate-project",
-        "purl": "pkg:maven/org.eclipse.jetty.aggregate/jetty-aggregate-project"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "7.6.0.v20120127"
-            },
-            {
-              "fixed": "7.6.0.v20120127-tuxcare.2"
-            }
-          ]
-        }
-      ],
-      "versions": [
-        "7.6.0.v20120127",
-        "7.6.0.v20120127-tuxcare.1"
-      ],
-      "database_specific": {
-        "tuxcare": {
-          "base_version": "7.6.0.v20120127",
-          "fixed_version": "7.6.0.v20120127-tuxcare.2"
-        }
-      }
-    },
     {
       "package": {
         "ecosystem": "TuxCare:Maven",
@@ -74,36 +44,6 @@
         "ecosystem": "TuxCare:Maven",
         "name": "org.eclipse.jetty.aggregate:jetty-all-server",
         "purl": "pkg:maven/org.eclipse.jetty.aggregate/jetty-all-server"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "7.6.0.v20120127"
-            },
-            {
-              "fixed": "7.6.0.v20120127-tuxcare.2"
-            }
-          ]
-        }
-      ],
-      "versions": [
-        "7.6.0.v20120127",
-        "7.6.0.v20120127-tuxcare.1"
-      ],
-      "database_specific": {
-        "tuxcare": {
-          "base_version": "7.6.0.v20120127",
-          "fixed_version": "7.6.0.v20120127-tuxcare.2"
-        }
-      }
-    },
-    {
-      "package": {
-        "ecosystem": "TuxCare:Maven",
-        "name": "org.eclipse.jetty.aggregate:jetty-client",
-        "purl": "pkg:maven/org.eclipse.jetty.aggregate/jetty-client"
       },
       "ranges": [
         {
@@ -252,36 +192,6 @@
     {
       "package": {
         "ecosystem": "TuxCare:Maven",
-        "name": "org.eclipse.jetty.aggregate:jetty-websocket",
-        "purl": "pkg:maven/org.eclipse.jetty.aggregate/jetty-websocket"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "7.6.0.v20120127"
-            },
-            {
-              "fixed": "7.6.0.v20120127-tuxcare.2"
-            }
-          ]
-        }
-      ],
-      "versions": [
-        "7.6.0.v20120127",
-        "7.6.0.v20120127-tuxcare.1"
-      ],
-      "database_specific": {
-        "tuxcare": {
-          "base_version": "7.6.0.v20120127",
-          "fixed_version": "7.6.0.v20120127-tuxcare.2"
-        }
-      }
-    },
-    {
-      "package": {
-        "ecosystem": "TuxCare:Maven",
         "name": "org.eclipse.jetty.osgi:jetty-httpservice",
         "purl": "pkg:maven/org.eclipse.jetty.osgi/jetty-httpservice"
       },
@@ -402,68 +312,8 @@
     {
       "package": {
         "ecosystem": "TuxCare:Maven",
-        "name": "org.eclipse.jetty.osgi:jetty-osgi-boot-warurl",
-        "purl": "pkg:maven/org.eclipse.jetty.osgi/jetty-osgi-boot-warurl"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "7.6.0.v20120127"
-            },
-            {
-              "fixed": "7.6.0.v20120127-tuxcare.2"
-            }
-          ]
-        }
-      ],
-      "versions": [
-        "7.6.0.v20120127",
-        "7.6.0.v20120127-tuxcare.1"
-      ],
-      "database_specific": {
-        "tuxcare": {
-          "base_version": "7.6.0.v20120127",
-          "fixed_version": "7.6.0.v20120127-tuxcare.2"
-        }
-      }
-    },
-    {
-      "package": {
-        "ecosystem": "TuxCare:Maven",
         "name": "org.eclipse.jetty.osgi:jetty-osgi-equinoxtools",
         "purl": "pkg:maven/org.eclipse.jetty.osgi/jetty-osgi-equinoxtools"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "7.6.0.v20120127"
-            },
-            {
-              "fixed": "7.6.0.v20120127-tuxcare.2"
-            }
-          ]
-        }
-      ],
-      "versions": [
-        "7.6.0.v20120127",
-        "7.6.0.v20120127-tuxcare.1"
-      ],
-      "database_specific": {
-        "tuxcare": {
-          "base_version": "7.6.0.v20120127",
-          "fixed_version": "7.6.0.v20120127-tuxcare.2"
-        }
-      }
-    },
-    {
-      "package": {
-        "ecosystem": "TuxCare:Maven",
-        "name": "org.eclipse.jetty.osgi:jetty-osgi-project",
-        "purl": "pkg:maven/org.eclipse.jetty.osgi/jetty-osgi-project"
       },
       "ranges": [
         {
@@ -612,66 +462,6 @@
     {
       "package": {
         "ecosystem": "TuxCare:Maven",
-        "name": "org.eclipse.jetty.tests:test-sessions-parent",
-        "purl": "pkg:maven/org.eclipse.jetty.tests/test-sessions-parent"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "7.6.0.v20120127"
-            },
-            {
-              "fixed": "7.6.0.v20120127-tuxcare.2"
-            }
-          ]
-        }
-      ],
-      "versions": [
-        "7.6.0.v20120127",
-        "7.6.0.v20120127-tuxcare.1"
-      ],
-      "database_specific": {
-        "tuxcare": {
-          "base_version": "7.6.0.v20120127",
-          "fixed_version": "7.6.0.v20120127-tuxcare.2"
-        }
-      }
-    },
-    {
-      "package": {
-        "ecosystem": "TuxCare:Maven",
-        "name": "org.eclipse.jetty.tests:tests-parent",
-        "purl": "pkg:maven/org.eclipse.jetty.tests/tests-parent"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "7.6.0.v20120127"
-            },
-            {
-              "fixed": "7.6.0.v20120127-tuxcare.2"
-            }
-          ]
-        }
-      ],
-      "versions": [
-        "7.6.0.v20120127",
-        "7.6.0.v20120127-tuxcare.1"
-      ],
-      "database_specific": {
-        "tuxcare": {
-          "base_version": "7.6.0.v20120127",
-          "fixed_version": "7.6.0.v20120127-tuxcare.2"
-        }
-      }
-    },
-    {
-      "package": {
-        "ecosystem": "TuxCare:Maven",
         "name": "org.eclipse.jetty:example-jetty-embedded",
         "purl": "pkg:maven/org.eclipse.jetty/example-jetty-embedded"
       },
@@ -762,66 +552,6 @@
     {
       "package": {
         "ecosystem": "TuxCare:Maven",
-        "name": "org.eclipse.jetty:jetty-client",
-        "purl": "pkg:maven/org.eclipse.jetty/jetty-client"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "7.6.0.v20120127"
-            },
-            {
-              "fixed": "7.6.0.v20120127-tuxcare.2"
-            }
-          ]
-        }
-      ],
-      "versions": [
-        "7.6.0.v20120127",
-        "7.6.0.v20120127-tuxcare.1"
-      ],
-      "database_specific": {
-        "tuxcare": {
-          "base_version": "7.6.0.v20120127",
-          "fixed_version": "7.6.0.v20120127-tuxcare.2"
-        }
-      }
-    },
-    {
-      "package": {
-        "ecosystem": "TuxCare:Maven",
-        "name": "org.eclipse.jetty:jetty-continuation",
-        "purl": "pkg:maven/org.eclipse.jetty/jetty-continuation"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "7.6.0.v20120127"
-            },
-            {
-              "fixed": "7.6.0.v20120127-tuxcare.2"
-            }
-          ]
-        }
-      ],
-      "versions": [
-        "7.6.0.v20120127",
-        "7.6.0.v20120127-tuxcare.1"
-      ],
-      "database_specific": {
-        "tuxcare": {
-          "base_version": "7.6.0.v20120127",
-          "fixed_version": "7.6.0.v20120127-tuxcare.2"
-        }
-      }
-    },
-    {
-      "package": {
-        "ecosystem": "TuxCare:Maven",
         "name": "org.eclipse.jetty:jetty-deploy",
         "purl": "pkg:maven/org.eclipse.jetty/jetty-deploy"
       },
@@ -882,188 +612,8 @@
     {
       "package": {
         "ecosystem": "TuxCare:Maven",
-        "name": "org.eclipse.jetty:jetty-http",
-        "purl": "pkg:maven/org.eclipse.jetty/jetty-http"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "7.6.0.v20120127"
-            },
-            {
-              "fixed": "7.6.0.v20120127-tuxcare.2"
-            }
-          ]
-        }
-      ],
-      "versions": [
-        "7.6.0.v20120127",
-        "7.6.0.v20120127-tuxcare.1"
-      ],
-      "database_specific": {
-        "tuxcare": {
-          "base_version": "7.6.0.v20120127",
-          "fixed_version": "7.6.0.v20120127-tuxcare.2"
-        }
-      }
-    },
-    {
-      "package": {
-        "ecosystem": "TuxCare:Maven",
-        "name": "org.eclipse.jetty:jetty-http-spi",
-        "purl": "pkg:maven/org.eclipse.jetty/jetty-http-spi"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "7.6.0.v20120127"
-            },
-            {
-              "fixed": "7.6.0.v20120127-tuxcare.2"
-            }
-          ]
-        }
-      ],
-      "versions": [
-        "7.6.0.v20120127",
-        "7.6.0.v20120127-tuxcare.1"
-      ],
-      "database_specific": {
-        "tuxcare": {
-          "base_version": "7.6.0.v20120127",
-          "fixed_version": "7.6.0.v20120127-tuxcare.2"
-        }
-      }
-    },
-    {
-      "package": {
-        "ecosystem": "TuxCare:Maven",
-        "name": "org.eclipse.jetty:jetty-io",
-        "purl": "pkg:maven/org.eclipse.jetty/jetty-io"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "7.6.0.v20120127"
-            },
-            {
-              "fixed": "7.6.0.v20120127-tuxcare.2"
-            }
-          ]
-        }
-      ],
-      "versions": [
-        "7.6.0.v20120127",
-        "7.6.0.v20120127-tuxcare.1"
-      ],
-      "database_specific": {
-        "tuxcare": {
-          "base_version": "7.6.0.v20120127",
-          "fixed_version": "7.6.0.v20120127-tuxcare.2"
-        }
-      }
-    },
-    {
-      "package": {
-        "ecosystem": "TuxCare:Maven",
         "name": "org.eclipse.jetty:jetty-jaspi",
         "purl": "pkg:maven/org.eclipse.jetty/jetty-jaspi"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "7.6.0.v20120127"
-            },
-            {
-              "fixed": "7.6.0.v20120127-tuxcare.2"
-            }
-          ]
-        }
-      ],
-      "versions": [
-        "7.6.0.v20120127",
-        "7.6.0.v20120127-tuxcare.1"
-      ],
-      "database_specific": {
-        "tuxcare": {
-          "base_version": "7.6.0.v20120127",
-          "fixed_version": "7.6.0.v20120127-tuxcare.2"
-        }
-      }
-    },
-    {
-      "package": {
-        "ecosystem": "TuxCare:Maven",
-        "name": "org.eclipse.jetty:jetty-jmx",
-        "purl": "pkg:maven/org.eclipse.jetty/jetty-jmx"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "7.6.0.v20120127"
-            },
-            {
-              "fixed": "7.6.0.v20120127-tuxcare.2"
-            }
-          ]
-        }
-      ],
-      "versions": [
-        "7.6.0.v20120127",
-        "7.6.0.v20120127-tuxcare.1"
-      ],
-      "database_specific": {
-        "tuxcare": {
-          "base_version": "7.6.0.v20120127",
-          "fixed_version": "7.6.0.v20120127-tuxcare.2"
-        }
-      }
-    },
-    {
-      "package": {
-        "ecosystem": "TuxCare:Maven",
-        "name": "org.eclipse.jetty:jetty-jndi",
-        "purl": "pkg:maven/org.eclipse.jetty/jetty-jndi"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "7.6.0.v20120127"
-            },
-            {
-              "fixed": "7.6.0.v20120127-tuxcare.2"
-            }
-          ]
-        }
-      ],
-      "versions": [
-        "7.6.0.v20120127",
-        "7.6.0.v20120127-tuxcare.1"
-      ],
-      "database_specific": {
-        "tuxcare": {
-          "base_version": "7.6.0.v20120127",
-          "fixed_version": "7.6.0.v20120127-tuxcare.2"
-        }
-      }
-    },
-    {
-      "package": {
-        "ecosystem": "TuxCare:Maven",
-        "name": "org.eclipse.jetty:jetty-monitor",
-        "purl": "pkg:maven/org.eclipse.jetty/jetty-monitor"
       },
       "ranges": [
         {
@@ -1212,66 +762,6 @@
     {
       "package": {
         "ecosystem": "TuxCare:Maven",
-        "name": "org.eclipse.jetty:jetty-policy",
-        "purl": "pkg:maven/org.eclipse.jetty/jetty-policy"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "7.6.0.v20120127"
-            },
-            {
-              "fixed": "7.6.0.v20120127-tuxcare.2"
-            }
-          ]
-        }
-      ],
-      "versions": [
-        "7.6.0.v20120127",
-        "7.6.0.v20120127-tuxcare.1"
-      ],
-      "database_specific": {
-        "tuxcare": {
-          "base_version": "7.6.0.v20120127",
-          "fixed_version": "7.6.0.v20120127-tuxcare.2"
-        }
-      }
-    },
-    {
-      "package": {
-        "ecosystem": "TuxCare:Maven",
-        "name": "org.eclipse.jetty:jetty-project",
-        "purl": "pkg:maven/org.eclipse.jetty/jetty-project"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "7.6.0.v20120127"
-            },
-            {
-              "fixed": "7.6.0.v20120127-tuxcare.2"
-            }
-          ]
-        }
-      ],
-      "versions": [
-        "7.6.0.v20120127",
-        "7.6.0.v20120127-tuxcare.1"
-      ],
-      "database_specific": {
-        "tuxcare": {
-          "base_version": "7.6.0.v20120127",
-          "fixed_version": "7.6.0.v20120127-tuxcare.2"
-        }
-      }
-    },
-    {
-      "package": {
-        "ecosystem": "TuxCare:Maven",
         "name": "org.eclipse.jetty:jetty-rewrite",
         "purl": "pkg:maven/org.eclipse.jetty/jetty-rewrite"
       },
@@ -1392,158 +882,8 @@
     {
       "package": {
         "ecosystem": "TuxCare:Maven",
-        "name": "org.eclipse.jetty:jetty-servlets",
-        "purl": "pkg:maven/org.eclipse.jetty/jetty-servlets"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "7.6.0.v20120127"
-            },
-            {
-              "fixed": "7.6.0.v20120127-tuxcare.2"
-            }
-          ]
-        }
-      ],
-      "versions": [
-        "7.6.0.v20120127",
-        "7.6.0.v20120127-tuxcare.1"
-      ],
-      "database_specific": {
-        "tuxcare": {
-          "base_version": "7.6.0.v20120127",
-          "fixed_version": "7.6.0.v20120127-tuxcare.2"
-        }
-      }
-    },
-    {
-      "package": {
-        "ecosystem": "TuxCare:Maven",
-        "name": "org.eclipse.jetty:jetty-start",
-        "purl": "pkg:maven/org.eclipse.jetty/jetty-start"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "7.6.0.v20120127"
-            },
-            {
-              "fixed": "7.6.0.v20120127-tuxcare.2"
-            }
-          ]
-        }
-      ],
-      "versions": [
-        "7.6.0.v20120127",
-        "7.6.0.v20120127-tuxcare.1"
-      ],
-      "database_specific": {
-        "tuxcare": {
-          "base_version": "7.6.0.v20120127",
-          "fixed_version": "7.6.0.v20120127-tuxcare.2"
-        }
-      }
-    },
-    {
-      "package": {
-        "ecosystem": "TuxCare:Maven",
-        "name": "org.eclipse.jetty:jetty-util",
-        "purl": "pkg:maven/org.eclipse.jetty/jetty-util"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "7.6.0.v20120127"
-            },
-            {
-              "fixed": "7.6.0.v20120127-tuxcare.2"
-            }
-          ]
-        }
-      ],
-      "versions": [
-        "7.6.0.v20120127",
-        "7.6.0.v20120127-tuxcare.1"
-      ],
-      "database_specific": {
-        "tuxcare": {
-          "base_version": "7.6.0.v20120127",
-          "fixed_version": "7.6.0.v20120127-tuxcare.2"
-        }
-      }
-    },
-    {
-      "package": {
-        "ecosystem": "TuxCare:Maven",
         "name": "org.eclipse.jetty:jetty-webapp",
         "purl": "pkg:maven/org.eclipse.jetty/jetty-webapp"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "7.6.0.v20120127"
-            },
-            {
-              "fixed": "7.6.0.v20120127-tuxcare.2"
-            }
-          ]
-        }
-      ],
-      "versions": [
-        "7.6.0.v20120127",
-        "7.6.0.v20120127-tuxcare.1"
-      ],
-      "database_specific": {
-        "tuxcare": {
-          "base_version": "7.6.0.v20120127",
-          "fixed_version": "7.6.0.v20120127-tuxcare.2"
-        }
-      }
-    },
-    {
-      "package": {
-        "ecosystem": "TuxCare:Maven",
-        "name": "org.eclipse.jetty:jetty-websocket",
-        "purl": "pkg:maven/org.eclipse.jetty/jetty-websocket"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "7.6.0.v20120127"
-            },
-            {
-              "fixed": "7.6.0.v20120127-tuxcare.2"
-            }
-          ]
-        }
-      ],
-      "versions": [
-        "7.6.0.v20120127",
-        "7.6.0.v20120127-tuxcare.1"
-      ],
-      "database_specific": {
-        "tuxcare": {
-          "base_version": "7.6.0.v20120127",
-          "fixed_version": "7.6.0.v20120127-tuxcare.2"
-        }
-      }
-    },
-    {
-      "package": {
-        "ecosystem": "TuxCare:Maven",
-        "name": "org.eclipse.jetty:jetty-xml",
-        "purl": "pkg:maven/org.eclipse.jetty/jetty-xml"
       },
       "ranges": [
         {

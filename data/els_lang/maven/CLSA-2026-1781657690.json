@@ -1,10 +1,10 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2026-1781657690",
-  "modified": "2026-10-15T08:16:08Z",
+  "modified": "2026-10-30T19:34:22Z",
   "published": "2026-08-04T14:52:37Z",
   "summary": "TuxCare security update for org.eclipse.parsson (2 CVEs)",
-  "details": "TuxCare rebuilt 6 org.eclipse.parsson packages to address 2 CVEs. Fixed in 1.1.1-tuxcare.1.",
+  "details": "TuxCare rebuilt 4 org.eclipse.parsson packages to address 2 CVEs. Fixed in 1.1.1-tuxcare.1.",
   "upstream": [
     "CVE-2023-4043",
     "CVE-2023-7272"
@@ -71,66 +71,8 @@
     {
       "package": {
         "ecosystem": "TuxCare:Maven",
-        "name": "org.eclipse.parsson:parsson-bundles",
-        "purl": "pkg:maven/org.eclipse.parsson/parsson-bundles"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "1.1.1"
-            },
-            {
-              "fixed": "1.1.1-tuxcare.1"
-            }
-          ]
-        }
-      ],
-      "versions": [
-        "1.1.1"
-      ],
-      "database_specific": {
-        "tuxcare": {
-          "base_version": "1.1.1",
-          "fixed_version": "1.1.1-tuxcare.1"
-        }
-      }
-    },
-    {
-      "package": {
-        "ecosystem": "TuxCare:Maven",
         "name": "org.eclipse.parsson:parsson-dist",
         "purl": "pkg:maven/org.eclipse.parsson/parsson-dist"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "1.1.1"
-            },
-            {
-              "fixed": "1.1.1-tuxcare.1"
-            }
-          ]
-        }
-      ],
-      "versions": [
-        "1.1.1"
-      ],
-      "database_specific": {
-        "tuxcare": {
-          "base_version": "1.1.1",
-          "fixed_version": "1.1.1-tuxcare.1"
-        }
-      }
-    },
-    {
-      "package": {
-        "ecosystem": "TuxCare:Maven",
-        "name": "org.eclipse.parsson:parsson-media",
-        "purl": "pkg:maven/org.eclipse.parsson/parsson-media"
       },
       "ranges": [
         {

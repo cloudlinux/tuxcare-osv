@@ -1,10 +1,10 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2026-1793031356",
-  "modified": "2026-10-27T01:39:45Z",
+  "modified": "2026-10-30T19:34:22Z",
   "published": "2026-10-26T16:15:56Z",
   "summary": "TuxCare security update for io.netty (11 CVEs)",
-  "details": "TuxCare rebuilt 38 io.netty packages to address 11 CVEs. Fixed in 4.1.43.Final-tuxcare.3.",
+  "details": "TuxCare rebuilt 32 io.netty packages to address 11 CVEs. Fixed in 4.1.43.Final-tuxcare.3.",
   "upstream": [
     "CVE-2021-21295",
     "CVE-2023-34462",
@@ -19,68 +19,6 @@
     "CVE-2026-56819"
   ],
   "affected": [
-    {
-      "package": {
-        "ecosystem": "TuxCare:Maven",
-        "name": "io.netty:netty-all",
-        "purl": "pkg:maven/io.netty/netty-all"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "4.1.43.Final"
-            },
-            {
-              "fixed": "4.1.43.Final-tuxcare.3"
-            }
-          ]
-        }
-      ],
-      "versions": [
-        "4.1.43.Final",
-        "4.1.43.Final-tuxcare.1",
-        "4.1.43.Final-tuxcare.2"
-      ],
-      "database_specific": {
-        "tuxcare": {
-          "base_version": "4.1.43.Final",
-          "fixed_version": "4.1.43.Final-tuxcare.3"
-        }
-      }
-    },
-    {
-      "package": {
-        "ecosystem": "TuxCare:Maven",
-        "name": "io.netty:netty-bom",
-        "purl": "pkg:maven/io.netty/netty-bom"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "4.1.43.Final"
-            },
-            {
-              "fixed": "4.1.43.Final-tuxcare.3"
-            }
-          ]
-        }
-      ],
-      "versions": [
-        "4.1.43.Final",
-        "4.1.43.Final-tuxcare.1",
-        "4.1.43.Final-tuxcare.2"
-      ],
-      "database_specific": {
-        "tuxcare": {
-          "base_version": "4.1.43.Final",
-          "fixed_version": "4.1.43.Final-tuxcare.3"
-        }
-      }
-    },
     {
       "package": {
         "ecosystem": "TuxCare:Maven",
@@ -518,37 +456,6 @@
     {
       "package": {
         "ecosystem": "TuxCare:Maven",
-        "name": "io.netty:netty-dev-tools",
-        "purl": "pkg:maven/io.netty/netty-dev-tools"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "4.1.43.Final"
-            },
-            {
-              "fixed": "4.1.43.Final-tuxcare.3"
-            }
-          ]
-        }
-      ],
-      "versions": [
-        "4.1.43.Final",
-        "4.1.43.Final-tuxcare.1",
-        "4.1.43.Final-tuxcare.2"
-      ],
-      "database_specific": {
-        "tuxcare": {
-          "base_version": "4.1.43.Final",
-          "fixed_version": "4.1.43.Final-tuxcare.3"
-        }
-      }
-    },
-    {
-      "package": {
-        "ecosystem": "TuxCare:Maven",
         "name": "io.netty:netty-example",
         "purl": "pkg:maven/io.netty/netty-example"
       },
@@ -673,37 +580,6 @@
     {
       "package": {
         "ecosystem": "TuxCare:Maven",
-        "name": "io.netty:netty-parent",
-        "purl": "pkg:maven/io.netty/netty-parent"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "4.1.43.Final"
-            },
-            {
-              "fixed": "4.1.43.Final-tuxcare.3"
-            }
-          ]
-        }
-      ],
-      "versions": [
-        "4.1.43.Final",
-        "4.1.43.Final-tuxcare.1",
-        "4.1.43.Final-tuxcare.2"
-      ],
-      "database_specific": {
-        "tuxcare": {
-          "base_version": "4.1.43.Final",
-          "fixed_version": "4.1.43.Final-tuxcare.3"
-        }
-      }
-    },
-    {
-      "package": {
-        "ecosystem": "TuxCare:Maven",
         "name": "io.netty:netty-resolver",
         "purl": "pkg:maven/io.netty/netty-resolver"
       },
@@ -737,37 +613,6 @@
         "ecosystem": "TuxCare:Maven",
         "name": "io.netty:netty-resolver-dns",
         "purl": "pkg:maven/io.netty/netty-resolver-dns"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "4.1.43.Final"
-            },
-            {
-              "fixed": "4.1.43.Final-tuxcare.3"
-            }
-          ]
-        }
-      ],
-      "versions": [
-        "4.1.43.Final",
-        "4.1.43.Final-tuxcare.1",
-        "4.1.43.Final-tuxcare.2"
-      ],
-      "database_specific": {
-        "tuxcare": {
-          "base_version": "4.1.43.Final",
-          "fixed_version": "4.1.43.Final-tuxcare.3"
-        }
-      }
-    },
-    {
-      "package": {
-        "ecosystem": "TuxCare:Maven",
-        "name": "io.netty:netty-tarball",
-        "purl": "pkg:maven/io.netty/netty-tarball"
       },
       "ranges": [
         {
@@ -892,37 +737,6 @@
         "ecosystem": "TuxCare:Maven",
         "name": "io.netty:netty-testsuite-native-image",
         "purl": "pkg:maven/io.netty/netty-testsuite-native-image"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "4.1.43.Final"
-            },
-            {
-              "fixed": "4.1.43.Final-tuxcare.3"
-            }
-          ]
-        }
-      ],
-      "versions": [
-        "4.1.43.Final",
-        "4.1.43.Final-tuxcare.1",
-        "4.1.43.Final-tuxcare.2"
-      ],
-      "database_specific": {
-        "tuxcare": {
-          "base_version": "4.1.43.Final",
-          "fixed_version": "4.1.43.Final-tuxcare.3"
-        }
-      }
-    },
-    {
-      "package": {
-        "ecosystem": "TuxCare:Maven",
-        "name": "io.netty:netty-testsuite-osgi",
-        "purl": "pkg:maven/io.netty/netty-testsuite-osgi"
       },
       "ranges": [
         {

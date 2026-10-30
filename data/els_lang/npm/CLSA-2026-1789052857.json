@@ -1,10 +1,10 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2026-1789052857",
-  "modified": "2026-10-15T08:16:08Z",
+  "modified": "2026-10-30T19:34:22Z",
   "published": "2026-09-10T15:07:37Z",
-  "summary": "TuxCare security update for 2 packages (1 CVE)",
-  "details": "TuxCare rebuilt 2 packages to address 1 CVE. Fixed in 3.4.3-tuxcare.1.",
+  "summary": "TuxCare security update for @koa/cors (1 CVE)",
+  "details": "TuxCare rebuilt @koa/cors to address 1 CVE. Fixed in 3.4.3-tuxcare.1.",
   "upstream": [
     "CVE-2023-49803"
   ],
@@ -14,35 +14,6 @@
         "ecosystem": "TuxCare:npm",
         "name": "@koa/cors",
         "purl": "pkg:npm/%40koa/cors"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "3.4.3-tuxcare.0"
-            },
-            {
-              "fixed": "3.4.3-tuxcare.1"
-            }
-          ]
-        }
-      ],
-      "versions": [
-        "3.4.3"
-      ],
-      "database_specific": {
-        "tuxcare": {
-          "base_version": "3.4.3",
-          "fixed_version": "3.4.3-tuxcare.1"
-        }
-      }
-    },
-    {
-      "package": {
-        "ecosystem": "TuxCare:npm",
-        "name": "koajs_cors",
-        "purl": "pkg:npm/koajs_cors"
       },
       "ranges": [
         {

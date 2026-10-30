@@ -1,10 +1,10 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2026-1792745046",
-  "modified": "2026-10-23T08:44:06Z",
+  "modified": "2026-10-30T19:34:22Z",
   "published": "2026-10-23T08:44:06Z",
   "summary": "TuxCare security update for org.apache.httpcomponents.client5 (2 CVEs)",
-  "details": "TuxCare rebuilt 5 org.apache.httpcomponents.client5 packages to address 2 CVEs. Fixed in 5.4.4-tuxcare.1.",
+  "details": "TuxCare rebuilt 4 org.apache.httpcomponents.client5 packages to address 2 CVEs. Fixed in 5.4.4-tuxcare.1.",
   "upstream": [
     "CVE-2026-64607",
     "CVE-2026-71290"
@@ -73,35 +73,6 @@
         "ecosystem": "TuxCare:Maven",
         "name": "org.apache.httpcomponents.client5:httpclient5-fluent",
         "purl": "pkg:maven/org.apache.httpcomponents.client5/httpclient5-fluent"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "5.4.4"
-            },
-            {
-              "fixed": "5.4.4-tuxcare.1"
-            }
-          ]
-        }
-      ],
-      "versions": [
-        "5.4.4"
-      ],
-      "database_specific": {
-        "tuxcare": {
-          "base_version": "5.4.4",
-          "fixed_version": "5.4.4-tuxcare.1"
-        }
-      }
-    },
-    {
-      "package": {
-        "ecosystem": "TuxCare:Maven",
-        "name": "org.apache.httpcomponents.client5:httpclient5-parent",
-        "purl": "pkg:maven/org.apache.httpcomponents.client5/httpclient5-parent"
       },
       "ranges": [
         {

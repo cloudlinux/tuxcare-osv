@@ -1,10 +1,10 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2026-1793131185",
-  "modified": "2026-10-28T01:43:13Z",
+  "modified": "2026-10-30T19:34:22Z",
   "published": "2026-10-27T19:59:45Z",
   "summary": "TuxCare security update for ch.qos.logback (1 CVE)",
-  "details": "TuxCare rebuilt 6 ch.qos.logback packages to address 1 CVE. Fixed in 1.2.11-tuxcare.2.",
+  "details": "TuxCare rebuilt 4 ch.qos.logback packages to address 1 CVE. Fixed in 1.2.11-tuxcare.2.",
   "upstream": [
     "CVE-2024-12798"
   ],
@@ -104,66 +104,6 @@
         "ecosystem": "TuxCare:Maven",
         "name": "ch.qos.logback:logback-examples",
         "purl": "pkg:maven/ch.qos.logback/logback-examples"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "1.2.11"
-            },
-            {
-              "fixed": "1.2.11-tuxcare.2"
-            }
-          ]
-        }
-      ],
-      "versions": [
-        "1.2.11",
-        "1.2.11-tuxcare.1"
-      ],
-      "database_specific": {
-        "tuxcare": {
-          "base_version": "1.2.11",
-          "fixed_version": "1.2.11-tuxcare.2"
-        }
-      }
-    },
-    {
-      "package": {
-        "ecosystem": "TuxCare:Maven",
-        "name": "ch.qos.logback:logback-parent",
-        "purl": "pkg:maven/ch.qos.logback/logback-parent"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "1.2.11"
-            },
-            {
-              "fixed": "1.2.11-tuxcare.2"
-            }
-          ]
-        }
-      ],
-      "versions": [
-        "1.2.11",
-        "1.2.11-tuxcare.1"
-      ],
-      "database_specific": {
-        "tuxcare": {
-          "base_version": "1.2.11",
-          "fixed_version": "1.2.11-tuxcare.2"
-        }
-      }
-    },
-    {
-      "package": {
-        "ecosystem": "TuxCare:Maven",
-        "name": "ch.qos.logback:logback-site",
-        "purl": "pkg:maven/ch.qos.logback/logback-site"
       },
       "ranges": [
         {
