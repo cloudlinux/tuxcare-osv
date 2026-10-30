@@ -1,10 +1,10 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2026-1793206987",
-  "modified": "2026-10-28T19:30:18Z",
+  "modified": "2026-10-30T07:17:27Z",
   "published": "2026-10-28T17:03:07Z",
   "summary": "TuxCare security update for org.springframework.cloud (5 CVEs)",
-  "details": "TuxCare rebuilt 20 org.springframework.cloud packages to address 5 CVEs. Fixed in 4.3.4-tuxcare.1.",
+  "details": "TuxCare rebuilt 14 org.springframework.cloud packages to address 5 CVEs. Fixed in 4.3.4-tuxcare.1.",
   "upstream": [
     "CVE-2026-59291",
     "CVE-2026-59298",
@@ -132,35 +132,6 @@
     {
       "package": {
         "ecosystem": "TuxCare:Maven",
-        "name": "org.springframework.cloud:spring-cloud-function-adapter-parent",
-        "purl": "pkg:maven/org.springframework.cloud/spring-cloud-function-adapter-parent"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "4.3.4"
-            },
-            {
-              "fixed": "4.3.4-tuxcare.1"
-            }
-          ]
-        }
-      ],
-      "versions": [
-        "4.3.4"
-      ],
-      "database_specific": {
-        "tuxcare": {
-          "base_version": "4.3.4",
-          "fixed_version": "4.3.4-tuxcare.1"
-        }
-      }
-    },
-    {
-      "package": {
-        "ecosystem": "TuxCare:Maven",
         "name": "org.springframework.cloud:spring-cloud-function-context",
         "purl": "pkg:maven/org.springframework.cloud/spring-cloud-function-context"
       },
@@ -190,95 +161,8 @@
     {
       "package": {
         "ecosystem": "TuxCare:Maven",
-        "name": "org.springframework.cloud:spring-cloud-function-core",
-        "purl": "pkg:maven/org.springframework.cloud/spring-cloud-function-core"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "4.3.4"
-            },
-            {
-              "fixed": "4.3.4-tuxcare.1"
-            }
-          ]
-        }
-      ],
-      "versions": [
-        "4.3.4"
-      ],
-      "database_specific": {
-        "tuxcare": {
-          "base_version": "4.3.4",
-          "fixed_version": "4.3.4-tuxcare.1"
-        }
-      }
-    },
-    {
-      "package": {
-        "ecosystem": "TuxCare:Maven",
-        "name": "org.springframework.cloud:spring-cloud-function-dependencies",
-        "purl": "pkg:maven/org.springframework.cloud/spring-cloud-function-dependencies"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "4.3.4"
-            },
-            {
-              "fixed": "4.3.4-tuxcare.1"
-            }
-          ]
-        }
-      ],
-      "versions": [
-        "4.3.4"
-      ],
-      "database_specific": {
-        "tuxcare": {
-          "base_version": "4.3.4",
-          "fixed_version": "4.3.4-tuxcare.1"
-        }
-      }
-    },
-    {
-      "package": {
-        "ecosystem": "TuxCare:Maven",
         "name": "org.springframework.cloud:spring-cloud-function-deployer",
         "purl": "pkg:maven/org.springframework.cloud/spring-cloud-function-deployer"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "4.3.4"
-            },
-            {
-              "fixed": "4.3.4-tuxcare.1"
-            }
-          ]
-        }
-      ],
-      "versions": [
-        "4.3.4"
-      ],
-      "database_specific": {
-        "tuxcare": {
-          "base_version": "4.3.4",
-          "fixed_version": "4.3.4-tuxcare.1"
-        }
-      }
-    },
-    {
-      "package": {
-        "ecosystem": "TuxCare:Maven",
-        "name": "org.springframework.cloud:spring-cloud-function-docs",
-        "purl": "pkg:maven/org.springframework.cloud/spring-cloud-function-docs"
       },
       "ranges": [
         {
@@ -422,66 +306,8 @@
     {
       "package": {
         "ecosystem": "TuxCare:Maven",
-        "name": "org.springframework.cloud:spring-cloud-function-parent",
-        "purl": "pkg:maven/org.springframework.cloud/spring-cloud-function-parent"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "4.3.4"
-            },
-            {
-              "fixed": "4.3.4-tuxcare.1"
-            }
-          ]
-        }
-      ],
-      "versions": [
-        "4.3.4"
-      ],
-      "database_specific": {
-        "tuxcare": {
-          "base_version": "4.3.4",
-          "fixed_version": "4.3.4-tuxcare.1"
-        }
-      }
-    },
-    {
-      "package": {
-        "ecosystem": "TuxCare:Maven",
         "name": "org.springframework.cloud:spring-cloud-function-rsocket",
         "purl": "pkg:maven/org.springframework.cloud/spring-cloud-function-rsocket"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "4.3.4"
-            },
-            {
-              "fixed": "4.3.4-tuxcare.1"
-            }
-          ]
-        }
-      ],
-      "versions": [
-        "4.3.4"
-      ],
-      "database_specific": {
-        "tuxcare": {
-          "base_version": "4.3.4",
-          "fixed_version": "4.3.4-tuxcare.1"
-        }
-      }
-    },
-    {
-      "package": {
-        "ecosystem": "TuxCare:Maven",
-        "name": "org.springframework.cloud:spring-cloud-function-serverless-web",
-        "purl": "pkg:maven/org.springframework.cloud/spring-cloud-function-serverless-web"
       },
       "ranges": [
         {

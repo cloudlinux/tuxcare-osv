@@ -1,10 +1,10 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2026-1791375028",
-  "modified": "2026-10-15T08:16:08Z",
+  "modified": "2026-10-30T07:17:27Z",
   "published": "2026-10-07T12:10:28Z",
   "summary": "TuxCare security update for org.springframework.batch (1 CVE)",
-  "details": "TuxCare rebuilt 5 org.springframework.batch packages to address 1 CVE. Fixed in 5.1.3-tuxcare.4.",
+  "details": "TuxCare rebuilt 3 org.springframework.batch packages to address 1 CVE. Fixed in 5.1.3-tuxcare.4.",
   "upstream": [
     "CVE-2026-47878"
   ],
@@ -12,72 +12,8 @@
     {
       "package": {
         "ecosystem": "TuxCare:Maven",
-        "name": "org.springframework.batch:spring-batch-bom",
-        "purl": "pkg:maven/org.springframework.batch/spring-batch-bom"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "5.1.3"
-            },
-            {
-              "fixed": "5.1.3-tuxcare.4"
-            }
-          ]
-        }
-      ],
-      "versions": [
-        "5.1.3",
-        "5.1.3-tuxcare.1",
-        "5.1.3-tuxcare.2",
-        "5.1.3-tuxcare.3"
-      ],
-      "database_specific": {
-        "tuxcare": {
-          "base_version": "5.1.3",
-          "fixed_version": "5.1.3-tuxcare.4"
-        }
-      }
-    },
-    {
-      "package": {
-        "ecosystem": "TuxCare:Maven",
         "name": "org.springframework.batch:spring-batch-core",
         "purl": "pkg:maven/org.springframework.batch/spring-batch-core"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "5.1.3"
-            },
-            {
-              "fixed": "5.1.3-tuxcare.4"
-            }
-          ]
-        }
-      ],
-      "versions": [
-        "5.1.3",
-        "5.1.3-tuxcare.1",
-        "5.1.3-tuxcare.2",
-        "5.1.3-tuxcare.3"
-      ],
-      "database_specific": {
-        "tuxcare": {
-          "base_version": "5.1.3",
-          "fixed_version": "5.1.3-tuxcare.4"
-        }
-      }
-    },
-    {
-      "package": {
-        "ecosystem": "TuxCare:Maven",
-        "name": "org.springframework.batch:spring-batch-infrastructure",
-        "purl": "pkg:maven/org.springframework.batch/spring-batch-infrastructure"
       },
       "ranges": [
         {
