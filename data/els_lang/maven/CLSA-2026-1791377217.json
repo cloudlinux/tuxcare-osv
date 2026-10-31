@@ -1,10 +1,10 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2026-1791377217",
-  "modified": "2026-10-30T19:34:22Z",
+  "modified": "2026-10-31T04:40:53Z",
   "published": "2026-10-07T12:46:57Z",
   "summary": "TuxCare security update for org.apache.activemq (3 CVEs)",
-  "details": "TuxCare rebuilt 4 org.apache.activemq packages to address 3 CVEs. Fixed in 2.33.0-tuxcare.7.",
+  "details": "TuxCare rebuilt 34 org.apache.activemq packages to address 3 CVEs. Fixed in 2.33.0-tuxcare.7.",
   "upstream": [
     "CVE-2026-49363",
     "CVE-2026-57822",
@@ -14,8 +14,428 @@
     {
       "package": {
         "ecosystem": "TuxCare:Maven",
+        "name": "org.apache.activemq:apache-artemis",
+        "purl": "pkg:maven/org.apache.activemq/apache-artemis"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "2.33.0"
+            },
+            {
+              "fixed": "2.33.0-tuxcare.7"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "2.33.0",
+        "2.33.0-tuxcare.1",
+        "2.33.0-tuxcare.2",
+        "2.33.0-tuxcare.3",
+        "2.33.0-tuxcare.4",
+        "2.33.0-tuxcare.5",
+        "2.33.0-tuxcare.6"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "2.33.0",
+          "fixed_version": "2.33.0-tuxcare.7"
+        }
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.apache.activemq:artemis-amqp-protocol",
+        "purl": "pkg:maven/org.apache.activemq/artemis-amqp-protocol"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "2.33.0"
+            },
+            {
+              "fixed": "2.33.0-tuxcare.7"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "2.33.0",
+        "2.33.0-tuxcare.1",
+        "2.33.0-tuxcare.2",
+        "2.33.0-tuxcare.3",
+        "2.33.0-tuxcare.4",
+        "2.33.0-tuxcare.5",
+        "2.33.0-tuxcare.6"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "2.33.0",
+          "fixed_version": "2.33.0-tuxcare.7"
+        }
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.apache.activemq:artemis-cdi-client",
+        "purl": "pkg:maven/org.apache.activemq/artemis-cdi-client"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "2.33.0"
+            },
+            {
+              "fixed": "2.33.0-tuxcare.7"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "2.33.0",
+        "2.33.0-tuxcare.1",
+        "2.33.0-tuxcare.2",
+        "2.33.0-tuxcare.3",
+        "2.33.0-tuxcare.4",
+        "2.33.0-tuxcare.5",
+        "2.33.0-tuxcare.6"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "2.33.0",
+          "fixed_version": "2.33.0-tuxcare.7"
+        }
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.apache.activemq:artemis-cli",
+        "purl": "pkg:maven/org.apache.activemq/artemis-cli"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "2.33.0"
+            },
+            {
+              "fixed": "2.33.0-tuxcare.7"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "2.33.0",
+        "2.33.0-tuxcare.1",
+        "2.33.0-tuxcare.2",
+        "2.33.0-tuxcare.3",
+        "2.33.0-tuxcare.4",
+        "2.33.0-tuxcare.5",
+        "2.33.0-tuxcare.6"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "2.33.0",
+          "fixed_version": "2.33.0-tuxcare.7"
+        }
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
         "name": "org.apache.activemq:artemis-core-client",
         "purl": "pkg:maven/org.apache.activemq/artemis-core-client"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "2.33.0"
+            },
+            {
+              "fixed": "2.33.0-tuxcare.7"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "2.33.0",
+        "2.33.0-tuxcare.1",
+        "2.33.0-tuxcare.2",
+        "2.33.0-tuxcare.3",
+        "2.33.0-tuxcare.4",
+        "2.33.0-tuxcare.5",
+        "2.33.0-tuxcare.6"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "2.33.0",
+          "fixed_version": "2.33.0-tuxcare.7"
+        }
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.apache.activemq:artemis-core-client-all",
+        "purl": "pkg:maven/org.apache.activemq/artemis-core-client-all"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "2.33.0"
+            },
+            {
+              "fixed": "2.33.0-tuxcare.7"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "2.33.0",
+        "2.33.0-tuxcare.1",
+        "2.33.0-tuxcare.2",
+        "2.33.0-tuxcare.3",
+        "2.33.0-tuxcare.4",
+        "2.33.0-tuxcare.5",
+        "2.33.0-tuxcare.6"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "2.33.0",
+          "fixed_version": "2.33.0-tuxcare.7"
+        }
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.apache.activemq:artemis-core-client-osgi",
+        "purl": "pkg:maven/org.apache.activemq/artemis-core-client-osgi"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "2.33.0"
+            },
+            {
+              "fixed": "2.33.0-tuxcare.7"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "2.33.0",
+        "2.33.0-tuxcare.1",
+        "2.33.0-tuxcare.2",
+        "2.33.0-tuxcare.3",
+        "2.33.0-tuxcare.4",
+        "2.33.0-tuxcare.5",
+        "2.33.0-tuxcare.6"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "2.33.0",
+          "fixed_version": "2.33.0-tuxcare.7"
+        }
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.apache.activemq:artemis-hornetq-protocol",
+        "purl": "pkg:maven/org.apache.activemq/artemis-hornetq-protocol"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "2.33.0"
+            },
+            {
+              "fixed": "2.33.0-tuxcare.7"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "2.33.0",
+        "2.33.0-tuxcare.1",
+        "2.33.0-tuxcare.2",
+        "2.33.0-tuxcare.3",
+        "2.33.0-tuxcare.4",
+        "2.33.0-tuxcare.5",
+        "2.33.0-tuxcare.6"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "2.33.0",
+          "fixed_version": "2.33.0-tuxcare.7"
+        }
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.apache.activemq:artemis-hqclient-protocol",
+        "purl": "pkg:maven/org.apache.activemq/artemis-hqclient-protocol"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "2.33.0"
+            },
+            {
+              "fixed": "2.33.0-tuxcare.7"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "2.33.0",
+        "2.33.0-tuxcare.1",
+        "2.33.0-tuxcare.2",
+        "2.33.0-tuxcare.3",
+        "2.33.0-tuxcare.4",
+        "2.33.0-tuxcare.5",
+        "2.33.0-tuxcare.6"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "2.33.0",
+          "fixed_version": "2.33.0-tuxcare.7"
+        }
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.apache.activemq:artemis-image",
+        "purl": "pkg:maven/org.apache.activemq/artemis-image"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "2.33.0"
+            },
+            {
+              "fixed": "2.33.0-tuxcare.7"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "2.33.0",
+        "2.33.0-tuxcare.1",
+        "2.33.0-tuxcare.2",
+        "2.33.0-tuxcare.3",
+        "2.33.0-tuxcare.4",
+        "2.33.0-tuxcare.5",
+        "2.33.0-tuxcare.6"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "2.33.0",
+          "fixed_version": "2.33.0-tuxcare.7"
+        }
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.apache.activemq:artemis-image-examples",
+        "purl": "pkg:maven/org.apache.activemq/artemis-image-examples"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "2.33.0"
+            },
+            {
+              "fixed": "2.33.0-tuxcare.7"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "2.33.0",
+        "2.33.0-tuxcare.1",
+        "2.33.0-tuxcare.2",
+        "2.33.0-tuxcare.3",
+        "2.33.0-tuxcare.4",
+        "2.33.0-tuxcare.5",
+        "2.33.0-tuxcare.6"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "2.33.0",
+          "fixed_version": "2.33.0-tuxcare.7"
+        }
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.apache.activemq:artemis-jakarta-client",
+        "purl": "pkg:maven/org.apache.activemq/artemis-jakarta-client"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "2.33.0"
+            },
+            {
+              "fixed": "2.33.0-tuxcare.7"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "2.33.0",
+        "2.33.0-tuxcare.1",
+        "2.33.0-tuxcare.2",
+        "2.33.0-tuxcare.3",
+        "2.33.0-tuxcare.4",
+        "2.33.0-tuxcare.5",
+        "2.33.0-tuxcare.6"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "2.33.0",
+          "fixed_version": "2.33.0-tuxcare.7"
+        }
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.apache.activemq:artemis-jakarta-client-all",
+        "purl": "pkg:maven/org.apache.activemq/artemis-jakarta-client-all"
       },
       "ranges": [
         {
@@ -84,6 +504,461 @@
     {
       "package": {
         "ecosystem": "TuxCare:Maven",
+        "name": "org.apache.activemq:artemis-jakarta-ra",
+        "purl": "pkg:maven/org.apache.activemq/artemis-jakarta-ra"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "2.33.0"
+            },
+            {
+              "fixed": "2.33.0-tuxcare.7"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "2.33.0",
+        "2.33.0-tuxcare.1",
+        "2.33.0-tuxcare.2",
+        "2.33.0-tuxcare.3",
+        "2.33.0-tuxcare.4",
+        "2.33.0-tuxcare.5",
+        "2.33.0-tuxcare.6"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "2.33.0",
+          "fixed_version": "2.33.0-tuxcare.7"
+        }
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.apache.activemq:artemis-jakarta-server",
+        "purl": "pkg:maven/org.apache.activemq/artemis-jakarta-server"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "2.33.0"
+            },
+            {
+              "fixed": "2.33.0-tuxcare.7"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "2.33.0",
+        "2.33.0-tuxcare.1",
+        "2.33.0-tuxcare.2",
+        "2.33.0-tuxcare.3",
+        "2.33.0-tuxcare.4",
+        "2.33.0-tuxcare.5",
+        "2.33.0-tuxcare.6"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "2.33.0",
+          "fixed_version": "2.33.0-tuxcare.7"
+        }
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.apache.activemq:artemis-jakarta-service-extensions",
+        "purl": "pkg:maven/org.apache.activemq/artemis-jakarta-service-extensions"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "2.33.0"
+            },
+            {
+              "fixed": "2.33.0-tuxcare.7"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "2.33.0",
+        "2.33.0-tuxcare.1",
+        "2.33.0-tuxcare.2",
+        "2.33.0-tuxcare.3",
+        "2.33.0-tuxcare.4",
+        "2.33.0-tuxcare.5",
+        "2.33.0-tuxcare.6"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "2.33.0",
+          "fixed_version": "2.33.0-tuxcare.7"
+        }
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.apache.activemq:artemis-jdbc-store",
+        "purl": "pkg:maven/org.apache.activemq/artemis-jdbc-store"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "2.33.0"
+            },
+            {
+              "fixed": "2.33.0-tuxcare.7"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "2.33.0",
+        "2.33.0-tuxcare.1",
+        "2.33.0-tuxcare.2",
+        "2.33.0-tuxcare.3",
+        "2.33.0-tuxcare.4",
+        "2.33.0-tuxcare.5",
+        "2.33.0-tuxcare.6"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "2.33.0",
+          "fixed_version": "2.33.0-tuxcare.7"
+        }
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.apache.activemq:artemis-jms-client",
+        "purl": "pkg:maven/org.apache.activemq/artemis-jms-client"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "2.33.0"
+            },
+            {
+              "fixed": "2.33.0-tuxcare.7"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "2.33.0",
+        "2.33.0-tuxcare.1",
+        "2.33.0-tuxcare.2",
+        "2.33.0-tuxcare.3",
+        "2.33.0-tuxcare.4",
+        "2.33.0-tuxcare.5",
+        "2.33.0-tuxcare.6"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "2.33.0",
+          "fixed_version": "2.33.0-tuxcare.7"
+        }
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.apache.activemq:artemis-jms-client-all",
+        "purl": "pkg:maven/org.apache.activemq/artemis-jms-client-all"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "2.33.0"
+            },
+            {
+              "fixed": "2.33.0-tuxcare.7"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "2.33.0",
+        "2.33.0-tuxcare.1",
+        "2.33.0-tuxcare.2",
+        "2.33.0-tuxcare.3",
+        "2.33.0-tuxcare.4",
+        "2.33.0-tuxcare.5",
+        "2.33.0-tuxcare.6"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "2.33.0",
+          "fixed_version": "2.33.0-tuxcare.7"
+        }
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.apache.activemq:artemis-jms-client-osgi",
+        "purl": "pkg:maven/org.apache.activemq/artemis-jms-client-osgi"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "2.33.0"
+            },
+            {
+              "fixed": "2.33.0-tuxcare.7"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "2.33.0",
+        "2.33.0-tuxcare.1",
+        "2.33.0-tuxcare.2",
+        "2.33.0-tuxcare.3",
+        "2.33.0-tuxcare.4",
+        "2.33.0-tuxcare.5",
+        "2.33.0-tuxcare.6"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "2.33.0",
+          "fixed_version": "2.33.0-tuxcare.7"
+        }
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.apache.activemq:artemis-jms-server",
+        "purl": "pkg:maven/org.apache.activemq/artemis-jms-server"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "2.33.0"
+            },
+            {
+              "fixed": "2.33.0-tuxcare.7"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "2.33.0",
+        "2.33.0-tuxcare.1",
+        "2.33.0-tuxcare.2",
+        "2.33.0-tuxcare.3",
+        "2.33.0-tuxcare.4",
+        "2.33.0-tuxcare.5",
+        "2.33.0-tuxcare.6"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "2.33.0",
+          "fixed_version": "2.33.0-tuxcare.7"
+        }
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.apache.activemq:artemis-junit",
+        "purl": "pkg:maven/org.apache.activemq/artemis-junit"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "2.33.0"
+            },
+            {
+              "fixed": "2.33.0-tuxcare.7"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "2.33.0",
+        "2.33.0-tuxcare.1",
+        "2.33.0-tuxcare.2",
+        "2.33.0-tuxcare.3",
+        "2.33.0-tuxcare.4",
+        "2.33.0-tuxcare.5",
+        "2.33.0-tuxcare.6"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "2.33.0",
+          "fixed_version": "2.33.0-tuxcare.7"
+        }
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.apache.activemq:artemis-junit-5",
+        "purl": "pkg:maven/org.apache.activemq/artemis-junit-5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "2.33.0"
+            },
+            {
+              "fixed": "2.33.0-tuxcare.7"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "2.33.0",
+        "2.33.0-tuxcare.1",
+        "2.33.0-tuxcare.2",
+        "2.33.0-tuxcare.3",
+        "2.33.0-tuxcare.4",
+        "2.33.0-tuxcare.5",
+        "2.33.0-tuxcare.6"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "2.33.0",
+          "fixed_version": "2.33.0-tuxcare.7"
+        }
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.apache.activemq:artemis-junit-commons",
+        "purl": "pkg:maven/org.apache.activemq/artemis-junit-commons"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "2.33.0"
+            },
+            {
+              "fixed": "2.33.0-tuxcare.7"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "2.33.0",
+        "2.33.0-tuxcare.1",
+        "2.33.0-tuxcare.2",
+        "2.33.0-tuxcare.3",
+        "2.33.0-tuxcare.4",
+        "2.33.0-tuxcare.5",
+        "2.33.0-tuxcare.6"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "2.33.0",
+          "fixed_version": "2.33.0-tuxcare.7"
+        }
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.apache.activemq:artemis-maven-plugin",
+        "purl": "pkg:maven/org.apache.activemq/artemis-maven-plugin"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "2.33.0"
+            },
+            {
+              "fixed": "2.33.0-tuxcare.7"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "2.33.0",
+        "2.33.0-tuxcare.1",
+        "2.33.0-tuxcare.2",
+        "2.33.0-tuxcare.3",
+        "2.33.0-tuxcare.4",
+        "2.33.0-tuxcare.5",
+        "2.33.0-tuxcare.6"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "2.33.0",
+          "fixed_version": "2.33.0-tuxcare.7"
+        }
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.apache.activemq:artemis-mqtt-protocol",
+        "purl": "pkg:maven/org.apache.activemq/artemis-mqtt-protocol"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "2.33.0"
+            },
+            {
+              "fixed": "2.33.0-tuxcare.7"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "2.33.0",
+        "2.33.0-tuxcare.1",
+        "2.33.0-tuxcare.2",
+        "2.33.0-tuxcare.3",
+        "2.33.0-tuxcare.4",
+        "2.33.0-tuxcare.5",
+        "2.33.0-tuxcare.6"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "2.33.0",
+          "fixed_version": "2.33.0-tuxcare.7"
+        }
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
         "name": "org.apache.activemq:artemis-openwire-protocol",
         "purl": "pkg:maven/org.apache.activemq/artemis-openwire-protocol"
       },
@@ -119,8 +994,183 @@
     {
       "package": {
         "ecosystem": "TuxCare:Maven",
+        "name": "org.apache.activemq:artemis-ra",
+        "purl": "pkg:maven/org.apache.activemq/artemis-ra"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "2.33.0"
+            },
+            {
+              "fixed": "2.33.0-tuxcare.7"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "2.33.0",
+        "2.33.0-tuxcare.1",
+        "2.33.0-tuxcare.2",
+        "2.33.0-tuxcare.3",
+        "2.33.0-tuxcare.4",
+        "2.33.0-tuxcare.5",
+        "2.33.0-tuxcare.6"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "2.33.0",
+          "fixed_version": "2.33.0-tuxcare.7"
+        }
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
         "name": "org.apache.activemq:artemis-server",
         "purl": "pkg:maven/org.apache.activemq/artemis-server"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "2.33.0"
+            },
+            {
+              "fixed": "2.33.0-tuxcare.7"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "2.33.0",
+        "2.33.0-tuxcare.1",
+        "2.33.0-tuxcare.2",
+        "2.33.0-tuxcare.3",
+        "2.33.0-tuxcare.4",
+        "2.33.0-tuxcare.5",
+        "2.33.0-tuxcare.6"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "2.33.0",
+          "fixed_version": "2.33.0-tuxcare.7"
+        }
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.apache.activemq:artemis-server-osgi",
+        "purl": "pkg:maven/org.apache.activemq/artemis-server-osgi"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "2.33.0"
+            },
+            {
+              "fixed": "2.33.0-tuxcare.7"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "2.33.0",
+        "2.33.0-tuxcare.1",
+        "2.33.0-tuxcare.2",
+        "2.33.0-tuxcare.3",
+        "2.33.0-tuxcare.4",
+        "2.33.0-tuxcare.5",
+        "2.33.0-tuxcare.6"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "2.33.0",
+          "fixed_version": "2.33.0-tuxcare.7"
+        }
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.apache.activemq:artemis-service-extensions",
+        "purl": "pkg:maven/org.apache.activemq/artemis-service-extensions"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "2.33.0"
+            },
+            {
+              "fixed": "2.33.0-tuxcare.7"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "2.33.0",
+        "2.33.0-tuxcare.1",
+        "2.33.0-tuxcare.2",
+        "2.33.0-tuxcare.3",
+        "2.33.0-tuxcare.4",
+        "2.33.0-tuxcare.5",
+        "2.33.0-tuxcare.6"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "2.33.0",
+          "fixed_version": "2.33.0-tuxcare.7"
+        }
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.apache.activemq:artemis-stomp-protocol",
+        "purl": "pkg:maven/org.apache.activemq/artemis-stomp-protocol"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "2.33.0"
+            },
+            {
+              "fixed": "2.33.0-tuxcare.7"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "2.33.0",
+        "2.33.0-tuxcare.1",
+        "2.33.0-tuxcare.2",
+        "2.33.0-tuxcare.3",
+        "2.33.0-tuxcare.4",
+        "2.33.0-tuxcare.5",
+        "2.33.0-tuxcare.6"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "2.33.0",
+          "fixed_version": "2.33.0-tuxcare.7"
+        }
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.apache.activemq:artemis-web",
+        "purl": "pkg:maven/org.apache.activemq/artemis-web"
       },
       "ranges": [
         {
