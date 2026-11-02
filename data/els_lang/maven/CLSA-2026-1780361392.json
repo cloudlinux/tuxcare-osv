@@ -1,76 +1,14 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2026-1780361392",
-  "modified": "2026-10-30T13:29:39Z",
+  "modified": "2026-11-02T19:39:45Z",
   "published": "2026-08-04T14:52:34Z",
-  "summary": "TuxCare security update for 7 packages (1 CVE)",
-  "details": "TuxCare rebuilt 7 packages to address 1 CVE. Fixed in 9.4.48.v20220622-tuxcare.3.",
+  "summary": "TuxCare security update for org.eclipse.jetty.http2 (1 CVE)",
+  "details": "TuxCare rebuilt 2 org.eclipse.jetty.http2 packages to address 1 CVE. Fixed in 9.4.48.v20220622-tuxcare.3.",
   "upstream": [
     "CVE-2023-44487"
   ],
   "affected": [
-    {
-      "package": {
-        "ecosystem": "TuxCare:Maven",
-        "name": "org.eclipse.jetty.aggregate:jetty-all",
-        "purl": "pkg:maven/org.eclipse.jetty.aggregate/jetty-all"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "9.4.48.v20220622"
-            },
-            {
-              "fixed": "9.4.48.v20220622-tuxcare.3"
-            }
-          ]
-        }
-      ],
-      "versions": [
-        "9.4.48.v20220622",
-        "9.4.48.v20220622-tuxcare.1",
-        "9.4.48.v20220622-tuxcare.2"
-      ],
-      "database_specific": {
-        "tuxcare": {
-          "base_version": "9.4.48.v20220622",
-          "fixed_version": "9.4.48.v20220622-tuxcare.3"
-        }
-      }
-    },
-    {
-      "package": {
-        "ecosystem": "TuxCare:Maven",
-        "name": "org.eclipse.jetty.http2:http2-client",
-        "purl": "pkg:maven/org.eclipse.jetty.http2/http2-client"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "9.4.48.v20220622"
-            },
-            {
-              "fixed": "9.4.48.v20220622-tuxcare.3"
-            }
-          ]
-        }
-      ],
-      "versions": [
-        "9.4.48.v20220622",
-        "9.4.48.v20220622-tuxcare.1",
-        "9.4.48.v20220622-tuxcare.2"
-      ],
-      "database_specific": {
-        "tuxcare": {
-          "base_version": "9.4.48.v20220622",
-          "fixed_version": "9.4.48.v20220622-tuxcare.3"
-        }
-      }
-    },
     {
       "package": {
         "ecosystem": "TuxCare:Maven",
@@ -105,101 +43,8 @@
     {
       "package": {
         "ecosystem": "TuxCare:Maven",
-        "name": "org.eclipse.jetty.http2:http2-http-client-transport",
-        "purl": "pkg:maven/org.eclipse.jetty.http2/http2-http-client-transport"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "9.4.48.v20220622"
-            },
-            {
-              "fixed": "9.4.48.v20220622-tuxcare.3"
-            }
-          ]
-        }
-      ],
-      "versions": [
-        "9.4.48.v20220622",
-        "9.4.48.v20220622-tuxcare.1",
-        "9.4.48.v20220622-tuxcare.2"
-      ],
-      "database_specific": {
-        "tuxcare": {
-          "base_version": "9.4.48.v20220622",
-          "fixed_version": "9.4.48.v20220622-tuxcare.3"
-        }
-      }
-    },
-    {
-      "package": {
-        "ecosystem": "TuxCare:Maven",
         "name": "org.eclipse.jetty.http2:http2-server",
         "purl": "pkg:maven/org.eclipse.jetty.http2/http2-server"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "9.4.48.v20220622"
-            },
-            {
-              "fixed": "9.4.48.v20220622-tuxcare.3"
-            }
-          ]
-        }
-      ],
-      "versions": [
-        "9.4.48.v20220622",
-        "9.4.48.v20220622-tuxcare.1",
-        "9.4.48.v20220622-tuxcare.2"
-      ],
-      "database_specific": {
-        "tuxcare": {
-          "base_version": "9.4.48.v20220622",
-          "fixed_version": "9.4.48.v20220622-tuxcare.3"
-        }
-      }
-    },
-    {
-      "package": {
-        "ecosystem": "TuxCare:Maven",
-        "name": "org.eclipse.jetty.osgi:test-jetty-osgi",
-        "purl": "pkg:maven/org.eclipse.jetty.osgi/test-jetty-osgi"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "9.4.48.v20220622"
-            },
-            {
-              "fixed": "9.4.48.v20220622-tuxcare.3"
-            }
-          ]
-        }
-      ],
-      "versions": [
-        "9.4.48.v20220622",
-        "9.4.48.v20220622-tuxcare.1",
-        "9.4.48.v20220622-tuxcare.2"
-      ],
-      "database_specific": {
-        "tuxcare": {
-          "base_version": "9.4.48.v20220622",
-          "fixed_version": "9.4.48.v20220622-tuxcare.3"
-        }
-      }
-    },
-    {
-      "package": {
-        "ecosystem": "TuxCare:Maven",
-        "name": "org.eclipse.jetty:jetty-home",
-        "purl": "pkg:maven/org.eclipse.jetty/jetty-home"
       },
       "ranges": [
         {

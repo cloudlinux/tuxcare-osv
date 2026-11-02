@@ -1,10 +1,10 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2026-1792693038",
-  "modified": "2026-10-30T19:34:22Z",
+  "modified": "2026-11-02T19:39:45Z",
   "published": "2026-10-22T18:17:18Z",
   "summary": "TuxCare security update for io.netty (15 CVEs)",
-  "details": "TuxCare rebuilt 15 io.netty packages to address 15 CVEs. Fixed in 4.1.113.Final-tuxcare.1.",
+  "details": "TuxCare rebuilt 10 io.netty packages to address 15 CVEs. Fixed in 4.1.113.Final-tuxcare.1.",
   "upstream": [
     "CVE-2025-24970",
     "CVE-2025-25193",
@@ -23,64 +23,6 @@
     "CVE-2026-75595"
   ],
   "affected": [
-    {
-      "package": {
-        "ecosystem": "TuxCare:Maven",
-        "name": "io.netty:netty-buffer",
-        "purl": "pkg:maven/io.netty/netty-buffer"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "4.1.113.Final"
-            },
-            {
-              "fixed": "4.1.113.Final-tuxcare.1"
-            }
-          ]
-        }
-      ],
-      "versions": [
-        "4.1.113.Final"
-      ],
-      "database_specific": {
-        "tuxcare": {
-          "base_version": "4.1.113.Final",
-          "fixed_version": "4.1.113.Final-tuxcare.1"
-        }
-      }
-    },
-    {
-      "package": {
-        "ecosystem": "TuxCare:Maven",
-        "name": "io.netty:netty-codec",
-        "purl": "pkg:maven/io.netty/netty-codec"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "4.1.113.Final"
-            },
-            {
-              "fixed": "4.1.113.Final-tuxcare.1"
-            }
-          ]
-        }
-      ],
-      "versions": [
-        "4.1.113.Final"
-      ],
-      "database_specific": {
-        "tuxcare": {
-          "base_version": "4.1.113.Final",
-          "fixed_version": "4.1.113.Final-tuxcare.1"
-        }
-      }
-    },
     {
       "package": {
         "ecosystem": "TuxCare:Maven",
@@ -316,64 +258,6 @@
     {
       "package": {
         "ecosystem": "TuxCare:Maven",
-        "name": "io.netty:netty-resolver",
-        "purl": "pkg:maven/io.netty/netty-resolver"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "4.1.113.Final"
-            },
-            {
-              "fixed": "4.1.113.Final-tuxcare.1"
-            }
-          ]
-        }
-      ],
-      "versions": [
-        "4.1.113.Final"
-      ],
-      "database_specific": {
-        "tuxcare": {
-          "base_version": "4.1.113.Final",
-          "fixed_version": "4.1.113.Final-tuxcare.1"
-        }
-      }
-    },
-    {
-      "package": {
-        "ecosystem": "TuxCare:Maven",
-        "name": "io.netty:netty-transport",
-        "purl": "pkg:maven/io.netty/netty-transport"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "4.1.113.Final"
-            },
-            {
-              "fixed": "4.1.113.Final-tuxcare.1"
-            }
-          ]
-        }
-      ],
-      "versions": [
-        "4.1.113.Final"
-      ],
-      "database_specific": {
-        "tuxcare": {
-          "base_version": "4.1.113.Final",
-          "fixed_version": "4.1.113.Final-tuxcare.1"
-        }
-      }
-    },
-    {
-      "package": {
-        "ecosystem": "TuxCare:Maven",
         "name": "io.netty:netty-transport-native-epoll",
         "purl": "pkg:maven/io.netty/netty-transport-native-epoll"
       },
@@ -405,35 +289,6 @@
         "ecosystem": "TuxCare:Maven",
         "name": "io.netty:netty-transport-native-kqueue",
         "purl": "pkg:maven/io.netty/netty-transport-native-kqueue"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "4.1.113.Final"
-            },
-            {
-              "fixed": "4.1.113.Final-tuxcare.1"
-            }
-          ]
-        }
-      ],
-      "versions": [
-        "4.1.113.Final"
-      ],
-      "database_specific": {
-        "tuxcare": {
-          "base_version": "4.1.113.Final",
-          "fixed_version": "4.1.113.Final-tuxcare.1"
-        }
-      }
-    },
-    {
-      "package": {
-        "ecosystem": "TuxCare:Maven",
-        "name": "io.netty:netty-transport-native-unix-common",
-        "purl": "pkg:maven/io.netty/netty-transport-native-unix-common"
       },
       "ranges": [
         {

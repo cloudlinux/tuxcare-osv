@@ -1,10 +1,10 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2026-1790069660",
-  "modified": "2026-10-29T19:43:08Z",
+  "modified": "2026-11-02T19:39:45Z",
   "published": "2026-09-22T09:34:20Z",
   "summary": "TuxCare security update for org.springframework (33 CVEs)",
-  "details": "TuxCare rebuilt 18 org.springframework packages to address 33 CVEs. Fixed in 5.3.19-tuxcare.1.",
+  "details": "TuxCare rebuilt 10 org.springframework packages to address 33 CVEs. Fixed in 5.3.19-tuxcare.1.",
   "upstream": [
     "CVE-2022-22971",
     "CVE-2023-20861",
@@ -44,66 +44,8 @@
     {
       "package": {
         "ecosystem": "TuxCare:Maven",
-        "name": "org.springframework:spring-aop",
-        "purl": "pkg:maven/org.springframework/spring-aop"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "5.3.19"
-            },
-            {
-              "fixed": "5.3.19-tuxcare.1"
-            }
-          ]
-        }
-      ],
-      "versions": [
-        "5.3.19"
-      ],
-      "database_specific": {
-        "tuxcare": {
-          "base_version": "5.3.19",
-          "fixed_version": "5.3.19-tuxcare.1"
-        }
-      }
-    },
-    {
-      "package": {
-        "ecosystem": "TuxCare:Maven",
         "name": "org.springframework:spring-beans",
         "purl": "pkg:maven/org.springframework/spring-beans"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "5.3.19"
-            },
-            {
-              "fixed": "5.3.19-tuxcare.1"
-            }
-          ]
-        }
-      ],
-      "versions": [
-        "5.3.19"
-      ],
-      "database_specific": {
-        "tuxcare": {
-          "base_version": "5.3.19",
-          "fixed_version": "5.3.19-tuxcare.1"
-        }
-      }
-    },
-    {
-      "package": {
-        "ecosystem": "TuxCare:Maven",
-        "name": "org.springframework:spring-context",
-        "purl": "pkg:maven/org.springframework/spring-context"
       },
       "ranges": [
         {
@@ -218,35 +160,6 @@
     {
       "package": {
         "ecosystem": "TuxCare:Maven",
-        "name": "org.springframework:spring-jdbc",
-        "purl": "pkg:maven/org.springframework/spring-jdbc"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "5.3.19"
-            },
-            {
-              "fixed": "5.3.19-tuxcare.1"
-            }
-          ]
-        }
-      ],
-      "versions": [
-        "5.3.19"
-      ],
-      "database_specific": {
-        "tuxcare": {
-          "base_version": "5.3.19",
-          "fixed_version": "5.3.19-tuxcare.1"
-        }
-      }
-    },
-    {
-      "package": {
-        "ecosystem": "TuxCare:Maven",
         "name": "org.springframework:spring-jms",
         "purl": "pkg:maven/org.springframework/spring-jms"
       },
@@ -278,151 +191,6 @@
         "ecosystem": "TuxCare:Maven",
         "name": "org.springframework:spring-messaging",
         "purl": "pkg:maven/org.springframework/spring-messaging"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "5.3.19"
-            },
-            {
-              "fixed": "5.3.19-tuxcare.1"
-            }
-          ]
-        }
-      ],
-      "versions": [
-        "5.3.19"
-      ],
-      "database_specific": {
-        "tuxcare": {
-          "base_version": "5.3.19",
-          "fixed_version": "5.3.19-tuxcare.1"
-        }
-      }
-    },
-    {
-      "package": {
-        "ecosystem": "TuxCare:Maven",
-        "name": "org.springframework:spring-orm",
-        "purl": "pkg:maven/org.springframework/spring-orm"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "5.3.19"
-            },
-            {
-              "fixed": "5.3.19-tuxcare.1"
-            }
-          ]
-        }
-      ],
-      "versions": [
-        "5.3.19"
-      ],
-      "database_specific": {
-        "tuxcare": {
-          "base_version": "5.3.19",
-          "fixed_version": "5.3.19-tuxcare.1"
-        }
-      }
-    },
-    {
-      "package": {
-        "ecosystem": "TuxCare:Maven",
-        "name": "org.springframework:spring-oxm",
-        "purl": "pkg:maven/org.springframework/spring-oxm"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "5.3.19"
-            },
-            {
-              "fixed": "5.3.19-tuxcare.1"
-            }
-          ]
-        }
-      ],
-      "versions": [
-        "5.3.19"
-      ],
-      "database_specific": {
-        "tuxcare": {
-          "base_version": "5.3.19",
-          "fixed_version": "5.3.19-tuxcare.1"
-        }
-      }
-    },
-    {
-      "package": {
-        "ecosystem": "TuxCare:Maven",
-        "name": "org.springframework:spring-r2dbc",
-        "purl": "pkg:maven/org.springframework/spring-r2dbc"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "5.3.19"
-            },
-            {
-              "fixed": "5.3.19-tuxcare.1"
-            }
-          ]
-        }
-      ],
-      "versions": [
-        "5.3.19"
-      ],
-      "database_specific": {
-        "tuxcare": {
-          "base_version": "5.3.19",
-          "fixed_version": "5.3.19-tuxcare.1"
-        }
-      }
-    },
-    {
-      "package": {
-        "ecosystem": "TuxCare:Maven",
-        "name": "org.springframework:spring-test",
-        "purl": "pkg:maven/org.springframework/spring-test"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "5.3.19"
-            },
-            {
-              "fixed": "5.3.19-tuxcare.1"
-            }
-          ]
-        }
-      ],
-      "versions": [
-        "5.3.19"
-      ],
-      "database_specific": {
-        "tuxcare": {
-          "base_version": "5.3.19",
-          "fixed_version": "5.3.19-tuxcare.1"
-        }
-      }
-    },
-    {
-      "package": {
-        "ecosystem": "TuxCare:Maven",
-        "name": "org.springframework:spring-tx",
-        "purl": "pkg:maven/org.springframework/spring-tx"
       },
       "ranges": [
         {

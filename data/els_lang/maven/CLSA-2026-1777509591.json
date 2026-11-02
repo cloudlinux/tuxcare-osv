@@ -1,10 +1,10 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2026-1777509591",
-  "modified": "2026-10-29T19:43:08Z",
+  "modified": "2026-11-02T19:39:45Z",
   "published": "2026-08-04T14:52:29Z",
-  "summary": "TuxCare security update for org.springframework.cloud (1 CVE)",
-  "details": "TuxCare rebuilt 3 org.springframework.cloud packages to address 1 CVE. Fixed in 3.1.9-tuxcare.2.",
+  "summary": "TuxCare security update for org.springframework.cloud:spring-cloud-gateway-server (1 CVE)",
+  "details": "TuxCare rebuilt org.springframework.cloud:spring-cloud-gateway-server to address 1 CVE. Fixed in 3.1.9-tuxcare.2.",
   "upstream": [
     "CVE-2025-41235"
   ],
@@ -12,68 +12,8 @@
     {
       "package": {
         "ecosystem": "TuxCare:Maven",
-        "name": "org.springframework.cloud:spring-cloud-gateway-docs",
-        "purl": "pkg:maven/org.springframework.cloud/spring-cloud-gateway-docs"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "3.1.9"
-            },
-            {
-              "fixed": "3.1.9-tuxcare.2"
-            }
-          ]
-        }
-      ],
-      "versions": [
-        "3.1.9",
-        "3.1.9-tuxcare.1"
-      ],
-      "database_specific": {
-        "tuxcare": {
-          "base_version": "3.1.9",
-          "fixed_version": "3.1.9-tuxcare.2"
-        }
-      }
-    },
-    {
-      "package": {
-        "ecosystem": "TuxCare:Maven",
         "name": "org.springframework.cloud:spring-cloud-gateway-server",
         "purl": "pkg:maven/org.springframework.cloud/spring-cloud-gateway-server"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "3.1.9"
-            },
-            {
-              "fixed": "3.1.9-tuxcare.2"
-            }
-          ]
-        }
-      ],
-      "versions": [
-        "3.1.9",
-        "3.1.9-tuxcare.1"
-      ],
-      "database_specific": {
-        "tuxcare": {
-          "base_version": "3.1.9",
-          "fixed_version": "3.1.9-tuxcare.2"
-        }
-      }
-    },
-    {
-      "package": {
-        "ecosystem": "TuxCare:Maven",
-        "name": "org.springframework.cloud:spring-cloud-starter-gateway",
-        "purl": "pkg:maven/org.springframework.cloud/spring-cloud-starter-gateway"
       },
       "ranges": [
         {

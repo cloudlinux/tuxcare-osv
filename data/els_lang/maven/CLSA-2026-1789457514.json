@@ -1,10 +1,10 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2026-1789457514",
-  "modified": "2026-10-30T19:34:22Z",
+  "modified": "2026-11-02T19:39:45Z",
   "published": "2026-09-15T07:31:54Z",
-  "summary": "TuxCare security update for io.undertow (1 CVE)",
-  "details": "TuxCare rebuilt 6 io.undertow packages to address 1 CVE. Fixed in 2.0.26.Final-tuxcare.1.",
+  "summary": "TuxCare security update for io.undertow:undertow-core (1 CVE)",
+  "details": "TuxCare rebuilt io.undertow:undertow-core to address 1 CVE. Fixed in 2.0.26.Final-tuxcare.1.",
   "upstream": [
     "CVE-2023-4639"
   ],
@@ -12,153 +12,8 @@
     {
       "package": {
         "ecosystem": "TuxCare:Maven",
-        "name": "io.undertow:karaf",
-        "purl": "pkg:maven/io.undertow/karaf"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "2.0.26.Final"
-            },
-            {
-              "fixed": "2.0.26.Final-tuxcare.1"
-            }
-          ]
-        }
-      ],
-      "versions": [
-        "2.0.26.Final"
-      ],
-      "database_specific": {
-        "tuxcare": {
-          "base_version": "2.0.26.Final",
-          "fixed_version": "2.0.26.Final-tuxcare.1"
-        }
-      }
-    },
-    {
-      "package": {
-        "ecosystem": "TuxCare:Maven",
-        "name": "io.undertow:undertow-benchmarks",
-        "purl": "pkg:maven/io.undertow/undertow-benchmarks"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "2.0.26.Final"
-            },
-            {
-              "fixed": "2.0.26.Final-tuxcare.1"
-            }
-          ]
-        }
-      ],
-      "versions": [
-        "2.0.26.Final"
-      ],
-      "database_specific": {
-        "tuxcare": {
-          "base_version": "2.0.26.Final",
-          "fixed_version": "2.0.26.Final-tuxcare.1"
-        }
-      }
-    },
-    {
-      "package": {
-        "ecosystem": "TuxCare:Maven",
         "name": "io.undertow:undertow-core",
         "purl": "pkg:maven/io.undertow/undertow-core"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "2.0.26.Final"
-            },
-            {
-              "fixed": "2.0.26.Final-tuxcare.1"
-            }
-          ]
-        }
-      ],
-      "versions": [
-        "2.0.26.Final"
-      ],
-      "database_specific": {
-        "tuxcare": {
-          "base_version": "2.0.26.Final",
-          "fixed_version": "2.0.26.Final-tuxcare.1"
-        }
-      }
-    },
-    {
-      "package": {
-        "ecosystem": "TuxCare:Maven",
-        "name": "io.undertow:undertow-examples",
-        "purl": "pkg:maven/io.undertow/undertow-examples"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "2.0.26.Final"
-            },
-            {
-              "fixed": "2.0.26.Final-tuxcare.1"
-            }
-          ]
-        }
-      ],
-      "versions": [
-        "2.0.26.Final"
-      ],
-      "database_specific": {
-        "tuxcare": {
-          "base_version": "2.0.26.Final",
-          "fixed_version": "2.0.26.Final-tuxcare.1"
-        }
-      }
-    },
-    {
-      "package": {
-        "ecosystem": "TuxCare:Maven",
-        "name": "io.undertow:undertow-servlet",
-        "purl": "pkg:maven/io.undertow/undertow-servlet"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "2.0.26.Final"
-            },
-            {
-              "fixed": "2.0.26.Final-tuxcare.1"
-            }
-          ]
-        }
-      ],
-      "versions": [
-        "2.0.26.Final"
-      ],
-      "database_specific": {
-        "tuxcare": {
-          "base_version": "2.0.26.Final",
-          "fixed_version": "2.0.26.Final-tuxcare.1"
-        }
-      }
-    },
-    {
-      "package": {
-        "ecosystem": "TuxCare:Maven",
-        "name": "io.undertow:undertow-websockets-jsr",
-        "purl": "pkg:maven/io.undertow/undertow-websockets-jsr"
       },
       "ranges": [
         {

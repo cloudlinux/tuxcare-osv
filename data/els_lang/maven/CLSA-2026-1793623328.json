@@ -1,0 +1,52 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1793623328",
+  "modified": "2026-11-02T19:39:45Z",
+  "published": "2026-11-02T13:42:09Z",
+  "summary": "TuxCare security update for org.springframework:spring-web (1 CVE)",
+  "details": "TuxCare rebuilt org.springframework:spring-web to address 1 CVE. Fixed in 5.3.7-tuxcare.11.",
+  "upstream": [
+    "CVE-2026-41854"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.springframework:spring-web",
+        "purl": "pkg:maven/org.springframework/spring-web"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "5.3.7"
+            },
+            {
+              "fixed": "5.3.7-tuxcare.11"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "5.3.7",
+        "5.3.7-tuxcare.1",
+        "5.3.7-tuxcare.10",
+        "5.3.7-tuxcare.2",
+        "5.3.7-tuxcare.3",
+        "5.3.7-tuxcare.4",
+        "5.3.7-tuxcare.5",
+        "5.3.7-tuxcare.6",
+        "5.3.7-tuxcare.7",
+        "5.3.7-tuxcare.8",
+        "5.3.7-tuxcare.9"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "5.3.7",
+          "fixed_version": "5.3.7-tuxcare.11"
+        }
+      }
+    }
+  ]
+}

@@ -1,10 +1,10 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2026-1789159265",
-  "modified": "2026-10-30T19:34:22Z",
+  "modified": "2026-11-02T19:39:45Z",
   "published": "2026-09-11T20:41:05Z",
-  "summary": "TuxCare security update for 4 packages (1 CVE)",
-  "details": "TuxCare rebuilt 4 packages to address 1 CVE. Fixed in 11.0.31.tuxcare0001.",
+  "summary": "TuxCare security update for org.eclipse.jetty:jetty-security (1 CVE)",
+  "details": "TuxCare rebuilt org.eclipse.jetty:jetty-security to address 1 CVE. Fixed in 11.0.31.tuxcare0001.",
   "upstream": [
     "CVE-2026-10050"
   ],
@@ -12,95 +12,8 @@
     {
       "package": {
         "ecosystem": "TuxCare:Maven",
-        "name": "org.eclipse.jetty.demos:demo-jetty-webapp",
-        "purl": "pkg:maven/org.eclipse.jetty.demos/demo-jetty-webapp"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "11.0.31"
-            },
-            {
-              "fixed": "11.0.31.tuxcare0001"
-            }
-          ]
-        }
-      ],
-      "versions": [
-        "11.0.31"
-      ],
-      "database_specific": {
-        "tuxcare": {
-          "base_version": "11.0.31",
-          "fixed_version": "11.0.31.tuxcare0001"
-        }
-      }
-    },
-    {
-      "package": {
-        "ecosystem": "TuxCare:Maven",
-        "name": "org.eclipse.jetty.websocket:websocket-jetty-server",
-        "purl": "pkg:maven/org.eclipse.jetty.websocket/websocket-jetty-server"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "11.0.31"
-            },
-            {
-              "fixed": "11.0.31.tuxcare0001"
-            }
-          ]
-        }
-      ],
-      "versions": [
-        "11.0.31"
-      ],
-      "database_specific": {
-        "tuxcare": {
-          "base_version": "11.0.31",
-          "fixed_version": "11.0.31.tuxcare0001"
-        }
-      }
-    },
-    {
-      "package": {
-        "ecosystem": "TuxCare:Maven",
         "name": "org.eclipse.jetty:jetty-security",
         "purl": "pkg:maven/org.eclipse.jetty/jetty-security"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "11.0.31"
-            },
-            {
-              "fixed": "11.0.31.tuxcare0001"
-            }
-          ]
-        }
-      ],
-      "versions": [
-        "11.0.31"
-      ],
-      "database_specific": {
-        "tuxcare": {
-          "base_version": "11.0.31",
-          "fixed_version": "11.0.31.tuxcare0001"
-        }
-      }
-    },
-    {
-      "package": {
-        "ecosystem": "TuxCare:Maven",
-        "name": "org.eclipse.jetty:jetty-servlet",
-        "purl": "pkg:maven/org.eclipse.jetty/jetty-servlet"
       },
       "ranges": [
         {

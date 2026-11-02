@@ -1,10 +1,10 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2026-1788350173",
-  "modified": "2026-10-30T07:17:27Z",
+  "modified": "2026-11-02T19:39:45Z",
   "published": "2026-09-02T11:56:13Z",
   "summary": "TuxCare security update for org.springframework (6 CVEs)",
-  "details": "TuxCare rebuilt 8 org.springframework packages to address 6 CVEs. Fixed in 5.3.39-tuxcare.21.",
+  "details": "TuxCare rebuilt 4 org.springframework packages to address 6 CVEs. Fixed in 5.3.39-tuxcare.21.",
   "upstream": [
     "CVE-2026-47884",
     "CVE-2026-47888",
@@ -17,152 +17,8 @@
     {
       "package": {
         "ecosystem": "TuxCare:Maven",
-        "name": "org.springframework:spring-context",
-        "purl": "pkg:maven/org.springframework/spring-context"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "5.3.39"
-            },
-            {
-              "fixed": "5.3.39-tuxcare.21"
-            }
-          ]
-        }
-      ],
-      "versions": [
-        "5.3.39",
-        "5.3.39-tuxcare.10",
-        "5.3.39-tuxcare.11",
-        "5.3.39-tuxcare.12",
-        "5.3.39-tuxcare.13",
-        "5.3.39-tuxcare.14",
-        "5.3.39-tuxcare.15",
-        "5.3.39-tuxcare.16",
-        "5.3.39-tuxcare.17",
-        "5.3.39-tuxcare.18",
-        "5.3.39-tuxcare.19",
-        "5.3.39-tuxcare.20",
-        "5.3.39-tuxcare.7",
-        "5.3.39-tuxcare.8",
-        "5.3.39-tuxcare.9",
-        "5.3.39.tuxcare.1",
-        "5.3.39.tuxcare.3",
-        "5.3.39.tuxcare.4",
-        "5.3.39.tuxcare.5",
-        "5.3.39.tuxcare.6"
-      ],
-      "database_specific": {
-        "tuxcare": {
-          "base_version": "5.3.39",
-          "fixed_version": "5.3.39-tuxcare.21"
-        }
-      }
-    },
-    {
-      "package": {
-        "ecosystem": "TuxCare:Maven",
-        "name": "org.springframework:spring-context-support",
-        "purl": "pkg:maven/org.springframework/spring-context-support"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "5.3.39"
-            },
-            {
-              "fixed": "5.3.39-tuxcare.21"
-            }
-          ]
-        }
-      ],
-      "versions": [
-        "5.3.39",
-        "5.3.39-tuxcare.10",
-        "5.3.39-tuxcare.11",
-        "5.3.39-tuxcare.12",
-        "5.3.39-tuxcare.13",
-        "5.3.39-tuxcare.14",
-        "5.3.39-tuxcare.15",
-        "5.3.39-tuxcare.16",
-        "5.3.39-tuxcare.17",
-        "5.3.39-tuxcare.18",
-        "5.3.39-tuxcare.19",
-        "5.3.39-tuxcare.20",
-        "5.3.39-tuxcare.7",
-        "5.3.39-tuxcare.8",
-        "5.3.39-tuxcare.9",
-        "5.3.39.tuxcare.1",
-        "5.3.39.tuxcare.3",
-        "5.3.39.tuxcare.4",
-        "5.3.39.tuxcare.5",
-        "5.3.39.tuxcare.6"
-      ],
-      "database_specific": {
-        "tuxcare": {
-          "base_version": "5.3.39",
-          "fixed_version": "5.3.39-tuxcare.21"
-        }
-      }
-    },
-    {
-      "package": {
-        "ecosystem": "TuxCare:Maven",
         "name": "org.springframework:spring-expression",
         "purl": "pkg:maven/org.springframework/spring-expression"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "5.3.39"
-            },
-            {
-              "fixed": "5.3.39-tuxcare.21"
-            }
-          ]
-        }
-      ],
-      "versions": [
-        "5.3.39",
-        "5.3.39-tuxcare.10",
-        "5.3.39-tuxcare.11",
-        "5.3.39-tuxcare.12",
-        "5.3.39-tuxcare.13",
-        "5.3.39-tuxcare.14",
-        "5.3.39-tuxcare.15",
-        "5.3.39-tuxcare.16",
-        "5.3.39-tuxcare.17",
-        "5.3.39-tuxcare.18",
-        "5.3.39-tuxcare.19",
-        "5.3.39-tuxcare.20",
-        "5.3.39-tuxcare.7",
-        "5.3.39-tuxcare.8",
-        "5.3.39-tuxcare.9",
-        "5.3.39.tuxcare.1",
-        "5.3.39.tuxcare.3",
-        "5.3.39.tuxcare.4",
-        "5.3.39.tuxcare.5",
-        "5.3.39.tuxcare.6"
-      ],
-      "database_specific": {
-        "tuxcare": {
-          "base_version": "5.3.39",
-          "fixed_version": "5.3.39-tuxcare.21"
-        }
-      }
-    },
-    {
-      "package": {
-        "ecosystem": "TuxCare:Maven",
-        "name": "org.springframework:spring-jms",
-        "purl": "pkg:maven/org.springframework/spring-jms"
       },
       "ranges": [
         {
@@ -307,54 +163,6 @@
         "ecosystem": "TuxCare:Maven",
         "name": "org.springframework:spring-webmvc",
         "purl": "pkg:maven/org.springframework/spring-webmvc"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "5.3.39"
-            },
-            {
-              "fixed": "5.3.39-tuxcare.21"
-            }
-          ]
-        }
-      ],
-      "versions": [
-        "5.3.39",
-        "5.3.39-tuxcare.10",
-        "5.3.39-tuxcare.11",
-        "5.3.39-tuxcare.12",
-        "5.3.39-tuxcare.13",
-        "5.3.39-tuxcare.14",
-        "5.3.39-tuxcare.15",
-        "5.3.39-tuxcare.16",
-        "5.3.39-tuxcare.17",
-        "5.3.39-tuxcare.18",
-        "5.3.39-tuxcare.19",
-        "5.3.39-tuxcare.20",
-        "5.3.39-tuxcare.7",
-        "5.3.39-tuxcare.8",
-        "5.3.39-tuxcare.9",
-        "5.3.39.tuxcare.1",
-        "5.3.39.tuxcare.3",
-        "5.3.39.tuxcare.4",
-        "5.3.39.tuxcare.5",
-        "5.3.39.tuxcare.6"
-      ],
-      "database_specific": {
-        "tuxcare": {
-          "base_version": "5.3.39",
-          "fixed_version": "5.3.39-tuxcare.21"
-        }
-      }
-    },
-    {
-      "package": {
-        "ecosystem": "TuxCare:Maven",
-        "name": "org.springframework:spring-websocket",
-        "purl": "pkg:maven/org.springframework/spring-websocket"
       },
       "ranges": [
         {

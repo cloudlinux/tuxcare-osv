@@ -1,45 +1,16 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2026-1779238042",
-  "modified": "2026-10-29T19:43:08Z",
+  "modified": "2026-11-02T19:39:45Z",
   "published": "2026-08-04T14:52:32Z",
   "summary": "TuxCare security update for org.springframework (3 CVEs)",
-  "details": "TuxCare rebuilt 4 org.springframework packages to address 3 CVEs. Fixed in 3.0.5.RELEASE-tuxcare.1.",
+  "details": "TuxCare rebuilt 2 org.springframework packages to address 3 CVEs. Fixed in 3.0.5.RELEASE-tuxcare.1.",
   "upstream": [
     "CVE-2013-6430",
     "CVE-2014-3625",
     "CVE-2018-11039"
   ],
   "affected": [
-    {
-      "package": {
-        "ecosystem": "TuxCare:Maven",
-        "name": "org.springframework:spring-struts",
-        "purl": "pkg:maven/org.springframework/spring-struts"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "3.0.5.RELEASE"
-            },
-            {
-              "fixed": "3.0.5.RELEASE-tuxcare.1"
-            }
-          ]
-        }
-      ],
-      "versions": [
-        "3.0.5.RELEASE"
-      ],
-      "database_specific": {
-        "tuxcare": {
-          "base_version": "3.0.5.RELEASE",
-          "fixed_version": "3.0.5.RELEASE-tuxcare.1"
-        }
-      }
-    },
     {
       "package": {
         "ecosystem": "TuxCare:Maven",
@@ -74,35 +45,6 @@
         "ecosystem": "TuxCare:Maven",
         "name": "org.springframework:spring-webmvc",
         "purl": "pkg:maven/org.springframework/spring-webmvc"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "3.0.5.RELEASE"
-            },
-            {
-              "fixed": "3.0.5.RELEASE-tuxcare.1"
-            }
-          ]
-        }
-      ],
-      "versions": [
-        "3.0.5.RELEASE"
-      ],
-      "database_specific": {
-        "tuxcare": {
-          "base_version": "3.0.5.RELEASE",
-          "fixed_version": "3.0.5.RELEASE-tuxcare.1"
-        }
-      }
-    },
-    {
-      "package": {
-        "ecosystem": "TuxCare:Maven",
-        "name": "org.springframework:spring-webmvc-portlet",
-        "purl": "pkg:maven/org.springframework/spring-webmvc-portlet"
       },
       "ranges": [
         {

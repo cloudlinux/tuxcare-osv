@@ -1,10 +1,10 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2026-1786540569",
-  "modified": "2026-10-30T19:34:22Z",
+  "modified": "2026-11-02T19:39:45Z",
   "published": "2026-08-12T13:16:09Z",
-  "summary": "TuxCare security update for org.apache.avro (1 CVE)",
-  "details": "TuxCare rebuilt 4 org.apache.avro packages to address 1 CVE. Fixed in 1.11.3-tuxcare.5.",
+  "summary": "TuxCare security update for org.apache.avro:avro-compiler (1 CVE)",
+  "details": "TuxCare rebuilt org.apache.avro:avro-compiler to address 1 CVE. Fixed in 1.11.3-tuxcare.5.",
   "upstream": [
     "CVE-2025-33042"
   ],
@@ -12,107 +12,8 @@
     {
       "package": {
         "ecosystem": "TuxCare:Maven",
-        "name": "org.apache.avro:avro-codegen-test",
-        "purl": "pkg:maven/org.apache.avro/avro-codegen-test"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "1.11.3"
-            },
-            {
-              "fixed": "1.11.3-tuxcare.5"
-            }
-          ]
-        }
-      ],
-      "versions": [
-        "1.11.3",
-        "1.11.3-tuxcare.1",
-        "1.11.3-tuxcare.2",
-        "1.11.3-tuxcare.3",
-        "1.11.3-tuxcare.4"
-      ],
-      "database_specific": {
-        "tuxcare": {
-          "base_version": "1.11.3",
-          "fixed_version": "1.11.3-tuxcare.5"
-        }
-      }
-    },
-    {
-      "package": {
-        "ecosystem": "TuxCare:Maven",
         "name": "org.apache.avro:avro-compiler",
         "purl": "pkg:maven/org.apache.avro/avro-compiler"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "1.11.3"
-            },
-            {
-              "fixed": "1.11.3-tuxcare.5"
-            }
-          ]
-        }
-      ],
-      "versions": [
-        "1.11.3",
-        "1.11.3-tuxcare.1",
-        "1.11.3-tuxcare.2",
-        "1.11.3-tuxcare.3",
-        "1.11.3-tuxcare.4"
-      ],
-      "database_specific": {
-        "tuxcare": {
-          "base_version": "1.11.3",
-          "fixed_version": "1.11.3-tuxcare.5"
-        }
-      }
-    },
-    {
-      "package": {
-        "ecosystem": "TuxCare:Maven",
-        "name": "org.apache.avro:avro-maven-plugin",
-        "purl": "pkg:maven/org.apache.avro/avro-maven-plugin"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "1.11.3"
-            },
-            {
-              "fixed": "1.11.3-tuxcare.5"
-            }
-          ]
-        }
-      ],
-      "versions": [
-        "1.11.3",
-        "1.11.3-tuxcare.1",
-        "1.11.3-tuxcare.2",
-        "1.11.3-tuxcare.3",
-        "1.11.3-tuxcare.4"
-      ],
-      "database_specific": {
-        "tuxcare": {
-          "base_version": "1.11.3",
-          "fixed_version": "1.11.3-tuxcare.5"
-        }
-      }
-    },
-    {
-      "package": {
-        "ecosystem": "TuxCare:Maven",
-        "name": "org.apache.avro:avro-tools",
-        "purl": "pkg:maven/org.apache.avro/avro-tools"
       },
       "ranges": [
         {

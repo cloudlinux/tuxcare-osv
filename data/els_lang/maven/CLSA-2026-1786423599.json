@@ -1,10 +1,10 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2026-1786423599",
-  "modified": "2026-10-30T07:17:27Z",
+  "modified": "2026-11-02T19:39:45Z",
   "published": "2026-08-11T04:46:39Z",
-  "summary": "TuxCare security update for org.springframework (1 CVE)",
-  "details": "TuxCare rebuilt 2 org.springframework packages to address 1 CVE. Fixed in 4.3.30.RELEASE-tuxcare.5.",
+  "summary": "TuxCare security update for org.springframework:spring-webmvc (1 CVE)",
+  "details": "TuxCare rebuilt org.springframework:spring-webmvc to address 1 CVE. Fixed in 4.3.30.RELEASE-tuxcare.5.",
   "upstream": [
     "CVE-2025-41242"
   ],
@@ -14,39 +14,6 @@
         "ecosystem": "TuxCare:Maven",
         "name": "org.springframework:spring-webmvc",
         "purl": "pkg:maven/org.springframework/spring-webmvc"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "4.3.30.RELEASE"
-            },
-            {
-              "fixed": "4.3.30.RELEASE-tuxcare.5"
-            }
-          ]
-        }
-      ],
-      "versions": [
-        "4.3.30.RELEASE",
-        "4.3.30.RELEASE-tuxcare.1",
-        "4.3.30.RELEASE-tuxcare.2",
-        "4.3.30.RELEASE-tuxcare.3",
-        "4.3.30.RELEASE-tuxcare.4"
-      ],
-      "database_specific": {
-        "tuxcare": {
-          "base_version": "4.3.30.RELEASE",
-          "fixed_version": "4.3.30.RELEASE-tuxcare.5"
-        }
-      }
-    },
-    {
-      "package": {
-        "ecosystem": "TuxCare:Maven",
-        "name": "org.springframework:spring-webmvc-portlet",
-        "purl": "pkg:maven/org.springframework/spring-webmvc-portlet"
       },
       "ranges": [
         {

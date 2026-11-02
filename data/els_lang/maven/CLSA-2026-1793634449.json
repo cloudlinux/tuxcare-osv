@@ -1,0 +1,53 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1793634449",
+  "modified": "2026-11-02T19:39:45Z",
+  "published": "2026-11-02T16:47:30Z",
+  "summary": "TuxCare security update for org.springframework:spring-expression (1 CVE)",
+  "details": "TuxCare rebuilt org.springframework:spring-expression to address 1 CVE. Fixed in 6.0.16-tuxcare.12.",
+  "upstream": [
+    "CVE-2024-38808"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.springframework:spring-expression",
+        "purl": "pkg:maven/org.springframework/spring-expression"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "6.0.16"
+            },
+            {
+              "fixed": "6.0.16-tuxcare.12"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "6.0.16",
+        "6.0.16-tuxcare.1",
+        "6.0.16-tuxcare.10",
+        "6.0.16-tuxcare.11",
+        "6.0.16-tuxcare.2",
+        "6.0.16-tuxcare.3",
+        "6.0.16-tuxcare.4",
+        "6.0.16-tuxcare.5",
+        "6.0.16-tuxcare.6",
+        "6.0.16-tuxcare.7",
+        "6.0.16-tuxcare.8",
+        "6.0.16-tuxcare.9"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "6.0.16",
+          "fixed_version": "6.0.16-tuxcare.12"
+        }
+      }
+    }
+  ]
+}

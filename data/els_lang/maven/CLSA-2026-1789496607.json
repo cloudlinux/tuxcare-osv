@@ -1,10 +1,10 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2026-1789496607",
-  "modified": "2026-10-29T19:43:08Z",
+  "modified": "2026-11-02T19:39:45Z",
   "published": "2026-09-15T18:23:27Z",
   "summary": "TuxCare security update for org.springframework (2 CVEs)",
-  "details": "TuxCare rebuilt 4 org.springframework packages to address 2 CVEs. Fixed in 5.2.7.RELEASE-tuxcare.1.",
+  "details": "TuxCare rebuilt 3 org.springframework packages to address 2 CVEs. Fixed in 5.2.7.RELEASE-tuxcare.1.",
   "upstream": [
     "CVE-2026-22741",
     "CVE-2026-41845"
@@ -73,35 +73,6 @@
         "ecosystem": "TuxCare:Maven",
         "name": "org.springframework:spring-webmvc",
         "purl": "pkg:maven/org.springframework/spring-webmvc"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "5.2.7.RELEASE"
-            },
-            {
-              "fixed": "5.2.7.RELEASE-tuxcare.1"
-            }
-          ]
-        }
-      ],
-      "versions": [
-        "5.2.7.RELEASE"
-      ],
-      "database_specific": {
-        "tuxcare": {
-          "base_version": "5.2.7.RELEASE",
-          "fixed_version": "5.2.7.RELEASE-tuxcare.1"
-        }
-      }
-    },
-    {
-      "package": {
-        "ecosystem": "TuxCare:Maven",
-        "name": "org.springframework:spring-websocket",
-        "purl": "pkg:maven/org.springframework/spring-websocket"
       },
       "ranges": [
         {

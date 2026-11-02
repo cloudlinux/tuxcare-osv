@@ -1,10 +1,10 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2026-1792395367",
-  "modified": "2026-10-30T19:34:22Z",
+  "modified": "2026-11-02T19:39:45Z",
   "published": "2026-10-19T07:36:07Z",
-  "summary": "TuxCare security update for io.micrometer (1 CVE)",
-  "details": "TuxCare rebuilt 2 io.micrometer packages to address 1 CVE. Fixed in 1.4.13-tuxcare.2.",
+  "summary": "TuxCare security update for io.micrometer:micrometer-tracing-bridge-brave (1 CVE)",
+  "details": "TuxCare rebuilt io.micrometer:micrometer-tracing-bridge-brave to address 1 CVE. Fixed in 1.4.13-tuxcare.2.",
   "upstream": [
     "CVE-2026-59323"
   ],
@@ -14,36 +14,6 @@
         "ecosystem": "TuxCare:Maven",
         "name": "io.micrometer:micrometer-tracing-bridge-brave",
         "purl": "pkg:maven/io.micrometer/micrometer-tracing-bridge-brave"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "1.4.13"
-            },
-            {
-              "fixed": "1.4.13-tuxcare.2"
-            }
-          ]
-        }
-      ],
-      "versions": [
-        "1.4.13",
-        "1.4.13-tuxcare.1"
-      ],
-      "database_specific": {
-        "tuxcare": {
-          "base_version": "1.4.13",
-          "fixed_version": "1.4.13-tuxcare.2"
-        }
-      }
-    },
-    {
-      "package": {
-        "ecosystem": "TuxCare:Maven",
-        "name": "io.micrometer:micrometer-tracing-integration-test",
-        "purl": "pkg:maven/io.micrometer/micrometer-tracing-integration-test"
       },
       "ranges": [
         {

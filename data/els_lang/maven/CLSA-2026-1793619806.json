@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1793619806",
+  "modified": "2026-11-02T19:39:45Z",
+  "published": "2026-11-02T12:43:27Z",
+  "summary": "TuxCare security update for org.springframework.pulsar:spring-pulsar (1 CVE)",
+  "details": "TuxCare rebuilt org.springframework.pulsar:spring-pulsar to address 1 CVE. Fixed in 1.2.12-tuxcare.1.",
+  "upstream": [
+    "CVE-2026-41732"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.springframework.pulsar:spring-pulsar",
+        "purl": "pkg:maven/org.springframework.pulsar/spring-pulsar"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "1.2.12"
+            },
+            {
+              "fixed": "1.2.12-tuxcare.1"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "1.2.12"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "1.2.12",
+          "fixed_version": "1.2.12-tuxcare.1"
+        }
+      }
+    }
+  ]
+}

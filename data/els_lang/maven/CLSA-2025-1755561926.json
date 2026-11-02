@@ -1,10 +1,10 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2025-1755561926",
-  "modified": "2026-10-30T19:34:22Z",
+  "modified": "2026-11-02T19:39:45Z",
   "published": "2026-08-04T14:52:05Z",
-  "summary": "TuxCare security update for org.codehaus.jackson (1 CVE)",
-  "details": "TuxCare rebuilt 4 org.codehaus.jackson packages to address 1 CVE. Fixed in 1.9.13-tuxcare.1.",
+  "summary": "TuxCare security update for org.codehaus.jackson:jackson-mapper-asl (1 CVE)",
+  "details": "TuxCare rebuilt org.codehaus.jackson:jackson-mapper-asl to address 1 CVE. Fixed in 1.9.13-tuxcare.1.",
   "upstream": [
     "CVE-2019-10172"
   ],
@@ -12,95 +12,8 @@
     {
       "package": {
         "ecosystem": "TuxCare:Maven",
-        "name": "org.codehaus.jackson:jackson-jaxrs",
-        "purl": "pkg:maven/org.codehaus.jackson/jackson-jaxrs"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "1.9.13"
-            },
-            {
-              "fixed": "1.9.13-tuxcare.1"
-            }
-          ]
-        }
-      ],
-      "versions": [
-        "1.9.13"
-      ],
-      "database_specific": {
-        "tuxcare": {
-          "base_version": "1.9.13",
-          "fixed_version": "1.9.13-tuxcare.1"
-        }
-      }
-    },
-    {
-      "package": {
-        "ecosystem": "TuxCare:Maven",
         "name": "org.codehaus.jackson:jackson-mapper-asl",
         "purl": "pkg:maven/org.codehaus.jackson/jackson-mapper-asl"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "1.9.13"
-            },
-            {
-              "fixed": "1.9.13-tuxcare.1"
-            }
-          ]
-        }
-      ],
-      "versions": [
-        "1.9.13"
-      ],
-      "database_specific": {
-        "tuxcare": {
-          "base_version": "1.9.13",
-          "fixed_version": "1.9.13-tuxcare.1"
-        }
-      }
-    },
-    {
-      "package": {
-        "ecosystem": "TuxCare:Maven",
-        "name": "org.codehaus.jackson:jackson-mrbean",
-        "purl": "pkg:maven/org.codehaus.jackson/jackson-mrbean"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "1.9.13"
-            },
-            {
-              "fixed": "1.9.13-tuxcare.1"
-            }
-          ]
-        }
-      ],
-      "versions": [
-        "1.9.13"
-      ],
-      "database_specific": {
-        "tuxcare": {
-          "base_version": "1.9.13",
-          "fixed_version": "1.9.13-tuxcare.1"
-        }
-      }
-    },
-    {
-      "package": {
-        "ecosystem": "TuxCare:Maven",
-        "name": "org.codehaus.jackson:jackson-xc",
-        "purl": "pkg:maven/org.codehaus.jackson/jackson-xc"
       },
       "ranges": [
         {

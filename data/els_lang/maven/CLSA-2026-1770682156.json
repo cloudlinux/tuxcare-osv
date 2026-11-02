@@ -1,10 +1,10 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2026-1770682156",
-  "modified": "2026-10-30T19:34:22Z",
+  "modified": "2026-11-02T19:39:45Z",
   "published": "2026-08-04T14:52:07Z",
-  "summary": "TuxCare security update for org.hibernate (1 CVE)",
-  "details": "TuxCare rebuilt 2 org.hibernate packages to address 1 CVE. Fixed in 5.4.3.Final-tuxcare.1.",
+  "summary": "TuxCare security update for org.hibernate:hibernate-validator (1 CVE)",
+  "details": "TuxCare rebuilt org.hibernate:hibernate-validator to address 1 CVE. Fixed in 5.4.3.Final-tuxcare.1.",
   "upstream": [
     "CVE-2020-10693"
   ],
@@ -14,35 +14,6 @@
         "ecosystem": "TuxCare:Maven",
         "name": "org.hibernate:hibernate-validator",
         "purl": "pkg:maven/org.hibernate/hibernate-validator"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "5.4.3.Final"
-            },
-            {
-              "fixed": "5.4.3.Final-tuxcare.1"
-            }
-          ]
-        }
-      ],
-      "versions": [
-        "5.4.3.Final"
-      ],
-      "database_specific": {
-        "tuxcare": {
-          "base_version": "5.4.3.Final",
-          "fixed_version": "5.4.3.Final-tuxcare.1"
-        }
-      }
-    },
-    {
-      "package": {
-        "ecosystem": "TuxCare:Maven",
-        "name": "org.hibernate:hibernate-validator-cdi",
-        "purl": "pkg:maven/org.hibernate/hibernate-validator-cdi"
       },
       "ranges": [
         {

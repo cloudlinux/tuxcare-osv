@@ -1,10 +1,10 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2026-1791464212",
-  "modified": "2026-10-29T19:43:08Z",
+  "modified": "2026-11-02T19:39:45Z",
   "published": "2026-10-08T12:56:52Z",
   "summary": "TuxCare security update for org.springframework (30 CVEs)",
-  "details": "TuxCare rebuilt 17 org.springframework packages to address 30 CVEs. Fixed in 4.1.9.RELEASE-tuxcare.2.",
+  "details": "TuxCare rebuilt 9 org.springframework packages to address 30 CVEs. Fixed in 4.1.9.RELEASE-tuxcare.2.",
   "upstream": [
     "CVE-2021-22096",
     "CVE-2023-20861",
@@ -38,36 +38,6 @@
     "CVE-2026-59314"
   ],
   "affected": [
-    {
-      "package": {
-        "ecosystem": "TuxCare:Maven",
-        "name": "org.springframework:spring-aop",
-        "purl": "pkg:maven/org.springframework/spring-aop"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "4.1.9.RELEASE"
-            },
-            {
-              "fixed": "4.1.9.RELEASE-tuxcare.2"
-            }
-          ]
-        }
-      ],
-      "versions": [
-        "4.1.9.RELEASE",
-        "4.1.9.RELEASE-tuxcare.1"
-      ],
-      "database_specific": {
-        "tuxcare": {
-          "base_version": "4.1.9.RELEASE",
-          "fixed_version": "4.1.9.RELEASE-tuxcare.2"
-        }
-      }
-    },
     {
       "package": {
         "ecosystem": "TuxCare:Maven",
@@ -221,188 +191,8 @@
     {
       "package": {
         "ecosystem": "TuxCare:Maven",
-        "name": "org.springframework:spring-jdbc",
-        "purl": "pkg:maven/org.springframework/spring-jdbc"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "4.1.9.RELEASE"
-            },
-            {
-              "fixed": "4.1.9.RELEASE-tuxcare.2"
-            }
-          ]
-        }
-      ],
-      "versions": [
-        "4.1.9.RELEASE",
-        "4.1.9.RELEASE-tuxcare.1"
-      ],
-      "database_specific": {
-        "tuxcare": {
-          "base_version": "4.1.9.RELEASE",
-          "fixed_version": "4.1.9.RELEASE-tuxcare.2"
-        }
-      }
-    },
-    {
-      "package": {
-        "ecosystem": "TuxCare:Maven",
         "name": "org.springframework:spring-jms",
         "purl": "pkg:maven/org.springframework/spring-jms"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "4.1.9.RELEASE"
-            },
-            {
-              "fixed": "4.1.9.RELEASE-tuxcare.2"
-            }
-          ]
-        }
-      ],
-      "versions": [
-        "4.1.9.RELEASE",
-        "4.1.9.RELEASE-tuxcare.1"
-      ],
-      "database_specific": {
-        "tuxcare": {
-          "base_version": "4.1.9.RELEASE",
-          "fixed_version": "4.1.9.RELEASE-tuxcare.2"
-        }
-      }
-    },
-    {
-      "package": {
-        "ecosystem": "TuxCare:Maven",
-        "name": "org.springframework:spring-messaging",
-        "purl": "pkg:maven/org.springframework/spring-messaging"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "4.1.9.RELEASE"
-            },
-            {
-              "fixed": "4.1.9.RELEASE-tuxcare.2"
-            }
-          ]
-        }
-      ],
-      "versions": [
-        "4.1.9.RELEASE",
-        "4.1.9.RELEASE-tuxcare.1"
-      ],
-      "database_specific": {
-        "tuxcare": {
-          "base_version": "4.1.9.RELEASE",
-          "fixed_version": "4.1.9.RELEASE-tuxcare.2"
-        }
-      }
-    },
-    {
-      "package": {
-        "ecosystem": "TuxCare:Maven",
-        "name": "org.springframework:spring-orm",
-        "purl": "pkg:maven/org.springframework/spring-orm"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "4.1.9.RELEASE"
-            },
-            {
-              "fixed": "4.1.9.RELEASE-tuxcare.2"
-            }
-          ]
-        }
-      ],
-      "versions": [
-        "4.1.9.RELEASE",
-        "4.1.9.RELEASE-tuxcare.1"
-      ],
-      "database_specific": {
-        "tuxcare": {
-          "base_version": "4.1.9.RELEASE",
-          "fixed_version": "4.1.9.RELEASE-tuxcare.2"
-        }
-      }
-    },
-    {
-      "package": {
-        "ecosystem": "TuxCare:Maven",
-        "name": "org.springframework:spring-oxm",
-        "purl": "pkg:maven/org.springframework/spring-oxm"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "4.1.9.RELEASE"
-            },
-            {
-              "fixed": "4.1.9.RELEASE-tuxcare.2"
-            }
-          ]
-        }
-      ],
-      "versions": [
-        "4.1.9.RELEASE",
-        "4.1.9.RELEASE-tuxcare.1"
-      ],
-      "database_specific": {
-        "tuxcare": {
-          "base_version": "4.1.9.RELEASE",
-          "fixed_version": "4.1.9.RELEASE-tuxcare.2"
-        }
-      }
-    },
-    {
-      "package": {
-        "ecosystem": "TuxCare:Maven",
-        "name": "org.springframework:spring-test",
-        "purl": "pkg:maven/org.springframework/spring-test"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "4.1.9.RELEASE"
-            },
-            {
-              "fixed": "4.1.9.RELEASE-tuxcare.2"
-            }
-          ]
-        }
-      ],
-      "versions": [
-        "4.1.9.RELEASE",
-        "4.1.9.RELEASE-tuxcare.1"
-      ],
-      "database_specific": {
-        "tuxcare": {
-          "base_version": "4.1.9.RELEASE",
-          "fixed_version": "4.1.9.RELEASE-tuxcare.2"
-        }
-      }
-    },
-    {
-      "package": {
-        "ecosystem": "TuxCare:Maven",
-        "name": "org.springframework:spring-tx",
-        "purl": "pkg:maven/org.springframework/spring-tx"
       },
       "ranges": [
         {
@@ -463,36 +253,6 @@
         "ecosystem": "TuxCare:Maven",
         "name": "org.springframework:spring-webmvc",
         "purl": "pkg:maven/org.springframework/spring-webmvc"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "4.1.9.RELEASE"
-            },
-            {
-              "fixed": "4.1.9.RELEASE-tuxcare.2"
-            }
-          ]
-        }
-      ],
-      "versions": [
-        "4.1.9.RELEASE",
-        "4.1.9.RELEASE-tuxcare.1"
-      ],
-      "database_specific": {
-        "tuxcare": {
-          "base_version": "4.1.9.RELEASE",
-          "fixed_version": "4.1.9.RELEASE-tuxcare.2"
-        }
-      }
-    },
-    {
-      "package": {
-        "ecosystem": "TuxCare:Maven",
-        "name": "org.springframework:spring-webmvc-portlet",
-        "purl": "pkg:maven/org.springframework/spring-webmvc-portlet"
       },
       "ranges": [
         {

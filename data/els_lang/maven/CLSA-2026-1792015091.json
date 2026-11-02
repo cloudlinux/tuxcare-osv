@@ -1,75 +1,15 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2026-1792015091",
-  "modified": "2026-10-30T19:34:22Z",
+  "modified": "2026-11-02T19:39:45Z",
   "published": "2026-10-14T21:58:11Z",
-  "summary": "TuxCare security update for ch.qos.logback (2 CVEs)",
-  "details": "TuxCare rebuilt 3 ch.qos.logback packages to address 2 CVEs. Fixed in 1.4.14-tuxcare.2.",
+  "summary": "TuxCare security update for ch.qos.logback:logback-core (2 CVEs)",
+  "details": "TuxCare rebuilt ch.qos.logback:logback-core to address 2 CVEs. Fixed in 1.4.14-tuxcare.2.",
   "upstream": [
     "CVE-2026-10532",
     "CVE-2026-1225"
   ],
   "affected": [
-    {
-      "package": {
-        "ecosystem": "TuxCare:Maven",
-        "name": "ch.qos.logback:logback-access",
-        "purl": "pkg:maven/ch.qos.logback/logback-access"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "1.4.14"
-            },
-            {
-              "fixed": "1.4.14-tuxcare.2"
-            }
-          ]
-        }
-      ],
-      "versions": [
-        "1.4.14",
-        "1.4.14-tuxcare.1"
-      ],
-      "database_specific": {
-        "tuxcare": {
-          "base_version": "1.4.14",
-          "fixed_version": "1.4.14-tuxcare.2"
-        }
-      }
-    },
-    {
-      "package": {
-        "ecosystem": "TuxCare:Maven",
-        "name": "ch.qos.logback:logback-classic",
-        "purl": "pkg:maven/ch.qos.logback/logback-classic"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "1.4.14"
-            },
-            {
-              "fixed": "1.4.14-tuxcare.2"
-            }
-          ]
-        }
-      ],
-      "versions": [
-        "1.4.14",
-        "1.4.14-tuxcare.1"
-      ],
-      "database_specific": {
-        "tuxcare": {
-          "base_version": "1.4.14",
-          "fixed_version": "1.4.14-tuxcare.2"
-        }
-      }
-    },
     {
       "package": {
         "ecosystem": "TuxCare:Maven",

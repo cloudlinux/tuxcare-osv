@@ -1,10 +1,10 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2026-1775608278",
-  "modified": "2026-10-30T07:17:27Z",
+  "modified": "2026-11-02T19:39:45Z",
   "published": "2026-08-04T14:52:23Z",
-  "summary": "TuxCare security update for org.apache.tomcat (1 CVE)",
-  "details": "TuxCare rebuilt 4 org.apache.tomcat packages to address 1 CVE. Fixed in 9.0.75-tuxcare.4.",
+  "summary": "TuxCare security update for org.apache.tomcat:tomcat-coyote (1 CVE)",
+  "details": "TuxCare rebuilt org.apache.tomcat:tomcat-coyote to address 1 CVE. Fixed in 9.0.75-tuxcare.4.",
   "upstream": [
     "CVE-2026-24733"
   ],
@@ -12,104 +12,8 @@
     {
       "package": {
         "ecosystem": "TuxCare:Maven",
-        "name": "org.apache.tomcat:tomcat-catalina",
-        "purl": "pkg:maven/org.apache.tomcat/tomcat-catalina"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "9.0.75"
-            },
-            {
-              "fixed": "9.0.75-tuxcare.4"
-            }
-          ]
-        }
-      ],
-      "versions": [
-        "9.0.75",
-        "9.0.75-tuxcare.1",
-        "9.0.75-tuxcare.2",
-        "9.0.75-tuxcare.3"
-      ],
-      "database_specific": {
-        "tuxcare": {
-          "base_version": "9.0.75",
-          "fixed_version": "9.0.75-tuxcare.4"
-        }
-      }
-    },
-    {
-      "package": {
-        "ecosystem": "TuxCare:Maven",
-        "name": "org.apache.tomcat:tomcat-catalina-ha",
-        "purl": "pkg:maven/org.apache.tomcat/tomcat-catalina-ha"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "9.0.75"
-            },
-            {
-              "fixed": "9.0.75-tuxcare.4"
-            }
-          ]
-        }
-      ],
-      "versions": [
-        "9.0.75",
-        "9.0.75-tuxcare.1",
-        "9.0.75-tuxcare.2",
-        "9.0.75-tuxcare.3"
-      ],
-      "database_specific": {
-        "tuxcare": {
-          "base_version": "9.0.75",
-          "fixed_version": "9.0.75-tuxcare.4"
-        }
-      }
-    },
-    {
-      "package": {
-        "ecosystem": "TuxCare:Maven",
         "name": "org.apache.tomcat:tomcat-coyote",
         "purl": "pkg:maven/org.apache.tomcat/tomcat-coyote"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "9.0.75"
-            },
-            {
-              "fixed": "9.0.75-tuxcare.4"
-            }
-          ]
-        }
-      ],
-      "versions": [
-        "9.0.75",
-        "9.0.75-tuxcare.1",
-        "9.0.75-tuxcare.2",
-        "9.0.75-tuxcare.3"
-      ],
-      "database_specific": {
-        "tuxcare": {
-          "base_version": "9.0.75",
-          "fixed_version": "9.0.75-tuxcare.4"
-        }
-      }
-    },
-    {
-      "package": {
-        "ecosystem": "TuxCare:Maven",
-        "name": "org.apache.tomcat:tomcat-storeconfig",
-        "purl": "pkg:maven/org.apache.tomcat/tomcat-storeconfig"
       },
       "ranges": [
         {

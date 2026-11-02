@@ -1,78 +1,14 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2026-1787658666",
-  "modified": "2026-10-30T19:34:22Z",
+  "modified": "2026-11-02T19:39:45Z",
   "published": "2026-08-25T11:51:06Z",
-  "summary": "TuxCare security update for 3 packages (1 CVE)",
-  "details": "TuxCare rebuilt 3 packages to address 1 CVE. Fixed in 11.0.28.tuxcare0004.",
+  "summary": "TuxCare security update for org.eclipse.jetty:jetty-server (1 CVE)",
+  "details": "TuxCare rebuilt org.eclipse.jetty:jetty-server to address 1 CVE. Fixed in 11.0.28.tuxcare0004.",
   "upstream": [
     "CVE-2026-6790"
   ],
   "affected": [
-    {
-      "package": {
-        "ecosystem": "TuxCare:Maven",
-        "name": "org.eclipse.jetty.demos:demo-jetty-webapp",
-        "purl": "pkg:maven/org.eclipse.jetty.demos/demo-jetty-webapp"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "11.0.28"
-            },
-            {
-              "fixed": "11.0.28.tuxcare0004"
-            }
-          ]
-        }
-      ],
-      "versions": [
-        "11.0.28",
-        "11.0.28-tuxcare.2",
-        "11.0.28.tuxcare0001",
-        "11.0.28.tuxcare0003"
-      ],
-      "database_specific": {
-        "tuxcare": {
-          "base_version": "11.0.28",
-          "fixed_version": "11.0.28.tuxcare0004"
-        }
-      }
-    },
-    {
-      "package": {
-        "ecosystem": "TuxCare:Maven",
-        "name": "org.eclipse.jetty.demos:demo-proxy-webapp",
-        "purl": "pkg:maven/org.eclipse.jetty.demos/demo-proxy-webapp"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "11.0.28"
-            },
-            {
-              "fixed": "11.0.28.tuxcare0004"
-            }
-          ]
-        }
-      ],
-      "versions": [
-        "11.0.28",
-        "11.0.28-tuxcare.2",
-        "11.0.28.tuxcare0001",
-        "11.0.28.tuxcare0003"
-      ],
-      "database_specific": {
-        "tuxcare": {
-          "base_version": "11.0.28",
-          "fixed_version": "11.0.28.tuxcare0004"
-        }
-      }
-    },
     {
       "package": {
         "ecosystem": "TuxCare:Maven",
