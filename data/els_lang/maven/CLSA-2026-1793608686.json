@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1793608686",
+  "modified": "2026-11-02T14:40:56Z",
+  "published": "2026-11-02T09:38:07Z",
+  "summary": "TuxCare security update for tools.jackson.core:jackson-databind (1 CVE)",
+  "details": "TuxCare rebuilt tools.jackson.core:jackson-databind to address 1 CVE. Fixed in 3.1.2-tuxcare.3.",
+  "upstream": [
+    "CVE-2026-54518"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "tools.jackson.core:jackson-databind",
+        "purl": "pkg:maven/tools.jackson.core/jackson-databind"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "3.1.2"
+            },
+            {
+              "fixed": "3.1.2-tuxcare.3"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "3.1.2",
+        "3.1.2-tuxcare.1",
+        "3.1.2-tuxcare.2"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "3.1.2",
+          "fixed_version": "3.1.2-tuxcare.3"
+        }
+      }
+    }
+  ]
+}
