@@ -1,0 +1,103 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1793654179",
+  "modified": "2026-11-03T02:39:20Z",
+  "published": "2026-11-02T22:16:19Z",
+  "summary": "TuxCare security update for org.springframework.ai (4 CVEs)",
+  "details": "TuxCare rebuilt 3 org.springframework.ai packages to address 4 CVEs. Fixed in 1.1.8-tuxcare.1.",
+  "upstream": [
+    "CVE-2026-47851",
+    "CVE-2026-47852",
+    "CVE-2026-59294",
+    "CVE-2026-59318"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.springframework.ai:spring-ai-model",
+        "purl": "pkg:maven/org.springframework.ai/spring-ai-model"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "1.1.8"
+            },
+            {
+              "fixed": "1.1.8-tuxcare.1"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "1.1.8"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "1.1.8",
+          "fixed_version": "1.1.8-tuxcare.1"
+        }
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.springframework.ai:spring-ai-pdf-document-reader",
+        "purl": "pkg:maven/org.springframework.ai/spring-ai-pdf-document-reader"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "1.1.8"
+            },
+            {
+              "fixed": "1.1.8-tuxcare.1"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "1.1.8"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "1.1.8",
+          "fixed_version": "1.1.8-tuxcare.1"
+        }
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.springframework.ai:spring-ai-transformers",
+        "purl": "pkg:maven/org.springframework.ai/spring-ai-transformers"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "1.1.8"
+            },
+            {
+              "fixed": "1.1.8-tuxcare.1"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "1.1.8"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "1.1.8",
+          "fixed_version": "1.1.8-tuxcare.1"
+        }
+      }
+    }
+  ]
+}

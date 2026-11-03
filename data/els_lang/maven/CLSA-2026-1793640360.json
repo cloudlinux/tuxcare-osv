@@ -1,0 +1,78 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1793640360",
+  "modified": "2026-11-03T02:39:20Z",
+  "published": "2026-11-02T18:26:01Z",
+  "summary": "TuxCare security update for org.springframework (2 CVEs)",
+  "details": "TuxCare rebuilt 2 org.springframework packages to address 2 CVEs. Fixed in 6.2.5-tuxcare.4.",
+  "upstream": [
+    "CVE-2026-41838",
+    "CVE-2026-41839"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.springframework:spring-webflux",
+        "purl": "pkg:maven/org.springframework/spring-webflux"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "6.2.5"
+            },
+            {
+              "fixed": "6.2.5-tuxcare.4"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "6.2.5",
+        "6.2.5-tuxcare.1",
+        "6.2.5-tuxcare.2",
+        "6.2.5-tuxcare.3"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "6.2.5",
+          "fixed_version": "6.2.5-tuxcare.4"
+        }
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.springframework:spring-websocket",
+        "purl": "pkg:maven/org.springframework/spring-websocket"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "6.2.5"
+            },
+            {
+              "fixed": "6.2.5-tuxcare.4"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "6.2.5",
+        "6.2.5-tuxcare.1",
+        "6.2.5-tuxcare.2",
+        "6.2.5-tuxcare.3"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "6.2.5",
+          "fixed_version": "6.2.5-tuxcare.4"
+        }
+      }
+    }
+  ]
+}
