@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1793722298",
+  "modified": "2026-11-03T19:15:19Z",
+  "published": "2026-11-03T17:11:38Z",
+  "summary": "TuxCare security update for io.netty:netty (1 CVE)",
+  "details": "TuxCare rebuilt io.netty:netty to address 1 CVE. Fixed in 3.5.13.Final-tuxcare.2.",
+  "upstream": [
+    "CVE-2019-20444"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "io.netty:netty",
+        "purl": "pkg:maven/io.netty/netty"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "3.5.13.Final"
+            },
+            {
+              "fixed": "3.5.13.Final-tuxcare.2"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "3.5.13.Final",
+        "3.5.13.Final-tuxcare.1"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "3.5.13.Final",
+          "fixed_version": "3.5.13.Final-tuxcare.2"
+        }
+      }
+    }
+  ]
+}

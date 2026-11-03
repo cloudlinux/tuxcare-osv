@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1793719432",
+  "modified": "2026-11-03T19:15:19Z",
+  "published": "2026-11-03T16:23:53Z",
+  "summary": "TuxCare security update for org.wildfly.security:wildfly-elytron (3 CVEs)",
+  "details": "TuxCare rebuilt org.wildfly.security:wildfly-elytron to address 3 CVEs. Fixed in 1.1.0.Final-tuxcare.1.",
+  "upstream": [
+    "CVE-2020-1748",
+    "CVE-2021-3642",
+    "CVE-2022-3143"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.wildfly.security:wildfly-elytron",
+        "purl": "pkg:maven/org.wildfly.security/wildfly-elytron"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "1.1.0.Final"
+            },
+            {
+              "fixed": "1.1.0.Final-tuxcare.1"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "1.1.0.Final"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "1.1.0.Final",
+          "fixed_version": "1.1.0.Final-tuxcare.1"
+        }
+      }
+    }
+  ]
+}
