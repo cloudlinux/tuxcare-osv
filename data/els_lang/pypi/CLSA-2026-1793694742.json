@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1793694742",
+  "modified": "2026-11-03T13:22:22Z",
+  "published": "2026-11-03T09:32:23Z",
+  "summary": "TuxCare security update for numpy (5 CVEs)",
+  "details": "TuxCare rebuilt numpy to address 5 CVEs. Fixed in 1.26.4.post1+tuxcare.",
+  "upstream": [
+    "TUXVUL-2026-10004",
+    "TUXVUL-2026-10005",
+    "TUXVUL-2026-10006",
+    "TUXVUL-2026-10007",
+    "TUXVUL-2026-10008"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:PyPI",
+        "name": "numpy",
+        "purl": "pkg:pypi/numpy"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "1.26.4"
+            },
+            {
+              "fixed": "1.26.4.post1+tuxcare"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "1.26.4"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "1.26.4",
+          "fixed_version": "1.26.4.post1+tuxcare"
+        }
+      }
+    }
+  ]
+}

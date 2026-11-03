@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1793698178",
+  "modified": "2026-11-03T13:22:22Z",
+  "published": "2026-11-03T10:29:39Z",
+  "summary": "TuxCare security update for i18next-http-backend (1 CVE)",
+  "details": "TuxCare rebuilt i18next-http-backend to address 1 CVE. Fixed in 2.5.2-tuxcare.3.",
+  "upstream": [
+    "CVE-2026-118258"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "i18next-http-backend",
+        "purl": "pkg:npm/i18next-http-backend"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "2.5.2-tuxcare.0"
+            },
+            {
+              "fixed": "2.5.2-tuxcare.3"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "2.5.2",
+        "2.5.2-tuxcare.1",
+        "2.5.2-tuxcare.2"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "2.5.2",
+          "fixed_version": "2.5.2-tuxcare.3"
+        }
+      }
+    }
+  ]
+}
