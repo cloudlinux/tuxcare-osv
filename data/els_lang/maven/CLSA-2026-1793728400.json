@@ -1,0 +1,104 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1793728400",
+  "modified": "2026-11-04T02:18:36Z",
+  "published": "2026-11-03T18:53:21Z",
+  "summary": "TuxCare security update for 3 packages (2 CVEs)",
+  "details": "TuxCare rebuilt 3 packages to address 2 CVEs. Fixed in 10.1.55-tuxcare.2.",
+  "upstream": [
+    "CVE-2026-53434",
+    "CVE-2026-65637"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.apache.tomcat.embed:tomcat-embed-core",
+        "purl": "pkg:maven/org.apache.tomcat.embed/tomcat-embed-core"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "10.1.55"
+            },
+            {
+              "fixed": "10.1.55-tuxcare.2"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "10.1.55",
+        "10.1.55-tuxcare.1"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "10.1.55",
+          "fixed_version": "10.1.55-tuxcare.2"
+        }
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.apache.tomcat:tomcat-coyote",
+        "purl": "pkg:maven/org.apache.tomcat/tomcat-coyote"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "10.1.55"
+            },
+            {
+              "fixed": "10.1.55-tuxcare.2"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "10.1.55",
+        "10.1.55-tuxcare.1"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "10.1.55",
+          "fixed_version": "10.1.55-tuxcare.2"
+        }
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.apache.tomcat:tomcat-util",
+        "purl": "pkg:maven/org.apache.tomcat/tomcat-util"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "10.1.55"
+            },
+            {
+              "fixed": "10.1.55-tuxcare.2"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "10.1.55",
+        "10.1.55-tuxcare.1"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "10.1.55",
+          "fixed_version": "10.1.55-tuxcare.2"
+        }
+      }
+    }
+  ]
+}

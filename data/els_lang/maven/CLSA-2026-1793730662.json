@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1793730662",
+  "modified": "2026-11-04T02:18:36Z",
+  "published": "2026-11-03T19:31:03Z",
+  "summary": "TuxCare security update for io.projectreactor:reactor-core (1 CVE)",
+  "details": "TuxCare rebuilt io.projectreactor:reactor-core to address 1 CVE. Fixed in 3.7.12-tuxcare.2.",
+  "upstream": [
+    "CVE-2026-47857"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "io.projectreactor:reactor-core",
+        "purl": "pkg:maven/io.projectreactor/reactor-core"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "3.7.12"
+            },
+            {
+              "fixed": "3.7.12-tuxcare.2"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "3.7.12",
+        "3.7.12-tuxcare.1"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "3.7.12",
+          "fixed_version": "3.7.12-tuxcare.2"
+        }
+      }
+    }
+  ]
+}
