@@ -1,0 +1,82 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1793790043",
+  "modified": "2026-11-04T14:39:35Z",
+  "published": "2026-11-04T12:00:44Z",
+  "summary": "TuxCare security update for org.eclipse.jetty (2 CVEs)",
+  "details": "TuxCare rebuilt 2 org.eclipse.jetty packages to address 2 CVEs. Fixed in 9.4.50.v20221201-tuxcare.6.",
+  "upstream": [
+    "CVE-2026-5795",
+    "CVE-2026-6790"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.eclipse.jetty:jetty-jaspi",
+        "purl": "pkg:maven/org.eclipse.jetty/jetty-jaspi"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "9.4.50.v20221201"
+            },
+            {
+              "fixed": "9.4.50.v20221201-tuxcare.6"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "9.4.50.v20221201",
+        "9.4.50.v20221201-tuxcare.1",
+        "9.4.50.v20221201-tuxcare.2",
+        "9.4.50.v20221201-tuxcare.3",
+        "9.4.50.v20221201-tuxcare.4",
+        "9.4.50.v20221201-tuxcare.5"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "9.4.50.v20221201",
+          "fixed_version": "9.4.50.v20221201-tuxcare.6"
+        }
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.eclipse.jetty:jetty-server",
+        "purl": "pkg:maven/org.eclipse.jetty/jetty-server"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "9.4.50.v20221201"
+            },
+            {
+              "fixed": "9.4.50.v20221201-tuxcare.6"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "9.4.50.v20221201",
+        "9.4.50.v20221201-tuxcare.1",
+        "9.4.50.v20221201-tuxcare.2",
+        "9.4.50.v20221201-tuxcare.3",
+        "9.4.50.v20221201-tuxcare.4",
+        "9.4.50.v20221201-tuxcare.5"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "9.4.50.v20221201",
+          "fixed_version": "9.4.50.v20221201-tuxcare.6"
+        }
+      }
+    }
+  ]
+}
