@@ -1,0 +1,104 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1793801974",
+  "modified": "2026-11-04T18:52:07Z",
+  "published": "2026-11-04T15:19:35Z",
+  "summary": "TuxCare security update for org.springframework.boot (2 CVEs)",
+  "details": "TuxCare rebuilt 3 org.springframework.boot packages to address 2 CVEs. Fixed in 2.7.8-tuxcare.2.",
+  "upstream": [
+    "CVE-2026-40973",
+    "CVE-2026-40992"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.springframework.boot:spring-boot",
+        "purl": "pkg:maven/org.springframework.boot/spring-boot"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "2.7.8"
+            },
+            {
+              "fixed": "2.7.8-tuxcare.2"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "2.7.8",
+        "2.7.8-tuxcare.1"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "2.7.8",
+          "fixed_version": "2.7.8-tuxcare.2"
+        }
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.springframework.boot:spring-boot-autoconfigure",
+        "purl": "pkg:maven/org.springframework.boot/spring-boot-autoconfigure"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "2.7.8"
+            },
+            {
+              "fixed": "2.7.8-tuxcare.2"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "2.7.8",
+        "2.7.8-tuxcare.1"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "2.7.8",
+          "fixed_version": "2.7.8-tuxcare.2"
+        }
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.springframework.boot:spring-boot-starter-mail",
+        "purl": "pkg:maven/org.springframework.boot/spring-boot-starter-mail"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "2.7.8"
+            },
+            {
+              "fixed": "2.7.8-tuxcare.2"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "2.7.8",
+        "2.7.8-tuxcare.1"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "2.7.8",
+          "fixed_version": "2.7.8-tuxcare.2"
+        }
+      }
+    }
+  ]
+}

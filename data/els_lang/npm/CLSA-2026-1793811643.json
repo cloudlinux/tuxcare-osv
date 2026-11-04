@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1793811643",
+  "modified": "2026-11-04T18:52:07Z",
+  "published": "2026-11-04T18:00:44Z",
+  "summary": "TuxCare security update for vitest (1 CVE)",
+  "details": "TuxCare rebuilt vitest to address 1 CVE. Fixed in 2.1.9-tuxcare.2.",
+  "upstream": [
+    "CVE-2026-112949"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "vitest",
+        "purl": "pkg:npm/vitest"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "2.1.9-tuxcare.0"
+            },
+            {
+              "fixed": "2.1.9-tuxcare.2"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "2.1.9",
+        "2.1.9-tuxcare.1"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "2.1.9",
+          "fixed_version": "2.1.9-tuxcare.2"
+        }
+      }
+    }
+  ]
+}

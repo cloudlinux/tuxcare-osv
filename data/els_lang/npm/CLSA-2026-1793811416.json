@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1793811416",
+  "modified": "2026-11-04T18:52:07Z",
+  "published": "2026-11-04T17:56:57Z",
+  "summary": "TuxCare security update for next (2 CVEs)",
+  "details": "TuxCare rebuilt next to address 2 CVEs. Fixed in 15.5.25-tuxcare.4.",
+  "upstream": [
+    "CVE-2026-94482",
+    "GHSA-2464-fhr4-w9xw"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "next",
+        "purl": "pkg:npm/next"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "15.5.25-tuxcare.0"
+            },
+            {
+              "fixed": "15.5.25-tuxcare.4"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "15.5.25",
+        "15.5.25-tuxcare.1",
+        "15.5.25-tuxcare.2",
+        "15.5.25-tuxcare.3"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "15.5.25",
+          "fixed_version": "15.5.25-tuxcare.4"
+        }
+      }
+    }
+  ]
+}
