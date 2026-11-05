@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1793867527",
+  "modified": "2026-11-05T13:03:23Z",
+  "published": "2026-11-05T09:32:08Z",
+  "summary": "TuxCare security update for aws-sdk (1 CVE)",
+  "details": "TuxCare rebuilt aws-sdk to address 1 CVE. Fixed in 2.0.5-tuxcare.4.",
+  "upstream": [
+    "GHSA-j965-2qgj-vjmq"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "aws-sdk",
+        "purl": "pkg:npm/aws-sdk"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "2.0.5-tuxcare.0"
+            },
+            {
+              "fixed": "2.0.5-tuxcare.4"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "2.0.5",
+        "2.0.5-tuxcare.1",
+        "2.0.5-tuxcare.2",
+        "2.0.5-tuxcare.3"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "2.0.5",
+          "fixed_version": "2.0.5-tuxcare.4"
+        }
+      }
+    }
+  ]
+}

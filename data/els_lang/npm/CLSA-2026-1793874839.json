@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1793874839",
+  "modified": "2026-11-05T13:03:23Z",
+  "published": "2026-11-05T11:34:00Z",
+  "summary": "TuxCare security update for follow-redirects (1 CVE)",
+  "details": "TuxCare rebuilt follow-redirects to address 1 CVE. Fixed in 1.15.2-tuxcare.4.",
+  "upstream": [
+    "CVE-2026-116689"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "follow-redirects",
+        "purl": "pkg:npm/follow-redirects"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "1.15.2-tuxcare.0"
+            },
+            {
+              "fixed": "1.15.2-tuxcare.4"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "1.15.2",
+        "1.15.2-tuxcare.1",
+        "1.15.2-tuxcare.2",
+        "1.15.2-tuxcare.3"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "1.15.2",
+          "fixed_version": "1.15.2-tuxcare.4"
+        }
+      }
+    }
+  ]
+}
