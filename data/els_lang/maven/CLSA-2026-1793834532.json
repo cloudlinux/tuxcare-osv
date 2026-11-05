@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1793834532",
+  "modified": "2026-11-05T06:56:20Z",
+  "published": "2026-11-05T00:22:12Z",
+  "summary": "TuxCare security update for org.xmlunit:xmlunit-core (1 CVE)",
+  "details": "TuxCare rebuilt org.xmlunit:xmlunit-core to address 1 CVE. Fixed in 2.7.0-tuxcare.2.",
+  "upstream": [
+    "CVE-2024-31573"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.xmlunit:xmlunit-core",
+        "purl": "pkg:maven/org.xmlunit/xmlunit-core"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "2.7.0"
+            },
+            {
+              "fixed": "2.7.0-tuxcare.2"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "2.7.0",
+        "2.7.0-tuxcare.1"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "2.7.0",
+          "fixed_version": "2.7.0-tuxcare.2"
+        }
+      }
+    }
+  ]
+}
