@@ -1,0 +1,84 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1793901153",
+  "modified": "2026-11-06T13:00:55Z",
+  "published": "2026-11-05T18:52:34Z",
+  "summary": "TuxCare security update for org.springframework (2 CVEs)",
+  "details": "TuxCare rebuilt 2 org.springframework packages to address 2 CVEs. Fixed in 4.3.25.RELEASE-tuxcare.7.",
+  "upstream": [
+    "CVE-2024-38828",
+    "CVE-2026-41850"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.springframework:spring-expression",
+        "purl": "pkg:maven/org.springframework/spring-expression"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "4.3.25.RELEASE"
+            },
+            {
+              "fixed": "4.3.25.RELEASE-tuxcare.7"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "4.3.25.RELEASE",
+        "4.3.25.RELEASE-tuxcare.1",
+        "4.3.25.RELEASE-tuxcare.2",
+        "4.3.25.RELEASE-tuxcare.3",
+        "4.3.25.RELEASE-tuxcare.4",
+        "4.3.25.RELEASE-tuxcare.5",
+        "4.3.25.RELEASE-tuxcare.6"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "4.3.25.RELEASE",
+          "fixed_version": "4.3.25.RELEASE-tuxcare.7"
+        }
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.springframework:spring-webmvc",
+        "purl": "pkg:maven/org.springframework/spring-webmvc"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "4.3.25.RELEASE"
+            },
+            {
+              "fixed": "4.3.25.RELEASE-tuxcare.7"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "4.3.25.RELEASE",
+        "4.3.25.RELEASE-tuxcare.1",
+        "4.3.25.RELEASE-tuxcare.2",
+        "4.3.25.RELEASE-tuxcare.3",
+        "4.3.25.RELEASE-tuxcare.4",
+        "4.3.25.RELEASE-tuxcare.5",
+        "4.3.25.RELEASE-tuxcare.6"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "4.3.25.RELEASE",
+          "fixed_version": "4.3.25.RELEASE-tuxcare.7"
+        }
+      }
+    }
+  ]
+}

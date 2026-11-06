@@ -1,0 +1,85 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1793912020",
+  "modified": "2026-11-06T13:00:55Z",
+  "published": "2026-11-05T21:53:41Z",
+  "summary": "TuxCare security update for @angular (1 CVE)",
+  "details": "TuxCare rebuilt 2 @angular packages to address 1 CVE. Fixed in 19.2.25-tuxcare.8.",
+  "upstream": [
+    "CVE-2026-101896"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "@angular/bazel",
+        "purl": "pkg:npm/%40angular/bazel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "19.2.25-tuxcare.0"
+            },
+            {
+              "fixed": "19.2.25-tuxcare.8"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "19.2.25",
+        "19.2.25-tuxcare.1",
+        "19.2.25-tuxcare.2",
+        "19.2.25-tuxcare.3",
+        "19.2.25-tuxcare.4",
+        "19.2.25-tuxcare.5",
+        "19.2.25-tuxcare.6",
+        "19.2.25-tuxcare.7"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "19.2.25",
+          "fixed_version": "19.2.25-tuxcare.8"
+        }
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "@angular/language-service",
+        "purl": "pkg:npm/%40angular/language-service"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "19.2.25-tuxcare.0"
+            },
+            {
+              "fixed": "19.2.25-tuxcare.8"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "19.2.25",
+        "19.2.25-tuxcare.1",
+        "19.2.25-tuxcare.2",
+        "19.2.25-tuxcare.3",
+        "19.2.25-tuxcare.4",
+        "19.2.25-tuxcare.5",
+        "19.2.25-tuxcare.6",
+        "19.2.25-tuxcare.7"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "19.2.25",
+          "fixed_version": "19.2.25-tuxcare.8"
+        }
+      }
+    }
+  ]
+}

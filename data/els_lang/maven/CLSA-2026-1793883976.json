@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1793883976",
+  "modified": "2026-11-06T13:00:55Z",
+  "published": "2026-11-05T14:06:17Z",
+  "summary": "TuxCare security update for org.springframework.kafka:spring-kafka (3 CVEs)",
+  "details": "TuxCare rebuilt org.springframework.kafka:spring-kafka to address 3 CVEs. Fixed in 2.8.6-tuxcare.1.",
+  "upstream": [
+    "CVE-2026-41727",
+    "CVE-2026-59278",
+    "CVE-2026-59317"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.springframework.kafka:spring-kafka",
+        "purl": "pkg:maven/org.springframework.kafka/spring-kafka"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "2.8.6"
+            },
+            {
+              "fixed": "2.8.6-tuxcare.1"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "2.8.6"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "2.8.6",
+          "fixed_version": "2.8.6-tuxcare.1"
+        }
+      }
+    }
+  ]
+}

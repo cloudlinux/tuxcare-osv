@@ -1,0 +1,79 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1793893974",
+  "modified": "2026-11-06T13:00:55Z",
+  "published": "2026-11-05T16:52:55Z",
+  "summary": "TuxCare security update for org.springframework (1 CVE)",
+  "details": "TuxCare rebuilt 2 org.springframework packages to address 1 CVE. Fixed in 6.1.13-tuxcare.5.",
+  "upstream": [
+    "CVE-2024-38820"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.springframework:spring-context",
+        "purl": "pkg:maven/org.springframework/spring-context"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "6.1.13"
+            },
+            {
+              "fixed": "6.1.13-tuxcare.5"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "6.1.13",
+        "6.1.13-tuxcare.1",
+        "6.1.13-tuxcare.2",
+        "6.1.13-tuxcare.3",
+        "6.1.13-tuxcare.4"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "6.1.13",
+          "fixed_version": "6.1.13-tuxcare.5"
+        }
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.springframework:spring-web",
+        "purl": "pkg:maven/org.springframework/spring-web"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "6.1.13"
+            },
+            {
+              "fixed": "6.1.13-tuxcare.5"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "6.1.13",
+        "6.1.13-tuxcare.1",
+        "6.1.13-tuxcare.2",
+        "6.1.13-tuxcare.3",
+        "6.1.13-tuxcare.4"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "6.1.13",
+          "fixed_version": "6.1.13-tuxcare.5"
+        }
+      }
+    }
+  ]
+}

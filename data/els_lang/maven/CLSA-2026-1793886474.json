@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1793886474",
+  "modified": "2026-11-06T13:00:55Z",
+  "published": "2026-11-05T14:47:55Z",
+  "summary": "TuxCare security update for org.apache.httpcomponents:httpclient (1 CVE)",
+  "details": "TuxCare rebuilt org.apache.httpcomponents:httpclient to address 1 CVE. Fixed in 4.2.1-tuxcare.4.",
+  "upstream": [
+    "CVE-2013-4366"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.apache.httpcomponents:httpclient",
+        "purl": "pkg:maven/org.apache.httpcomponents/httpclient"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "4.2.1"
+            },
+            {
+              "fixed": "4.2.1-tuxcare.4"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "4.2.1",
+        "4.2.1-tuxcare.1",
+        "4.2.1-tuxcare.2",
+        "4.2.1-tuxcare.3"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "4.2.1",
+          "fixed_version": "4.2.1-tuxcare.4"
+        }
+      }
+    }
+  ]
+}

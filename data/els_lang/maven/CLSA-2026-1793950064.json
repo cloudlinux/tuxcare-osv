@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1793950064",
+  "modified": "2026-11-06T13:00:55Z",
+  "published": "2026-11-06T08:27:45Z",
+  "summary": "TuxCare security update for org.springframework.data:spring-data-commons (1 CVE)",
+  "details": "TuxCare rebuilt org.springframework.data:spring-data-commons to address 1 CVE. Fixed in 1.13.23.RELEASE-tuxcare.1.",
+  "upstream": [
+    "CVE-2026-41711"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.springframework.data:spring-data-commons",
+        "purl": "pkg:maven/org.springframework.data/spring-data-commons"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "1.13.23.RELEASE"
+            },
+            {
+              "fixed": "1.13.23.RELEASE-tuxcare.1"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "1.13.23.RELEASE"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "1.13.23.RELEASE",
+          "fixed_version": "1.13.23.RELEASE-tuxcare.1"
+        }
+      }
+    }
+  ]
+}
