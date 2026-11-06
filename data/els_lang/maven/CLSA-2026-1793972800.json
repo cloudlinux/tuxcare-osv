@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1793972800",
+  "modified": "2026-11-06T18:56:42Z",
+  "published": "2026-11-06T14:46:41Z",
+  "summary": "TuxCare security update for org.springframework.data:spring-data-rest-core (4 CVEs)",
+  "details": "TuxCare rebuilt org.springframework.data:spring-data-rest-core to address 4 CVEs. Fixed in 2.6.23.RELEASE-tuxcare.1.",
+  "upstream": [
+    "CVE-2026-41730",
+    "CVE-2026-41837",
+    "CVE-2026-47849",
+    "CVE-2026-47850"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.springframework.data:spring-data-rest-core",
+        "purl": "pkg:maven/org.springframework.data/spring-data-rest-core"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "2.6.23.RELEASE"
+            },
+            {
+              "fixed": "2.6.23.RELEASE-tuxcare.1"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "2.6.23.RELEASE"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "2.6.23.RELEASE",
+          "fixed_version": "2.6.23.RELEASE-tuxcare.1"
+        }
+      }
+    }
+  ]
+}

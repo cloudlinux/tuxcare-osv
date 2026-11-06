@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1793966046",
+  "modified": "2026-11-06T18:56:42Z",
+  "published": "2026-11-06T12:54:07Z",
+  "summary": "TuxCare security update for com.mchange:c3p0 (2 CVEs)",
+  "details": "TuxCare rebuilt com.mchange:c3p0 to address 2 CVEs. Fixed in 0.9.2.1-tuxcare.3.",
+  "upstream": [
+    "CVE-2018-20433",
+    "CVE-2019-5427"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "com.mchange:c3p0",
+        "purl": "pkg:maven/com.mchange/c3p0"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0.9.2.1"
+            },
+            {
+              "fixed": "0.9.2.1-tuxcare.3"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "0.9.2.1",
+        "0.9.2.1-tuxcare.1",
+        "0.9.2.1-tuxcare.2"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "0.9.2.1",
+          "fixed_version": "0.9.2.1-tuxcare.3"
+        }
+      }
+    }
+  ]
+}
