@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1793989312",
+  "modified": "2026-11-07T00:57:10Z",
+  "published": "2026-11-06T19:21:53Z",
+  "summary": "TuxCare security update for @faker-js/faker (1 CVE)",
+  "details": "TuxCare rebuilt @faker-js/faker to address 1 CVE. Fixed in 10.4.0-tuxcare.1.",
+  "upstream": [
+    "CVE-2026-73231"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "@faker-js/faker",
+        "purl": "pkg:npm/%40faker-js/faker"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "10.4.0-tuxcare.0"
+            },
+            {
+              "fixed": "10.4.0-tuxcare.1"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "10.4.0"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "10.4.0",
+          "fixed_version": "10.4.0-tuxcare.1"
+        }
+      }
+    }
+  ]
+}
