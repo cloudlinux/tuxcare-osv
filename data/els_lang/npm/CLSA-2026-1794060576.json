@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1794060576",
+  "modified": "2026-11-07T18:55:25Z",
+  "published": "2026-11-07T15:09:37Z",
+  "summary": "TuxCare security update for axios (6 CVEs)",
+  "details": "TuxCare rebuilt axios to address 6 CVEs. Fixed in 1.15.2-tuxcare.1.",
+  "upstream": [
+    "CVE-2026-101905",
+    "CVE-2026-44486",
+    "CVE-2026-44489",
+    "CVE-2026-44490",
+    "CVE-2026-44492",
+    "CVE-2026-44496"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "axios",
+        "purl": "pkg:npm/axios"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "1.15.2-tuxcare.0"
+            },
+            {
+              "fixed": "1.15.2-tuxcare.1"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "1.15.2"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "1.15.2",
+          "fixed_version": "1.15.2-tuxcare.1"
+        }
+      }
+    }
+  ]
+}
