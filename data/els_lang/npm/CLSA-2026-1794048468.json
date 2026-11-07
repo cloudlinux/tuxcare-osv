@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1794048468",
+  "modified": "2026-11-07T13:00:09Z",
+  "published": "2026-11-07T11:47:49Z",
+  "summary": "TuxCare security update for glob (1 CVE)",
+  "details": "TuxCare rebuilt glob to address 1 CVE. Fixed in 10.2.6-tuxcare.2.",
+  "upstream": [
+    "CVE-2026-118773"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "glob",
+        "purl": "pkg:npm/glob"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "10.2.6-tuxcare.0"
+            },
+            {
+              "fixed": "10.2.6-tuxcare.2"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "10.2.6",
+        "10.2.6-tuxcare.1"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "10.2.6",
+          "fixed_version": "10.2.6-tuxcare.2"
+        }
+      }
+    }
+  ]
+}
