@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1794157188",
+  "modified": "2026-11-08T19:24:01Z",
+  "published": "2026-11-08T17:59:48Z",
+  "summary": "TuxCare security update for xalan:xalan (1 CVE)",
+  "details": "TuxCare rebuilt xalan:xalan to address 1 CVE. Fixed in 2.7.0-tuxcare.1.",
+  "upstream": [
+    "CVE-2022-34169"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "xalan:xalan",
+        "purl": "pkg:maven/xalan/xalan"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "2.7.0"
+            },
+            {
+              "fixed": "2.7.0-tuxcare.1"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "2.7.0"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "2.7.0",
+          "fixed_version": "2.7.0-tuxcare.1"
+        }
+      }
+    }
+  ]
+}
