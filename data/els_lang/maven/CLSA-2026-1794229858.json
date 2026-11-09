@@ -1,0 +1,102 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1794229858",
+  "modified": "2026-11-09T19:11:09Z",
+  "published": "2026-11-09T14:10:59Z",
+  "summary": "TuxCare security update for org.springframework.cloud (3 CVEs)",
+  "details": "TuxCare rebuilt 3 org.springframework.cloud packages to address 3 CVEs. Fixed in 3.0.9.RELEASE-tuxcare.1.",
+  "upstream": [
+    "CVE-2022-22963",
+    "CVE-2022-22979",
+    "CVE-2026-40989"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.springframework.cloud:spring-cloud-function-context",
+        "purl": "pkg:maven/org.springframework.cloud/spring-cloud-function-context"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "3.0.9.RELEASE"
+            },
+            {
+              "fixed": "3.0.9.RELEASE-tuxcare.1"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "3.0.9.RELEASE"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "3.0.9.RELEASE",
+          "fixed_version": "3.0.9.RELEASE-tuxcare.1"
+        }
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.springframework.cloud:spring-cloud-function-parent",
+        "purl": "pkg:maven/org.springframework.cloud/spring-cloud-function-parent"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "3.0.9.RELEASE"
+            },
+            {
+              "fixed": "3.0.9.RELEASE-tuxcare.1"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "3.0.9.RELEASE"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "3.0.9.RELEASE",
+          "fixed_version": "3.0.9.RELEASE-tuxcare.1"
+        }
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.springframework.cloud:spring-cloud-function-web",
+        "purl": "pkg:maven/org.springframework.cloud/spring-cloud-function-web"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "3.0.9.RELEASE"
+            },
+            {
+              "fixed": "3.0.9.RELEASE-tuxcare.1"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "3.0.9.RELEASE"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "3.0.9.RELEASE",
+          "fixed_version": "3.0.9.RELEASE-tuxcare.1"
+        }
+      }
+    }
+  ]
+}

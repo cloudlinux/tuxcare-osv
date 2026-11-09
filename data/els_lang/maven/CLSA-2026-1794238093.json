@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1794238093",
+  "modified": "2026-11-09T19:11:09Z",
+  "published": "2026-11-09T16:28:14Z",
+  "summary": "TuxCare security update for org.eclipse.jetty:jetty-openid (1 CVE)",
+  "details": "TuxCare rebuilt org.eclipse.jetty:jetty-openid to address 1 CVE. Fixed in 9.4.61.tuxcare0004.",
+  "upstream": [
+    "CVE-2023-41900"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.eclipse.jetty:jetty-openid",
+        "purl": "pkg:maven/org.eclipse.jetty/jetty-openid"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "9.4.61"
+            },
+            {
+              "fixed": "9.4.61.tuxcare0004"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "9.4.61",
+        "9.4.61.tuxcare0001",
+        "9.4.61.tuxcare0002",
+        "9.4.61.tuxcare0003"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "9.4.61",
+          "fixed_version": "9.4.61.tuxcare0004"
+        }
+      }
+    }
+  ]
+}

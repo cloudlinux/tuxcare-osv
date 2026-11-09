@@ -1,0 +1,49 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1794240621",
+  "modified": "2026-11-09T19:11:09Z",
+  "published": "2026-11-09T17:10:22Z",
+  "summary": "TuxCare security update for org.springframework:spring-webmvc (1 CVE)",
+  "details": "TuxCare rebuilt org.springframework:spring-webmvc to address 1 CVE. Fixed in 4.1.7.RELEASE-tuxcare.8.",
+  "upstream": [
+    "CVE-2024-38828"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.springframework:spring-webmvc",
+        "purl": "pkg:maven/org.springframework/spring-webmvc"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "4.1.7.RELEASE"
+            },
+            {
+              "fixed": "4.1.7.RELEASE-tuxcare.8"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "4.1.7.RELEASE",
+        "4.1.7.RELEASE-tuxcare.1",
+        "4.1.7.RELEASE-tuxcare.2",
+        "4.1.7.RELEASE-tuxcare.3",
+        "4.1.7.RELEASE-tuxcare.4",
+        "4.1.7.RELEASE-tuxcare.5",
+        "4.1.7.RELEASE-tuxcare.6",
+        "4.1.7.RELEASE-tuxcare.7"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "4.1.7.RELEASE",
+          "fixed_version": "4.1.7.RELEASE-tuxcare.8"
+        }
+      }
+    }
+  ]
+}

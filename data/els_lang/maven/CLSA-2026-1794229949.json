@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1794229949",
+  "modified": "2026-11-09T19:11:09Z",
+  "published": "2026-11-09T14:12:30Z",
+  "summary": "TuxCare security update for org.springframework:spring-webflux (1 CVE)",
+  "details": "TuxCare rebuilt org.springframework:spring-webflux to address 1 CVE. Fixed in 6.2.12-tuxcare.3.",
+  "upstream": [
+    "CVE-2026-41839"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.springframework:spring-webflux",
+        "purl": "pkg:maven/org.springframework/spring-webflux"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "6.2.12"
+            },
+            {
+              "fixed": "6.2.12-tuxcare.3"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "6.2.12",
+        "6.2.12-tuxcare.1",
+        "6.2.12-tuxcare.2"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "6.2.12",
+          "fixed_version": "6.2.12-tuxcare.3"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1794219735",
+  "modified": "2026-11-09T19:11:09Z",
+  "published": "2026-11-09T11:22:16Z",
+  "summary": "TuxCare security update for keras (1 CVE)",
+  "details": "TuxCare rebuilt keras to address 1 CVE. Fixed in 2.15.0.post4+tuxcare.",
+  "upstream": [
+    "CVE-2026-12570"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:PyPI",
+        "name": "keras",
+        "purl": "pkg:pypi/keras"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "2.15.0"
+            },
+            {
+              "fixed": "2.15.0.post4+tuxcare"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "2.15.0",
+        "2.15.0.post1+tuxcare",
+        "2.15.0.post2+tuxcare",
+        "2.15.0.post3+tuxcare"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "2.15.0",
+          "fixed_version": "2.15.0.post4+tuxcare"
+        }
+      }
+    }
+  ]
+}

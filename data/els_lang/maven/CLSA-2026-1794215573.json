@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1794215573",
+  "modified": "2026-11-09T19:11:09Z",
+  "published": "2026-11-09T10:12:54Z",
+  "summary": "TuxCare security update for com.thoughtworks.xstream:xstream (1 CVE)",
+  "details": "TuxCare rebuilt com.thoughtworks.xstream:xstream to address 1 CVE. Fixed in 1.2.2-tuxcare.2.",
+  "upstream": [
+    "CVE-2021-39145"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "com.thoughtworks.xstream:xstream",
+        "purl": "pkg:maven/com.thoughtworks.xstream/xstream"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "1.2.2"
+            },
+            {
+              "fixed": "1.2.2-tuxcare.2"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "1.2.2",
+        "1.2.2-tuxcare.1"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "1.2.2",
+          "fixed_version": "1.2.2-tuxcare.2"
+        }
+      }
+    }
+  ]
+}

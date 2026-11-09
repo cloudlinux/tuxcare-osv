@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1794235772",
+  "modified": "2026-11-09T19:11:09Z",
+  "published": "2026-11-09T15:49:33Z",
+  "summary": "TuxCare security update for org.eclipse.jetty:jetty-server (1 CVE)",
+  "details": "TuxCare rebuilt org.eclipse.jetty:jetty-server to address 1 CVE. Fixed in 9.4.59.tuxcare0004.",
+  "upstream": [
+    "CVE-2026-6790"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.eclipse.jetty:jetty-server",
+        "purl": "pkg:maven/org.eclipse.jetty/jetty-server"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "9.4.59"
+            },
+            {
+              "fixed": "9.4.59.tuxcare0004"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "9.4.59",
+        "9.4.59.tuxcare00001",
+        "9.4.59.tuxcare0002",
+        "9.4.59.tuxcare0003"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "9.4.59",
+          "fixed_version": "9.4.59.tuxcare0004"
+        }
+      }
+    }
+  ]
+}

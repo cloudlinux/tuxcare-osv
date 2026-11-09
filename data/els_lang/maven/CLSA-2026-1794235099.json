@@ -1,0 +1,52 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1794235099",
+  "modified": "2026-11-09T19:11:09Z",
+  "published": "2026-11-09T15:38:19Z",
+  "summary": "TuxCare security update for io.undertow:undertow-core (11 CVEs)",
+  "details": "TuxCare rebuilt io.undertow:undertow-core to address 11 CVEs. Fixed in 2.2.7.Final-tuxcare.1.",
+  "upstream": [
+    "CVE-2023-1973",
+    "CVE-2023-4639",
+    "CVE-2024-1459",
+    "CVE-2024-1635",
+    "CVE-2024-3653",
+    "CVE-2024-4027",
+    "CVE-2024-5971",
+    "CVE-2024-6162",
+    "CVE-2024-7885",
+    "CVE-2025-12543",
+    "CVE-2026-3260"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "io.undertow:undertow-core",
+        "purl": "pkg:maven/io.undertow/undertow-core"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "2.2.7.Final"
+            },
+            {
+              "fixed": "2.2.7.Final-tuxcare.1"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "2.2.7.Final"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "2.2.7.Final",
+          "fixed_version": "2.2.7.Final-tuxcare.1"
+        }
+      }
+    }
+  ]
+}
