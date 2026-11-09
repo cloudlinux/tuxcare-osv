@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1794163949",
+  "modified": "2026-11-09T01:37:49Z",
+  "published": "2026-11-08T19:52:30Z",
+  "summary": "TuxCare security update for io.netty:netty-codec-redis (1 CVE)",
+  "details": "TuxCare rebuilt io.netty:netty-codec-redis to address 1 CVE. Fixed in 4.1.68.Final-tuxcare.3.",
+  "upstream": [
+    "CVE-2026-48006"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "io.netty:netty-codec-redis",
+        "purl": "pkg:maven/io.netty/netty-codec-redis"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "4.1.68.Final"
+            },
+            {
+              "fixed": "4.1.68.Final-tuxcare.3"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "4.1.68.Final",
+        "4.1.68.Final-tuxcare.1",
+        "4.1.68.Final-tuxcare.2"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "4.1.68.Final",
+          "fixed_version": "4.1.68.Final-tuxcare.3"
+        }
+      }
+    }
+  ]
+}

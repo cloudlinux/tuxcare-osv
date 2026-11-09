@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1794168643",
+  "modified": "2026-11-09T01:37:49Z",
+  "published": "2026-11-08T21:10:44Z",
+  "summary": "TuxCare security update for org.springframework.amqp:spring-amqp (2 CVEs)",
+  "details": "TuxCare rebuilt org.springframework.amqp:spring-amqp to address 2 CVEs. Fixed in 1.7.14.RELEASE-tuxcare.3.",
+  "upstream": [
+    "CVE-2026-41701",
+    "CVE-2026-41714"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.springframework.amqp:spring-amqp",
+        "purl": "pkg:maven/org.springframework.amqp/spring-amqp"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "1.7.14.RELEASE"
+            },
+            {
+              "fixed": "1.7.14.RELEASE-tuxcare.3"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "1.7.14.RELEASE",
+        "1.7.14.RELEASE-tuxcare.1",
+        "1.7.14.RELEASE-tuxcare.2"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "1.7.14.RELEASE",
+          "fixed_version": "1.7.14.RELEASE-tuxcare.3"
+        }
+      }
+    }
+  ]
+}

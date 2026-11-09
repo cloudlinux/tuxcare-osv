@@ -1,0 +1,72 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1794175349",
+  "modified": "2026-11-09T01:37:49Z",
+  "published": "2026-11-08T23:02:30Z",
+  "summary": "TuxCare security update for org.wildfly.security (2 CVEs)",
+  "details": "TuxCare rebuilt 2 org.wildfly.security packages to address 2 CVEs. Fixed in 1.12.1.Final-tuxcare.1.",
+  "upstream": [
+    "CVE-2020-1748",
+    "CVE-2024-1233"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.wildfly.security:wildfly-elytron",
+        "purl": "pkg:maven/org.wildfly.security/wildfly-elytron"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "1.12.1.Final"
+            },
+            {
+              "fixed": "1.12.1.Final-tuxcare.1"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "1.12.1.Final"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "1.12.1.Final",
+          "fixed_version": "1.12.1.Final-tuxcare.1"
+        }
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.wildfly.security:wildfly-elytron-realm-token",
+        "purl": "pkg:maven/org.wildfly.security/wildfly-elytron-realm-token"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "1.12.1.Final"
+            },
+            {
+              "fixed": "1.12.1.Final-tuxcare.1"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "1.12.1.Final"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "1.12.1.Final",
+          "fixed_version": "1.12.1.Final-tuxcare.1"
+        }
+      }
+    }
+  ]
+}
