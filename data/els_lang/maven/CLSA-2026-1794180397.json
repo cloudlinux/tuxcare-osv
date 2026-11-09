@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1794180397",
+  "modified": "2026-11-09T07:03:47Z",
+  "published": "2026-11-09T00:26:38Z",
+  "summary": "TuxCare security update for io.netty:netty-codec-smtp (1 CVE)",
+  "details": "TuxCare rebuilt io.netty:netty-codec-smtp to address 1 CVE. Fixed in 4.1.21.Final-tuxcare.5.",
+  "upstream": [
+    "CVE-2025-59419"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "io.netty:netty-codec-smtp",
+        "purl": "pkg:maven/io.netty/netty-codec-smtp"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "4.1.21.Final"
+            },
+            {
+              "fixed": "4.1.21.Final-tuxcare.5"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "4.1.21.Final",
+        "4.1.21.Final-tuxcare.1",
+        "4.1.21.Final-tuxcare.2",
+        "4.1.21.Final-tuxcare.3",
+        "4.1.21.Final-tuxcare.4"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "4.1.21.Final",
+          "fixed_version": "4.1.21.Final-tuxcare.5"
+        }
+      }
+    }
+  ]
+}

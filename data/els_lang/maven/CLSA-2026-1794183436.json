@@ -1,0 +1,71 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1794183436",
+  "modified": "2026-11-09T07:03:47Z",
+  "published": "2026-11-09T01:17:16Z",
+  "summary": "TuxCare security update for 2 packages (1 CVE)",
+  "details": "TuxCare rebuilt 2 packages to address 1 CVE. Fixed in 6.0.22.Final-tuxcare.1.",
+  "upstream": [
+    "CVE-2023-1932"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.hibernate.validator:hibernate-validator",
+        "purl": "pkg:maven/org.hibernate.validator/hibernate-validator"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "6.0.22.Final"
+            },
+            {
+              "fixed": "6.0.22.Final-tuxcare.1"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "6.0.22.Final"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "6.0.22.Final",
+          "fixed_version": "6.0.22.Final-tuxcare.1"
+        }
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.hibernate:hibernate-validator",
+        "purl": "pkg:maven/org.hibernate/hibernate-validator"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "6.0.22.Final"
+            },
+            {
+              "fixed": "6.0.22.Final-tuxcare.1"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "6.0.22.Final"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "6.0.22.Final",
+          "fixed_version": "6.0.22.Final-tuxcare.1"
+        }
+      }
+    }
+  ]
+}

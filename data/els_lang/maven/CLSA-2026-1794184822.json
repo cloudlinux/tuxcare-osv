@@ -1,0 +1,54 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1794184822",
+  "modified": "2026-11-09T07:03:47Z",
+  "published": "2026-11-09T01:40:23Z",
+  "summary": "TuxCare security update for org.springframework.security:spring-security-oauth2-jose (1 CVE)",
+  "details": "TuxCare rebuilt org.springframework.security:spring-security-oauth2-jose to address 1 CVE. Fixed in 6.4.3-tuxcare.13.",
+  "upstream": [
+    "CVE-2026-22748"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.springframework.security:spring-security-oauth2-jose",
+        "purl": "pkg:maven/org.springframework.security/spring-security-oauth2-jose"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "6.4.3"
+            },
+            {
+              "fixed": "6.4.3-tuxcare.13"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "6.4.3",
+        "6.4.3-tuxcare.1",
+        "6.4.3-tuxcare.10",
+        "6.4.3-tuxcare.11",
+        "6.4.3-tuxcare.12",
+        "6.4.3-tuxcare.2",
+        "6.4.3-tuxcare.3",
+        "6.4.3-tuxcare.4",
+        "6.4.3-tuxcare.5",
+        "6.4.3-tuxcare.6",
+        "6.4.3-tuxcare.7",
+        "6.4.3-tuxcare.8",
+        "6.4.3-tuxcare.9"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "6.4.3",
+          "fixed_version": "6.4.3-tuxcare.13"
+        }
+      }
+    }
+  ]
+}
