@@ -1,0 +1,74 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1794252826",
+  "modified": "2026-11-10T01:14:48Z",
+  "published": "2026-11-09T20:33:47Z",
+  "summary": "TuxCare security update for io.netty (2 CVEs)",
+  "details": "TuxCare rebuilt 2 io.netty packages to address 2 CVEs. Fixed in 4.1.64.Final-tuxcare.2.",
+  "upstream": [
+    "CVE-2023-34462",
+    "CVE-2025-58057"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "io.netty:netty-codec",
+        "purl": "pkg:maven/io.netty/netty-codec"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "4.1.64.Final"
+            },
+            {
+              "fixed": "4.1.64.Final-tuxcare.2"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "4.1.64.Final",
+        "4.1.64.Final-tuxcare.1"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "4.1.64.Final",
+          "fixed_version": "4.1.64.Final-tuxcare.2"
+        }
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "io.netty:netty-handler",
+        "purl": "pkg:maven/io.netty/netty-handler"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "4.1.64.Final"
+            },
+            {
+              "fixed": "4.1.64.Final-tuxcare.2"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "4.1.64.Final",
+        "4.1.64.Final-tuxcare.1"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "4.1.64.Final",
+          "fixed_version": "4.1.64.Final-tuxcare.2"
+        }
+      }
+    }
+  ]
+}

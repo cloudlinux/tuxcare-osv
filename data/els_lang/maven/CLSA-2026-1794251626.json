@@ -1,0 +1,82 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1794251626",
+  "modified": "2026-11-10T01:14:48Z",
+  "published": "2026-11-09T20:13:47Z",
+  "summary": "TuxCare security update for io.netty (2 CVEs)",
+  "details": "TuxCare rebuilt 2 io.netty packages to address 2 CVEs. Fixed in 4.1.52.Final-tuxcare.6.",
+  "upstream": [
+    "CVE-2026-42585",
+    "CVE-2026-48006"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "io.netty:netty-codec-http",
+        "purl": "pkg:maven/io.netty/netty-codec-http"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "4.1.52.Final"
+            },
+            {
+              "fixed": "4.1.52.Final-tuxcare.6"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "4.1.52.Final",
+        "4.1.52.Final-tuxcare.1",
+        "4.1.52.Final-tuxcare.2",
+        "4.1.52.Final-tuxcare.3",
+        "4.1.52.Final-tuxcare.4",
+        "4.1.52.Final-tuxcare.5"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "4.1.52.Final",
+          "fixed_version": "4.1.52.Final-tuxcare.6"
+        }
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "io.netty:netty-codec-redis",
+        "purl": "pkg:maven/io.netty/netty-codec-redis"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "4.1.52.Final"
+            },
+            {
+              "fixed": "4.1.52.Final-tuxcare.6"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "4.1.52.Final",
+        "4.1.52.Final-tuxcare.1",
+        "4.1.52.Final-tuxcare.2",
+        "4.1.52.Final-tuxcare.3",
+        "4.1.52.Final-tuxcare.4",
+        "4.1.52.Final-tuxcare.5"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "4.1.52.Final",
+          "fixed_version": "4.1.52.Final-tuxcare.6"
+        }
+      }
+    }
+  ]
+}

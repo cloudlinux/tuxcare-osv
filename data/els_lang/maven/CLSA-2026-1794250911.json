@@ -1,0 +1,74 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1794250911",
+  "modified": "2026-11-10T01:14:48Z",
+  "published": "2026-11-09T20:01:52Z",
+  "summary": "TuxCare security update for org.bouncycastle (4 CVEs)",
+  "details": "TuxCare rebuilt 2 org.bouncycastle packages to address 4 CVEs. Fixed in 1.52-tuxcare.1.",
+  "upstream": [
+    "CVE-2020-15522",
+    "CVE-2023-33202",
+    "CVE-2024-29857",
+    "CVE-2024-30171"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.bouncycastle:bcprov-ext-jdk15on",
+        "purl": "pkg:maven/org.bouncycastle/bcprov-ext-jdk15on"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "1.52"
+            },
+            {
+              "fixed": "1.52-tuxcare.1"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "1.52"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "1.52",
+          "fixed_version": "1.52-tuxcare.1"
+        }
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.bouncycastle:bcprov-jdk15on",
+        "purl": "pkg:maven/org.bouncycastle/bcprov-jdk15on"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "1.52"
+            },
+            {
+              "fixed": "1.52-tuxcare.1"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "1.52"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "1.52",
+          "fixed_version": "1.52-tuxcare.1"
+        }
+      }
+    }
+  ]
+}

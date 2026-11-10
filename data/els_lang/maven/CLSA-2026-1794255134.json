@@ -1,0 +1,80 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1794255134",
+  "modified": "2026-11-10T01:14:48Z",
+  "published": "2026-11-09T21:12:15Z",
+  "summary": "TuxCare security update for io.netty (2 CVEs)",
+  "details": "TuxCare rebuilt 2 io.netty packages to address 2 CVEs. Fixed in 4.1.99.Final-tuxcare.5.",
+  "upstream": [
+    "CVE-2025-59419",
+    "CVE-2026-45674"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "io.netty:netty-codec-smtp",
+        "purl": "pkg:maven/io.netty/netty-codec-smtp"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "4.1.99.Final"
+            },
+            {
+              "fixed": "4.1.99.Final-tuxcare.5"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "4.1.99.Final",
+        "4.1.99.Final-tuxcare.1",
+        "4.1.99.Final-tuxcare.2",
+        "4.1.99.Final-tuxcare.3",
+        "4.1.99.Final-tuxcare.4"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "4.1.99.Final",
+          "fixed_version": "4.1.99.Final-tuxcare.5"
+        }
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "io.netty:netty-resolver-dns",
+        "purl": "pkg:maven/io.netty/netty-resolver-dns"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "4.1.99.Final"
+            },
+            {
+              "fixed": "4.1.99.Final-tuxcare.5"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "4.1.99.Final",
+        "4.1.99.Final-tuxcare.1",
+        "4.1.99.Final-tuxcare.2",
+        "4.1.99.Final-tuxcare.3",
+        "4.1.99.Final-tuxcare.4"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "4.1.99.Final",
+          "fixed_version": "4.1.99.Final-tuxcare.5"
+        }
+      }
+    }
+  ]
+}
