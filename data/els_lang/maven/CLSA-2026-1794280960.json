@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1794280960",
+  "modified": "2026-11-10T07:10:37Z",
+  "published": "2026-11-10T04:22:41Z",
+  "summary": "TuxCare security update for org.springframework.amqp:spring-rabbit (1 CVE)",
+  "details": "TuxCare rebuilt org.springframework.amqp:spring-rabbit to address 1 CVE. Fixed in 2.4.6-tuxcare.4.",
+  "upstream": [
+    "CVE-2026-59272"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.springframework.amqp:spring-rabbit",
+        "purl": "pkg:maven/org.springframework.amqp/spring-rabbit"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "2.4.6"
+            },
+            {
+              "fixed": "2.4.6-tuxcare.4"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "2.4.6",
+        "2.4.6-tuxcare.1",
+        "2.4.6-tuxcare.2",
+        "2.4.6-tuxcare.3"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "2.4.6",
+          "fixed_version": "2.4.6-tuxcare.4"
+        }
+      }
+    }
+  ]
+}
