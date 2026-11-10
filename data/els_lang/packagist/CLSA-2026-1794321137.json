@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1794321137",
+  "modified": "2026-11-10T19:31:23Z",
+  "published": "2026-11-10T15:32:18Z",
+  "summary": "TuxCare security update for symfony/http-foundation (1 CVE)",
+  "details": "TuxCare rebuilt symfony/http-foundation to address 1 CVE. Fixed in v6.4.35-p2+tuxcare.",
+  "upstream": [
+    "CVE-2026-118514"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Packagist",
+        "name": "symfony/http-foundation",
+        "purl": "pkg:composer/symfony/http-foundation"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "v6.4.35"
+            },
+            {
+              "fixed": "v6.4.35-p2+tuxcare"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "v6.4.35",
+        "v6.4.35-p1+tuxcare"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "v6.4.35",
+          "fixed_version": "v6.4.35-p2+tuxcare"
+        }
+      }
+    }
+  ]
+}

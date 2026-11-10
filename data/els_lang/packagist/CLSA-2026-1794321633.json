@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1794321633",
+  "modified": "2026-11-10T19:31:23Z",
+  "published": "2026-11-10T15:40:34Z",
+  "summary": "TuxCare security update for symfony/routing (1 CVE)",
+  "details": "TuxCare rebuilt symfony/routing to address 1 CVE. Fixed in v5.4.48-p2+tuxcare.",
+  "upstream": [
+    "CVE-2026-118516"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Packagist",
+        "name": "symfony/routing",
+        "purl": "pkg:composer/symfony/routing"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "v5.4.48"
+            },
+            {
+              "fixed": "v5.4.48-p2+tuxcare"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "v5.4.48",
+        "v5.4.48-p1+tuxcare"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "v5.4.48",
+          "fixed_version": "v5.4.48-p2+tuxcare"
+        }
+      }
+    }
+  ]
+}

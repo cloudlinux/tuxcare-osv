@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1794314901",
+  "modified": "2026-11-10T19:31:23Z",
+  "published": "2026-11-10T13:48:21Z",
+  "summary": "TuxCare security update for org.apache.commons:commons-text (1 CVE)",
+  "details": "TuxCare rebuilt org.apache.commons:commons-text to address 1 CVE. Fixed in 1.9-tuxcare.2.",
+  "upstream": [
+    "CVE-2022-42889"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.apache.commons:commons-text",
+        "purl": "pkg:maven/org.apache.commons/commons-text"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "1.9"
+            },
+            {
+              "fixed": "1.9-tuxcare.2"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "1.9",
+        "1.9-tuxcare.1"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "1.9",
+          "fixed_version": "1.9-tuxcare.2"
+        }
+      }
+    }
+  ]
+}

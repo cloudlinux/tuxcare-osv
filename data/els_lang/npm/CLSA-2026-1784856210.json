@@ -1,12 +1,11 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2026-1784856210",
-  "modified": "2026-10-16T16:42:57Z",
+  "modified": "2026-11-10T19:31:23Z",
   "published": "2026-08-04T14:52:48Z",
-  "summary": "TuxCare security update for 2 packages (3 CVEs)",
-  "details": "TuxCare rebuilt 2 packages to address 3 CVEs. Fixed in 7.5.1-tuxcare.5.",
+  "summary": "TuxCare security update for react-router (2 CVEs)",
+  "details": "TuxCare rebuilt react-router to address 2 CVEs. Fixed in 7.5.1-tuxcare.5.",
   "upstream": [
-    "CVE-2025-61686",
     "CVE-2026-53666",
     "CVE-2026-53669"
   ],
@@ -16,39 +15,6 @@
         "ecosystem": "TuxCare:npm",
         "name": "react-router",
         "purl": "pkg:npm/react-router"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "7.5.1-tuxcare.0"
-            },
-            {
-              "fixed": "7.5.1-tuxcare.5"
-            }
-          ]
-        }
-      ],
-      "versions": [
-        "7.5.1",
-        "7.5.1-tuxcare.1",
-        "7.5.1-tuxcare.2",
-        "7.5.1-tuxcare.3",
-        "7.5.1-tuxcare.4"
-      ],
-      "database_specific": {
-        "tuxcare": {
-          "base_version": "7.5.1",
-          "fixed_version": "7.5.1-tuxcare.5"
-        }
-      }
-    },
-    {
-      "package": {
-        "ecosystem": "TuxCare:npm",
-        "name": "react-router-dev",
-        "purl": "pkg:npm/react-router-dev"
       },
       "ranges": [
         {
