@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1794407156",
+  "modified": "2026-11-11T19:20:28Z",
+  "published": "2026-11-11T15:25:57Z",
+  "summary": "TuxCare security update for org.apache.zookeeper:zookeeper (1 CVE)",
+  "details": "TuxCare rebuilt org.apache.zookeeper:zookeeper to address 1 CVE. Fixed in 3.4.14-tuxcare.1.",
+  "upstream": [
+    "CVE-2023-44981"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.apache.zookeeper:zookeeper",
+        "purl": "pkg:maven/org.apache.zookeeper/zookeeper"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "3.4.14"
+            },
+            {
+              "fixed": "3.4.14-tuxcare.1"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "3.4.14"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "3.4.14",
+          "fixed_version": "3.4.14-tuxcare.1"
+        }
+      }
+    }
+  ]
+}

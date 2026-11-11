@@ -1,0 +1,104 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1794413478",
+  "modified": "2026-11-11T19:20:28Z",
+  "published": "2026-11-11T17:11:20Z",
+  "summary": "TuxCare security update for io.micrometer (2 CVEs)",
+  "details": "TuxCare rebuilt 3 io.micrometer packages to address 2 CVEs. Fixed in 1.12.6-tuxcare.2.",
+  "upstream": [
+    "CVE-2026-40984",
+    "CVE-2026-59296"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "io.micrometer:micrometer-core",
+        "purl": "pkg:maven/io.micrometer/micrometer-core"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "1.12.6"
+            },
+            {
+              "fixed": "1.12.6-tuxcare.2"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "1.12.6",
+        "1.12.6-tuxcare.1"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "1.12.6",
+          "fixed_version": "1.12.6-tuxcare.2"
+        }
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "io.micrometer:micrometer-jetty11",
+        "purl": "pkg:maven/io.micrometer/micrometer-jetty11"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "1.12.6"
+            },
+            {
+              "fixed": "1.12.6-tuxcare.2"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "1.12.6",
+        "1.12.6-tuxcare.1"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "1.12.6",
+          "fixed_version": "1.12.6-tuxcare.2"
+        }
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "io.micrometer:micrometer-registry-statsd",
+        "purl": "pkg:maven/io.micrometer/micrometer-registry-statsd"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "1.12.6"
+            },
+            {
+              "fixed": "1.12.6-tuxcare.2"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "1.12.6",
+        "1.12.6-tuxcare.1"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "1.12.6",
+          "fixed_version": "1.12.6-tuxcare.2"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1794400345",
+  "modified": "2026-11-11T19:20:28Z",
+  "published": "2026-11-11T13:32:26Z",
+  "summary": "TuxCare security update for com.amazonaws:aws-java-sdk-s3 (1 CVE)",
+  "details": "TuxCare rebuilt com.amazonaws:aws-java-sdk-s3 to address 1 CVE. Fixed in 1.11.633-tuxcare.1.",
+  "upstream": [
+    "CVE-2022-31159"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "com.amazonaws:aws-java-sdk-s3",
+        "purl": "pkg:maven/com.amazonaws/aws-java-sdk-s3"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "1.11.633"
+            },
+            {
+              "fixed": "1.11.633-tuxcare.1"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "1.11.633"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "1.11.633",
+          "fixed_version": "1.11.633-tuxcare.1"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1794406601",
+  "modified": "2026-11-11T19:20:28Z",
+  "published": "2026-11-11T15:16:42Z",
+  "summary": "TuxCare security update for symfony/http-kernel (1 CVE)",
+  "details": "TuxCare rebuilt symfony/http-kernel to address 1 CVE. Fixed in v3.4.49-p3+tuxcare.",
+  "upstream": [
+    "CVE-2026-123339"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Packagist",
+        "name": "symfony/http-kernel",
+        "purl": "pkg:composer/symfony/http-kernel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "v3.4.49"
+            },
+            {
+              "fixed": "v3.4.49-p3+tuxcare"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "v3.4.49",
+        "v3.4.49-p1+tuxcare",
+        "v3.4.49-p2+tuxcare"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "v3.4.49",
+          "fixed_version": "v3.4.49-p3+tuxcare"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1794398674",
+  "modified": "2026-11-11T19:20:28Z",
+  "published": "2026-11-11T13:04:35Z",
+  "summary": "TuxCare security update for org.jetbrains.kotlin (2 CVEs)",
+  "details": "TuxCare rebuilt 2 org.jetbrains.kotlin packages to address 2 CVEs. Fixed in 1.6.0-tuxcare.1.",
+  "upstream": [
+    "CVE-2022-24329",
+    "CVE-2026-53914"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.jetbrains.kotlin:kotlin-gradle-plugin",
+        "purl": "pkg:maven/org.jetbrains.kotlin/kotlin-gradle-plugin"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "1.6.0"
+            },
+            {
+              "fixed": "1.6.0-tuxcare.1"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "1.6.0"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "1.6.0",
+          "fixed_version": "1.6.0-tuxcare.1"
+        }
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.jetbrains.kotlin:kotlin-stdlib",
+        "purl": "pkg:maven/org.jetbrains.kotlin/kotlin-stdlib"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "1.6.0"
+            },
+            {
+              "fixed": "1.6.0-tuxcare.1"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "1.6.0"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "1.6.0",
+          "fixed_version": "1.6.0-tuxcare.1"
+        }
+      }
+    }
+  ]
+}
