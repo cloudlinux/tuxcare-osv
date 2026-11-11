@@ -1,0 +1,79 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1794383728",
+  "modified": "2026-11-11T13:18:21Z",
+  "published": "2026-11-11T08:55:29Z",
+  "summary": "TuxCare security update for org.springframework (1 CVE)",
+  "details": "TuxCare rebuilt 2 org.springframework packages to address 1 CVE. Fixed in 5.3.3-tuxcare.5.",
+  "upstream": [
+    "CVE-2023-20860"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.springframework:spring",
+        "purl": "pkg:maven/org.springframework/spring"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "5.3.3"
+            },
+            {
+              "fixed": "5.3.3-tuxcare.5"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "5.3.3",
+        "5.3.3-tuxcare.1",
+        "5.3.3-tuxcare.2",
+        "5.3.3-tuxcare.3",
+        "5.3.3-tuxcare.4"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "5.3.3",
+          "fixed_version": "5.3.3-tuxcare.5"
+        }
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.springframework:spring-webmvc",
+        "purl": "pkg:maven/org.springframework/spring-webmvc"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "5.3.3"
+            },
+            {
+              "fixed": "5.3.3-tuxcare.5"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "5.3.3",
+        "5.3.3-tuxcare.1",
+        "5.3.3-tuxcare.2",
+        "5.3.3-tuxcare.3",
+        "5.3.3-tuxcare.4"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "5.3.3",
+          "fixed_version": "5.3.3-tuxcare.5"
+        }
+      }
+    }
+  ]
+}

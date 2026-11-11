@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1794393256",
+  "modified": "2026-11-11T13:18:21Z",
+  "published": "2026-11-11T11:34:17Z",
+  "summary": "TuxCare security update for org.springframework.security:spring-security-oauth2-authorization-server (1 CVE)",
+  "details": "TuxCare rebuilt org.springframework.security:spring-security-oauth2-authorization-server to address 1 CVE. Fixed in 1.1.4-tuxcare.7.",
+  "upstream": [
+    "CVE-2026-22752"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.springframework.security:spring-security-oauth2-authorization-server",
+        "purl": "pkg:maven/org.springframework.security/spring-security-oauth2-authorization-server"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "1.1.4"
+            },
+            {
+              "fixed": "1.1.4-tuxcare.7"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "1.1.4",
+        "1.1.4-tuxcare.1",
+        "1.1.4-tuxcare.2",
+        "1.1.4-tuxcare.3",
+        "1.1.4-tuxcare.4",
+        "1.1.4-tuxcare.5",
+        "1.1.4-tuxcare.6"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "1.1.4",
+          "fixed_version": "1.1.4-tuxcare.7"
+        }
+      }
+    }
+  ]
+}

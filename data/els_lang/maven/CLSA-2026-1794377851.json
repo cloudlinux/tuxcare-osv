@@ -1,0 +1,71 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1794377851",
+  "modified": "2026-11-11T13:18:21Z",
+  "published": "2026-11-11T07:17:32Z",
+  "summary": "TuxCare security update for org.codehaus.groovy (1 CVE)",
+  "details": "TuxCare rebuilt 2 org.codehaus.groovy packages to address 1 CVE. Fixed in 1.6.9-tuxcare.1.",
+  "upstream": [
+    "CVE-2015-3253"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.codehaus.groovy:groovy",
+        "purl": "pkg:maven/org.codehaus.groovy/groovy"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "1.6.9"
+            },
+            {
+              "fixed": "1.6.9-tuxcare.1"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "1.6.9"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "1.6.9",
+          "fixed_version": "1.6.9-tuxcare.1"
+        }
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.codehaus.groovy:groovy-all",
+        "purl": "pkg:maven/org.codehaus.groovy/groovy-all"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "1.6.9"
+            },
+            {
+              "fixed": "1.6.9-tuxcare.1"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "1.6.9"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "1.6.9",
+          "fixed_version": "1.6.9-tuxcare.1"
+        }
+      }
+    }
+  ]
+}
