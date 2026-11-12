@@ -1,0 +1,78 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1794473243",
+  "modified": "2026-11-12T13:40:56Z",
+  "published": "2026-11-12T09:47:24Z",
+  "summary": "TuxCare security update for io.netty (2 CVEs)",
+  "details": "TuxCare rebuilt 2 io.netty packages to address 2 CVEs. Fixed in 4.2.12.Final-tuxcare.4.",
+  "upstream": [
+    "CVE-2026-56819",
+    "CVE-2026-75596"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "io.netty:netty-codec-http2",
+        "purl": "pkg:maven/io.netty/netty-codec-http2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "4.2.12.Final"
+            },
+            {
+              "fixed": "4.2.12.Final-tuxcare.4"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "4.2.12.Final",
+        "4.2.12.Final-tuxcare.1",
+        "4.2.12.Final-tuxcare.2",
+        "4.2.12.Final-tuxcare.3"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "4.2.12.Final",
+          "fixed_version": "4.2.12.Final-tuxcare.4"
+        }
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "io.netty:netty-handler",
+        "purl": "pkg:maven/io.netty/netty-handler"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "4.2.12.Final"
+            },
+            {
+              "fixed": "4.2.12.Final-tuxcare.4"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "4.2.12.Final",
+        "4.2.12.Final-tuxcare.1",
+        "4.2.12.Final-tuxcare.2",
+        "4.2.12.Final-tuxcare.3"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "4.2.12.Final",
+          "fixed_version": "4.2.12.Final-tuxcare.4"
+        }
+      }
+    }
+  ]
+}

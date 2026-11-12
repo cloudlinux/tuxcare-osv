@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1794472184",
+  "modified": "2026-11-12T13:40:56Z",
+  "published": "2026-11-12T09:29:45Z",
+  "summary": "TuxCare security update for org.eclipse.jetty:jetty-http (1 CVE)",
+  "details": "TuxCare rebuilt org.eclipse.jetty:jetty-http to address 1 CVE. Fixed in 9.4.51.v20230217-tuxcare.3.",
+  "upstream": [
+    "CVE-2025-11143"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.eclipse.jetty:jetty-http",
+        "purl": "pkg:maven/org.eclipse.jetty/jetty-http"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "9.4.51.v20230217"
+            },
+            {
+              "fixed": "9.4.51.v20230217-tuxcare.3"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "9.4.51.v20230217",
+        "9.4.51.v20230217-tuxcare.1",
+        "9.4.51.v20230217-tuxcare.2"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "9.4.51.v20230217",
+          "fixed_version": "9.4.51.v20230217-tuxcare.3"
+        }
+      }
+    }
+  ]
+}

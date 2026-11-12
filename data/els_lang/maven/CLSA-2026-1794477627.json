@@ -1,0 +1,102 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1794477627",
+  "modified": "2026-11-12T13:40:56Z",
+  "published": "2026-11-12T11:00:28Z",
+  "summary": "TuxCare security update for org.apache.hadoop (3 CVEs)",
+  "details": "TuxCare rebuilt 3 org.apache.hadoop packages to address 3 CVEs. Fixed in 2.6.0-tuxcare.1.",
+  "upstream": [
+    "CVE-2016-3086",
+    "CVE-2017-3162",
+    "CVE-2021-33036"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.apache.hadoop:hadoop-client",
+        "purl": "pkg:maven/org.apache.hadoop/hadoop-client"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "2.6.0"
+            },
+            {
+              "fixed": "2.6.0-tuxcare.1"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "2.6.0"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "2.6.0",
+          "fixed_version": "2.6.0-tuxcare.1"
+        }
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.apache.hadoop:hadoop-yarn-server-common",
+        "purl": "pkg:maven/org.apache.hadoop/hadoop-yarn-server-common"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "2.6.0"
+            },
+            {
+              "fixed": "2.6.0-tuxcare.1"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "2.6.0"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "2.6.0",
+          "fixed_version": "2.6.0-tuxcare.1"
+        }
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.apache.hadoop:hadoop-yarn-server-nodemanager",
+        "purl": "pkg:maven/org.apache.hadoop/hadoop-yarn-server-nodemanager"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "2.6.0"
+            },
+            {
+              "fixed": "2.6.0-tuxcare.1"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "2.6.0"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "2.6.0",
+          "fixed_version": "2.6.0-tuxcare.1"
+        }
+      }
+    }
+  ]
+}

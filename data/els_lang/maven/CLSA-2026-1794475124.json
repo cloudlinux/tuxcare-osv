@@ -1,0 +1,85 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1794475124",
+  "modified": "2026-11-12T13:40:56Z",
+  "published": "2026-11-12T10:18:44Z",
+  "summary": "TuxCare security update for 2 packages (1 CVE)",
+  "details": "TuxCare rebuilt 2 packages to address 1 CVE. Fixed in 7.0.70-tuxcare.8.",
+  "upstream": [
+    "CVE-2026-24880"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.apache.tomcat.embed:tomcat-embed-core",
+        "purl": "pkg:maven/org.apache.tomcat.embed/tomcat-embed-core"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "7.0.70"
+            },
+            {
+              "fixed": "7.0.70-tuxcare.8"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "7.0.70",
+        "7.0.70-tuxcare.1",
+        "7.0.70-tuxcare.2",
+        "7.0.70-tuxcare.3",
+        "7.0.70-tuxcare.4",
+        "7.0.70-tuxcare.5",
+        "7.0.70-tuxcare.6",
+        "7.0.70-tuxcare.7"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "7.0.70",
+          "fixed_version": "7.0.70-tuxcare.8"
+        }
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.apache.tomcat:tomcat-coyote",
+        "purl": "pkg:maven/org.apache.tomcat/tomcat-coyote"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "7.0.70"
+            },
+            {
+              "fixed": "7.0.70-tuxcare.8"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "7.0.70",
+        "7.0.70-tuxcare.1",
+        "7.0.70-tuxcare.2",
+        "7.0.70-tuxcare.3",
+        "7.0.70-tuxcare.4",
+        "7.0.70-tuxcare.5",
+        "7.0.70-tuxcare.6",
+        "7.0.70-tuxcare.7"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "7.0.70",
+          "fixed_version": "7.0.70-tuxcare.8"
+        }
+      }
+    }
+  ]
+}

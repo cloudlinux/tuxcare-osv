@@ -1,0 +1,73 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1794472876",
+  "modified": "2026-11-12T13:40:56Z",
+  "published": "2026-11-12T09:41:17Z",
+  "summary": "TuxCare security update for io.micronaut (3 CVEs)",
+  "details": "TuxCare rebuilt 2 io.micronaut packages to address 3 CVEs. Fixed in 3.8.4-tuxcare.1.",
+  "upstream": [
+    "CVE-2026-33013",
+    "GHSA-387m-935m-c4vw",
+    "GHSA-q6gh-6v2r-hjv3"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "io.micronaut:micronaut-http-client",
+        "purl": "pkg:maven/io.micronaut/micronaut-http-client"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "3.8.4"
+            },
+            {
+              "fixed": "3.8.4-tuxcare.1"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "3.8.4"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "3.8.4",
+          "fixed_version": "3.8.4-tuxcare.1"
+        }
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "io.micronaut:micronaut-json-core",
+        "purl": "pkg:maven/io.micronaut/micronaut-json-core"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "3.8.4"
+            },
+            {
+              "fixed": "3.8.4-tuxcare.1"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "3.8.4"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "3.8.4",
+          "fixed_version": "3.8.4-tuxcare.1"
+        }
+      }
+    }
+  ]
+}
