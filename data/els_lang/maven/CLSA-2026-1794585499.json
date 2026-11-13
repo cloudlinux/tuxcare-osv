@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1794585499",
+  "modified": "2026-11-13T19:05:13Z",
+  "published": "2026-11-13T16:58:20Z",
+  "summary": "TuxCare security update for org.springframework.security:spring-security-config (1 CVE)",
+  "details": "TuxCare rebuilt org.springframework.security:spring-security-config to address 1 CVE. Fixed in 5.7.6-tuxcare.4.",
+  "upstream": [
+    "CVE-2023-34034"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.springframework.security:spring-security-config",
+        "purl": "pkg:maven/org.springframework.security/spring-security-config"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "5.7.6"
+            },
+            {
+              "fixed": "5.7.6-tuxcare.4"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "5.7.6",
+        "5.7.6-tuxcare.1",
+        "5.7.6-tuxcare.2",
+        "5.7.6-tuxcare.3"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "5.7.6",
+          "fixed_version": "5.7.6-tuxcare.4"
+        }
+      }
+    }
+  ]
+}
