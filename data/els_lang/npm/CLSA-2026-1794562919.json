@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1794562919",
+  "modified": "2026-11-13T13:17:41Z",
+  "published": "2026-11-13T10:42:00Z",
+  "summary": "TuxCare security update for basic-ftp (2 CVEs)",
+  "details": "TuxCare rebuilt basic-ftp to address 2 CVEs. Fixed in 5.3.1-tuxcare.3.",
+  "upstream": [
+    "CVE-2026-126345",
+    "CVE-2026-126346"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "basic-ftp",
+        "purl": "pkg:npm/basic-ftp"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "5.3.1-tuxcare.0"
+            },
+            {
+              "fixed": "5.3.1-tuxcare.3"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "5.3.1",
+        "5.3.1-tuxcare.1",
+        "5.3.1-tuxcare.2"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "5.3.1",
+          "fixed_version": "5.3.1-tuxcare.3"
+        }
+      }
+    }
+  ]
+}

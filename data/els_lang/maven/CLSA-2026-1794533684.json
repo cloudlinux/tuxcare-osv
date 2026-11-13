@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1794533684",
+  "modified": "2026-11-13T13:17:41Z",
+  "published": "2026-11-13T02:34:45Z",
+  "summary": "TuxCare security update for org.apache.hadoop:hadoop-yarn-server-common (1 CVE)",
+  "details": "TuxCare rebuilt org.apache.hadoop:hadoop-yarn-server-common to address 1 CVE. Fixed in 2.10.0-tuxcare.1.",
+  "upstream": [
+    "CVE-2021-33036"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.apache.hadoop:hadoop-yarn-server-common",
+        "purl": "pkg:maven/org.apache.hadoop/hadoop-yarn-server-common"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "2.10.0"
+            },
+            {
+              "fixed": "2.10.0-tuxcare.1"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "2.10.0"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "2.10.0",
+          "fixed_version": "2.10.0-tuxcare.1"
+        }
+      }
+    }
+  ]
+}

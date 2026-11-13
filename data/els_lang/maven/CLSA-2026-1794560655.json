@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1794560655",
+  "modified": "2026-11-13T13:17:41Z",
+  "published": "2026-11-13T10:04:16Z",
+  "summary": "TuxCare security update for org.apache.hadoop:hadoop-yarn-server-nodemanager (1 CVE)",
+  "details": "TuxCare rebuilt org.apache.hadoop:hadoop-yarn-server-nodemanager to address 1 CVE. Fixed in 2.6.4-tuxcare.1.",
+  "upstream": [
+    "CVE-2016-3086"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.apache.hadoop:hadoop-yarn-server-nodemanager",
+        "purl": "pkg:maven/org.apache.hadoop/hadoop-yarn-server-nodemanager"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "2.6.4"
+            },
+            {
+              "fixed": "2.6.4-tuxcare.1"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "2.6.4"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "2.6.4",
+          "fixed_version": "2.6.4-tuxcare.1"
+        }
+      }
+    }
+  ]
+}

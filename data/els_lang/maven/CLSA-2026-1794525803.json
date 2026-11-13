@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1794525803",
+  "modified": "2026-11-13T13:17:41Z",
+  "published": "2026-11-13T00:23:24Z",
+  "summary": "TuxCare security update for org.quartz-scheduler:quartz (1 CVE)",
+  "details": "TuxCare rebuilt org.quartz-scheduler:quartz to address 1 CVE. Fixed in 2.3.0-tuxcare.1.",
+  "upstream": [
+    "CVE-2019-13990"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.quartz-scheduler:quartz",
+        "purl": "pkg:maven/org.quartz-scheduler/quartz"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "2.3.0"
+            },
+            {
+              "fixed": "2.3.0-tuxcare.1"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "2.3.0"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "2.3.0",
+          "fixed_version": "2.3.0-tuxcare.1"
+        }
+      }
+    }
+  ]
+}
