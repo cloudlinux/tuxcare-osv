@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1794591039",
+  "modified": "2026-11-14T02:26:52Z",
+  "published": "2026-11-13T18:30:40Z",
+  "summary": "TuxCare security update for io.netty:netty-handler (1 CVE)",
+  "details": "TuxCare rebuilt io.netty:netty-handler to address 1 CVE. Fixed in 4.1.24.Final-tuxcare.5.",
+  "upstream": [
+    "CVE-2026-75595"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "io.netty:netty-handler",
+        "purl": "pkg:maven/io.netty/netty-handler"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "4.1.24.Final"
+            },
+            {
+              "fixed": "4.1.24.Final-tuxcare.5"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "4.1.24.Final",
+        "4.1.24.Final-tuxcare.1",
+        "4.1.24.Final-tuxcare.2",
+        "4.1.24.Final-tuxcare.3",
+        "4.1.24.Final-tuxcare.4"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "4.1.24.Final",
+          "fixed_version": "4.1.24.Final-tuxcare.5"
+        }
+      }
+    }
+  ]
+}

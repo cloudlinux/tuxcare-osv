@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1794592149",
+  "modified": "2026-11-14T02:26:52Z",
+  "published": "2026-11-13T18:49:10Z",
+  "summary": "TuxCare security update for @graphql-tools/executor-legacy-ws (1 CVE)",
+  "details": "TuxCare rebuilt @graphql-tools/executor-legacy-ws to address 1 CVE. Fixed in 0.0.11-tuxcare.2.",
+  "upstream": [
+    "CVE-2026-118666"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "@graphql-tools/executor-legacy-ws",
+        "purl": "pkg:npm/%40graphql-tools/executor-legacy-ws"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0.0.11-tuxcare.0"
+            },
+            {
+              "fixed": "0.0.11-tuxcare.2"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "0.0.11",
+        "0.0.11-tuxcare.1"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "0.0.11",
+          "fixed_version": "0.0.11-tuxcare.2"
+        }
+      }
+    }
+  ]
+}

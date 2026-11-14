@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1794595364",
+  "modified": "2026-11-14T02:26:52Z",
+  "published": "2026-11-13T19:42:45Z",
+  "summary": "TuxCare security update for org.springframework:spring-web (2 CVEs)",
+  "details": "TuxCare rebuilt org.springframework:spring-web to address 2 CVEs. Fixed in 5.2.9.RELEASE-tuxcare.6.",
+  "upstream": [
+    "CVE-2024-22259",
+    "CVE-2024-22262"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.springframework:spring-web",
+        "purl": "pkg:maven/org.springframework/spring-web"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "5.2.9.RELEASE"
+            },
+            {
+              "fixed": "5.2.9.RELEASE-tuxcare.6"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "5.2.9.RELEASE",
+        "5.2.9.RELEASE-tuxcare.1",
+        "5.2.9.RELEASE-tuxcare.2",
+        "5.2.9.RELEASE-tuxcare.3",
+        "5.2.9.RELEASE-tuxcare.4",
+        "5.2.9.RELEASE-tuxcare.5"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "5.2.9.RELEASE",
+          "fixed_version": "5.2.9.RELEASE-tuxcare.6"
+        }
+      }
+    }
+  ]
+}

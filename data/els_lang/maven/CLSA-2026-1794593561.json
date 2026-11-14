@@ -1,0 +1,54 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1794593561",
+  "modified": "2026-11-14T02:26:52Z",
+  "published": "2026-11-13T19:12:41Z",
+  "summary": "TuxCare security update for io.netty:netty-codec-haproxy (1 CVE)",
+  "details": "TuxCare rebuilt io.netty:netty-codec-haproxy to address 1 CVE. Fixed in 4.1.115.Final-tuxcare.14.",
+  "upstream": [
+    "CVE-2026-44893"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "io.netty:netty-codec-haproxy",
+        "purl": "pkg:maven/io.netty/netty-codec-haproxy"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "4.1.115.Final"
+            },
+            {
+              "fixed": "4.1.115.Final-tuxcare.14"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "4.1.115.Final",
+        "4.1.115.Final-tuxcare.1",
+        "4.1.115.Final-tuxcare.10",
+        "4.1.115.Final-tuxcare.11",
+        "4.1.115.Final-tuxcare.12",
+        "4.1.115.Final-tuxcare.13",
+        "4.1.115.Final-tuxcare.3",
+        "4.1.115.Final-tuxcare.4",
+        "4.1.115.Final-tuxcare.5",
+        "4.1.115.Final-tuxcare.6",
+        "4.1.115.Final-tuxcare.7",
+        "4.1.115.Final-tuxcare.8",
+        "4.1.115.Final-tuxcare.9"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "4.1.115.Final",
+          "fixed_version": "4.1.115.Final-tuxcare.14"
+        }
+      }
+    }
+  ]
+}
