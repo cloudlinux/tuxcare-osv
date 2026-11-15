@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1794720703",
+  "modified": "2026-11-15T07:10:54Z",
+  "published": "2026-11-15T06:31:44Z",
+  "summary": "TuxCare security update for browserslist (1 CVE)",
+  "details": "TuxCare rebuilt browserslist to address 1 CVE. Fixed in 4.16.3-tuxcare.1.",
+  "upstream": [
+    "CVE-2026-73088"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "browserslist",
+        "purl": "pkg:npm/browserslist"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "4.16.3-tuxcare.0"
+            },
+            {
+              "fixed": "4.16.3-tuxcare.1"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "4.16.3"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "4.16.3",
+          "fixed_version": "4.16.3-tuxcare.1"
+        }
+      }
+    }
+  ]
+}
