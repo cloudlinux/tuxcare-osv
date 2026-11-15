@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1794688346",
+  "modified": "2026-11-15T01:57:10Z",
+  "published": "2026-11-14T21:32:27Z",
+  "summary": "TuxCare security update for svgo (1 CVE)",
+  "details": "TuxCare rebuilt svgo to address 1 CVE. Fixed in 2.3.0-tuxcare.1.",
+  "upstream": [
+    "CVE-2026-84370"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "svgo",
+        "purl": "pkg:npm/svgo"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "2.3.0-tuxcare.0"
+            },
+            {
+              "fixed": "2.3.0-tuxcare.1"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "2.3.0"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "2.3.0",
+          "fixed_version": "2.3.0-tuxcare.1"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1794679288",
+  "modified": "2026-11-15T01:57:10Z",
+  "published": "2026-11-14T19:01:29Z",
+  "summary": "TuxCare security update for csv-parse (1 CVE)",
+  "details": "TuxCare rebuilt csv-parse to address 1 CVE. Fixed in 6.2.1-tuxcare.1.",
+  "upstream": [
+    "CVE-2026-85063"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "csv-parse",
+        "purl": "pkg:npm/csv-parse"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "6.2.1-tuxcare.0"
+            },
+            {
+              "fixed": "6.2.1-tuxcare.1"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "6.2.1"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "6.2.1",
+          "fixed_version": "6.2.1-tuxcare.1"
+        }
+      }
+    }
+  ]
+}

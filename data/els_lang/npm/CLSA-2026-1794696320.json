@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1794696320",
+  "modified": "2026-11-15T01:57:10Z",
+  "published": "2026-11-14T23:45:21Z",
+  "summary": "TuxCare security update for hono (1 CVE)",
+  "details": "TuxCare rebuilt hono to address 1 CVE. Fixed in 4.12.31-tuxcare.2.",
+  "upstream": [
+    "CVE-2026-93981"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "hono",
+        "purl": "pkg:npm/hono"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "4.12.31-tuxcare.0"
+            },
+            {
+              "fixed": "4.12.31-tuxcare.2"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "4.12.31",
+        "4.12.31-tuxcare.1"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "4.12.31",
+          "fixed_version": "4.12.31-tuxcare.2"
+        }
+      }
+    }
+  ]
+}

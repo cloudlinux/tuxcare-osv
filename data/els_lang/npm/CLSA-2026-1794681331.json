@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1794681331",
+  "modified": "2026-11-15T01:57:10Z",
+  "published": "2026-11-14T19:35:32Z",
+  "summary": "TuxCare security update for fast-copy (1 CVE)",
+  "details": "TuxCare rebuilt fast-copy to address 1 CVE. Fixed in 2.1.0-tuxcare.1.",
+  "upstream": [
+    "GHSA-jggr-w7fw-pc2j"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "fast-copy",
+        "purl": "pkg:npm/fast-copy"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "2.1.0-tuxcare.0"
+            },
+            {
+              "fixed": "2.1.0-tuxcare.1"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "2.1.0"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "2.1.0",
+          "fixed_version": "2.1.0-tuxcare.1"
+        }
+      }
+    }
+  ]
+}

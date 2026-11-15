@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1794682981",
+  "modified": "2026-11-15T01:57:10Z",
+  "published": "2026-11-14T20:03:02Z",
+  "summary": "TuxCare security update for @toon-format/toon (1 CVE)",
+  "details": "TuxCare rebuilt @toon-format/toon to address 1 CVE. Fixed in 2.1.0-tuxcare.1.",
+  "upstream": [
+    "CVE-2026-82404"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "@toon-format/toon",
+        "purl": "pkg:npm/%40toon-format/toon"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "2.1.0-tuxcare.0"
+            },
+            {
+              "fixed": "2.1.0-tuxcare.1"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "2.1.0"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "2.1.0",
+          "fixed_version": "2.1.0-tuxcare.1"
+        }
+      }
+    }
+  ]
+}

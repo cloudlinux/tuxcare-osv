@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1794689299",
+  "modified": "2026-11-15T01:57:10Z",
+  "published": "2026-11-14T21:48:20Z",
+  "summary": "TuxCare security update for @modelcontextprotocol/sdk (1 CVE)",
+  "details": "TuxCare rebuilt @modelcontextprotocol/sdk to address 1 CVE. Fixed in 1.27.1-tuxcare.1.",
+  "upstream": [
+    "CVE-2026-111768"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "@modelcontextprotocol/sdk",
+        "purl": "pkg:npm/%40modelcontextprotocol/sdk"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "1.27.1-tuxcare.0"
+            },
+            {
+              "fixed": "1.27.1-tuxcare.1"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "1.27.1"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "1.27.1",
+          "fixed_version": "1.27.1-tuxcare.1"
+        }
+      }
+    }
+  ]
+}

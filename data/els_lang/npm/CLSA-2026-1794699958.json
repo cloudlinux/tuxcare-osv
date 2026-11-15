@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1794699958",
+  "modified": "2026-11-15T01:57:10Z",
+  "published": "2026-11-15T00:45:58Z",
+  "summary": "TuxCare security update for nodemailer (2 CVEs)",
+  "details": "TuxCare rebuilt nodemailer to address 2 CVEs. Fixed in 8.0.3-tuxcare.1.",
+  "upstream": [
+    "CVE-2026-82854",
+    "GHSA-c7w3-x93f-qmm8"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "nodemailer",
+        "purl": "pkg:npm/nodemailer"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "8.0.3-tuxcare.0"
+            },
+            {
+              "fixed": "8.0.3-tuxcare.1"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "8.0.3"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "8.0.3",
+          "fixed_version": "8.0.3-tuxcare.1"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1794695345",
+  "modified": "2026-11-15T01:57:10Z",
+  "published": "2026-11-14T23:29:06Z",
+  "summary": "TuxCare security update for devalue (3 CVEs)",
+  "details": "TuxCare rebuilt devalue to address 3 CVEs. Fixed in 5.7.1-tuxcare.2.",
+  "upstream": [
+    "CVE-2026-123561",
+    "CVE-2026-123565",
+    "GHSA-mcm9-63f2-9j32"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "devalue",
+        "purl": "pkg:npm/devalue"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "5.7.1-tuxcare.0"
+            },
+            {
+              "fixed": "5.7.1-tuxcare.2"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "5.7.1",
+        "5.7.1-tuxcare.1"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "5.7.1",
+          "fixed_version": "5.7.1-tuxcare.2"
+        }
+      }
+    }
+  ]
+}
