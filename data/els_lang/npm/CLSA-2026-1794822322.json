@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1794822322",
+  "modified": "2026-11-16T14:48:19Z",
+  "published": "2026-11-16T10:45:23Z",
+  "summary": "TuxCare security update for systeminformation (1 CVE)",
+  "details": "TuxCare rebuilt systeminformation to address 1 CVE. Fixed in 5.31.5-tuxcare.1.",
+  "upstream": [
+    "CVE-2026-44724"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "systeminformation",
+        "purl": "pkg:npm/systeminformation"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "5.31.5-tuxcare.0"
+            },
+            {
+              "fixed": "5.31.5-tuxcare.1"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "5.31.5"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "5.31.5",
+          "fixed_version": "5.31.5-tuxcare.1"
+        }
+      }
+    }
+  ]
+}

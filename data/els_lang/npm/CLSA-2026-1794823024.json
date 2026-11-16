@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1794823024",
+  "modified": "2026-11-16T14:48:19Z",
+  "published": "2026-11-16T10:57:05Z",
+  "summary": "TuxCare security update for fast-jwt (2 CVEs)",
+  "details": "TuxCare rebuilt fast-jwt to address 2 CVEs. Fixed in 6.2.4-tuxcare.3.",
+  "upstream": [
+    "CVE-2026-107720",
+    "CVE-2026-107724"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "fast-jwt",
+        "purl": "pkg:npm/fast-jwt"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "6.2.4-tuxcare.0"
+            },
+            {
+              "fixed": "6.2.4-tuxcare.3"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "6.2.4",
+        "6.2.4-tuxcare.1",
+        "6.2.4-tuxcare.2"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "6.2.4",
+          "fixed_version": "6.2.4-tuxcare.3"
+        }
+      }
+    }
+  ]
+}
