@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1794836562",
+  "modified": "2026-11-17T01:12:26Z",
+  "published": "2026-11-16T14:42:43Z",
+  "summary": "TuxCare security update for mariadb (7 CVEs)",
+  "details": "TuxCare rebuilt mariadb to address 7 CVEs. Fixed in 3.4.2-tuxcare.1.",
+  "upstream": [
+    "CVE-2026-107382",
+    "CVE-2026-107383",
+    "CVE-2026-107384",
+    "CVE-2026-107385",
+    "CVE-2026-55215",
+    "CVE-2026-55854",
+    "CVE-2026-55855"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "mariadb",
+        "purl": "pkg:npm/mariadb"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "3.4.2-tuxcare.0"
+            },
+            {
+              "fixed": "3.4.2-tuxcare.1"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "3.4.2"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "3.4.2",
+          "fixed_version": "3.4.2-tuxcare.1"
+        }
+      }
+    }
+  ]
+}

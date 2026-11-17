@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1794844213",
+  "modified": "2026-11-17T01:12:26Z",
+  "published": "2026-11-16T16:50:14Z",
+  "summary": "TuxCare security update for postal-mime (1 CVE)",
+  "details": "TuxCare rebuilt postal-mime to address 1 CVE. Fixed in 3.0.1-tuxcare.1.",
+  "upstream": [
+    "GHSA-f2hq-32vh-53cc"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "postal-mime",
+        "purl": "pkg:npm/postal-mime"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "3.0.1-tuxcare.0"
+            },
+            {
+              "fixed": "3.0.1-tuxcare.1"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "3.0.1"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "3.0.1",
+          "fixed_version": "3.0.1-tuxcare.1"
+        }
+      }
+    }
+  ]
+}

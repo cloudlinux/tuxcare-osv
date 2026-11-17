@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1794841560",
+  "modified": "2026-11-17T01:12:26Z",
+  "published": "2026-11-16T16:06:01Z",
+  "summary": "TuxCare security update for highcharts (1 CVE)",
+  "details": "TuxCare rebuilt highcharts to address 1 CVE. Fixed in 13.0.0-tuxcare.1.",
+  "upstream": [
+    "CVE-2026-118244"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "highcharts",
+        "purl": "pkg:npm/highcharts"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "13.0.0-tuxcare.0"
+            },
+            {
+              "fixed": "13.0.0-tuxcare.1"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "13.0.0"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "13.0.0",
+          "fixed_version": "13.0.0-tuxcare.1"
+        }
+      }
+    }
+  ]
+}

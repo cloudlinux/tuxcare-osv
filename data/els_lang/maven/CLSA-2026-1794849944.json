@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1794849944",
+  "modified": "2026-11-17T01:12:26Z",
+  "published": "2026-11-16T18:25:45Z",
+  "summary": "TuxCare security update for org.apache.logging.log4j:log4j-api (1 CVE)",
+  "details": "TuxCare rebuilt org.apache.logging.log4j:log4j-api to address 1 CVE. Fixed in 2.17.1-tuxcare.5.",
+  "upstream": [
+    "CVE-2026-49844"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.apache.logging.log4j:log4j-api",
+        "purl": "pkg:maven/org.apache.logging.log4j/log4j-api"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "2.17.1"
+            },
+            {
+              "fixed": "2.17.1-tuxcare.5"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "2.17.1",
+        "2.17.1-tuxcare.1",
+        "2.17.1-tuxcare.2",
+        "2.17.1-tuxcare.3",
+        "2.17.1-tuxcare.4"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "2.17.1",
+          "fixed_version": "2.17.1-tuxcare.5"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1794841725",
+  "modified": "2026-11-17T01:12:26Z",
+  "published": "2026-11-16T16:08:45Z",
+  "summary": "TuxCare security update for fastify (1 CVE)",
+  "details": "TuxCare rebuilt fastify to address 1 CVE. Fixed in 5.8.2-tuxcare.3.",
+  "upstream": [
+    "CVE-2026-18504"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "fastify",
+        "purl": "pkg:npm/fastify"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "5.8.2-tuxcare.0"
+            },
+            {
+              "fixed": "5.8.2-tuxcare.3"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "5.8.2",
+        "5.8.2-tuxcare.1",
+        "5.8.2-tuxcare.2"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "5.8.2",
+          "fixed_version": "5.8.2-tuxcare.3"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1794849885",
+  "modified": "2026-11-17T01:12:26Z",
+  "published": "2026-11-16T18:24:45Z",
+  "summary": "TuxCare security update for moment (1 CVE)",
+  "details": "TuxCare rebuilt moment to address 1 CVE. Fixed in 2.29.3-tuxcare.1.",
+  "upstream": [
+    "CVE-2022-31129"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "moment",
+        "purl": "pkg:npm/moment"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "2.29.3-tuxcare.0"
+            },
+            {
+              "fixed": "2.29.3-tuxcare.1"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "2.29.3"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "2.29.3",
+          "fixed_version": "2.29.3-tuxcare.1"
+        }
+      }
+    }
+  ]
+}
