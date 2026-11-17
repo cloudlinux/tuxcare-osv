@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1794915938",
+  "modified": "2026-11-17T19:28:08Z",
+  "published": "2026-11-17T12:45:38Z",
+  "summary": "TuxCare security update for io.micrometer:micrometer-tracing-bridge-brave (1 CVE)",
+  "details": "TuxCare rebuilt io.micrometer:micrometer-tracing-bridge-brave to address 1 CVE. Fixed in 1.2.12-tuxcare.2.",
+  "upstream": [
+    "CVE-2026-59323"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "io.micrometer:micrometer-tracing-bridge-brave",
+        "purl": "pkg:maven/io.micrometer/micrometer-tracing-bridge-brave"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "1.2.12"
+            },
+            {
+              "fixed": "1.2.12-tuxcare.2"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "1.2.12",
+        "1.2.12-tuxcare.1"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "1.2.12",
+          "fixed_version": "1.2.12-tuxcare.2"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1794915793",
+  "modified": "2026-11-17T19:28:08Z",
+  "published": "2026-11-17T12:43:14Z",
+  "summary": "TuxCare security update for org.apache.hadoop (7 CVEs)",
+  "details": "TuxCare rebuilt 3 org.apache.hadoop packages to address 7 CVEs. Fixed in 2.7.3-tuxcare.2.",
+  "upstream": [
+    "CVE-2017-15713",
+    "CVE-2017-3166",
+    "CVE-2018-11768",
+    "CVE-2018-1296",
+    "CVE-2018-8029",
+    "CVE-2021-33036",
+    "CVE-2022-25168"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.apache.hadoop:hadoop-common",
+        "purl": "pkg:maven/org.apache.hadoop/hadoop-common"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "2.7.3"
+            },
+            {
+              "fixed": "2.7.3-tuxcare.2"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "2.7.3",
+        "2.7.3.tuxcare.1"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "2.7.3",
+          "fixed_version": "2.7.3-tuxcare.2"
+        }
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.apache.hadoop:hadoop-main",
+        "purl": "pkg:maven/org.apache.hadoop/hadoop-main"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "2.7.3"
+            },
+            {
+              "fixed": "2.7.3-tuxcare.2"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "2.7.3",
+        "2.7.3.tuxcare.1"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "2.7.3",
+          "fixed_version": "2.7.3-tuxcare.2"
+        }
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.apache.hadoop:hadoop-yarn-server-common",
+        "purl": "pkg:maven/org.apache.hadoop/hadoop-yarn-server-common"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "2.7.3"
+            },
+            {
+              "fixed": "2.7.3-tuxcare.2"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "2.7.3",
+        "2.7.3.tuxcare.1"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "2.7.3",
+          "fixed_version": "2.7.3-tuxcare.2"
+        }
+      }
+    }
+  ]
+}
