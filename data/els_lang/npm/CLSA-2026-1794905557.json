@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1794905557",
+  "modified": "2026-11-17T13:15:42Z",
+  "published": "2026-11-17T09:52:38Z",
+  "summary": "TuxCare security update for markdown-it (2 CVEs)",
+  "details": "TuxCare rebuilt markdown-it to address 2 CVEs. Fixed in 6.0.1-tuxcare.1.",
+  "upstream": [
+    "CVE-2026-111759",
+    "CVE-2026-111766"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "markdown-it",
+        "purl": "pkg:npm/markdown-it"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "6.0.1-tuxcare.0"
+            },
+            {
+              "fixed": "6.0.1-tuxcare.1"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "6.0.1"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "6.0.1",
+          "fixed_version": "6.0.1-tuxcare.1"
+        }
+      }
+    }
+  ]
+}

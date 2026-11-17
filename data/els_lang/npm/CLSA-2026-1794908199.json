@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1794908199",
+  "modified": "2026-11-17T13:15:42Z",
+  "published": "2026-11-17T10:36:40Z",
+  "summary": "TuxCare security update for @remix-run/router (1 CVE)",
+  "details": "TuxCare rebuilt @remix-run/router to address 1 CVE. Fixed in 1.7.2-tuxcare.2.",
+  "upstream": [
+    "CVE-2026-22029"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "@remix-run/router",
+        "purl": "pkg:npm/%40remix-run/router"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "1.7.2-tuxcare.0"
+            },
+            {
+              "fixed": "1.7.2-tuxcare.2"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "1.7.2",
+        "1.7.2-tuxcare.1"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "1.7.2",
+          "fixed_version": "1.7.2-tuxcare.2"
+        }
+      }
+    }
+  ]
+}

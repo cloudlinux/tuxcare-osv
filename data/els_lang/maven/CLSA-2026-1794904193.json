@@ -1,0 +1,72 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1794904193",
+  "modified": "2026-11-17T13:15:42Z",
+  "published": "2026-11-17T09:29:54Z",
+  "summary": "TuxCare security update for org.apache.avro (2 CVEs)",
+  "details": "TuxCare rebuilt 2 org.apache.avro packages to address 2 CVEs. Fixed in 1.8.1-tuxcare.1.",
+  "upstream": [
+    "CVE-2024-47561",
+    "CVE-2025-33042"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.apache.avro:avro",
+        "purl": "pkg:maven/org.apache.avro/avro"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "1.8.1"
+            },
+            {
+              "fixed": "1.8.1-tuxcare.1"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "1.8.1"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "1.8.1",
+          "fixed_version": "1.8.1-tuxcare.1"
+        }
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.apache.avro:avro-compiler",
+        "purl": "pkg:maven/org.apache.avro/avro-compiler"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "1.8.1"
+            },
+            {
+              "fixed": "1.8.1-tuxcare.1"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "1.8.1"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "1.8.1",
+          "fixed_version": "1.8.1-tuxcare.1"
+        }
+      }
+    }
+  ]
+}

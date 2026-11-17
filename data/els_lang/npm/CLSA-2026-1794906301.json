@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1794906301",
+  "modified": "2026-11-17T13:15:42Z",
+  "published": "2026-11-17T10:05:02Z",
+  "summary": "TuxCare security update for @modelcontextprotocol/server-legacy (1 CVE)",
+  "details": "TuxCare rebuilt @modelcontextprotocol/server-legacy to address 1 CVE. Fixed in 2.1.0-tuxcare.3.",
+  "upstream": [
+    "CVE-2026-111771"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "@modelcontextprotocol/server-legacy",
+        "purl": "pkg:npm/%40modelcontextprotocol/server-legacy"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "2.1.0-tuxcare.0"
+            },
+            {
+              "fixed": "2.1.0-tuxcare.3"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "2.1.0"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "2.1.0",
+          "fixed_version": "2.1.0-tuxcare.3"
+        }
+      }
+    }
+  ]
+}
