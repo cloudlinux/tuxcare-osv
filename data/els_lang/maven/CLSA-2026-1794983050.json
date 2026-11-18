@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1794983050",
+  "modified": "2026-11-18T14:06:04Z",
+  "published": "2026-11-18T07:24:11Z",
+  "summary": "TuxCare security update for org.springframework.boot:spring-boot-actuator-autoconfigure (1 CVE)",
+  "details": "TuxCare rebuilt org.springframework.boot:spring-boot-actuator-autoconfigure to address 1 CVE. Fixed in 2.7.7-tuxcare.7.",
+  "upstream": [
+    "CVE-2023-20873"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.springframework.boot:spring-boot-actuator-autoconfigure",
+        "purl": "pkg:maven/org.springframework.boot/spring-boot-actuator-autoconfigure"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "2.7.7"
+            },
+            {
+              "fixed": "2.7.7-tuxcare.7"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "2.7.7",
+        "2.7.7-tuxcare.1",
+        "2.7.7-tuxcare.2",
+        "2.7.7-tuxcare.3",
+        "2.7.7-tuxcare.4",
+        "2.7.7-tuxcare.5",
+        "2.7.7-tuxcare.6"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "2.7.7",
+          "fixed_version": "2.7.7-tuxcare.7"
+        }
+      }
+    }
+  ]
+}
