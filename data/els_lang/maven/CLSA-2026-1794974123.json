@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1794974123",
+  "modified": "2026-11-18T07:14:50Z",
+  "published": "2026-11-18T04:55:24Z",
+  "summary": "TuxCare security update for org.apache.hadoop:hadoop-client (1 CVE)",
+  "details": "TuxCare rebuilt org.apache.hadoop:hadoop-client to address 1 CVE. Fixed in 2.10.0-tuxcare.2.",
+  "upstream": [
+    "CVE-2017-3162"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.apache.hadoop:hadoop-client",
+        "purl": "pkg:maven/org.apache.hadoop/hadoop-client"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "2.10.0"
+            },
+            {
+              "fixed": "2.10.0-tuxcare.2"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "2.10.0",
+        "2.10.0-tuxcare.1"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "2.10.0",
+          "fixed_version": "2.10.0-tuxcare.2"
+        }
+      }
+    }
+  ]
+}

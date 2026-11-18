@@ -1,0 +1,49 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1794976805",
+  "modified": "2026-11-18T07:14:50Z",
+  "published": "2026-11-18T05:40:06Z",
+  "summary": "TuxCare security update for org.apache.hive:hive-serde (1 CVE)",
+  "details": "TuxCare rebuilt org.apache.hive:hive-serde to address 1 CVE. Fixed in 2.3.9-tuxcare.8.",
+  "upstream": [
+    "CVE-2026-55976"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.apache.hive:hive-serde",
+        "purl": "pkg:maven/org.apache.hive/hive-serde"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "2.3.9"
+            },
+            {
+              "fixed": "2.3.9-tuxcare.8"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "2.3.9",
+        "2.3.9-tuxcare.2",
+        "2.3.9-tuxcare.3",
+        "2.3.9-tuxcare.4",
+        "2.3.9-tuxcare.5",
+        "2.3.9-tuxcare.6",
+        "2.3.9-tuxcare.7",
+        "2.3.9.tuxcare.1"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "2.3.9",
+          "fixed_version": "2.3.9-tuxcare.8"
+        }
+      }
+    }
+  ]
+}
