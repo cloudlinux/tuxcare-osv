@@ -1,0 +1,77 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1794471299",
+  "summary": "Update of giflib",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:7",
+        "name": "giflib",
+        "purl": "pkg:rpm/tuxcare/giflib?distro=oraclelinux-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.1.6-9.0.3.el7.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:7",
+        "name": "giflib-devel",
+        "purl": "pkg:rpm/tuxcare/giflib-devel?distro=oraclelinux-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.1.6-9.0.3.el7.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:7",
+        "name": "giflib-utils",
+        "purl": "pkg:rpm/tuxcare/giflib-utils?distro=oraclelinux-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.1.6-9.0.3.el7.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [],
+  "published": "2026-11-12T08:15:08Z",
+  "modified": "2026-11-12T08:15:08Z",
+  "details": "- rebase to 4.1.6-9.0.3.el7\n- take the vendor's MakeSavedImage double-free patch in place of ours, and\n  keep, on top of it, the upstream check it lacks, so copies made by\n  MakeSavedImage() keep their local colour map and extension blocks",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/oraclelinux7els/CLSA-2026-1794471299.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

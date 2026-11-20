@@ -1,0 +1,98 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1793955849",
+  "summary": "tesseract: Fix of 4 CVEs",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "tesseract",
+        "purl": "pkg:rpm/tuxcare/tesseract?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.1.1-7.el9_2.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "tesseract-devel",
+        "purl": "pkg:rpm/tuxcare/tesseract-devel?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.1.1-7.el9_2.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "tesseract-tools",
+        "purl": "pkg:rpm/tuxcare/tesseract-tools?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.1.1-7.el9_2.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-73066",
+    "CVE-2026-88048",
+    "CVE-2026-88051",
+    "CVE-2026-119340"
+  ],
+  "published": "2026-11-06T09:04:22Z",
+  "modified": "2026-11-06T09:04:22Z",
+  "details": "- CVE-2026-73066: fix integer overflow in LSTM Convolve and Reconfig deserialization that allowed a heap out-of-bounds write from a crafted .traineddata\n- CVE-2026-88048: reject LSTM fully connected layers whose weight matrix does not match the declared layer sizes\n- CVE-2026-88051: reject negative, over-limit and inconsistent element counts in GenericVector::read when loading traineddata\n- CVE-2026-119340: reject negative, overflowing or unbacked matrix dimensions when loading .traineddata",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/almalinux9.2esu/CLSA-2026-1793955849.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-119340",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-73066",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-88048",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-88051",
+      "type": "ADVISORY"
+    }
+  ]
+}

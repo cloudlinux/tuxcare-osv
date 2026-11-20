@@ -1,0 +1,83 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1794877549",
+  "summary": "edk2: Fix of CVE-2025-2296",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.4",
+        "name": "edk2-ovmf",
+        "purl": "pkg:rpm/tuxcare/edk2-ovmf?distro=centos-8.4"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "20200602gitca407c7246bf-4.el8_4.2.tuxcare.els5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.4",
+        "name": "edk2-tools",
+        "purl": "pkg:rpm/tuxcare/edk2-tools?distro=centos-8.4"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "20200602gitca407c7246bf-4.el8_4.2.tuxcare.els5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.4",
+        "name": "edk2-tools-doc",
+        "purl": "pkg:rpm/tuxcare/edk2-tools-doc?distro=centos-8.4"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "20200602gitca407c7246bf-4.el8_4.2.tuxcare.els5"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2025-2296"
+  ],
+  "published": "2026-11-17T01:06:01Z",
+  "modified": "2026-11-17T01:06:01Z",
+  "details": "- CVE-2025-2296: refuse the insecure legacy Linux kernel loader in AMD SEV guests",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/centos8.4els/CLSA-2026-1794877549.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-2296",
+      "type": "ADVISORY"
+    }
+  ]
+}

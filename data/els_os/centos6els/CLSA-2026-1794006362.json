@@ -1,0 +1,91 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1794006362",
+  "summary": "libjpeg-turbo: Fix of 2 CVEs",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:6",
+        "name": "libjpeg-turbo",
+        "purl": "pkg:rpm/tuxcare/libjpeg-turbo?distro=centos-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.2.1-3.el6_5.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:6",
+        "name": "libjpeg-turbo-devel",
+        "purl": "pkg:rpm/tuxcare/libjpeg-turbo-devel?distro=centos-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.2.1-3.el6_5.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:6",
+        "name": "libjpeg-turbo-static",
+        "purl": "pkg:rpm/tuxcare/libjpeg-turbo-static?distro=centos-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.2.1-3.el6_5.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2020-13790",
+    "CVE-2016-3616",
+    "CVE-2018-11213",
+    "CVE-2018-11214",
+    "CVE-2020-17541"
+  ],
+  "published": "2026-11-07T00:06:48Z",
+  "modified": "2026-11-07T00:06:48Z",
+  "details": "- CVE-2020-13790: fix heap buffer over-read in rdppm.c with a crafted binary PPM/PGM file\n  (with upstream 6709e4a0 and 1e81b0c3: range-check text PPM/PGM samples and\n  16-bit binary words against maxval; also CVE-2016-3616, CVE-2018-11213,\n  CVE-2018-11214)\n- CVE-2020-17541: fix stack buffer overflow in the Huffman encoder local buffer",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/centos6els/CLSA-2026-1794006362.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2020-13790",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2020-17541",
+      "type": "ADVISORY"
+    }
+  ]
+}

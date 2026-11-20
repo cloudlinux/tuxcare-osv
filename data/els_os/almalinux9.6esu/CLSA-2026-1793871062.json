@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1793871062",
+  "summary": "Update of lrzsz",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "lrzsz",
+        "purl": "pkg:rpm/tuxcare/lrzsz?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.12.20-58.el9_6.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [],
+  "published": "2026-11-05T09:31:12Z",
+  "modified": "2026-11-05T09:31:12Z",
+  "details": "- rebase to 0.12.20-58.el9_8\n- drop our restricted-mode path name check and rzCOMMAND pipe mode removal;\n  the vendor's patches carry both\n- keep the NUL-termination of the ZFILE subpacket in tryz(), which the vendor\n  lacks",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/tuxcare9.6esu/CLSA-2026-1793871062.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

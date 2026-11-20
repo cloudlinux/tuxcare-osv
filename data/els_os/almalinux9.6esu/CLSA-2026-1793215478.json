@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1793215478",
+  "summary": "delve: Fix of 2 CVEs",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "delve",
+        "purl": "pkg:rpm/tuxcare/delve?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.24.1-2.el9_6.tuxcare.els4"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-78669"
+  ],
+  "published": "2026-10-28T19:24:50Z",
+  "modified": "2026-10-28T19:24:50Z",
+  "details": "- rebuild with newer golang version 1.25.7-1.el9_6.tuxcare.els22 to fix:\n  - CVE-2026-78669: excessive CPU use in HTTP/2 initial window changes",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/tuxcare9.6esu/CLSA-2026-1793215478.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111943",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-78669",
+      "type": "ADVISORY"
+    }
+  ]
+}

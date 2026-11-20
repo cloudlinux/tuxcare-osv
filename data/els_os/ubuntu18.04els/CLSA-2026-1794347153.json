@@ -1,0 +1,63 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1794347153",
+  "summary": "Fix CVE(s): CVE-2026-97689",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "python-urllib3",
+        "purl": "pkg:deb/tuxcare/python-urllib3?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.22-1ubuntu0.18.04.2+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "python3-urllib3",
+        "purl": "pkg:deb/tuxcare/python3-urllib3?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.22-1ubuntu0.18.04.2+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-97689"
+  ],
+  "published": "2026-11-10T21:46:05Z",
+  "modified": "2026-11-10T21:46:05Z",
+  "details": "   * SECURITY UPDATE: Denial of service via unbounded memory use in\n     HTTPResponse.stream()/read_chunked() when a server sends an\n     unterminated chunk-size line\n     - debian/patches/CVE-2026-97689.patch: bound chunk-size and trailer\n       line reads to 65536 bytes in urllib3/response.py,\n       test/test_response.py.\n     - CVE-2026-97689",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/ubuntu18.04els/CLSA-2026-1794347153.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-97689",
+      "type": "ADVISORY"
+    }
+  ]
+}

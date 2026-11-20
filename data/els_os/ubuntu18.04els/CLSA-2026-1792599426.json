@@ -1,7 +1,7 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2026-1792599426",
-  "summary": "Fix CVE(s): CVE-2026-109618, CVE-2026-109619",
+  "summary": "Fix CVE(s): CVE-2026-109618, CVE-2026-109619, CVE-2026-115560",
   "affected": [
     {
       "package": {
@@ -766,10 +766,11 @@
   ],
   "upstream": [
     "CVE-2026-109618",
-    "CVE-2026-109619"
+    "CVE-2026-109619",
+    "CVE-2026-115560"
   ],
-  "published": "2026-10-21T16:31:40Z",
-  "modified": "2026-10-21T16:31:40Z",
+  "published": "2026-11-19T14:17:27Z",
+  "modified": "2026-11-19T14:17:27Z",
   "details": "   * SECURITY UPDATE: code execution via state corruption after an\n     out-of-memory error and via stale global state\n     - debian/patches/CVE-2026-109618.patch: terminate the process on memory\n       limit and allocation overflow errors instead of unwinding, clear\n       request globals at shutdown, disable session upload progress and keep\n       only the Content-Disposition and Content-Type multipart part headers.\n     - CVE-2026-109618\n     - CVE-2026-109619",
   "references": [
     {
@@ -782,6 +783,10 @@
     },
     {
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-109619",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-115560",
       "type": "ADVISORY"
     }
   ]

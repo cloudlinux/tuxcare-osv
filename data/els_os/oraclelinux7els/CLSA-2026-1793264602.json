@@ -1,0 +1,63 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1793264602",
+  "summary": "cifs-utils: Fix of CVE-2026-104715",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:7",
+        "name": "cifs-utils",
+        "purl": "pkg:rpm/tuxcare/cifs-utils?distro=oraclelinux-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "6.2-10.el7.0.5.tuxcare.els4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:7",
+        "name": "cifs-utils-devel",
+        "purl": "pkg:rpm/tuxcare/cifs-utils-devel?distro=oraclelinux-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "6.2-10.el7.0.5.tuxcare.els4"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-104715"
+  ],
+  "published": "2026-10-29T09:03:33Z",
+  "modified": "2026-10-29T09:03:33Z",
+  "details": "- CVE-2026-104715: fix mount option injection via unsanitized username and\n  domain from a credentials file or the USER environment variable",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/oraclelinux7els/CLSA-2026-1793264602.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-104715",
+      "type": "ADVISORY"
+    }
+  ]
+}

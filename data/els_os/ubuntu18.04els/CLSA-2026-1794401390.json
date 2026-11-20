@@ -1,0 +1,84 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1794401390",
+  "summary": "Fix CVE(s): CVE-2026-37555",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "libsndfile1",
+        "purl": "pkg:deb/tuxcare/libsndfile1?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.0.28-4ubuntu0.18.04.2+tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "libsndfile1-dev",
+        "purl": "pkg:deb/tuxcare/libsndfile1-dev?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.0.28-4ubuntu0.18.04.2+tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "sndfile-programs",
+        "purl": "pkg:deb/tuxcare/sndfile-programs?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.0.28-4ubuntu0.18.04.2+tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-37555",
+    "CVE-2022-33065"
+  ],
+  "published": "2026-11-11T12:50:09Z",
+  "modified": "2026-11-11T12:50:09Z",
+  "details": "   * SECURITY UPDATE: signed integer overflow computing the IMA ADPCM frame\n     count on the WAV/W64 read path and the write (close) path (ELSCVE-243831)\n     - debian/patches/CVE-2026-37555.patch: pre-cast samplesperblock to\n       sf_count_t in ima_reader_init() and ima_close() in src/ima_adpcm.c.\n       Upstream commit 3d63704f6654e8bc02fd5b97c069e7fd6a44e44c; completes\n       the AIFF-only fix already carried for CVE-2022-33065.\n     - CVE-2026-37555",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/ubuntu18.04els/CLSA-2026-1794401390.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-37555",
+      "type": "ADVISORY"
+    }
+  ]
+}

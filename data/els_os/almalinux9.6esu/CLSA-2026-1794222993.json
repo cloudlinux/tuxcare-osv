@@ -1,0 +1,99 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1794222993",
+  "summary": "exiv2: Fix of CVE-2025-55304",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "exiv2",
+        "purl": "pkg:rpm/tuxcare/exiv2?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.27.5-2.el9_6.tuxcare.els6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "exiv2-devel",
+        "purl": "pkg:rpm/tuxcare/exiv2-devel?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.27.5-2.el9_6.tuxcare.els6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "exiv2-doc",
+        "purl": "pkg:rpm/tuxcare/exiv2-doc?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.27.5-2.el9_6.tuxcare.els6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "exiv2-libs",
+        "purl": "pkg:rpm/tuxcare/exiv2-libs?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.27.5-2.el9_6.tuxcare.els6"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2025-55304"
+  ],
+  "published": "2026-11-09T11:16:41Z",
+  "modified": "2026-11-09T11:16:41Z",
+  "details": "- CVE-2025-55304: rework the fix for 0.27; collect the ICC chunks of a JPEG\n  in one buffer and set the profile once, adding no Image methods, so the\n  libexiv2 ABI matches the vendor's again (gexiv2 and gimp crashed) and\n  multi-chunk ICC profiles are read whole again",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/tuxcare9.6esu/CLSA-2026-1794222993.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1793613018",
+  "summary": "Update of libexif",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:RHEL:7",
+        "name": "libexif",
+        "purl": "pkg:rpm/tuxcare/libexif?distro=rhel-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.6.22-2.0.1.el7_9.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:RHEL:7",
+        "name": "libexif-devel",
+        "purl": "pkg:rpm/tuxcare/libexif-devel?distro=rhel-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.6.22-2.0.1.el7_9.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:RHEL:7",
+        "name": "libexif-doc",
+        "purl": "pkg:rpm/tuxcare/libexif-doc?distro=rhel-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.6.22-2.0.1.el7_9.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [],
+  "published": "2026-11-02T09:50:26Z",
+  "modified": "2026-11-02T09:50:26Z",
+  "details": "- Rebase onto the vendor's 0.6.22-2.0.1 source package\n- The vendor's version of Patch1002 and Patch1001 is taken;\n  the TuxCare copies of those files are dropped in favour of the vendor's, which\n  carry the same fixes in libexif/olympus/exif-mnote-data-olympus.c and\n  libexif/fuji/exif-mnote-data-fuji.c\n- The TuxCare maxlen hardening in libexif/{canon,fuji,olympus,pentax}/mnote-*-entry.c\n  is retained",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/rhel7els/CLSA-2026-1793613018.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

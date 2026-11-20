@@ -1,0 +1,185 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1793904457",
+  "summary": "mariadb: Fix of CVE-2026-107814",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:7",
+        "name": "mariadb",
+        "purl": "pkg:rpm/tuxcare/mariadb?distro=oraclelinux-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:5.5.68-1.0.1.el7.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:7",
+        "name": "mariadb-bench",
+        "purl": "pkg:rpm/tuxcare/mariadb-bench?distro=oraclelinux-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:5.5.68-1.0.1.el7.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:7",
+        "name": "mariadb-devel",
+        "purl": "pkg:rpm/tuxcare/mariadb-devel?distro=oraclelinux-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:5.5.68-1.0.1.el7.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:7",
+        "name": "mariadb-embedded",
+        "purl": "pkg:rpm/tuxcare/mariadb-embedded?distro=oraclelinux-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:5.5.68-1.0.1.el7.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:7",
+        "name": "mariadb-embedded-devel",
+        "purl": "pkg:rpm/tuxcare/mariadb-embedded-devel?distro=oraclelinux-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:5.5.68-1.0.1.el7.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:7",
+        "name": "mariadb-libs",
+        "purl": "pkg:rpm/tuxcare/mariadb-libs?distro=oraclelinux-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:5.5.68-1.0.1.el7.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:7",
+        "name": "mariadb-server",
+        "purl": "pkg:rpm/tuxcare/mariadb-server?distro=oraclelinux-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:5.5.68-1.0.1.el7.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:7",
+        "name": "mariadb-test",
+        "purl": "pkg:rpm/tuxcare/mariadb-test?distro=oraclelinux-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:5.5.68-1.0.1.el7.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-107814",
+    "CVE-2025-13699",
+    "CVE-2021-46669"
+  ],
+  "published": "2026-11-05T18:48:00Z",
+  "modified": "2026-11-05T18:48:00Z",
+  "details": "- CVE-2026-107814: stop giving the mysql system user the data directory as its\n  home directory; the home is reset for new installs and, on upgrades, only\n  when the server is not running\n- CVE-2025-13699: mysqldump directory traversal through view names; the fix\n  is already carried, build it for CloudLinux 7 ELS and RHEL 7 ELS too\n- CVE-2021-46669: do not read the uninitialized record while virtual column\n  expressions are fixed on table open (MDEV-25638)",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/oraclelinux7els/CLSA-2026-1793904457.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-107814",
+      "type": "ADVISORY"
+    }
+  ]
+}

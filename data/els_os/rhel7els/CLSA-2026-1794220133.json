@@ -1,0 +1,84 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1794220133",
+  "summary": "expat: Fix of CVE-2026-77214",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:RHEL:7",
+        "name": "expat",
+        "purl": "pkg:rpm/tuxcare/expat?distro=rhel-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.1.0-15.0.7.el7_9.tuxcare.els11"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:RHEL:7",
+        "name": "expat-devel",
+        "purl": "pkg:rpm/tuxcare/expat-devel?distro=rhel-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.1.0-15.0.7.el7_9.tuxcare.els11"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:RHEL:7",
+        "name": "expat-static",
+        "purl": "pkg:rpm/tuxcare/expat-static?distro=rhel-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.1.0-15.0.7.el7_9.tuxcare.els11"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-77214",
+    "CVE-2026-72522"
+  ],
+  "published": "2026-11-09T10:29:05Z",
+  "modified": "2026-11-09T10:29:05Z",
+  "details": "- CVE-2026-72522: fix an out-of-bounds read and infinite loop in the\n  *_toUtf16 converters by treating only genuine high surrogates as the\n  first half of a split surrogate pair\n- CVE-2026-77214: fix a heap buffer over-read by validating the len passed\n  to XML_ParseBuffer against the unoccupied capacity of the parse buffer",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/rhel7els/CLSA-2026-1794220133.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-77214",
+      "type": "ADVISORY"
+    }
+  ]
+}

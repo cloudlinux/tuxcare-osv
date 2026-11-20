@@ -1,0 +1,103 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1793178530",
+  "summary": "flatpak: Fix of CVE-2026-96275",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:RHEL:7",
+        "name": "flatpak",
+        "purl": "pkg:rpm/tuxcare/flatpak?distro=rhel-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.0.9-13.0.1.el7_9.tuxcare.els4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:RHEL:7",
+        "name": "flatpak-builder",
+        "purl": "pkg:rpm/tuxcare/flatpak-builder?distro=rhel-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.0.0-13.0.1.el7_9.tuxcare.els4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:RHEL:7",
+        "name": "flatpak-devel",
+        "purl": "pkg:rpm/tuxcare/flatpak-devel?distro=rhel-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.0.9-13.0.1.el7_9.tuxcare.els4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:RHEL:7",
+        "name": "flatpak-libs",
+        "purl": "pkg:rpm/tuxcare/flatpak-libs?distro=rhel-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.0.9-13.0.1.el7_9.tuxcare.els4"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-96275"
+  ],
+  "published": "2026-10-28T09:09:01Z",
+  "modified": "2026-10-28T09:09:01Z",
+  "details": "- CVE-2026-96275: fix path traversal when extracting extra data, by refusing a\n  symlinked files/extra and rejecting extra-data names containing \".\", \"..\" or\n  \"/\"",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/rhel7els/CLSA-2026-1793178530.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-96275",
+      "type": "ADVISORY"
+    }
+  ]
+}

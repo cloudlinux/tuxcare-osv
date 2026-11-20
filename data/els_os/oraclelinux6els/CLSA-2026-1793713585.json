@@ -1,0 +1,68 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1793713585",
+  "summary": "libcap: Fix of 2 CVEs",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:6",
+        "name": "libcap",
+        "purl": "pkg:rpm/tuxcare/libcap?distro=oraclelinux-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.16-5.5.el6.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:6",
+        "name": "libcap-devel",
+        "purl": "pkg:rpm/tuxcare/libcap-devel?distro=oraclelinux-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.16-5.5.el6.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2023-2603",
+    "CVE-2026-4878"
+  ],
+  "published": "2026-11-03T13:46:37Z",
+  "modified": "2026-11-03T13:46:37Z",
+  "details": "- CVE-2023-2603: fix integer overflow in _libcap_strdup()\n- CVE-2026-4878: fix race between path check and xattr update in cap_set_file()",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/oraclelinux6els/CLSA-2026-1793713585.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-2603",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-4878",
+      "type": "ADVISORY"
+    }
+  ]
+}

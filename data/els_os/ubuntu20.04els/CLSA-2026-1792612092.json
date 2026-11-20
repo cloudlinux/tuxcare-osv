@@ -1,7 +1,7 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2026-1792612092",
-  "summary": "Fix CVE(s): CVE-2026-109618, CVE-2026-109619",
+  "summary": "Fix CVE(s): CVE-2026-109618, CVE-2026-109619, CVE-2026-115560",
   "affected": [
     {
       "package": {
@@ -746,10 +746,11 @@
   ],
   "upstream": [
     "CVE-2026-109618",
-    "CVE-2026-109619"
+    "CVE-2026-109619",
+    "CVE-2026-115560"
   ],
-  "published": "2026-10-21T19:51:36Z",
-  "modified": "2026-10-21T19:51:36Z",
+  "published": "2026-11-19T14:18:43Z",
+  "modified": "2026-11-19T14:18:43Z",
   "details": "   * SECURITY UPDATE: remote code execution via state corruption after a\n     bailout and via stale request-global state\n     - debian/patches/CVE-2026-109618-CVE-2026-109619.patch: PHP security\n       team's minimal mitigation for EOL branches: report allocator\n       overflow and out-of-memory errors via zend_mm_safe_error_ex() and\n       _exit() instead of bailing out, reset executor, SAPI and request\n       globals on shutdown, add overflow checks to the CONCAT and\n       FAST_CONCAT handlers, keep only the Content-Disposition and\n       Content-Type multipart headers and ignore duplicates, and disable\n       the session upload progress callback, in Zend/*, main/*,\n       ext/session/session.c\n     - CVE-2026-109618\n     - CVE-2026-109619",
   "references": [
     {
@@ -762,6 +763,10 @@
     },
     {
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-109619",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-115560",
       "type": "ADVISORY"
     }
   ]

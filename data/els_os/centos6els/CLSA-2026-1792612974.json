@@ -1,7 +1,7 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2026-1792612974",
-  "summary": "php: Fix of 2 CVEs",
+  "summary": "php: Fix of 6 CVEs",
   "affected": [
     {
       "package": {
@@ -548,12 +548,28 @@
     "CVE-2026-109618",
     "CVE-2026-109619"
   ],
-  "published": "2026-10-21T20:03:04Z",
-  "modified": "2026-10-21T20:03:04Z",
+  "published": "2026-10-26T15:48:20Z",
+  "modified": "2026-10-26T15:48:20Z",
   "details": "- CVE-2026-109618: avoid heap state corruption via bailout on out-of-memory\n- CVE-2026-109619: reset per-request globals that could be reused after\n  a bailout during request startup",
   "references": [
     {
       "url": "https://errata.tuxcare.com/els_os/centos6els/CLSA-2026-1792612974.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2017-9224",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2017-9226",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2017-9227",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2017-9228",
       "type": "ADVISORY"
     },
     {

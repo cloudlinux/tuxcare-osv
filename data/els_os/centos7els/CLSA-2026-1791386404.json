@@ -1,7 +1,7 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2026-1791386404",
-  "summary": "rsync: Fix of 2 CVEs",
+  "summary": "rsync: Fix of 3 CVEs",
   "affected": [
     {
       "package": {
@@ -27,8 +27,8 @@
   "upstream": [
     "CVE-2026-53802"
   ],
-  "published": "2026-10-09T14:57:57Z",
-  "modified": "2026-10-09T14:57:57Z",
+  "published": "2026-11-03T14:46:53Z",
+  "modified": "2026-11-03T14:46:53Z",
   "details": "- CVE-2026-53802: open the daemon secrets file, the client --password-file,\n  --files-from and the --filter merge / per-directory merge files refusing\n  attacker-planted symlinks -- confined beneath the module root on a daemon,\n  owner-trust walk otherwise; getpassf() fstat()s the opened fd, not the path",
   "references": [
     {
@@ -41,6 +41,10 @@
     },
     {
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-53802",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-70460",
       "type": "ADVISORY"
     }
   ]

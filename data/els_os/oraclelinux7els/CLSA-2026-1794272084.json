@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1794272084",
+  "summary": "python-urllib3: Fix of CVE-2025-66471",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:7",
+        "name": "python-urllib3",
+        "purl": "pkg:rpm/tuxcare/python-urllib3?distro=oraclelinux-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.10.2-7.0.3.el7.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2025-66471"
+  ],
+  "published": "2026-11-10T00:54:56Z",
+  "modified": "2026-11-10T00:54:56Z",
+  "details": "- CVE-2025-66471: fix stream() hang and read() bounds in the backport",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/oraclelinux7els/CLSA-2026-1794272084.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-66471",
+      "type": "ADVISORY"
+    }
+  ]
+}

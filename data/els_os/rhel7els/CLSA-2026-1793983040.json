@@ -1,0 +1,77 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1793983040",
+  "summary": "Update of postfix",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:RHEL:7",
+        "name": "postfix",
+        "purl": "pkg:rpm/tuxcare/postfix?distro=rhel-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:2.10.1-9.0.1.el7.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:RHEL:7",
+        "name": "postfix-perl-scripts",
+        "purl": "pkg:rpm/tuxcare/postfix-perl-scripts?distro=rhel-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:2.10.1-9.0.1.el7.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:RHEL:7",
+        "name": "postfix-sysvinit",
+        "purl": "pkg:rpm/tuxcare/postfix-sysvinit?distro=rhel-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:2.10.1-9.0.1.el7.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [],
+  "published": "2026-11-06T16:37:31Z",
+  "modified": "2026-11-06T16:37:31Z",
+  "details": "- rebase to 2.10.1-9.0.1.el7\n- drop our patch duplicating the vendor's 1001-postfix-cve-2026-43964-v2.patch\n- restore the vendor's kernel-4-fix patch and carry our Linux 6.x makedefs\n  match as postfix-2.10.1-kernel-6-fix.patch",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/rhel7els/CLSA-2026-1793983040.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1793732069",
+  "summary": "rsync: Fix of 2 CVEs",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:6",
+        "name": "rsync",
+        "purl": "pkg:rpm/tuxcare/rsync?distro=oraclelinux-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.0.6-12.el6.tuxcare.els15"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-70456",
+    "CVE-2026-53785"
+  ],
+  "published": "2026-11-03T18:54:51Z",
+  "modified": "2026-11-03T18:54:51Z",
+  "details": "- CVE-2026-70456: make room for the trailing NULL in read_args() so a\n  crafted daemon argument list cannot write one slot past the argv\n  allocation\n- CVE-2026-53785: create the implied parent directories of a --relative\n  transfer without following a symlinked parent component on any\n  non-sender receiver, not only a non-chrooted daemon",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/oraclelinux6els/CLSA-2026-1793732069.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-53785",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-70456",
+      "type": "ADVISORY"
+    }
+  ]
+}

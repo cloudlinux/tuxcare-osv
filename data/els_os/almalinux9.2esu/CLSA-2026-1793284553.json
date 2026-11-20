@@ -1,0 +1,148 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1793284553",
+  "summary": "podman: Fix of 2 CVEs",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "podman",
+        "purl": "pkg:rpm/tuxcare/podman?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:4.4.1-13.el9_2.tuxcare.els22"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "podman-docker",
+        "purl": "pkg:rpm/tuxcare/podman-docker?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:4.4.1-13.el9_2.tuxcare.els22"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "podman-gvproxy",
+        "purl": "pkg:rpm/tuxcare/podman-gvproxy?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:4.4.1-13.el9_2.tuxcare.els22"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "podman-plugins",
+        "purl": "pkg:rpm/tuxcare/podman-plugins?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:4.4.1-13.el9_2.tuxcare.els22"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "podman-remote",
+        "purl": "pkg:rpm/tuxcare/podman-remote?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:4.4.1-13.el9_2.tuxcare.els22"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "podman-tests",
+        "purl": "pkg:rpm/tuxcare/podman-tests?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:4.4.1-13.el9_2.tuxcare.els22"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-78667",
+    "CVE-2026-78669"
+  ],
+  "published": "2026-10-29T14:36:05Z",
+  "modified": "2026-10-29T14:36:05Z",
+  "details": "- Rebuild with golang 1.22.9-1.el9_2.tuxcare.els30 and patch vendored\n  golang.org/x/net/http2 to fix CVE-2026-78667, CVE-2026-78669\n- CVE-2026-78667: net/http: limit the number of ranges parsed from a Range\n  header in FileServer, ServeContent and ServeFile to 200, ignoring headers\n  with too many ranges, to avoid excessive CPU and memory consumption (Go\n  standard library, fixed by the golang rebuild)\n- CVE-2026-78669: keep HTTP/2 stream send windows relative to the peer's\n  initial window size, so a SETTINGS_INITIAL_WINDOW_SIZE change no longer\n  walks every open stream and a malicious peer can no longer exhaust CPU\n  with many small SETTINGS frames, in the golang.org/x/net/http2 copy\n  vendored by podman and in the Go standard library (golang rebuild)",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/almalinux9.2esu/CLSA-2026-1793284553.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-78667",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-78669",
+      "type": "ADVISORY"
+    }
+  ]
+}
