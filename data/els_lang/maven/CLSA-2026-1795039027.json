@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1795039027",
+  "modified": "2026-11-20T19:27:31Z",
+  "published": "2026-11-18T22:57:08Z",
+  "summary": "TuxCare security update for org.apache.tomcat:tomcat-util (1 CVE)",
+  "details": "TuxCare rebuilt org.apache.tomcat:tomcat-util to address 1 CVE. Fixed in 10.1.16-tuxcare.5.",
+  "upstream": [
+    "CVE-2026-53434"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.apache.tomcat:tomcat-util",
+        "purl": "pkg:maven/org.apache.tomcat/tomcat-util"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "10.1.16"
+            },
+            {
+              "fixed": "10.1.16-tuxcare.5"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "10.1.16",
+        "10.1.16-tuxcare.1",
+        "10.1.16-tuxcare.2",
+        "10.1.16-tuxcare.3",
+        "10.1.16-tuxcare.4"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "10.1.16",
+          "fixed_version": "10.1.16-tuxcare.5"
+        }
+      }
+    }
+  ]
+}
