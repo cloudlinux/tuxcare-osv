@@ -1,0 +1,111 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1795029068",
+  "modified": "2026-11-20T14:28:21Z",
+  "published": "2026-11-18T20:11:08Z",
+  "summary": "TuxCare security update for org.apache.hadoop (9 CVEs)",
+  "details": "TuxCare rebuilt 3 org.apache.hadoop packages to address 9 CVEs. Fixed in 2.7.1-tuxcare.2.",
+  "upstream": [
+    "CVE-2016-3086",
+    "CVE-2016-5001",
+    "CVE-2017-15713",
+    "CVE-2017-3166",
+    "CVE-2018-11768",
+    "CVE-2018-1296",
+    "CVE-2018-8009",
+    "CVE-2018-8029",
+    "CVE-2022-25168"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.apache.hadoop:hadoop-common",
+        "purl": "pkg:maven/org.apache.hadoop/hadoop-common"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "2.7.1"
+            },
+            {
+              "fixed": "2.7.1-tuxcare.2"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "2.7.1",
+        "2.7.1.tuxcare.1"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "2.7.1",
+          "fixed_version": "2.7.1-tuxcare.2"
+        }
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.apache.hadoop:hadoop-main",
+        "purl": "pkg:maven/org.apache.hadoop/hadoop-main"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "2.7.1"
+            },
+            {
+              "fixed": "2.7.1-tuxcare.2"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "2.7.1",
+        "2.7.1.tuxcare.1"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "2.7.1",
+          "fixed_version": "2.7.1-tuxcare.2"
+        }
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.apache.hadoop:hadoop-yarn-server-nodemanager",
+        "purl": "pkg:maven/org.apache.hadoop/hadoop-yarn-server-nodemanager"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "2.7.1"
+            },
+            {
+              "fixed": "2.7.1-tuxcare.2"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "2.7.1",
+        "2.7.1.tuxcare.1"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "2.7.1",
+          "fixed_version": "2.7.1-tuxcare.2"
+        }
+      }
+    }
+  ]
+}
