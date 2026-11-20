@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1793350631",
+  "summary": "unzip: Fix of CVE-2018-1000035",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:6",
+        "name": "unzip",
+        "purl": "pkg:rpm/tuxcare/unzip?distro=centos-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "6.0-5.el6.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2018-1000035"
+  ],
+  "published": "2026-10-30T17:13:10Z",
+  "modified": "2026-10-30T17:13:10Z",
+  "details": "- CVE-2018-1000035: heap-based buffer overflow in UzpPassword password prompt",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/centos6els/CLSA-2026-1793350631.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2018-1000035",
+      "type": "ADVISORY"
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1793141203",
+  "summary": "pcs: Fix of 3 CVEs",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "pcs",
+        "purl": "pkg:rpm/tuxcare/pcs?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.10.8-1.el8.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "pcs-snmp",
+        "purl": "pkg:rpm/tuxcare/pcs-snmp?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.10.8-1.el8.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-82397",
+    "CVE-2024-14029",
+    "CVE-2022-29970"
+  ],
+  "published": "2026-10-27T22:46:53Z",
+  "modified": "2026-10-27T22:46:53Z",
+  "details": "- CVE-2026-82397: limit the number of urlencoded body and query string\n  arguments in bundled tornado\n- CVE-2024-14029: reject unsupported and repeated Transfer-Encoding values in\n  bundled tornado\n- CVE-2022-29970: reject static file paths outside public_folder in bundled\n  sinatra",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/centos8.5els/CLSA-2026-1793141203.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2022-29970",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-14029",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-82397",
+      "type": "ADVISORY"
+    }
+  ]
+}

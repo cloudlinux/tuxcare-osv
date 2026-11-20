@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1793167081",
+  "summary": "perl-Date-Manip: Fix of CVE-2026-60075",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:7",
+        "name": "perl-Date-Manip",
+        "purl": "pkg:rpm/tuxcare/perl-Date-Manip?distro=oraclelinux-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "6.41-2.el7.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-60075"
+  ],
+  "published": "2026-10-28T05:58:10Z",
+  "modified": "2026-10-28T05:58:10Z",
+  "details": "- CVE-2026-60075: reject date/time strings longer than 256 characters to\n  prevent ReDoS in _parse_time",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/oraclelinux7els/CLSA-2026-1793167081.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-60075",
+      "type": "ADVISORY"
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1793884447",
+  "summary": "grafana: Fix of CVE-2026-33382",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "grafana",
+        "purl": "pkg:rpm/tuxcare/grafana?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "10.2.6-15.el9_6.tuxcare.els23"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "grafana-selinux",
+        "purl": "pkg:rpm/tuxcare/grafana-selinux?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "10.2.6-15.el9_6.tuxcare.els23"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-33382"
+  ],
+  "published": "2026-11-05T13:14:20Z",
+  "modified": "2026-11-05T13:14:20Z",
+  "details": "- CVE-2026-33382: cap the request body with http.MaxBytesReader at 100 KiB on\n  the unauthenticated login, signup, password reset and invite completion\n  endpoints, which bind form bodies before authentication; the global 100 MiB\n  web.Bind ceiling from the same upstream commit already shipped in els12",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/tuxcare9.6esu/CLSA-2026-1793884447.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-33382",
+      "type": "ADVISORY"
+    }
+  ]
+}

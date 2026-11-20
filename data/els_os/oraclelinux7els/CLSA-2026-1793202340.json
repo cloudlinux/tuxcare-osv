@@ -1,0 +1,123 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1793202340",
+  "summary": "freerdp: Fix of CVE-2026-110830",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:7",
+        "name": "freerdp",
+        "purl": "pkg:rpm/tuxcare/freerdp?distro=oraclelinux-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.1.1-5.0.9.el7_9.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:7",
+        "name": "freerdp-devel",
+        "purl": "pkg:rpm/tuxcare/freerdp-devel?distro=oraclelinux-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.1.1-5.0.9.el7_9.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:7",
+        "name": "freerdp-libs",
+        "purl": "pkg:rpm/tuxcare/freerdp-libs?distro=oraclelinux-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.1.1-5.0.9.el7_9.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:7",
+        "name": "libwinpr",
+        "purl": "pkg:rpm/tuxcare/libwinpr?distro=oraclelinux-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.1.1-5.0.9.el7_9.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:7",
+        "name": "libwinpr-devel",
+        "purl": "pkg:rpm/tuxcare/libwinpr-devel?distro=oraclelinux-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.1.1-5.0.9.el7_9.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-110830"
+  ],
+  "published": "2026-10-28T15:45:51Z",
+  "modified": "2026-10-28T15:45:51Z",
+  "details": "- CVE-2026-110830: fix file descriptor exhaustion in the serial channel; reject\n  a create request for an already-open device and abort close, read, write and\n  device-control requests when the device is not open",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/oraclelinux7els/CLSA-2026-1793202340.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-110830",
+      "type": "ADVISORY"
+    }
+  ]
+}

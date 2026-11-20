@@ -1,0 +1,143 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1793732996",
+  "summary": "exim: Fix of CVE-2026-94056",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:7",
+        "name": "exim",
+        "purl": "pkg:rpm/tuxcare/exim?distro=centos-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.97.1-1.el7.tuxcare.els7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:7",
+        "name": "exim-greylist",
+        "purl": "pkg:rpm/tuxcare/exim-greylist?distro=centos-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.97.1-1.el7.tuxcare.els7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:7",
+        "name": "exim-mon",
+        "purl": "pkg:rpm/tuxcare/exim-mon?distro=centos-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.97.1-1.el7.tuxcare.els7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:7",
+        "name": "exim-mysql",
+        "purl": "pkg:rpm/tuxcare/exim-mysql?distro=centos-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.97.1-1.el7.tuxcare.els7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:7",
+        "name": "exim-pgsql",
+        "purl": "pkg:rpm/tuxcare/exim-pgsql?distro=centos-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.97.1-1.el7.tuxcare.els7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:7",
+        "name": "exim-sysvinit",
+        "purl": "pkg:rpm/tuxcare/exim-sysvinit?distro=centos-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.97.1-1.el7.tuxcare.els7"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-94056"
+  ],
+  "published": "2026-11-06T16:34:56Z",
+  "modified": "2026-11-06T16:34:56Z",
+  "details": "- Require libopendmarc-devel >= 1.4.1: dmarc.c uses the 1.4 API of\n  opendmarc_policy_store_dkim()",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/centos7els/CLSA-2026-1793732996.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-94056",
+      "type": "ADVISORY"
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2026-1792145396",
-  "summary": "ImageMagick: Fix of 24 CVEs",
+  "summary": "ImageMagick: Fix of 26 CVEs",
   "affected": [
     {
       "package": {
@@ -181,8 +181,8 @@
     "CVE-2026-107210",
     "CVE-2026-45664"
   ],
-  "published": "2026-10-23T06:55:42Z",
-  "modified": "2026-10-23T06:55:42Z",
+  "published": "2026-10-27T00:56:42Z",
+  "modified": "2026-10-27T00:56:42Z",
   "details": "- Rebase to EPEL 8 ImageMagick-6.9.13.58-1.el8\n- Drop the vendor soname-revert patch: the 6.9.13.58 tarball already sets\n  MAGICK_LIBRARY_CURRENT=7, matching the libraries shipped so far\n- Drop the TuxCare backports for CVE-2026-86420, CVE-2026-86421,\n  CVE-2026-93586, CVE-2026-93587, CVE-2026-93588, CVE-2026-106571,\n  CVE-2026-106572, CVE-2026-106573, CVE-2026-106577, CVE-2026-106578,\n  CVE-2026-106579, CVE-2026-106580, CVE-2026-107208 and CVE-2026-107210: all\n  are fixed in the 6.9.13.58 tarball, verified against the extracted source\n- Keep the CVE-2026-45664 backport: both MNG_MAX_LOOP_OPS abort paths in\n  coders/png.c still leak the chunk buffer in 6.9.13.58\n- Keep the MSL empty-image crash fix (partial backport of upstream fde1f305,\n  not present in the legacy 6.x line)",
   "references": [
     {
@@ -246,6 +246,10 @@
       "type": "ADVISORY"
     },
     {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-109264",
+      "type": "ADVISORY"
+    },
+    {
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-109266",
       "type": "ADVISORY"
     },
@@ -275,6 +279,10 @@
     },
     {
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-109278",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-109279",
       "type": "ADVISORY"
     },
     {

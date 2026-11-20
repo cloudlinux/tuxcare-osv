@@ -1,0 +1,253 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1794415754",
+  "summary": "postgresql: Fix of 7 CVEs",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:6",
+        "name": "postgresql",
+        "purl": "pkg:rpm/tuxcare/postgresql?distro=centos-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8.4.20-8.el6_9.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:6",
+        "name": "postgresql-contrib",
+        "purl": "pkg:rpm/tuxcare/postgresql-contrib?distro=centos-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8.4.20-8.el6_9.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:6",
+        "name": "postgresql-devel",
+        "purl": "pkg:rpm/tuxcare/postgresql-devel?distro=centos-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8.4.20-8.el6_9.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:6",
+        "name": "postgresql-docs",
+        "purl": "pkg:rpm/tuxcare/postgresql-docs?distro=centos-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8.4.20-8.el6_9.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:6",
+        "name": "postgresql-libs",
+        "purl": "pkg:rpm/tuxcare/postgresql-libs?distro=centos-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8.4.20-8.el6_9.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:6",
+        "name": "postgresql-plperl",
+        "purl": "pkg:rpm/tuxcare/postgresql-plperl?distro=centos-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8.4.20-8.el6_9.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:6",
+        "name": "postgresql-plpython",
+        "purl": "pkg:rpm/tuxcare/postgresql-plpython?distro=centos-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8.4.20-8.el6_9.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:6",
+        "name": "postgresql-pltcl",
+        "purl": "pkg:rpm/tuxcare/postgresql-pltcl?distro=centos-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8.4.20-8.el6_9.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:6",
+        "name": "postgresql-server",
+        "purl": "pkg:rpm/tuxcare/postgresql-server?distro=centos-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8.4.20-8.el6_9.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:6",
+        "name": "postgresql-test",
+        "purl": "pkg:rpm/tuxcare/postgresql-test?distro=centos-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8.4.20-8.el6_9.tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2022-1552",
+    "CVE-2023-2454",
+    "CVE-2023-5869",
+    "CVE-2024-10979",
+    "CVE-2025-1094",
+    "CVE-2025-8714",
+    "CVE-2025-12818"
+  ],
+  "published": "2026-11-17T01:38:25Z",
+  "modified": "2026-11-17T01:38:25Z",
+  "details": "- CVE-2022-1552: run autovacuum, REINDEX and CLUSTER on indexes as the table owner with restricted security context\n- CVE-2022-1552: check operator class ACLs in CREATE INDEX as the original user (8782ce49e4)\n- CVE-2023-2454: prevent CREATE SCHEMA ... schema_element from escaping the search_path\n- CVE-2023-5869: fix integer overflow in array modification functions\n- CVE-2023-5869: detect integer overflow in array_set_slice() on an empty array (6c1b71bc6a)\n- CVE-2024-10979: block environment variable changes from trusted PL/Perl\n- CVE-2025-1094: reject invalidly-encoded strings in libpq quoting functions\n- CVE-2025-1094: quote names in the client encoding in createdb, createuser, dropdb, dropuser, reindexdb and clusterdb\n- CVE-2025-8714: restrict psql meta-commands in plain-text dumps (\\restrict/\\unrestrict); \\unrestrict does not do backquote expansion (2006fca401)\n- CVE-2025-12818: prevent int/size_t overflows in libpq",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/centos6els/CLSA-2026-1794415754.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2022-1552",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-2454",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-5869",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-10979",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-1094",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-12818",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-8714",
+      "type": "ADVISORY"
+    }
+  ]
+}

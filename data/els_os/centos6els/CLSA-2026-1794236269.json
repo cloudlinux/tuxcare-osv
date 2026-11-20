@@ -1,0 +1,63 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1794236269",
+  "summary": "busybox: Fix of CVE-2026-38753",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:6",
+        "name": "busybox",
+        "purl": "pkg:rpm/tuxcare/busybox?distro=centos-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:1.15.1-21.el6_6.tuxcare.els4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:6",
+        "name": "busybox-petitboot",
+        "purl": "pkg:rpm/tuxcare/busybox-petitboot?distro=centos-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:1.15.1-21.el6_6.tuxcare.els4"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-38753"
+  ],
+  "published": "2026-11-11T15:04:05Z",
+  "modified": "2026-11-11T15:04:05Z",
+  "details": "- CVE-2026-38753: fix use-after-free in awk_sub()",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/centos6els/CLSA-2026-1794236269.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-38753",
+      "type": "ADVISORY"
+    }
+  ]
+}

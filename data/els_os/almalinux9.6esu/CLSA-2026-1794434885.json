@@ -1,0 +1,83 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1794434885",
+  "summary": "rsync: Fix of CVE-2026-119741",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "rsync",
+        "purl": "pkg:rpm/tuxcare/rsync?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.2.5-3.el9_6.tuxcare.els21"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "rsync-daemon",
+        "purl": "pkg:rpm/tuxcare/rsync-daemon?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.2.5-3.el9_6.tuxcare.els21"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "rsync-rrsync",
+        "purl": "pkg:rpm/tuxcare/rsync-rrsync?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.2.5-3.el9_6.tuxcare.els21"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-119741"
+  ],
+  "published": "2026-11-11T22:08:15Z",
+  "modified": "2026-11-11T22:08:15Z",
+  "details": "- CVE-2026-119741: fix unbounded hash_search() collision work: unlink\n  chain entries that repeat a strong checksum already rejected at this\n  offset, so duplicates cannot exhaust the MAX_CHAIN_LEN cap and hide a\n  valid basis block, and advance a block after four consecutive\n  fully-colliding offsets instead of computing a strong checksum on\n  every byte",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/tuxcare9.6esu/CLSA-2026-1794434885.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-119741",
+      "type": "ADVISORY"
+    }
+  ]
+}

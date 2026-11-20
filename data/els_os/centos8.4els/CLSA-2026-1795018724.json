@@ -1,0 +1,119 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1795018724",
+  "summary": "exim: Fix of CVE-2026-94057",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.4",
+        "name": "exim",
+        "purl": "pkg:rpm/tuxcare/exim?distro=centos-8.4"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.100.1-1.el8.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.4",
+        "name": "exim-greylist",
+        "purl": "pkg:rpm/tuxcare/exim-greylist?distro=centos-8.4"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.100.1-1.el8.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.4",
+        "name": "exim-mon",
+        "purl": "pkg:rpm/tuxcare/exim-mon?distro=centos-8.4"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.100.1-1.el8.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.4",
+        "name": "exim-mysql",
+        "purl": "pkg:rpm/tuxcare/exim-mysql?distro=centos-8.4"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.100.1-1.el8.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.4",
+        "name": "exim-pgsql",
+        "purl": "pkg:rpm/tuxcare/exim-pgsql?distro=centos-8.4"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.100.1-1.el8.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-94057"
+  ],
+  "published": "2026-11-18T16:18:52Z",
+  "modified": "2026-11-18T16:18:52Z",
+  "details": "- Rebase to 4.100.1-1.el8\n- CVE-2026-94057: avoid more SMTP smuggling attack types (fixed in 4.100.1)\n- Drop our two PROXY protocol backports, which 4.100.1 includes",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/centos8.4els/CLSA-2026-1795018724.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

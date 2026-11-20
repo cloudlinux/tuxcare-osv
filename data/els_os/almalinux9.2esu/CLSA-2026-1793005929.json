@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1793005929",
+  "summary": "grafana-pcp: Fix of 2 CVEs",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "grafana-pcp",
+        "purl": "pkg:rpm/tuxcare/grafana-pcp?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.1.1-1.el9_2.tuxcare.els7"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-78667",
+    "CVE-2026-78669"
+  ],
+  "published": "2026-10-26T09:12:22Z",
+  "modified": "2026-10-26T09:12:22Z",
+  "details": "- rebuild with newer golang version 1.22.9-1.el9_2.tuxcare.els30 to fix the following CVE's\n  - CVE-2026-78667: limit the number of ranges parsed from a Range header in\n    net/http FileServer, ServeContent and ServeFile\n  - CVE-2026-78669: make HTTP/2 SETTINGS_INITIAL_WINDOW_SIZE changes O(1) to\n    prevent CPU exhaustion by a peer sending many SETTINGS frames",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/almalinux9.2esu/CLSA-2026-1793005929.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-78667",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-78669",
+      "type": "ADVISORY"
+    }
+  ]
+}

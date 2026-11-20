@@ -1,0 +1,63 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1794877538",
+  "summary": "xfsprogs: Fix of CVE-2026-108472",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:7",
+        "name": "xfsprogs",
+        "purl": "pkg:rpm/tuxcare/xfsprogs?distro=oraclelinux-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.5.0-22.0.1.el7.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:7",
+        "name": "xfsprogs-devel",
+        "purl": "pkg:rpm/tuxcare/xfsprogs-devel?distro=oraclelinux-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.5.0-22.0.1.el7.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-108472"
+  ],
+  "published": "2026-11-17T01:05:47Z",
+  "modified": "2026-11-17T01:05:47Z",
+  "details": "- CVE-2026-108472: command injection via eval in xfs_admin option handling",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/oraclelinux7els/CLSA-2026-1794877538.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-108472",
+      "type": "ADVISORY"
+    }
+  ]
+}

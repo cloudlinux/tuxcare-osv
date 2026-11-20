@@ -1,0 +1,77 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1794426938",
+  "summary": "Update of nss",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "libnss3",
+        "purl": "pkg:deb/tuxcare/libnss3?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:3.35-2ubuntu2.16+tuxcare.els7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "libnss3-dev",
+        "purl": "pkg:deb/tuxcare/libnss3-dev?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:3.35-2ubuntu2.16+tuxcare.els7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "libnss3-tools",
+        "purl": "pkg:deb/tuxcare/libnss3-tools?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:3.35-2ubuntu2.16+tuxcare.els7"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [],
+  "published": "2026-11-11T19:55:47Z",
+  "modified": "2026-11-11T19:55:47Z",
+  "details": "   * Update ca-certificates database to 20261030:\n     - mozilla\\{certdata.txt,nssckbi.h}: Update Mozilla certificate\n       authority bundle of the version 2.92.\n     - The following certificates were updated:\n       # Certificate \"Entrust Root Certification Authority - G4\"\n     - The following certificates were removed:\n       # Certificate \"emSign ECC Root CA - C3\"\n       # Certificate \"emSign Root CA - C1\"\n     - The following certificates were distrusted:\n       # Certificate \"AffirmTrust Commercial\"\n       # Certificate \"AffirmTrust Premium\"\n       # Certificate \"AffirmTrust Premium ECC\"\n       # Certificate \"GLOBALTRUST 2020\"\n     - Restore CKA_NSS_MOZILLA_CA_POLICY of the 169 roots in Mozilla's CA\n       program, which update-up-202409.patch had dropped.",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/ubuntu18.04els/CLSA-2026-1794426938.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1793022498",
+  "summary": "pcs: Fix of CVE-2022-29970",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:7",
+        "name": "pcs",
+        "purl": "pkg:rpm/tuxcare/pcs?distro=oraclelinux-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.9.169-3.0.1.el7_9.3.tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:OracleLinux:7",
+        "name": "pcs-snmp",
+        "purl": "pkg:rpm/tuxcare/pcs-snmp?distro=oraclelinux-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.9.169-3.0.1.el7_9.3.tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2022-29970"
+  ],
+  "published": "2026-10-26T13:48:28Z",
+  "modified": "2026-10-26T13:48:28Z",
+  "details": "- fix CVE-2022-29970: reject static file paths that escape public_folder in\n  bundled rubygem sinatra",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/oraclelinux7els/CLSA-2026-1793022498.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2022-29970",
+      "type": "ADVISORY"
+    }
+  ]
+}

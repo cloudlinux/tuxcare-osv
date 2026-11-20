@@ -1,0 +1,103 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1795098500",
+  "summary": "Fix CVE(s): CVE-2026-107493",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Debian:10",
+        "name": "libssl-dev",
+        "purl": "pkg:deb/tuxcare/libssl-dev?distro=debian-10"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.1.1n-0+deb10u6+tuxcare.els9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Debian:10",
+        "name": "libssl-doc",
+        "purl": "pkg:deb/tuxcare/libssl-doc?distro=debian-10"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.1.1n-0+deb10u6+tuxcare.els9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Debian:10",
+        "name": "libssl1.1",
+        "purl": "pkg:deb/tuxcare/libssl1.1?distro=debian-10"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.1.1n-0+deb10u6+tuxcare.els9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Debian:10",
+        "name": "openssl",
+        "purl": "pkg:deb/tuxcare/openssl?distro=debian-10"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.1.1n-0+deb10u6+tuxcare.els9"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-107493"
+  ],
+  "published": "2026-11-19T14:29:12Z",
+  "modified": "2026-11-19T14:29:12Z",
+  "details": "   * SECURITY UPDATE: use-after-free in PEM_X509_INFO_read_bio() with a caller-supplied stack\n     - debian/patches/CVE-2026-107493.patch: use-after-free in PEM_X509_INFO_read_bio() with a caller-supplied stack\n     - CVE-2026-107493",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/debian10els/CLSA-2026-1795098500.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-107493",
+      "type": "ADVISORY"
+    }
+  ]
+}

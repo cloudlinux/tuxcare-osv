@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1794232797",
+  "summary": "Fix CVE(s): CVE-2026-84471",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Debian:10",
+        "name": "openvpn",
+        "purl": "pkg:deb/tuxcare/openvpn?distro=debian-10"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.4.7-1+deb10u1+tuxcare.els5"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-84471"
+  ],
+  "published": "2026-11-09T14:00:08Z",
+  "modified": "2026-11-09T14:00:08Z",
+  "details": "   * SECURITY UPDATE: double free of a TLS session buffer in lame duck handling\n     - debian/patches/CVE-2026-84471.patch: move the\n       check_session_buf_not_used() guard into the functions that free\n       session and key state buffers, so every free path is covered\n     - CVE-2026-84471",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/debian10els/CLSA-2026-1794232797.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-84471",
+      "type": "ADVISORY"
+    }
+  ]
+}

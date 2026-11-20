@@ -1,0 +1,177 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1794426609",
+  "summary": "Update of openjdk-8",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:20.04",
+        "name": "openjdk-8-demo",
+        "purl": "pkg:deb/tuxcare/openjdk-8-demo?distro=ubuntu-20.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8u502-ga~us1-0ubuntu1~20.04+tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:20.04",
+        "name": "openjdk-8-doc",
+        "purl": "pkg:deb/tuxcare/openjdk-8-doc?distro=ubuntu-20.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8u502-ga~us1-0ubuntu1~20.04+tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:20.04",
+        "name": "openjdk-8-jdk",
+        "purl": "pkg:deb/tuxcare/openjdk-8-jdk?distro=ubuntu-20.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8u502-ga~us1-0ubuntu1~20.04+tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:20.04",
+        "name": "openjdk-8-jdk-headless",
+        "purl": "pkg:deb/tuxcare/openjdk-8-jdk-headless?distro=ubuntu-20.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8u502-ga~us1-0ubuntu1~20.04+tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:20.04",
+        "name": "openjdk-8-jre",
+        "purl": "pkg:deb/tuxcare/openjdk-8-jre?distro=ubuntu-20.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8u502-ga~us1-0ubuntu1~20.04+tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:20.04",
+        "name": "openjdk-8-jre-headless",
+        "purl": "pkg:deb/tuxcare/openjdk-8-jre-headless?distro=ubuntu-20.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8u502-ga~us1-0ubuntu1~20.04+tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:20.04",
+        "name": "openjdk-8-jre-zero",
+        "purl": "pkg:deb/tuxcare/openjdk-8-jre-zero?distro=ubuntu-20.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8u502-ga~us1-0ubuntu1~20.04+tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:20.04",
+        "name": "openjdk-8-source",
+        "purl": "pkg:deb/tuxcare/openjdk-8-source?distro=ubuntu-20.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8u502-ga~us1-0ubuntu1~20.04+tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [],
+  "published": "2026-11-12T08:18:08Z",
+  "modified": "2026-11-12T08:18:08Z",
+  "details": "   * Update the bundled timezone data to tzdata2026c, exactly as in\n     OpenJDK 8u512 (jdk8u512-b07); backported from the upstream jdk8u release\n     repository together with the CLDR metazone changes it depends on:\n     - JDK-8381379: Support std/dstOffset attributes in CLDR's metazone\n       definitions\n     - JDK-8390388: Cherry-pick tz attributes from newer CLDR data\n     - JDK-8390380: Cherry-pick metazone changes from CLDR to support\n       tzdata2026c\n     - JDK-8388214: (tz) Update Timezone Data to 2026c\n     - JDK-8391256: TestZoneTextPrinterParser.java assertion fails",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/ubuntu20.04els/CLSA-2026-1794426609.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

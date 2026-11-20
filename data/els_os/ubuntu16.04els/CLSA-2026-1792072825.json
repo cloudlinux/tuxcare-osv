@@ -1,7 +1,7 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2026-1792072825",
-  "summary": "Fix CVE(s): CVE-2026-106568, CVE-2026-109263, CVE-2026-109275",
+  "summary": "Fix of 5 CVEs",
   "affected": [
     {
       "package": {
@@ -429,8 +429,8 @@
     "CVE-2026-109263",
     "CVE-2026-109275"
   ],
-  "published": "2026-10-15T14:00:37Z",
-  "modified": "2026-10-15T14:00:37Z",
+  "published": "2026-11-11T18:49:04Z",
+  "modified": "2026-11-11T18:49:04Z",
   "details": "   * SECURITY UPDATE: infinite loop on circular parameter entities\n     - debian/patches/CVE-2026-106568.patch: check entity values for both\n       '%' and '&' references in ValidateEntities() so circular parameter\n       entity declarations are rejected in ParseInternalDoctype() in\n       magick/xml-tree.c\n     - CVE-2026-106568\n   * SECURITY UPDATE: memory leak in the YUV encoder\n     - debian/patches/CVE-2026-109263.patch: destroy the luma image when the\n       chroma ResizeImage() fails and destroy the chroma image after the\n       encoding loop in WriteYUVImage() in coders/yuv.c\n     - CVE-2026-109263\n   * SECURITY UPDATE: PostScript code injection through the font name\n     - debian/patches/CVE-2026-109275.patch: only pass font names made of\n       alphanumerics, '-', '_' and '.' to the PostScript renderer in\n       RenderPostscript() in magick/annotate.c\n     - CVE-2026-109275",
   "references": [
     {
@@ -439,6 +439,14 @@
     },
     {
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-106568",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-106579",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-106580",
       "type": "ADVISORY"
     },
     {

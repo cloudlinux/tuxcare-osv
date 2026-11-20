@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1793112288",
+  "summary": "ca-certificates: Fix of CVE-2026-114406",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:6",
+        "name": "ca-certificates",
+        "purl": "pkg:rpm/tuxcare/ca-certificates?distro=centos-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2026.2.92-60.1.el6.tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-114406"
+  ],
+  "published": "2026-11-17T00:52:15Z",
+  "modified": "2026-11-17T00:52:15Z",
+  "details": "- Comodo AAA Services root (AAA Certificate Services) is no longer trusted\n  for TLS server authentication through the legacy bundle: it issued the\n  Sectigo cross-signs of the compromised eMudhra intermediates\n  (Mozilla bug 2083449). Its legacy e-mail and code-signing trust is kept.",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/centos6els/CLSA-2026-1793112288.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-114406",
+      "type": "ADVISORY"
+    }
+  ]
+}

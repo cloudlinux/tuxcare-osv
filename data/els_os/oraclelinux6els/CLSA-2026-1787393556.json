@@ -1,7 +1,7 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2026-1787393556",
-  "summary": "libssh2: Fix of CVE-2026-66032",
+  "summary": "libssh2: Fix of 2 CVEs",
   "affected": [
     {
       "package": {
@@ -67,12 +67,16 @@
   "upstream": [
     "CVE-2026-66032"
   ],
-  "published": "2026-08-22T10:12:46Z",
-  "modified": "2026-08-22T10:12:46Z",
+  "published": "2026-10-26T13:58:51Z",
+  "modified": "2026-10-26T13:58:51Z",
   "details": "- CVE-2026-66032: nullify data after free in sftp_open() to prevent a\n  double-free when sftp_packet_require() fails on the FXP_STATUS/FX_OK path",
   "references": [
     {
       "url": "https://errata.tuxcare.com/els_os/oraclelinux6els/CLSA-2026-1787393556.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-15661",
       "type": "ADVISORY"
     },
     {

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2026-1792612051",
-  "summary": "php: Fix of 2 CVEs",
+  "summary": "php: Fix of 3 CVEs",
   "affected": [
     {
       "package": {
@@ -508,8 +508,8 @@
     "CVE-2026-109618",
     "CVE-2026-109619"
   ],
-  "published": "2026-10-21T19:57:33Z",
-  "modified": "2026-10-21T19:57:33Z",
+  "published": "2026-11-19T14:19:25Z",
+  "modified": "2026-11-19T14:19:25Z",
   "details": "- CVE-2026-109618, CVE-2026-109619: disable the session upload progress\n  handler and harden request state after bailout\n- memory_limit and allocation overflow fatals now print to stderr and\n  terminate the process (no bailout, no shutdown functions)",
   "references": [
     {
@@ -522,6 +522,10 @@
     },
     {
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-109619",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-115560",
       "type": "ADVISORY"
     }
   ]

@@ -1,0 +1,68 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1794387150",
+  "summary": "libXi: Fix of 2 CVEs",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "libXi",
+        "purl": "pkg:rpm/tuxcare/libXi?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.7.10-8.el9.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "libXi-devel",
+        "purl": "pkg:rpm/tuxcare/libXi-devel?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.7.10-8.el9.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-109089",
+    "CVE-2026-109090"
+  ],
+  "published": "2026-11-11T08:52:43Z",
+  "modified": "2026-11-11T08:52:43Z",
+  "details": "- CVE-2026-109089: fix heap buffer overflow in XGetDeviceControl() when\n  the X server replies with a control type different from the one\n  requested\n- CVE-2026-109090: fix heap buffer overflow in XGetDeviceControl() when\n  the X server returns a DEVICE_ENABLE reply",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/almalinux9.2esu/CLSA-2026-1794387150.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-109089",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-109090",
+      "type": "ADVISORY"
+    }
+  ]
+}

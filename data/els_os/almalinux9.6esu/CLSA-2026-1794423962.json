@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1794423962",
+  "summary": "mod_http2: Fix of CVE-2026-119618",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "mod_http2",
+        "purl": "pkg:rpm/tuxcare/mod_http2?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.0.26-4.el9_6.1.tuxcare.els6"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-119618"
+  ],
+  "published": "2026-11-11T19:06:14Z",
+  "modified": "2026-11-11T19:06:14Z",
+  "details": "- CVE-2026-119618: fix heap corruption by setting Content-Length on the cloned\n  request headers instead of the shared h2_request table",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/tuxcare9.6esu/CLSA-2026-1794423962.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-119618",
+      "type": "ADVISORY"
+    }
+  ]
+}

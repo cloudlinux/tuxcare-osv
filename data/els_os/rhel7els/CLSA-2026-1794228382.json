@@ -1,0 +1,148 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1794228382",
+  "summary": "freerdp: Fix of 6 CVEs",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:RHEL:7",
+        "name": "freerdp",
+        "purl": "pkg:rpm/tuxcare/freerdp?distro=rhel-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.1.1-5.0.13.el7_9.tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:RHEL:7",
+        "name": "freerdp-devel",
+        "purl": "pkg:rpm/tuxcare/freerdp-devel?distro=rhel-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.1.1-5.0.13.el7_9.tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:RHEL:7",
+        "name": "freerdp-libs",
+        "purl": "pkg:rpm/tuxcare/freerdp-libs?distro=rhel-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.1.1-5.0.13.el7_9.tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:RHEL:7",
+        "name": "libwinpr",
+        "purl": "pkg:rpm/tuxcare/libwinpr?distro=rhel-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.1.1-5.0.13.el7_9.tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:RHEL:7",
+        "name": "libwinpr-devel",
+        "purl": "pkg:rpm/tuxcare/libwinpr-devel?distro=rhel-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.1.1-5.0.13.el7_9.tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-121392",
+    "CVE-2026-121950",
+    "CVE-2026-121953",
+    "CVE-2026-121954",
+    "CVE-2026-121964",
+    "CVE-2026-91947"
+  ],
+  "published": "2026-11-09T12:46:35Z",
+  "modified": "2026-11-09T12:46:35Z",
+  "details": "- CVE-2026-121392: TLS certificate CN fallback and IP SAN validation\n- CVE-2026-121950: integer overflow in GFX surface allocation\n- CVE-2026-121953: use-after-free on duplicate rdpgfx channel\n- CVE-2026-121954: planar codec state corruption on failed reset\n- CVE-2026-121964: heap overflow in rpc_client_recv_fragment\n- CVE-2026-91947: server DRDYNVC use-after-free",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/rhel7els/CLSA-2026-1794228382.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-121392",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-121950",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-121953",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-121954",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-121964",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-91947",
+      "type": "ADVISORY"
+    }
+  ]
+}

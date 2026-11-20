@@ -1,7 +1,7 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2026-1792753425",
-  "summary": "kernel-uek: Fix of 6 CVEs",
+  "summary": "kernel-uek: Fix of 7 CVEs",
   "affected": [
     {
       "package": {
@@ -232,8 +232,8 @@
     "CVE-2026-64448",
     "CVE-2026-53002"
   ],
-  "published": "2026-10-23T11:04:04Z",
-  "modified": "2026-10-23T11:04:04Z",
+  "published": "2026-11-12T06:45:48Z",
+  "modified": "2026-11-12T06:45:48Z",
   "details": "- net: skbuff: propagate shared-frag marker in skb_zerocopy()\n- net: bridge: stop fast-leave after deleting a port group {CVE-2026-74480}\n- ipvs: do not propagate one-packet flag to synced conns {CVE-2026-80714}\n- reboot: fix cad_pid use-after-free race {CVE-2026-97938}\n- ALSA: seq: midi: Serialize output teardown with event_input {CVE-2026-74387}\n- smb: client: restrict implied bcc[0] exemption to responses without data area {CVE-2026-64448}\n- netfilter: conntrack: remove sprintf usage {CVE-2026-53002}",
   "references": [
     {
@@ -262,6 +262,10 @@
     },
     {
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-97938",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-99284",
       "type": "ADVISORY"
     }
   ]

@@ -1,0 +1,68 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1793922199",
+  "summary": "expat: Fix of 2 CVEs",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:6",
+        "name": "expat",
+        "purl": "pkg:rpm/tuxcare/expat?distro=centos-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.0.1-13.el6_8.tuxcare.els16"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:6",
+        "name": "expat-devel",
+        "purl": "pkg:rpm/tuxcare/expat-devel?distro=centos-6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.0.1-13.el6_8.tuxcare.els16"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-117610",
+    "CVE-2026-118370"
+  ],
+  "published": "2026-11-06T16:56:02Z",
+  "modified": "2026-11-06T16:56:02Z",
+  "details": "- CVE-2026-117610: NULL pointer dereference in externalEntityInitProcessor2 on initial empty non-final subparser input\n- CVE-2026-118370: signed integer overflow of attIndex/nPrefixes in storeAtts",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/centos6els/CLSA-2026-1793922199.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-117610",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-118370",
+      "type": "ADVISORY"
+    }
+  ]
+}

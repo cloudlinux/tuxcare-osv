@@ -1,7 +1,7 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2026-1791975274",
-  "summary": "Fix of 5 CVEs",
+  "summary": "Fix of 7 CVEs",
   "affected": [
     {
       "package": {
@@ -651,8 +651,8 @@
     "CVE-2026-109275",
     "CVE-2026-109278"
   ],
-  "published": "2026-10-14T10:54:47Z",
-  "modified": "2026-10-14T10:54:47Z",
+  "published": "2026-11-14T13:41:57Z",
+  "modified": "2026-11-14T13:41:57Z",
   "details": "   * SECURITY UPDATE: infinite loop in the XML parser via parameter entities\n     - debian/patches/CVE-2026-106568.patch: also check parameter entity\n       ('%') references for circular declarations in ValidateEntities() and\n       ParseInternalDoctype() in magick/xml-tree.c\n     - CVE-2026-106568\n   * SECURITY UPDATE: uninitialized memory read in the TGA decoder\n     - debian/patches/CVE-2026-109259.patch: zero-initialize the TGA header\n       in ReadTGAImage() in coders/tga.c\n     - CVE-2026-109259\n   * SECURITY UPDATE: memory leak in the YUV encoder\n     - debian/patches/CVE-2026-109263.patch: release the resized image when\n       the chroma resize fails, and the chroma image when the scene loop\n       exits early, in WriteYUVImage() in coders/yuv.c\n     - CVE-2026-109263\n   * SECURITY UPDATE: PostScript code injection through font names\n     - debian/patches/CVE-2026-109275.patch: only pass font names made of\n       alphanumerics, '-', '_' and '.' to the PostScript renderer, otherwise\n       fall back to Times-Roman, in RenderPostscript() in magick/annotate.c\n     - CVE-2026-109275\n   * SECURITY UPDATE: memory leak in wavelet denoise\n     - debian/patches/CVE-2026-109278.patch: release the output image on the\n       resource and memory allocation failure paths in WaveletDenoiseImage()\n       in magick/fx.c\n     - CVE-2026-109278",
   "references": [
     {
@@ -661,6 +661,14 @@
     },
     {
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-106568",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-106579",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-106580",
       "type": "ADVISORY"
     },
     {

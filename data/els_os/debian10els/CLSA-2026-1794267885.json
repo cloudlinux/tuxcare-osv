@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1794267885",
+  "summary": "Fix CVE(s): CVE-2026-45793, CVE-2026-59947",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Debian:10",
+        "name": "composer",
+        "purl": "pkg:deb/tuxcare/composer?distro=debian-10"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.8.4-1+deb10u4+tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-45793",
+    "CVE-2026-59947"
+  ],
+  "published": "2026-11-09T23:44:57Z",
+  "modified": "2026-11-09T23:44:57Z",
+  "details": "   * Non-maintainer upload by the TuxCare ELS team.\n   * CVE-2026-45793: Stop rejecting GitHub OAuth tokens that contain \"-\"\n     (such as GitHub Actions ghs_ installation tokens), which disclosed the\n     token in the error message, and mask such tokens in debug command\n     output.\n     - debian/patches/0022-CVE-2026-45793.patch\n   * CVE-2026-59947: Mask tokens passed in the username part of a URL\n     (https://TOKEN@host/) in -vvv debug command output.\n     - debian/patches/0023-CVE-2026-59947.patch",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/debian10els/CLSA-2026-1794267885.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-45793",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59947",
+      "type": "ADVISORY"
+    }
+  ]
+}

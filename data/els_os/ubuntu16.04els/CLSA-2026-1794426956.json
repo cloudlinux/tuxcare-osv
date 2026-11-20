@@ -1,0 +1,117 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1794426956",
+  "summary": "Update of nss",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "libnss3",
+        "purl": "pkg:deb/tuxcare/libnss3?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:3.28.4-0ubuntu0.16.04.14+tuxcare.els12"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "libnss3-1d",
+        "purl": "pkg:deb/tuxcare/libnss3-1d?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:3.28.4-0ubuntu0.16.04.14+tuxcare.els12"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "libnss3-dev",
+        "purl": "pkg:deb/tuxcare/libnss3-dev?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:3.28.4-0ubuntu0.16.04.14+tuxcare.els12"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "libnss3-nssdb",
+        "purl": "pkg:deb/tuxcare/libnss3-nssdb?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:3.28.4-0ubuntu0.16.04.14+tuxcare.els12"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "libnss3-tools",
+        "purl": "pkg:deb/tuxcare/libnss3-tools?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:3.28.4-0ubuntu0.16.04.14+tuxcare.els12"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [],
+  "published": "2026-11-11T19:56:08Z",
+  "modified": "2026-11-11T19:56:08Z",
+  "details": "   * Update ca-certificates database to 20261030:\n     - mozilla\\{certdata.txt,nssckbi.h}: Update Mozilla certificate\n       authority bundle of the version 2.92.\n     - The following certificates were removed:\n       # Certificate \"emSign ECC Root CA - C3\"\n       # Certificate \"emSign Root CA - C1\"\n     - The following certificates were distrusted:\n       # Certificate \"AffirmTrust Commercial\"\n       # Certificate \"AffirmTrust Premium\"\n       # Certificate \"AffirmTrust Premium ECC\"\n       # Certificate \"GLOBALTRUST 2020\"",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/ubuntu16.04els/CLSA-2026-1794426956.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

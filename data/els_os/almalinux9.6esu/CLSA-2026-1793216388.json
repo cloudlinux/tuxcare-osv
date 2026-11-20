@@ -1,0 +1,113 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1793216388",
+  "summary": "osbuild-composer: Fix of 3 CVEs",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "osbuild-composer",
+        "purl": "pkg:rpm/tuxcare/osbuild-composer?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "132.2-3.el9_6.alma.1.tuxcare.els13"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "osbuild-composer-core",
+        "purl": "pkg:rpm/tuxcare/osbuild-composer-core?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "132.2-3.el9_6.alma.1.tuxcare.els13"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "osbuild-composer-tests",
+        "purl": "pkg:rpm/tuxcare/osbuild-composer-tests?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "132.2-3.el9_6.alma.1.tuxcare.els13"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "osbuild-composer-worker",
+        "purl": "pkg:rpm/tuxcare/osbuild-composer-worker?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "132.2-3.el9_6.alma.1.tuxcare.els13"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-78669",
+    "CVE-2026-78667",
+    "CVE-2026-97031"
+  ],
+  "published": "2026-10-28T19:40:01Z",
+  "modified": "2026-10-28T19:40:01Z",
+  "details": "- CVE-2026-78669: track the per-stream send window of the vendored\n  golang.org/x/net/http2 as a delta from the connection's initial window, so\n  that a SETTINGS_INITIAL_WINDOW_SIZE change no longer walks every open stream\n  on the server and the client, preventing CPU exhaustion from a SETTINGS flood\n- CVE-2026-78667, CVE-2026-78669, CVE-2026-97031: rebuild against\n  golang >= 1.25.7-1.el9_6.tuxcare.els21 to pick up the standard library fixes\n  in net/http and crypto/tls",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/tuxcare9.6esu/CLSA-2026-1793216388.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-78667",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-78669",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-97031",
+      "type": "ADVISORY"
+    }
+  ]
+}

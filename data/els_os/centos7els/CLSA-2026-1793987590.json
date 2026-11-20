@@ -1,0 +1,63 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1793987590",
+  "summary": "libXi: Fix of CVE-2026-109090",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:7",
+        "name": "libXi",
+        "purl": "pkg:rpm/tuxcare/libXi?distro=centos-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.7.9-1.el7.tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:7",
+        "name": "libXi-devel",
+        "purl": "pkg:rpm/tuxcare/libXi-devel?distro=centos-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.7.9-1.el7.tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-109090"
+  ],
+  "published": "2026-11-07T00:02:19Z",
+  "modified": "2026-11-07T00:02:19Z",
+  "details": "- Fix CVE-2026-109090: heap overflow in XGetDeviceControl() via an\n  oversized DEVICE_ENABLE reply",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/centos7els/CLSA-2026-1793987590.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-109090",
+      "type": "ADVISORY"
+    }
+  ]
+}

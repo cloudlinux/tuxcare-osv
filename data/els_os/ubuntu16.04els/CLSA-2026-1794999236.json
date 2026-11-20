@@ -1,0 +1,173 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1794999236",
+  "summary": "Fix CVE(s): CVE-2026-56434, CVE-2026-93479, CVE-2026-97205",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "nginx",
+        "purl": "pkg:deb/tuxcare/nginx?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.10.3-0ubuntu0.16.04.8+tuxcare.els15"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "nginx-common",
+        "purl": "pkg:deb/tuxcare/nginx-common?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.10.3-0ubuntu0.16.04.8+tuxcare.els15"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "nginx-core",
+        "purl": "pkg:deb/tuxcare/nginx-core?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.10.3-0ubuntu0.16.04.8+tuxcare.els15"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "nginx-doc",
+        "purl": "pkg:deb/tuxcare/nginx-doc?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.10.3-0ubuntu0.16.04.8+tuxcare.els15"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "nginx-extras",
+        "purl": "pkg:deb/tuxcare/nginx-extras?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.10.3-0ubuntu0.16.04.8+tuxcare.els15"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "nginx-full",
+        "purl": "pkg:deb/tuxcare/nginx-full?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.10.3-0ubuntu0.16.04.8+tuxcare.els15"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "nginx-light",
+        "purl": "pkg:deb/tuxcare/nginx-light?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.10.3-0ubuntu0.16.04.8+tuxcare.els15"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-56434",
+    "CVE-2026-93479",
+    "CVE-2026-97205"
+  ],
+  "published": "2026-11-18T10:54:10Z",
+  "modified": "2026-11-18T10:54:10Z",
+  "details": "   * SECURITY UPDATE: use-after-free through duplicate subrequest\n     finalization\n     - debian/patches/CVE-2026-56434.patch: do not post a request that is\n       already posted, and reset the write event handler of a subrequest\n       that is being finalized\n     - CVE-2026-56434",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/ubuntu16.04els/CLSA-2026-1794999236.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-56434",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-93479",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-97205",
+      "type": "ADVISORY"
+    }
+  ]
+}

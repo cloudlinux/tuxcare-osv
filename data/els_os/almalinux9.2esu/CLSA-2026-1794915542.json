@@ -1,0 +1,68 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1794915542",
+  "summary": "skopeo: Fix of 2 CVEs",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "skopeo",
+        "purl": "pkg:rpm/tuxcare/skopeo?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:1.11.2-0.1.el9_2.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "skopeo-tests",
+        "purl": "pkg:rpm/tuxcare/skopeo-tests?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:1.11.2-0.1.el9_2.tuxcare.els10"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-111943",
+    "CVE-2026-78669"
+  ],
+  "published": "2026-11-17T11:51:10Z",
+  "modified": "2026-11-17T11:51:10Z",
+  "details": "- CVE-2026-111943: rebuild against golang >= 1.22.9-1.el9_2.tuxcare.els31\n  (crypto/x509: reject chains through a distrusted intermediate)\n- CVE-2026-78669: bound HTTP/2 work on initial window changes: stdlib client\n  via the same rebuild, vendored golang.org/x/net client (atomic: transport)\n  via CVE-2026-78669.patch",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/almalinux9.2esu/CLSA-2026-1794915542.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111943",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-78669",
+      "type": "ADVISORY"
+    }
+  ]
+}

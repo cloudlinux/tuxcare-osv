@@ -1,7 +1,7 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2026-1784725992",
-  "summary": "squid34: Fix of 2 CVEs",
+  "summary": "squid34: Fix of 3 CVEs",
   "affected": [
     {
       "package": {
@@ -28,12 +28,16 @@
     "CVE-2026-47729",
     "CVE-2026-50012"
   ],
-  "published": "2026-07-22T13:13:39Z",
-  "modified": "2026-07-22T13:13:39Z",
+  "published": "2026-10-26T13:50:43Z",
+  "modified": "2026-10-26T13:50:43Z",
   "details": "- CVE-2026-47729: fix out-of-bounds read in FTP directory listing parsing when a TypeA/TypeB date is not followed by a filename\n- CVE-2026-50012: harden peerDigestSwapInMask against a cache digest reply whose on-the-wire size exceeds the declared mask_size (heap buffer overflow)",
   "references": [
     {
       "url": "https://errata.tuxcare.com/els_os/oraclelinux6els/CLSA-2026-1784725992.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2019-12526",
       "type": "ADVISORY"
     },
     {
