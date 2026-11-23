@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1795146586",
+  "modified": "2026-11-23T13:35:10Z",
+  "published": "2026-11-20T04:49:47Z",
+  "summary": "TuxCare security update for org.wildfly.core:wildfly-controller (1 CVE)",
+  "details": "TuxCare rebuilt org.wildfly.core:wildfly-controller to address 1 CVE. Fixed in 18.1.1.Final-tuxcare.2.",
+  "upstream": [
+    "CVE-2023-4061"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.wildfly.core:wildfly-controller",
+        "purl": "pkg:maven/org.wildfly.core/wildfly-controller"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "18.1.1.Final"
+            },
+            {
+              "fixed": "18.1.1.Final-tuxcare.2"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "18.1.1.Final",
+        "18.1.1.Final-tuxcare.1"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "18.1.1.Final",
+          "fixed_version": "18.1.1.Final-tuxcare.2"
+        }
+      }
+    }
+  ]
+}

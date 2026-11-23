@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1795141794",
+  "modified": "2026-11-23T13:35:10Z",
+  "published": "2026-11-20T03:29:54Z",
+  "summary": "TuxCare security update for com.squareup.okhttp3:okhttp-brotli (1 CVE)",
+  "details": "TuxCare rebuilt com.squareup.okhttp3:okhttp-brotli to address 1 CVE. Fixed in 4.7.2-tuxcare.2.",
+  "upstream": [
+    "CVE-2023-3782"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "com.squareup.okhttp3:okhttp-brotli",
+        "purl": "pkg:maven/com.squareup.okhttp3/okhttp-brotli"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "4.7.2"
+            },
+            {
+              "fixed": "4.7.2-tuxcare.2"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "4.7.2",
+        "4.7.2-tuxcare.1"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "4.7.2",
+          "fixed_version": "4.7.2-tuxcare.2"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,119 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1795156867",
+  "modified": "2026-11-23T13:35:10Z",
+  "published": "2026-11-20T07:41:08Z",
+  "summary": "TuxCare security update for io.netty (2 CVEs)",
+  "details": "TuxCare rebuilt 3 io.netty packages to address 2 CVEs. Fixed in 4.1.24.Final-tuxcare.7.",
+  "upstream": [
+    "CVE-2026-33871",
+    "CVE-2026-45536"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "io.netty:netty-codec-http2",
+        "purl": "pkg:maven/io.netty/netty-codec-http2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "4.1.24.Final"
+            },
+            {
+              "fixed": "4.1.24.Final-tuxcare.7"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "4.1.24.Final",
+        "4.1.24.Final-tuxcare.1",
+        "4.1.24.Final-tuxcare.2",
+        "4.1.24.Final-tuxcare.3",
+        "4.1.24.Final-tuxcare.4",
+        "4.1.24.Final-tuxcare.5",
+        "4.1.24.Final-tuxcare.6"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "4.1.24.Final",
+          "fixed_version": "4.1.24.Final-tuxcare.7"
+        }
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "io.netty:netty-transport-native-epoll",
+        "purl": "pkg:maven/io.netty/netty-transport-native-epoll"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "4.1.24.Final"
+            },
+            {
+              "fixed": "4.1.24.Final-tuxcare.7"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "4.1.24.Final",
+        "4.1.24.Final-tuxcare.1",
+        "4.1.24.Final-tuxcare.2",
+        "4.1.24.Final-tuxcare.3",
+        "4.1.24.Final-tuxcare.4",
+        "4.1.24.Final-tuxcare.5",
+        "4.1.24.Final-tuxcare.6"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "4.1.24.Final",
+          "fixed_version": "4.1.24.Final-tuxcare.7"
+        }
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "io.netty:netty-transport-native-kqueue",
+        "purl": "pkg:maven/io.netty/netty-transport-native-kqueue"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "4.1.24.Final"
+            },
+            {
+              "fixed": "4.1.24.Final-tuxcare.7"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "4.1.24.Final",
+        "4.1.24.Final-tuxcare.1",
+        "4.1.24.Final-tuxcare.2",
+        "4.1.24.Final-tuxcare.3",
+        "4.1.24.Final-tuxcare.4",
+        "4.1.24.Final-tuxcare.5",
+        "4.1.24.Final-tuxcare.6"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "4.1.24.Final",
+          "fixed_version": "4.1.24.Final-tuxcare.7"
+        }
+      }
+    }
+  ]
+}
