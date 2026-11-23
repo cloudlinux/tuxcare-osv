@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1795177631",
+  "modified": "2026-11-23T19:40:01Z",
+  "published": "2026-11-20T13:27:09Z",
+  "summary": "TuxCare security update for locutus (2 CVEs)",
+  "details": "TuxCare rebuilt locutus to address 2 CVEs. Fixed in 2.0.39-tuxcare.1.",
+  "upstream": [
+    "CVE-2026-29091",
+    "CVE-2026-33993"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "locutus",
+        "purl": "pkg:npm/locutus"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "2.0.39-tuxcare.0"
+            },
+            {
+              "fixed": "2.0.39-tuxcare.1"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "2.0.39"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "2.0.39",
+          "fixed_version": "2.0.39-tuxcare.1"
+        }
+      }
+    }
+  ]
+}
