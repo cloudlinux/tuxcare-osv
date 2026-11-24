@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1795265667",
+  "modified": "2026-11-24T13:34:38Z",
+  "published": "2026-11-21T13:54:28Z",
+  "summary": "TuxCare security update for io.netty:netty-transport-native-epoll (1 CVE)",
+  "details": "TuxCare rebuilt io.netty:netty-transport-native-epoll to address 1 CVE. Fixed in 4.0.56.Final-tuxcare.5.",
+  "upstream": [
+    "CVE-2026-45536"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "io.netty:netty-transport-native-epoll",
+        "purl": "pkg:maven/io.netty/netty-transport-native-epoll"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "4.0.56.Final"
+            },
+            {
+              "fixed": "4.0.56.Final-tuxcare.5"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "4.0.56.Final",
+        "4.0.56.Final-tuxcare.1",
+        "4.0.56.Final-tuxcare.2",
+        "4.0.56.Final-tuxcare.3",
+        "4.0.56.Final-tuxcare.4"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "4.0.56.Final",
+          "fixed_version": "4.0.56.Final-tuxcare.5"
+        }
+      }
+    }
+  ]
+}

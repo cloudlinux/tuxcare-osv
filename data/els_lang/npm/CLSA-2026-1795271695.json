@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1795271695",
+  "modified": "2026-11-24T13:34:38Z",
+  "published": "2026-11-21T15:34:56Z",
+  "summary": "TuxCare security update for happy-dom (2 CVEs)",
+  "details": "TuxCare rebuilt happy-dom to address 2 CVEs. Fixed in 20.14.5-tuxcare.1.",
+  "upstream": [
+    "CVE-2026-118660",
+    "CVE-2026-118661"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "happy-dom",
+        "purl": "pkg:npm/happy-dom"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "20.14.5-tuxcare.0"
+            },
+            {
+              "fixed": "20.14.5-tuxcare.1"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "20.14.5"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "20.14.5",
+          "fixed_version": "20.14.5-tuxcare.1"
+        }
+      }
+    }
+  ]
+}

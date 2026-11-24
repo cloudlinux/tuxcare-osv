@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1795268130",
+  "modified": "2026-11-24T13:34:38Z",
+  "published": "2026-11-21T14:35:31Z",
+  "summary": "TuxCare security update for ws (1 CVE)",
+  "details": "TuxCare rebuilt ws to address 1 CVE. Fixed in 8.4.2-tuxcare.1.",
+  "upstream": [
+    "CVE-2026-48779"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "ws",
+        "purl": "pkg:npm/ws"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "8.4.2-tuxcare.0"
+            },
+            {
+              "fixed": "8.4.2-tuxcare.1"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "8.4.2"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "8.4.2",
+          "fixed_version": "8.4.2-tuxcare.1"
+        }
+      }
+    }
+  ]
+}
