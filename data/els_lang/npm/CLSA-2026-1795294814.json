@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1795294814",
+  "modified": "2026-11-24T19:20:24Z",
+  "published": "2026-11-21T22:00:15Z",
+  "summary": "TuxCare security update for webpack (2 CVEs)",
+  "details": "TuxCare rebuilt webpack to address 2 CVEs. Fixed in 5.37.1-tuxcare.1.",
+  "upstream": [
+    "CVE-2023-28154",
+    "CVE-2024-43788"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "webpack",
+        "purl": "pkg:npm/webpack"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "5.37.1-tuxcare.0"
+            },
+            {
+              "fixed": "5.37.1-tuxcare.1"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "5.37.1"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "5.37.1",
+          "fixed_version": "5.37.1-tuxcare.1"
+        }
+      }
+    }
+  ]
+}

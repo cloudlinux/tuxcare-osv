@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1795353013",
+  "modified": "2026-11-24T19:20:24Z",
+  "published": "2026-11-22T14:10:14Z",
+  "summary": "TuxCare security update for pacote (1 CVE)",
+  "details": "TuxCare rebuilt pacote to address 1 CVE. Fixed in 7.6.1-tuxcare.1.",
+  "upstream": [
+    "CVE-2026-9496"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "pacote",
+        "purl": "pkg:npm/pacote"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "7.6.1-tuxcare.0"
+            },
+            {
+              "fixed": "7.6.1-tuxcare.1"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "7.6.1"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "7.6.1",
+          "fixed_version": "7.6.1-tuxcare.1"
+        }
+      }
+    }
+  ]
+}
