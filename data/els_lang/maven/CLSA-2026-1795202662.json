@@ -1,0 +1,84 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1795202662",
+  "modified": "2026-11-24T01:38:08Z",
+  "published": "2026-11-20T20:24:23Z",
+  "summary": "TuxCare security update for io.netty (2 CVEs)",
+  "details": "TuxCare rebuilt 2 io.netty packages to address 2 CVEs. Fixed in 4.1.113.Final-tuxcare.7.",
+  "upstream": [
+    "CVE-2026-33870",
+    "CVE-2026-44249"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "io.netty:netty-codec-http",
+        "purl": "pkg:maven/io.netty/netty-codec-http"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "4.1.113.Final"
+            },
+            {
+              "fixed": "4.1.113.Final-tuxcare.7"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "4.1.113.Final",
+        "4.1.113.Final-tuxcare.1",
+        "4.1.113.Final-tuxcare.2",
+        "4.1.113.Final-tuxcare.3",
+        "4.1.113.Final-tuxcare.4",
+        "4.1.113.Final-tuxcare.5",
+        "4.1.113.Final-tuxcare.6"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "4.1.113.Final",
+          "fixed_version": "4.1.113.Final-tuxcare.7"
+        }
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "io.netty:netty-handler",
+        "purl": "pkg:maven/io.netty/netty-handler"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "4.1.113.Final"
+            },
+            {
+              "fixed": "4.1.113.Final-tuxcare.7"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "4.1.113.Final",
+        "4.1.113.Final-tuxcare.1",
+        "4.1.113.Final-tuxcare.2",
+        "4.1.113.Final-tuxcare.3",
+        "4.1.113.Final-tuxcare.4",
+        "4.1.113.Final-tuxcare.5",
+        "4.1.113.Final-tuxcare.6"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "4.1.113.Final",
+          "fixed_version": "4.1.113.Final-tuxcare.7"
+        }
+      }
+    }
+  ]
+}
