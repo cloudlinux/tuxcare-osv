@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1795514777",
+  "modified": "2026-11-25T19:21:44Z",
+  "published": "2026-11-24T11:06:17Z",
+  "summary": "TuxCare security update for mout (2 CVEs)",
+  "details": "TuxCare rebuilt mout to address 2 CVEs. Fixed in 1.0.0-tuxcare.1.",
+  "upstream": [
+    "CVE-2020-7792",
+    "CVE-2022-21213"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "mout",
+        "purl": "pkg:npm/mout"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "1.0.0-tuxcare.0"
+            },
+            {
+              "fixed": "1.0.0-tuxcare.1"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "1.0.0"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "1.0.0",
+          "fixed_version": "1.0.0-tuxcare.1"
+        }
+      }
+    }
+  ]
+}

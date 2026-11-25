@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1795484700",
+  "modified": "2026-11-25T19:21:44Z",
+  "published": "2026-11-24T02:45:00Z",
+  "summary": "TuxCare security update for org.elasticsearch:elasticsearch (2 CVEs)",
+  "details": "TuxCare rebuilt org.elasticsearch:elasticsearch to address 2 CVEs. Fixed in 6.4.2-tuxcare.1.",
+  "upstream": [
+    "CVE-2023-31419",
+    "CVE-2024-52979"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.elasticsearch:elasticsearch",
+        "purl": "pkg:maven/org.elasticsearch/elasticsearch"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "6.4.2"
+            },
+            {
+              "fixed": "6.4.2-tuxcare.1"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "6.4.2"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "6.4.2",
+          "fixed_version": "6.4.2-tuxcare.1"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1795483540",
+  "modified": "2026-11-25T19:21:44Z",
+  "published": "2026-11-24T02:25:41Z",
+  "summary": "TuxCare security update for org.springframework (1 CVE)",
+  "details": "TuxCare rebuilt 2 org.springframework packages to address 1 CVE. Fixed in 5.2.25.RELEASE-tuxcare.6.",
+  "upstream": [
+    "CVE-2023-20860"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.springframework:spring",
+        "purl": "pkg:maven/org.springframework/spring"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "5.2.25.RELEASE"
+            },
+            {
+              "fixed": "5.2.25.RELEASE-tuxcare.6"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "5.2.25.RELEASE",
+        "5.2.25.RELEASE-tuxcare.1",
+        "5.2.25.RELEASE-tuxcare.2",
+        "5.2.25.RELEASE-tuxcare.3",
+        "5.2.25.RELEASE-tuxcare.4",
+        "5.2.25.RELEASE-tuxcare.5"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "5.2.25.RELEASE",
+          "fixed_version": "5.2.25.RELEASE-tuxcare.6"
+        }
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.springframework:spring-webmvc",
+        "purl": "pkg:maven/org.springframework/spring-webmvc"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "5.2.25.RELEASE"
+            },
+            {
+              "fixed": "5.2.25.RELEASE-tuxcare.6"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "5.2.25.RELEASE",
+        "5.2.25.RELEASE-tuxcare.1",
+        "5.2.25.RELEASE-tuxcare.2",
+        "5.2.25.RELEASE-tuxcare.3",
+        "5.2.25.RELEASE-tuxcare.4",
+        "5.2.25.RELEASE-tuxcare.5"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "5.2.25.RELEASE",
+          "fixed_version": "5.2.25.RELEASE-tuxcare.6"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1795517669",
+  "modified": "2026-11-25T19:21:44Z",
+  "published": "2026-11-24T11:54:30Z",
+  "summary": "TuxCare security update for effect (2 CVEs)",
+  "details": "TuxCare rebuilt effect to address 2 CVEs. Fixed in 3.19.19-tuxcare.1.",
+  "upstream": [
+    "CVE-2026-121707",
+    "CVE-2026-32887"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "effect",
+        "purl": "pkg:npm/effect"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "3.19.19-tuxcare.0"
+            },
+            {
+              "fixed": "3.19.19-tuxcare.1"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "3.19.19"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "3.19.19",
+          "fixed_version": "3.19.19-tuxcare.1"
+        }
+      }
+    }
+  ]
+}

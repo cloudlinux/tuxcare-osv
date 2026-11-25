@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1795522223",
+  "modified": "2026-11-25T19:21:44Z",
+  "published": "2026-11-24T13:10:24Z",
+  "summary": "TuxCare security update for @better-auth/kysely-adapter (1 CVE)",
+  "details": "TuxCare rebuilt @better-auth/kysely-adapter to address 1 CVE. Fixed in 1.6.35-tuxcare.2.",
+  "upstream": [
+    "CVE-2026-110861"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "@better-auth/kysely-adapter",
+        "purl": "pkg:npm/%40better-auth/kysely-adapter"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "1.6.35-tuxcare.0"
+            },
+            {
+              "fixed": "1.6.35-tuxcare.2"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "1.6.35"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "1.6.35",
+          "fixed_version": "1.6.35-tuxcare.2"
+        }
+      }
+    }
+  ]
+}

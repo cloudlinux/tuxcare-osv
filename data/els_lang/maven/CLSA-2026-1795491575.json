@@ -1,0 +1,82 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1795491575",
+  "modified": "2026-11-25T19:21:44Z",
+  "published": "2026-11-24T04:39:36Z",
+  "summary": "TuxCare security update for org.springframework.security (2 CVEs)",
+  "details": "TuxCare rebuilt 2 org.springframework.security packages to address 2 CVEs. Fixed in 5.7.7-tuxcare.6.",
+  "upstream": [
+    "CVE-2026-59273",
+    "CVE-2026-59331"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.springframework.security:spring-security-rsocket",
+        "purl": "pkg:maven/org.springframework.security/spring-security-rsocket"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "5.7.7"
+            },
+            {
+              "fixed": "5.7.7-tuxcare.6"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "5.7.7",
+        "5.7.7-tuxcare.1",
+        "5.7.7-tuxcare.2",
+        "5.7.7-tuxcare.3",
+        "5.7.7-tuxcare.4",
+        "5.7.7-tuxcare.5"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "5.7.7",
+          "fixed_version": "5.7.7-tuxcare.6"
+        }
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.springframework.security:spring-security-web",
+        "purl": "pkg:maven/org.springframework.security/spring-security-web"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "5.7.7"
+            },
+            {
+              "fixed": "5.7.7-tuxcare.6"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "5.7.7",
+        "5.7.7-tuxcare.1",
+        "5.7.7-tuxcare.2",
+        "5.7.7-tuxcare.3",
+        "5.7.7-tuxcare.4",
+        "5.7.7-tuxcare.5"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "5.7.7",
+          "fixed_version": "5.7.7-tuxcare.6"
+        }
+      }
+    }
+  ]
+}

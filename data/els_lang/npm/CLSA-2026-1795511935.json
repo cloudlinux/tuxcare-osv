@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1795511935",
+  "modified": "2026-11-25T19:21:44Z",
+  "published": "2026-11-24T10:18:56Z",
+  "summary": "TuxCare security update for sanitize-html (3 CVEs)",
+  "details": "TuxCare rebuilt sanitize-html to address 3 CVEs. Fixed in 2.17.7-tuxcare.1.",
+  "upstream": [
+    "CVE-2026-113654",
+    "CVE-2026-113657",
+    "CVE-2026-113661"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "sanitize-html",
+        "purl": "pkg:npm/sanitize-html"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "2.17.7-tuxcare.0"
+            },
+            {
+              "fixed": "2.17.7-tuxcare.1"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "2.17.7"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "2.17.7",
+          "fixed_version": "2.17.7-tuxcare.1"
+        }
+      }
+    }
+  ]
+}

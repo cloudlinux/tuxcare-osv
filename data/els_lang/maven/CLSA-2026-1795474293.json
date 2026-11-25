@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1795474293",
+  "modified": "2026-11-25T19:21:44Z",
+  "published": "2026-11-23T23:51:34Z",
+  "summary": "TuxCare security update for org.springframework.ldap:spring-ldap-test (1 CVE)",
+  "details": "TuxCare rebuilt org.springframework.ldap:spring-ldap-test to address 1 CVE. Fixed in 2.4.2-tuxcare.5.",
+  "upstream": [
+    "CVE-2026-59367"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.springframework.ldap:spring-ldap-test",
+        "purl": "pkg:maven/org.springframework.ldap/spring-ldap-test"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "2.4.2"
+            },
+            {
+              "fixed": "2.4.2-tuxcare.5"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "2.4.2",
+        "2.4.2-tuxcare.1",
+        "2.4.2-tuxcare.2",
+        "2.4.2-tuxcare.3",
+        "2.4.2-tuxcare.4"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "2.4.2",
+          "fixed_version": "2.4.2-tuxcare.5"
+        }
+      }
+    }
+  ]
+}

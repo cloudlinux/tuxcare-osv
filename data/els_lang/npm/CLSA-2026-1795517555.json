@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1795517555",
+  "modified": "2026-11-25T19:21:44Z",
+  "published": "2026-11-24T11:52:36Z",
+  "summary": "TuxCare security update for i18next (1 CVE)",
+  "details": "TuxCare rebuilt i18next to address 1 CVE. Fixed in 23.16.8-tuxcare.5.",
+  "upstream": [
+    "CVE-2026-63402"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "i18next",
+        "purl": "pkg:npm/i18next"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "23.16.8-tuxcare.0"
+            },
+            {
+              "fixed": "23.16.8-tuxcare.5"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "23.16.8",
+        "23.16.8-tuxcare.1",
+        "23.16.8-tuxcare.2",
+        "23.16.8-tuxcare.3",
+        "23.16.8-tuxcare.4"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "23.16.8",
+          "fixed_version": "23.16.8-tuxcare.5"
+        }
+      }
+    }
+  ]
+}

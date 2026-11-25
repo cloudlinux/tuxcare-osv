@@ -1,0 +1,80 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1795501006",
+  "modified": "2026-11-25T19:21:44Z",
+  "published": "2026-11-24T07:16:47Z",
+  "summary": "TuxCare security update for org.springframework.security (2 CVEs)",
+  "details": "TuxCare rebuilt 2 org.springframework.security packages to address 2 CVEs. Fixed in 6.3.9-tuxcare.5.",
+  "upstream": [
+    "CVE-2026-59273",
+    "CVE-2026-59331"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.springframework.security:spring-security-rsocket",
+        "purl": "pkg:maven/org.springframework.security/spring-security-rsocket"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "6.3.9"
+            },
+            {
+              "fixed": "6.3.9-tuxcare.5"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "6.3.9",
+        "6.3.9-tuxcare.1",
+        "6.3.9-tuxcare.2",
+        "6.3.9-tuxcare.3",
+        "6.3.9-tuxcare.4"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "6.3.9",
+          "fixed_version": "6.3.9-tuxcare.5"
+        }
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.springframework.security:spring-security-web",
+        "purl": "pkg:maven/org.springframework.security/spring-security-web"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "6.3.9"
+            },
+            {
+              "fixed": "6.3.9-tuxcare.5"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "6.3.9",
+        "6.3.9-tuxcare.1",
+        "6.3.9-tuxcare.2",
+        "6.3.9-tuxcare.3",
+        "6.3.9-tuxcare.4"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "6.3.9",
+          "fixed_version": "6.3.9-tuxcare.5"
+        }
+      }
+    }
+  ]
+}

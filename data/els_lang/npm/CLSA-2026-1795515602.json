@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1795515602",
+  "modified": "2026-11-25T19:21:44Z",
+  "published": "2026-11-24T11:20:03Z",
+  "summary": "TuxCare security update for @hono/node-server (2 CVEs)",
+  "details": "TuxCare rebuilt @hono/node-server to address 2 CVEs. Fixed in 1.12.0-tuxcare.2.",
+  "upstream": [
+    "CVE-2026-39406",
+    "GHSA-frvp-7c67-39w9"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "@hono/node-server",
+        "purl": "pkg:npm/%40hono/node-server"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "1.12.0-tuxcare.0"
+            },
+            {
+              "fixed": "1.12.0-tuxcare.2"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "1.12.0",
+        "1.12.0-tuxcare.1"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "1.12.0",
+          "fixed_version": "1.12.0-tuxcare.2"
+        }
+      }
+    }
+  ]
+}
