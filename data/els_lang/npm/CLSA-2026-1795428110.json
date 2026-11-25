@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1795428110",
+  "modified": "2026-11-25T02:58:42Z",
+  "published": "2026-11-23T11:01:51Z",
+  "summary": "TuxCare security update for find-my-way (1 CVE)",
+  "details": "TuxCare rebuilt find-my-way to address 1 CVE. Fixed in 9.4.0-tuxcare.1.",
+  "upstream": [
+    "CVE-2026-47219"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "find-my-way",
+        "purl": "pkg:npm/find-my-way"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "9.4.0-tuxcare.0"
+            },
+            {
+              "fixed": "9.4.0-tuxcare.1"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "9.4.0"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "9.4.0",
+          "fixed_version": "9.4.0-tuxcare.1"
+        }
+      }
+    }
+  ]
+}

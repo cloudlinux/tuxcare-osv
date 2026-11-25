@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1795429459",
+  "modified": "2026-11-25T02:58:42Z",
+  "published": "2026-11-23T11:24:20Z",
+  "summary": "TuxCare security update for protobufjs-cli (1 CVE)",
+  "details": "TuxCare rebuilt protobufjs-cli to address 1 CVE. Fixed in 2.4.2-tuxcare.1.",
+  "upstream": [
+    "CVE-2026-54271"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "protobufjs-cli",
+        "purl": "pkg:npm/protobufjs-cli"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "2.4.2-tuxcare.0"
+            },
+            {
+              "fixed": "2.4.2-tuxcare.1"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "2.4.2"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "2.4.2",
+          "fixed_version": "2.4.2-tuxcare.1"
+        }
+      }
+    }
+  ]
+}
