@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1795437545",
+  "modified": "2026-11-25T07:22:49Z",
+  "published": "2026-11-23T13:39:06Z",
+  "summary": "TuxCare security update for postcss-selector-parser (1 CVE)",
+  "details": "TuxCare rebuilt postcss-selector-parser to address 1 CVE. Fixed in 6.0.16-tuxcare.1.",
+  "upstream": [
+    "CVE-2026-104844"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "postcss-selector-parser",
+        "purl": "pkg:npm/postcss-selector-parser"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "6.0.16-tuxcare.0"
+            },
+            {
+              "fixed": "6.0.16-tuxcare.1"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "6.0.16"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "6.0.16",
+          "fixed_version": "6.0.16-tuxcare.1"
+        }
+      }
+    }
+  ]
+}
