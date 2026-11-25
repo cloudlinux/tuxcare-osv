@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1795446410",
+  "modified": "2026-11-25T15:10:43Z",
+  "published": "2026-11-23T16:06:51Z",
+  "summary": "TuxCare security update for music-metadata (4 CVEs)",
+  "details": "TuxCare rebuilt music-metadata to address 4 CVEs. Fixed in 11.12.3-tuxcare.1.",
+  "upstream": [
+    "CVE-2026-107387",
+    "CVE-2026-107388",
+    "CVE-2026-107389",
+    "CVE-2026-107392"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "music-metadata",
+        "purl": "pkg:npm/music-metadata"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "11.12.3-tuxcare.0"
+            },
+            {
+              "fixed": "11.12.3-tuxcare.1"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "11.12.3"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "11.12.3",
+          "fixed_version": "11.12.3-tuxcare.1"
+        }
+      }
+    }
+  ]
+}

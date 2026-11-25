@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1795440693",
+  "modified": "2026-11-25T15:10:43Z",
+  "published": "2026-11-23T14:31:34Z",
+  "summary": "TuxCare security update for com.fasterxml.jackson.dataformat:jackson-dataformat-cbor (1 CVE)",
+  "details": "TuxCare rebuilt com.fasterxml.jackson.dataformat:jackson-dataformat-cbor to address 1 CVE. Fixed in 2.6.7-tuxcare.2.",
+  "upstream": [
+    "CVE-2020-28491"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "com.fasterxml.jackson.dataformat:jackson-dataformat-cbor",
+        "purl": "pkg:maven/com.fasterxml.jackson.dataformat/jackson-dataformat-cbor"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "2.6.7"
+            },
+            {
+              "fixed": "2.6.7-tuxcare.2"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "2.6.7",
+        "2.6.7-tuxcare.1"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "2.6.7",
+          "fixed_version": "2.6.7-tuxcare.2"
+        }
+      }
+    }
+  ]
+}
