@@ -1,0 +1,159 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1795689974",
+  "summary": "Fix CVE(s): CVE-2023-44487",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "nginx",
+        "purl": "pkg:deb/tuxcare/nginx?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.10.3-0ubuntu0.16.04.8+tuxcare.els18"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "nginx-common",
+        "purl": "pkg:deb/tuxcare/nginx-common?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.10.3-0ubuntu0.16.04.8+tuxcare.els18"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "nginx-core",
+        "purl": "pkg:deb/tuxcare/nginx-core?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.10.3-0ubuntu0.16.04.8+tuxcare.els18"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "nginx-doc",
+        "purl": "pkg:deb/tuxcare/nginx-doc?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.10.3-0ubuntu0.16.04.8+tuxcare.els18"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "nginx-extras",
+        "purl": "pkg:deb/tuxcare/nginx-extras?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.10.3-0ubuntu0.16.04.8+tuxcare.els18"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "nginx-full",
+        "purl": "pkg:deb/tuxcare/nginx-full?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.10.3-0ubuntu0.16.04.8+tuxcare.els18"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "nginx-light",
+        "purl": "pkg:deb/tuxcare/nginx-light?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.10.3-0ubuntu0.16.04.8+tuxcare.els18"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2023-44487"
+  ],
+  "published": "2026-11-26T10:46:22Z",
+  "modified": "2026-11-26T10:46:22Z",
+  "details": "   * SECURITY REGRESSION: worker crash on an HTTP/2 HEADERS frame that\n     depends on its own stream id after the CVE-2023-44487 fix\n     - debian/patches/CVE-2023-44487-2.patch: close the connection with\n       PROTOCOL_ERROR on a HEADERS or PRIORITY frame with self-dependency\n       instead of jumping to the RST_STREAM path before the server\n       configuration pointer is set, so the refused streams check added\n       by CVE-2023-44487 no longer reads an uninitialized pointer\n     - CVE-2023-44487",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/ubuntu16.04els/CLSA-2026-1795689974.html",
+      "type": "ADVISORY"
+    }
+  ]
+}
