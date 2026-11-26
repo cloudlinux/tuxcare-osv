@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1795663772",
+  "modified": "2026-11-26T13:49:27Z",
+  "published": "2026-11-26T04:29:33Z",
+  "summary": "TuxCare security update for org.apache.poi:poi-scratchpad (1 CVE)",
+  "details": "TuxCare rebuilt org.apache.poi:poi-scratchpad to address 1 CVE. Fixed in 3.17-tuxcare.2.",
+  "upstream": [
+    "CVE-2022-26336"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.apache.poi:poi-scratchpad",
+        "purl": "pkg:maven/org.apache.poi/poi-scratchpad"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "3.17"
+            },
+            {
+              "fixed": "3.17-tuxcare.2"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "3.17",
+        "3.17-tuxcare.1"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "3.17",
+          "fixed_version": "3.17-tuxcare.2"
+        }
+      }
+    }
+  ]
+}

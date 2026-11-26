@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1795644834",
+  "modified": "2026-11-26T13:49:27Z",
+  "published": "2026-11-25T23:13:55Z",
+  "summary": "TuxCare security update for org.springframework.batch:spring-batch-core (1 CVE)",
+  "details": "TuxCare rebuilt org.springframework.batch:spring-batch-core to address 1 CVE. Fixed in 4.2.7.RELEASE-tuxcare.1.",
+  "upstream": [
+    "CVE-2026-47878"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.springframework.batch:spring-batch-core",
+        "purl": "pkg:maven/org.springframework.batch/spring-batch-core"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "4.2.7.RELEASE"
+            },
+            {
+              "fixed": "4.2.7.RELEASE-tuxcare.1"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "4.2.7.RELEASE"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "4.2.7.RELEASE",
+          "fixed_version": "4.2.7.RELEASE-tuxcare.1"
+        }
+      }
+    }
+  ]
+}
