@@ -1,0 +1,98 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1795715821",
+  "summary": "expat: Fix of 4 CVEs",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "expat",
+        "purl": "pkg:rpm/tuxcare/expat?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.5.0-1.el8.tuxcare.els11"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "expat-devel",
+        "purl": "pkg:rpm/tuxcare/expat-devel?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.5.0-1.el8.tuxcare.els11"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "expat-static",
+        "purl": "pkg:rpm/tuxcare/expat-static?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.5.0-1.el8.tuxcare.els11"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-77214",
+    "CVE-2026-115506",
+    "CVE-2026-117610",
+    "CVE-2026-118370"
+  ],
+  "published": "2026-11-26T17:57:13Z",
+  "modified": "2026-11-26T17:57:13Z",
+  "details": "- CVE-2026-77214: heap buffer over-read in XML_ParseBuffer()\n- CVE-2026-115506: late billion laughs detection in accountingDiffTolerated()\n- CVE-2026-117610: NULL pointer dereference in externalEntityInitProcessor2()\n- CVE-2026-118370: signed integer overflow in storeAtts()",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/centos8.5els/CLSA-2026-1795715821.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-115506",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-117610",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-118370",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-77214",
+      "type": "ADVISORY"
+    }
+  ]
+}
