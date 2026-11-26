@@ -1,0 +1,78 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1795607327",
+  "modified": "2026-11-26T08:31:56Z",
+  "published": "2026-11-25T12:48:47Z",
+  "summary": "TuxCare security update for io.netty (2 CVEs)",
+  "details": "TuxCare rebuilt 2 io.netty packages to address 2 CVEs. Fixed in 4.1.8.Final-tuxcare.4.",
+  "upstream": [
+    "CVE-2021-37136",
+    "CVE-2025-59419"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "io.netty:netty-codec",
+        "purl": "pkg:maven/io.netty/netty-codec"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "4.1.8.Final"
+            },
+            {
+              "fixed": "4.1.8.Final-tuxcare.4"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "4.1.8.Final",
+        "4.1.8.Final-tuxcare.1",
+        "4.1.8.Final-tuxcare.2",
+        "4.1.8.Final-tuxcare.3"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "4.1.8.Final",
+          "fixed_version": "4.1.8.Final-tuxcare.4"
+        }
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "io.netty:netty-codec-smtp",
+        "purl": "pkg:maven/io.netty/netty-codec-smtp"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "4.1.8.Final"
+            },
+            {
+              "fixed": "4.1.8.Final-tuxcare.4"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "4.1.8.Final",
+        "4.1.8.Final-tuxcare.1",
+        "4.1.8.Final-tuxcare.2",
+        "4.1.8.Final-tuxcare.3"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "4.1.8.Final",
+          "fixed_version": "4.1.8.Final-tuxcare.4"
+        }
+      }
+    }
+  ]
+}

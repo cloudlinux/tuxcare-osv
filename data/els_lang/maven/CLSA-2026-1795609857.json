@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1795609857",
+  "modified": "2026-11-26T08:31:56Z",
+  "published": "2026-11-25T13:30:58Z",
+  "summary": "TuxCare security update for org.springframework.integration:spring-integration-ftp (1 CVE)",
+  "details": "TuxCare rebuilt org.springframework.integration:spring-integration-ftp to address 1 CVE. Fixed in 5.5.19-tuxcare.6.",
+  "upstream": [
+    "CVE-2026-59416"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.springframework.integration:spring-integration-ftp",
+        "purl": "pkg:maven/org.springframework.integration/spring-integration-ftp"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "5.5.19"
+            },
+            {
+              "fixed": "5.5.19-tuxcare.6"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "5.5.19",
+        "5.5.19-tuxcare.1",
+        "5.5.19-tuxcare.2",
+        "5.5.19-tuxcare.3",
+        "5.5.19-tuxcare.4",
+        "5.5.19-tuxcare.5"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "5.5.19",
+          "fixed_version": "5.5.19-tuxcare.6"
+        }
+      }
+    }
+  ]
+}

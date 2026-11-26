@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1795593890",
+  "modified": "2026-11-26T08:31:56Z",
+  "published": "2026-11-25T09:04:50Z",
+  "summary": "TuxCare security update for org.eclipse.jgit:org.eclipse.jgit (1 CVE)",
+  "details": "TuxCare rebuilt org.eclipse.jgit:org.eclipse.jgit to address 1 CVE. Fixed in 5.0.2.201807311906-r-tuxcare.1.",
+  "upstream": [
+    "CVE-2025-4949"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.eclipse.jgit:org.eclipse.jgit",
+        "purl": "pkg:maven/org.eclipse.jgit/org.eclipse.jgit"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "5.0.2.201807311906-r"
+            },
+            {
+              "fixed": "5.0.2.201807311906-r-tuxcare.1"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "5.0.2.201807311906-r"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "5.0.2.201807311906-r",
+          "fixed_version": "5.0.2.201807311906-r-tuxcare.1"
+        }
+      }
+    }
+  ]
+}

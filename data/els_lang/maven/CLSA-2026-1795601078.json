@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1795601078",
+  "modified": "2026-11-26T08:31:56Z",
+  "published": "2026-11-25T11:04:39Z",
+  "summary": "TuxCare security update for org.apache.activemq:artemis-server (1 CVE)",
+  "details": "TuxCare rebuilt org.apache.activemq:artemis-server to address 1 CVE. Fixed in 2.10.1-tuxcare.1.",
+  "upstream": [
+    "CVE-2026-49362"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.apache.activemq:artemis-server",
+        "purl": "pkg:maven/org.apache.activemq/artemis-server"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "2.10.1"
+            },
+            {
+              "fixed": "2.10.1-tuxcare.1"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "2.10.1"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "2.10.1",
+          "fixed_version": "2.10.1-tuxcare.1"
+        }
+      }
+    }
+  ]
+}

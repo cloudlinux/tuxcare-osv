@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1795617293",
+  "modified": "2026-11-26T08:31:56Z",
+  "published": "2026-11-25T15:34:54Z",
+  "summary": "TuxCare security update for com.google.guava:guava (2 CVEs)",
+  "details": "TuxCare rebuilt com.google.guava:guava to address 2 CVEs. Fixed in 28.0-jre-tuxcare.1.",
+  "upstream": [
+    "CVE-2020-8908",
+    "CVE-2023-2976"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "com.google.guava:guava",
+        "purl": "pkg:maven/com.google.guava/guava"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "28.0-jre"
+            },
+            {
+              "fixed": "28.0-jre-tuxcare.1"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "28.0-jre"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "28.0-jre",
+          "fixed_version": "28.0-jre-tuxcare.1"
+        }
+      }
+    }
+  ]
+}
