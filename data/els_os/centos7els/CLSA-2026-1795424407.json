@@ -1,0 +1,59 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1795424407",
+  "summary": "pam: Fix of CVE-2026-54411",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:7",
+        "name": "pam",
+        "purl": "pkg:rpm/tuxcare/pam?distro=centos-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.1.8-23.0.5.el7.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:7",
+        "name": "pam-devel",
+        "purl": "pkg:rpm/tuxcare/pam-devel?distro=centos-7"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.1.8-23.0.5.el7.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-54411"
+  ],
+  "published": "2026-11-23T14:52:46Z",
+  "modified": "2026-11-23T14:52:46Z",
+  "details": "- Rebase onto the vendor's 1.1.8-23.0.5 sources\n- CVE-2026-54411: pam_userdb plaintext password comparison timing leak,\n  fixed by the vendor's 1005-pam-1.1.8-CVE-2026-54411.patch\n- Keep TuxCare Patch1100 and\n  Patch1102, still needed on the new base",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/centos7els/CLSA-2026-1795424407.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

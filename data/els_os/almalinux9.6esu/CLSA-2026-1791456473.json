@@ -1,7 +1,7 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2026-1791456473",
-  "summary": "ruby: Fix of CVE-2026-42257",
+  "summary": "ruby: Fix of 2 CVEs",
   "affected": [
     {
       "package": {
@@ -447,8 +447,8 @@
   "upstream": [
     "CVE-2026-42257"
   ],
-  "published": "2026-10-09T06:26:17Z",
-  "modified": "2026-10-09T06:26:17Z",
+  "published": "2026-11-24T13:15:26Z",
+  "modified": "2026-11-24T13:15:26Z",
   "details": "- CVE-2026-42257: net-imap: fix CRLF/command injection by validating RawData\n  text and embedded literals, sending the STORE attr as an atom, sending the\n  setquota storage limit as a number, and refusing LITERAL+ writes to servers\n  not known to support them",
   "references": [
     {
@@ -457,6 +457,10 @@
     },
     {
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-42257",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-47240",
       "type": "ADVISORY"
     }
   ]

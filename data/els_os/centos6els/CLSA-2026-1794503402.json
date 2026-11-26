@@ -1,7 +1,7 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2026-1794503402",
-  "summary": "postgresql: Fix of 6 CVEs",
+  "summary": "postgresql: Fix of 12 CVEs",
   "affected": [
     {
       "package": {
@@ -212,12 +212,16 @@
     "CVE-2026-15742",
     "CVE-2026-16239"
   ],
-  "published": "2026-11-12T19:33:51Z",
-  "modified": "2026-11-12T19:33:51Z",
+  "published": "2026-11-23T15:49:08Z",
+  "modified": "2026-11-23T15:49:08Z",
   "details": "- CVE-2026-14669: fix buffer overrun with long time zone abbreviations in to_char()\n- CVE-2026-14671: remove the refint plan cache\n- CVE-2026-14677: avoid allocation size overflows in PL/Tcl and PL/Perl\n- CVE-2026-14680: reject SQL calls to functions taking or returning type internal\n- CVE-2026-15742: avoid overflow in Levenshtein distance calculations\n- CVE-2026-16239: cross-check the result type of a portal running EXECUTE or FETCH",
   "references": [
     {
       "url": "https://errata.tuxcare.com/els_os/centos6els/CLSA-2026-1794503402.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-14662",
       "type": "ADVISORY"
     },
     {
@@ -242,6 +246,26 @@
     },
     {
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-16239",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-2005",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-6473",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-6477",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-6478",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-6637",
       "type": "ADVISORY"
     }
   ]

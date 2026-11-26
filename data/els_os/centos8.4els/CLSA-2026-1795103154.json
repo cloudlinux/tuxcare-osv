@@ -1,7 +1,7 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2026-1795103154",
-  "summary": "php: Fix of 12 CVEs",
+  "summary": "php: Fix of 13 CVEs",
   "affected": [
     {
       "package": {
@@ -558,12 +558,16 @@
     "CVE-2026-129496",
     "CVE-2026-129474"
   ],
-  "published": "2026-11-19T15:46:13Z",
-  "modified": "2026-11-19T15:46:13Z",
+  "published": "2026-11-24T14:50:04Z",
+  "modified": "2026-11-24T14:50:04Z",
   "details": "- CVE-2026-128064: fix TLS bypass with mixed-case https/ftps schemes in the\n  http and ftp stream wrappers (GHSA-f6gg-rchx-xw8j)\n- CVE-2026-129289: fix request smuggling via unread request bodies in\n  FastCGI/FPM (GHSA-qc49-hpvq-g2w6)\n- CVE-2026-129291: fix FPM worker stdio pipe fd closed twice\n  (GHSA-jm4m-qfqx-967m)\n- CVE-2026-129506: fix use-after-free of the SOAP DTD node during cleanup\n  (GHSA-4646-p932-gw34)\n- CVE-2026-129538: fix PATH_INFO underflow in CGI init_request_info()\n  (GHSA-5j3f-64r7-f564)\n- CVE-2026-15353: fix out-of-bounds read on empty SOAP-ENC:arraySize\n  (GHSA-q23r-hr55-xmpg)\n- CVE-2026-126714: fix remote code execution via corrupted session file\n  (GHSA-fm2m-fjf5-v3cp)\n- CVE-2026-127960: fix quadratic folded header concatenation in the http\n  wrapper (GHSA-mmf9-xm3v-hg2x)\n- CVE-2026-128090: refuse keyless phar signature when a .pubkey file exists\n  (GHSA-68fq-fh7h-f8gr)\n- CVE-2026-129292: fix XSS and XML/JSON injection in the FPM status page\n  via method, user and script (GHSA-3mg3-cr28-46gc)\n- CVE-2026-129496: fix DATEG(tzcache) use-after-free in error logging\n  (GHSA-gr4f-wgx5-jpfv)\n- CVE-2026-129474: fix use-after-free in debug_backtrace_get_args() on\n  trampoline calls (GHSA-8mjj-2r7p-4hg2)",
   "references": [
     {
       "url": "https://errata.tuxcare.com/els_os/centos8.4els/CLSA-2026-1795103154.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-115560",
       "type": "ADVISORY"
     },
     {

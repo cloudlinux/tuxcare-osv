@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1795175205",
+  "summary": "squid: Fix of CVE-2026-61642",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS:8.5",
+        "name": "squid",
+        "purl": "pkg:rpm/tuxcare/squid?distro=centos-8.5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7:4.15-1.module_el8.5.0+2844+11fbb46a.tuxcare.els17"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-61642"
+  ],
+  "published": "2026-11-20T11:46:58Z",
+  "modified": "2026-11-20T11:46:58Z",
+  "details": "- CVE-2026-61642: Squid accepted the prohibited bare Transfer-Encoding:\n  identity header, enabling HTTP request smuggling via message framing\n  disagreement",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/centos8.5els/CLSA-2026-1795175205.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-61642",
+      "type": "ADVISORY"
+    }
+  ]
+}

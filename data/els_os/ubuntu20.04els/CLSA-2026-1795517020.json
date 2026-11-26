@@ -1,0 +1,163 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1795517020",
+  "summary": "Fix CVE(s): CVE-2026-82560",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:20.04",
+        "name": "libperl-dev",
+        "purl": "pkg:deb/tuxcare/libperl-dev?distro=ubuntu-20.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.30.0-9ubuntu0.5+tuxcare.els5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:20.04",
+        "name": "libperl5.30",
+        "purl": "pkg:deb/tuxcare/libperl5.30?distro=ubuntu-20.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.30.0-9ubuntu0.5+tuxcare.els5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:20.04",
+        "name": "perl",
+        "purl": "pkg:deb/tuxcare/perl?distro=ubuntu-20.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.30.0-9ubuntu0.5+tuxcare.els5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:20.04",
+        "name": "perl-base",
+        "purl": "pkg:deb/tuxcare/perl-base?distro=ubuntu-20.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.30.0-9ubuntu0.5+tuxcare.els5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:20.04",
+        "name": "perl-debug",
+        "purl": "pkg:deb/tuxcare/perl-debug?distro=ubuntu-20.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.30.0-9ubuntu0.5+tuxcare.els5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:20.04",
+        "name": "perl-doc",
+        "purl": "pkg:deb/tuxcare/perl-doc?distro=ubuntu-20.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.30.0-9ubuntu0.5+tuxcare.els5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:20.04",
+        "name": "perl-modules-5.30",
+        "purl": "pkg:deb/tuxcare/perl-modules-5.30?distro=ubuntu-20.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.30.0-9ubuntu0.5+tuxcare.els5"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-82560"
+  ],
+  "published": "2026-11-24T10:43:52Z",
+  "modified": "2026-11-24T10:43:52Z",
+  "details": "   * SECURITY UPDATE: infinite loop and memory exhaustion in Pod::Text\n     when the =over margin reaches the output width\n     - debian/patches/CVE-2026-82560.patch: when the margin equals or\n       exceeds the output width, report \"Margin is wider than the output\n       width\" and wrap as if the margin were zero in wrap() in\n       cpan/podlators/lib/Pod/Text.pm and its Color, Overstrike and\n       Termcap subclasses; backported from upstream podlators commit\n       70510174f69eb54aa6d617bde4e1402cd9b7c61f.\n     - CVE-2026-82560",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/ubuntu20.04els/CLSA-2026-1795517020.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-82560",
+      "type": "ADVISORY"
+    }
+  ]
+}

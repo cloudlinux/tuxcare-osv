@@ -1,7 +1,7 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2026-1793884447",
-  "summary": "grafana: Fix of CVE-2026-33382",
+  "summary": "grafana: Fix of 2 CVEs",
   "affected": [
     {
       "package": {
@@ -47,8 +47,8 @@
   "upstream": [
     "CVE-2026-33382"
   ],
-  "published": "2026-11-05T13:14:20Z",
-  "modified": "2026-11-05T13:14:20Z",
+  "published": "2026-11-25T02:53:24Z",
+  "modified": "2026-11-25T02:53:24Z",
   "details": "- CVE-2026-33382: cap the request body with http.MaxBytesReader at 100 KiB on\n  the unauthenticated login, signup, password reset and invite completion\n  endpoints, which bind form bodies before authentication; the global 100 MiB\n  web.Bind ceiling from the same upstream commit already shipped in els12",
   "references": [
     {
@@ -57,6 +57,10 @@
     },
     {
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-33382",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-94440",
       "type": "ADVISORY"
     }
   ]

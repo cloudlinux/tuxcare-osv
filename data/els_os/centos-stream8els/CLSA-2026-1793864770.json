@@ -1,7 +1,7 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2026-1793864770",
-  "summary": "expat: Fix of CVE-2026-113351",
+  "summary": "expat: Fix of 2 CVEs",
   "affected": [
     {
       "package": {
@@ -67,8 +67,8 @@
   "upstream": [
     "CVE-2026-113351"
   ],
-  "published": "2026-11-05T07:46:21Z",
-  "modified": "2026-11-05T07:46:21Z",
+  "published": "2026-11-25T19:54:01Z",
+  "modified": "2026-11-25T19:54:01Z",
   "details": "- CVE-2026-113351: Expat's allocation tracker did not offset memory\n  already used before XML_ParserReset, skewing amplification limits for\n  later documents on a reused parser",
   "references": [
     {
@@ -77,6 +77,10 @@
     },
     {
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-113351",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76641",
       "type": "ADVISORY"
     }
   ]

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2026-1789469873",
-  "summary": "ignition: Fix of 8 CVEs",
+  "summary": "ignition: Fix of 11 CVEs",
   "affected": [
     {
       "package": {
@@ -94,12 +94,24 @@
     "CVE-2026-56860",
     "CVE-2026-56862"
   ],
-  "published": "2026-09-15T10:58:09Z",
-  "modified": "2026-09-15T10:58:09Z",
+  "published": "2026-11-25T02:46:13Z",
+  "modified": "2026-11-25T02:46:13Z",
   "details": "- CVE-2026-39820: rebuild against golang >= 1.25.7-1.el9_6.tuxcare.els16 to fix\n  quadratic complexity in consumeComment in net/mail, where repeated string\n  concatenation made nested comment depth O(n^2)\n- CVE-2026-42499: rebuild against golang >= 1.25.7-1.el9_6.tuxcare.els16 to fix\n  quadratic consumePhrase behavior in net/mail, which repeatedly concatenated\n  encoded-word runs into the previous slice element\n- CVE-2026-33818: rebuild against golang >= 1.25.7-1.el9_6.tuxcare.els16 to fix\n  stack exhaustion in encoding/asn1 Unmarshal when parsing deeply-nested\n  recursive structures\n- CVE-2026-56853: rebuild against golang >= 1.25.7-1.el9_6.tuxcare.els16 to apply\n  ReadHeaderTimeout to the server's unencrypted HTTP/2 client preface read, and\n  clear the connection timeouts once the connection is handed off to http2\n- CVE-2026-56858: rebuild against golang >= 1.25.7-1.el9_6.tuxcare.els16 to fix\n  JavaScript regexp context tracking in html/template, where pathological input\n  could close an unescaped '/' early and inject attacker-controlled content\n- CVE-2026-56859: rebuild against golang >= 1.25.7-1.el9_6.tuxcare.els16 to fix\n  stack exhaustion in encoding/xml, where DecodeElement reset the recursion\n  depth counter\n- CVE-2026-56860: rebuild against golang >= 1.25.7-1.el9_6.tuxcare.els16 to fix\n  quadratic complexity in net/url resolvePath when resolving '..' segments\n- CVE-2026-56862: rebuild against golang >= 1.25.7-1.el9_6.tuxcare.els16 to fix\n  unbounded key derivation work in crypto/tls, where handshake messages still\n  counted as state-advancing after the handshake completed",
   "references": [
     {
       "url": "https://errata.tuxcare.com/els_os/tuxcare9.6esu/CLSA-2026-1789469873.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-32280",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-32281",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-32283",
       "type": "ADVISORY"
     },
     {

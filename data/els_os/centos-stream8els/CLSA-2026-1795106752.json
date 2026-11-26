@@ -1,7 +1,7 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2026-1795106752",
-  "summary": "php: Fix of 12 CVEs",
+  "summary": "php: Fix of 13 CVEs",
   "affected": [
     {
       "package": {
@@ -558,12 +558,16 @@
     "CVE-2026-15353",
     "CVE-2026-129474"
   ],
-  "published": "2026-11-19T18:35:12Z",
-  "modified": "2026-11-19T18:35:12Z",
+  "published": "2026-11-24T14:50:21Z",
+  "modified": "2026-11-24T14:50:21Z",
   "details": "- CVE-2026-126714: fix possible code execution via corrupted session file by\n  always truncating it before write (GHSA-fm2m-fjf5-v3cp)\n- CVE-2026-127960: fix quadratic complexity when concatenating folded HTTP\n  response headers (GHSA-mmf9-xm3v-hg2x)\n- CVE-2026-128064: fix TLS downgrade for mixed-case HTTPS and FTPS URL schemes\n  (GHSA-f6gg-rchx-xw8j)\n- CVE-2026-128090: refuse keyless phar signature when an OpenSSL .pubkey exists\n  (GHSA-68fq-fh7h-f8gr)\n- CVE-2026-129289: drain unread request bodies and reject FastCGI requests after\n  a partially read STDIN record (GHSA-qc49-hpvq-g2w6)\n- CVE-2026-129291: fix FPM worker stdio pipe fd closed twice\n  (GHSA-jm4m-qfqx-967m)\n- CVE-2026-129292: fix XSS in FPM status page via request method, auth user and\n  script filename (GHSA-3mg3-cr28-46gc)\n- CVE-2026-129496: fix DATEG(tzcache) use-after-free when logging errors outside\n  an active request (GHSA-gr4f-wgx5-jpfv)\n- CVE-2026-129506: fix use-after-free by keeping the SOAP DTD alive during\n  cleanup (GHSA-4646-p932-gw34)\n- CVE-2026-129538: fix PATH_INFO pointer underflow in CGI init_request_info()\n  (GHSA-5j3f-64r7-f564)\n- CVE-2026-15353: fix out-of-bounds read on empty SOAP-ENC:arraySize\n  (GHSA-q23r-hr55-xmpg)\n- CVE-2026-129474: fix use-after-free in debug_backtrace_get_args() and phpdbg\n  stack frames on __call/__callStatic trampoline calls (GHSA-8mjj-2r7p-4hg2)",
   "references": [
     {
       "url": "https://errata.tuxcare.com/els_os/centos-stream8els/CLSA-2026-1795106752.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-115560",
       "type": "ADVISORY"
     },
     {

@@ -1,0 +1,63 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1795477597",
+  "summary": "yelp-xsl: Fix of CVE-2025-3155",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "yelp-xsl",
+        "purl": "pkg:rpm/tuxcare/yelp-xsl?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "40.2-1.el9_2.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "yelp-xsl-devel",
+        "purl": "pkg:rpm/tuxcare/yelp-xsl-devel?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "40.2-1.el9_2.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2025-3155"
+  ],
+  "published": "2026-11-23T23:46:48Z",
+  "modified": "2026-11-23T23:46:48Z",
+  "details": "- CVE-2025-3155: fix missing CSP nonce on generated script and style elements",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/almalinux9.2esu/CLSA-2026-1795477597.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-3155",
+      "type": "ADVISORY"
+    }
+  ]
+}

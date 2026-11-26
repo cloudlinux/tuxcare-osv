@@ -1,0 +1,108 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1795480164",
+  "summary": "webkit2gtk3: Fix of 2 CVEs",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "webkit2gtk3",
+        "purl": "pkg:rpm/tuxcare/webkit2gtk3?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.54.0-1.el9.tuxcare.els16"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "webkit2gtk3-devel",
+        "purl": "pkg:rpm/tuxcare/webkit2gtk3-devel?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.54.0-1.el9.tuxcare.els16"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "webkit2gtk3-jsc",
+        "purl": "pkg:rpm/tuxcare/webkit2gtk3-jsc?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.54.0-1.el9.tuxcare.els16"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "webkit2gtk3-jsc-devel",
+        "purl": "pkg:rpm/tuxcare/webkit2gtk3-jsc-devel?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.54.0-1.el9.tuxcare.els16"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-118348",
+    "CVE-2026-118319"
+  ],
+  "published": "2026-11-24T00:29:36Z",
+  "modified": "2026-11-24T00:29:36Z",
+  "details": "- CVE-2026-118348: Skia integer overflow in the SkSL Raster Pipeline slot count\n- CVE-2026-118319: Skia integer overflow in the SkSL Raster Pipeline code generator\n  (same upstream fix as CVE-2026-118348)",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/almalinux9.2esu/CLSA-2026-1795480164.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-118319",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-118348",
+      "type": "ADVISORY"
+    }
+  ]
+}

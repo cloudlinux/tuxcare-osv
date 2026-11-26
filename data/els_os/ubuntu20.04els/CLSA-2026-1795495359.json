@@ -1,0 +1,83 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1795495359",
+  "summary": "Fix CVE(s): CVE-2025-7424",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:20.04",
+        "name": "libxslt1-dev",
+        "purl": "pkg:deb/tuxcare/libxslt1-dev?distro=ubuntu-20.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.1.34-4ubuntu0.20.04.3+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:20.04",
+        "name": "libxslt1.1",
+        "purl": "pkg:deb/tuxcare/libxslt1.1?distro=ubuntu-20.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.1.34-4ubuntu0.20.04.3+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:20.04",
+        "name": "xsltproc",
+        "purl": "pkg:deb/tuxcare/xsltproc?distro=ubuntu-20.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.1.34-4ubuntu0.20.04.3+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2025-7424"
+  ],
+  "published": "2026-11-24T04:42:50Z",
+  "modified": "2026-11-24T04:42:50Z",
+  "details": "   * SECURITY UPDATE: type confusion in xmlNode.psvi between stylesheet\n     and source nodes\n     - debian/patches/CVE-2025-7424.patch: add source-node cleanup\n       infrastructure in libxslt/transform.c, libxslt/xsltutils.c,\n       libxslt/xsltutils.h, libxslt/xsltInternals.h, add\n       libxslt/transformInternals.h (libxslt/Makefile.am), and copy\n       the stylesheet document and clear its psvi fields in document()\n       in libxslt/functions.c.\n     - CVE-2025-7424",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/ubuntu20.04els/CLSA-2026-1795495359.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-7424",
+      "type": "ADVISORY"
+    }
+  ]
+}
