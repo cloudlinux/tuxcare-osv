@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1795591440",
+  "modified": "2026-11-26T01:59:22Z",
+  "published": "2026-11-25T08:24:01Z",
+  "summary": "TuxCare security update for org.apache.directory.api:api-ldap-model (1 CVE)",
+  "details": "TuxCare rebuilt org.apache.directory.api:api-ldap-model to address 1 CVE. Fixed in 1.0.0-M20-tuxcare.1.",
+  "upstream": [
+    "CVE-2015-3250"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.apache.directory.api:api-ldap-model",
+        "purl": "pkg:maven/org.apache.directory.api/api-ldap-model"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "1.0.0-M20"
+            },
+            {
+              "fixed": "1.0.0-M20-tuxcare.1"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "1.0.0-M20"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "1.0.0-M20",
+          "fixed_version": "1.0.0-M20-tuxcare.1"
+        }
+      }
+    }
+  ]
+}

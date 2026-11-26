@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1795573586",
+  "modified": "2026-11-26T01:59:22Z",
+  "published": "2026-11-25T03:26:27Z",
+  "summary": "TuxCare security update for org.springframework:spring-beans (1 CVE)",
+  "details": "TuxCare rebuilt org.springframework:spring-beans to address 1 CVE. Fixed in 6.2.15-tuxcare.9.",
+  "upstream": [
+    "CVE-2026-59374"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.springframework:spring-beans",
+        "purl": "pkg:maven/org.springframework/spring-beans"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "6.2.15"
+            },
+            {
+              "fixed": "6.2.15-tuxcare.9"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "6.2.15",
+        "6.2.15-tuxcare.1",
+        "6.2.15-tuxcare.2",
+        "6.2.15-tuxcare.3",
+        "6.2.15-tuxcare.4",
+        "6.2.15-tuxcare.5",
+        "6.2.15-tuxcare.6",
+        "6.2.15-tuxcare.7",
+        "6.2.15-tuxcare.8"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "6.2.15",
+          "fixed_version": "6.2.15-tuxcare.9"
+        }
+      }
+    }
+  ]
+}

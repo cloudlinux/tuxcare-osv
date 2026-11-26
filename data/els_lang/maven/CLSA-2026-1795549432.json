@@ -1,0 +1,76 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1795549432",
+  "modified": "2026-11-26T01:59:22Z",
+  "published": "2026-11-24T20:43:52Z",
+  "summary": "TuxCare security update for org.apache.cxf (2 CVEs)",
+  "details": "TuxCare rebuilt 2 org.apache.cxf packages to address 2 CVEs. Fixed in 2.7.18-tuxcare.3.",
+  "upstream": [
+    "CVE-2018-8039",
+    "CVE-2026-50632"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.apache.cxf:cxf-rt-transports-http",
+        "purl": "pkg:maven/org.apache.cxf/cxf-rt-transports-http"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "2.7.18"
+            },
+            {
+              "fixed": "2.7.18-tuxcare.3"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "2.7.18",
+        "2.7.18-tuxcare.1",
+        "2.7.18-tuxcare.2"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "2.7.18",
+          "fixed_version": "2.7.18-tuxcare.3"
+        }
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.apache.cxf:cxf-rt-transports-jms",
+        "purl": "pkg:maven/org.apache.cxf/cxf-rt-transports-jms"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "2.7.18"
+            },
+            {
+              "fixed": "2.7.18-tuxcare.3"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "2.7.18",
+        "2.7.18-tuxcare.1",
+        "2.7.18-tuxcare.2"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "2.7.18",
+          "fixed_version": "2.7.18-tuxcare.3"
+        }
+      }
+    }
+  ]
+}
