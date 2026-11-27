@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1795801545",
+  "modified": "2026-11-27T19:28:06Z",
+  "published": "2026-11-27T18:45:46Z",
+  "summary": "TuxCare security update for @sentry/browser (1 CVE)",
+  "details": "TuxCare rebuilt @sentry/browser to address 1 CVE. Fixed in 7.77.0-tuxcare.1.",
+  "upstream": [
+    "GHSA-593m-55hh-j8gv"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "@sentry/browser",
+        "purl": "pkg:npm/%40sentry/browser"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "7.77.0-tuxcare.0"
+            },
+            {
+              "fixed": "7.77.0-tuxcare.1"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "7.77.0"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "7.77.0",
+          "fixed_version": "7.77.0-tuxcare.1"
+        }
+      }
+    }
+  ]
+}

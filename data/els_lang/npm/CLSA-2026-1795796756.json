@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1795796756",
+  "modified": "2026-11-27T19:28:06Z",
+  "published": "2026-11-27T17:25:57Z",
+  "summary": "TuxCare security update for schema-inspector (1 CVE)",
+  "details": "TuxCare rebuilt schema-inspector to address 1 CVE. Fixed in 1.6.8-tuxcare.1.",
+  "upstream": [
+    "CVE-2021-21267"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "schema-inspector",
+        "purl": "pkg:npm/schema-inspector"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "1.6.8-tuxcare.0"
+            },
+            {
+              "fixed": "1.6.8-tuxcare.1"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "1.6.8"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "1.6.8",
+          "fixed_version": "1.6.8-tuxcare.1"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1795799675",
+  "modified": "2026-11-27T19:28:06Z",
+  "published": "2026-11-27T18:14:36Z",
+  "summary": "TuxCare security update for is-svg (1 CVE)",
+  "details": "TuxCare rebuilt is-svg to address 1 CVE. Fixed in 4.2.2-tuxcare.1.",
+  "upstream": [
+    "CVE-2021-29059"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "is-svg",
+        "purl": "pkg:npm/is-svg"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "4.2.2-tuxcare.0"
+            },
+            {
+              "fixed": "4.2.2-tuxcare.1"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "4.2.2"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "4.2.2",
+          "fixed_version": "4.2.2-tuxcare.1"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1795797869",
+  "modified": "2026-11-27T19:28:06Z",
+  "published": "2026-11-27T17:44:30Z",
+  "summary": "TuxCare security update for joi (1 CVE)",
+  "details": "TuxCare rebuilt joi to address 1 CVE. Fixed in 17.11.0-tuxcare.3.",
+  "upstream": [
+    "CVE-2026-48038"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "joi",
+        "purl": "pkg:npm/joi"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "17.11.0-tuxcare.0"
+            },
+            {
+              "fixed": "17.11.0-tuxcare.3"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "17.11.0",
+        "17.11.0-tuxcare.1",
+        "17.11.0-tuxcare.2"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "17.11.0",
+          "fixed_version": "17.11.0-tuxcare.3"
+        }
+      }
+    }
+  ]
+}

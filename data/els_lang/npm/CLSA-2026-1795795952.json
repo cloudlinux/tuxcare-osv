@@ -1,0 +1,49 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1795795952",
+  "modified": "2026-11-27T19:28:06Z",
+  "published": "2026-11-27T17:12:33Z",
+  "summary": "TuxCare security update for mongoose (3 CVEs)",
+  "details": "TuxCare rebuilt mongoose to address 3 CVEs. Fixed in 5.13.23-tuxcare.6.",
+  "upstream": [
+    "CVE-2026-125116",
+    "CVE-2026-125117",
+    "CVE-2026-125118"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "mongoose",
+        "purl": "pkg:npm/mongoose"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "5.13.23-tuxcare.0"
+            },
+            {
+              "fixed": "5.13.23-tuxcare.6"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "5.13.23",
+        "5.13.23-tuxcare.1",
+        "5.13.23-tuxcare.2",
+        "5.13.23-tuxcare.3",
+        "5.13.23-tuxcare.4",
+        "5.13.23-tuxcare.5"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "5.13.23",
+          "fixed_version": "5.13.23-tuxcare.6"
+        }
+      }
+    }
+  ]
+}

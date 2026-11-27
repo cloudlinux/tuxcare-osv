@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1795797690",
+  "modified": "2026-11-27T19:28:06Z",
+  "published": "2026-11-27T17:41:31Z",
+  "summary": "TuxCare security update for jose (1 CVE)",
+  "details": "TuxCare rebuilt jose to address 1 CVE. Fixed in 4.14.4-tuxcare.1.",
+  "upstream": [
+    "CVE-2024-28176"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "jose",
+        "purl": "pkg:npm/jose"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "4.14.4-tuxcare.0"
+            },
+            {
+              "fixed": "4.14.4-tuxcare.1"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "4.14.4"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "4.14.4",
+          "fixed_version": "4.14.4-tuxcare.1"
+        }
+      }
+    }
+  ]
+}
