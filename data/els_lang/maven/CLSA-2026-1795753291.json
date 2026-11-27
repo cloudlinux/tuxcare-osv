@@ -1,0 +1,104 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1795753291",
+  "modified": "2026-11-27T07:44:13Z",
+  "published": "2026-11-27T05:21:32Z",
+  "summary": "TuxCare security update for org.springframework (2 CVEs)",
+  "details": "TuxCare rebuilt 3 org.springframework packages to address 2 CVEs. Fixed in 2.5.4-tuxcare.2.",
+  "upstream": [
+    "CVE-2023-20860",
+    "CVE-2026-59374"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.springframework:spring",
+        "purl": "pkg:maven/org.springframework/spring"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "2.5.4"
+            },
+            {
+              "fixed": "2.5.4-tuxcare.2"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "2.5.4",
+        "2.5.4-tuxcare.1"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "2.5.4",
+          "fixed_version": "2.5.4-tuxcare.2"
+        }
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.springframework:spring-beans",
+        "purl": "pkg:maven/org.springframework/spring-beans"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "2.5.4"
+            },
+            {
+              "fixed": "2.5.4-tuxcare.2"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "2.5.4",
+        "2.5.4-tuxcare.1"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "2.5.4",
+          "fixed_version": "2.5.4-tuxcare.2"
+        }
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Maven",
+        "name": "org.springframework:spring-webmvc",
+        "purl": "pkg:maven/org.springframework/spring-webmvc"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "2.5.4"
+            },
+            {
+              "fixed": "2.5.4-tuxcare.2"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "2.5.4",
+        "2.5.4-tuxcare.1"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "2.5.4",
+          "fixed_version": "2.5.4-tuxcare.2"
+        }
+      }
+    }
+  ]
+}
