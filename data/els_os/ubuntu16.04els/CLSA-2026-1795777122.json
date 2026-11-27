@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1795777122",
+  "summary": "Fix CVE(s): CVE-2026-119741",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:16.04",
+        "name": "rsync",
+        "purl": "pkg:deb/tuxcare/rsync?distro=ubuntu-16.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.1.1-3ubuntu1.3+tuxcare.els21"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-119741"
+  ],
+  "published": "2026-11-27T10:58:53Z",
+  "modified": "2026-11-27T10:58:53Z",
+  "details": "   * SECURITY UPDATE: unbounded hash_search collision work in the delta\n     matcher\n     - debian/patches/CVE-2026-119741.patch: bound the work spent on colliding\n       checksum chains in hash_search() in match.c, add\n       testsuite/cve-2026-119741.test\n     - CVE-2026-119741",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/ubuntu16.04els/CLSA-2026-1795777122.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-119741",
+      "type": "ADVISORY"
+    }
+  ]
+}

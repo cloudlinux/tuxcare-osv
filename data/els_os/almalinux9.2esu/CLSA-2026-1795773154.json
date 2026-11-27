@@ -1,0 +1,77 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1795773154",
+  "summary": "perl-CGI: Fix of 4 CVEs",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "perl-CGI",
+        "purl": "pkg:rpm/tuxcare/perl-CGI?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.51-5.el9_2.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "perl-CGI-tests",
+        "purl": "pkg:rpm/tuxcare/perl-CGI-tests?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.51-5.el9_2.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-120650",
+    "CVE-2026-120641",
+    "CVE-2026-120642"
+  ],
+  "published": "2026-11-27T09:52:48Z",
+  "modified": "2026-11-27T09:52:48Z",
+  "details": "- fix CVE-2026-120650: limit request size, parameter counts and uploads\n- fix CVE-2026-120641: sanitize upload filenames and preserve distinct temporary files\n- fix CVE-2026-120642: preserve taint on request-derived values",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/almalinux9.2esu/CLSA-2026-1795773154.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120641",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120642",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120646",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120650",
+      "type": "ADVISORY"
+    }
+  ]
+}
