@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1794329137",
+  "summary": "Fix CVE(s): CVE-2026-119741",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Debian:11",
+        "name": "rsync",
+        "purl": "pkg:deb/tuxcare/rsync?distro=debian-11"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.2.3-4+deb11u4+tuxcare.els8"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-119741"
+  ],
+  "published": "2026-11-10T16:45:48Z",
+  "modified": "2026-11-10T16:45:48Z",
+  "details": "   * SECURITY UPDATE: unbounded hash_search() collision work\n     - debian/patches/CVE-2026-119741.patch: unlink duplicate chain entries\n       and skip a block after repeated colliding offsets in match.c, so a\n       crafted checksum set cannot drive excessive sender CPU use in the\n       delta matcher\n     - CVE-2026-119741",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/debian11els/CLSA-2026-1794329137.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-119741",
+      "type": "ADVISORY"
+    }
+  ]
+}

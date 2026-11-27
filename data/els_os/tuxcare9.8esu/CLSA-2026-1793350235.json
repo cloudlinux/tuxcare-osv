@@ -1,0 +1,217 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1793350235",
+  "summary": "Update of bind",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.8",
+        "name": "bind",
+        "purl": "pkg:rpm/tuxcare/bind?distro=almalinux-9.8"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "32:9.16.23-40.el9_8.12.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.8",
+        "name": "bind-chroot",
+        "purl": "pkg:rpm/tuxcare/bind-chroot?distro=almalinux-9.8"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "32:9.16.23-40.el9_8.12.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.8",
+        "name": "bind-devel",
+        "purl": "pkg:rpm/tuxcare/bind-devel?distro=almalinux-9.8"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "32:9.16.23-40.el9_8.12.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.8",
+        "name": "bind-dnssec-doc",
+        "purl": "pkg:rpm/tuxcare/bind-dnssec-doc?distro=almalinux-9.8"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "32:9.16.23-40.el9_8.12.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.8",
+        "name": "bind-dnssec-utils",
+        "purl": "pkg:rpm/tuxcare/bind-dnssec-utils?distro=almalinux-9.8"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "32:9.16.23-40.el9_8.12.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.8",
+        "name": "bind-doc",
+        "purl": "pkg:rpm/tuxcare/bind-doc?distro=almalinux-9.8"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "32:9.16.23-40.el9_8.12.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.8",
+        "name": "bind-libs",
+        "purl": "pkg:rpm/tuxcare/bind-libs?distro=almalinux-9.8"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "32:9.16.23-40.el9_8.12.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.8",
+        "name": "bind-license",
+        "purl": "pkg:rpm/tuxcare/bind-license?distro=almalinux-9.8"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "32:9.16.23-40.el9_8.12.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.8",
+        "name": "bind-utils",
+        "purl": "pkg:rpm/tuxcare/bind-utils?distro=almalinux-9.8"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "32:9.16.23-40.el9_8.12.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.8",
+        "name": "python3-bind",
+        "purl": "pkg:rpm/tuxcare/python3-bind?distro=almalinux-9.8"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "32:9.16.23-40.el9_8.12.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [],
+  "published": "2026-10-30T08:50:42Z",
+  "modified": "2026-10-30T08:50:42Z",
+  "details": "- rebase to 9.16.23-40.el9_8.12\n- take the vendor's Patch246 in place of our NOQNAME proof fix, and keep\n  its rdataset_getclosest() part, which Patch246 lacks\n- the TuxCare patches that the vendor does not ship remain declared and applied",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/tuxcare9.8esu/CLSA-2026-1793350235.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

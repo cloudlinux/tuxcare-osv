@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1794008581",
+  "summary": "Fix CVE(s): CVE-2026-70452",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Debian:11",
+        "name": "rsync",
+        "purl": "pkg:deb/tuxcare/rsync?distro=debian-11"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.2.3-4+deb11u4+tuxcare.els6"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-70452"
+  ],
+  "published": "2026-11-06T23:43:12Z",
+  "modified": "2026-11-06T23:43:12Z",
+  "details": "   * SECURITY UPDATE: hosts deny bypass when a hostname token cannot be\n     resolved\n     - debian/patches/CVE-2026-70452.patch: treat an unresolvable \"hosts\n       deny\" hostname token as a match (fail closed) in match_hostname()\n     - CVE-2026-70452",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/debian11els/CLSA-2026-1794008581.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-70452",
+      "type": "ADVISORY"
+    }
+  ]
+}

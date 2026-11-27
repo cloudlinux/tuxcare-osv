@@ -1,0 +1,193 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1792932527",
+  "summary": "openssh: Fix of 7 CVEs",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.8",
+        "name": "openssh",
+        "purl": "pkg:rpm/tuxcare/openssh?distro=almalinux-9.8"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "9.9p1-13.el9_8.alma.1.tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.8",
+        "name": "openssh-askpass",
+        "purl": "pkg:rpm/tuxcare/openssh-askpass?distro=almalinux-9.8"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "9.9p1-13.el9_8.alma.1.tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.8",
+        "name": "openssh-clients",
+        "purl": "pkg:rpm/tuxcare/openssh-clients?distro=almalinux-9.8"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "9.9p1-13.el9_8.alma.1.tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.8",
+        "name": "openssh-keycat",
+        "purl": "pkg:rpm/tuxcare/openssh-keycat?distro=almalinux-9.8"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "9.9p1-13.el9_8.alma.1.tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.8",
+        "name": "openssh-server",
+        "purl": "pkg:rpm/tuxcare/openssh-server?distro=almalinux-9.8"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "9.9p1-13.el9_8.alma.1.tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.8",
+        "name": "openssh-sk-dummy",
+        "purl": "pkg:rpm/tuxcare/openssh-sk-dummy?distro=almalinux-9.8"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "9.9p1-13.el9_8.alma.1.tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.8",
+        "name": "pam_ssh_agent_auth",
+        "purl": "pkg:rpm/tuxcare/pam_ssh_agent_auth?distro=almalinux-9.8"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.10.4-8.13.el9_8.alma.1.tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-106555",
+    "CVE-2026-106553",
+    "CVE-2026-106583",
+    "CVE-2026-106585",
+    "CVE-2026-60001",
+    "CVE-2026-59998",
+    "CVE-2026-59997"
+  ],
+  "published": "2026-10-25T12:49:03Z",
+  "modified": "2026-10-25T12:49:03Z",
+  "details": "- CVE-2026-106555: reset the GSSAPI client state before each authentication\n  attempt\n- CVE-2026-106553: store delegated GSSAPI credentials only after successful\n  GSSAPI user authorization\n- CVE-2026-106583: reject '$' and '\\' in a user name given on the ssh command\n  line\n- CVE-2026-106585: reject compressed packets that inflate beyond the maximum\n  packet size\n- CVE-2026-60001: enforce the minimum per-attempt delay in GSSAPI and\n  keyboard-interactive authentication (vendor patch)\n- CVE-2026-59998: document the GSSAPIStrictAcceptorCheck caveat (vendor patch)\n- CVE-2026-59997: fix the internal-sftp server argument parsing limit (vendor\n  patch)",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/tuxcare9.8esu/CLSA-2026-1792932527.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-106553",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-106555",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-106583",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-106585",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59997",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59998",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-60001",
+      "type": "ADVISORY"
+    }
+  ]
+}

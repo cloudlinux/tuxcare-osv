@@ -1,0 +1,103 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1794228528",
+  "summary": "Fix CVE(s): CVE-2026-115504",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Debian:11",
+        "name": "libcfitsio-bin",
+        "purl": "pkg:deb/tuxcare/libcfitsio-bin?distro=debian-11"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.490-3+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Debian:11",
+        "name": "libcfitsio-dev",
+        "purl": "pkg:deb/tuxcare/libcfitsio-dev?distro=debian-11"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.490-3+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Debian:11",
+        "name": "libcfitsio-doc",
+        "purl": "pkg:deb/tuxcare/libcfitsio-doc?distro=debian-11"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.490-3+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Debian:11",
+        "name": "libcfitsio9",
+        "purl": "pkg:deb/tuxcare/libcfitsio9?distro=debian-11"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.490-3+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-115504"
+  ],
+  "published": "2026-11-09T12:48:59Z",
+  "modified": "2026-11-09T12:48:59Z",
+  "details": "   * SECURITY UPDATE: out-of-bounds write in ffgcls2() via variable-length string column\n     - debian/patches/CVE-2026-115504.patch: check the string buffer bounds\n       before the read in ffgcls2()\n     - debian/patches/CVE-2026-115504-pre1.patch: enlarge the TDISPn\n       buffers in ffgcls() and ffgcdw(), required by the new ffgcdw() call\n       in ffgcls2()\n     - debian/patches/CVE-2026-115504-pre2.patch: range-check the TDISPn\n       width in ffgcdw(), required by the new ffgcdw() call in ffgcls2()\n     - debian/patches/CVE-2026-115504-2.patch: return the variable-length\n       string width from ffgcdw() and clamp the copy into the caller's\n       array; string reads are now truncated to a TDISPn width narrower\n       than TFORMn\n     - CVE-2026-115504",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/debian11els/CLSA-2026-1794228528.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-115504",
+      "type": "ADVISORY"
+    }
+  ]
+}

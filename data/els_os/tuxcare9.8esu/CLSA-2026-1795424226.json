@@ -1,0 +1,57 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1795424226",
+  "summary": "Update of hostapd",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.8",
+        "name": "hostapd",
+        "purl": "pkg:rpm/tuxcare/hostapd?distro=almalinux-9.8"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.11-3.el9_8.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.8",
+        "name": "hostapd-logwatch",
+        "purl": "pkg:rpm/tuxcare/hostapd-logwatch?distro=almalinux-9.8"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.11-3.el9_8.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [],
+  "published": "2026-11-23T08:57:14Z",
+  "modified": "2026-11-23T08:57:14Z",
+  "details": "- Rebase onto vendor hostapd 2.11-3\n- The TuxCare duplicate patch for link ID validation in Basic MLE parsing (ieee802_11_eht.c) is dropped; the vendor's 0001-AP-MLD-Fix-link-ID-validation-in-Basic-MLE-parsing.patch carries the same fix\n- Keep the TuxCare fix for RADIUS response handling in radius_client_receive(), applied after the vendor patches",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/tuxcare9.8esu/CLSA-2026-1795424226.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

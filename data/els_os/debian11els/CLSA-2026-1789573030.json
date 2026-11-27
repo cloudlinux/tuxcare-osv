@@ -1,0 +1,163 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1789573030",
+  "summary": "Fix CVE(s): CVE-2023-25193",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Debian:11",
+        "name": "gir1.2-harfbuzz-0.0",
+        "purl": "pkg:deb/tuxcare/gir1.2-harfbuzz-0.0?distro=debian-11"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.7.4-1+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Debian:11",
+        "name": "libharfbuzz-bin",
+        "purl": "pkg:deb/tuxcare/libharfbuzz-bin?distro=debian-11"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.7.4-1+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Debian:11",
+        "name": "libharfbuzz-dev",
+        "purl": "pkg:deb/tuxcare/libharfbuzz-dev?distro=debian-11"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.7.4-1+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Debian:11",
+        "name": "libharfbuzz-doc",
+        "purl": "pkg:deb/tuxcare/libharfbuzz-doc?distro=debian-11"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.7.4-1+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Debian:11",
+        "name": "libharfbuzz-gobject0",
+        "purl": "pkg:deb/tuxcare/libharfbuzz-gobject0?distro=debian-11"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.7.4-1+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Debian:11",
+        "name": "libharfbuzz-icu0",
+        "purl": "pkg:deb/tuxcare/libharfbuzz-icu0?distro=debian-11"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.7.4-1+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Debian:11",
+        "name": "libharfbuzz0b",
+        "purl": "pkg:deb/tuxcare/libharfbuzz0b?distro=debian-11"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.7.4-1+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2023-25193"
+  ],
+  "published": "2026-09-16T15:37:20Z",
+  "modified": "2026-09-16T15:37:20Z",
+  "details": "   * SECURITY UPDATE: Denial of service via quadratic mark attachment in GPOS\n     - debian/patches/CVE-2023-25193.patch: memoize the last base glyph in\n       MarkBasePos/MarkLigPos so backward search no longer rescans the buffer\n     - CVE-2023-25193",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/debian11els/CLSA-2026-1789573030.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-25193",
+      "type": "ADVISORY"
+    }
+  ]
+}

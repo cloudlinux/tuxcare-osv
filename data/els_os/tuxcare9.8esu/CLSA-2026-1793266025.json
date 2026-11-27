@@ -1,0 +1,63 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1793266025",
+  "summary": "taglib: Fix of CVE-2023-47466",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.8",
+        "name": "taglib",
+        "purl": "pkg:rpm/tuxcare/taglib?distro=almalinux-9.8"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.12-6.el9_8.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.8",
+        "name": "taglib-devel",
+        "purl": "pkg:rpm/tuxcare/taglib-devel?distro=almalinux-9.8"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.12-6.el9_8.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2023-47466"
+  ],
+  "published": "2026-10-29T09:27:16Z",
+  "modified": "2026-10-29T09:27:16Z",
+  "details": "- CVE-2023-47466: fix segmentation violation and application crash during tag\n  writing via crafted WAV file in which an id3 chunk is the only valid chunk",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/tuxcare9.8esu/CLSA-2026-1793266025.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-47466",
+      "type": "ADVISORY"
+    }
+  ]
+}

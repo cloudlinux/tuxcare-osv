@@ -1,0 +1,53 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1793214705",
+  "summary": "libreswan: Fix of 3 CVEs",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.8",
+        "name": "libreswan",
+        "purl": "pkg:rpm/tuxcare/libreswan?distro=almalinux-9.8"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.15-11.el9_8.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-94453",
+    "CVE-2026-77206",
+    "CVE-2026-77207"
+  ],
+  "published": "2026-10-28T19:11:58Z",
+  "modified": "2026-10-28T19:11:58Z",
+  "details": "- rebase onto the 4.15-11.el9_8 vendor sources, which fix CVE-2026-94453,\n  CVE-2026-77206 and CVE-2026-77207",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/tuxcare9.8esu/CLSA-2026-1793214705.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-77206",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-77207",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-94453",
+      "type": "ADVISORY"
+    }
+  ]
+}

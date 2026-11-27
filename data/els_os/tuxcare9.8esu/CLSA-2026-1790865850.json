@@ -1,0 +1,83 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1790865850",
+  "summary": "libsndfile: Fix of CVE-2025-52194",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.8",
+        "name": "libsndfile",
+        "purl": "pkg:rpm/tuxcare/libsndfile?distro=almalinux-9.8"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.0.31-9.el9_8.1.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.8",
+        "name": "libsndfile-devel",
+        "purl": "pkg:rpm/tuxcare/libsndfile-devel?distro=almalinux-9.8"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.0.31-9.el9_8.1.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.8",
+        "name": "libsndfile-utils",
+        "purl": "pkg:rpm/tuxcare/libsndfile-utils?distro=almalinux-9.8"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.0.31-9.el9_8.1.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2025-52194"
+  ],
+  "published": "2026-10-01T14:44:28Z",
+  "modified": "2026-10-01T14:44:28Z",
+  "details": "- CVE-2025-52194: undefined float-to-int conversion in ircam_read_header()",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/tuxcare9.8esu/CLSA-2026-1790865850.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-52194",
+      "type": "ADVISORY"
+    }
+  ]
+}

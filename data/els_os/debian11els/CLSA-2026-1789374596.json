@@ -1,0 +1,153 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1789374596",
+  "summary": "Fix CVE(s): CVE-2026-59999, CVE-2026-60000, CVE-2026-73282",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Debian:11",
+        "name": "openssh-client",
+        "purl": "pkg:deb/tuxcare/openssh-client?distro=debian-11"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:8.4p1-5+deb11u7+tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Debian:11",
+        "name": "openssh-server",
+        "purl": "pkg:deb/tuxcare/openssh-server?distro=debian-11"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:8.4p1-5+deb11u7+tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Debian:11",
+        "name": "openssh-sftp-server",
+        "purl": "pkg:deb/tuxcare/openssh-sftp-server?distro=debian-11"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:8.4p1-5+deb11u7+tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Debian:11",
+        "name": "openssh-tests",
+        "purl": "pkg:deb/tuxcare/openssh-tests?distro=debian-11"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:8.4p1-5+deb11u7+tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Debian:11",
+        "name": "ssh",
+        "purl": "pkg:deb/tuxcare/ssh?distro=debian-11"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:8.4p1-5+deb11u7+tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Debian:11",
+        "name": "ssh-askpass-gnome",
+        "purl": "pkg:deb/tuxcare/ssh-askpass-gnome?distro=debian-11"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:8.4p1-5+deb11u7+tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-59999",
+    "CVE-2026-60000",
+    "CVE-2026-73282"
+  ],
+  "published": "2026-09-14T08:33:10Z",
+  "modified": "2026-09-14T08:33:10Z",
+  "details": "   * SECURITY UPDATE: use-after-free in the ssh client when a remote forwarding\n     is added over the multiplexing socket\n     - debian/patches/CVE-2026-73282.patch: register a heap-allocated index\n       instead of a pointer into options.remote_forwards[] as the pending\n       remote-forward confirmation context in ssh.c, and re-resolve the array\n       element in ssh_confirm_remote_forward().\n     - CVE-2026-73282",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/debian11els/CLSA-2026-1789374596.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59999",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-60000",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-73282",
+      "type": "ADVISORY"
+    }
+  ]
+}

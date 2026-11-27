@@ -1,0 +1,123 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1792485017",
+  "summary": "Fix CVE(s): CVE-2025-68431",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Debian:11",
+        "name": "heif-gdk-pixbuf",
+        "purl": "pkg:deb/tuxcare/heif-gdk-pixbuf?distro=debian-11"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.11.0-1+deb11u2+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Debian:11",
+        "name": "heif-thumbnailer",
+        "purl": "pkg:deb/tuxcare/heif-thumbnailer?distro=debian-11"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.11.0-1+deb11u2+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Debian:11",
+        "name": "libheif-dev",
+        "purl": "pkg:deb/tuxcare/libheif-dev?distro=debian-11"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.11.0-1+deb11u2+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Debian:11",
+        "name": "libheif-examples",
+        "purl": "pkg:deb/tuxcare/libheif-examples?distro=debian-11"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.11.0-1+deb11u2+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Debian:11",
+        "name": "libheif1",
+        "purl": "pkg:deb/tuxcare/libheif1?distro=debian-11"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.11.0-1+deb11u2+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2025-68431"
+  ],
+  "published": "2026-10-20T08:30:27Z",
+  "modified": "2026-10-20T08:30:27Z",
+  "details": "   * SECURITY UPDATE: heap buffer over-read in HeifPixelImage::overlay()\n     - debian/patches/CVE-2025-68431.patch: backport upstream 85e21ad\n       (clip right/bottom border with int64 before left/top) and b8c12a7\n       (fix copy width for overlays placed past the left border) in\n       heif_image.cc and heif_context.cc\n     - CVE-2025-68431",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/debian11els/CLSA-2026-1792485017.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-68431",
+      "type": "ADVISORY"
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1790933091",
+  "summary": "gawk: Fix of CVE-2023-4156",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.8",
+        "name": "gawk",
+        "purl": "pkg:rpm/tuxcare/gawk?distro=almalinux-9.8"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.1.0-6.el9_8.1.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.8",
+        "name": "gawk-all-langpacks",
+        "purl": "pkg:rpm/tuxcare/gawk-all-langpacks?distro=almalinux-9.8"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.1.0-6.el9_8.1.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.8",
+        "name": "gawk-devel",
+        "purl": "pkg:rpm/tuxcare/gawk-devel?distro=almalinux-9.8"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.1.0-6.el9_8.1.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.8",
+        "name": "gawk-doc",
+        "purl": "pkg:rpm/tuxcare/gawk-doc?distro=almalinux-9.8"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.1.0-6.el9_8.1.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2023-4156",
+    "CVE-2026-40468",
+    "CVE-2026-40469"
+  ],
+  "published": "2026-10-02T09:25:19Z",
+  "modified": "2026-10-02T09:25:19Z",
+  "details": "- Rebase to 5.1.0-6.el9_8.1; vendor Patch005/006 carry the upstream fixes for\n  CVE-2026-40468 and CVE-2026-40469 (our patches dropped)\n- CVE-2023-4156: fix heap out-of-bounds read in format_tree() in builtin.c",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/tuxcare9.8esu/CLSA-2026-1790933091.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-4156",
+      "type": "ADVISORY"
+    }
+  ]
+}

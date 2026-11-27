@@ -1,0 +1,138 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1789202428",
+  "summary": "Fix CVE(s): CVE-2018-1000500, CVE-2021-42383, CVE-2022-28391, CVE-2023-39810",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Debian:11",
+        "name": "busybox",
+        "purl": "pkg:deb/tuxcare/busybox?distro=debian-11"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:1.30.1-6+deb11u1+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Debian:11",
+        "name": "busybox-static",
+        "purl": "pkg:deb/tuxcare/busybox-static?distro=debian-11"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:1.30.1-6+deb11u1+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Debian:11",
+        "name": "busybox-syslogd",
+        "purl": "pkg:deb/tuxcare/busybox-syslogd?distro=debian-11"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:1.30.1-6+deb11u1+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Debian:11",
+        "name": "udhcpc",
+        "purl": "pkg:deb/tuxcare/udhcpc?distro=debian-11"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:1.30.1-6+deb11u1+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Debian:11",
+        "name": "udhcpd",
+        "purl": "pkg:deb/tuxcare/udhcpd?distro=debian-11"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:1.30.1-6+deb11u1+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2018-1000500",
+    "CVE-2021-42383",
+    "CVE-2022-28391",
+    "CVE-2023-39810"
+  ],
+  "published": "2026-09-12T08:40:44Z",
+  "modified": "2026-09-12T08:40:44Z",
+  "details": "   * SECURITY UPDATE\n     - CVE-2018-1000500: missing TLS certificate verification in\n       spawn_https_helper_openssl()\n     - CVE-2021-42383: use-after-free in evaluate() on field concatenation\n     - CVE-2022-28391: terminal escape injection in sockaddr2str() and\n       nslookup parse_reply()\n     - CVE-2023-39810: directory traversal in data_extract_all()\n   * debian/config/pkg/{deb,static,udeb}: FEATURE_PATH_TRAVERSAL_PROTECTION=y,\n     the CVE-2023-39810 guard is compiled out without it\n   * debian/testsuite-linux.diff: disable the cpio uid/gid test, it is\n     environment dependent and fails the same way on an unpatched tree",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/debian11els/CLSA-2026-1789202428.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2018-1000500",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-42383",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2022-28391",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-39810",
+      "type": "ADVISORY"
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1795541566",
+  "summary": "libslirp: Fix of CVE-2026-95508",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.8",
+        "name": "libslirp",
+        "purl": "pkg:rpm/tuxcare/libslirp?distro=almalinux-9.8"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.4.0-8.el9_8.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.8",
+        "name": "libslirp-devel",
+        "purl": "pkg:rpm/tuxcare/libslirp-devel?distro=almalinux-9.8"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.4.0-8.el9_8.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-95508"
+  ],
+  "published": "2026-11-24T17:32:56Z",
+  "modified": "2026-11-24T17:32:56Z",
+  "details": "- CVE-2026-95508: fix heap overflow in DHCPv6 and TFTP replies on small MTU",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/tuxcare9.8esu/CLSA-2026-1795541566.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-95508",
+      "type": "ADVISORY"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1793163354",
+  "summary": "Fix CVE(s): CVE-2026-115207",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Debian:11",
+        "name": "patch",
+        "purl": "pkg:deb/tuxcare/patch?distro=debian-11"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.7.6-7+tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-115207"
+  ],
+  "published": "2026-10-28T04:56:04Z",
+  "modified": "2026-10-28T04:56:04Z",
+  "details": "   * SECURITY UPDATE: Out-of-tree file creation on reverse-applied deletion\n     - debian/patches/CVE-2026-115207.patch: in intuit_diff_type(),\n       src/pch.c, reject an unsafe (absolute or ../) file name before\n       offering to reverse-apply a patch that deletes a missing file, so\n       patch no longer creates files outside the working directory\n     - CVE-2026-115207",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/debian11els/CLSA-2026-1793163354.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-115207",
+      "type": "ADVISORY"
+    }
+  ]
+}

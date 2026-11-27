@@ -1,0 +1,87 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1791460196",
+  "summary": "expat: Fix of 2 CVEs",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.8",
+        "name": "expat",
+        "purl": "pkg:rpm/tuxcare/expat?distro=almalinux-9.8"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.5.0-6.el9_8.5.tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.8",
+        "name": "expat-devel",
+        "purl": "pkg:rpm/tuxcare/expat-devel?distro=almalinux-9.8"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.5.0-6.el9_8.5.tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.8",
+        "name": "expat-static",
+        "purl": "pkg:rpm/tuxcare/expat-static?distro=almalinux-9.8"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.5.0-6.el9_8.5.tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-41080"
+  ],
+  "published": "2026-10-08T18:59:42Z",
+  "modified": "2026-10-08T18:59:42Z",
+  "details": "- CVE-2026-41080: seed the hash flooding protection with a full 16-byte\n  SipHash key and 16 bytes of entropy instead of a single unsigned long,\n  and add XML_SetHashSalt16Bytes() so callers can supply a 16-byte salt",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/tuxcare9.8esu/CLSA-2026-1791460196.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-41080",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-56412",
+      "type": "ADVISORY"
+    }
+  ]
+}

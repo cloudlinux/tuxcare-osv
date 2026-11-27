@@ -1,0 +1,248 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1790700282",
+  "summary": "ghostscript: Fix of 10 CVEs",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.8",
+        "name": "ghostscript",
+        "purl": "pkg:rpm/tuxcare/ghostscript?distro=almalinux-9.8"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "9.54.0-19.el9_6.tuxcare.els6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.8",
+        "name": "ghostscript-doc",
+        "purl": "pkg:rpm/tuxcare/ghostscript-doc?distro=almalinux-9.8"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "9.54.0-19.el9_6.tuxcare.els6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.8",
+        "name": "ghostscript-gtk",
+        "purl": "pkg:rpm/tuxcare/ghostscript-gtk?distro=almalinux-9.8"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "9.54.0-19.el9_6.tuxcare.els6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.8",
+        "name": "ghostscript-tools-dvipdf",
+        "purl": "pkg:rpm/tuxcare/ghostscript-tools-dvipdf?distro=almalinux-9.8"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "9.54.0-19.el9_6.tuxcare.els6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.8",
+        "name": "ghostscript-tools-fonts",
+        "purl": "pkg:rpm/tuxcare/ghostscript-tools-fonts?distro=almalinux-9.8"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "9.54.0-19.el9_6.tuxcare.els6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.8",
+        "name": "ghostscript-tools-printing",
+        "purl": "pkg:rpm/tuxcare/ghostscript-tools-printing?distro=almalinux-9.8"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "9.54.0-19.el9_6.tuxcare.els6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.8",
+        "name": "ghostscript-x11",
+        "purl": "pkg:rpm/tuxcare/ghostscript-x11?distro=almalinux-9.8"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "9.54.0-19.el9_6.tuxcare.els6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.8",
+        "name": "libgs",
+        "purl": "pkg:rpm/tuxcare/libgs?distro=almalinux-9.8"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "9.54.0-19.el9_6.tuxcare.els6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.8",
+        "name": "libgs-devel",
+        "purl": "pkg:rpm/tuxcare/libgs-devel?distro=almalinux-9.8"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "9.54.0-19.el9_6.tuxcare.els6"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2025-27830",
+    "CVE-2025-27831",
+    "CVE-2025-27835",
+    "CVE-2025-27836",
+    "CVE-2024-29508",
+    "CVE-2025-48708",
+    "CVE-2024-46955",
+    "CVE-2025-59798",
+    "CVE-2025-59799",
+    "CVE-2023-52722"
+  ],
+  "published": "2026-09-29T16:44:59Z",
+  "modified": "2026-09-29T16:44:59Z",
+  "details": "- Add Alma9_8ESU; carry the tuxcare9.6esu CVE fixes\n- CVE-2025-27830: fix potential buffer overflow with DollarBlend in font\n  serialization\n- CVE-2025-27831: prevent Unicode decoding overrun in txtwrite/docxwrite devices\n- CVE-2025-27835: fix confusion between bytes and shorts in glyph to Unicode\n  conversion\n- CVE-2025-27836: fix potential print buffer overflow in BJ10V device\n- CVE-2024-29508: fix heap-based pointer disclosure in pdf_base_font_alloc\n- CVE-2025-48708: fix argument sanitization to redact values supplied with '#'\n  separator\n- CVE-2024-46955: out-of-bounds read when reading a color in Indexed color space\n- CVE-2025-59798: buffer overrun in pdf_write_cmap in the pdfwrite device\n- CVE-2025-59799: stack buffer overflow in pdfmark_coerce_dest in the pdfwrite\n  device\n- CVE-2023-52722: reject non-standard eexec seeds in SAFER mode (psi/zmisc1.c)",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/tuxcare9.8esu/CLSA-2026-1790700282.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-52722",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-29508",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-46955",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-27830",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-27831",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-27835",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-27836",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-48708",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-59798",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-59799",
+      "type": "ADVISORY"
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1792504436",
+  "summary": "libvpx: Fix of 2 CVEs",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.8",
+        "name": "libvpx",
+        "purl": "pkg:rpm/tuxcare/libvpx?distro=almalinux-9.8"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.9.0-10.el9_8.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.8",
+        "name": "libvpx-devel",
+        "purl": "pkg:rpm/tuxcare/libvpx-devel?distro=almalinux-9.8"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.9.0-10.el9_8.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.8",
+        "name": "libvpx-utils",
+        "purl": "pkg:rpm/tuxcare/libvpx-utils?distro=almalinux-9.8"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.9.0-10.el9_8.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2023-44488",
+    "CVE-2023-6349"
+  ],
+  "published": "2026-10-20T20:53:21Z",
+  "modified": "2026-10-20T20:53:21Z",
+  "details": "- CVE-2023-44488: crash in vp9_change_config() on smaller width, bigger size\n- CVE-2023-6349: heap overflow in vp9_change_config() on a larger frame size",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/tuxcare9.8esu/CLSA-2026-1792504436.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-44488",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-6349",
+      "type": "ADVISORY"
+    }
+  ]
+}

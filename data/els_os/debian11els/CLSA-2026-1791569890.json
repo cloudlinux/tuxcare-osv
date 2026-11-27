@@ -1,0 +1,63 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1791569890",
+  "summary": "Fix CVE(s): CVE-2026-96512",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Debian:11",
+        "name": "sudo",
+        "purl": "pkg:deb/tuxcare/sudo?distro=debian-11"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.9.5p2-3+deb11u4+tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Debian:11",
+        "name": "sudo-ldap",
+        "purl": "pkg:deb/tuxcare/sudo-ldap?distro=debian-11"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.9.5p2-3+deb11u4+tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-96512"
+  ],
+  "published": "2026-10-09T18:18:22Z",
+  "modified": "2026-10-09T18:18:22Z",
+  "details": "   * SECURITY UPDATE: TZ environment variable allows bypass of NOTBEFORE/NOTAFTER time-based authorization\n     - debian/patches/CVE-2026-96512.patch: TZ environment variable allows bypass of NOTBEFORE/NOTAFTER time-based authorization\n     - CVE-2026-96512",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/debian11els/CLSA-2026-1791569890.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-96512",
+      "type": "ADVISORY"
+    }
+  ]
+}

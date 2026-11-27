@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1795629694",
+  "summary": "vsftpd: Fix of CVE-2026-119568",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.8",
+        "name": "vsftpd",
+        "purl": "pkg:rpm/tuxcare/vsftpd?distro=almalinux-9.8"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.0.5-8.el9.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-119568"
+  ],
+  "published": "2026-11-25T18:01:45Z",
+  "modified": "2026-11-25T18:01:45Z",
+  "details": "- CVE-2026-119568: require_ssl_reuse bypass in ssl_accept() via foreign ticket",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/tuxcare9.8esu/CLSA-2026-1795629694.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-119568",
+      "type": "ADVISORY"
+    }
+  ]
+}

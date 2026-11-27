@@ -1,0 +1,163 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1790852768",
+  "summary": "Fix CVE(s): CVE-2026-94054",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Debian:11",
+        "name": "exim4",
+        "purl": "pkg:deb/tuxcare/exim4?distro=debian-11"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.94.2-7+deb11u6+tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Debian:11",
+        "name": "exim4-base",
+        "purl": "pkg:deb/tuxcare/exim4-base?distro=debian-11"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.94.2-7+deb11u6+tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Debian:11",
+        "name": "exim4-config",
+        "purl": "pkg:deb/tuxcare/exim4-config?distro=debian-11"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.94.2-7+deb11u6+tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Debian:11",
+        "name": "exim4-daemon-heavy",
+        "purl": "pkg:deb/tuxcare/exim4-daemon-heavy?distro=debian-11"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.94.2-7+deb11u6+tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Debian:11",
+        "name": "exim4-daemon-light",
+        "purl": "pkg:deb/tuxcare/exim4-daemon-light?distro=debian-11"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.94.2-7+deb11u6+tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Debian:11",
+        "name": "exim4-dev",
+        "purl": "pkg:deb/tuxcare/exim4-dev?distro=debian-11"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.94.2-7+deb11u6+tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Debian:11",
+        "name": "eximon4",
+        "purl": "pkg:deb/tuxcare/eximon4?distro=debian-11"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.94.2-7+deb11u6+tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-94054"
+  ],
+  "published": "2026-10-01T11:06:23Z",
+  "modified": "2026-10-01T11:06:23Z",
+  "details": "   * SECURITY UPDATE: heap out-of-bounds read and NUL write in Proxy\n     Protocol v1 header parsing\n     - debian/patches/CVE-2026-94054.patch: size the heap copy of the\n       received PROXY v1 line by its string length instead of by the\n       number of bytes read, so the search for the terminating CR and the\n       NUL written there stay inside the copy\n     - CVE-2026-94054",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/debian11els/CLSA-2026-1790852768.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-94054",
+      "type": "ADVISORY"
+    }
+  ]
+}

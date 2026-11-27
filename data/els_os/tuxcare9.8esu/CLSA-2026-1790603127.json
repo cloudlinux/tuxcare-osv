@@ -1,0 +1,83 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1790603127",
+  "summary": "libexif: Fix of CVE-2026-32775",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.8",
+        "name": "libexif",
+        "purl": "pkg:rpm/tuxcare/libexif?distro=almalinux-9.8"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.6.22-6.el9_8.1.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.8",
+        "name": "libexif-devel",
+        "purl": "pkg:rpm/tuxcare/libexif-devel?distro=almalinux-9.8"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.6.22-6.el9_8.1.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.8",
+        "name": "libexif-doc",
+        "purl": "pkg:rpm/tuxcare/libexif-doc?distro=almalinux-9.8"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.6.22-6.el9_8.1.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-32775"
+  ],
+  "published": "2026-09-28T15:55:39Z",
+  "modified": "2026-09-28T15:55:39Z",
+  "details": "- CVE-2026-32775: buffer overwrite via underflow in exif_mnote_data_get_value()",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/tuxcare9.8esu/CLSA-2026-1790603127.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-32775",
+      "type": "ADVISORY"
+    }
+  ]
+}

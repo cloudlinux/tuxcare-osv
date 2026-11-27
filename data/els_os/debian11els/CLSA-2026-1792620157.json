@@ -1,0 +1,123 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1792620157",
+  "summary": "Fix CVE(s): CVE-2026-103658",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Debian:11",
+        "name": "aspell",
+        "purl": "pkg:deb/tuxcare/aspell?distro=debian-11"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.60.8-3+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Debian:11",
+        "name": "aspell-doc",
+        "purl": "pkg:deb/tuxcare/aspell-doc?distro=debian-11"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.60.8-3+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Debian:11",
+        "name": "libaspell-dev",
+        "purl": "pkg:deb/tuxcare/libaspell-dev?distro=debian-11"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.60.8-3+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Debian:11",
+        "name": "libaspell15",
+        "purl": "pkg:deb/tuxcare/libaspell15?distro=debian-11"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.60.8-3+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Debian:11",
+        "name": "libpspell-dev",
+        "purl": "pkg:deb/tuxcare/libpspell-dev?distro=debian-11"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.60.8-3+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-103658"
+  ],
+  "published": "2026-10-21T22:02:48Z",
+  "modified": "2026-10-21T22:02:48Z",
+  "details": "   * SECURITY UPDATE: heap buffer overflow in the read-only dictionary\n     loader via an oversized .rws header size field\n     - debian/patches/CVE-2026-103658.patch: compare the requested size\n       as size_t in String::reserve() in common/string.hpp\n     - CVE-2026-103658",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/debian11els/CLSA-2026-1792620157.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-103658",
+      "type": "ADVISORY"
+    }
+  ]
+}

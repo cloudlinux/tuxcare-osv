@@ -1,0 +1,123 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1794775449",
+  "summary": "podman: Fix of CVE-2026-94603",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.8",
+        "name": "podman",
+        "purl": "pkg:rpm/tuxcare/podman?distro=almalinux-9.8"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "6:5.8.2-8.el9_8.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.8",
+        "name": "podman-docker",
+        "purl": "pkg:rpm/tuxcare/podman-docker?distro=almalinux-9.8"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "6:5.8.2-8.el9_8.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.8",
+        "name": "podman-plugins",
+        "purl": "pkg:rpm/tuxcare/podman-plugins?distro=almalinux-9.8"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "6:5.8.2-8.el9_8.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.8",
+        "name": "podman-remote",
+        "purl": "pkg:rpm/tuxcare/podman-remote?distro=almalinux-9.8"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "6:5.8.2-8.el9_8.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.8",
+        "name": "podman-tests",
+        "purl": "pkg:rpm/tuxcare/podman-tests?distro=almalinux-9.8"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "6:5.8.2-8.el9_8.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-94603"
+  ],
+  "published": "2026-11-15T20:44:20Z",
+  "modified": "2026-11-15T20:44:20Z",
+  "details": "- CVE-2026-94603: 'podman run' on a checkpoint image let the checkpoint\n  override all container security settings, including options given on\n  the command line",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/tuxcare9.8esu/CLSA-2026-1794775449.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-94603",
+      "type": "ADVISORY"
+    }
+  ]
+}

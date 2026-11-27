@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1793446994",
+  "summary": "Fix CVE(s): CVE-2026-114605",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Debian:11",
+        "name": "python3-dnspython",
+        "purl": "pkg:deb/tuxcare/python3-dnspython?distro=debian-11"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.0.0-1+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-114605"
+  ],
+  "published": "2026-10-31T11:43:25Z",
+  "modified": "2026-10-31T11:43:25Z",
+  "details": "   * SECURITY UPDATE: unbounded compression pointer chain in DNS name decompression\n     - debian/patches/CVE-2026-114605.patch: unbounded compression pointer chain in DNS name decompression\n     - CVE-2026-114605",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/debian11els/CLSA-2026-1793446994.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-114605",
+      "type": "ADVISORY"
+    }
+  ]
+}

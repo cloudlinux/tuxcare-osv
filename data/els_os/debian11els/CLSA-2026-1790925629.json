@@ -1,0 +1,143 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1790925629",
+  "summary": "Fix CVE(s): CVE-2026-88806",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Debian:11",
+        "name": "libx11-6",
+        "purl": "pkg:deb/tuxcare/libx11-6?distro=debian-11"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:1.7.2-1+deb11u2+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Debian:11",
+        "name": "libx11-data",
+        "purl": "pkg:deb/tuxcare/libx11-data?distro=debian-11"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:1.7.2-1+deb11u2+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Debian:11",
+        "name": "libx11-dev",
+        "purl": "pkg:deb/tuxcare/libx11-dev?distro=debian-11"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:1.7.2-1+deb11u2+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Debian:11",
+        "name": "libx11-doc",
+        "purl": "pkg:deb/tuxcare/libx11-doc?distro=debian-11"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:1.7.2-1+deb11u2+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Debian:11",
+        "name": "libx11-xcb-dev",
+        "purl": "pkg:deb/tuxcare/libx11-xcb-dev?distro=debian-11"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:1.7.2-1+deb11u2+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Debian:11",
+        "name": "libx11-xcb1",
+        "purl": "pkg:deb/tuxcare/libx11-xcb1?distro=debian-11"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2:1.7.2-1+deb11u2+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-88806"
+  ],
+  "published": "2026-10-02T07:20:40Z",
+  "modified": "2026-10-02T07:20:40Z",
+  "details": "   * SECURITY UPDATE: out-of-bounds write in XkbGetMap reply handling\n     - debian/patches/CVE-2026-88806.patch: check that firstKeyAct +\n       nKeyActs does not exceed max_key_code + 1 in _XkbReadKeyActions()\n       before writing into key_sym_map\n     - CVE-2026-88806",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/debian11els/CLSA-2026-1790925629.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-88806",
+      "type": "ADVISORY"
+    }
+  ]
+}

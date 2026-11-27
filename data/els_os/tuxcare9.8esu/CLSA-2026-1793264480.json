@@ -1,0 +1,140 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1793264480",
+  "summary": "flatpak: Fix of 2 CVEs",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.8",
+        "name": "flatpak",
+        "purl": "pkg:rpm/tuxcare/flatpak?distro=almalinux-9.8"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.12.9-4.el9_8.6.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.8",
+        "name": "flatpak-devel",
+        "purl": "pkg:rpm/tuxcare/flatpak-devel?distro=almalinux-9.8"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.12.9-4.el9_8.6.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.8",
+        "name": "flatpak-libs",
+        "purl": "pkg:rpm/tuxcare/flatpak-libs?distro=almalinux-9.8"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.12.9-4.el9_8.6.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.8",
+        "name": "flatpak-selinux",
+        "purl": "pkg:rpm/tuxcare/flatpak-selinux?distro=almalinux-9.8"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.12.9-4.el9_8.6.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.8",
+        "name": "flatpak-session-helper",
+        "purl": "pkg:rpm/tuxcare/flatpak-session-helper?distro=almalinux-9.8"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.12.9-4.el9_8.6.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.8",
+        "name": "flatpak-tests",
+        "purl": "pkg:rpm/tuxcare/flatpak-tests?distro=almalinux-9.8"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.12.9-4.el9_8.6.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-97023",
+    "CVE-2026-97024"
+  ],
+  "published": "2026-10-29T09:01:28Z",
+  "modified": "2026-10-29T09:01:28Z",
+  "details": "- Rebase onto the vendor 1.12.9-4.el9_8.6 sources, which avoid path traversal deletion via deploy export/bin (CVE-2026-97023) and use fd-relative operations for files/etc during runtime deploy (CVE-2026-97024)\n- Retained the TuxCare hardening of regenerate_ld_cache() in common/flatpak-run.c and of flatpak_switch_symlink_and_remove() in common/flatpak-utils.c, which the vendor sources still lack\n- Retained the retry of openat2() on EAGAIN in libglnx glnx_chaseat(), which the vendor's chase patches leave out",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/tuxcare9.8esu/CLSA-2026-1793264480.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

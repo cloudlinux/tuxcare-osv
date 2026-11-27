@@ -1,0 +1,173 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1793907840",
+  "summary": "Fix CVE(s): CVE-2026-49014, CVE-2026-8086, CVE-2026-8087",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Debian:11",
+        "name": "gdal-bin",
+        "purl": "pkg:deb/tuxcare/gdal-bin?distro=debian-11"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.2.2+dfsg-2+deb11u2+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Debian:11",
+        "name": "gdal-data",
+        "purl": "pkg:deb/tuxcare/gdal-data?distro=debian-11"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.2.2+dfsg-2+deb11u2+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Debian:11",
+        "name": "libgdal-dev",
+        "purl": "pkg:deb/tuxcare/libgdal-dev?distro=debian-11"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.2.2+dfsg-2+deb11u2+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Debian:11",
+        "name": "libgdal-perl",
+        "purl": "pkg:deb/tuxcare/libgdal-perl?distro=debian-11"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.2.2+dfsg-2+deb11u2+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Debian:11",
+        "name": "libgdal-perl-doc",
+        "purl": "pkg:deb/tuxcare/libgdal-perl-doc?distro=debian-11"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.2.2+dfsg-2+deb11u2+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Debian:11",
+        "name": "libgdal28",
+        "purl": "pkg:deb/tuxcare/libgdal28?distro=debian-11"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.2.2+dfsg-2+deb11u2+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Debian:11",
+        "name": "python3-gdal",
+        "purl": "pkg:deb/tuxcare/python3-gdal?distro=debian-11"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.2.2+dfsg-2+deb11u2+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-49014",
+    "CVE-2026-8086",
+    "CVE-2026-8087"
+  ],
+  "published": "2026-11-05T19:44:22Z",
+  "modified": "2026-11-05T19:44:22Z",
+  "details": "   * SECURITY UPDATE: stack-based buffer overflow in netCDF driver scanForGeometryContainers\n     - debian/patches/CVE-2026-49014.patch: stack-based buffer overflow in netCDF driver scanForGeometryContainers\n     - CVE-2026-49014\n   * SECURITY UPDATE: heap-based buffer overflow in HDF4-EOS SWnentries\n     - debian/patches/CVE-2026-8086.patch: heap-based buffer overflow in HDF4-EOS SWnentries\n     - CVE-2026-8086\n   * SECURITY UPDATE: heap-based buffer overflow in HDF4-EOS GDnentries\n     - debian/patches/CVE-2026-8087.patch: heap-based buffer overflow in HDF4-EOS GDnentries\n     - CVE-2026-8087",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/debian11els/CLSA-2026-1793907840.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-49014",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-8086",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-8087",
+      "type": "ADVISORY"
+    }
+  ]
+}

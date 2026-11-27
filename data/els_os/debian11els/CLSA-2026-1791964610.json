@@ -1,0 +1,103 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1791964610",
+  "summary": "Fix CVE(s): CVE-2026-72712",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Debian:11",
+        "name": "ncat",
+        "purl": "pkg:deb/tuxcare/ncat?distro=debian-11"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7.91+dfsg1+really7.80+dfsg1-2+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Debian:11",
+        "name": "ndiff",
+        "purl": "pkg:deb/tuxcare/ndiff?distro=debian-11"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7.91+dfsg1+really7.80+dfsg1-2+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Debian:11",
+        "name": "nmap",
+        "purl": "pkg:deb/tuxcare/nmap?distro=debian-11"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7.91+dfsg1+really7.80+dfsg1-2+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Debian:11",
+        "name": "nmap-common",
+        "purl": "pkg:deb/tuxcare/nmap-common?distro=debian-11"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7.91+dfsg1+really7.80+dfsg1-2+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-72712"
+  ],
+  "published": "2026-10-14T07:57:01Z",
+  "modified": "2026-10-14T07:57:01Z",
+  "details": "   * SECURITY UPDATE: Out-of-memory in NSE packet option parsing\n     - debian/patches/CVE-2026-72712.patch: stop option parsing in\n       Packet:parse_options() when a packet option reports a zero length\n     - CVE-2026-72712",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/debian11els/CLSA-2026-1791964610.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-72712",
+      "type": "ADVISORY"
+    }
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1790871595",
+  "summary": "curl: Fix of CVE-2026-18924",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.8",
+        "name": "curl",
+        "purl": "pkg:rpm/tuxcare/curl?distro=almalinux-9.8"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7.76.1-40.el9_8.7.tuxcare.els4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.8",
+        "name": "curl-minimal",
+        "purl": "pkg:rpm/tuxcare/curl-minimal?distro=almalinux-9.8"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7.76.1-40.el9_8.7.tuxcare.els4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.8",
+        "name": "libcurl",
+        "purl": "pkg:rpm/tuxcare/libcurl?distro=almalinux-9.8"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7.76.1-40.el9_8.7.tuxcare.els4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.8",
+        "name": "libcurl-devel",
+        "purl": "pkg:rpm/tuxcare/libcurl-devel?distro=almalinux-9.8"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7.76.1-40.el9_8.7.tuxcare.els4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.8",
+        "name": "libcurl-minimal",
+        "purl": "pkg:rpm/tuxcare/libcurl-minimal?distro=almalinux-9.8"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7.76.1-40.el9_8.7.tuxcare.els4"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-18924"
+  ],
+  "published": "2026-10-01T16:20:07Z",
+  "modified": "2026-10-01T16:20:07Z",
+  "details": "- CVE-2026-18924: link HTTP/2 server-push transfers to the parent handle's\n  share in duphandle() so the pushed handle does not outlive shared state",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/tuxcare9.8esu/CLSA-2026-1790871595.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-18924",
+      "type": "ADVISORY"
+    }
+  ]
+}

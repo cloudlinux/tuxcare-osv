@@ -1,0 +1,158 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1793163165",
+  "summary": "Fix CVE(s): CVE-2026-109125, CVE-2026-35501, CVE-2026-50106, CVE-2026-96405",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Debian:11",
+        "name": "libunbound-dev",
+        "purl": "pkg:deb/tuxcare/libunbound-dev?distro=debian-11"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.13.1-1+deb11u7+tuxcare.els6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Debian:11",
+        "name": "libunbound8",
+        "purl": "pkg:deb/tuxcare/libunbound8?distro=debian-11"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.13.1-1+deb11u7+tuxcare.els6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Debian:11",
+        "name": "python3-unbound",
+        "purl": "pkg:deb/tuxcare/python3-unbound?distro=debian-11"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.13.1-1+deb11u7+tuxcare.els6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Debian:11",
+        "name": "unbound",
+        "purl": "pkg:deb/tuxcare/unbound?distro=debian-11"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.13.1-1+deb11u7+tuxcare.els6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Debian:11",
+        "name": "unbound-anchor",
+        "purl": "pkg:deb/tuxcare/unbound-anchor?distro=debian-11"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.13.1-1+deb11u7+tuxcare.els6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Debian:11",
+        "name": "unbound-host",
+        "purl": "pkg:deb/tuxcare/unbound-host?distro=debian-11"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.13.1-1+deb11u7+tuxcare.els6"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-109125",
+    "CVE-2026-35501",
+    "CVE-2026-50106",
+    "CVE-2026-96405"
+  ],
+  "published": "2026-10-28T04:52:59Z",
+  "modified": "2026-10-28T04:52:59Z",
+  "details": "   * SECURITY UPDATE: clear pending queries on a port when the unwanted-reply threshold is hit\n     - debian/patches/CVE-2026-109125.patch: clear pending queries on a port when the unwanted-reply threshold is hit\n     - CVE-2026-109125\n   * SECURITY UPDATE: treat an unsigned parent denial of an island trust anchor as bogus\n     - debian/patches/CVE-2026-50106.patch: treat an unsigned parent denial of an island trust anchor as bogus\n     - CVE-2026-50106\n   * SECURITY UPDATE: fix NSEC-not-at-apex parent-side key lookup for island trust anchors\n     - debian/patches/CVE-2026-35501.patch: fix NSEC-not-at-apex parent-side key lookup for island trust anchors\n     - CVE-2026-35501\n   * SECURITY UPDATE: add a per-packet budget for name decompression pointers\n     - debian/patches/CVE-2026-96405.patch: add a per-packet budget for name decompression pointers\n     - CVE-2026-96405",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/debian11els/CLSA-2026-1793163165.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-109125",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-35501",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-50106",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-96405",
+      "type": "ADVISORY"
+    }
+  ]
+}

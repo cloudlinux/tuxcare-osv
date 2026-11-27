@@ -1,0 +1,163 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1789567019",
+  "summary": "Fix CVE(s): CVE-2023-35945",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Debian:11",
+        "name": "libnghttp2-14",
+        "purl": "pkg:deb/tuxcare/libnghttp2-14?distro=debian-11"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.43.0-1+deb11u3+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Debian:11",
+        "name": "libnghttp2-dev",
+        "purl": "pkg:deb/tuxcare/libnghttp2-dev?distro=debian-11"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.43.0-1+deb11u3+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Debian:11",
+        "name": "libnghttp2-doc",
+        "purl": "pkg:deb/tuxcare/libnghttp2-doc?distro=debian-11"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.43.0-1+deb11u3+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Debian:11",
+        "name": "nghttp2",
+        "purl": "pkg:deb/tuxcare/nghttp2?distro=debian-11"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.43.0-1+deb11u3+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Debian:11",
+        "name": "nghttp2-client",
+        "purl": "pkg:deb/tuxcare/nghttp2-client?distro=debian-11"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.43.0-1+deb11u3+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Debian:11",
+        "name": "nghttp2-proxy",
+        "purl": "pkg:deb/tuxcare/nghttp2-proxy?distro=debian-11"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.43.0-1+deb11u3+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Debian:11",
+        "name": "nghttp2-server",
+        "purl": "pkg:deb/tuxcare/nghttp2-server?distro=debian-11"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.43.0-1+deb11u3+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2023-35945"
+  ],
+  "published": "2026-09-16T13:57:10Z",
+  "modified": "2026-09-16T13:57:10Z",
+  "details": "   * SECURITY UPDATE: Memory leak when a HEADERS or PUSH_PROMISE frame cannot be\n     sent and the stream close callback fails fatally\n     - debian/patches/CVE-2023-35945.patch: free the outbound item and reset the\n       active outbound item before returning the fatal error from\n       nghttp2_session_close_stream in lib/nghttp2_session.c, add regression test\n       in tests/nghttp2_session_test.c\n     - CVE-2023-35945",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/debian11els/CLSA-2026-1789567019.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-35945",
+      "type": "ADVISORY"
+    }
+  ]
+}

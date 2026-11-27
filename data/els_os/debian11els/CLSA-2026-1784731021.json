@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1784731021",
+  "summary": "Update of els-os-release",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Debian:11",
+        "name": "els-os-release",
+        "purl": "pkg:deb/tuxcare/els-os-release?distro=debian-11"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.0.0-2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [],
+  "published": "2026-08-18T10:10:55Z",
+  "modified": "2026-08-18T10:10:55Z",
+  "details": "   * Move gpg key and repo installation from debian/install to postinst\n   * Add support for multiple deb platforms",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/debian11els/CLSA-2026-1784731021.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

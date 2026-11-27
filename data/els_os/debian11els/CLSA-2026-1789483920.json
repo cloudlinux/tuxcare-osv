@@ -1,0 +1,83 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1789483920",
+  "summary": "Fix CVE(s): CVE-2025-25724",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Debian:11",
+        "name": "libarchive-dev",
+        "purl": "pkg:deb/tuxcare/libarchive-dev?distro=debian-11"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.4.3-2+deb11u5+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Debian:11",
+        "name": "libarchive-tools",
+        "purl": "pkg:deb/tuxcare/libarchive-tools?distro=debian-11"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.4.3-2+deb11u5+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Debian:11",
+        "name": "libarchive13",
+        "purl": "pkg:deb/tuxcare/libarchive13?distro=debian-11"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.4.3-2+deb11u5+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2025-25724"
+  ],
+  "published": "2026-09-15T14:52:11Z",
+  "modified": "2026-09-15T14:52:11Z",
+  "details": "   * SECURITY UPDATE: Use of undefined buffer content in bsdtar verbose listing\n     - debian/patches/CVE-2025-25724.patch: check the strftime return value and\n       the localtime result in list_item_verbose in tar/util.c, printing\n       \"-- -- ----\" instead of undefined buffer content\n     - CVE-2025-25724",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/debian11els/CLSA-2026-1789483920.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-25724",
+      "type": "ADVISORY"
+    }
+  ]
+}

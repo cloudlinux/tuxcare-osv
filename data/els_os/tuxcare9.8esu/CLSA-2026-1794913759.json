@@ -1,0 +1,63 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1794913759",
+  "summary": "libdvdnav: Fix of CVE-2026-112057",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.8",
+        "name": "libdvdnav",
+        "purl": "pkg:rpm/tuxcare/libdvdnav?distro=almalinux-9.8"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "6.1.0-4.el9.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.8",
+        "name": "libdvdnav-devel",
+        "purl": "pkg:rpm/tuxcare/libdvdnav-devel?distro=almalinux-9.8"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "6.1.0-4.el9.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-112057"
+  ],
+  "published": "2026-11-17T11:09:28Z",
+  "modified": "2026-11-17T11:09:28Z",
+  "details": "- CVE-2026-112057: fix out-of-bounds reads in dvdnav_describe_title_chapters\n- Add bounds checks for cell and button indices",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/tuxcare9.8esu/CLSA-2026-1794913759.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-112057",
+      "type": "ADVISORY"
+    }
+  ]
+}

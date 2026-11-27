@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1794840651",
+  "summary": "Fix CVE(s): CVE-2026-126190",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Debian:11",
+        "name": "python3-soupsieve",
+        "purl": "pkg:deb/tuxcare/python3-soupsieve?distro=debian-11"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.2.1-1+tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-126190"
+  ],
+  "published": "2026-11-16T14:51:01Z",
+  "modified": "2026-11-16T14:51:01Z",
+  "details": "   * SECURITY UPDATE: polynomial-time denial of service in the descendant combinator\n     - debian/patches/CVE-2026-126190.patch: polynomial-time denial of service in the descendant combinator\n     - CVE-2026-126190",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/debian11els/CLSA-2026-1794840651.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-126190",
+      "type": "ADVISORY"
+    }
+  ]
+}

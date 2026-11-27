@@ -1,0 +1,123 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1793879986",
+  "summary": "gdb: Fix of CVE-2025-11083",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.8",
+        "name": "gdb",
+        "purl": "pkg:rpm/tuxcare/gdb?distro=almalinux-9.8"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "16.3-3.1.el9_8.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.8",
+        "name": "gdb-doc",
+        "purl": "pkg:rpm/tuxcare/gdb-doc?distro=almalinux-9.8"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "16.3-3.1.el9_8.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.8",
+        "name": "gdb-gdbserver",
+        "purl": "pkg:rpm/tuxcare/gdb-gdbserver?distro=almalinux-9.8"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "16.3-3.1.el9_8.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.8",
+        "name": "gdb-headless",
+        "purl": "pkg:rpm/tuxcare/gdb-headless?distro=almalinux-9.8"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "16.3-3.1.el9_8.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.8",
+        "name": "gdb-minimal",
+        "purl": "pkg:rpm/tuxcare/gdb-minimal?distro=almalinux-9.8"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "16.3-3.1.el9_8.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2025-11083"
+  ],
+  "published": "2026-11-05T11:59:56Z",
+  "modified": "2026-11-05T11:59:56Z",
+  "details": "- CVE-2025-11083: fix heap buffer overflow in bundled BFD by rejecting corrupt\n  ELF section headers in linker input",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/tuxcare9.8esu/CLSA-2026-1793879986.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-11083",
+      "type": "ADVISORY"
+    }
+  ]
+}

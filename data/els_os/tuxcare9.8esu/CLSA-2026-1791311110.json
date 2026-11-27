@@ -1,0 +1,205 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1791311110",
+  "summary": "ghostscript: Fix of CVE-2026-103226",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.8",
+        "name": "ghostscript",
+        "purl": "pkg:rpm/tuxcare/ghostscript?distro=almalinux-9.8"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "9.54.0-19.el9_8.1.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.8",
+        "name": "ghostscript-doc",
+        "purl": "pkg:rpm/tuxcare/ghostscript-doc?distro=almalinux-9.8"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "9.54.0-19.el9_8.1.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.8",
+        "name": "ghostscript-gtk",
+        "purl": "pkg:rpm/tuxcare/ghostscript-gtk?distro=almalinux-9.8"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "9.54.0-19.el9_8.1.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.8",
+        "name": "ghostscript-tools-dvipdf",
+        "purl": "pkg:rpm/tuxcare/ghostscript-tools-dvipdf?distro=almalinux-9.8"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "9.54.0-19.el9_8.1.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.8",
+        "name": "ghostscript-tools-fonts",
+        "purl": "pkg:rpm/tuxcare/ghostscript-tools-fonts?distro=almalinux-9.8"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "9.54.0-19.el9_8.1.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.8",
+        "name": "ghostscript-tools-printing",
+        "purl": "pkg:rpm/tuxcare/ghostscript-tools-printing?distro=almalinux-9.8"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "9.54.0-19.el9_8.1.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.8",
+        "name": "ghostscript-x11",
+        "purl": "pkg:rpm/tuxcare/ghostscript-x11?distro=almalinux-9.8"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "9.54.0-19.el9_8.1.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.8",
+        "name": "libgs",
+        "purl": "pkg:rpm/tuxcare/libgs?distro=almalinux-9.8"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "9.54.0-19.el9_8.1.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.8",
+        "name": "libgs-devel",
+        "purl": "pkg:rpm/tuxcare/libgs-devel?distro=almalinux-9.8"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "9.54.0-19.el9_8.1.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-103226",
+    "CVE-2026-39919",
+    "CVE-2025-27830"
+  ],
+  "published": "2026-10-06T18:25:20Z",
+  "modified": "2026-10-06T18:25:20Z",
+  "details": "- Rebase to ghostscript-9.54.0-19.el9_8.1; CVE-2026-39919 fixed by vendor\n- CVE-2026-103226: bound the control stack in the Type 1 to Type 2 font\n  conversion used by pdfwrite\n- CVE-2025-27830: count every $Blend procedure entry in the length and bound\n  the formatting of its numbers so the serialized procedure cannot overflow\n  its buffer (upstream Bug 706923 and gs_snprintf)",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/tuxcare9.8esu/CLSA-2026-1791311110.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-103226",
+      "type": "ADVISORY"
+    }
+  ]
+}

@@ -1,0 +1,143 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1793792780",
+  "summary": "Fix CVE(s): CVE-2026-101258",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Debian:11",
+        "name": "ghostscript",
+        "purl": "pkg:deb/tuxcare/ghostscript?distro=debian-11"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "9.53.3~dfsg-7+deb11u11+tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Debian:11",
+        "name": "ghostscript-doc",
+        "purl": "pkg:deb/tuxcare/ghostscript-doc?distro=debian-11"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "9.53.3~dfsg-7+deb11u11+tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Debian:11",
+        "name": "ghostscript-x",
+        "purl": "pkg:deb/tuxcare/ghostscript-x?distro=debian-11"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "9.53.3~dfsg-7+deb11u11+tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Debian:11",
+        "name": "libgs-dev",
+        "purl": "pkg:deb/tuxcare/libgs-dev?distro=debian-11"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "9.53.3~dfsg-7+deb11u11+tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Debian:11",
+        "name": "libgs9",
+        "purl": "pkg:deb/tuxcare/libgs9?distro=debian-11"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "9.53.3~dfsg-7+deb11u11+tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Debian:11",
+        "name": "libgs9-common",
+        "purl": "pkg:deb/tuxcare/libgs9-common?distro=debian-11"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "9.53.3~dfsg-7+deb11u11+tuxcare.els2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-101258"
+  ],
+  "published": "2026-11-04T11:46:31Z",
+  "modified": "2026-11-04T11:46:31Z",
+  "details": "   * SECURITY UPDATE: -dSAFER bypass via shading function OOB write and\n     procedural filter use-after-free\n     - debian/patches/CVE-2026-101258.patch: validate shading sub-function\n       outputs and detect restore in procedural data sink filters\n     - CVE-2026-101258",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/debian11els/CLSA-2026-1793792780.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-101258",
+      "type": "ADVISORY"
+    }
+  ]
+}

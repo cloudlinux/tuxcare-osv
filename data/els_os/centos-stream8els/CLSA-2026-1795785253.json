@@ -1,0 +1,179 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1795785253",
+  "summary": "nginx: Fix of CVE-2023-44487",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS-Stream:8",
+        "name": "nginx",
+        "purl": "pkg:rpm/tuxcare/nginx?distro=centos-stream-8"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:1.14.1-9.module_el8+2921+67569005.tuxcare.els21"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS-Stream:8",
+        "name": "nginx-all-modules",
+        "purl": "pkg:rpm/tuxcare/nginx-all-modules?distro=centos-stream-8"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:1.14.1-9.module_el8+2921+67569005.tuxcare.els21"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS-Stream:8",
+        "name": "nginx-filesystem",
+        "purl": "pkg:rpm/tuxcare/nginx-filesystem?distro=centos-stream-8"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:1.14.1-9.module_el8+2921+67569005.tuxcare.els21"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS-Stream:8",
+        "name": "nginx-mod-http-image-filter",
+        "purl": "pkg:rpm/tuxcare/nginx-mod-http-image-filter?distro=centos-stream-8"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:1.14.1-9.module_el8+2921+67569005.tuxcare.els21"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS-Stream:8",
+        "name": "nginx-mod-http-perl",
+        "purl": "pkg:rpm/tuxcare/nginx-mod-http-perl?distro=centos-stream-8"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:1.14.1-9.module_el8+2921+67569005.tuxcare.els21"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS-Stream:8",
+        "name": "nginx-mod-http-xslt-filter",
+        "purl": "pkg:rpm/tuxcare/nginx-mod-http-xslt-filter?distro=centos-stream-8"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:1.14.1-9.module_el8+2921+67569005.tuxcare.els21"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS-Stream:8",
+        "name": "nginx-mod-mail",
+        "purl": "pkg:rpm/tuxcare/nginx-mod-mail?distro=centos-stream-8"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:1.14.1-9.module_el8+2921+67569005.tuxcare.els21"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:CentOS-Stream:8",
+        "name": "nginx-mod-stream",
+        "purl": "pkg:rpm/tuxcare/nginx-mod-stream?distro=centos-stream-8"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:1.14.1-9.module_el8+2921+67569005.tuxcare.els21"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2023-44487"
+  ],
+  "published": "2026-11-27T13:14:21Z",
+  "modified": "2026-11-27T13:14:21Z",
+  "details": "- CVE-2023-44487 regress: close the connection on HTTP/2 HEADERS and\n  PRIORITY frames that depend on their own stream, instead of reaching the\n  CVE-2023-44487 refused_streams check with an uninitialized pointer that\n  crashed the worker process",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/centos-stream8els/CLSA-2026-1795785253.html",
+      "type": "ADVISORY"
+    }
+  ]
+}

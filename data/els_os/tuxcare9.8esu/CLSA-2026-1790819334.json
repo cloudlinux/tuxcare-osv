@@ -1,0 +1,83 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1790819334",
+  "summary": "nghttp2: Fix of CVE-2023-35945",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.8",
+        "name": "libnghttp2",
+        "purl": "pkg:rpm/tuxcare/libnghttp2?distro=almalinux-9.8"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.43.0-6.el9_8.2.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.8",
+        "name": "libnghttp2-devel",
+        "purl": "pkg:rpm/tuxcare/libnghttp2-devel?distro=almalinux-9.8"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.43.0-6.el9_8.2.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.8",
+        "name": "nghttp2",
+        "purl": "pkg:rpm/tuxcare/nghttp2?distro=almalinux-9.8"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.43.0-6.el9_8.2.tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2023-35945"
+  ],
+  "published": "2026-10-01T01:49:05Z",
+  "modified": "2026-10-01T01:49:05Z",
+  "details": "- CVE-2023-35945: memory leak in nghttp2_session_mem_send_internal()",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/tuxcare9.8esu/CLSA-2026-1790819334.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-35945",
+      "type": "ADVISORY"
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1795203756",
+  "summary": "Fix CVE(s): CVE-2026-110354",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Debian:11",
+        "name": "haproxy",
+        "purl": "pkg:deb/tuxcare/haproxy?distro=debian-11"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.2.9-2+deb11u7+tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Debian:11",
+        "name": "haproxy-doc",
+        "purl": "pkg:deb/tuxcare/haproxy-doc?distro=debian-11"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.2.9-2+deb11u7+tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Debian:11",
+        "name": "vim-haproxy",
+        "purl": "pkg:deb/tuxcare/vim-haproxy?distro=debian-11"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.2.9-2+deb11u7+tuxcare.els3"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-110354"
+  ],
+  "published": "2026-11-20T19:42:46Z",
+  "modified": "2026-11-20T19:42:46Z",
+  "details": "   * SECURITY UPDATE: connection held by an over-long chunk-size line\n     - debian/patches/CVE-2026-110354.patch: report a parsing error when an\n       incomplete chunk-size line fills the input buffer in\n       h1_parse_msg_data() in src/h1_htx.c\n     - CVE-2026-110354",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/debian11els/CLSA-2026-1795203756.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-110354",
+      "type": "ADVISORY"
+    }
+  ]
+}
