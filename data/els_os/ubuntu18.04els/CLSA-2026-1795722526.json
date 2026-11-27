@@ -1,0 +1,63 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1795722526",
+  "summary": "Fix CVE(s): CVE-2026-88807",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "libxrender-dev",
+        "purl": "pkg:deb/tuxcare/libxrender-dev?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:0.9.10-1+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:Ubuntu:18.04",
+        "name": "libxrender1",
+        "purl": "pkg:deb/tuxcare/libxrender1?distro=ubuntu-18.04"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1:0.9.10-1+tuxcare.els1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-88807"
+  ],
+  "published": "2026-11-26T19:48:56Z",
+  "modified": "2026-11-26T19:48:56Z",
+  "details": "   * CVE-2026-88807: heap overflow in XRenderQueryFormats()\n   * Switch to source format 3.0 (quilt) so debian/patches/ is applied",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/ubuntu18.04els/CLSA-2026-1795722526.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-88807",
+      "type": "ADVISORY"
+    }
+  ]
+}
