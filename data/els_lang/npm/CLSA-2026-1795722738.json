@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1795722738",
+  "modified": "2026-11-27T04:41:20Z",
+  "published": "2026-11-26T20:52:19Z",
+  "summary": "TuxCare security update for @effect/platform (1 CVE)",
+  "details": "TuxCare rebuilt @effect/platform to address 1 CVE. Fixed in 0.90.3-tuxcare.1.",
+  "upstream": [
+    "CVE-2026-115779"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "@effect/platform",
+        "purl": "pkg:npm/%40effect/platform"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0.90.3-tuxcare.0"
+            },
+            {
+              "fixed": "0.90.3-tuxcare.1"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "0.90.3"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "0.90.3",
+          "fixed_version": "0.90.3-tuxcare.1"
+        }
+      }
+    }
+  ]
+}

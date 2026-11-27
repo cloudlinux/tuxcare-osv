@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1795720256",
+  "modified": "2026-11-27T04:41:20Z",
+  "published": "2026-11-26T20:10:56Z",
+  "summary": "TuxCare security update for @astrojs/node (1 CVE)",
+  "details": "TuxCare rebuilt @astrojs/node to address 1 CVE. Fixed in 10.1.2-tuxcare.1.",
+  "upstream": [
+    "CVE-2026-102984"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "@astrojs/node",
+        "purl": "pkg:npm/%40astrojs/node"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "10.1.2-tuxcare.0"
+            },
+            {
+              "fixed": "10.1.2-tuxcare.1"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "10.1.2"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "10.1.2",
+          "fixed_version": "10.1.2-tuxcare.1"
+        }
+      }
+    }
+  ]
+}
