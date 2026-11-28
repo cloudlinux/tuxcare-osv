@@ -1,0 +1,103 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1795824344",
+  "summary": "webkit2gtk3: Fix of CVE-2026-131054",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "webkit2gtk3",
+        "purl": "pkg:rpm/tuxcare/webkit2gtk3?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.54.0-1.el9.tuxcare.els21"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "webkit2gtk3-devel",
+        "purl": "pkg:rpm/tuxcare/webkit2gtk3-devel?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.54.0-1.el9.tuxcare.els21"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "webkit2gtk3-jsc",
+        "purl": "pkg:rpm/tuxcare/webkit2gtk3-jsc?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.54.0-1.el9.tuxcare.els21"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.2",
+        "name": "webkit2gtk3-jsc-devel",
+        "purl": "pkg:rpm/tuxcare/webkit2gtk3-jsc-devel?distro=almalinux-9.2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.54.0-1.el9.tuxcare.els21"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-131054"
+  ],
+  "published": "2026-11-28T00:06:00Z",
+  "modified": "2026-11-28T00:06:00Z",
+  "details": "- CVE-2026-131054: ANGLE shader translator struct constructor rewrite compiled out of release builds, leaving the GL driver out-of-bounds write workaround inactive",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/almalinux9.2esu/CLSA-2026-1795824344.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-131054",
+      "type": "ADVISORY"
+    }
+  ]
+}

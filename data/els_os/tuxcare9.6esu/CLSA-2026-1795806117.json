@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1795806117",
+  "summary": "haproxy: Fix of CVE-2026-110353",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:AlmaLinux:9.6",
+        "name": "haproxy",
+        "purl": "pkg:rpm/tuxcare/haproxy?distro=almalinux-9.6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.4.22-4.el9_6.tuxcare.els4"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-110353"
+  ],
+  "published": "2026-11-27T19:02:06Z",
+  "modified": "2026-11-27T19:02:06Z",
+  "details": "- CVE-2026-110353: mux-h2: properly handle short reads on PING frames",
+  "references": [
+    {
+      "url": "https://errata.tuxcare.com/els_os/tuxcare9.6esu/CLSA-2026-1795806117.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-110353",
+      "type": "ADVISORY"
+    }
+  ]
+}
