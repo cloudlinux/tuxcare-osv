@@ -1,7 +1,7 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2023-1690395540",
-  "summary": "Fix of 12 CVEs",
+  "summary": "Update of linux-meta",
   "affected": [
     {
       "package": {
@@ -699,7 +699,7 @@
     "CVE-2023-35824"
   ],
   "published": "2023-07-26T18:19:04Z",
-  "modified": "2023-07-26T18:19:04Z",
+  "modified": "2026-11-28T09:58:01Z",
   "details": "\n   * Bionic update: upstream stable patchset 2021-11-12 (LP: #1950816) // CVE-\n     url: https://ubuntu.com/security/CVE-2021-20321\n     - ovl: fix missing negative dentry check in ovl_rename()\n   * CVE-url: https://ubuntu.com/security/CVE-2021-20321\n     - ovl: cleanup unused var in rename2\n   * Jammy update: v5.15.93 upstream stable release (LP: #2012665) // CVE-url:\n     https://ubuntu.com/security/CVE-2023-3161\n     - fbcon: Check font dimension limits\n   * CVE-url: https://ubuntu.com/security/CVE-2021-3753\n     - vt_kdsetmode: extend console locking\n   * Jammy update: v5.15.75 upstream stable release (LP: #1996825) // CVE-url:\n     https://ubuntu.com/security/CVE-2022-1184\n     - ext4: fix check for block being out of directory size\n   * Jammy update: v5.15.61 upstream stable release (LP: #1990162) // CVE-url:\n     https://ubuntu.com/security/CVE-2022-1184\n     - ext4: check if directory block is within i_size\n   * Jammy update: v5.15.104 upstream stable release (LP: #2023225) // CVE-url:\n     https://ubuntu.com/security/CVE-2023-1990\n     - nfc: st-nci: Fix use after free bug in ndlc_remove due to race condition\n   * CVE-url: https://ubuntu.com/security/CVE-2023-3090\n     - ipvlan:Fix out-of-bounds caused by unclear skb->cb\n   * Jammy update: v5.15.63 upstream stable release (LP: #1990564) // CVE-url:\n     https://ubuntu.com/security/CVE-2023-3111\n     - btrfs: unset reloc control if transaction commit fails in\n       prepare_to_relocate()\n   * CVE-url: https://ubuntu.com/security/CVE-2023-3111\n     - Btrfs: fill relocation block rsv after allocation\n     - btrfs: check return value of btrfs_commit_transaction in relocation\n   * CVE-url: https://ubuntu.com/security/CVE-2023-3141\n     - memstick: r592: Fix UAF bug in r592_remove due to race condition\n   * CVE-url: https://ubuntu.com/security/CVE-2023-3212\n     - gfs2: Don't deref jdesc in evict\n   * CVE-url: https://ubuntu.com/security/CVE-2023-3268\n     - kernel/relay.c: fix read_pos error when multiple readers\n     - relayfs: fix out-of-bounds access in relay_file_read\n   * CVE-url: https://ubuntu.com/security/CVE-2023-3390\n     - netfilter: nf_tables: incorrect error path handling with NFT_MSG_NEWRULE\n   * CVE-url: https://ubuntu.com/security/CVE-2023-35824\n     - media: dm1105: Fix use after free bug in dm1105_remove due to race condition",
   "references": [
     {

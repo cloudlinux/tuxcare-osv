@@ -1,7 +1,7 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2026-1795191359",
-  "summary": "ruby: Fix of 3 CVEs",
+  "summary": "Update of ruby",
   "affected": [
     {
       "package": {
@@ -450,7 +450,7 @@
     "CVE-2026-42258"
   ],
   "published": "2026-11-20T16:16:07Z",
-  "modified": "2026-11-20T16:16:07Z",
+  "modified": "2026-11-28T09:56:12Z",
   "details": "- Rebase to ruby-3.0.7-170.el9_8; CVE-2026-89078 (regexp double free on too\n  big repetition quantifiers), CVE-2026-42246 and CVE-2026-42258 (net-imap)\n  fixed by vendor\n- The TuxCare duplicate Onigmo repeat/null-check ID overflow patch is dropped;\n  the vendor's ruby-3.3.13-regexp-reject-overflowed-repeat-null-check.patch\n  carries the same fix\n- The TuxCare duplicate Onigmo compiled program size overflow patch is\n  dropped; the vendor's ruby-3.3.13-regexp-avoid-overflow-compiled-program.patch\n  carries the same fix\n- Keep the TuxCare net-imap, zlib, uri, rexml and resolv fixes",
   "references": [
     {

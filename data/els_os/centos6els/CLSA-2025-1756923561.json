@@ -1,7 +1,7 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2025-1756923561",
-  "summary": "clamav: Fix of 8 CVEs",
+  "summary": "clamav: Fix of 7 CVEs",
   "affected": [
     {
       "package": {
@@ -195,11 +195,39 @@
     "CVE-2023-20052"
   ],
   "published": "2025-09-03T18:19:25Z",
-  "modified": "2025-09-03T18:19:25Z",
+  "modified": "2026-11-28T09:53:16Z",
   "details": "- Update to 1.0.9 LTS version\n- CVE-2025-20260: Fixed a possible buffer overflow write bug in\n  the PDF file parser\n- CVE-2025-20128: Fixed a possible buffer overflow read bug in\n  the OLE2 file parser\n- CVE-2024-20506: Changed the logging module to disable following\n  symlinks on Linux and Unix systems so as to prevent an attacker\n  with existing access to the 'clamd' or 'freshclam' services from\n  using a symlink to corrupt system files\n- CVE-2024-20290: Fixed a possible heap overflow read bug in\n  the OLE2 file parser\n- CVE-2024-20328: Fixed a possible command injection in the\n  'VirusEvent' feature of the clamd service\n- CVE-2023-20197: Fixed a possible denial of service in the\n  HFS+ parser\n- CVE-2023-20212: Fixed a possible DoS in the AutoIT file\n  parser\n- CVE-2023-20052: Fixed a possible remote information leak\n  in the DMG file parser",
   "references": [
     {
       "url": "https://errata.tuxcare.com/els_os/centos6els/CLSA-2025-1756923561.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-20052",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-20197",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-20212",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-20290",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-20328",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-20128",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-20260",
       "type": "ADVISORY"
     }
   ]

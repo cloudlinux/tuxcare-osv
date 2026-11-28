@@ -1,7 +1,7 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2024-1714073581",
-  "summary": "Fix of 16 CVEs",
+  "summary": "Update of linux-meta",
   "affected": [
     {
       "package": {
@@ -703,7 +703,7 @@
     "CVE-2024-26600"
   ],
   "published": "2024-04-25T19:33:04Z",
-  "modified": "2024-04-25T19:33:04Z",
+  "modified": "2026-11-28T09:58:01Z",
   "details": "   * Jammy update: v5.15.81 upstream stable release (LP: #2003130) // CVE-url:\n     https://ubuntu.com/security/CVE-2023-1382\n     - tipc: set con sock in tipc_conn_alloc\n     - tipc: add an extra conn_get in tipc_conn_alloc\n   * CVE-url: https://ubuntu.com/security/CVE-2023-1998\n     - x86/speculation: Allow enabling STIBP with legacy IBRS\n   * CVE-url: https://ubuntu.com/security/CVE-2021-47193\n     - scsi: pm80xx: Tie the interrupt name to the module instance\n     - scsi: pm80xx: Deal with kexec reboots\n     - scsi: pm80xx: Increase number of supported queues\n     - scsi: pm80xx: Remove DMA memory allocation for ccb and device structures\n     - scsi: pm80xx: Increase the number of outstanding I/O supported to 1024\n     - scsi: pm80xx: Fix memory leak during rmmod\n   * CVE-url: https://ubuntu.com/security/CVE-2021-47198\n     - scsi: lpfc: Fix use-after-free in lpfc_unreg_rpi() routine\n     - scsi: lpfc: Fix use-after-free in lpfc_unreg_rpi() routine\n   * Bionic update: upstream stable patchset 2021-12-13 (LP: #1954703) // CVE-\n     url: https://ubuntu.com/security/CVE-2021-47194\n     - cfg80211: call cfg80211_stop_ap when switch from P2P_GO type\n   * CVE-url: https://ubuntu.com/security/CVE-2023-52458\n     - block: add check that partition length needs to be aligned with block size\n   * CVE-url: https://ubuntu.com/security/CVE-2023-52600\n     - jfs: fix uaf in jfs_evict_inode\n   * Bionic update: upstream stable patchset 2021-06-01 (LP: #1930472) // CVE-\n     url: https://ubuntu.com/security/CVE-2021-46955\n     - openvswitch: fix stack OOB read while fragmenting IPv4 packets\n   * Bionic update: upstream stable patchset 2021-06-01 (LP: #1930472) // CVE-\n     url: https://ubuntu.com/security/CVE-2021-46966\n     - ACPI: custom_method: fix potential use-after-free issue\n   * Bionic update: upstream stable patchset 2022-09-23 (LP: #1990698) // CVE-\n     url: https://ubuntu.com/security/CVE-2019-25162\n     - i2c: Fix a potential use after free\n   * CVE-url: https://ubuntu.com/security/CVE-2023-24023\n     - Bluetooth: Add debug setting for changing minimum encryption key size\n     - Bluetooth: Add more enc key size check\n   * CVE-url: https://ubuntu.com/security/CVE-2023-52603\n     - UBSAN: array-index-out-of-bounds in dtSplitRoot\n   * Bionic update: upstream stable patchset 2021-07-14 (LP: #1936231) // CVE-\n     url: https://ubuntu.com/security/CVE-2021-46906\n     - HID: usbhid: fix info leak in hid_submit_ctrl\n   * Bionic update: upstream stable patchset 2021-05-25 (LP: #1929603) // CVE-\n     url: https://ubuntu.com/security/CVE-2021-46905\n     - net: hso: fix NULL-deref on disconnect regression\n   * Bionic update: upstream stable patchset 2021-04-30 (LP: #1926808) // CVE-\n     url: https://ubuntu.com/security/CVE-2021-46904\n     - net: hso: fix null-ptr-deref during tty device unregistration\n   * CVE-url: https://ubuntu.com/security/CVE-2024-26600\n     - phy: ti: phy-omap-usb2: Fix NULL pointer dereference for SRP",
   "references": [
     {

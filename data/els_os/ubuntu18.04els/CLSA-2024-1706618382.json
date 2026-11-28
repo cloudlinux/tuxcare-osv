@@ -1,7 +1,7 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2024-1706618382",
-  "summary": "Fix of 12 CVEs",
+  "summary": "Update of linux-meta",
   "affected": [
     {
       "package": {
@@ -699,7 +699,7 @@
     "CVE-2023-34324"
   ],
   "published": "2024-01-30T12:39:44Z",
-  "modified": "2024-01-30T12:39:44Z",
+  "modified": "2026-11-28T09:58:09Z",
   "details": "   * Jammy update: v5.15.140 upstream stable release (LP: #2050038) // CVE-url:\n     https://ubuntu.com/security/CVE-2024-0607\n     - netfilter: nf_tables: fix pointer math issue in nft_byteorder_eval()\n   * CVE-url: https://ubuntu.com/security/CVE-2024-0607\n     - netfilter: nf_tables: Introduce new 64-bit helper register functions\n   * Focal update: Focal update: v5.4.235 upstream stable release\n     (LP: #2017706) // CVE-url: https://ubuntu.com/security/CVE-2023-1079\n     - HID: asus: Remove check for same LED brightness on set\n     - HID: asus: use spinlock to protect concurrent accesses\n     - HID: asus: use spinlock to safely schedule workers\n   * CVE-url: https://ubuntu.com/security/CVE-2022-36402\n     - drm/vmwgfx: Add SM4_1 flag\n     - drm/vmwgfx: Add support for SVGA3dCmdDefineGBSurface_v3\n     - drm/vmwgfx: Add CAP2 support in vmwgfx\n     - drm/vmwgfx: Bump version patchlevel and date\n     - drm/vmwgfx: Expose SM4_1 param to user space\n     - drm/vmwgfx: Update the device headers\n     - drm/vmwgfx: Fix shader stage validation\n   * CVE-url: https://ubuntu.com/security/CVE-2024-0639\n     - sctp: fix potential deadlock on &net->sctp.addr_wq_lock\n   * CVE-url: https://ubuntu.com/security/CVE-2023-6915\n     - ida: Fix crash in ida_free when the bitmap is empty\n   * CVE-url: https://ubuntu.com/security/CVE-2023-6040\n     - netfilter: nf_tables: Reject tables of unsupported family\n   * CVE-url: https://ubuntu.com/security/CVE-2023-51780\n     - atm: Fix Use-After-Free in do_vcc_ioctl\n   * CVE-url: https://ubuntu.com/security/CVE-2023-51782\n     - net/rose: Fix Use-After-Free in rose_ioctl\n   * CVE-url: https://ubuntu.com/security/CVE-2023-51781\n     - appletalk: Fix Use-After-Free in atalk_ioctl\n   * CVE-url: https://ubuntu.com/security/CVE-2024-0340\n     - vhost: use kzalloc() instead of kmalloc() followed by memset()\n   * CVE-2023-51779 // CVE-url: https://ubuntu.com/security/CVE-2023-51779\n     - Bluetooth: af_bluetooth: Fix Use-After-Free in bt_sock_recvmsg\n   * Jammy update: v5.15.135 upstream stable release (LP: #2045809) // CVE-url:\n     https://ubuntu.com/security/CVE-2023-34324\n     - xen/events: replace evtchn_rwlock with RCU\n   * Miscellaneous upstream changes\n     - drm/vmwgfx: Use enum to represent graphics context capabilities",
   "references": [
     {

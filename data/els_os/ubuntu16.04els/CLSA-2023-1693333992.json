@@ -1,7 +1,7 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2023-1693333992",
-  "summary": "Fix of 12 CVEs",
+  "summary": "Update of linux-meta",
   "affected": [
     {
       "package": {
@@ -699,7 +699,7 @@
     "CVE-2023-3776"
   ],
   "published": "2023-08-29T18:33:17Z",
-  "modified": "2023-08-29T18:33:17Z",
+  "modified": "2026-11-28T09:58:01Z",
   "details": "\n   * CVE-url: https://ubuntu.com/security/CVE-2023-4128\n     - net/sched: cls_u32: No longer copy tcf_result on update to avoid use-after-\n       free\n     - net/sched: cls_fw: No longer copy tcf_result on update to avoid use-after-\n       free\n     - net/sched: cls_route: No longer copy tcf_result on update to avoid use-\n       after-free\n   * CVE-url: https://ubuntu.com/security/CVE-2023-40283\n     - Bluetooth: L2CAP: Fix use-after-free in l2cap_sock_ready_cb\n   * Jammy update: v5.15.42 upstream stable release (LP: #1981375) // CVE-url:\n     https://ubuntu.com/security/CVE-2023-4387\n     - net: vmxnet3: fix possible use-after-free bugs in vmxnet3_rq_alloc_rx_buf()\n   * CVE-2023-20593 // CVE-url: https://ubuntu.com/security/CVE-2023-20593\n     - x86/cpu/amd: Move the errata checking functionality up\n     - x86/cpu/amd: Add a Zenbleed fix\n   * CVE-2023-35001 // CVE-url: https://ubuntu.com/security/CVE-2023-35001\n     - netfilter: nf_tables: prevent OOB access in nft_byteorder_eval\n   * Bionic update: upstream stable patchset 2023-04-05 (LP: #2015399) // CVE-\n     url: https://ubuntu.com/security/CVE-2023-3567\n     - vc_screen: move load of struct vc_data pointer in vcs_read() to avoid UAF\n   * CVE-url: https://ubuntu.com/security/CVE-2023-0458\n     - prlimit: do_prlimit needs to have a speculation check\n   * CVE-url: https://ubuntu.com/security/CVE-2023-2513\n     - ext4: fix use-after-free in ext4_xattr_set_entry\n   * Jammy update: v5.15.61 upstream stable release (LP: #1990162) // CVE-url:\n     https://ubuntu.com/security/CVE-2023-2513\n     - ext4: add EXT4_INODE_HAS_XATTR_SPACE macro in xattr.h\n   * CVE-url: https://ubuntu.com/security/CVE-2023-3159\n     - firewire: fix potential uaf in outbound_phy_packet_callback()\n   * Jammy update: v5.15.106 upstream stable release (LP: #2023233) // CVE-url:\n     https://ubuntu.com/security/CVE-2023-1611\n     - btrfs: fix race between quota disable and quota assign ioctls\n   * CVE-url: https://ubuntu.com/security/CVE-2023-3611\n     - net/sched: sch_qfq: account for stab overhead in qfq_enqueue\n   * CVE-2023-3776 // CVE-url: https://ubuntu.com/security/CVE-2023-3776\n     - net/sched: cls_fw: Fix improper refcount update leads to use-after-free",
   "references": [
     {

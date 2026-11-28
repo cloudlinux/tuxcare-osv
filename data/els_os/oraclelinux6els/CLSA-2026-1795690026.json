@@ -1,7 +1,7 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2026-1795690026",
-  "summary": "nginx: Fix of CVE-2023-44487",
+  "summary": "Update of nginx",
   "affected": [
     {
       "package": {
@@ -188,7 +188,7 @@
     "CVE-2023-44487"
   ],
   "published": "2026-11-26T10:47:13Z",
-  "modified": "2026-11-26T10:47:13Z",
+  "modified": "2026-11-28T09:54:47Z",
   "details": "- CVE-2023-44487: fix a regression of the earlier backport, where a\n  HEADERS frame depending on its own stream id crashed the worker process\n  (uninitialized pointer read); such frames now close the connection with\n  PROTOCOL_ERROR",
   "references": [
     {

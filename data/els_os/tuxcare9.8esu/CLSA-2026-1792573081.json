@@ -1,7 +1,7 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2026-1792573081",
-  "summary": "flatpak: Fix of 2 CVEs",
+  "summary": "Update of flatpak",
   "affected": [
     {
       "package": {
@@ -129,7 +129,7 @@
     "CVE-2026-96280"
   ],
   "published": "2026-10-21T08:58:08Z",
-  "modified": "2026-10-21T08:58:08Z",
+  "modified": "2026-11-28T09:56:12Z",
   "details": "- Rebase onto the vendor 1.12.9-4.el9_8.4 sources, which prevent an arbitrary\n  write as root via extra-data extraction (CVE-2026-96275) and harden the OCI\n  delta parser against size overflow (CVE-2026-96280)\n- Retained the TuxCare hardening of regenerate_ld_cache() in\n  common/flatpak-run.c and of flatpak_switch_symlink_and_remove() in\n  common/flatpak-utils.c, which the vendor sources still lack\n- The TuxCare duplicate of the data-dir and /var symlink hardening for\n  common/flatpak-run.c plus the libglnx chase prerequisites is dropped; the\n  vendor's run-harden-ensure-data-dir-and-var-setup-against-symlink-attacks,\n  chase-add-internal-glnx-chaseat-full-for-a-strategic-callback and\n  chase-add-glnx-chase-and-mkdirat patches carry the same fix\n- Keep the retry of openat2() on EAGAIN in libglnx glnx_chaseat(), which\n  the dropped TuxCare patch carried and the vendor's chase patches leave out\n- The TuxCare duplicate for revokefs/writer.c is dropped; the vendor's\n  revokefs-avoid-symlink-path-traversal-* patches carry the same fix",
   "references": [
     {

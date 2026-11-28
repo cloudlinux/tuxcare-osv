@@ -1,7 +1,7 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2026-1794311243",
-  "summary": "Fix CVE(s): CVE-2026-42533",
+  "summary": "Update of nginx",
   "affected": [
     {
       "package": {
@@ -528,7 +528,7 @@
     "CVE-2026-42533"
   ],
   "published": "2026-11-10T11:47:31Z",
-  "modified": "2026-11-10T11:47:31Z",
+  "modified": "2026-11-28T09:58:09Z",
   "details": "   * SECURITY REGRESSION: worker crash in modules reusing complex value\n     script codes after the CVE-2026-42533 fix\n     - debian/patches/CVE-2026-42533-2.patch: restore the stack push in\n       ngx_http_script_complex_value_code() and let the new end code update\n       that slot, so set_by_lua and other ngx_devel_kit directives with a\n       variable argument no longer crash the worker\n     - CVE-2026-42533",
   "references": [
     {

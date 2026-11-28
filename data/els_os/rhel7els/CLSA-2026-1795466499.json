@@ -1,7 +1,7 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2026-1795466499",
-  "summary": "rpm: Fix of CVE-2021-3521",
+  "summary": "Update of rpm",
   "affected": [
     {
       "package": {
@@ -208,7 +208,7 @@
     "CVE-2021-3521"
   ],
   "published": "2026-11-23T20:41:47Z",
-  "modified": "2026-11-23T20:41:47Z",
+  "modified": "2026-11-28T09:56:23Z",
   "details": "- CVE-2021-3521: fix a regression of the fix: only load the MPIs of binary\n  package signatures and subkey binding signatures, so a key carrying a\n  DSA2 third-party certification, like RPM-GPG-KEY-MariaDB, imports and\n  verifies again\n- Require package signatures to be binary (upstream daeddb01d) and fail\n  instead of crashing when signature MPIs are missing",
   "references": [
     {

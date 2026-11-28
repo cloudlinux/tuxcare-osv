@@ -1,7 +1,7 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2026-1790602963",
-  "summary": "mariadb: Fix of 2 CVEs",
+  "summary": "Update of mariadb",
   "affected": [
     {
       "package": {
@@ -169,7 +169,7 @@
     "CVE-2025-13699"
   ],
   "published": "2026-09-28T13:42:52Z",
-  "modified": "2026-09-28T13:42:52Z",
+  "modified": "2026-11-28T09:56:36Z",
   "details": "- Rebase onto the vendor's 5.5.68-1.0.1 sources\n- CVE-2021-46657: fix crash in get_sort_by_table() on subquery with ORDER BY referencing an outer-query alias (MDEV-25629)\n- CVE-2025-13699: take the vendor's fix, keep our regression test, fix the\n  mysqlimport crash with the default charset\n- Take the vendor's SSL certificate and timezone test fixes, keep the parts\n  they lack: verify-fail certificates, host time zone mapping in\n  timezone.test",
   "references": [
     {

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2026-1793609586",
-  "summary": "pcre2: Fix of CVE-2026-86145",
+  "summary": "Update of pcre2",
   "affected": [
     {
       "package": {
@@ -148,7 +148,7 @@
     "CVE-2026-86145"
   ],
   "published": "2026-11-02T08:53:14Z",
-  "modified": "2026-11-02T08:53:14Z",
+  "modified": "2026-11-28T09:56:12Z",
   "details": "- rebase to 10.40-7.el9_8\n- CVE-2026-86145: fix DFA matcher workspace overflows in pcre2_dfa_match.c\n  (vendor pcre2-10.40-CVE-2026-86145.patch)\n- drop our patches duplicating the vendor's pcre2-10.40-CVE-*.patch files\n- keep our pcre2test/pcre2grep negative-length patch on top of the vendor's",
   "references": [
     {

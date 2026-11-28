@@ -1,7 +1,7 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2025-1766137116",
-  "summary": "Fix CVE(s): CVE-2025-6020",
+  "summary": "Update of pam",
   "affected": [
     {
       "package": {
@@ -148,7 +148,7 @@
     "CVE-2025-6020"
   ],
   "published": "2025-12-19T09:38:40Z",
-  "modified": "2025-12-19T09:38:40Z",
+  "modified": "2026-11-28T09:58:09Z",
   "details": "   * Reworked CVE-2025-6020 patches to preserve ABI compatibility\n     - Add _pam_modutil_sanitize_helper_fds() as a static inline helper\n       in the header for modules\n     - Keep the exported pam_modutil_sanitize_helper_fds() in libpam as a wrapper\n       that calls the new helper",
   "references": [
     {

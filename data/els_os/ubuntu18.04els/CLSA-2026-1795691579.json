@@ -1,7 +1,7 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2026-1795691579",
-  "summary": "Fix CVE(s): CVE-2023-44487",
+  "summary": "Update of nginx",
   "affected": [
     {
       "package": {
@@ -528,7 +528,7 @@
     "CVE-2023-44487"
   ],
   "published": "2026-11-26T11:13:07Z",
-  "modified": "2026-11-26T11:13:07Z",
+  "modified": "2026-11-28T09:58:09Z",
   "details": "   * SECURITY REGRESSION: worker crash on an HTTP/2 HEADERS frame that\n     depends on its own stream id after the CVE-2023-44487 fix\n     - debian/patches/CVE-2023-44487-2.patch: close the connection with\n       PROTOCOL_ERROR on a HEADERS or PRIORITY frame with self-dependency\n       instead of jumping to the RST_STREAM path before the server\n       configuration pointer is set, so the refused streams check added\n       by CVE-2023-44487 no longer reads an uninitialized pointer\n     - CVE-2023-44487",
   "references": [
     {

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2024-1710947240",
-  "summary": "Fix of 12 CVEs",
+  "summary": "Update of linux-meta",
   "affected": [
     {
       "package": {
@@ -699,7 +699,7 @@
     "CVE-2024-24860"
   ],
   "published": "2024-03-20T15:07:23Z",
-  "modified": "2024-03-20T15:07:23Z",
+  "modified": "2026-11-28T09:58:09Z",
   "details": "   * CVE-url: https://ubuntu.com/security/CVE-2023-52449\n     - mtd: Fix gluebi NULL pointer dereference caused by ftl notifier\n   * CVE-url: https://ubuntu.com/security/CVE-2023-39197\n     - netfilter: conntrack: dccp: copy entire header to stack buffer, not just\n       basic one\n   * CVE-url: https://ubuntu.com/security/CVE-2023-34256\n     - ext4: avoid a potential slab-out-of-bounds in ext4_group_desc_csum\n   * CVE-url: https://ubuntu.com/security/CVE-2024-24855\n     - scsi: lpfc: Fix a possible data race in lpfc_unregister_fcf_rescan()\n   * CVE-url: https://ubuntu.com/security/CVE-2024-26602\n     - locking: Introduce __cleanup() based infrastructure\n     - dmaengine: ioat: Free up __cleanup() name\n     - sched/membarrier: reduce the ability to hammer on sys_membarrier\n   * CVE-url: https://ubuntu.com/security/CVE-2023-52435\n     - net: prevent mss overflow in skb_segment()\n   * CVE-url: https://ubuntu.com/security/CVE-2023-52445\n     - media: pvrusb2: fix use after free on context disconnection\n   * CVE-url: https://ubuntu.com/security/CVE-2023-52444\n     - f2fs: fix to avoid dirent corruption\n   * CVE-url: https://ubuntu.com/security/CVE-2023-52443\n     - apparmor: avoid crash when parsed profile name is empty\n   * CVE-url: https://ubuntu.com/security/CVE-2021-44879\n     - f2fs: fix to do sanity check on inode type during garbage collection\n   * CVE-url: https://ubuntu.com/security/CVE-2023-6121\n     - nvmet: nul-terminate the NQNs passed in the connect command\n   * CVE-url: https://ubuntu.com/security/CVE-2024-24860\n     - Bluetooth: Move {min,max}_key_size debugfs into hci_debugfs_create_le\n     - Bluetooth: Fix atomicity violation in {min,max}_key_size_set",
   "references": [
     {

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2025-1765231763",
-  "summary": "golang: Fix of 3 CVEs",
+  "summary": "Update of golang",
   "affected": [
     {
       "package": {
@@ -150,7 +150,7 @@
     "CVE-2024-34158"
   ],
   "published": "2025-12-08T22:09:27Z",
-  "modified": "2025-12-08T22:09:27Z",
+  "modified": "2026-11-28T09:57:29Z",
   "details": "- Update to Go 1.22.9\n- Remove CVE-2024-34155, CVE-2024-34156, and CVE-2024-34158 patches\n- Remove fix-standard-crypto-panic.patch (no longer needed)\n- Add disable_static_tests_part1.patch and disable_static_tests_part2.patch\n  to disable OpenSSL backend for static builds\n- Add skip_TestCrashDumpsAllThreads.patch to skip flaky test on s390x\n  architecture",
   "references": [
     {

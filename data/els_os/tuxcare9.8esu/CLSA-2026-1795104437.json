@@ -1,7 +1,7 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2026-1795104437",
-  "summary": "php: Fix of 5 CVEs",
+  "summary": "Update of php",
   "affected": [
     {
       "package": {
@@ -512,7 +512,7 @@
     "CVE-2026-129538"
   ],
   "published": "2026-11-19T20:15:04Z",
-  "modified": "2026-11-19T20:15:04Z",
+  "modified": "2026-11-28T09:56:12Z",
   "details": "- CVE-2026-127960: append folded HTTP response header lines with smart_str\n  instead of re-concatenating them, removing quadratic processing time\n  (GHSA-mmf9-xm3v-hg2x)\n- CVE-2026-128064: match the https:// and ftps:// URL scheme\n  case-insensitively so mixed-case URLs are not sent in plaintext\n  (GHSA-f6gg-rchx-xw8j)\n- CVE-2026-129291: stop closing the FPM worker stdio pipe file descriptors\n  twice (GHSA-jm4m-qfqx-967m)\n- CVE-2026-129292: escape the request method, user and script fields on the\n  FPM status page (GHSA-3mg3-cr28-46gc)\n- CVE-2026-129538: fix PATH_INFO length underflow in php-cgi\n  init_request_info() (GHSA-5j3f-64r7-f564)",
   "references": [
     {

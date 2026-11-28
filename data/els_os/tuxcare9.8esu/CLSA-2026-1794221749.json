@@ -1,7 +1,7 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2026-1794221749",
-  "summary": "exiv2: Fix of CVE-2025-55304",
+  "summary": "Update of exiv2",
   "affected": [
     {
       "package": {
@@ -88,7 +88,7 @@
     "CVE-2025-55304"
   ],
   "published": "2026-11-09T10:55:58Z",
-  "modified": "2026-11-09T10:55:58Z",
+  "modified": "2026-11-28T09:56:12Z",
   "details": "- CVE-2025-55304: rework the fix for 0.27; collect the ICC chunks of a JPEG\n  in one buffer and set the profile once, adding no Image methods, so the\n  libexiv2 ABI matches the vendor's again (gexiv2 and gimp crashed) and\n  multi-chunk ICC profiles are read whole again",
   "references": [
     {

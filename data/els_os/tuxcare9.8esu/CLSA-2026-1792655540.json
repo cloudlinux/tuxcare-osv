@@ -1,7 +1,7 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2026-1792655540",
-  "summary": "ghostscript: Fix of CVE-2026-101258",
+  "summary": "Update of ghostscript",
   "affected": [
     {
       "package": {
@@ -188,7 +188,7 @@
     "CVE-2026-101258"
   ],
   "published": "2026-10-22T07:52:32Z",
-  "modified": "2026-10-22T07:52:32Z",
+  "modified": "2026-11-28T09:56:12Z",
   "details": "- Rebase to ghostscript-9.54.0-19.el9_8.3\n- CVE-2026-101258: -dSAFER sandbox bypass via a Type 5 shading out-of-bounds\n  write and a procedure-stream use-after-free, fixed by the vendor\n- the vendor's 0001-pdfwrite-bound-check-control-stack-in-type-1-2-font-.patch is\n  not applied: its single devices/vector/gdevpsfx.c hunk is already carried by\n  our Patch1010, which additionally repairs the CS_CHECK_IPSTACK\n  off-by-one in base/gxtype1.h and adds the matching control-stack checks in\n  gs_type1_piece_codes() in base/gxtype1.c",
   "references": [
     {

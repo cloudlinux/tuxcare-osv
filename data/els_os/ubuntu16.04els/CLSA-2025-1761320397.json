@@ -1,7 +1,7 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2025-1761320397",
-  "summary": "Fix CVE(s): CVE-2025-1735",
+  "summary": "Update of php",
   "affected": [
     {
       "package": {
@@ -788,7 +788,7 @@
     "CVE-2025-1735"
   ],
   "published": "2025-10-24T15:40:05Z",
-  "modified": "2025-10-24T15:40:05Z",
+  "modified": "2026-11-28T09:58:01Z",
   "details": "   * SECURITY UPDATE: fix backport compatibility issue in CVE-2025-1735 patch\n     - debian/patches/CVE-2025-1735.patch: fix incompatible function call\n       zend_string_efree replaced with zend_string_free for PHP 7.0.33\n       compatibility in ext/pgsql/pgsql.c\n     - CVE-2025-1735",
   "references": [
     {

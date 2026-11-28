@@ -1,7 +1,7 @@
 {
   "schema_version": "1.8.0",
   "id": "CLSA-2026-1793264480",
-  "summary": "flatpak: Fix of 2 CVEs",
+  "summary": "flatpak: Fix of CVE-2026-97024",
   "affected": [
     {
       "package": {
@@ -125,15 +125,19 @@
     }
   ],
   "upstream": [
-    "CVE-2026-97023",
-    "CVE-2026-97024"
+    "CVE-2026-97024",
+    "CVE-2026-97023"
   ],
   "published": "2026-10-29T09:01:28Z",
-  "modified": "2026-10-29T09:01:28Z",
+  "modified": "2026-11-28T09:56:12Z",
   "details": "- Rebase onto the vendor 1.12.9-4.el9_8.6 sources, which avoid path traversal deletion via deploy export/bin (CVE-2026-97023) and use fd-relative operations for files/etc during runtime deploy (CVE-2026-97024)\n- Retained the TuxCare hardening of regenerate_ld_cache() in common/flatpak-run.c and of flatpak_switch_symlink_and_remove() in common/flatpak-utils.c, which the vendor sources still lack\n- Retained the retry of openat2() on EAGAIN in libglnx glnx_chaseat(), which the vendor's chase patches leave out",
   "references": [
     {
       "url": "https://errata.tuxcare.com/els_os/tuxcare9.8esu/CLSA-2026-1793264480.html",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-97024",
       "type": "ADVISORY"
     }
   ]
