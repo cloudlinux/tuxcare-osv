@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1795802314",
+  "modified": "2026-11-28T01:48:02Z",
+  "published": "2026-11-27T18:58:35Z",
+  "summary": "TuxCare security update for uri-template-lite (1 CVE)",
+  "details": "TuxCare rebuilt uri-template-lite to address 1 CVE. Fixed in 20.5.0-tuxcare.1.",
+  "upstream": [
+    "CVE-2021-43309"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "uri-template-lite",
+        "purl": "pkg:npm/uri-template-lite"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "20.5.0-tuxcare.0"
+            },
+            {
+              "fixed": "20.5.0-tuxcare.1"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "20.5.0"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "20.5.0",
+          "fixed_version": "20.5.0-tuxcare.1"
+        }
+      }
+    }
+  ]
+}

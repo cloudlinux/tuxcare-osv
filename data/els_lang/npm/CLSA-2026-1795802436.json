@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1795802436",
+  "modified": "2026-11-28T01:48:02Z",
+  "published": "2026-11-27T19:00:37Z",
+  "summary": "TuxCare security update for @conventional-changelog/git-client (1 CVE)",
+  "details": "TuxCare rebuilt @conventional-changelog/git-client to address 1 CVE. Fixed in 1.0.1-tuxcare.1.",
+  "upstream": [
+    "CVE-2025-59433"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "@conventional-changelog/git-client",
+        "purl": "pkg:npm/%40conventional-changelog/git-client"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "1.0.1-tuxcare.0"
+            },
+            {
+              "fixed": "1.0.1-tuxcare.1"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "1.0.1"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "1.0.1",
+          "fixed_version": "1.0.1-tuxcare.1"
+        }
+      }
+    }
+  ]
+}

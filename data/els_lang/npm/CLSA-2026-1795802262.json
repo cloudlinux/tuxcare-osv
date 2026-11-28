@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1795802262",
+  "modified": "2026-11-28T01:48:02Z",
+  "published": "2026-11-27T18:57:42Z",
+  "summary": "TuxCare security update for install-artifact-from-github (1 CVE)",
+  "details": "TuxCare rebuilt install-artifact-from-github to address 1 CVE. Fixed in 1.6.0-tuxcare.1.",
+  "upstream": [
+    "CVE-2026-73864"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "install-artifact-from-github",
+        "purl": "pkg:npm/install-artifact-from-github"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "1.6.0-tuxcare.0"
+            },
+            {
+              "fixed": "1.6.0-tuxcare.1"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "1.6.0"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "1.6.0",
+          "fixed_version": "1.6.0-tuxcare.1"
+        }
+      }
+    }
+  ]
+}

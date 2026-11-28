@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1795802135",
+  "modified": "2026-11-28T01:48:02Z",
+  "published": "2026-11-27T18:55:36Z",
+  "summary": "TuxCare security update for graphql (1 CVE)",
+  "details": "TuxCare rebuilt graphql to address 1 CVE. Fixed in 16.6.0-tuxcare.1.",
+  "upstream": [
+    "CVE-2023-26144"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "graphql",
+        "purl": "pkg:npm/graphql"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "16.6.0-tuxcare.0"
+            },
+            {
+              "fixed": "16.6.0-tuxcare.1"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "16.6.0"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "16.6.0",
+          "fixed_version": "16.6.0-tuxcare.1"
+        }
+      }
+    }
+  ]
+}

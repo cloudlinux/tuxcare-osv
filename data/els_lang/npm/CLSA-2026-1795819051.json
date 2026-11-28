@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.8.0",
+  "id": "CLSA-2026-1795819051",
+  "modified": "2026-11-28T01:48:02Z",
+  "published": "2026-11-27T23:37:31Z",
+  "summary": "TuxCare security update for nuxt (1 CVE)",
+  "details": "TuxCare rebuilt nuxt to address 1 CVE. Fixed in 4.4.7-tuxcare.1.",
+  "upstream": [
+    "CVE-2026-71316"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "TuxCare:npm",
+        "name": "nuxt",
+        "purl": "pkg:npm/nuxt"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "4.4.7-tuxcare.0"
+            },
+            {
+              "fixed": "4.4.7-tuxcare.1"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "4.4.7"
+      ],
+      "database_specific": {
+        "tuxcare": {
+          "base_version": "4.4.7",
+          "fixed_version": "4.4.7-tuxcare.1"
+        }
+      }
+    }
+  ]
+}
